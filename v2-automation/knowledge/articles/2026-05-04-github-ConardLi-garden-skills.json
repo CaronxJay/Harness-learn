@@ -1,0 +1,26 @@
+{
+  "id": "2026-05-04-001",
+  "title": "Garden Skills：面向 Agent 的开源技能模板合集",
+  "source": "github",
+  "source_url": "https://github.com/ConardLi/garden-skills",
+  "summary": "ConardLi 维护的开源 Skills 集合，涵盖网页设计、知识检索(RAG)、图像生成等多种 Agent 可调用技能模板，支持 Claude 等主流 Agent 直接集成。2249 Stars 反映社区对 Agent 技能标准化生态的强烈需求。",
+  "highlights": [
+    "2249 Stars 本周最热门 Agent 项目",
+    "RAG + 图像生成 + 网页设计全覆盖",
+    "MIT 协议，373 forks 社区活跃"
+  ],
+  "score": 7,
+  "score_reason": "社区认可度极高(2249 Stars)，解决了 Agent 技能碎片化的痛点，是目前规模最大的开源 Skills 合集，但主要是内容聚合而非底层创新，实用价值主要面向快速上手场景。",
+  "tags": ["agent", "rag", "open-source", "tool-use"],
+  "status": "published",
+  "fetched_at": "2026-05-04T10:30:00Z",
+  "analyzed_at": "2026-05-04T10:45:00Z",
+  "published_at": "2026-05-04T11:00:00Z",
+  "metadata": {
+    "stars": 2249,
+    "stars_today": null,
+    "language": "CSS",
+    "hackernews_points": null,
+    "hackernews_comments": null
+  }
+}

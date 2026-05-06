@@ -1,0 +1,31 @@
+{
+  "id": "2026-05-05-003",
+  "title": "DeepClaude：Claude Code 低成本多后端代理方案",
+  "source": "github",
+  "source_url": "https://github.com/aattaran/deepclaude",
+  "summary": "DeepClaude 是一个本地代理（localhost:3200），截获 Claude Code 的 /v1/messages 请求并路由至 DeepSeek V4 Pro、OpenRouter 或 Fireworks AI。成本从 $15/M tokens 降至 $0.87/M（降幅 94%），支持会话中途实时切换后端。",
+  "highlights": [
+    "本地代理截获 Claude Code API 请求并路由至 DeepSeek V4 Pro/OpenRouter/Fireworks AI",
+    "成本降幅 94%：DeepSeek $0.87/M vs Anthropic $15/M tokens",
+    "会话中途实时切换后端(/_proxy/mode)，环境变量按会话注入与退出时自动恢复"
+  ],
+  "score": 8,
+  "score_reason": "直接解决 Agent 编码工具成本痛点，实现方案简洁可立即用于生产，但依赖上游 API 接口稳定性。",
+  "tags": [
+    "agent",
+    "code-generation",
+    "llm",
+    "open-source"
+  ],
+  "status": "published",
+  "fetched_at": "2026-05-05T04:11:06Z",
+  "analyzed_at": "2026-05-05T04:17:54Z",
+  "published_at": "2026-05-05T04:17:54Z",
+  "metadata": {
+    "stars": 1076,
+    "stars_today": null,
+    "language": "JavaScript",
+    "hackernews_points": null,
+    "hackernews_comments": null
+  }
+}
