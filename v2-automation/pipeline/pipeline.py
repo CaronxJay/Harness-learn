@@ -18,7 +18,7 @@ from typing import Any
 
 import httpx
 
-from model_client import create_provider, chat_with_retry
+from model_client import create_provider, chat_with_retry, tracker
 
 # ---------------------------------------------------------------------------
 # 常量
@@ -98,6 +98,14 @@ def _parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         prog="pipeline",
         description="AI 知识库自动化流水线：采集 → 分析 → 整理 → 保存",
+    )
+    parser.add_argument(
+        "--step",
+        type=int,
+        action="append",
+        choices=[1, 2, 3, 4],
+        dest="steps",
+        help="运行指定步骤。1=采集, 2=分析, 3=整理, 4=保存。可多次指定，如 --step 1 --step 2",
     )
     parser.add_argument(
         "--sources",
@@ -660,8 +668,30 @@ def _do_save(
 # ---------------------------------------------------------------------------
 
 
+_INTERMEDIATE_FILE = PROJECT_ROOT / "knowledge" / ".pipeline_intermediate.json"
+
+
+def _save_intermediate(collected: dict[str, Any], analyzed: list[dict[str, Any]]) -> None:
+    """保存 Step 1-2 中间结果到文件，供后续步骤使用。"""
+    _INTERMEDIATE_FILE.parent.mkdir(parents=True, exist_ok=True)
+    with open(_INTERMEDIATE_FILE, "w", encoding="utf-8") as f:
+        json.dump({"collected": collected, "analyzed": analyzed}, f, ensure_ascii=False, indent=2)
+    logger.info("Intermediate data saved to %s", _INTERMEDIATE_FILE)
+
+
+def _load_intermediate() -> tuple[dict[str, Any], list[dict[str, Any]]]:
+    """从文件加载 Step 1-2 中间结果。"""
+    if not _INTERMEDIATE_FILE.exists():
+        raise FileNotFoundError(
+            f"中间数据文件不存在: {_INTERMEDIATE_FILE}，请先运行 --step 1 --step 2"
+        )
+    with open(_INTERMEDIATE_FILE, encoding="utf-8") as f:
+        data = json.load(f)
+    return data["collected"], data["analyzed"]
+
+
 async def run_pipeline(args: argparse.Namespace) -> dict[str, Any]:
-    """执行完整知识库流水线。
+    """执行知识库流水线。
 
     Args:
         args: 解析后的命令行参数。
@@ -669,6 +699,10 @@ async def run_pipeline(args: argparse.Namespace) -> dict[str, Any]:
     Returns:
         流水线执行统计信息。
     """
+    steps = args.steps
+    run_all = steps is None
+    run_step = set(steps or [])
+
     sources = [s.strip() for s in args.sources.split(",") if s.strip()]
     unknown = set(sources) - {"github", "rss"}
     if unknown:
@@ -677,69 +711,104 @@ async def run_pipeline(args: argparse.Namespace) -> dict[str, Any]:
     print("=" * 60)
     print("  AI 知识库自动化流水线")
     print("=" * 60)
+    if not run_all:
+        print(f"  Steps   : {sorted(run_step)}")
     print(f"  Sources : {', '.join(sources)}")
     print(f"  Limit   : {args.limit}")
     print(f"  Dry run : {args.dry_run}")
     print("=" * 60)
     print()
 
+    collected: dict[str, Any] = {}
+    analyzed: list[dict[str, Any]] = []
+    all_organized: list[dict[str, Any]] = []
+    saved: dict[str, int] = {}
+    total_collected = 0
+
     # --- Step 1: 采集 ---
-    print("[Step 1/4] 采集 (Collect)")
-    collected = await _do_collect(sources, args.limit)
-    total_collected = sum(len(v) for v in collected.values())
-    print(f"  Total collected: {total_collected} items\n")
+    if run_all or 1 in run_step:
+        print("[Step 1/4] 采集 (Collect)")
+        collected = await _do_collect(sources, args.limit)
+        total_collected = sum(len(v) for v in collected.values())
+        print(f"  Total collected: {total_collected} items\n")
 
     # --- Step 2: 分析 ---
-    print("[Step 2/4] 分析 (Analyze)")
-    if total_collected == 0:
-        print("  No items to analyze.\n")
-        return {"collected": 0, "analyzed": 0, "saved": 0}
+    if run_all or 2 in run_step:
+        print("[Step 2/4] 分析 (Analyze)")
+        if not collected and 1 not in run_step:
+            raise ValueError("Step 2 需要 Step 1 的采集结果，请同时指定 --step 1 --step 2")
+        if total_collected == 0 and not collected:
+            print("  No items to analyze.\n")
+            return {"collected": 0, "analyzed": 0, "organized": 0, "saved": 0}
 
-    analyzed = await _do_analyze(collected, args.dry_run)
-    failed = sum(1 for it in analyzed if "_error" in it.get("_analysis", {}))
-    print(f"  Analyzed: {len(analyzed) - failed}/{len(analyzed)} items"
-          + (f" ({failed} failed)" if failed else "") + "\n")
+        analyzed = await _do_analyze(collected, args.dry_run)
+        failed = sum(1 for it in analyzed if "_error" in it.get("_analysis", {}))
+        print(f"  Analyzed: {len(analyzed) - failed}/{len(analyzed)} items"
+              + (f" ({failed} failed)" if failed else "") + "\n")
+
+        if 1 in run_step and 2 in run_step and (3 not in run_step or 4 not in run_step):
+            _save_intermediate(collected, analyzed)
 
     # --- Step 3: 整理 ---
-    print("[Step 3/4] 整理 (Organize)")
-    all_organized: list[dict[str, Any]] = []
-    for source in sorted(collected.keys()):
-        source_items = [it for it in analyzed if it.get("_source") == source]
-        start_idx = _next_article_index(source)
-        organized = _do_organize(source_items, source, start_idx)
-        all_organized.extend(organized)
+    if run_all or 3 in run_step:
+        print("[Step 3/4] 整理 (Organize)")
+        if not analyzed and not collected:
+            collected, analyzed = _load_intermediate()
+            total_collected = sum(len(v) for v in collected.values())
 
-    if all_organized:
-        scores = [it["_article"]["relevance_score"] for it in all_organized]
-        print(f"  Organized: {len(all_organized)} articles")
-        print(f"  Relevance: avg={sum(scores)/len(scores):.2f}, "
-              f"min={min(scores):.2f}, max={max(scores):.2f}")
-    else:
-        print("  Organized: 0 articles")
-    print()
+        for source in sorted(collected.keys()):
+            source_items = [it for it in analyzed if it.get("_source") == source]
+            start_idx = _next_article_index(source)
+            organized = _do_organize(source_items, source, start_idx)
+            all_organized.extend(organized)
+
+        if all_organized:
+            scores = [it["_article"]["relevance_score"] for it in all_organized]
+            print(f"  Organized: {len(all_organized)} articles")
+            print(f"  Relevance: avg={sum(scores)/len(scores):.2f}, "
+                  f"min={min(scores):.2f}, max={max(scores):.2f}")
+        else:
+            print("  Organized: 0 articles")
+        print()
 
     # --- Step 4: 保存 ---
-    print("[Step 4/4] 保存 (Save)")
-    saved = _do_save(all_organized, collected, args.dry_run)
-    total_saved = sum(saved.values()) if not args.dry_run else 0
-    if args.dry_run:
-        print(f"  DRY RUN — would save {sum(saved.values())} articles")
-    else:
-        print(f"  Saved: {total_saved} articles → {ARTICLES_DIR}")
-    print()
+    if run_all or 4 in run_step:
+        print("[Step 4/4] 保存 (Save)")
+        if not analyzed and not collected:
+            collected, analyzed = _load_intermediate()
+            total_collected = sum(len(v) for v in collected.values())
+        if not all_organized and 3 not in run_step:
+            raise ValueError("Step 4 需要 Step 3 的整理结果，请同时指定 --step 3 --step 4")
+
+        saved = _do_save(all_organized, collected, args.dry_run)
+        total_saved = sum(saved.values()) if not args.dry_run else 0
+        if args.dry_run:
+            print(f"  DRY RUN — would save {sum(saved.values())} articles")
+        else:
+            print(f"  Saved: {total_saved} articles → {ARTICLES_DIR}")
+
+        if _INTERMEDIATE_FILE.exists():
+            _INTERMEDIATE_FILE.unlink()
+            logger.info("Cleaned up intermediate file")
+        print()
 
     # --- 汇总 ---
+    total_saved = sum(saved.values()) if not args.dry_run else 0
     print("=" * 60)
     print("  Pipeline completed!")
+    if not run_all:
+        print(f"  Steps executed: {sorted(run_step)}")
     status = "DRY RUN — no files written" if args.dry_run else f"{total_saved} articles saved"
     print(f"  {status}")
     print("=" * 60)
 
+    tracker.report(provider=os.getenv("LLM_PROVIDER", "deepseek"))
+
     return {
-        "collected": total_collected,
+        "collected": total_collected or sum(len(v) for v in collected.values()),
         "analyzed": len(analyzed),
         "organized": len(all_organized),
-        "saved": sum(saved.values()),
+        "saved": total_saved,
     }
 
 

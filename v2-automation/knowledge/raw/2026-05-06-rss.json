@@ -1,0 +1,56 @@
+{
+  "collected_at": "2026-05-06T14:21:00.592269+08:00",
+  "source": "rss",
+  "count": 1,
+  "items": [
+    {
+      "title": "2026 Roadmap on Artificial Intelligence and Machine Learning for Smart Manufacturing",
+      "url": "https://arxiv.org/abs/2605.00839",
+      "description": "arXiv:2605.00839v1 Announce Type: new \nAbstract: The evolution of artificial intelligence (AI) and machine learning (ML) is reshaping smart manufacturing by providing new capabilities for efficiency, adaptability, and autonomy across industrial value chains. However, the deployment of AI and ML in industrial settings still faces critical challenges, including the complexity of industrial big data, effective data management, integration with heterogeneous sensing and control systems, and the demand for trustworthy, explainable, and reliable operation in high-stakes industrial environments. In this roadmap, we present a comprehensive perspective on the foundations, applications, and emerging directions of AI and ML in smart manufacturing. It is structured in three parts. The first highlights the foundations and trends that frame the evolution of AI in smart manufacturing. The second focuses on key topics where AI is already enabling advances, including industrial big data analytics, advanced sensing and perception, autonomous systems, additive and laser-based manufacturing, digital twins, robotics, supply chain and logistics optimization, and sustainable manufacturing. The third section explores non-traditional ML approaches that are opening new frontiers, such as physics-informed AI, generative AI, semantic AI, advanced digital twins, explainable AI, RAMS, data-centric metrology, LLMs, and foundation models for highly connected and complex manufacturing systems. By identifying both opportunities and remaining barriers across these areas, this roadmap outlines the advances needed in methods, integration strategies, and industrial adoption. We hope this roadmap will serve as a guide for researchers, engineers, and practitioners to accelerate innovation, align academic and industrial priorities, and ensure that AI-driven smart manufacturing delivers reliable, sustainable, and scalable impact for the future of manufacturing ecosystems.",
+      "pub_date": "Wed, 06 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "2026年人工智能与机器学习智能制造路线图",
+        "summary": "本文提出了一份关于AI和ML在智能制造中应用的综合路线图，涵盖工业大数据、自主系统、数字孪生、机器人、供应链优化等关键领域，并探讨了物理信息AI、生成式AI、语义AI、可解释AI、大语言模型等新兴方向，旨在指导研究人员和工程师加速创新与工业应用。",
+        "summary_en": null,
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "infrastructure",
+          "multimodal"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-06-rss-001",
+        "title": "2026年人工智能与机器学习智能制造路线图",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.00839",
+        "language": "en",
+        "summary": "本文提出了一份关于AI和ML在智能制造中应用的综合路线图，涵盖工业大数据、自主系统、数字孪生、机器人、供应链优化等关键领域，并探讨了物理信息AI、生成式AI、语义AI、可解释AI、大语言模型等新兴方向，旨在指导研究人员和工程师加速创新与工业应用。",
+        "summary_en": null,
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "infrastructure",
+          "multimodal"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-05-06T14:21:00.589345+08:00",
+        "updated_at": "2026-05-06T14:21:00.589348+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

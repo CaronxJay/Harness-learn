@@ -1,0 +1,3 @@
+usage: pipeline [-h] [--sources SOURCES] [--limit LIMIT] [--dry-run]
+                [--verbose]
+pipeline: error: unrecognized arguments: --step 1 --step 2
