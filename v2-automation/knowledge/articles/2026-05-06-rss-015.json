@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-06-rss-015",
+  "title": "语言模型何时应信任自身？同模型自验证作为条件置信信号",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.02915",
+  "language": "en",
+  "summary": "研究评估了同模型自验证作为选择性预测的置信信号，与LL-AVG和LL-SUM基线对比。在ARC-Challenge和TruthfulQA-MC上测试多个模型，发现效果高度依赖任务和模型：ARC-Challenge上自验证对Phi-2和Qwen模型有提升，但TruthfulQA-MC上不可靠。结论是自验证应视为条件置信信号，而非通用不确定性估计器。",
+  "summary_en": "Evaluates same-model self-verification as a confidence signal for selective prediction against LL-AVG and LL-SUM baselines on ARC-Challenge and TruthfulQA-MC. Results are task- and model-dependent: improvements on ARC-Challenge for Phi-2 and Qwen, but unreliable on TruthfulQA-MC. Concludes self-verification is a conditional signal, not a general-purpose uncertainty estimator.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-05-06T23:55:27.058550+08:00",
+  "updated_at": "2026-05-06T23:55:27.058551+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

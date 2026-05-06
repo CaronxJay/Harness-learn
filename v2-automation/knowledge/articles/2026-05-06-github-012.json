@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-06-github-012",
+  "title": "AI指南与报告汇总",
+  "source": "github_trending",
+  "source_url": "https://github.com/Marktechpost/AI-Guides-Reports",
+  "language": "en",
+  "summary": "该项目收集了与人工智能、机器学习、智能体AI、AI代理、深度学习、大语言模型等相关的报告和指南列表。",
+  "summary_en": "A curated list of reports and guides related to AI, Machine Learning, Agentic AI, AI Agents, Deep Learning, LLMs, etc.",
+  "tags": [
+    "llm",
+    "research",
+    "application",
+    "open-source"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-05-06T23:55:27.058212+08:00",
+  "updated_at": "2026-05-06T23:55:27.058213+08:00",
+  "metadata": {
+    "stars": 14,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-06-rss-019",
+  "title": "面向投资者微博的语义增强观点感知情感分析",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.03092",
+  "language": "en",
+  "summary": "针对金融情感分析中缺乏情感目标细粒度理解的问题，提出通过声明式LLM流水线为StockEmotions数据集添加语义结构化观点图，增强情感和情绪标签的语义深度。实验表明，引入观点语义可提升图神经网络分类器在不同情绪谱系上的性能。",
+  "summary_en": "Addressing the lack of fine-grained understanding of sentiment targets in financial NLP, this work augments the StockEmotions dataset with semantically structured opinion graphs via a declarative LLM pipeline, improving GNN-based emotion classification performance.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-05-06T23:55:27.058571+08:00",
+  "updated_at": "2026-05-06T23:55:27.058572+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

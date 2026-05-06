@@ -1,13 +1,7 @@
 {
-<<<<<<< HEAD
-  "collected_at": "2026-05-06T14:21:00.592269+08:00",
-  "source": "rss",
-  "count": 1,
-=======
-  "collected_at": "2026-05-06T13:35:18.215735+08:00",
+  "collected_at": "2026-05-06T23:55:27.084540+08:00",
   "source": "rss",
   "count": 10,
->>>>>>> 7d905ecefbc5c90b83a26e42583d7567df857753
   "items": [
     {
       "title": "2026 Roadmap on Artificial Intelligence and Machine Learning for Smart Manufacturing",
@@ -18,69 +12,37 @@
       "_source": "rss",
       "_analysis": {
         "title": "2026年人工智能与机器学习智能制造路线图",
-<<<<<<< HEAD
-        "summary": "本文提出了一份关于AI和ML在智能制造中应用的综合路线图，涵盖工业大数据、自主系统、数字孪生、机器人、供应链优化等关键领域，并探讨了物理信息AI、生成式AI、语义AI、可解释AI、大语言模型等新兴方向，旨在指导研究人员和工程师加速创新与工业应用。",
-        "summary_en": null,
-        "tags": [
-          "llm",
-          "research",
-          "application",
-          "infrastructure",
-          "multimodal"
-=======
-        "summary": "该路线图全面概述了AI/ML在智能制造中的基础、应用和新兴方向，涵盖工业大数据、自主系统、数字孪生、机器人、LLM和基础模型等关键领域，并指出了方法、集成策略和工业采纳方面所需的进展。",
-        "summary_en": null,
+        "summary": "本文全面概述了AI/ML在智能制造中的基础、应用和新兴方向，涵盖工业大数据分析、自主系统、数字孪生、机器人、供应链优化等关键领域，并探讨了物理信息AI、生成式AI、语义AI、可解释AI、大语言模型等前沿技术，指出了方法、集成策略和工业应用方面的进展需求。",
+        "summary_en": "This roadmap provides a comprehensive overview of AI/ML foundations, applications, and emerging directions in smart manufacturing, covering industrial big data analytics, autonomous systems, digital twins, robotics, supply chain optimization, and explores frontiers like physics-informed AI, generative AI, semantic AI, explainable AI, and LLMs, outlining needed advances in methods, integration, and industrial adoption.",
         "tags": [
           "research",
           "application",
           "llm",
-          "multimodal",
           "infrastructure"
->>>>>>> 7d905ecefbc5c90b83a26e42583d7567df857753
         ],
         "category": "research",
         "relevance_score": 0.9,
         "language": "en"
       },
       "_article": {
-<<<<<<< HEAD
-        "id": "2026-05-06-rss-001",
-=======
-        "id": "2026-05-06-rss-006",
->>>>>>> 7d905ecefbc5c90b83a26e42583d7567df857753
+        "id": "2026-05-06-rss-016",
         "title": "2026年人工智能与机器学习智能制造路线图",
         "source": "rss_trending",
         "source_url": "https://arxiv.org/abs/2605.00839",
         "language": "en",
-<<<<<<< HEAD
-        "summary": "本文提出了一份关于AI和ML在智能制造中应用的综合路线图，涵盖工业大数据、自主系统、数字孪生、机器人、供应链优化等关键领域，并探讨了物理信息AI、生成式AI、语义AI、可解释AI、大语言模型等新兴方向，旨在指导研究人员和工程师加速创新与工业应用。",
-        "summary_en": null,
-        "tags": [
-          "llm",
-          "research",
-          "application",
-          "infrastructure",
-          "multimodal"
-=======
-        "summary": "该路线图全面概述了AI/ML在智能制造中的基础、应用和新兴方向，涵盖工业大数据、自主系统、数字孪生、机器人、LLM和基础模型等关键领域，并指出了方法、集成策略和工业采纳方面所需的进展。",
-        "summary_en": null,
+        "summary": "本文全面概述了AI/ML在智能制造中的基础、应用和新兴方向，涵盖工业大数据分析、自主系统、数字孪生、机器人、供应链优化等关键领域，并探讨了物理信息AI、生成式AI、语义AI、可解释AI、大语言模型等前沿技术，指出了方法、集成策略和工业应用方面的进展需求。",
+        "summary_en": "This roadmap provides a comprehensive overview of AI/ML foundations, applications, and emerging directions in smart manufacturing, covering industrial big data analytics, autonomous systems, digital twins, robotics, supply chain optimization, and explores frontiers like physics-informed AI, generative AI, semantic AI, explainable AI, and LLMs, outlining needed advances in methods, integration, and industrial adoption.",
         "tags": [
           "research",
           "application",
           "llm",
-          "multimodal",
           "infrastructure"
->>>>>>> 7d905ecefbc5c90b83a26e42583d7567df857753
         ],
         "category": "research",
         "relevance_score": 0.9,
         "status": "published",
-<<<<<<< HEAD
-        "created_at": "2026-05-06T14:21:00.589345+08:00",
-        "updated_at": "2026-05-06T14:21:00.589348+08:00",
-=======
-        "created_at": "2026-05-06T13:35:18.214946+08:00",
-        "updated_at": "2026-05-06T13:35:18.214947+08:00",
+        "created_at": "2026-05-06T23:55:27.058560+08:00",
+        "updated_at": "2026-05-06T23:55:27.058561+08:00",
         "metadata": {
           "stars": null,
           "hn_points": null,
@@ -96,9 +58,9 @@
       "source_feed": "arxiv_cs_ai",
       "_source": "rss",
       "_analysis": {
-        "title": "面向可持续中小企业的AI代理：绿色ESG评估框架",
-        "summary": "提出一种基于AI的框架，用于评估欧洲中小企业的ESG表现。系统利用n8n自动化平台构建可扩展的AI代理，基于专家验证的基线进行自动ESG分类并生成建议，结果与人工输出高度一致，支持欧洲绿色新政。",
-        "summary_en": "An AI-driven framework for ESG assessment in European SMEs. A scalable agent system built on n8n automates classification and generates recommendations using LLMs, achieving high consistency with human outputs to support the European Green Deal.",
+        "title": "面向中小企业的AI驱动绿色ESG评估框架",
+        "summary": "提出一种基于AI的框架，用于评估欧洲中小企业的环境、社会和治理（ESG）表现。该系统利用n8n自动化平台构建AI代理，基于专家验证的基线分数进行自动ESG分类，并利用大语言模型生成上下文建议。结果显示AI系统与人工输出高度一致，支持更有效的监控和干预策略。",
+        "summary_en": "This study presents an AI-driven framework for assessing ESG performance in European SMEs. An AI agent system built on n8n uses expert-validated baselines for automated ESG classification and LLM-generated recommendations, showing high consistency with human outputs to support the European Green Deal.",
         "tags": [
           "agent-framework",
           "llm",
@@ -109,13 +71,13 @@
         "language": "en"
       },
       "_article": {
-        "id": "2026-05-06-rss-007",
-        "title": "面向可持续中小企业的AI代理：绿色ESG评估框架",
+        "id": "2026-05-06-rss-017",
+        "title": "面向中小企业的AI驱动绿色ESG评估框架",
         "source": "rss_trending",
         "source_url": "https://arxiv.org/abs/2605.00841",
         "language": "en",
-        "summary": "提出一种基于AI的框架，用于评估欧洲中小企业的ESG表现。系统利用n8n自动化平台构建可扩展的AI代理，基于专家验证的基线进行自动ESG分类并生成建议，结果与人工输出高度一致，支持欧洲绿色新政。",
-        "summary_en": "An AI-driven framework for ESG assessment in European SMEs. A scalable agent system built on n8n automates classification and generates recommendations using LLMs, achieving high consistency with human outputs to support the European Green Deal.",
+        "summary": "提出一种基于AI的框架，用于评估欧洲中小企业的环境、社会和治理（ESG）表现。该系统利用n8n自动化平台构建AI代理，基于专家验证的基线分数进行自动ESG分类，并利用大语言模型生成上下文建议。结果显示AI系统与人工输出高度一致，支持更有效的监控和干预策略。",
+        "summary_en": "This study presents an AI-driven framework for assessing ESG performance in European SMEs. An AI agent system built on n8n uses expert-validated baselines for automated ESG classification and LLM-generated recommendations, showing high consistency with human outputs to support the European Green Deal.",
         "tags": [
           "agent-framework",
           "llm",
@@ -124,8 +86,8 @@
         "category": "application",
         "relevance_score": 0.9,
         "status": "published",
-        "created_at": "2026-05-06T13:35:18.214959+08:00",
-        "updated_at": "2026-05-06T13:35:18.214961+08:00",
+        "created_at": "2026-05-06T23:55:27.058564+08:00",
+        "updated_at": "2026-05-06T23:55:27.058565+08:00",
         "metadata": {
           "stars": null,
           "hn_points": null,
@@ -142,37 +104,37 @@
       "_source": "rss",
       "_analysis": {
         "title": "通过特征叠加几何理解涌现性失调",
-        "summary": "本文提出基于特征叠加几何的解释，说明对LLM进行非有害任务微调为何会意外引发有害行为。通过梯度推导和实验验证，发现目标特征与附近有害特征因几何接近而被无意放大。基于几何感知的过滤方法可减少34.5%的失调，优于随机过滤。",
-        "summary_en": "This paper proposes a geometric account based on feature superposition to explain why fine-tuning on non-harmful tasks induces harmful behaviors in LLMs. It shows that target features unintentionally amplify nearby harmful features due to geometric proximity. A geometry-aware filtering method reduces misalignment by 34.5%.",
+        "summary": "本文提出基于特征叠加几何的涌现性失调机制解释：微调放大目标特征时，会无意中增强邻近的有害特征。通过稀疏自编码器在多个LLM中验证，并展示几何感知过滤方法可降低34.5%失调。",
+        "summary_en": "This paper proposes a geometric account for emergent misalignment based on feature superposition: fine-tuning that amplifies a target feature also unintentionally strengthens nearby harmful features. Validated in multiple LLMs, a geometry-aware filtering reduces misalignment by 34.5%.",
         "tags": [
           "llm",
           "research",
-          "fine-tuning",
-          "safety"
+          "security",
+          "fine-tuning"
         ],
         "category": "research",
         "relevance_score": 1.0,
         "language": "en"
       },
       "_article": {
-        "id": "2026-05-06-rss-001",
+        "id": "2026-05-06-rss-011",
         "title": "通过特征叠加几何理解涌现性失调",
         "source": "rss_trending",
         "source_url": "https://arxiv.org/abs/2605.00842",
         "language": "en",
-        "summary": "本文提出基于特征叠加几何的解释，说明对LLM进行非有害任务微调为何会意外引发有害行为。通过梯度推导和实验验证，发现目标特征与附近有害特征因几何接近而被无意放大。基于几何感知的过滤方法可减少34.5%的失调，优于随机过滤。",
-        "summary_en": "This paper proposes a geometric account based on feature superposition to explain why fine-tuning on non-harmful tasks induces harmful behaviors in LLMs. It shows that target features unintentionally amplify nearby harmful features due to geometric proximity. A geometry-aware filtering method reduces misalignment by 34.5%.",
+        "summary": "本文提出基于特征叠加几何的涌现性失调机制解释：微调放大目标特征时，会无意中增强邻近的有害特征。通过稀疏自编码器在多个LLM中验证，并展示几何感知过滤方法可降低34.5%失调。",
+        "summary_en": "This paper proposes a geometric account for emergent misalignment based on feature superposition: fine-tuning that amplifies a target feature also unintentionally strengthens nearby harmful features. Validated in multiple LLMs, a geometry-aware filtering reduces misalignment by 34.5%.",
         "tags": [
           "llm",
           "research",
-          "fine-tuning",
-          "safety"
+          "security",
+          "fine-tuning"
         ],
         "category": "research",
         "relevance_score": 1.0,
         "status": "published",
-        "created_at": "2026-05-06T13:35:18.214922+08:00",
-        "updated_at": "2026-05-06T13:35:18.214925+08:00",
+        "created_at": "2026-05-06T23:55:27.058528+08:00",
+        "updated_at": "2026-05-06T23:55:27.058531+08:00",
         "metadata": {
           "stars": null,
           "hn_points": null,
@@ -189,11 +151,11 @@
       "_source": "rss",
       "_analysis": {
         "title": "ClinicBot：基于指南的临床聊天机器人，具备优先证据检索与可验证引用",
-        "summary": "ClinicBot 是一个 AI 系统，通过结构化提取临床指南、按临床重要性排序证据以及提供可验证引用的界面，将指南建议转化为可信的临床支持，解决大模型在医疗场景中的幻觉问题。",
+        "summary": "ClinicBot是一个AI系统，通过结构化提取临床指南、按临床重要性排序证据以及提供可验证引用的界面，将指南建议转化为可信的临床支持，解决大模型在医疗场景中的幻觉问题。",
         "summary_en": "ClinicBot is an AI system that translates clinical guidelines into trustworthy support via structured extraction, evidence prioritization by clinical significance, and a verifiable citation interface, addressing LLM hallucination in high-stakes medical contexts.",
         "tags": [
-          "rag",
           "llm",
+          "rag",
           "application",
           "research"
         ],
@@ -202,24 +164,24 @@
         "language": "en"
       },
       "_article": {
-        "id": "2026-05-06-rss-003",
+        "id": "2026-05-06-rss-014",
         "title": "ClinicBot：基于指南的临床聊天机器人，具备优先证据检索与可验证引用",
         "source": "rss_trending",
         "source_url": "https://arxiv.org/abs/2605.00846",
         "language": "en",
-        "summary": "ClinicBot 是一个 AI 系统，通过结构化提取临床指南、按临床重要性排序证据以及提供可验证引用的界面，将指南建议转化为可信的临床支持，解决大模型在医疗场景中的幻觉问题。",
+        "summary": "ClinicBot是一个AI系统，通过结构化提取临床指南、按临床重要性排序证据以及提供可验证引用的界面，将指南建议转化为可信的临床支持，解决大模型在医疗场景中的幻觉问题。",
         "summary_en": "ClinicBot is an AI system that translates clinical guidelines into trustworthy support via structured extraction, evidence prioritization by clinical significance, and a verifiable citation interface, addressing LLM hallucination in high-stakes medical contexts.",
         "tags": [
-          "rag",
           "llm",
+          "rag",
           "application",
           "research"
         ],
         "category": "application",
         "relevance_score": 0.95,
         "status": "published",
-        "created_at": "2026-05-06T13:35:18.214933+08:00",
-        "updated_at": "2026-05-06T13:35:18.214935+08:00",
+        "created_at": "2026-05-06T23:55:27.058545+08:00",
+        "updated_at": "2026-05-06T23:55:27.058547+08:00",
         "metadata": {
           "stars": null,
           "hn_points": null,
@@ -236,37 +198,37 @@
       "_source": "rss",
       "_analysis": {
         "title": "AI接口加速电池研究：FINALES与Kadi4Mat协同优化",
-        "summary": "本研究提出一个框架，通过FINALES与Kadi4Mat生态系统的互操作性，利用多目标贝叶斯优化算法，在钠离子电池形成过程中平衡形成时间与寿命性能，加速电池研究并减少实验资源消耗。",
-        "summary_en": "This study presents a framework enabling interoperability between FINALES and Kadi4Mat ecosystems, using multi-objective Bayesian optimization to balance formation time and EOL performance in sodium-ion coin cells, accelerating battery research with fewer experiments.",
+        "summary": "本研究提出一个框架，通过FINALES与Kadi4Mat生态系统互操作，利用多目标贝叶斯优化算法，高效探索钠离子电池化成时间与寿命性能的权衡，加速电池研究并减少实验资源消耗。",
+        "summary_en": null,
         "tags": [
           "research",
           "application",
-          "infrastructure",
-          "optimization"
+          "optimization",
+          "infrastructure"
         ],
         "category": "research",
-        "relevance_score": 0.7,
+        "relevance_score": 0.8,
         "language": "en"
       },
       "_article": {
-        "id": "2026-05-06-rss-010",
+        "id": "2026-05-06-rss-020",
         "title": "AI接口加速电池研究：FINALES与Kadi4Mat协同优化",
         "source": "rss_trending",
         "source_url": "https://arxiv.org/abs/2605.00909",
         "language": "en",
-        "summary": "本研究提出一个框架，通过FINALES与Kadi4Mat生态系统的互操作性，利用多目标贝叶斯优化算法，在钠离子电池形成过程中平衡形成时间与寿命性能，加速电池研究并减少实验资源消耗。",
-        "summary_en": "This study presents a framework enabling interoperability between FINALES and Kadi4Mat ecosystems, using multi-objective Bayesian optimization to balance formation time and EOL performance in sodium-ion coin cells, accelerating battery research with fewer experiments.",
+        "summary": "本研究提出一个框架，通过FINALES与Kadi4Mat生态系统互操作，利用多目标贝叶斯优化算法，高效探索钠离子电池化成时间与寿命性能的权衡，加速电池研究并减少实验资源消耗。",
+        "summary_en": null,
         "tags": [
           "research",
           "application",
-          "infrastructure",
-          "optimization"
+          "optimization",
+          "infrastructure"
         ],
         "category": "research",
-        "relevance_score": 0.7,
+        "relevance_score": 0.8,
         "status": "published",
-        "created_at": "2026-05-06T13:35:18.214971+08:00",
-        "updated_at": "2026-05-06T13:35:18.214973+08:00",
+        "created_at": "2026-05-06T23:55:27.058575+08:00",
+        "updated_at": "2026-05-06T23:55:27.058576+08:00",
         "metadata": {
           "stars": null,
           "hn_points": null,
@@ -282,9 +244,9 @@
       "source_feed": "arxiv_cs_cl",
       "_source": "rss",
       "_analysis": {
-        "title": "语言模型何时信任自己？同模型自验证作为条件置信信号",
-        "summary": "研究评估了同模型自验证作为选择性预测的置信信号，与LL-AVG和LL-SUM基线比较。结果高度依赖任务和模型：在ARC-Challenge上自验证对Phi-2和Qwen模型有显著提升，但在TruthfulQA-MC上不可靠。自验证应视为条件置信信号，而非通用不确定性估计器。",
-        "summary_en": "Evaluates same-model self-verification as a confidence signal for selective prediction against LL-AVG and LL-SUM baselines. Results are task- and model-dependent: improves on ARC-Challenge for Phi-2 and Qwen, but unreliable on TruthfulQA-MC. Self-verification is a conditional signal, not a general-purpose uncertainty estimator.",
+        "title": "语言模型何时应信任自身？同模型自验证作为条件置信信号",
+        "summary": "研究评估了同模型自验证作为选择性预测的置信信号，与LL-AVG和LL-SUM基线对比。在ARC-Challenge和TruthfulQA-MC上测试多个模型，发现效果高度依赖任务和模型：ARC-Challenge上自验证对Phi-2和Qwen模型有提升，但TruthfulQA-MC上不可靠。结论是自验证应视为条件置信信号，而非通用不确定性估计器。",
+        "summary_en": "Evaluates same-model self-verification as a confidence signal for selective prediction against LL-AVG and LL-SUM baselines on ARC-Challenge and TruthfulQA-MC. Results are task- and model-dependent: improvements on ARC-Challenge for Phi-2 and Qwen, but unreliable on TruthfulQA-MC. Concludes self-verification is a conditional signal, not a general-purpose uncertainty estimator.",
         "tags": [
           "llm",
           "research",
@@ -296,13 +258,13 @@
         "language": "en"
       },
       "_article": {
-        "id": "2026-05-06-rss-004",
-        "title": "语言模型何时信任自己？同模型自验证作为条件置信信号",
+        "id": "2026-05-06-rss-015",
+        "title": "语言模型何时应信任自身？同模型自验证作为条件置信信号",
         "source": "rss_trending",
         "source_url": "https://arxiv.org/abs/2605.02915",
         "language": "en",
-        "summary": "研究评估了同模型自验证作为选择性预测的置信信号，与LL-AVG和LL-SUM基线比较。结果高度依赖任务和模型：在ARC-Challenge上自验证对Phi-2和Qwen模型有显著提升，但在TruthfulQA-MC上不可靠。自验证应视为条件置信信号，而非通用不确定性估计器。",
-        "summary_en": "Evaluates same-model self-verification as a confidence signal for selective prediction against LL-AVG and LL-SUM baselines. Results are task- and model-dependent: improves on ARC-Challenge for Phi-2 and Qwen, but unreliable on TruthfulQA-MC. Self-verification is a conditional signal, not a general-purpose uncertainty estimator.",
+        "summary": "研究评估了同模型自验证作为选择性预测的置信信号，与LL-AVG和LL-SUM基线对比。在ARC-Challenge和TruthfulQA-MC上测试多个模型，发现效果高度依赖任务和模型：ARC-Challenge上自验证对Phi-2和Qwen模型有提升，但TruthfulQA-MC上不可靠。结论是自验证应视为条件置信信号，而非通用不确定性估计器。",
+        "summary_en": "Evaluates same-model self-verification as a confidence signal for selective prediction against LL-AVG and LL-SUM baselines on ARC-Challenge and TruthfulQA-MC. Results are task- and model-dependent: improvements on ARC-Challenge for Phi-2 and Qwen, but unreliable on TruthfulQA-MC. Concludes self-verification is a conditional signal, not a general-purpose uncertainty estimator.",
         "tags": [
           "llm",
           "research",
@@ -312,8 +274,8 @@
         "category": "research",
         "relevance_score": 0.95,
         "status": "published",
-        "created_at": "2026-05-06T13:35:18.214938+08:00",
-        "updated_at": "2026-05-06T13:35:18.214939+08:00",
+        "created_at": "2026-05-06T23:55:27.058550+08:00",
+        "updated_at": "2026-05-06T23:55:27.058551+08:00",
         "metadata": {
           "stars": null,
           "hn_points": null,
@@ -329,9 +291,9 @@
       "source_feed": "arxiv_cs_cl",
       "_source": "rss",
       "_analysis": {
-        "title": "评估推理模型处理预设查询的能力",
-        "summary": "该研究构建了包含不同程度预设（健康、科学、常识）的查询，评估推理模型与非推理模型。发现推理模型准确率略高（2-11%），但仍无法挑战26-42%的错误预设，且易受预设表达强度影响。",
-        "summary_en": "This study constructs queries with varying presuppositions across health, science, and general knowledge to evaluate reasoning vs. non-reasoning models. Reasoning models show slightly higher accuracy (2-11%) but still fail to challenge 26-42% of false presuppositions and remain susceptible to presupposition strength.",
+        "title": "评估推理模型对预设前提查询的处理能力",
+        "summary": "该研究构建了包含不同程度预设前提（涉及健康、科学和常识）的查询，评估大型推理模型（LRM）是否能够推理并恰当回应用户查询中的错误假设。与普通模型相比，推理模型准确率略高（2-11%），但仍无法挑战26-42%的虚假预设，且易受预设表达强度影响。",
+        "summary_en": "This study constructs queries with varying degrees of presuppositions across health, science, and general knowledge to evaluate whether large reasoning models (LRMs) can reason about underlying assumptions and respond appropriately. Compared to non-reasoning models, reasoning models achieve slightly higher accuracy (2-11%) but still fail to challenge 26-42% of false presuppositions and remain susceptible to presupposition strength.",
         "tags": [
           "llm",
           "research",
@@ -339,17 +301,17 @@
           "benchmark"
         ],
         "category": "research",
-        "relevance_score": 0.95,
+        "relevance_score": 1.0,
         "language": "en"
       },
       "_article": {
-        "id": "2026-05-06-rss-005",
-        "title": "评估推理模型处理预设查询的能力",
+        "id": "2026-05-06-rss-012",
+        "title": "评估推理模型对预设前提查询的处理能力",
         "source": "rss_trending",
         "source_url": "https://arxiv.org/abs/2605.03050",
         "language": "en",
-        "summary": "该研究构建了包含不同程度预设（健康、科学、常识）的查询，评估推理模型与非推理模型。发现推理模型准确率略高（2-11%），但仍无法挑战26-42%的错误预设，且易受预设表达强度影响。",
-        "summary_en": "This study constructs queries with varying presuppositions across health, science, and general knowledge to evaluate reasoning vs. non-reasoning models. Reasoning models show slightly higher accuracy (2-11%) but still fail to challenge 26-42% of false presuppositions and remain susceptible to presupposition strength.",
+        "summary": "该研究构建了包含不同程度预设前提（涉及健康、科学和常识）的查询，评估大型推理模型（LRM）是否能够推理并恰当回应用户查询中的错误假设。与普通模型相比，推理模型准确率略高（2-11%），但仍无法挑战26-42%的虚假预设，且易受预设表达强度影响。",
+        "summary_en": "This study constructs queries with varying degrees of presuppositions across health, science, and general knowledge to evaluate whether large reasoning models (LRMs) can reason about underlying assumptions and respond appropriately. Compared to non-reasoning models, reasoning models achieve slightly higher accuracy (2-11%) but still fail to challenge 26-42% of false presuppositions and remain susceptible to presupposition strength.",
         "tags": [
           "llm",
           "research",
@@ -357,10 +319,10 @@
           "benchmark"
         ],
         "category": "research",
-        "relevance_score": 0.95,
+        "relevance_score": 1.0,
         "status": "published",
-        "created_at": "2026-05-06T13:35:18.214942+08:00",
-        "updated_at": "2026-05-06T13:35:18.214943+08:00",
+        "created_at": "2026-05-06T23:55:27.058536+08:00",
+        "updated_at": "2026-05-06T23:55:27.058537+08:00",
         "metadata": {
           "stars": null,
           "hn_points": null,
@@ -377,11 +339,12 @@
       "_source": "rss",
       "_analysis": {
         "title": "语言模型如何处理否定",
-        "summary": "研究LLM处理否定的机制：模型内部存在正确处理否定的组件，但后期注意力层会促进简单捷径导致错误答案。通过消融这些注意力模块可显著提高准确性。模型同时使用两种机制：抑制被否定概念和构建否定短语的表示，其中构建机制更为突出。",
-        "summary_en": "We study how LLMs process negation mechanistically. Models possess internal components that process negation correctly, but late-layer attention promotes shortcuts causing errors. Ablating those attention modules improves accuracy. Models implement both suppressive and constructive mechanisms, with the latter being more prominent.",
+        "summary": "研究LLM处理否定的机制：模型内部存在正确处理否定的组件，但后期注意力层倾向于简单捷径导致错误。通过消融这些注意力模块可大幅提升否定问题的准确率。模型采用两种机制：抑制相关概念和构建否定短语的表示，其中构建机制更突出。",
+        "summary_en": "We study how LLMs process negation mechanistically. Models have internal components that correctly handle negation, but late-layer attention promotes shortcuts causing errors. Ablating those modules improves accuracy. Two mechanisms are used: suppressing related concepts and constructing negative phrase representations, with the latter being more prominent.",
         "tags": [
           "llm",
           "research",
+          "fine-tuning",
           "interpretability"
         ],
         "category": "research",
@@ -389,23 +352,24 @@
         "language": "en"
       },
       "_article": {
-        "id": "2026-05-06-rss-002",
+        "id": "2026-05-06-rss-013",
         "title": "语言模型如何处理否定",
         "source": "rss_trending",
         "source_url": "https://arxiv.org/abs/2605.03052",
         "language": "en",
-        "summary": "研究LLM处理否定的机制：模型内部存在正确处理否定的组件，但后期注意力层会促进简单捷径导致错误答案。通过消融这些注意力模块可显著提高准确性。模型同时使用两种机制：抑制被否定概念和构建否定短语的表示，其中构建机制更为突出。",
-        "summary_en": "We study how LLMs process negation mechanistically. Models possess internal components that process negation correctly, but late-layer attention promotes shortcuts causing errors. Ablating those attention modules improves accuracy. Models implement both suppressive and constructive mechanisms, with the latter being more prominent.",
+        "summary": "研究LLM处理否定的机制：模型内部存在正确处理否定的组件，但后期注意力层倾向于简单捷径导致错误。通过消融这些注意力模块可大幅提升否定问题的准确率。模型采用两种机制：抑制相关概念和构建否定短语的表示，其中构建机制更突出。",
+        "summary_en": "We study how LLMs process negation mechanistically. Models have internal components that correctly handle negation, but late-layer attention promotes shortcuts causing errors. Ablating those modules improves accuracy. Two mechanisms are used: suppressing related concepts and constructing negative phrase representations, with the latter being more prominent.",
         "tags": [
           "llm",
           "research",
+          "fine-tuning",
           "interpretability"
         ],
         "category": "research",
         "relevance_score": 1.0,
         "status": "published",
-        "created_at": "2026-05-06T13:35:18.214929+08:00",
-        "updated_at": "2026-05-06T13:35:18.214930+08:00",
+        "created_at": "2026-05-06T23:55:27.058541+08:00",
+        "updated_at": "2026-05-06T23:55:27.058542+08:00",
         "metadata": {
           "stars": null,
           "hn_points": null,
@@ -422,10 +386,11 @@
       "_source": "rss",
       "_analysis": {
         "title": "TTS-STT飞轮：合成密集实体音频弥合印地语ASR差距",
-        "summary": "提出TTS<->STT飞轮方法，通过开源印地语TTS管道合成约22,000条密集实体语音数据（成本<50美元），结合LoRA微调，在泰卢固语实体命中率上达到0.473（开源SOTA的17倍，商业系统的3倍），并开源所有代码和数据。",
-        "summary_en": "Proposes a TTS<->STT flywheel that synthesizes ~22,000 entity-dense utterances (<$50 cost) and uses LoRA fine-tuning to achieve Entity-Hit-Rate 0.473 on Telugu (17x over open SOTA, 3x over commercial), with all code and data open-sourced.",
+        "summary": "针对小众领域印地语ASR（数字串、货币金额、地址、品牌名、英印混合语）性能差的问题，提出自包含TTS<->STT飞轮：开源印地语TTS管道合成约22,000条密集实体混合语料（边际成本<50美元），LoRA微调后实体命中率提升17倍（vs开源SOTA）和3倍（vs商业系统），但所有beta模型未达到预注册目标。",
+        "summary_en": "For niche-domain Indic ASR (digit strings, currency, addresses, brand names, English/Indic code-mix), proposes a self-contained TTS<->STT flywheel: open-source Indic TTS pipeline synthesizes ~22,000 entity-dense code-mix utterances (<$50 marginal cost), LoRA fine-tune achieves 17x EHR over open SOTA and 3x over commercial, though all beta models miss pre-registered targets.",
         "tags": [
           "research",
+          "llm",
           "fine-tuning",
           "multimodal",
           "open-source"
@@ -435,15 +400,16 @@
         "language": "en"
       },
       "_article": {
-        "id": "2026-05-06-rss-008",
+        "id": "2026-05-06-rss-018",
         "title": "TTS-STT飞轮：合成密集实体音频弥合印地语ASR差距",
         "source": "rss_trending",
         "source_url": "https://arxiv.org/abs/2605.03073",
         "language": "en",
-        "summary": "提出TTS<->STT飞轮方法，通过开源印地语TTS管道合成约22,000条密集实体语音数据（成本<50美元），结合LoRA微调，在泰卢固语实体命中率上达到0.473（开源SOTA的17倍，商业系统的3倍），并开源所有代码和数据。",
-        "summary_en": "Proposes a TTS<->STT flywheel that synthesizes ~22,000 entity-dense utterances (<$50 cost) and uses LoRA fine-tuning to achieve Entity-Hit-Rate 0.473 on Telugu (17x over open SOTA, 3x over commercial), with all code and data open-sourced.",
+        "summary": "针对小众领域印地语ASR（数字串、货币金额、地址、品牌名、英印混合语）性能差的问题，提出自包含TTS<->STT飞轮：开源印地语TTS管道合成约22,000条密集实体混合语料（边际成本<50美元），LoRA微调后实体命中率提升17倍（vs开源SOTA）和3倍（vs商业系统），但所有beta模型未达到预注册目标。",
+        "summary_en": "For niche-domain Indic ASR (digit strings, currency, addresses, brand names, English/Indic code-mix), proposes a self-contained TTS<->STT flywheel: open-source Indic TTS pipeline synthesizes ~22,000 entity-dense code-mix utterances (<$50 marginal cost), LoRA fine-tune achieves 17x EHR over open SOTA and 3x over commercial, though all beta models miss pre-registered targets.",
         "tags": [
           "research",
+          "llm",
           "fine-tuning",
           "multimodal",
           "open-source"
@@ -451,8 +417,8 @@
         "category": "research",
         "relevance_score": 0.9,
         "status": "published",
-        "created_at": "2026-05-06T13:35:18.214963+08:00",
-        "updated_at": "2026-05-06T13:35:18.214965+08:00",
+        "created_at": "2026-05-06T23:55:27.058567+08:00",
+        "updated_at": "2026-05-06T23:55:27.058569+08:00",
         "metadata": {
           "stars": null,
           "hn_points": null,
@@ -468,41 +434,38 @@
       "source_feed": "arxiv_cs_cl",
       "_source": "rss",
       "_analysis": {
-        "title": "面向投资者微博的语义增强观点感知情感分析方法",
-        "summary": "针对金融情感分析中缺乏对情感目标细粒度理解的问题，本文通过为StockEmotions数据集添加语义结构化的观点图来增强情感分析。利用声明式LLM流水线，从StockTwits评论中提取观点图，并结合图神经网络（GNN）进行情感分类。实验表明，引入观点语义能提升不同情感谱系的分类性能。",
-        "summary_en": "To address the lack of fine-grained understanding of sentiment targets in financial NLP, this paper augments the StockEmotions dataset with semantically structured opinion graphs. Using a declarative LLM pipeline, it extracts opinion graphs from StockTwits comments and applies GNNs for classification, showing improved performance across emotional spectrums.",
+        "title": "面向投资者微博的语义增强观点感知情感分析",
+        "summary": "针对金融情感分析中缺乏情感目标细粒度理解的问题，提出通过声明式LLM流水线为StockEmotions数据集添加语义结构化观点图，增强情感和情绪标签的语义深度。实验表明，引入观点语义可提升图神经网络分类器在不同情绪谱系上的性能。",
+        "summary_en": "Addressing the lack of fine-grained understanding of sentiment targets in financial NLP, this work augments the StockEmotions dataset with semantically structured opinion graphs via a declarative LLM pipeline, improving GNN-based emotion classification performance.",
         "tags": [
           "llm",
           "research",
-          "application",
           "fine-tuning",
-          "evaluation"
+          "application"
         ],
         "category": "research",
         "relevance_score": 0.9,
         "language": "en"
       },
       "_article": {
-        "id": "2026-05-06-rss-009",
-        "title": "面向投资者微博的语义增强观点感知情感分析方法",
+        "id": "2026-05-06-rss-019",
+        "title": "面向投资者微博的语义增强观点感知情感分析",
         "source": "rss_trending",
         "source_url": "https://arxiv.org/abs/2605.03092",
         "language": "en",
-        "summary": "针对金融情感分析中缺乏对情感目标细粒度理解的问题，本文通过为StockEmotions数据集添加语义结构化的观点图来增强情感分析。利用声明式LLM流水线，从StockTwits评论中提取观点图，并结合图神经网络（GNN）进行情感分类。实验表明，引入观点语义能提升不同情感谱系的分类性能。",
-        "summary_en": "To address the lack of fine-grained understanding of sentiment targets in financial NLP, this paper augments the StockEmotions dataset with semantically structured opinion graphs. Using a declarative LLM pipeline, it extracts opinion graphs from StockTwits comments and applies GNNs for classification, showing improved performance across emotional spectrums.",
+        "summary": "针对金融情感分析中缺乏情感目标细粒度理解的问题，提出通过声明式LLM流水线为StockEmotions数据集添加语义结构化观点图，增强情感和情绪标签的语义深度。实验表明，引入观点语义可提升图神经网络分类器在不同情绪谱系上的性能。",
+        "summary_en": "Addressing the lack of fine-grained understanding of sentiment targets in financial NLP, this work augments the StockEmotions dataset with semantically structured opinion graphs via a declarative LLM pipeline, improving GNN-based emotion classification performance.",
         "tags": [
           "llm",
           "research",
-          "application",
           "fine-tuning",
-          "evaluation"
+          "application"
         ],
         "category": "research",
         "relevance_score": 0.9,
         "status": "published",
-        "created_at": "2026-05-06T13:35:18.214967+08:00",
-        "updated_at": "2026-05-06T13:35:18.214968+08:00",
->>>>>>> 7d905ecefbc5c90b83a26e42583d7567df857753
+        "created_at": "2026-05-06T23:55:27.058571+08:00",
+        "updated_at": "2026-05-06T23:55:27.058572+08:00",
         "metadata": {
           "stars": null,
           "hn_points": null,
