@@ -1,0 +1,24 @@
+{
+  "id": "2026-05-06-rss-007",
+  "title": "面向可持续中小企业的AI代理：绿色ESG评估框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.00841",
+  "language": "en",
+  "summary": "提出一种基于AI的框架，用于评估欧洲中小企业的ESG表现。系统利用n8n自动化平台构建可扩展的AI代理，基于专家验证的基线进行自动ESG分类并生成建议，结果与人工输出高度一致，支持欧洲绿色新政。",
+  "summary_en": "An AI-driven framework for ESG assessment in European SMEs. A scalable agent system built on n8n automates classification and generates recommendations using LLMs, achieving high consistency with human outputs to support the European Green Deal.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "application"
+  ],
+  "category": "application",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-05-06T13:35:18.214959+08:00",
+  "updated_at": "2026-05-06T13:35:18.214961+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
