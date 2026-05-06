@@ -1,0 +1,31 @@
+{
+  "id": "2026-05-05-011",
+  "title": "Claude-Code-AI-Design：Figma 到代码的 AI 设计 Agent",
+  "source": "github",
+  "source_url": "https://github.com/Julpygo/Claude-Code-AI-Design",
+  "summary": "Claude-Code-AI-Design 是一个 Figma 设计稿直接生成 React 19 + Tailwind v4 代码的 AI Agent，集成 Claude Code CLI 与 MCP Server，支持 Design Systems Automation 与 UI/UX 原型生成，可内联到 Claude Code 工作流中实现设计到开发的闭环。",
+  "highlights": [
+    "Figma 设计稿直接生成 React 19 + Tailwind v4 代码，集成 Claude Code CLI 与 MCP Server",
+    "支持 Design Systems Automation 与 UI/UX 原型生成",
+    "可内联到 Claude Code 工作流中，实现设计到开发的闭环"
+  ],
+  "score": 6,
+  "score_reason": "Figma-to-Code 赛道竞争激烈，MCP 集成与 Claude Code 深度绑定有特色，但生成代码质量需实际验证。",
+  "tags": [
+    "agent",
+    "code-generation",
+    "vision",
+    "workflow"
+  ],
+  "status": "published",
+  "fetched_at": "2026-05-05T04:11:06Z",
+  "analyzed_at": "2026-05-05T04:17:54Z",
+  "published_at": "2026-05-05T04:17:54Z",
+  "metadata": {
+    "stars": 233,
+    "stars_today": null,
+    "language": "C++",
+    "hackernews_points": null,
+    "hackernews_comments": null
+  }
+}

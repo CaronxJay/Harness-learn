@@ -1,0 +1,31 @@
+{
+  "id": "2026-05-05-008",
+  "title": "DeepSec：Agent 驱动的自动化代码安全审计",
+  "source": "github",
+  "source_url": "https://github.com/vercel-labs/deepsec",
+  "summary": "DeepSec 是 Vercel 推出的两阶段安全扫描工具：scan 阶段用快速正则匹配初筛，process 阶段用 AI 编码 Agent（Claude/Codex）深度调查候选点并产出修复建议。支持 Vercel Sandbox microVM 分布式执行，Agent API 密钥在沙箱外注入实现安全隔离。",
+  "highlights": [
+    "两阶段流水线：正则快速初筛(non-AI) → AI 编码 Agent 深度调查候选点并产出发现与修复建议",
+    "支持 Vercel Sandbox microVM 分布式执行，命令幂等设计保证中断后安全续跑",
+    "Agent API 密钥在沙箱外注入，防止被攻破的工作 VM 窃取"
+  ],
+  "score": 7,
+  "score_reason": "Vercel 生态的安全增强工具，两阶段设计兼顾效率与深度，安全隔离设计有生产参考价值。",
+  "tags": [
+    "agent",
+    "safety",
+    "code-generation",
+    "workflow"
+  ],
+  "status": "published",
+  "fetched_at": "2026-05-05T04:11:06Z",
+  "analyzed_at": "2026-05-05T04:17:54Z",
+  "published_at": "2026-05-05T04:17:54Z",
+  "metadata": {
+    "stars": 370,
+    "stars_today": null,
+    "language": "TypeScript",
+    "hackernews_points": null,
+    "hackernews_comments": null
+  }
+}

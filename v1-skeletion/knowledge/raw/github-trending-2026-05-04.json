@@ -1,0 +1,167 @@
+[
+  {
+    "title": "ConardLi/garden-skills",
+    "url": "https://github.com/ConardLi/garden-skills",
+    "source": "github",
+    "popularity": {
+      "stars": 2248,
+      "stars_today": null,
+      "language": "CSS"
+    },
+    "summary": "开源 Skills 技能合集，涵盖网页设计、知识检索(RAG)、图像生成等多种 AI 辅助开发技能模板，可供 Claude 等 Agent 直接调用。"
+  },
+  {
+    "title": "Beever-AI/beever-atlas",
+    "url": "https://github.com/Beever-AI/beever-atlas",
+    "source": "github",
+    "popularity": {
+      "stars": 241,
+      "stars_today": null,
+      "language": "Python"
+    },
+    "summary": "基于 LLM 的对话式知识库(Wiki)，支持 RAG、MCP 协议、多平台 Bot 集成(Slack/Teams/Discord)，可构建团队级智能问答系统。"
+  },
+  {
+    "title": "warpdot-dev/composio",
+    "url": "https://github.com/warpdot-dev/composio",
+    "source": "github",
+    "popularity": {
+      "stars": 205,
+      "stars_today": null,
+      "language": "TypeScript"
+    },
+    "summary": "面向 AI Agent 的多平台集成 SDK，支持 LangChain、LlamaIndex、OpenAI Agents、Vercel AI 等框架的 OAuth/API/Webhook 工具聚合。"
+  },
+  {
+    "title": "peter123023/awesome-claude-api",
+    "url": "https://github.com/peter123023/awesome-claude-api",
+    "source": "github",
+    "popularity": {
+      "stars": 177,
+      "stars_today": null,
+      "language": null
+    },
+    "summary": "收集和整理的 Claude 中转 API 资源列表，帮助开发者快速找到稳定且高性价比的 Claude API 服务接入方案。"
+  },
+  {
+    "title": "warpdot-dev/craft-agents-oss",
+    "url": "https://github.com/warpdot-dev/craft-agents-oss",
+    "source": "github",
+    "popularity": {
+      "stars": 135,
+      "stars_today": null,
+      "language": "TypeScript"
+    },
+    "summary": "基于 Electron 的桌面 AI Agent 框架，集成 Claude Agent SDK、MCP 协议、多 LLM 支持，可替代 VS Code 的桌面开发环境。"
+  },
+  {
+    "title": "heider-x/vela",
+    "url": "https://github.com/heider-x/vela",
+    "source": "github",
+    "popularity": {
+      "stars": 132,
+      "stars_today": null,
+      "language": "TypeScript"
+    },
+    "summary": "面向小说创作和创意写作的 AI 驱动 IDE，支持本地 LLM + RAG 检索增强生成，隐私优先且支持自带 API Key。"
+  },
+  {
+    "title": "HarimxChoi/google-surf-mcp",
+    "url": "https://github.com/HarimxChoi/google-surf-mcp",
+    "source": "github",
+    "popularity": {
+      "stars": 119,
+      "stars_today": null,
+      "language": "TypeScript"
+    },
+    "summary": "无需 API Key 的 Google 搜索 MCP 服务器，具备反机器人检测能力，可接入 Claude Desktop、Cursor 等 MCP 客户端即插即用。"
+  },
+  {
+    "title": "rampstackco/claude-skills",
+    "url": "https://github.com/rampstackco/claude-skills",
+    "source": "github",
+    "popularity": {
+      "stars": 112,
+      "stars_today": null,
+      "language": null
+    },
+    "summary": "覆盖网站全生命周期的 Claude Agent Skills 集合：品牌、设计、内容、SEO、开发、运维、增长和研究，助力构建、发布、审计和优化。"
+  },
+  {
+    "title": "OpenRaiser/ProDa",
+    "url": "https://github.com/OpenRaiser/ProDa",
+    "source": "github",
+    "popularity": {
+      "stars": 100,
+      "stars_today": null,
+      "language": "TypeScript"
+    },
+    "summary": "面向原始语料的数据工程工具，提供 AI 辅助的数据合成、数据生成和交互式开发环境，适用于 LLM 训练数据准备。"
+  },
+  {
+    "title": "KSroido/Kagi-Session2API-MCP",
+    "url": "https://github.com/KSroido/Kagi-Session2API-MCP",
+    "source": "github",
+    "popularity": {
+      "stars": 65,
+      "stars_today": null,
+      "language": "Python"
+    },
+    "summary": "免费 Kagi 搜索 MCP 服务器，通过 Session Token 访问搜索和摘要功能，无需 API Key，兼容 Claude Desktop、Cursor 等 MCP 客户端。"
+  },
+  {
+    "title": "FrankHui/paragents",
+    "url": "https://github.com/FrankHui/paragents",
+    "source": "github",
+    "popularity": {
+      "stars": 63,
+      "stars_today": null,
+      "language": "Python"
+    },
+    "summary": "并行 AI Agent 会话框架，支持在同一面板中运行多个 Agent，具备权限感知工具调用和冲突预检机制，基于 asyncio 实现。"
+  },
+  {
+    "title": "DevelopersGlobal/ai-agent-skills",
+    "url": "https://github.com/DevelopersGlobal/ai-agent-skills",
+    "source": "github",
+    "popularity": {
+      "stars": 51,
+      "stars_today": null,
+      "language": "Python"
+    },
+    "summary": "面向生产级应用的 AI Agent Skills 集合，提供 Claude Code Plugin、Cursor、Codex 等平台的可复用技能模板。"
+  },
+  {
+    "title": "benmaster82/Kwipu",
+    "url": "https://github.com/benmaster82/Kwipu",
+    "source": "github",
+    "popularity": {
+      "stars": 44,
+      "stars_today": null,
+      "language": "Python"
+    },
+    "summary": "面向 Markdown 笔记的本地 Graph RAG 引擎，支持 Obsidian vaults，通过混合检索(向量+BM25)实现自然语言问答，基于 Ollama 运行。"
+  },
+  {
+    "title": "dmae97/oh-my-kimichan",
+    "url": "https://github.com/dmae97/oh-my-kimichan",
+    "source": "github",
+    "popularity": {
+      "stars": 43,
+      "stars_today": null,
+      "language": "TypeScript"
+    },
+    "summary": "面向 Kimi Code CLI 的多 Agent 编排基座，支持 Worktree 团队执行、DAG/Ensemble 规划、MCP Skill Hooks、质量门禁和本地图记忆。"
+  },
+  {
+    "title": "t1804330987/DD_Rag",
+    "url": "https://github.com/t1804330987/DD_Rag",
+    "source": "github",
+    "popularity": {
+      "stars": 40,
+      "stars_today": null,
+      "language": "Java"
+    },
+    "summary": "基于 SpringAI 的 RAG Agent 实战项目，覆盖权限隔离、文档入库、混合检索、证据约束和 Agent 工具调用，支持 Docker 一键部署。"
+  }
+]
