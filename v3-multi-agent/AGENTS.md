@@ -163,3 +163,13 @@ plan → collect → analyze → review ──passed──→ organize → save 
 | `organize` | workflows/nodes.py | 过滤低分、URL 去重、审核反馈修正、PII 掩码、格式标准化 |
 | `save` | workflows/nodes.py | articles 落盘 JSON + 更新 index.json |
 | `human_flag` | workflows/human_flag.py | 审核超限兜底，写入 `knowledge/pending_review/` |
+
+## 7. 红线（绝对禁止）
+
+1. **禁止** 在代码或配置文件中硬编码任何 API Key、Token、密码或密钥（使用 `.env` + 环境变量）
+2. **禁止** 在未经用户明确指示的情况下提交 `git commit` 或推送代码
+3. **禁止** 使用裸 `print()` 输出业务日志（统一使用 `logging` 模块）
+4. **禁止** 绕过 AI 分析直接将原始抓取内容推送给用户
+5. **禁止** 采集或分发任何违反相关法律法规的内容
+6. **禁止** 未经用户确认修改 `knowledge/` 下已有的历史数据（只增不改、误删需确认）
+7. **禁止** 在 Agent 流程中引入未定义的外部依赖（新依赖需先更新 `requirements.txt`）
