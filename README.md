@@ -10,7 +10,7 @@
 ┌─────────────────────────────────────────────────────────────────┐
 │                        📡 分发层                                 │
 │  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐        │
-│  │Telegram  │  │  飞书     │  │  QQ Bot  │  │ 企业微信  │        │
+│  │Telegram  │  │  飞书     │  │  QQ Bot  │  │  微信    │        │
 │  │MarkdownV2│  │交互式卡片 │  │ Markdown │  │ Markdown │        │
 │  └──────────┘  └──────────┘  └──────────┘  └──────────┘        │
 │                         ▲                                        │
@@ -85,7 +85,7 @@ DEEPSEEK_API_KEY=sk-xxxxxxxxxxxxxxxx
 AppID=          # QQ Bot
 AppSecret=      # QQ Bot
 QQ_TARGET_ID=   # QQ Bot
-chat_id=        # 企业微信
+chat_id=        # 微信
 ```
 
 ### 3. 运行
@@ -174,4 +174,4 @@ python bot/knowledge_bot.py
 
 ## License
 
-MIT © 2025
+MIT © 2026
