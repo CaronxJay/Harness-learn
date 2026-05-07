@@ -1,0 +1,27 @@
+{
+  "id": "2026-05-07-github-001",
+  "title": "LangChain：智能体工程平台（TypeScript版）",
+  "source": "github_trending",
+  "source_url": "",
+  "language": "en",
+  "summary": "LangChain 是一个面向智能体工程的平台，提供 Python 和 TypeScript 版本。它简化了基于大语言模型的应用开发，支持链式调用、工具集成、记忆管理等功能，广泛应用于构建对话系统、自主智能体和 RAG 应用。拥有超过 13.6 万星标，是 LLM 生态中最流行的框架之一。",
+  "summary_en": "LangChain is an agent engineering platform available in TypeScript, enabling developers to build LLM-powered applications with chaining, tool integration, and memory management. It is widely used for ",
+  "tags": [
+    "langchain",
+    "llm",
+    "agent",
+    "framework",
+    "typescript",
+    "rag"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.98,
+  "status": "draft",
+  "created_at": "2026-05-07T11:58:23.651789+00:00",
+  "updated_at": "2026-05-07T11:58:23.654721+00:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

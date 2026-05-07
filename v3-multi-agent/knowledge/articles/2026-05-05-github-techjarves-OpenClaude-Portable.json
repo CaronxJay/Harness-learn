@@ -1,0 +1,30 @@
+{
+  "id": "2026-05-05-009",
+  "title": "OpenClaude-Portable：便携版 Claude Code",
+  "source": "github",
+  "source_url": "https://github.com/techjarves/OpenClaude-Portable",
+  "summary": "OpenClaude-Portable 实现 Claude Code 的完全便携化运行，无需安装过程，支持从 U 盘即插即用，HTML+Shell 轻量化打包。降低开发者在多机器间迁移 AI 编码工具的环境配置成本。",
+  "highlights": [
+    "实现 Claude Code 完全便携化，无需安装过程，支持 U 盘携带运行",
+    "降低开发者在不同工作机器间切换时重复配置 AI 编码环境的成本",
+    "HTML+Shell 实现，轻量化打包"
+  ],
+  "score": 5,
+  "score_reason": "包装方案提升了便携便利性，但本质是免安装配置而非技术创新，同质替代方案多。",
+  "tags": [
+    "deployment",
+    "code-generation",
+    "open-source"
+  ],
+  "status": "published",
+  "fetched_at": "2026-05-05T04:11:06Z",
+  "analyzed_at": "2026-05-05T04:17:54Z",
+  "published_at": "2026-05-05T04:17:54Z",
+  "metadata": {
+    "stars": 364,
+    "stars_today": null,
+    "language": "HTML",
+    "hackernews_points": null,
+    "hackernews_comments": null
+  }
+}

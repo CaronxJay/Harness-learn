@@ -1,0 +1,26 @@
+{
+  "id": "2026-05-04-005",
+  "title": "Craft Agents OSS：Electron 桌面 AI Agent 框架",
+  "source": "github",
+  "source_url": "https://github.com/warpdot-dev/craft-agents-oss",
+  "summary": "基于 Electron 构建的桌面端 AI Agent 框架，集成 Claude Agent SDK 和 MCP 协议，支持多 LLM 后端、WebSocket 实时通信和 OAuth 认证，定位为 VS Code 的开源替代方案，跨平台支持 Linux/macOS/Windows。",
+  "highlights": [
+    "Electron 桌面端 Agent 开发框架",
+    "Claude SDK + MCP + 多 LLM 支持",
+    "VS Code 替代定位，Apache 2.0"
+  ],
+  "score": 7,
+  "score_reason": "将 AI Agent 能力嵌入桌面应用是差异化方向，240 forks 表明开发者对此类框架的实际需求。但项目体积较大(15MB)且创建时间较新(2026-05-01)，成熟度待验证。",
+  "tags": ["agent", "open-source", "deployment", "tool-use"],
+  "status": "published",
+  "fetched_at": "2026-05-04T10:30:00Z",
+  "analyzed_at": "2026-05-04T10:45:00Z",
+  "published_at": "2026-05-04T11:00:00Z",
+  "metadata": {
+    "stars": 135,
+    "stars_today": null,
+    "language": "TypeScript",
+    "hackernews_points": null,
+    "hackernews_comments": null
+  }
+}

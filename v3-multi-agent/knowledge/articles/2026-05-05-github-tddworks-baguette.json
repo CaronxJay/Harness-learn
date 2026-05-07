@@ -1,0 +1,31 @@
+{
+  "id": "2026-05-05-006",
+  "title": "Baguette：无头 iOS 模拟器集群管理工具",
+  "source": "github",
+  "source_url": "https://github.com/tddworks/baguette",
+  "summary": "Baguette 是一个基于 Swift + IOKit/SimulatorKit 的无头 iOS 模拟器集群管理器，支持 iOS 26 系统、60fps 实时流式传输与多点触控手势注入（点击/滑动/多指），可组建设备农场进行大规模 Agent 驱动的自动化测试。",
+  "highlights": [
+    "支持 iOS 26 系统的无头模拟器集群管理，可组建设备农场进行大规模并行测试",
+    "60fps 实时流式传输 + 多点触控手势注入，适合 Agent 驱动自动化",
+    "基于 Swift 与 IOKit/SimulatorKit 底层 API，MIT 开源协议"
+  ],
+  "score": 7,
+  "score_reason": "移动端 Agent 测试基础设施的关键基础工具，iOS 26 适配及时，但受众限于 iOS 开发者。",
+  "tags": [
+    "agent",
+    "deployment",
+    "framework",
+    "open-source"
+  ],
+  "status": "published",
+  "fetched_at": "2026-05-05T04:11:06Z",
+  "analyzed_at": "2026-05-05T04:17:54Z",
+  "published_at": "2026-05-05T04:17:54Z",
+  "metadata": {
+    "stars": 502,
+    "stars_today": null,
+    "language": "Swift",
+    "hackernews_points": null,
+    "hackernews_comments": null
+  }
+}

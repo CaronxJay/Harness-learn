@@ -1,0 +1,27 @@
+{
+  "id": "2026-05-07-github-018",
+  "title": "PaSa：基于大语言模型的高级论文搜索智能体",
+  "source": "github_trending",
+  "source_url": "",
+  "language": "en",
+  "summary": "PaSa是一个由字节跳动开发的高级论文搜索智能体，利用大语言模型自主决策，包括调用搜索工具、阅读论文、选择相关参考文献等，以获取复杂学术查询的全面准确结果。该项目旨在提升学术搜索效率与质量。",
+  "summary_en": "PaSa is an advanced paper search agent developed by ByteDance, powered by large language models. It autonomously makes decisions such as invoking search tools, reading papers, and selecting relevant r",
+  "tags": [
+    "paper search",
+    "language model",
+    "academic search",
+    "agent",
+    "ByteDance",
+    "Python"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.95,
+  "status": "draft",
+  "created_at": "2026-05-07T11:58:23.651789+00:00",
+  "updated_at": "2026-05-07T11:58:23.689291+00:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

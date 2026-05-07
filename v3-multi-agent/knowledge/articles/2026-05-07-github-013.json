@@ -1,0 +1,26 @@
+{
+  "id": "2026-05-07-github-013",
+  "title": "合并预训练大语言模型的工具集",
+  "source": "github_trending",
+  "source_url": "",
+  "language": "en",
+  "summary": "mergekit 是一个用于合并预训练大语言模型的开源工具集，支持多种合并方法（如线性插值、任务向量、TIES、DARE、SLERP等），并提供易用的命令行界面和配置文件。它允许用户将多个基础模型或微调模型组合成新模型，无需额外训练即可获得具有复合能力的模型，广泛应用于模型集成、知识蒸馏和领域适应。该项目拥有7063颗星，社区活跃，支持Hugging Face Hub集成，是LLM合并领域的主流工",
+  "summary_en": "Mergekit is an open-source toolkit for merging pretrained large language models, supporting various merging methods (e.g., linear interpolation, task vectors, TIES, DARE, SLERP) with a user-friendly C",
+  "tags": [
+    "LLM",
+    "模型合并",
+    "预训练模型",
+    "工具",
+    "Python"
+  ],
+  "category": "infrastructure",
+  "relevance_score": 0.98,
+  "status": "draft",
+  "created_at": "2026-05-07T11:58:23.651789+00:00",
+  "updated_at": "2026-05-07T11:58:23.679089+00:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
