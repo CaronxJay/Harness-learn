@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-07-rss-004",
+  "title": "FREIA：基于自由能驱动的自适应优势塑造的无监督强化学习算法用于LLM推理",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.04065",
+  "language": "en",
+  "summary": "FREIA是一种新型无监督强化学习算法，通过自由能驱动奖励（FER）和自适应优势塑造（AAS）两项创新，自适应调整奖励和学习信号，提升LLM在无监督环境下的推理能力。在数学推理任务中，使用DeepSeek-R1-Distill-Qwen-1.5B模型，Pass@1指标平均提升0.5至3.5个百分点。",
+  "summary_en": "FREIA is a novel unsupervised RL algorithm for LLMs, featuring Free Energy-Driven Reward (FER) and Adaptive Advantage Shaping (AAS). It adaptively adjusts rewards and learning signals, outperforming baselines on three reasoning tasks. On math reasoning, it improves Pass@1 by 0.5-3.5 points using DeepSeek-R1-Distill-Qwen-1.5B.",
+  "tags": [
+    "llm",
+    "research",
+    "reinforcement-learning",
+    "fine-tuning"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-05-07T23:57:07.109774+08:00",
+  "updated_at": "2026-05-07T23:57:07.109776+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
