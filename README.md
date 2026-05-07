@@ -172,6 +172,7 @@ python bot/knowledge_bot.py
 
 ---
 
-## License
+## QQ bot 已通过测试截图
+<img width="605" height="554" alt="qq bot" src="https://github.com/user-attachments/assets/2ae6b7fb-6718-46e1-9c93-90d351a6f75f" />
 
 MIT © 2026
