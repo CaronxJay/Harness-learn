@@ -1,0 +1,26 @@
+{
+  "id": "2026-05-04-008",
+  "title": "RampStack Claude Skills：网站全生命周期 Agent 技能集",
+  "source": "github",
+  "source_url": "https://github.com/rampstackco/claude-skills",
+  "summary": "面向网站开发全生命周期的 Claude Agent Skills 集合，覆盖品牌策略、UI 设计、SEO 优化、内容创作、代码开发、运维部署和增长分析等环节，帮助用 AI Agent 完成网站从构思到运营的完整链路。",
+  "highlights": [
+    "覆盖网站全生命周期 8 个环节",
+    "品牌→设计→开发→运营一体化",
+    "社区活跃，Discussions 功能开启"
+  ],
+  "score": 6,
+  "score_reason": "Skills 工程化是 Agent 应用的重要方向，RampStack 提供了完整的产品化 Skills 体系。但主要面向 Web 领域，范围相对狭窄，且本质是提示工程产物而非底层框架创新。",
+  "tags": ["agent", "open-source", "tool-use"],
+  "status": "published",
+  "fetched_at": "2026-05-04T10:30:00Z",
+  "analyzed_at": "2026-05-04T10:45:00Z",
+  "published_at": "2026-05-04T11:00:00Z",
+  "metadata": {
+    "stars": 112,
+    "stars_today": null,
+    "language": null,
+    "hackernews_points": null,
+    "hackernews_comments": null
+  }
+}

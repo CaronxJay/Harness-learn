@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-05-07-052621",
+  "iterations_used": 3,
+  "last_feedback": "质量太低，无法自动修正",
+  "analyses": [
+    {
+      "source_id": "gh-001",
+      "title": "Bad Data",
+      "summary": "vague",
+      "tags": [],
+      "relevance_score": 0.5
+    }
+  ]
+}

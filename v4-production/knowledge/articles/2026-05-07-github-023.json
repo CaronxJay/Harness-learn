@@ -1,0 +1,28 @@
+{
+  "id": "2026-05-07-github-023",
+  "title": "RagaAI-Catalyst：智能体AI可观测性、监控与评估框架",
+  "source": "github_trending",
+  "source_url": "",
+  "language": "en",
+  "summary": "RagaAI-Catalyst 是一个专为智能体AI设计的Python SDK，提供可观测性、监控和评估功能。它支持对智能体、大语言模型和工具的追踪，能够调试多智能体系统，并包含自托管仪表盘、时间线及执行图视图等高级分析功能。该项目旨在帮助开发者更好地理解和优化AI系统的行为。",
+  "summary_en": "RagaAI-Catalyst is a Python SDK for Agent AI observability, monitoring, and evaluation. It supports tracing of agents, LLMs, and tools, debugging multi-agent systems, and includes a self-hosted dashbo",
+  "tags": [
+    "agent-observability",
+    "monitoring",
+    "evaluation",
+    "llm-tracing",
+    "multi-agent",
+    "python-sdk",
+    "dashboard"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.95,
+  "status": "draft",
+  "created_at": "2026-05-07T11:58:23.651789+00:00",
+  "updated_at": "2026-05-07T11:58:23.696464+00:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

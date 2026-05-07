@@ -1,0 +1,28 @@
+{
+  "id": "2026-05-07-github-025",
+  "title": "Agent技能库：上下文工程与多智能体系统实战指南",
+  "source": "github_trending",
+  "source_url": "",
+  "language": "en",
+  "summary": "该仓库提供了全面的Agent技能集合，专注于上下文工程、多智能体架构和生产级Agent系统的构建、优化与调试。包含丰富的Python代码示例和最佳实践，帮助开发者高效管理上下文、设计多Agent协作系统，并提升Agent在实际应用中的表现。适用于从入门到进阶的AI Agent开发人员。",
+  "summary_en": "A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. It provides Python code examples and best practices for building, optimizin",
+  "tags": [
+    "Agent Skills",
+    "Context Engineering",
+    "Multi-Agent",
+    "Production Agent Systems",
+    "Python",
+    "LLM",
+    "Best Practices"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.95,
+  "status": "draft",
+  "created_at": "2026-05-07T11:58:23.651789+00:00",
+  "updated_at": "2026-05-07T11:58:23.699099+00:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "2026-05-04-012",
+  "title": "AI Agent Skills：生产级 Agent 技能模板",
+  "source": "github",
+  "source_url": "https://github.com/DevelopersGlobal/ai-agent-skills",
+  "summary": "面向生产级应用的 AI Agent Skills 集合，提供 Claude Code Plugin、Cursor、Codex 等主流 AI 编程工具的可复用技能模板，支持 Antigravity 等新兴平台，目标是成为 Agent Skills 的标准参考实现。",
+  "highlights": [
+    "覆盖 Claude/Cursor/Codex 多平台",
+    "生产级质量标准",
+    "MIT 协议，支持 Pages 文档"
+  ],
+  "score": 5,
+  "score_reason": "Skills 标准化是 Agent 生态的基础设施，该项目定位清晰且多平台覆盖。但 51 Stars 的社区规模较小，且与 garden-skills(2249 Stars)存在同质化竞争，需观察差异化优势。",
+  "tags": ["agent", "open-source", "tool-use"],
+  "status": "published",
+  "fetched_at": "2026-05-04T10:30:00Z",
+  "analyzed_at": "2026-05-04T10:45:00Z",
+  "published_at": "2026-05-04T11:00:00Z",
+  "metadata": {
+    "stars": 51,
+    "stars_today": null,
+    "language": "Python",
+    "hackernews_points": null,
+    "hackernews_comments": null
+  }
+}

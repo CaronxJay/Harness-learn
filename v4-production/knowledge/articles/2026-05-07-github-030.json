@@ -1,0 +1,27 @@
+{
+  "id": "2026-05-07-github-030",
+  "title": "DeepResearchAgent：分层多智能体深度研究系统",
+  "source": "github_trending",
+  "source_url": "",
+  "language": "en",
+  "summary": "DeepResearchAgent 是一个分层多智能体系统，专为深度研究和通用任务解决而设计。它利用顶层规划智能体协调多个专用低级智能体，实现自动任务分解和高效执行。该框架支持复杂任务的自动化处理，适用于研究、数据分析等领域，具有高度的灵活性和可扩展性。",
+  "summary_en": "DeepResearchAgent is a hierarchical multi-agent system designed for deep research and general-purpose task solving. It leverages a top-level planning agent to coordinate multiple specialized lower-lev",
+  "tags": [
+    "multi-agent",
+    "hierarchical",
+    "research",
+    "task decomposition",
+    "planning agent",
+    "python"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.95,
+  "status": "draft",
+  "created_at": "2026-05-07T11:58:23.651789+00:00",
+  "updated_at": "2026-05-07T11:58:23.705971+00:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

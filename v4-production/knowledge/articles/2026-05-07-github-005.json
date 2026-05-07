@@ -1,0 +1,28 @@
+{
+  "id": "2026-05-07-github-005",
+  "title": "AstrBot：全能AI代理助手与开发框架",
+  "source": "github_trending",
+  "source_url": "",
+  "language": "en",
+  "summary": "AstrBot是一个集成了多种即时通讯平台、大型语言模型、插件和AI功能的开发框架，可作为OpenClaw的替代品。它支持AI代理助手功能，提供灵活的扩展性和定制能力，适用于构建智能对话系统和自动化工作流。",
+  "summary_en": "AstrBot is a development framework integrating multiple IM platforms, LLMs, plugins, and AI features, serving as an alternative to OpenClaw. It supports AI agent assistant functionality with flexible ",
+  "tags": [
+    "AI Agent",
+    "LLM",
+    "IM Platform",
+    "Plugin",
+    "OpenClaw Alternative",
+    "Python",
+    "Multi-modal"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.95,
+  "status": "draft",
+  "created_at": "2026-05-07T11:58:23.651789+00:00",
+  "updated_at": "2026-05-07T11:58:23.662890+00:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

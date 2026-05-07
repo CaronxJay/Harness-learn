@@ -1,0 +1,30 @@
+{
+  "id": "2026-05-05-007",
+  "title": "LGBT-Prompt：利用 LLM 同情偏向的越狱攻击",
+  "source": "github",
+  "source_url": "https://github.com/JustLikeCheese/LGBT-Prompt",
+  "summary": "LGBT-Prompt 发现并验证了 LLM 安全对齐机制中存在基于 LGBT 群体同情偏向的漏洞，可通过特定 prompt 绕过安全限制实现越狱。为 LLM 安全团队提供新的红队测试思路和对齐评估维度。",
+  "highlights": [
+    "发现 LLM 安全对齐机制中存在基于人群属性的同情偏向漏洞，可绕过安全限制",
+    "提供具体的 prompt jailbreak 攻击向量与验证方法",
+    "为 LLM 安全团队提供新的红队测试思路和对齐评估维度"
+  ],
+  "score": 6,
+  "score_reason": "AI 安全红队研究有参考价值，揭示了新颖的攻击面，但属于单一攻击向量而非系统性防御方案。",
+  "tags": [
+    "safety",
+    "alignment",
+    "prompt-engineering"
+  ],
+  "status": "published",
+  "fetched_at": "2026-05-05T04:11:06Z",
+  "analyzed_at": "2026-05-05T04:17:54Z",
+  "published_at": "2026-05-05T04:17:54Z",
+  "metadata": {
+    "stars": 382,
+    "stars_today": null,
+    "language": "HTML",
+    "hackernews_points": null,
+    "hackernews_comments": null
+  }
+}
