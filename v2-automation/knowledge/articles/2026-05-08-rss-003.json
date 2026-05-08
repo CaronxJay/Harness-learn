@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-08-rss-003",
+  "title": "BALAR：用于主动推理的贝叶斯智能体循环",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.05386",
+  "language": "en",
+  "summary": "提出BALAR算法，一种无需微调的任务无关外循环算法，通过维护潜在状态的结构化信念、最大化期望互信息选择澄清问题，并动态扩展状态表示，实现LLM智能体与用户的结构化多轮交互。在三个基准测试上分别提升14.6%、38.5%和30.5%的准确率。",
+  "summary_en": null,
+  "tags": [
+    "llm",
+    "agent-framework",
+    "research",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-05-08T20:17:27.482659+08:00",
+  "updated_at": "2026-05-08T20:17:27.482660+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

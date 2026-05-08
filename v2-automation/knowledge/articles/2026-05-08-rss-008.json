@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-08-rss-008",
+  "title": "AI与人类评判批判性思维中的反驳论证",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.05353",
+  "language": "en",
+  "summary": "本研究探讨学生在生成式AI背景下，通过写作反驳论证来培养批判性思维。使用六项标准对35份学生作业进行人类与AI评估，发现学生自写反驳包含逻辑等关键批判性思维要素，且GenAI可大规模评估学生作业，与人类评估基本一致（Gwet's AC2=0.33）。",
+  "summary_en": "This study investigates counterarguments in student writing for critical thinking with GenAI. Using six rubrics, human and AI assessments of 35 submissions show student counterarguments contain logic, and GenAI can scale assessment with alignment to human judges (Gwet's AC2=0.33).",
+  "tags": [
+    "research",
+    "llm",
+    "evaluation",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-05-08T20:17:27.482685+08:00",
+  "updated_at": "2026-05-08T20:17:27.482686+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
