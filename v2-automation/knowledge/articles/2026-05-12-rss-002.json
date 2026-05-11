@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-12-rss-002",
+  "title": "IntentGrasp：意图理解综合基准",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.06832",
+  "language": "en",
+  "summary": "提出IntentGrasp基准，用于评估LLM的意图理解能力。包含26万训练样本和两个测试集，对20个LLM评估发现性能不佳。提出Intentional Fine-Tuning (IFT)方法，在All Set和Gem Set上分别提升30+和20+F1分，并展现出强跨域泛化能力。",
+  "summary_en": "Introduces IntentGrasp, a benchmark for evaluating LLM intent understanding. Contains 262K training instances and two test sets. Evaluations on 20 LLMs show poor performance. Proposes Intentional Fine-Tuning (IFT), achieving 30+ F1 gains on All Set and 20+ on Gem Set, with strong cross-domain generalization.",
+  "tags": [
+    "llm",
+    "benchmark",
+    "fine-tuning",
+    "evaluation"
+  ],
+  "category": "benchmark",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-05-12T01:14:26.281747+08:00",
+  "updated_at": "2026-05-12T01:14:26.281748+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
