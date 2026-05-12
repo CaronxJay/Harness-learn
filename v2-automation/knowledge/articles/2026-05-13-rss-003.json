@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-13-rss-003",
+  "title": "Auto-Rubric奖励：从隐式偏好到显式多模态生成标准",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.08354",
+  "language": "en",
+  "summary": "提出Auto-Rubric as Reward (ARR)框架，将隐式偏好转化为显式、可解释的评分标准，用于多模态生成模型对齐。结合Rubric Policy Optimization (RPO)将结构化评估蒸馏为稳健的二元奖励，在文生图和图像编辑任务上优于成对奖励模型和VLM评判器。",
+  "summary_en": "Proposes Auto-Rubric as Reward (ARR), a framework that converts implicit preferences into explicit, interpretable rubrics for multimodal generative model alignment. Combined with Rubric Policy Optimization (RPO), it distills structured evaluation into robust binary rewards, outperforming pairwise reward models and VLM judges on text-to-image and image editing tasks.",
+  "tags": [
+    "research",
+    "multimodal",
+    "fine-tuning",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-05-13T00:34:25.339185+08:00",
+  "updated_at": "2026-05-13T00:34:25.339186+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

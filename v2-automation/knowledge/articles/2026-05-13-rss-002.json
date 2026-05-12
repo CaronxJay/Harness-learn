@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-13-rss-002",
+  "title": "空间先验优于语义提示：基于网格的方法提升LLM图表数据提取精度",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.08220",
+  "language": "en",
+  "summary": "本文对比了高层语义提示与低层空间先验对多模态LLM图表数据提取性能的影响。实验表明，在图表上叠加坐标网格的空间先验方法显著优于语义方法（如元数据优先框架和思维链），将SMAPE从25.5%降至19.5%。结论是，对于当前多模态模型，提供明确的空间上下文比高层语义引导更有效。",
+  "summary_en": "This paper compares high-level semantic priming vs. low-level spatial priming for improving multimodal LLM accuracy on chart data extraction. Results show that overlaying a coordinate grid (spatial priming) significantly reduces error (SMAPE from 25.5% to 19.5%), outperforming semantic methods like metadata-first framework and Chain-of-Thought.",
+  "tags": [
+    "llm",
+    "multimodal",
+    "research",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-05-13T00:34:25.339180+08:00",
+  "updated_at": "2026-05-13T00:34:25.339182+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

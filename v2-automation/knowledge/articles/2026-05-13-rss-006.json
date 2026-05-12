@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-13-rss-006",
+  "title": "长文本幻觉检测的健全性检查",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.08346",
+  "language": "en",
+  "summary": "提出一种受控不变性方法，通过Force和Remove两个测试，区分幻觉检测模型评估的是推理过程本身还是最终答案的表面特征。进一步展示TRACT轻量级评分器，基于词汇轨迹特征，在控制伪影后实现稳健检测。",
+  "summary_en": "Introduces a controlled-invariance methodology with two oracle tests (Force and Remove) to distinguish whether hallucination detection evaluates reasoning or answer-level artifacts. Shows that TRACT, a lightweight lexical trajectory scorer, achieves robust detection after controlling for these artifacts.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-05-13T00:34:25.339208+08:00",
+  "updated_at": "2026-05-13T00:34:25.339209+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

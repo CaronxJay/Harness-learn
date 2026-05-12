@@ -1,0 +1,473 @@
+{
+  "collected_at": "2026-05-13T00:34:25.339965+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "Where Reliability Lives in Vision-Language Models: A Mechanistic Study of Attention, Hidden States, and Causal Circuits",
+      "url": "https://arxiv.org/abs/2605.08200",
+      "description": "arXiv:2605.08200v1 Announce Type: new \nAbstract: A pervasive intuition holds that vision-language models (VLMs) are most trustworthy when their attention maps look sharp: concentrated attention on the queried region should imply a confident, calibrated answer. We test this Attention-Confidence Assumption directly. We instrument three open-weight VLM families (LLaVA-1.5, PaliGemma, Qwen2-VL; 3-7B parameters) with a unified mechanistic pipeline -- the VLM Reliability Probe (VRP) -- that compares attention structure, generation dynamics, and hidden-state geometry against a single correctness label. Three results emerge. (i) Attention structure is a near-zero predictor of correctness (R_pb(C_k,y)=0.001, 95% CI [-0.034,0.036]; R_pb(H_s,y)=-0.012, [-0.047,0.024] on a pooled n=3,090 split), even though attention remains causally necessary for feature extraction (top-30% patch masking drops accuracy by 8.2-11.3 pp, p<0.001). (ii) Reliability becomes legible later in the computation: a single hidden-state linear probe reaches AUROC>0.95 on POPE for two of three families, and self-consistency at K=10 is the strongest behavioral predictor we measure at 10x inference cost (R_pb=0.43). (iii) Causal neuron-level ablations expose a sharp architectural split with direct monitor-design implications: late-fusion LLaVA concentrates reliability in a fragile late bottleneck (-8.3 pp object-identification accuracy after top-5 probe-neuron ablation), whereas early-fusion PaliGemma and Qwen2-VL distribute it widely and absorb destruction of ~50% of their peak-layer hidden dimension with <=1 pp degradation. The takeaway is narrow but consequential: in 3-7B VLMs, reliability is read more reliably off hidden-state geometry, layer-wise margin formation, and sparse late-layer circuits than off attention-map sharpness.",
+      "pub_date": "Tue, 12 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "视觉语言模型可靠性机制研究：注意力、隐藏状态与因果回路",
+        "summary": "本文通过统一机制管道VRP，系统研究了VLM中注意力结构与正确性的关系。发现注意力结构几乎无法预测正确性，而隐藏状态几何和稀疏的后期回路能更可靠地指示可靠性。不同融合架构（晚期融合vs早期融合）在可靠性分布上存在显著差异。",
+        "summary_en": "This paper systematically studies the relationship between attention structure and correctness in VLMs using a unified mechanistic pipeline (VRP). It finds that attention structure is a near-zero predictor of correctness, while hidden-state geometry and sparse late-layer circuits more reliably indicate reliability. Significant architectural splits in reliability distribution are observed between late-fusion and early-fusion models.",
+        "tags": [
+          "research",
+          "multimodal",
+          "llm",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-13-rss-001",
+        "title": "视觉语言模型可靠性机制研究：注意力、隐藏状态与因果回路",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.08200",
+        "language": "en",
+        "summary": "本文通过统一机制管道VRP，系统研究了VLM中注意力结构与正确性的关系。发现注意力结构几乎无法预测正确性，而隐藏状态几何和稀疏的后期回路能更可靠地指示可靠性。不同融合架构（晚期融合vs早期融合）在可靠性分布上存在显著差异。",
+        "summary_en": "This paper systematically studies the relationship between attention structure and correctness in VLMs using a unified mechanistic pipeline (VRP). It finds that attention structure is a near-zero predictor of correctness, while hidden-state geometry and sparse late-layer circuits more reliably indicate reliability. Significant architectural splits in reliability distribution are observed between late-fusion and early-fusion models.",
+        "tags": [
+          "research",
+          "multimodal",
+          "llm",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-05-13T00:34:25.339172+08:00",
+        "updated_at": "2026-05-13T00:34:25.339176+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Spatial Priming Outperforms Semantic Prompting: A Grid-Based Approach to Improving LLM Accuracy on Chart Data Extraction",
+      "url": "https://arxiv.org/abs/2605.08220",
+      "description": "arXiv:2605.08220v1 Announce Type: new \nAbstract: The automated extraction of data from scientific charts is a critical task for large-scale literature analysis. While multimodal Large Language Models (LLMs) show promise, their accuracy on non-standardized charts remains a challenge. This raises a key research question: what is the most effective strategy to improve model performance (high-level semantic priming) or low-level spatial priming? This paper presents a comparative investigation into these two distinct strategies. We describe our exploratory experiments with semantic methods, such as a two-stage metadata-first framework and Chain-of-Thought, which failed to produce a statistically significant improvement. In contrast, we present a simple but highly effective spatial priming method: overlaying a coordinate grid onto the chart image before analysis. Our quantitative experiment on a synthetic dataset demonstrates that this grid-based approach provides a statistically significant reduction in data extraction error (SMAPE reduced from 25.5% to 19.5%, p < 0.05) compared to a baseline. We conclude that for the current generation of multimodal models, providing explicit spatial context is a more effective and reliable strategy than high-level semantic guidance for this class of tasks.",
+      "pub_date": "Tue, 12 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "空间先验优于语义提示：基于网格的方法提升LLM图表数据提取精度",
+        "summary": "本文对比了高层语义提示与低层空间先验对多模态LLM图表数据提取性能的影响。实验表明，在图表上叠加坐标网格的空间先验方法显著优于语义方法（如元数据优先框架和思维链），将SMAPE从25.5%降至19.5%。结论是，对于当前多模态模型，提供明确的空间上下文比高层语义引导更有效。",
+        "summary_en": "This paper compares high-level semantic priming vs. low-level spatial priming for improving multimodal LLM accuracy on chart data extraction. Results show that overlaying a coordinate grid (spatial priming) significantly reduces error (SMAPE from 25.5% to 19.5%), outperforming semantic methods like metadata-first framework and Chain-of-Thought.",
+        "tags": [
+          "llm",
+          "multimodal",
+          "research",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-13-rss-002",
+        "title": "空间先验优于语义提示：基于网格的方法提升LLM图表数据提取精度",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.08220",
+        "language": "en",
+        "summary": "本文对比了高层语义提示与低层空间先验对多模态LLM图表数据提取性能的影响。实验表明，在图表上叠加坐标网格的空间先验方法显著优于语义方法（如元数据优先框架和思维链），将SMAPE从25.5%降至19.5%。结论是，对于当前多模态模型，提供明确的空间上下文比高层语义引导更有效。",
+        "summary_en": "This paper compares high-level semantic priming vs. low-level spatial priming for improving multimodal LLM accuracy on chart data extraction. Results show that overlaying a coordinate grid (spatial priming) significantly reduces error (SMAPE from 25.5% to 19.5%), outperforming semantic methods like metadata-first framework and Chain-of-Thought.",
+        "tags": [
+          "llm",
+          "multimodal",
+          "research",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-05-13T00:34:25.339180+08:00",
+        "updated_at": "2026-05-13T00:34:25.339182+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Auto-Rubric as Reward: From Implicit Preferences to Explicit Multimodal Generative Criteria",
+      "url": "https://arxiv.org/abs/2605.08354",
+      "description": "arXiv:2605.08354v1 Announce Type: new \nAbstract: Aligning multimodal generative models with human preferences demands reward signals that respect the compositional, multi-dimensional structure of human judgment. Prevailing RLHF approaches reduce this structure to scalar or pairwise labels, collapsing nuanced preferences into opaque parametric proxies and exposing vulnerabilities to reward hacking. While recent Rubrics-as-Reward (RaR) methods attempt to recover this structure through explicit criteria, generating rubrics that are simultaneously reliable, scalable, and data-efficient remains an open problem. We introduce Auto-Rubric as Reward (ARR), a framework that reframes reward modeling from implicit weight optimization to explicit, criteria-based decomposition. Before any pairwise comparison, ARR externalizes a VLM's internalized preference knowledge as prompt-specific rubrics, translating holistic intent into independently verifiable quality dimensions. This conversion of implicit preference structure into inspectable, interpretable constraints substantially suppresses evaluation biases including positional bias, enabling both zero-shot deployment and few-shot conditioning on minimal supervision. To extend these gains into generative training, we propose Rubric Policy Optimization (RPO), which distills ARR's structured multi-dimensional evaluation into a robust binary reward, replacing opaque scalar regression with rubric-conditioned preference decisions that stabilize policy gradients. On text-to-image generation and image editing benchmarks, ARR-RPO outperforms pairwise reward models and VLM judges, demonstrating that explicitly externalizing implicit preference knowledge into structured rubrics achieves more reliable, data-efficient multimodal alignment, revealing that the bottleneck is the absence of a factorized interface, not a deficit of knowledge.",
+      "pub_date": "Tue, 12 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "Auto-Rubric奖励：从隐式偏好到显式多模态生成标准",
+        "summary": "提出Auto-Rubric as Reward (ARR)框架，将隐式偏好转化为显式、可解释的评分标准，用于多模态生成模型对齐。结合Rubric Policy Optimization (RPO)将结构化评估蒸馏为稳健的二元奖励，在文生图和图像编辑任务上优于成对奖励模型和VLM评判器。",
+        "summary_en": "Proposes Auto-Rubric as Reward (ARR), a framework that converts implicit preferences into explicit, interpretable rubrics for multimodal generative model alignment. Combined with Rubric Policy Optimization (RPO), it distills structured evaluation into robust binary rewards, outperforming pairwise reward models and VLM judges on text-to-image and image editing tasks.",
+        "tags": [
+          "research",
+          "multimodal",
+          "fine-tuning",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-13-rss-003",
+        "title": "Auto-Rubric奖励：从隐式偏好到显式多模态生成标准",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.08354",
+        "language": "en",
+        "summary": "提出Auto-Rubric as Reward (ARR)框架，将隐式偏好转化为显式、可解释的评分标准，用于多模态生成模型对齐。结合Rubric Policy Optimization (RPO)将结构化评估蒸馏为稳健的二元奖励，在文生图和图像编辑任务上优于成对奖励模型和VLM评判器。",
+        "summary_en": "Proposes Auto-Rubric as Reward (ARR), a framework that converts implicit preferences into explicit, interpretable rubrics for multimodal generative model alignment. Combined with Rubric Policy Optimization (RPO), it distills structured evaluation into robust binary rewards, outperforming pairwise reward models and VLM judges on text-to-image and image editing tasks.",
+        "tags": [
+          "research",
+          "multimodal",
+          "fine-tuning",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-05-13T00:34:25.339185+08:00",
+        "updated_at": "2026-05-13T00:34:25.339186+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Embeddings for Preferences, Not Semantics",
+      "url": "https://arxiv.org/abs/2605.08360",
+      "description": "arXiv:2605.08360v1 Announce Type: new \nAbstract: Modern AI is opening the door to collective decision-making in which participants express their views as free-form text rather than voting on a fixed set of candidates. A natural idea is to embed these opinions in a vector space so that the substantial literature on facility location problems and fair clustering can be brought to bear. But standard text embeddings measure semantic similarity, whereas distances in facility location problems and fair clustering require what we call \\textit{preferential similarity}: a participant's agreement with a piece of text should be inversely related to their distance from it. Off-the-shelf embeddings inherit a coarse preference signal through a correlation between semantic and preferential similarity, but fail to capture preferences when the correlation breaks. We formalize this as an invariance problem: text embedding models encode both a preference-relevant signal (stance and values) and semantic nuisance (style and wording), and the two are observationally correlated, so a geometry that relies on nuisance can appear preference-correct even when it is not. We show that synthetic training data designed to break this correlation provably shifts the optimal scorer away from nuisance-dominated cosine and significantly improves preference prediction across 11 online deliberation datasets.",
+      "pub_date": "Tue, 12 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "偏好嵌入而非语义嵌入",
+        "summary": "本文提出偏好嵌入概念，用于集体决策中自由文本意见的向量表示。标准语义嵌入无法准确反映偏好相似性，存在不变性问题。通过合成训练数据打破语义与偏好相关性，显著提升偏好预测效果。",
+        "summary_en": "This paper proposes preference embeddings for representing free-text opinions in collective decision-making. Standard semantic embeddings fail to capture preferential similarity due to an invariance problem. Synthetic training data that breaks the correlation between semantics and preferences significantly improves preference prediction.",
+        "tags": [
+          "research",
+          "llm",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-13-rss-009",
+        "title": "偏好嵌入而非语义嵌入",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.08360",
+        "language": "en",
+        "summary": "本文提出偏好嵌入概念，用于集体决策中自由文本意见的向量表示。标准语义嵌入无法准确反映偏好相似性，存在不变性问题。通过合成训练数据打破语义与偏好相关性，显著提升偏好预测效果。",
+        "summary_en": "This paper proposes preference embeddings for representing free-text opinions in collective decision-making. Standard semantic embeddings fail to capture preferential similarity due to an invariance problem. Synthetic training data that breaks the correlation between semantics and preferences significantly improves preference prediction.",
+        "tags": [
+          "research",
+          "llm",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-05-13T00:34:25.339220+08:00",
+        "updated_at": "2026-05-13T00:34:25.339221+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "On Distinguishing Capability Elicitation from Capability Creation in Post-Training: A Free-Energy Perspective",
+      "url": "https://arxiv.org/abs/2605.08368",
+      "description": "arXiv:2605.08368v1 Announce Type: new \nAbstract: Debates about large language model post-training often treat supervised fine-tuning (SFT) as imitation and reinforcement learning (RL) as discovery. But this distinction is too coarse. What matters is whether a training procedure increases the probability of behaviors the pretrained model could already produce, or whether it changes what the model can practically reach. We argue that post-training research should distinguish between capability elicitation and capability creation. We make this distinction operational by introducing the notion of accessible support: the set of behaviors that a model can practically produce under finite budgets. Post-training that reweights behaviors within this support is capability elicitation; whereas changing the support itself corresponds to capability creation. We develop this argument through a free-energy view of post-training. SFT and RL can both be seen as reweighting a pretrained reference distribution, only with different external signals. Demonstration signals define low-energy behavior for SFT, and reward signals define low-energy behavior for RL. When the update remains close to the base model, the main effect is local reweighting, not capability creation. Within this framework, the central question is no longer whether post-training is framed as SFT or RL, but whether it reweights behaviors already within reach, or instead expands the model's reachable behavioral space through search, interaction, tool use, or the incorporation of new information.",
+      "pub_date": "Tue, 12 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "区分后训练中的能力激发与能力创造：自由能视角",
+        "summary": "本文从自由能视角出发，提出后训练应区分“能力激发”与“能力创造”。通过“可达支持集”概念，将SFT和RL视为对预训练分布的重加权，关键在于是否扩展模型的可达行为空间，而非训练方法本身。",
+        "summary_en": "From a free-energy perspective, this paper distinguishes capability elicitation from capability creation in post-training. It introduces 'accessible support' to argue that SFT and RL reweight the pretrained distribution; the key is whether the reachable behavioral space expands.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-13-rss-004",
+        "title": "区分后训练中的能力激发与能力创造：自由能视角",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.08368",
+        "language": "en",
+        "summary": "本文从自由能视角出发，提出后训练应区分“能力激发”与“能力创造”。通过“可达支持集”概念，将SFT和RL视为对预训练分布的重加权，关键在于是否扩展模型的可达行为空间，而非训练方法本身。",
+        "summary_en": "From a free-energy perspective, this paper distinguishes capability elicitation from capability creation in post-training. It introduces 'accessible support' to argue that SFT and RL reweight the pretrained distribution; the key is whether the reachable behavioral space expands.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-05-13T00:34:25.339200+08:00",
+        "updated_at": "2026-05-13T00:34:25.339201+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "SalesSim: Benchmarking and Aligning Multimodal Language Models as Retail User Simulators",
+      "url": "https://arxiv.org/abs/2605.08334",
+      "description": "arXiv:2605.08334v1 Announce Type: new \nAbstract: We present SalesSim, a framework and testbed for evaluating the ability of Multimodal Large Language Models (MLLMs) to simulate realistic, persona-driven customer behavior in multi-turn, multi-modal, tool-augmented online retail conversations. Unlike prior work that treat user simulation as surface-level dialogue generation, SalesSim models retail interaction and decision-making as a grounded, agentic process, where shoppers with diverse backgrounds, preferences, and dealbreakers interact with a sales agent, seek clarifications, and make informed purchasing decisions. For evaluation, we design a suite of metrics centered on decision alignment, measuring the consistency between the simulator's actions and its persona specifications, as well as conversational quality. We find several behavioral gaps after benchmarking 6 open and closed-source state-of-the-art models. First, while models produce fluent conversations, they display significantly lower lexical diversity and overdisclosure of criteria across personas compared to human conversations. Second, models tend to be persuaded by sales agent suggestions and drift from persona specifications. Even the strongest model achieves less than 79% average alignment with its underlying persona specifications. To make progress on these limitations, we propose UserGRPO, a multi-turn, multi-objective reinforcement learning recipe to optimize both conversational fluency and decision alignment under persona specifications. Our experiments demonstrate that UserGRPO boosts decision alignment of the baseline model by 13.8% while improving conversational quality. By introducing SalesSim, we provide a new testbed for the community to investigate and improve the adherence of user simulators in goal-oriented settings.",
+      "pub_date": "Tue, 12 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "SalesSim：多模态语言模型作为零售用户模拟器的基准测试与对齐",
+        "summary": "SalesSim是一个评估多模态大模型模拟真实用户购物行为的框架和测试平台。通过多轮、多模态、工具增强的对话，衡量模型决策对齐和对话质量。发现现有模型存在词汇多样性低、易被说服偏离设定等问题。提出UserGRPO强化学习方法，将决策对齐提升13.8%。",
+        "summary_en": "SalesSim is a framework and testbed for evaluating MLLMs as realistic retail user simulators. It measures decision alignment and conversational quality in multi-turn tool-augmented dialogues. Benchmarks reveal models show low lexical diversity and drift from persona. UserGRPO, a multi-objective RL method, boosts decision alignment by 13.8%.",
+        "tags": [
+          "multimodal",
+          "benchmark",
+          "llm",
+          "evaluation",
+          "fine-tuning"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-13-rss-005",
+        "title": "SalesSim：多模态语言模型作为零售用户模拟器的基准测试与对齐",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.08334",
+        "language": "en",
+        "summary": "SalesSim是一个评估多模态大模型模拟真实用户购物行为的框架和测试平台。通过多轮、多模态、工具增强的对话，衡量模型决策对齐和对话质量。发现现有模型存在词汇多样性低、易被说服偏离设定等问题。提出UserGRPO强化学习方法，将决策对齐提升13.8%。",
+        "summary_en": "SalesSim is a framework and testbed for evaluating MLLMs as realistic retail user simulators. It measures decision alignment and conversational quality in multi-turn tool-augmented dialogues. Benchmarks reveal models show low lexical diversity and drift from persona. UserGRPO, a multi-objective RL method, boosts decision alignment by 13.8%.",
+        "tags": [
+          "multimodal",
+          "benchmark",
+          "llm",
+          "evaluation",
+          "fine-tuning"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-05-13T00:34:25.339204+08:00",
+        "updated_at": "2026-05-13T00:34:25.339206+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Sanity Checks for Long-Form Hallucination Detection",
+      "url": "https://arxiv.org/abs/2605.08346",
+      "description": "arXiv:2605.08346v1 Announce Type: new \nAbstract: Hallucination detection methods for large language models increasingly operate on chain-of-thought reasoning traces, yet it remains unclear whether they evaluate the reasoning itself or merely exploit surface correlates of the final answer. We introduce a controlled-invariance methodology that exposes this distinction through two oracle tests: \\textsc{Force}, which replaces each response's final answer with the ground truth while preserving the reasoning trace, and \\textsc{Remove}, which strips answer-announcement steps while leaving the trajectory intact. This reveals if their predictive power derives from answer-level artifacts rather than from the structure or validity of intermediate reasoning. We further show that once these artifacts are controlled for, effective detection does not necessarily require complex learned representations: TRACT, a lightweight scorer built on lexical trajectory features (hedging trends, step-length dynamics, and cross-response vocabulary convergence), achieves strong robustness while remaining competitive with or outperforming existing baselines on unperturbed traces. These findings suggest that the current central challenge in reasoning-aware hallucination detection is not the absence of signal in the trace, but the failure to isolate it from endpoint cues.",
+      "pub_date": "Tue, 12 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "长文本幻觉检测的健全性检查",
+        "summary": "提出一种受控不变性方法，通过Force和Remove两个测试，区分幻觉检测模型评估的是推理过程本身还是最终答案的表面特征。进一步展示TRACT轻量级评分器，基于词汇轨迹特征，在控制伪影后实现稳健检测。",
+        "summary_en": "Introduces a controlled-invariance methodology with two oracle tests (Force and Remove) to distinguish whether hallucination detection evaluates reasoning or answer-level artifacts. Shows that TRACT, a lightweight lexical trajectory scorer, achieves robust detection after controlling for these artifacts.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-13-rss-006",
+        "title": "长文本幻觉检测的健全性检查",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.08346",
+        "language": "en",
+        "summary": "提出一种受控不变性方法，通过Force和Remove两个测试，区分幻觉检测模型评估的是推理过程本身还是最终答案的表面特征。进一步展示TRACT轻量级评分器，基于词汇轨迹特征，在控制伪影后实现稳健检测。",
+        "summary_en": "Introduces a controlled-invariance methodology with two oracle tests (Force and Remove) to distinguish whether hallucination detection evaluates reasoning or answer-level artifacts. Shows that TRACT, a lightweight lexical trajectory scorer, achieves robust detection after controlling for these artifacts.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-05-13T00:34:25.339208+08:00",
+        "updated_at": "2026-05-13T00:34:25.339209+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "How Much Do Circuits Tell Us? Measuring the Consistency and Specificity of Language Model Circuits",
+      "url": "https://arxiv.org/abs/2605.08348",
+      "description": "arXiv:2605.08348v1 Announce Type: new \nAbstract: The circuits framework in mechanistic interpretability aims to identify causally important sparse subgraphs of model components, typically evaluated by measuring necessity and sufficiency. We measure circuit reuse, the proportion of components shared across per-example circuits within a task, and investigate two less-studied properties of this: consistency, the recurrence of components within a task, and specificity, their uniqueness to a task. Using edge attribution patching across six tasks and seven models, we find that within-task reuse is high and that shared components are necessary for task performance, with ablations causing up to $\\sim$100% relative accuracy drops. However, circuits turn out not to be task-specific: ablating one task's circuit damages another task's performance about as much as that task's own circuit does. We discover that this is due to substantial overlap between circuits across tasks, which are causally important for performance. Some circuits do contain a smaller set of task-specific components, but these account for only a modest portion of circuit performance. Overall, our findings suggest that while circuit discovery at the level of attention heads and MLP layers identifies important components, their lack of task-specificity raises questions about the degree to which circuits can support targeted understanding and intervention on model behavior.",
+      "pub_date": "Tue, 12 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "电路告诉我们多少？语言模型电路的一致性与特异性测量",
+        "summary": "本文研究语言模型电路的一致性和特异性。发现任务内电路组件复用率高且必要，但电路并非任务特异：一个任务的电路对另一任务性能损害与自身电路相当。任务间电路重叠大，仅少量组件是任务特异的。这表明电路发现虽重要，但缺乏任务特异性限制了其对模型行为的针对性理解和干预。",
+        "summary_en": "This paper studies consistency and specificity of language model circuits. It finds high within-task reuse and necessity, but circuits are not task-specific: ablating one task's circuit damages another task's performance as much as its own. Substantial cross-task overlap exists, with only a modest portion of task-specific components, questioning targeted intervention.",
+        "tags": [
+          "research",
+          "llm",
+          "interpretability",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-13-rss-007",
+        "title": "电路告诉我们多少？语言模型电路的一致性与特异性测量",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.08348",
+        "language": "en",
+        "summary": "本文研究语言模型电路的一致性和特异性。发现任务内电路组件复用率高且必要，但电路并非任务特异：一个任务的电路对另一任务性能损害与自身电路相当。任务间电路重叠大，仅少量组件是任务特异的。这表明电路发现虽重要，但缺乏任务特异性限制了其对模型行为的针对性理解和干预。",
+        "summary_en": "This paper studies consistency and specificity of language model circuits. It finds high within-task reuse and necessity, but circuits are not task-specific: ablating one task's circuit damages another task's performance as much as its own. Substantial cross-task overlap exists, with only a modest portion of task-specific components, questioning targeted intervention.",
+        "tags": [
+          "research",
+          "llm",
+          "interpretability",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-05-13T00:34:25.339212+08:00",
+        "updated_at": "2026-05-13T00:34:25.339213+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Change My View? The Dynamics of Persuasion and Polarization in Online Discourse",
+      "url": "https://arxiv.org/abs/2605.08383",
+      "description": "arXiv:2605.08383v1 Announce Type: new \nAbstract: Philosophical accounts of persuasion often assume that shared evidence and rational argumentation should lead to a convergence of views between peers, yet everyday discourse often suggests otherwise. In this study, we use large language models to analyze a corpus of debates on Reddit's r/ChangeMyView, where belief revision is publicly signaled. Large language models were asked, halfway through each discussion, to forecast whether such an acknowledgement would arise; their probabilistic estimates serve as a conversational baseline. Each reply was then coded, through a hybrid machine-assisted procedure, for ten familiar rhetorical strategies -- concession, empathy, logical challenge, credibility appeals, and so forth. Adding these strategic features markedly improves predictive power and yields a consistent pattern: moves that express concession or empathetic alignment substantially increase the prospect of belief change, whereas frontal refutation, credibility attacks, and topic deflection diminish it. The findings indicate that effective public reasoning depends as much on relational framing as on evidential content, and they invite a refinement of normative accounts of rational dialogue.",
+      "pub_date": "Tue, 12 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "改变我的观点？在线讨论中的说服与极化动态",
+        "summary": "使用大型语言模型分析Reddit的r/ChangeMyView辩论语料库，研究说服与极化动态。通过混合机器辅助程序对回复进行十种修辞策略编码，发现让步和共情显著增加信念改变的可能性，而正面反驳、可信度攻击和话题偏离则降低这种可能性。结果表明，有效的公共推理既依赖于关系框架也依赖于证据内容。",
+        "summary_en": "Using LLMs to analyze Reddit's r/ChangeMyView debates, this study codes replies for ten rhetorical strategies. Concession and empathy substantially increase belief change, while frontal refutation and credibility attacks diminish it. Effective public reasoning depends on relational framing as much as evidential content.",
+        "tags": [
+          "llm",
+          "research",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-13-rss-010",
+        "title": "改变我的观点？在线讨论中的说服与极化动态",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.08383",
+        "language": "en",
+        "summary": "使用大型语言模型分析Reddit的r/ChangeMyView辩论语料库，研究说服与极化动态。通过混合机器辅助程序对回复进行十种修辞策略编码，发现让步和共情显著增加信念改变的可能性，而正面反驳、可信度攻击和话题偏离则降低这种可能性。结果表明，有效的公共推理既依赖于关系框架也依赖于证据内容。",
+        "summary_en": "Using LLMs to analyze Reddit's r/ChangeMyView debates, this study codes replies for ten rhetorical strategies. Concession and empathy substantially increase belief change, while frontal refutation and credibility attacks diminish it. Effective public reasoning depends on relational framing as much as evidential content.",
+        "tags": [
+          "llm",
+          "research",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-05-13T00:34:25.339224+08:00",
+        "updated_at": "2026-05-13T00:34:25.339225+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "jina-embeddings-v5-omni: Text-Geometry-Preserving Multimodal Embeddings via Frozen-Tower Composition",
+      "url": "https://arxiv.org/abs/2605.08384",
+      "description": "arXiv:2605.08384v1 Announce Type: new \nAbstract: In this work, we introduce frozen-encoder model composition, a novel approach to multimodal embedding models. We build on the VLM-style architecture, in which non-text encoders are adapted to produce input for a language model, which in turn generates embeddings for all varieties of input. We present the result: the jina-embeddings-v5-omni suite, a pair of models that encode text, image, audio, and video input into a single semantic embedding space. Our method is to extend the two Jina Embeddings v5 Text models to support additional media by adding encoders for images and audio. The backbone text embedding models and the added non-text media encoders remain frozen. We only trained the connecting components, representing 0.35% of the total weights of the joint model. Training is therefore much more efficient than full-parameter retraining. Additionally, the language model remains effectively unaltered, producing exactly the same embeddings for text inputs as the Jina Embeddings v5 Text models. Our evaluations show that this approach produces results that are competitive with the state-of-the-art, yielding nearly equal performance to larger multimodal embedding models.",
+      "pub_date": "Tue, 12 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "jina-embeddings-v5-omni：基于冻结塔组合的文本几何保持多模态嵌入",
+        "summary": "提出冻结编码器模型组合方法，通过仅训练0.35%的连接组件，将Jina Embeddings v5文本模型扩展为支持图像、音频和视频的多模态嵌入模型，性能与更大模型相当。",
+        "summary_en": "Introduces frozen-encoder model composition, extending Jina Embeddings v5 text models to support image, audio, and video by training only 0.35% of weights, achieving competitive multimodal embedding performance.",
+        "tags": [
+          "multimodal",
+          "research",
+          "open-source",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-13-rss-008",
+        "title": "jina-embeddings-v5-omni：基于冻结塔组合的文本几何保持多模态嵌入",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.08384",
+        "language": "en",
+        "summary": "提出冻结编码器模型组合方法，通过仅训练0.35%的连接组件，将Jina Embeddings v5文本模型扩展为支持图像、音频和视频的多模态嵌入模型，性能与更大模型相当。",
+        "summary_en": "Introduces frozen-encoder model composition, extending Jina Embeddings v5 text models to support image, audio, and video by training only 0.35% of weights, achieving competitive multimodal embedding performance.",
+        "tags": [
+          "multimodal",
+          "research",
+          "open-source",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-05-13T00:34:25.339216+08:00",
+        "updated_at": "2026-05-13T00:34:25.339217+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}
