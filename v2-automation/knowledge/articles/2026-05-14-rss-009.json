@@ -1,0 +1,24 @@
+{
+  "id": "2026-05-14-rss-009",
+  "title": "偏好嵌入而非语义嵌入",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.08360",
+  "language": "en",
+  "summary": "本文提出偏好嵌入概念，用于集体决策中自由文本意见的向量表示。标准文本嵌入测量语义相似性，但设施选址和公平聚类需要偏好相似性。作者形式化了不变性问题，并通过合成训练数据打破语义干扰与偏好信号的关联，显著提升了偏好预测性能。",
+  "summary_en": "This paper proposes preference embeddings for free-text opinions in collective decision-making. Standard text embeddings measure semantic similarity, but facility location and fair clustering require preferential similarity. The authors formalize an invariance problem and use synthetic training data to break the correlation between semantic nuisance and preference signals, significantly improving preference prediction.",
+  "tags": [
+    "research",
+    "llm",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-05-14T00:35:28.203927+08:00",
+  "updated_at": "2026-05-14T00:35:28.203929+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
