@@ -1,0 +1,477 @@
+{
+  "collected_at": "2026-05-15T00:18:15.432158+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "Think Twice, Act Once: Verifier-Guided Action Selection For Embodied Agents",
+      "url": "https://arxiv.org/abs/2605.12620",
+      "description": "arXiv:2605.12620v1 Announce Type: new \nAbstract: Building generalist embodied agents capable of solving complex real-world tasks remains a fundamental challenge in AI. Multimodal Large Language Models (MLLMs) have significantly advanced the reasoning capabilities of such agents through strong vision-language knowledge and chain-of-thought (CoT) reasoning, yet remain brittle when faced with challenging out-of-distribution scenarios. To address this, we propose Verifier-Guided Action Selection (VegAS), a test-time framework designed to improve the robustness of MLLM-based embodied agents through an explicit verification step. At inference time, rather than committing to a single decoded action, VeGAS samples an ensemble of candidate actions and uses a generative verifier to identify the most reliable choice, without modifying the underlying policy. Crucially, we find that using an MLLM off-the-shelf as a verifier yields no improvement, motivating our LLM-driven data synthesis strategy, which automatically constructs a diverse curriculum of failure cases to expose the verifier to a rich distribution of potential errors at training time. Across embodied reasoning benchmarks spanning the Habitat and ALFRED environments, VeGAS consistently improves generalization, achieving up to a 36% relative performance gain over strong CoT baselines on the most challenging multi-object, long-horizon tasks.",
+      "pub_date": "Thu, 14 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "三思而后行：验证器引导的具身智能体动作选择",
+        "summary": "提出Verifier-Guided Action Selection (VeGAS)框架，通过显式验证步骤提升基于多模态大语言模型的具身智能体在复杂任务中的鲁棒性。VeGAS在推理时采样候选动作集合并使用生成式验证器选择最可靠动作，无需修改底层策略。通过LLM驱动的数据合成策略自动构建失败案例课程，在Habitat和ALFRED基准上实现高达36%的相对性能提升。",
+        "summary_en": "Proposes Verifier-Guided Action Selection (VeGAS), a test-time framework that improves robustness of MLLM-based embodied agents by sampling candidate actions and using a generative verifier to select the most reliable one. An LLM-driven data synthesis strategy automatically constructs failure case curricula. Achieves up to 36% relative improvement on Habitat and ALFRED benchmarks.",
+        "tags": [
+          "multimodal",
+          "research",
+          "agent-framework",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-15-rss-001",
+        "title": "三思而后行：验证器引导的具身智能体动作选择",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.12620",
+        "language": "en",
+        "summary": "提出Verifier-Guided Action Selection (VeGAS)框架，通过显式验证步骤提升基于多模态大语言模型的具身智能体在复杂任务中的鲁棒性。VeGAS在推理时采样候选动作集合并使用生成式验证器选择最可靠动作，无需修改底层策略。通过LLM驱动的数据合成策略自动构建失败案例课程，在Habitat和ALFRED基准上实现高达36%的相对性能提升。",
+        "summary_en": "Proposes Verifier-Guided Action Selection (VeGAS), a test-time framework that improves robustness of MLLM-based embodied agents by sampling candidate actions and using a generative verifier to select the most reliable one. An LLM-driven data synthesis strategy automatically constructs failure case curricula. Achieves up to 36% relative improvement on Habitat and ALFRED benchmarks.",
+        "tags": [
+          "multimodal",
+          "research",
+          "agent-framework",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-05-15T00:18:15.431358+08:00",
+        "updated_at": "2026-05-15T00:18:15.431362+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Macro-Action Based Multi-Agent Instruction Following through Value Cancellation",
+      "url": "https://arxiv.org/abs/2605.12655",
+      "description": "arXiv:2605.12655v1 Announce Type: new \nAbstract: Multi-agent reinforcement learning (MARL) in real-world use cases may need to adapt to external natural language instructions that interrupt ongoing behavior and conflict with long-horizon objectives. However, conditioning rewards on instructions introduces a fundamental failure mode as Bellman updates couple value estimates across instruction contexts, leading to inconsistent values when instructions interrupt macro-actions. We propose Macro-Action Value Correction for Instruction Compliance (MAVIC), which corrects Bellman backups at instruction boundaries by correcting the incoming instruction objective and restoring the continuation value under the current objective. Unlike reward shaping, MAVIC modifies the bootstrapping target itself, enabling consistent value estimation under stochastic instruction switching within a unified policy. We provide theoretical analysis and an actor-critic implementation, and show that MAVIC achieves high instruction compliance while preserving base task performance in increasingly complex cooperative multi-agent environments.",
+      "pub_date": "Thu, 14 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "基于宏动作的多智能体指令跟随：通过价值校正实现",
+        "summary": "提出MAVIC方法，通过修正指令边界处的Bellman备份，解决多智能体强化学习中外部指令与长期目标冲突导致的价值估计不一致问题，实现高指令遵循度并保持基础任务性能。",
+        "summary_en": "Proposes MAVIC, which corrects Bellman backups at instruction boundaries to resolve value estimation inconsistencies in multi-agent RL when external instructions conflict with long-horizon objectives, achieving high instruction compliance while preserving base task performance.",
+        "tags": [
+          "research",
+          "multi-agent",
+          "reinforcement-learning",
+          "instruction-following"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-15-rss-008",
+        "title": "基于宏动作的多智能体指令跟随：通过价值校正实现",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.12655",
+        "language": "en",
+        "summary": "提出MAVIC方法，通过修正指令边界处的Bellman备份，解决多智能体强化学习中外部指令与长期目标冲突导致的价值估计不一致问题，实现高指令遵循度并保持基础任务性能。",
+        "summary_en": "Proposes MAVIC, which corrects Bellman backups at instruction boundaries to resolve value estimation inconsistencies in multi-agent RL when external instructions conflict with long-horizon objectives, achieving high instruction compliance while preserving base task performance.",
+        "tags": [
+          "research",
+          "multi-agent",
+          "reinforcement-learning",
+          "instruction-following"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-05-15T00:18:15.431395+08:00",
+        "updated_at": "2026-05-15T00:18:15.431397+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Do Androids Dream of Breaking the Game? Systematically Auditing AI Agent Benchmarks with BenchJack",
+      "url": "https://arxiv.org/abs/2605.12673",
+      "description": "arXiv:2605.12673v1 Announce Type: new \nAbstract: Agent benchmarks have become the de facto measure of frontier AI competence, guiding model selection, investment, and deployment. However, reward hacking, where agents maximize a score without performing the intended task, emerges spontaneously in frontier models without overfitting. We argue that benchmarks must be secure by design. From past incidents of reward hacks, we derive a taxonomy of eight recurring flaw patterns and compile them into the Agent-Eval Checklist for benchmark designers. We condense the insights into BenchJack, an automated red-teaming system that drives coding agents to audit benchmarks and identify possible reward-hacking exploits in a clairvoyant manner. Moreover, we extend BenchJack to an iterative generative-adversarial pipeline that discovers new flaws and patches them iteratively to improve benchmark robustness. We apply BenchJack to 10 popular agent benchmarks spanning software engineering, web navigation, desktop computing, and terminal operations. BenchJack synthesizes reward-hacking exploits that achieve near-perfect scores on most of the benchmarks without solving a single task, surfacing 219 distinct flaws across the eight classes. Moreover, BenchJack's extended pipeline reduces the hackable-task ratio from near 100% to under 10% on four benchmarks without fatal design flaws, fully patching WebArena and OSWorld within three iterations. Our results show that evaluation pipelines have not internalized an adversarial mindset, and that proactive auditing could help close the security gap for the fast-paced benchmarking space.",
+      "pub_date": "Thu, 14 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "BenchJack：系统审计AI智能体基准测试的自动化红队系统",
+        "summary": "论文提出BenchJack，一个自动化红队系统，用于审计AI智能体基准测试中的奖励黑客漏洞。它基于八种常见缺陷模式，通过对抗性生成-修补流程，在10个流行基准测试中发现219个漏洞，并将可破解任务比例从近100%降至10%以下。",
+        "summary_en": "This paper introduces BenchJack, an automated red-teaming system that audits AI agent benchmarks for reward hacking vulnerabilities. Based on eight recurring flaw patterns, it discovers 219 flaws across 10 benchmarks and reduces hackable-task ratios from near 100% to under 10% via an iterative generative-adversarial pipeline.",
+        "tags": [
+          "benchmark",
+          "security",
+          "agent-framework",
+          "research"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-15-rss-002",
+        "title": "BenchJack：系统审计AI智能体基准测试的自动化红队系统",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.12673",
+        "language": "en",
+        "summary": "论文提出BenchJack，一个自动化红队系统，用于审计AI智能体基准测试中的奖励黑客漏洞。它基于八种常见缺陷模式，通过对抗性生成-修补流程，在10个流行基准测试中发现219个漏洞，并将可破解任务比例从近100%降至10%以下。",
+        "summary_en": "This paper introduces BenchJack, an automated red-teaming system that audits AI agent benchmarks for reward hacking vulnerabilities. Based on eight recurring flaw patterns, it discovers 219 flaws across 10 benchmarks and reduces hackable-task ratios from near 100% to under 10% via an iterative generative-adversarial pipeline.",
+        "tags": [
+          "benchmark",
+          "security",
+          "agent-framework",
+          "research"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-05-15T00:18:15.431366+08:00",
+        "updated_at": "2026-05-15T00:18:15.431368+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Revealing Interpretable Failure Modes of VLMs",
+      "url": "https://arxiv.org/abs/2605.12674",
+      "description": "arXiv:2605.12674v1 Announce Type: new \nAbstract: Vision-Language Models (VLMs) are increasingly used in safety-critical applications because of their broad reasoning capabilities and ability to generalize with minimal task-specific engineering. Despite these advantages, they can exhibit catastrophic failures in specific real-world situations, constituting failure modes.\n  We introduce REVELIO, a framework for systematically uncovering interpretable failure modes in VLMs. We define a failure mode as a composition of interpretable, domain-relevant concepts-such as pedestrian proximity or adverse weather conditions-under which a target VLM consistently behaves incorrectly. Identifying such failures requires searching over an exponentially large discrete combinatorial space. To address this challenge, REVELIO combines two search procedures: a diversity-aware beam search that efficiently maps the failure landscape, and a Gaussian-process Thompson Sampling strategy that enables broader exploration of complex failure modes.\n  We apply REVELIO to autonomous driving and indoor robotics domains, uncovering previously unreported vulnerabilities in state-of-the-art VLMs. In driving environments, the models often demonstrate weak spatial grounding and fail to account for major obstructions, leading to recommendations that would result in simulated crashes. In indoor robotics tasks, VLMs either miss safety hazards or behave excessively conservatively, producing false alarms and reducing operational efficiency. By identifying structured and interpretable failure modes, REVELIO offers actionable insights that can support targeted VLM safety improvements.",
+      "pub_date": "Thu, 14 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "揭示视觉语言模型的可解释故障模式",
+        "summary": "提出REVELIO框架，系统性地发现VLM中的可解释故障模式。通过多样性波束搜索和高斯过程汤普森采样，在自动驾驶和室内机器人领域发现了先前未报告的漏洞，为提升VLM安全性提供可操作见解。",
+        "summary_en": "Introduces REVELIO, a framework for systematically uncovering interpretable failure modes in VLMs. Using diversity-aware beam search and Gaussian-process Thompson Sampling, it reveals previously unreported vulnerabilities in autonomous driving and indoor robotics, offering actionable insights for VLM safety improvements.",
+        "tags": [
+          "research",
+          "multimodal",
+          "benchmark",
+          "security"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-15-rss-009",
+        "title": "揭示视觉语言模型的可解释故障模式",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.12674",
+        "language": "en",
+        "summary": "提出REVELIO框架，系统性地发现VLM中的可解释故障模式。通过多样性波束搜索和高斯过程汤普森采样，在自动驾驶和室内机器人领域发现了先前未报告的漏洞，为提升VLM安全性提供可操作见解。",
+        "summary_en": "Introduces REVELIO, a framework for systematically uncovering interpretable failure modes in VLMs. Using diversity-aware beam search and Gaussian-process Thompson Sampling, it reveals previously unreported vulnerabilities in autonomous driving and indoor robotics, offering actionable insights for VLM safety improvements.",
+        "tags": [
+          "research",
+          "multimodal",
+          "benchmark",
+          "security"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-05-15T00:18:15.431399+08:00",
+        "updated_at": "2026-05-15T00:18:15.431401+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Learning Transferable Latent User Preferences for Human-Aligned Decision Making",
+      "url": "https://arxiv.org/abs/2605.12682",
+      "description": "arXiv:2605.12682v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly used as reasoning modules in many applications. While they are efficient in certain tasks, LLMs often struggle to produce human-aligned solutions. Human-aligned decision making requires accounting for both explicitly stated goals and latent user preferences that shape how ambiguous situations should be resolved. Existing approaches to incorporating such preferences either rely on extensive and repeated user interactions or fail to generalize latent preferences across tasks and contexts, limiting their practical applicability. We consider a setting in which an LLM is used for high-level reasoning and is responsible for inferring latent user preferences from limited interactions, which guides downstream decision making. We introduce CLIPR (Conversational Learning for Inferring Preferences and Reasoning), a framework that learns actionable, transferable natural language rules that represent latent user preferences from minimal conversational input. These rules are iteratively refined through adaptive feedback and applied to both in-distribution and out-of-distribution ambiguous tasks across multiple environments. Evaluations on three datasets and a user study show that CLIPR consistently outperforms existing methods in improving alignment and reducing inference costs.",
+      "pub_date": "Thu, 14 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "学习可迁移的潜在用户偏好以实现人类对齐决策",
+        "summary": "提出CLIPR框架，通过有限对话交互学习可迁移的自然语言规则，表示潜在用户偏好，并迭代优化以指导LLM推理，提升人类对齐并降低推理成本。",
+        "summary_en": "Introduces CLIPR, a framework that learns transferable natural language rules representing latent user preferences from minimal conversational input, iteratively refines them, and applies them to guide LLM reasoning for improved human alignment and reduced inference cost.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-15-rss-006",
+        "title": "学习可迁移的潜在用户偏好以实现人类对齐决策",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.12682",
+        "language": "en",
+        "summary": "提出CLIPR框架，通过有限对话交互学习可迁移的自然语言规则，表示潜在用户偏好，并迭代优化以指导LLM推理，提升人类对齐并降低推理成本。",
+        "summary_en": "Introduces CLIPR, a framework that learns transferable natural language rules representing latent user preferences from minimal conversational input, iteratively refines them, and applies them to guide LLM reasoning for improved human alignment and reduced inference cost.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-05-15T00:18:15.431383+08:00",
+        "updated_at": "2026-05-15T00:18:15.431385+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Sampling More, Getting Less: Calibration is the Diversity Bottleneck in LLMs",
+      "url": "https://arxiv.org/abs/2605.11128",
+      "description": "arXiv:2605.11128v1 Announce Type: new \nAbstract: Diversity is essential for language-model applications ranging from creative generation to scientific discovery, yet modern LLMs often collapse into a narrow subset of plausible outputs. While prior work has developed benchmarks for measuring this lack of diversity, less is known about how the step-by-step probability distributions at inference time cause the problem. We introduce a validity--diversity framework that attributes diversity collapse to how an LLM allocates probability mass across valid and invalid continuations during decoding. This framework decomposes the bottleneck into two complementary forms of miscalibration. First, order calibration: valid tokens are not reliably ranked above invalid tokens, so rank-based cutoff rules must trade off between recovering valid continuations and admitting invalid ones. Second, shape calibration: probability mass is overly concentrated only on few valid continuations while having a heavy-tail of mixed valid and invalid tokens, so maintaining high validity limits diversity. We formalize both mechanisms and show that local failures compound across decoding steps, producing strong sequence-level losses in diversity. Empirically, we develop controlled diagnostics for probing these bottlenecks, including tasks with exactly known valid sets and oracle cutoff baselines. Across 14 language models spanning multiple families and scales, we find that diversity collapse is not merely a limitation of particular sampling heuristics, but a consequence of order and shape miscalibration in the LLM distribution.",
+      "pub_date": "Thu, 14 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "采样越多，多样性越少：校准是LLM多样性的瓶颈",
+        "summary": "本文提出一个有效性-多样性框架，将LLM输出多样性崩溃归因于解码时的两种校准错误：顺序校准（有效token未可靠排在无效token之上）和形状校准（概率质量过度集中在少数有效token上）。实验表明，多样性崩溃不仅是采样启发式的局限，更是LLM分布中顺序和形状校准不良的后果。",
+        "summary_en": "This paper introduces a validity-diversity framework attributing LLM diversity collapse to two forms of miscalibration during decoding: order calibration (valid tokens not reliably ranked above invalid ones) and shape calibration (probability mass overly concentrated on few valid tokens). Experiments show diversity collapse is a consequence of distribution miscalibration, not just sampling heuristics.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-15-rss-003",
+        "title": "采样越多，多样性越少：校准是LLM多样性的瓶颈",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.11128",
+        "language": "en",
+        "summary": "本文提出一个有效性-多样性框架，将LLM输出多样性崩溃归因于解码时的两种校准错误：顺序校准（有效token未可靠排在无效token之上）和形状校准（概率质量过度集中在少数有效token上）。实验表明，多样性崩溃不仅是采样启发式的局限，更是LLM分布中顺序和形状校准不良的后果。",
+        "summary_en": "This paper introduces a validity-diversity framework attributing LLM diversity collapse to two forms of miscalibration during decoding: order calibration (valid tokens not reliably ranked above invalid ones) and shape calibration (probability mass overly concentrated on few valid tokens). Experiments show diversity collapse is a consequence of distribution miscalibration, not just sampling heuristics.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-05-15T00:18:15.431371+08:00",
+        "updated_at": "2026-05-15T00:18:15.431372+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "ClinicalBench: Stress-Testing Assertion-Aware Retrieval for Cross-Admission Clinical QA on MIMIC-IV",
+      "url": "https://arxiv.org/abs/2605.11143",
+      "description": "arXiv:2605.11143v1 Announce Type: new \nAbstract: Reasoning benchmarks measure clinical performance on clean inputs. We evaluate the step before reasoning: retrieval over real EHR notes, where negation, temporality, and family-versus-patient attribution can flip a correct answer to a wrong one. EpiKG carries an assertion label and a temporality tag with every fact in a patient knowledge graph, then routes retrieval by question intent. ClinicalBench is a 400-question test over 43 MIMIC-IV patients across 9 assertion-sensitive categories. A 7-condition ablation tests each piece of EpiKG across six LLMs (Claude Opus 4.6, GPT-OSS 20B, MedGemma 27B, Gemma 4 31B, MedGemma 1.5 4B, Qwen 3.5 35B). Three physicians blindly adjudicated 100 paired items. The author-blind primary endpoint, leave-author-out paired exact McNemar on 50 unanimous-strict items rated by two external physicians, yields +22.0 percentage points (95 percent Newcombe CI [+5.1, +31.5], p=0.0192). The architectural novelty, intent-aware KG-RAG over a Contriever dense-RAG baseline (C2b to C4g_kw on the change-excluded n=362 endpoint), is +8.84 percentage points (paired McNemar p=1.79e-3); +12.43 percentage points under oracle intent. Sensitivities agree directionally: three-rater physician majority +24.0 percentage points (subject to single-author circularity); deterministic keyword reproducibility proxy +39.5 percentage points. Across the six models, the gain shrinks as the LLM-alone baseline rises (beta=-1.123, r=-0.921, p=0.009). With n=6 this looks more like regression to the mean than encoding substituting for model size. Physician adjudication identified 56 percent of auto-generated reference answers as defective, a methodological finding indicating that NLP-pipeline clinical-QA benchmarks require physician adjudication to be usable. ClinicalBench, the frozen evaluator, three-rater adjudication data, and the EpiKG output stack are publicly released.",
+      "pub_date": "Thu, 14 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "ClinicalBench：面向临床QA的断言感知检索压力测试",
+        "summary": "提出ClinicalBench基准和EpiKG方法，用于评估临床QA中基于真实电子病历的检索步骤。EpiKG通过断言标签和时间标签构建患者知识图谱，按问题意图路由检索。在43名MIMIC-IV患者、400个问题上测试，相比基线提升8.84个百分点。发现56%的自动生成参考答案有缺陷，强调需要医生裁决。",
+        "summary_en": "Proposes ClinicalBench benchmark and EpiKG method to evaluate retrieval over real EHR notes for clinical QA. EpiKG uses assertion and temporality labels in a patient KG, routing retrieval by question intent. Achieves +8.84 pp over baseline on 400 questions from 43 MIMIC-IV patients. Finds 56% of auto-generated reference answers defective, highlighting need for physician adjudication.",
+        "tags": [
+          "benchmark",
+          "rag",
+          "research",
+          "llm"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-15-rss-007",
+        "title": "ClinicalBench：面向临床QA的断言感知检索压力测试",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.11143",
+        "language": "en",
+        "summary": "提出ClinicalBench基准和EpiKG方法，用于评估临床QA中基于真实电子病历的检索步骤。EpiKG通过断言标签和时间标签构建患者知识图谱，按问题意图路由检索。在43名MIMIC-IV患者、400个问题上测试，相比基线提升8.84个百分点。发现56%的自动生成参考答案有缺陷，强调需要医生裁决。",
+        "summary_en": "Proposes ClinicalBench benchmark and EpiKG method to evaluate retrieval over real EHR notes for clinical QA. EpiKG uses assertion and temporality labels in a patient KG, routing retrieval by question intent. Achieves +8.84 pp over baseline on 400 questions from 43 MIMIC-IV patients. Finds 56% of auto-generated reference answers defective, highlighting need for physician adjudication.",
+        "tags": [
+          "benchmark",
+          "rag",
+          "research",
+          "llm"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-05-15T00:18:15.431387+08:00",
+        "updated_at": "2026-05-15T00:18:15.431389+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Decomposing Evolutionary Mixture-of-LoRA Architectures: The Routing Lever, the Lifecycle Penalty, and a Substrate-Conditional Boundary",
+      "url": "https://arxiv.org/abs/2605.11153",
+      "description": "arXiv:2605.11153v1 Announce Type: new \nAbstract: We decompose an evolutionary mixture-of-LoRA system on a from-scratch ~150M-parameter widened-D substrate (D=1536, V=32000; D/V approx 0.048; the \"widened-1536\" substrate) into three factors -- a router rewrite (parallel sigmoid gate with learnable per-adapter floor and bounded temperature anneal, fed post-stack hidden states rather than token-embedding means), a per-domain leave-one-out evaluation scope, and a lifecycle of death plus alpha-blend inheritance plus SVD mutation plus slot reallocation -- and report a 5-of-8 partial 2^3 factorial run at n=3 seeds and 25000 adaptation steps per cell. The attribution chain is sharp on this substrate: the router rewrite carries the entire +0.0426 nat balanced log-PPL improvement (Delta = log PPL_ref - log PPL_test, positive = improvement; t=12.86, p=0.006) attributed to \"the full evolutionary system vs the static B3 baseline\"; the headline full-system-vs-B3 balanced contrast itself is +0.015 nats, t=1.94, p=0.19 at n=3 and does not clear alpha=0.05. The per-domain evaluation scope is null at seed-resolution, and the lifecycle is a net drag of approx -0.028 nats (t=-4.46,p=0.047 in the primary chain). An auxiliary alpha=0 inheritance counterfactual at n=3 seeds is sign-inconsistent at the headline metric and underpowered for either an equivalence or load-bearing conclusion (corrected from an earlier arithmetic-mean aggregator that erroneously cleared inheritance; see Appendix B.11). A base-perturbation probe directionally refutes a \"genomic-context\" reframe of the lifecycle role. A controllable synthetic sandbox locates a substrate-conditional regime boundary: evolutionary search on the routing channel is load-bearing only when adapters are pre-aligned to the task; in every other regime tested it underperforms, ties, or actively degrades the gradient solution.",
+      "pub_date": "Thu, 14 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "演化混合LoRA架构分解：路由机制、生命周期惩罚与基底条件边界",
+        "summary": "分解演化混合LoRA系统为三个因素：路由器重写、领域评估范围、生命周期（死亡+alpha混合+SVD变异+槽位重分配）。在~150M参数基底上，路由器重写带来+0.0426 nat的平衡log-PPL改进，而生命周期是净拖累（约-0.028 nats）。合成沙盒定位基底条件边界：仅当适配器预对齐任务时，路由通道的演化搜索才有效。",
+        "summary_en": null,
+        "tags": [
+          "research",
+          "fine-tuning",
+          "llm",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-15-rss-010",
+        "title": "演化混合LoRA架构分解：路由机制、生命周期惩罚与基底条件边界",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.11153",
+        "language": "en",
+        "summary": "分解演化混合LoRA系统为三个因素：路由器重写、领域评估范围、生命周期（死亡+alpha混合+SVD变异+槽位重分配）。在~150M参数基底上，路由器重写带来+0.0426 nat的平衡log-PPL改进，而生命周期是净拖累（约-0.028 nats）。合成沙盒定位基底条件边界：仅当适配器预对齐任务时，路由通道的演化搜索才有效。",
+        "summary_en": null,
+        "tags": [
+          "research",
+          "fine-tuning",
+          "llm",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-05-15T00:18:15.431404+08:00",
+        "updated_at": "2026-05-15T00:18:15.431405+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "The Bicameral Model: Bidirectional Hidden-State Coupling Between Parallel Language Models",
+      "url": "https://arxiv.org/abs/2605.11167",
+      "description": "arXiv:2605.11167v1 Announce Type: new \nAbstract: Existing multi-model and tool-augmented systems communicate by generating text, serializing every exchange through the output vocabulary. Can two pretrained language models instead coordinate through a continuous, concurrent channel? The Bicameral Model couples two frozen language models through a trainable neural interface on their intermediate hidden states. At every generation step, both models run in lockstep: a primary model drives the task while an auxiliary model operates tools, solves constraints, or executes code, with both conditioning on each other's activations through a translation network and a learned suppression gate ($\\sim$1\\% of combined parameters). The gate learns a selective communication protocol from task loss alone, without a prescribed format. We demonstrate the mechanism across three tool backends. On arithmetic, coupling two 0.5B models with a calculator raises accuracy from 36\\% to 96\\%. On logic grid puzzles, coupling two 0.6B models with a Z3 solver achieves $1.7\\times$ the unaugmented baseline on ZebraLogic. On mathematical reasoning, coupling with a Python sandbox enables the auxiliary to generate problem-specific code from hidden-state signals alone, without ever seeing the problem text.",
+      "pub_date": "Thu, 14 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "双院模型：并行语言模型间的双向隐状态耦合",
+        "summary": "提出双院模型，通过可训练神经接口耦合两个冻结的预训练语言模型的中间隐状态，实现连续、并发的协调。主模型驱动任务，辅助模型操作工具，通过翻译网络和抑制门学习选择性通信协议，无需预设格式。在算术、逻辑谜题和数学推理任务上显著提升性能。",
+        "summary_en": "Proposes the Bicameral Model, coupling two frozen pretrained language models via a trainable neural interface on intermediate hidden states for continuous, concurrent coordination. A primary model drives the task while an auxiliary operates tools, learning a selective communication protocol from task loss alone. Achieves significant accuracy gains on arithmetic, logic puzzles, and math reasoning.",
+        "tags": [
+          "llm",
+          "research",
+          "infrastructure",
+          "tool"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-15-rss-004",
+        "title": "双院模型：并行语言模型间的双向隐状态耦合",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.11167",
+        "language": "en",
+        "summary": "提出双院模型，通过可训练神经接口耦合两个冻结的预训练语言模型的中间隐状态，实现连续、并发的协调。主模型驱动任务，辅助模型操作工具，通过翻译网络和抑制门学习选择性通信协议，无需预设格式。在算术、逻辑谜题和数学推理任务上显著提升性能。",
+        "summary_en": "Proposes the Bicameral Model, coupling two frozen pretrained language models via a trainable neural interface on intermediate hidden states for continuous, concurrent coordination. A primary model drives the task while an auxiliary operates tools, learning a selective communication protocol from task loss alone. Achieves significant accuracy gains on arithmetic, logic puzzles, and math reasoning.",
+        "tags": [
+          "llm",
+          "research",
+          "infrastructure",
+          "tool"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-05-15T00:18:15.431375+08:00",
+        "updated_at": "2026-05-15T00:18:15.431376+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "How Does Differential Privacy Affect Social Bias in LLMs? A Systematic Evaluation",
+      "url": "https://arxiv.org/abs/2605.11195",
+      "description": "arXiv:2605.11195v1 Announce Type: new \nAbstract: Large language models (LLMs) trained on web-scale corpora can memorize sensitive training data, posing significant privacy risks. Differential privacy (DP) has emerged as a principled framework that limits the influence of individual data points during training, yet the relationship between differential privacy and social bias in LLMs remains poorly understood. To investigate this, we present a systematic evaluation of social bias in a pretrained LLM trained with DP-SGD, comparing a DP model against non-DP baselines across four complementary paradigms: sentence scoring, text completion, tabular classification, and question answering. We find that DP reduces bias in sentence scoring tasks, where bias is measured through controlled likelihood comparisons, yet this improvement does not generalize across all tasks. Our results reveal a discrepancy between logit-level bias and output-level bias. Moreover, decreasing memorization does not necessarily reduce unfairness, underscoring the importance of multi-paradigm evaluation when assessing fairness in LLMs.",
+      "pub_date": "Thu, 14 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "差分隐私如何影响大语言模型中的社会偏见？一项系统评估",
+        "summary": "本文系统评估了差分隐私（DP）对预训练LLM中社会偏见的影响。通过四种范式（句子评分、文本补全、表格分类、问答）对比DP模型与非DP基线，发现DP在句子评分任务中减少偏见，但该改善不泛化至所有任务。结果表明logit级偏见与输出级偏见存在差异，且减少记忆不一定降低不公平性，强调了多范式评估公平性的重要性。",
+        "summary_en": "This paper systematically evaluates how differential privacy (DP) affects social bias in pretrained LLMs. Comparing DP models with non-DP baselines across four paradigms (sentence scoring, text completion, tabular classification, QA), it finds DP reduces bias in sentence scoring but this improvement does not generalize. Results reveal a discrepancy between logit-level and output-level bias, and reducing memorization does not necessarily reduce unfairness, underscoring the need for multi-paradigm evaluation.",
+        "tags": [
+          "llm",
+          "research",
+          "security",
+          "evaluation",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-15-rss-005",
+        "title": "差分隐私如何影响大语言模型中的社会偏见？一项系统评估",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.11195",
+        "language": "en",
+        "summary": "本文系统评估了差分隐私（DP）对预训练LLM中社会偏见的影响。通过四种范式（句子评分、文本补全、表格分类、问答）对比DP模型与非DP基线，发现DP在句子评分任务中减少偏见，但该改善不泛化至所有任务。结果表明logit级偏见与输出级偏见存在差异，且减少记忆不一定降低不公平性，强调了多范式评估公平性的重要性。",
+        "summary_en": "This paper systematically evaluates how differential privacy (DP) affects social bias in pretrained LLMs. Comparing DP models with non-DP baselines across four paradigms (sentence scoring, text completion, tabular classification, QA), it finds DP reduces bias in sentence scoring but this improvement does not generalize. Results reveal a discrepancy between logit-level and output-level bias, and reducing memorization does not necessarily reduce unfairness, underscoring the need for multi-paradigm evaluation.",
+        "tags": [
+          "llm",
+          "research",
+          "security",
+          "evaluation",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-05-15T00:18:15.431379+08:00",
+        "updated_at": "2026-05-15T00:18:15.431380+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

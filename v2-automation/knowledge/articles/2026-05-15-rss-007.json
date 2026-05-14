@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-15-rss-007",
+  "title": "ClinicalBench：面向临床QA的断言感知检索压力测试",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.11143",
+  "language": "en",
+  "summary": "提出ClinicalBench基准和EpiKG方法，用于评估临床QA中基于真实电子病历的检索步骤。EpiKG通过断言标签和时间标签构建患者知识图谱，按问题意图路由检索。在43名MIMIC-IV患者、400个问题上测试，相比基线提升8.84个百分点。发现56%的自动生成参考答案有缺陷，强调需要医生裁决。",
+  "summary_en": "Proposes ClinicalBench benchmark and EpiKG method to evaluate retrieval over real EHR notes for clinical QA. EpiKG uses assertion and temporality labels in a patient KG, routing retrieval by question intent. Achieves +8.84 pp over baseline on 400 questions from 43 MIMIC-IV patients. Finds 56% of auto-generated reference answers defective, highlighting need for physician adjudication.",
+  "tags": [
+    "benchmark",
+    "rag",
+    "research",
+    "llm"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-05-15T00:18:15.431387+08:00",
+  "updated_at": "2026-05-15T00:18:15.431389+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

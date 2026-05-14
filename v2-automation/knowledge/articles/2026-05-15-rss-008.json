@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-15-rss-008",
+  "title": "基于宏动作的多智能体指令跟随：通过价值校正实现",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.12655",
+  "language": "en",
+  "summary": "提出MAVIC方法，通过修正指令边界处的Bellman备份，解决多智能体强化学习中外部指令与长期目标冲突导致的价值估计不一致问题，实现高指令遵循度并保持基础任务性能。",
+  "summary_en": "Proposes MAVIC, which corrects Bellman backups at instruction boundaries to resolve value estimation inconsistencies in multi-agent RL when external instructions conflict with long-horizon objectives, achieving high instruction compliance while preserving base task performance.",
+  "tags": [
+    "research",
+    "multi-agent",
+    "reinforcement-learning",
+    "instruction-following"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-05-15T00:18:15.431395+08:00",
+  "updated_at": "2026-05-15T00:18:15.431397+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
