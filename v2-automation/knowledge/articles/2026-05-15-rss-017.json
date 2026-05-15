@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-15-rss-017",
+  "title": "多语言知识编辑的合并方法：一项实证研究",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.13919",
+  "language": "en",
+  "summary": "本文系统研究了向量合并方法在多语言知识编辑（MKE）中的有效性。实验表明，带共享协方差的向量求和是最可靠的策略，而简单求和效果差。任务奇异向量合并（TSVM）在部分场景有效，但缓解多语言干扰的能力有限。性能对权重缩放因子和秩压缩比敏感，较大缩放和较低秩通常效果更好。",
+  "summary_en": "This paper empirically investigates vector merging methods for multilingual knowledge editing (MKE). Results show that vector summation with shared covariance is the most reliable strategy, while simple summation performs poorly. TSVM offers limited improvement in mitigating multilingual interference. Performance is sensitive to weight scaling and rank compression, with larger scaling and lower rank often yielding better results.",
+  "tags": [
+    "llm",
+    "research",
+    "multilingual",
+    "fine-tuning"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-05-15T21:19:50.392033+08:00",
+  "updated_at": "2026-05-15T21:19:50.392034+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

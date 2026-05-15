@@ -1,0 +1,26 @@
+{
+  "id": "2026-05-15-rss-018",
+  "title": "Physics-R1：用于视觉物理推理的经审计的奥林匹克竞赛语料库与配方",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.14040",
+  "language": "en",
+  "summary": "本文审计了多模态物理评估流程，发现训练-测试污染、翻译漂移和选择题饱和三大问题。发布了经审计的语料库PhysCorp-A、闭式强化学习池PhysR1Corp、全新来源的奥林匹克评估集PhysOlym-A，以及基于Qwen3-VL-8B-Thinking冷启动的参考配方Physics-R1。实验表明，Physics-R1在多个基准上显著提升性能，部分指标超越更大模型。",
+  "summary_en": "This paper audits the multimodal physics evaluation pipeline, uncovering train-test contamination, translation drift, and MCQ saturation. It releases an audited corpus (PhysCorp-A), a closed-form RL pool (PhysR1Corp), a novel-source olympiad eval (PhysOlym-A), and a reference recipe (Physics-R1) cold-started from Qwen3-VL-8B-Thinking. Physics-R1 significantly improves performance across benchmarks, sometimes surpassing larger models.",
+  "tags": [
+    "research",
+    "benchmark",
+    "multimodal",
+    "fine-tuning",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-05-15T21:19:50.392037+08:00",
+  "updated_at": "2026-05-15T21:19:50.392039+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

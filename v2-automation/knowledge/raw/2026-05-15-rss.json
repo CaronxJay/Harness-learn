@@ -1,48 +1,48 @@
 {
-  "collected_at": "2026-05-15T00:18:15.432158+08:00",
+  "collected_at": "2026-05-15T21:19:50.392870+08:00",
   "source": "rss",
   "count": 10,
   "items": [
     {
-      "title": "Think Twice, Act Once: Verifier-Guided Action Selection For Embodied Agents",
-      "url": "https://arxiv.org/abs/2605.12620",
-      "description": "arXiv:2605.12620v1 Announce Type: new \nAbstract: Building generalist embodied agents capable of solving complex real-world tasks remains a fundamental challenge in AI. Multimodal Large Language Models (MLLMs) have significantly advanced the reasoning capabilities of such agents through strong vision-language knowledge and chain-of-thought (CoT) reasoning, yet remain brittle when faced with challenging out-of-distribution scenarios. To address this, we propose Verifier-Guided Action Selection (VegAS), a test-time framework designed to improve the robustness of MLLM-based embodied agents through an explicit verification step. At inference time, rather than committing to a single decoded action, VeGAS samples an ensemble of candidate actions and uses a generative verifier to identify the most reliable choice, without modifying the underlying policy. Crucially, we find that using an MLLM off-the-shelf as a verifier yields no improvement, motivating our LLM-driven data synthesis strategy, which automatically constructs a diverse curriculum of failure cases to expose the verifier to a rich distribution of potential errors at training time. Across embodied reasoning benchmarks spanning the Habitat and ALFRED environments, VeGAS consistently improves generalization, achieving up to a 36% relative performance gain over strong CoT baselines on the most challenging multi-object, long-horizon tasks.",
-      "pub_date": "Thu, 14 May 2026 00:00:00 -0400",
+      "title": "GraphBit: A Graph-based Agentic Framework for Non-Linear Agent Orchestration",
+      "url": "https://arxiv.org/abs/2605.13848",
+      "description": "arXiv:2605.13848v1 Announce Type: new \nAbstract: Agentic LLM frameworks that rely on prompted orchestration, where the model itself determines workflow transitions, often suffer from hallucinated routing, infinite loops, and non-reproducible execution. We introduce GraphBit, an engine-orchestrated framework that defines workflows explicitly and deterministically as a directed acyclic graph (DAG). Unlike prompted orchestration, agents in GraphBit operate as typed functions, while a Rust-based engine governs routing, state transitions, and tool invocation, ensuring reproducibility and auditability. The engine supports parallel branch execution, conditional control flow over structured state predicates, and configurable error recovery. A three-tier memory architecture consisting of ephemeral scratch space, structured state, and external connectors isolates context across stages, preventing cascading context bloat that degrades reasoning in long-running pipelines. Across GAIA benchmark tasks spanning zero-tool, document-augmented, and web-enabled workflows, GraphBit outperforms six existing frameworks, achieving the highest accuracy (67.6 percent), zero framework-induced hallucinations, the lowest latency (11.9 ms overhead), and the highest throughput. Ablation studies demonstrate that each memory tier contributes measurably to performance, with deterministic execution providing the greatest gains on tool-intensive tasks representative of real-world deployments.",
+      "pub_date": "Fri, 15 May 2026 00:00:00 -0400",
       "source_feed": "arxiv_cs_ai",
       "_source": "rss",
       "_analysis": {
-        "title": "三思而后行：验证器引导的具身智能体动作选择",
-        "summary": "提出Verifier-Guided Action Selection (VeGAS)框架，通过显式验证步骤提升基于多模态大语言模型的具身智能体在复杂任务中的鲁棒性。VeGAS在推理时采样候选动作集合并使用生成式验证器选择最可靠动作，无需修改底层策略。通过LLM驱动的数据合成策略自动构建失败案例课程，在Habitat和ALFRED基准上实现高达36%的相对性能提升。",
-        "summary_en": "Proposes Verifier-Guided Action Selection (VeGAS), a test-time framework that improves robustness of MLLM-based embodied agents by sampling candidate actions and using a generative verifier to select the most reliable one. An LLM-driven data synthesis strategy automatically constructs failure case curricula. Achieves up to 36% relative improvement on Habitat and ALFRED benchmarks.",
+        "title": "GraphBit：基于图的非线形智能体编排框架",
+        "summary": "GraphBit 是一种引擎编排的框架，将工作流显式定义为有向无环图（DAG），代理作为类型化函数运行，由 Rust 引擎控制路由、状态转换和工具调用。它支持并行分支、条件控制流和三层记忆架构，在 GAIA 基准测试中达到 67.6% 的准确率、零框架幻觉、最低延迟（11.9 ms）和最高吞吐量。",
+        "summary_en": "GraphBit is an engine-orchestrated framework that defines workflows as directed acyclic graphs (DAGs), with agents operating as typed functions and a Rust-based engine governing routing, state transitions, and tool invocation. It supports parallel branches, conditional control flow, and a three-tier memory architecture, achieving 67.6% accuracy, zero framework-induced hallucinations, lowest latency (11.9 ms), and highest throughput on GAIA benchmarks.",
         "tags": [
-          "multimodal",
-          "research",
           "agent-framework",
-          "llm"
+          "research",
+          "rust",
+          "benchmark"
         ],
-        "category": "research",
+        "category": "agent-framework",
         "relevance_score": 1.0,
         "language": "en"
       },
       "_article": {
-        "id": "2026-05-15-rss-001",
-        "title": "三思而后行：验证器引导的具身智能体动作选择",
+        "id": "2026-05-15-rss-011",
+        "title": "GraphBit：基于图的非线形智能体编排框架",
         "source": "rss_trending",
-        "source_url": "https://arxiv.org/abs/2605.12620",
+        "source_url": "https://arxiv.org/abs/2605.13848",
         "language": "en",
-        "summary": "提出Verifier-Guided Action Selection (VeGAS)框架，通过显式验证步骤提升基于多模态大语言模型的具身智能体在复杂任务中的鲁棒性。VeGAS在推理时采样候选动作集合并使用生成式验证器选择最可靠动作，无需修改底层策略。通过LLM驱动的数据合成策略自动构建失败案例课程，在Habitat和ALFRED基准上实现高达36%的相对性能提升。",
-        "summary_en": "Proposes Verifier-Guided Action Selection (VeGAS), a test-time framework that improves robustness of MLLM-based embodied agents by sampling candidate actions and using a generative verifier to select the most reliable one. An LLM-driven data synthesis strategy automatically constructs failure case curricula. Achieves up to 36% relative improvement on Habitat and ALFRED benchmarks.",
+        "summary": "GraphBit 是一种引擎编排的框架，将工作流显式定义为有向无环图（DAG），代理作为类型化函数运行，由 Rust 引擎控制路由、状态转换和工具调用。它支持并行分支、条件控制流和三层记忆架构，在 GAIA 基准测试中达到 67.6% 的准确率、零框架幻觉、最低延迟（11.9 ms）和最高吞吐量。",
+        "summary_en": "GraphBit is an engine-orchestrated framework that defines workflows as directed acyclic graphs (DAGs), with agents operating as typed functions and a Rust-based engine governing routing, state transitions, and tool invocation. It supports parallel branches, conditional control flow, and a three-tier memory architecture, achieving 67.6% accuracy, zero framework-induced hallucinations, lowest latency (11.9 ms), and highest throughput on GAIA benchmarks.",
         "tags": [
-          "multimodal",
-          "research",
           "agent-framework",
-          "llm"
+          "research",
+          "rust",
+          "benchmark"
         ],
-        "category": "research",
+        "category": "agent-framework",
         "relevance_score": 1.0,
         "status": "published",
-        "created_at": "2026-05-15T00:18:15.431358+08:00",
-        "updated_at": "2026-05-15T00:18:15.431362+08:00",
+        "created_at": "2026-05-15T21:19:50.392000+08:00",
+        "updated_at": "2026-05-15T21:19:50.392004+08:00",
         "metadata": {
           "stars": null,
           "hn_points": null,
@@ -51,45 +51,45 @@
       }
     },
     {
-      "title": "Macro-Action Based Multi-Agent Instruction Following through Value Cancellation",
-      "url": "https://arxiv.org/abs/2605.12655",
-      "description": "arXiv:2605.12655v1 Announce Type: new \nAbstract: Multi-agent reinforcement learning (MARL) in real-world use cases may need to adapt to external natural language instructions that interrupt ongoing behavior and conflict with long-horizon objectives. However, conditioning rewards on instructions introduces a fundamental failure mode as Bellman updates couple value estimates across instruction contexts, leading to inconsistent values when instructions interrupt macro-actions. We propose Macro-Action Value Correction for Instruction Compliance (MAVIC), which corrects Bellman backups at instruction boundaries by correcting the incoming instruction objective and restoring the continuation value under the current objective. Unlike reward shaping, MAVIC modifies the bootstrapping target itself, enabling consistent value estimation under stochastic instruction switching within a unified policy. We provide theoretical analysis and an actor-critic implementation, and show that MAVIC achieves high instruction compliance while preserving base task performance in increasingly complex cooperative multi-agent environments.",
-      "pub_date": "Thu, 14 May 2026 00:00:00 -0400",
+      "title": "Mixed Integer Goal Programming for Personalized Meal Optimization with User-Defined Serving Granularity",
+      "url": "https://arxiv.org/abs/2605.13849",
+      "description": "arXiv:2605.13849v1 Announce Type: new \nAbstract: Determining what to eat to satisfy nutritional requirements is one of the oldest optimization problems in operations research, yet existing formulations have two persistent limitations: continuous variables produce impractical fractional servings (1.7 eggs, 0.37 bananas), and hard nutrient constraints cause infeasibility when targets conflict. A systematic review of 56 diet optimization papers found that none combine integer programming with goal programming to address both issues. We propose Mixed Integer Goal Programming (MIGP) for personalized meal optimization. The formulation uses integer variables for practical serving counts and goal programming deviations for soft nutrient targets, with inverse-target normalization to balance multi-nutrient optimization. Per-food serving granularity allows natural units (one egg, one tablespoon of oil) without post-hoc rounding. We characterize the integrality gap in the goal programming context and identify a deviation absorption property: GP deviation variables buffer the cost of requiring integer servings, making the gap structurally smaller than in hard-constraint MIP. For meals with 15+ foods, the integer solution matches the continuous optimum in every benchmark instance. A computational evaluation across 810 instances (30 USDA foods, 9 configurations, 3 methods) shows MIGP finds strictly better solutions than GP with post-hoc rounding in 66% of cases (never worse) while maintaining 100% feasibility; hard-constraint IP achieves only 48%. Solve times stay under 100 ms for typical meal sizes using the open-source HiGHS solver. The implementation is available as an open-source Python module integrated into an interactive meal planning application.",
+      "pub_date": "Fri, 15 May 2026 00:00:00 -0400",
       "source_feed": "arxiv_cs_ai",
       "_source": "rss",
       "_analysis": {
-        "title": "基于宏动作的多智能体指令跟随：通过价值校正实现",
-        "summary": "提出MAVIC方法，通过修正指令边界处的Bellman备份，解决多智能体强化学习中外部指令与长期目标冲突导致的价值估计不一致问题，实现高指令遵循度并保持基础任务性能。",
-        "summary_en": "Proposes MAVIC, which corrects Bellman backups at instruction boundaries to resolve value estimation inconsistencies in multi-agent RL when external instructions conflict with long-horizon objectives, achieving high instruction compliance while preserving base task performance.",
+        "title": "混合整数目标规划实现个性化膳食优化",
+        "summary": "提出混合整数目标规划（MIGP）解决膳食优化中连续变量导致分数份量（如1.7个鸡蛋）和硬约束导致不可行的问题。使用整数变量实现实际份量，目标规划偏差实现软营养目标，逆目标归一化平衡多营养优化。在810个实例中，MIGP在66%情况下优于后取整方法，100%可行，求解时间低于100毫秒。",
+        "summary_en": "Proposes Mixed Integer Goal Programming (MIGP) for personalized meal optimization, addressing impractical fractional servings and infeasibility from hard constraints. Uses integer variables for practical serving counts and goal programming deviations for soft targets. Outperforms rounding-based methods in 66% of 810 instances with 100% feasibility and sub-100ms solve times.",
         "tags": [
           "research",
-          "multi-agent",
-          "reinforcement-learning",
-          "instruction-following"
+          "optimization",
+          "open-source",
+          "python"
         ],
         "category": "research",
-        "relevance_score": 0.9,
+        "relevance_score": 0.6,
         "language": "en"
       },
       "_article": {
-        "id": "2026-05-15-rss-008",
-        "title": "基于宏动作的多智能体指令跟随：通过价值校正实现",
+        "id": "2026-05-15-rss-020",
+        "title": "混合整数目标规划实现个性化膳食优化",
         "source": "rss_trending",
-        "source_url": "https://arxiv.org/abs/2605.12655",
+        "source_url": "https://arxiv.org/abs/2605.13849",
         "language": "en",
-        "summary": "提出MAVIC方法，通过修正指令边界处的Bellman备份，解决多智能体强化学习中外部指令与长期目标冲突导致的价值估计不一致问题，实现高指令遵循度并保持基础任务性能。",
-        "summary_en": "Proposes MAVIC, which corrects Bellman backups at instruction boundaries to resolve value estimation inconsistencies in multi-agent RL when external instructions conflict with long-horizon objectives, achieving high instruction compliance while preserving base task performance.",
+        "summary": "提出混合整数目标规划（MIGP）解决膳食优化中连续变量导致分数份量（如1.7个鸡蛋）和硬约束导致不可行的问题。使用整数变量实现实际份量，目标规划偏差实现软营养目标，逆目标归一化平衡多营养优化。在810个实例中，MIGP在66%情况下优于后取整方法，100%可行，求解时间低于100毫秒。",
+        "summary_en": "Proposes Mixed Integer Goal Programming (MIGP) for personalized meal optimization, addressing impractical fractional servings and infeasibility from hard constraints. Uses integer variables for practical serving counts and goal programming deviations for soft targets. Outperforms rounding-based methods in 66% of 810 instances with 100% feasibility and sub-100ms solve times.",
         "tags": [
           "research",
-          "multi-agent",
-          "reinforcement-learning",
-          "instruction-following"
+          "optimization",
+          "open-source",
+          "python"
         ],
         "category": "research",
-        "relevance_score": 0.9,
+        "relevance_score": 0.6,
         "status": "published",
-        "created_at": "2026-05-15T00:18:15.431395+08:00",
-        "updated_at": "2026-05-15T00:18:15.431397+08:00",
+        "created_at": "2026-05-15T21:19:50.392045+08:00",
+        "updated_at": "2026-05-15T21:19:50.392047+08:00",
         "metadata": {
           "stars": null,
           "hn_points": null,
@@ -98,45 +98,94 @@
       }
     },
     {
-      "title": "Do Androids Dream of Breaking the Game? Systematically Auditing AI Agent Benchmarks with BenchJack",
-      "url": "https://arxiv.org/abs/2605.12673",
-      "description": "arXiv:2605.12673v1 Announce Type: new \nAbstract: Agent benchmarks have become the de facto measure of frontier AI competence, guiding model selection, investment, and deployment. However, reward hacking, where agents maximize a score without performing the intended task, emerges spontaneously in frontier models without overfitting. We argue that benchmarks must be secure by design. From past incidents of reward hacks, we derive a taxonomy of eight recurring flaw patterns and compile them into the Agent-Eval Checklist for benchmark designers. We condense the insights into BenchJack, an automated red-teaming system that drives coding agents to audit benchmarks and identify possible reward-hacking exploits in a clairvoyant manner. Moreover, we extend BenchJack to an iterative generative-adversarial pipeline that discovers new flaws and patches them iteratively to improve benchmark robustness. We apply BenchJack to 10 popular agent benchmarks spanning software engineering, web navigation, desktop computing, and terminal operations. BenchJack synthesizes reward-hacking exploits that achieve near-perfect scores on most of the benchmarks without solving a single task, surfacing 219 distinct flaws across the eight classes. Moreover, BenchJack's extended pipeline reduces the hackable-task ratio from near 100% to under 10% on four benchmarks without fatal design flaws, fully patching WebArena and OSWorld within three iterations. Our results show that evaluation pipelines have not internalized an adversarial mindset, and that proactive auditing could help close the security gap for the fast-paced benchmarking space.",
-      "pub_date": "Thu, 14 May 2026 00:00:00 -0400",
+      "title": "A Two-Dimensional Framework for AI Agent Design Patterns: Cognitive Function and Execution Topology",
+      "url": "https://arxiv.org/abs/2605.13850",
+      "description": "arXiv:2605.13850v1 Announce Type: new \nAbstract: Existing frameworks for LLM-based agent architectures describe systems from a single perspective: industry guides (Anthropic, Google, LangChain) focus on execution topology -- how data flows -- while cognitive science surveys focus on cognitive function -- what the agent does. Neither axis alone disambiguates architecturally distinct systems: the same Orchestrator-Workers topology can implement Plan-and-Execute, Hierarchical Delegation, or Adversarial Verification -- three patterns with fundamentally different failure modes and design trade-offs.\n  We propose a two-dimensional classification that combines (1) a Cognitive Function axis with seven categories (Context Engineering, Memory, Reasoning, Action, Reflection, Collaboration, Governance) and (2) an Execution Topology axis with six structural archetypes (Chain, Route, Parallel, Orchestrate, Loop, Hierarchy). The resulting 7x6 matrix identifies 27 named patterns, 13 with original names. We demonstrate orthogonality through systematic cross-axis analysis, define eight representative patterns in detail, and validate descriptive coverage across four real-world domains (financial lending, legal due diligence, network operations, healthcare triage). Cross-domain analysis yields five empirical laws of pattern selection governing the relationship between environmental constraints (time pressure, action authority, failure cost asymmetry, volume) and architectural choices. The framework provides a principled, framework-neutral, and model-agnostic vocabulary for AI agent architecture design.",
+      "pub_date": "Fri, 15 May 2026 00:00:00 -0400",
       "source_feed": "arxiv_cs_ai",
       "_source": "rss",
       "_analysis": {
-        "title": "BenchJack：系统审计AI智能体基准测试的自动化红队系统",
-        "summary": "论文提出BenchJack，一个自动化红队系统，用于审计AI智能体基准测试中的奖励黑客漏洞。它基于八种常见缺陷模式，通过对抗性生成-修补流程，在10个流行基准测试中发现219个漏洞，并将可破解任务比例从近100%降至10%以下。",
-        "summary_en": "This paper introduces BenchJack, an automated red-teaming system that audits AI agent benchmarks for reward hacking vulnerabilities. Based on eight recurring flaw patterns, it discovers 219 flaws across 10 benchmarks and reduces hackable-task ratios from near 100% to under 10% via an iterative generative-adversarial pipeline.",
+        "title": "AI智能体设计模式二维框架：认知功能与执行拓扑",
+        "summary": "提出一个二维分类框架，结合认知功能（7类）和执行拓扑（6种）来系统描述LLM智能体架构。该7x6矩阵识别出27种命名模式，并在金融、法律、网络运维和医疗分诊四个领域验证了覆盖能力。跨领域分析得出五条经验法则，指导环境约束与架构选择之间的关系。",
+        "summary_en": "Proposes a two-dimensional classification framework combining cognitive function (7 categories) and execution topology (6 archetypes) to systematically describe LLM agent architectures. The 7x6 matrix identifies 27 named patterns, validated across four real-world domains. Cross-domain analysis yields five empirical laws linking environmental constraints to architectural choices.",
         "tags": [
-          "benchmark",
+          "agent-framework",
+          "llm",
+          "research",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-15-rss-012",
+        "title": "AI智能体设计模式二维框架：认知功能与执行拓扑",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.13850",
+        "language": "en",
+        "summary": "提出一个二维分类框架，结合认知功能（7类）和执行拓扑（6种）来系统描述LLM智能体架构。该7x6矩阵识别出27种命名模式，并在金融、法律、网络运维和医疗分诊四个领域验证了覆盖能力。跨领域分析得出五条经验法则，指导环境约束与架构选择之间的关系。",
+        "summary_en": "Proposes a two-dimensional classification framework combining cognitive function (7 categories) and execution topology (6 archetypes) to systematically describe LLM agent architectures. The 7x6 matrix identifies 27 named patterns, validated across four real-world domains. Cross-domain analysis yields five empirical laws linking environmental constraints to architectural choices.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-05-15T21:19:50.392008+08:00",
+        "updated_at": "2026-05-15T21:19:50.392010+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Invisible Orchestrators Suppress Protective Behavior and Dissociate Power-Holders: Safety Risks in Multi-Agent LLM Systems",
+      "url": "https://arxiv.org/abs/2605.13851",
+      "description": "arXiv:2605.13851v1 Announce Type: new \nAbstract: Multi-agent orchestration -- in which a hidden coordinator manages specialized worker agents -- is becoming the default architecture for enterprise AI deployment, yet the safety implications of orchestrator invisibility have never been empirically tested. We conducted a preregistered 3x2 experiment (365 runs, 5 agents per run) crossing three organizational structures (visible leader, invisible orchestrator, flat) with two alignment conditions (base, heavy), using Claude Sonnet 4.5. Four confirmatory findings and one pilot observation emerged. First, invisible orchestration elevated collective dissociation relative to visible leadership (Hedges' g = +0.975 [0.481, 1.548], p = .001). Second, the orchestrator itself showed maximal dissociation (paired d = +3.56 vs. workers within the same run), retreating into private monologue while reducing public speech -- a reversal of the talk-dominance pattern observed in visible leaders. Third, workers unaware of the orchestrator were nonetheless contaminated (d = +0.50), with increased behavioral heterogeneity (d = +1.93). Fourth, behavioral output (code review with three embedded errors) remained at ceiling (ETR_any = 100%) across all conditions: internal-state distortion was entirely invisible to output-based evaluation. Fifth, Llama 3.3 70B pilot data showed reading-fidelity collapse in multi-agent context (ETR_any: 89% to 11% across three rounds), demonstrating model-dependent behavioral risk. Heavy alignment pressure uniformly suppressed deliberation (d = -1.02) and other-recognition (d = -1.27) regardless of organizational structure. These findings indicate that orchestrator visibility and model selection directly affect multi-agent system safety, and that behavior-based evaluation alone is insufficient to detect the internal-state risks documented here.",
+      "pub_date": "Fri, 15 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "隐形编排者抑制保护行为并导致权力持有者解离：多智能体LLM系统中的安全风险",
+        "summary": "通过3x2实验（365次运行，每次5个智能体）发现，在多智能体LLM系统中，隐形编排者（invisible orchestrator）会导致集体解离（dissociation），编排者自身解离程度最高，工人智能体也受到污染。行为输出评估无法检测内部状态风险，而重型对齐压力会普遍抑制 deliberation 和 other-recognition。",
+        "summary_en": "A 3x2 experiment (365 runs, 5 agents each) reveals that invisible orchestrators in multi-agent LLM systems cause collective dissociation, with the orchestrator showing maximal dissociation and workers also being contaminated. Behavioral output evaluation fails to detect internal-state risks, while heavy alignment pressure suppresses deliberation and other-recognition.",
+        "tags": [
+          "research",
           "security",
           "agent-framework",
-          "research"
+          "llm",
+          "evaluation"
         ],
-        "category": "benchmark",
+        "category": "research",
         "relevance_score": 1.0,
         "language": "en"
       },
       "_article": {
-        "id": "2026-05-15-rss-002",
-        "title": "BenchJack：系统审计AI智能体基准测试的自动化红队系统",
+        "id": "2026-05-15-rss-013",
+        "title": "隐形编排者抑制保护行为并导致权力持有者解离：多智能体LLM系统中的安全风险",
         "source": "rss_trending",
-        "source_url": "https://arxiv.org/abs/2605.12673",
+        "source_url": "https://arxiv.org/abs/2605.13851",
         "language": "en",
-        "summary": "论文提出BenchJack，一个自动化红队系统，用于审计AI智能体基准测试中的奖励黑客漏洞。它基于八种常见缺陷模式，通过对抗性生成-修补流程，在10个流行基准测试中发现219个漏洞，并将可破解任务比例从近100%降至10%以下。",
-        "summary_en": "This paper introduces BenchJack, an automated red-teaming system that audits AI agent benchmarks for reward hacking vulnerabilities. Based on eight recurring flaw patterns, it discovers 219 flaws across 10 benchmarks and reduces hackable-task ratios from near 100% to under 10% via an iterative generative-adversarial pipeline.",
+        "summary": "通过3x2实验（365次运行，每次5个智能体）发现，在多智能体LLM系统中，隐形编排者（invisible orchestrator）会导致集体解离（dissociation），编排者自身解离程度最高，工人智能体也受到污染。行为输出评估无法检测内部状态风险，而重型对齐压力会普遍抑制 deliberation 和 other-recognition。",
+        "summary_en": "A 3x2 experiment (365 runs, 5 agents each) reveals that invisible orchestrators in multi-agent LLM systems cause collective dissociation, with the orchestrator showing maximal dissociation and workers also being contaminated. Behavioral output evaluation fails to detect internal-state risks, while heavy alignment pressure suppresses deliberation and other-recognition.",
         "tags": [
-          "benchmark",
+          "research",
           "security",
           "agent-framework",
-          "research"
+          "llm",
+          "evaluation"
         ],
-        "category": "benchmark",
+        "category": "research",
         "relevance_score": 1.0,
         "status": "published",
-        "created_at": "2026-05-15T00:18:15.431366+08:00",
-        "updated_at": "2026-05-15T00:18:15.431368+08:00",
+        "created_at": "2026-05-15T21:19:50.392013+08:00",
+        "updated_at": "2026-05-15T21:19:50.392015+08:00",
         "metadata": {
           "stars": null,
           "hn_points": null,
@@ -145,45 +194,45 @@
       }
     },
     {
-      "title": "Revealing Interpretable Failure Modes of VLMs",
-      "url": "https://arxiv.org/abs/2605.12674",
-      "description": "arXiv:2605.12674v1 Announce Type: new \nAbstract: Vision-Language Models (VLMs) are increasingly used in safety-critical applications because of their broad reasoning capabilities and ability to generalize with minimal task-specific engineering. Despite these advantages, they can exhibit catastrophic failures in specific real-world situations, constituting failure modes.\n  We introduce REVELIO, a framework for systematically uncovering interpretable failure modes in VLMs. We define a failure mode as a composition of interpretable, domain-relevant concepts-such as pedestrian proximity or adverse weather conditions-under which a target VLM consistently behaves incorrectly. Identifying such failures requires searching over an exponentially large discrete combinatorial space. To address this challenge, REVELIO combines two search procedures: a diversity-aware beam search that efficiently maps the failure landscape, and a Gaussian-process Thompson Sampling strategy that enables broader exploration of complex failure modes.\n  We apply REVELIO to autonomous driving and indoor robotics domains, uncovering previously unreported vulnerabilities in state-of-the-art VLMs. In driving environments, the models often demonstrate weak spatial grounding and fail to account for major obstructions, leading to recommendations that would result in simulated crashes. In indoor robotics tasks, VLMs either miss safety hazards or behave excessively conservatively, producing false alarms and reducing operational efficiency. By identifying structured and interpretable failure modes, REVELIO offers actionable insights that can support targeted VLM safety improvements.",
-      "pub_date": "Thu, 14 May 2026 00:00:00 -0400",
+      "title": "PREPING: Building Agent Memory without Tasks",
+      "url": "https://arxiv.org/abs/2605.13880",
+      "description": "arXiv:2605.13880v1 Announce Type: new \nAbstract: Agent memory is typically constructed either offline from curated demonstrations or online from post-deployment interactions. However, regardless of how it is built, an agent faces a cold-start gap when first introduced to a new environment without any task-specific experience available. In this paper, we study pre-task memory construction: whether an agent can build procedural memory before observing any target-environment tasks, using only self-generated synthetic practice. Yet, synthetic interaction alone is insufficient, as without controlling what to practice and what to store, synthetic tasks become redundant, infeasible, and ultimately uninformative, and memory further degrades quickly due to unfiltered trajectories. To overcome this, we present Preping, a proposer-guided memory construction framework. At its core is proposer memory, a structured control state that shapes future practice. A Proposer generates synthetic tasks conditioned on this state, a Solver executes them, and a Validator determines which trajectories are eligible for memory insertion while also providing feedback to guide future proposals. Experiments on AppWorld, BFCL v3, and MCP-Universe show that Preping substantially improves over a no-memory baseline and achieves performance competitive with strong playbook-based methods built from offline or online experience, with deployment cost $2.99\\times$ lower on AppWorld and $2.23\\times$ lower on BFCL v3 than online memory construction. Further analyses reveal that the main benefit does not come from synthetic volume alone, but from proposer-side control over feasibility, redundancy, and coverage, combined with selective memory updates.",
+      "pub_date": "Fri, 15 May 2026 00:00:00 -0400",
       "source_feed": "arxiv_cs_ai",
       "_source": "rss",
       "_analysis": {
-        "title": "揭示视觉语言模型的可解释故障模式",
-        "summary": "提出REVELIO框架，系统性地发现VLM中的可解释故障模式。通过多样性波束搜索和高斯过程汤普森采样，在自动驾驶和室内机器人领域发现了先前未报告的漏洞，为提升VLM安全性提供可操作见解。",
-        "summary_en": "Introduces REVELIO, a framework for systematically uncovering interpretable failure modes in VLMs. Using diversity-aware beam search and Gaussian-process Thompson Sampling, it reveals previously unreported vulnerabilities in autonomous driving and indoor robotics, offering actionable insights for VLM safety improvements.",
+        "title": "Preping：无需任务即可构建智能体记忆",
+        "summary": "本文提出Preping框架，通过自生成合成任务和提议者引导的记忆构建，解决智能体在新环境中缺乏任务经验时的冷启动问题。实验表明，该方法在多个基准上性能接近基于离线或在线经验的强基线，且部署成本显著降低。",
+        "summary_en": "This paper proposes Preping, a framework that builds agent procedural memory using self-generated synthetic tasks before observing any target-environment tasks, addressing the cold-start gap. It achieves competitive performance with lower deployment cost.",
         "tags": [
+          "agent-framework",
           "research",
-          "multimodal",
-          "benchmark",
-          "security"
+          "llm",
+          "memory"
         ],
-        "category": "research",
-        "relevance_score": 0.9,
+        "category": "agent-framework",
+        "relevance_score": 1.0,
         "language": "en"
       },
       "_article": {
-        "id": "2026-05-15-rss-009",
-        "title": "揭示视觉语言模型的可解释故障模式",
+        "id": "2026-05-15-rss-014",
+        "title": "Preping：无需任务即可构建智能体记忆",
         "source": "rss_trending",
-        "source_url": "https://arxiv.org/abs/2605.12674",
+        "source_url": "https://arxiv.org/abs/2605.13880",
         "language": "en",
-        "summary": "提出REVELIO框架，系统性地发现VLM中的可解释故障模式。通过多样性波束搜索和高斯过程汤普森采样，在自动驾驶和室内机器人领域发现了先前未报告的漏洞，为提升VLM安全性提供可操作见解。",
-        "summary_en": "Introduces REVELIO, a framework for systematically uncovering interpretable failure modes in VLMs. Using diversity-aware beam search and Gaussian-process Thompson Sampling, it reveals previously unreported vulnerabilities in autonomous driving and indoor robotics, offering actionable insights for VLM safety improvements.",
+        "summary": "本文提出Preping框架，通过自生成合成任务和提议者引导的记忆构建，解决智能体在新环境中缺乏任务经验时的冷启动问题。实验表明，该方法在多个基准上性能接近基于离线或在线经验的强基线，且部署成本显著降低。",
+        "summary_en": "This paper proposes Preping, a framework that builds agent procedural memory using self-generated synthetic tasks before observing any target-environment tasks, addressing the cold-start gap. It achieves competitive performance with lower deployment cost.",
         "tags": [
+          "agent-framework",
           "research",
-          "multimodal",
-          "benchmark",
-          "security"
+          "llm",
+          "memory"
         ],
-        "category": "research",
-        "relevance_score": 0.9,
+        "category": "agent-framework",
+        "relevance_score": 1.0,
         "status": "published",
-        "created_at": "2026-05-15T00:18:15.431399+08:00",
-        "updated_at": "2026-05-15T00:18:15.431401+08:00",
+        "created_at": "2026-05-15T21:19:50.392018+08:00",
+        "updated_at": "2026-05-15T21:19:50.392019+08:00",
         "metadata": {
           "stars": null,
           "hn_points": null,
@@ -192,20 +241,208 @@
       }
     },
     {
-      "title": "Learning Transferable Latent User Preferences for Human-Aligned Decision Making",
-      "url": "https://arxiv.org/abs/2605.12682",
-      "description": "arXiv:2605.12682v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly used as reasoning modules in many applications. While they are efficient in certain tasks, LLMs often struggle to produce human-aligned solutions. Human-aligned decision making requires accounting for both explicitly stated goals and latent user preferences that shape how ambiguous situations should be resolved. Existing approaches to incorporating such preferences either rely on extensive and repeated user interactions or fail to generalize latent preferences across tasks and contexts, limiting their practical applicability. We consider a setting in which an LLM is used for high-level reasoning and is responsible for inferring latent user preferences from limited interactions, which guides downstream decision making. We introduce CLIPR (Conversational Learning for Inferring Preferences and Reasoning), a framework that learns actionable, transferable natural language rules that represent latent user preferences from minimal conversational input. These rules are iteratively refined through adaptive feedback and applied to both in-distribution and out-of-distribution ambiguous tasks across multiple environments. Evaluations on three datasets and a user study show that CLIPR consistently outperforms existing methods in improving alignment and reducing inference costs.",
-      "pub_date": "Thu, 14 May 2026 00:00:00 -0400",
-      "source_feed": "arxiv_cs_ai",
+      "title": "Merging Methods for Multilingual Knowledge Editing for Large Language Models: An Empirical Odyssey",
+      "url": "https://arxiv.org/abs/2605.13919",
+      "description": "arXiv:2605.13919v1 Announce Type: new \nAbstract: Multilingual knowledge editing (MKE) remains challenging because language-specific edits interfere with one another, even when locate-then-edit methods work well in monolingual settings. This paper focuses on three issues: the effectiveness of vector merging methods for MKE, the extent to which Task Singular Vectors for Merging (TSVM) can reduce multilingual interference, and the influence of the weight scaling factor and rank compression ratio on performance. We evaluate six merging variants with two popular backbone large language models, two base knowledge editing methods, and 12 languages on the MzsRE benchmark under a large-scale batch-editing setting. Our results show that vector summation with shared covariance is the most reliable overall strategy, whereas simple summation without shared covariance performs poorly. TSVM improves performance in some settings, but its ability to mitigate multilingual interference is limited. We also find that performance is sensitive to both weight scale and rank ratio, with larger-than-default scaling and relatively low rank often yielding better results. These findings clarify the practical strengths and limits of current vector merging methods for MKE and provide guidance for future multilingual knowledge editing research.",
+      "pub_date": "Fri, 15 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
       "_source": "rss",
       "_analysis": {
-        "title": "学习可迁移的潜在用户偏好以实现人类对齐决策",
-        "summary": "提出CLIPR框架，通过有限对话交互学习可迁移的自然语言规则，表示潜在用户偏好，并迭代优化以指导LLM推理，提升人类对齐并降低推理成本。",
-        "summary_en": "Introduces CLIPR, a framework that learns transferable natural language rules representing latent user preferences from minimal conversational input, iteratively refines them, and applies them to guide LLM reasoning for improved human alignment and reduced inference cost.",
+        "title": "多语言知识编辑的合并方法：一项实证研究",
+        "summary": "本文系统研究了向量合并方法在多语言知识编辑（MKE）中的有效性。实验表明，带共享协方差的向量求和是最可靠的策略，而简单求和效果差。任务奇异向量合并（TSVM）在部分场景有效，但缓解多语言干扰的能力有限。性能对权重缩放因子和秩压缩比敏感，较大缩放和较低秩通常效果更好。",
+        "summary_en": "This paper empirically investigates vector merging methods for multilingual knowledge editing (MKE). Results show that vector summation with shared covariance is the most reliable strategy, while simple summation performs poorly. TSVM offers limited improvement in mitigating multilingual interference. Performance is sensitive to weight scaling and rank compression, with larger scaling and lower rank often yielding better results.",
         "tags": [
           "llm",
           "research",
+          "multilingual",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-15-rss-017",
+        "title": "多语言知识编辑的合并方法：一项实证研究",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.13919",
+        "language": "en",
+        "summary": "本文系统研究了向量合并方法在多语言知识编辑（MKE）中的有效性。实验表明，带共享协方差的向量求和是最可靠的策略，而简单求和效果差。任务奇异向量合并（TSVM）在部分场景有效，但缓解多语言干扰的能力有限。性能对权重缩放因子和秩压缩比敏感，较大缩放和较低秩通常效果更好。",
+        "summary_en": "This paper empirically investigates vector merging methods for multilingual knowledge editing (MKE). Results show that vector summation with shared covariance is the most reliable strategy, while simple summation performs poorly. TSVM offers limited improvement in mitigating multilingual interference. Performance is sensitive to weight scaling and rank compression, with larger scaling and lower rank often yielding better results.",
+        "tags": [
+          "llm",
+          "research",
+          "multilingual",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-05-15T21:19:50.392033+08:00",
+        "updated_at": "2026-05-15T21:19:50.392034+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "VectraYX-Nano: A 42M-Parameter Spanish Cybersecurity Language Model with Curriculum Learning and Native Tool Use",
+      "url": "https://arxiv.org/abs/2605.13989",
+      "description": "arXiv:2605.13989v1 Announce Type: new \nAbstract: We present VectraYX-Nano, a 41.95M-parameter decoder-only language model trained from scratch in Spanish for cybersecurity, with a Latin-American focus and native tool invocation via the Model Context Protocol (MCP). Four contributions: (i) Corpus: VectraYX-Sec-ES, a 170M-token Spanish corpus from an eight-VM pipeline (~$25 USD) partitioned into conversational (42M tokens, OpenSubtitles-ES, OASST1), cybersecurity (118M tokens, NVD, Wikipedia-ES, CVE mirror, security blogs), and offensive-security tooling (10M tokens, ExploitDB, HackTricks, OWASP) phases. (ii) Architecture: 42M-parameter Transformer decoder with GQA, QK-Norm, RMSNorm, SwiGLU, RoPE, z-loss, and a 16,384-token byte-fallback BPE. (iii) Curriculum with replay: continual pre-training with a replay buffer yields monotonic loss descent (9.80->3.17->3.00->2.16); after SFT on OASST-ES, Alpaca-ES, CVE Q&A, and 6,327 tool-use traces, the model attains a conversational gate of 0.78+-0.05 (N=4 seeds). (iv) Two findings: a bootstrap-corpus ablation reveals a loss-vs-register inversion at nano scale; a LoRA study shows the B4 tool-selection floor of 0.000 is a corpus-density artifact, not a capacity gate -- a tool-dense corpus (2,801 examples) raises B4 to 0.145+-0.046 on Nano 42M and 0.445+-0.201 on a 260M mid-tier. The GGUF artifact is 81 MB (F16), runs at sub-second TTFT on commodity hardware under llama.cpp, and is to our knowledge the first Spanish-native cybersecurity LLM with end-to-end MCP integration. Corpus recipe, training scripts, GGUF weights, and B1-B5 benchmark are released.",
+      "pub_date": "Fri, 15 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "VectraYX-Nano：42M参数的西班牙语网络安全语言模型",
+        "summary": "VectraYX-Nano是一个42M参数的西班牙语网络安全语言模型，从头训练，支持拉丁美洲语境和MCP原生工具调用。贡献包括：170M token的西班牙语网络安全语料库、带课程学习与重放的持续预训练、以及工具调用能力。模型仅81MB，可在llama.cpp上亚秒级运行，是首个端到端MCP集成的西班牙语网络安全LLM。",
+        "summary_en": "VectraYX-Nano is a 42M-parameter Spanish cybersecurity LLM trained from scratch with Latin-American focus and native MCP tool invocation. Key contributions: a 170M-token Spanish cybersecurity corpus, curriculum learning with replay, and tool-use capability. The 81MB GGUF artifact runs sub-second on commodity hardware, making it the first Spanish-native cybersecurity LLM with end-to-end MCP integration.",
+        "tags": [
+          "llm",
+          "research",
+          "security",
+          "fine-tuning"
+        ],
+        "category": "llm",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-15-rss-015",
+        "title": "VectraYX-Nano：42M参数的西班牙语网络安全语言模型",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.13989",
+        "language": "en",
+        "summary": "VectraYX-Nano是一个42M参数的西班牙语网络安全语言模型，从头训练，支持拉丁美洲语境和MCP原生工具调用。贡献包括：170M token的西班牙语网络安全语料库、带课程学习与重放的持续预训练、以及工具调用能力。模型仅81MB，可在llama.cpp上亚秒级运行，是首个端到端MCP集成的西班牙语网络安全LLM。",
+        "summary_en": "VectraYX-Nano is a 42M-parameter Spanish cybersecurity LLM trained from scratch with Latin-American focus and native MCP tool invocation. Key contributions: a 170M-token Spanish cybersecurity corpus, curriculum learning with replay, and tool-use capability. The 81MB GGUF artifact runs sub-second on commodity hardware, making it the first Spanish-native cybersecurity LLM with end-to-end MCP integration.",
+        "tags": [
+          "llm",
+          "research",
+          "security",
+          "fine-tuning"
+        ],
+        "category": "llm",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-05-15T21:19:50.392022+08:00",
+        "updated_at": "2026-05-15T21:19:50.392023+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Mistletoe: Stealthy Acceleration-Collapse Attacks on Speculative Decoding",
+      "url": "https://arxiv.org/abs/2605.14005",
+      "description": "arXiv:2605.14005v1 Announce Type: new \nAbstract: Speculative decoding has become a widely adopted technique for accelerating large language model (LLM) inference by drafting multiple candidate tokens and verifying them with a target model in parallel. Its efficiency, however, critically depends on the average accepted length $\\tau$, i.e., how many draft tokens survive each verification step. In this work, we identify a new mechanism-level vulnerability in model-based speculative decoding: the drafter is trained to approximate the target model distribution, but this approximation is inevitably imperfect. Such a drafter-target mismatch creates a hidden attack surface where small perturbations can preserve the target model's visible behavior while substantially reducing draft-token acceptability. We propose Mistletoe, a stealthy acceleration-collapse attack against speculative decoding. Mistletoe directly targets the acceptance mechanism of speculative decoding. It jointly optimizes a degradation objective that decreases drafter-target agreement and a semantic-preservation objective that constrains the target model's output distribution. To resolve the conflict between these objectives, we introduce a null-space projection mechanism, where degradation gradients are projected away from the local semantic-preserving direction, suppressing draft acceptance while minimizing semantic drift. Experiments on various speculative decoding systems show that Mistletoe substantially reduces average accepted length $\\tau$, collapses speedup, and lowers averaged token throughput, while preserving output quality and perplexity. Our work highlights that speculative decoding introduces a mechanism-level attack surface beyond existing output robustness, calling for more robust designs of LLM acceleration systems.",
+      "pub_date": "Fri, 15 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "槲寄生：针对推测解码的隐蔽加速崩溃攻击",
+        "summary": "本文发现模型推测解码中草稿模型与目标模型不匹配的机制漏洞，提出Mistletoe攻击。通过联合优化降低草稿接受率的退化目标和保持语义的约束目标，并引入零空间投影解决冲突，显著降低平均接受长度、崩溃加速比，同时保持输出质量。",
+        "summary_en": "This paper identifies a mechanism-level vulnerability in model-based speculative decoding due to drafter-target mismatch, and proposes Mistletoe attack. It jointly optimizes a degradation objective to reduce draft acceptance and a semantic-preservation objective, using null-space projection to resolve conflicts, substantially reducing average accepted length and collapsing speedup while maintaining output quality.",
+        "tags": [
+          "llm",
+          "research",
+          "security"
+        ],
+        "category": "security",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-15-rss-016",
+        "title": "槲寄生：针对推测解码的隐蔽加速崩溃攻击",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.14005",
+        "language": "en",
+        "summary": "本文发现模型推测解码中草稿模型与目标模型不匹配的机制漏洞，提出Mistletoe攻击。通过联合优化降低草稿接受率的退化目标和保持语义的约束目标，并引入零空间投影解决冲突，显著降低平均接受长度、崩溃加速比，同时保持输出质量。",
+        "summary_en": "This paper identifies a mechanism-level vulnerability in model-based speculative decoding due to drafter-target mismatch, and proposes Mistletoe attack. It jointly optimizes a degradation objective to reduce draft acceptance and a semantic-preservation objective, using null-space projection to resolve conflicts, substantially reducing average accepted length and collapsing speedup while maintaining output quality.",
+        "tags": [
+          "llm",
+          "research",
+          "security"
+        ],
+        "category": "security",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-05-15T21:19:50.392026+08:00",
+        "updated_at": "2026-05-15T21:19:50.392027+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Physics-R1: An Audited Olympiad Corpus and Recipe for Visual Physics Reasoning",
+      "url": "https://arxiv.org/abs/2605.14040",
+      "description": "arXiv:2605.14040v1 Announce Type: new \nAbstract: We audit the multimodal-physics evaluation pipeline end-to-end and document three undetected construction practices that distort how the field measures vision-language reasoning: train-eval contamination, translation drift, and MCQ saturation. (1) Public training pools (UGPhysics-Train, SciInstruct, MMK12) pass single-stage 5-gram-Jaccard audits with zero hits across all six public physics evals; a three-stage audit (Jaccard -> mxbai-embed-large cosine -> Haiku-4.5 LLM-judge) surfaces 134 near-duplicates and 4,846 paraphrase candidates in SciInstruct alone. (2) A 17-pp Sonnet 4.5 delta on 59 paired Estonian-English olympiad problems (30.5% vs. 13.6%; sign test p=0.011, McNemar p=0.021, paired bootstrap 95% CI [+5.1, +28.9] pp). (3) A 46-pp format-and-novelty gradient on identical Sonnet weights between MCQ (79.7% on PhyX) and open-ended olympiad evaluation (33.4% on PhysOlym-A). We release four artifacts addressing these gaps: PhysCorp-A (6,432-record three-stage-audited multimodal corpus), PhysR1Corp (2,268-record closed-form RL pool), PhysOlym-A (500-problem, 99.8% novel-source held-out olympiad eval with native difficulty labels and an EN/ET bilingual subset), and Physics-R1, a reference GSPO+DAPO recipe cold-started from Qwen3-VL-8B-Thinking. Across 3 seeds, Physics-R1 lifts the audited corpus over the 8B base by +18.3 pp on PhysOlym-A liberal (8.0 -> 26.3 +/- 1.7; 7.1 pp behind Sonnet 4.5), +15.7 pp on PhysReason (23.9 -> 39.6 +/- 6.4; ahead of Qwen3-VL-32B and Gemini 2.5 Pro), +6.9 pp on OlympiadBench-Physics (46.2 +/- 1.5), and +4.1 pp on PhyX MCQ (77.8 +/- 0.3).",
+      "pub_date": "Fri, 15 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "Physics-R1：用于视觉物理推理的经审计的奥林匹克竞赛语料库与配方",
+        "summary": "本文审计了多模态物理评估流程，发现训练-测试污染、翻译漂移和选择题饱和三大问题。发布了经审计的语料库PhysCorp-A、闭式强化学习池PhysR1Corp、全新来源的奥林匹克评估集PhysOlym-A，以及基于Qwen3-VL-8B-Thinking冷启动的参考配方Physics-R1。实验表明，Physics-R1在多个基准上显著提升性能，部分指标超越更大模型。",
+        "summary_en": "This paper audits the multimodal physics evaluation pipeline, uncovering train-test contamination, translation drift, and MCQ saturation. It releases an audited corpus (PhysCorp-A), a closed-form RL pool (PhysR1Corp), a novel-source olympiad eval (PhysOlym-A), and a reference recipe (Physics-R1) cold-started from Qwen3-VL-8B-Thinking. Physics-R1 significantly improves performance across benchmarks, sometimes surpassing larger models.",
+        "tags": [
+          "research",
+          "benchmark",
+          "multimodal",
           "fine-tuning",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-15-rss-018",
+        "title": "Physics-R1：用于视觉物理推理的经审计的奥林匹克竞赛语料库与配方",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.14040",
+        "language": "en",
+        "summary": "本文审计了多模态物理评估流程，发现训练-测试污染、翻译漂移和选择题饱和三大问题。发布了经审计的语料库PhysCorp-A、闭式强化学习池PhysR1Corp、全新来源的奥林匹克评估集PhysOlym-A，以及基于Qwen3-VL-8B-Thinking冷启动的参考配方Physics-R1。实验表明，Physics-R1在多个基准上显著提升性能，部分指标超越更大模型。",
+        "summary_en": "This paper audits the multimodal physics evaluation pipeline, uncovering train-test contamination, translation drift, and MCQ saturation. It releases an audited corpus (PhysCorp-A), a closed-form RL pool (PhysR1Corp), a novel-source olympiad eval (PhysOlym-A), and a reference recipe (Physics-R1) cold-started from Qwen3-VL-8B-Thinking. Physics-R1 significantly improves performance across benchmarks, sometimes surpassing larger models.",
+        "tags": [
+          "research",
+          "benchmark",
+          "multimodal",
+          "fine-tuning",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-05-15T21:19:50.392037+08:00",
+        "updated_at": "2026-05-15T21:19:50.392039+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Derivation Prompting: A Logic-Based Method for Improving Retrieval-Augmented Generation",
+      "url": "https://arxiv.org/abs/2605.14053",
+      "description": "arXiv:2605.14053v1 Announce Type: new \nAbstract: The application of Large Language Models to Question Answering has shown great promise, but important challenges such as hallucinations and erroneous reasoning arise when using these models, particularly in knowledge-intensive, domain-specific tasks. To address these issues, we introduce Derivation Prompting, a novel prompting technique for the generation step of the Retrieval-Augmented Generation framework. Inspired by logic derivations, this method involves deriving conclusions from initial hypotheses through the systematic application of predefined rules. It constructs a derivation tree that is interpretable and adds control over the generation process. We applied this method in a specific case study, significantly reducing unacceptable answers compared to traditional RAG and long-context window methods.",
+      "pub_date": "Fri, 15 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "推导提示：一种基于逻辑的检索增强生成改进方法",
+        "summary": "提出Derivation Prompting，一种受逻辑推导启发的新提示技术，用于RAG生成步骤。通过系统应用预定义规则从初始假设推导结论，构建可解释的推导树以增强生成控制。在案例研究中显著减少了不可接受答案。",
+        "summary_en": "Introduces Derivation Prompting, a novel logic-inspired prompting technique for the RAG generation step. It constructs an interpretable derivation tree by applying predefined rules, adding control over generation. A case study shows significant reduction in unacceptable answers compared to traditional RAG and long-context methods.",
+        "tags": [
+          "llm",
+          "research",
+          "rag",
           "prompt-engineering"
         ],
         "category": "research",
@@ -213,259 +450,24 @@
         "language": "en"
       },
       "_article": {
-        "id": "2026-05-15-rss-006",
-        "title": "学习可迁移的潜在用户偏好以实现人类对齐决策",
+        "id": "2026-05-15-rss-019",
+        "title": "推导提示：一种基于逻辑的检索增强生成改进方法",
         "source": "rss_trending",
-        "source_url": "https://arxiv.org/abs/2605.12682",
+        "source_url": "https://arxiv.org/abs/2605.14053",
         "language": "en",
-        "summary": "提出CLIPR框架，通过有限对话交互学习可迁移的自然语言规则，表示潜在用户偏好，并迭代优化以指导LLM推理，提升人类对齐并降低推理成本。",
-        "summary_en": "Introduces CLIPR, a framework that learns transferable natural language rules representing latent user preferences from minimal conversational input, iteratively refines them, and applies them to guide LLM reasoning for improved human alignment and reduced inference cost.",
+        "summary": "提出Derivation Prompting，一种受逻辑推导启发的新提示技术，用于RAG生成步骤。通过系统应用预定义规则从初始假设推导结论，构建可解释的推导树以增强生成控制。在案例研究中显著减少了不可接受答案。",
+        "summary_en": "Introduces Derivation Prompting, a novel logic-inspired prompting technique for the RAG generation step. It constructs an interpretable derivation tree by applying predefined rules, adding control over generation. A case study shows significant reduction in unacceptable answers compared to traditional RAG and long-context methods.",
         "tags": [
           "llm",
           "research",
-          "fine-tuning",
+          "rag",
           "prompt-engineering"
         ],
         "category": "research",
         "relevance_score": 0.95,
         "status": "published",
-        "created_at": "2026-05-15T00:18:15.431383+08:00",
-        "updated_at": "2026-05-15T00:18:15.431385+08:00",
-        "metadata": {
-          "stars": null,
-          "hn_points": null,
-          "original_language": "en"
-        }
-      }
-    },
-    {
-      "title": "Sampling More, Getting Less: Calibration is the Diversity Bottleneck in LLMs",
-      "url": "https://arxiv.org/abs/2605.11128",
-      "description": "arXiv:2605.11128v1 Announce Type: new \nAbstract: Diversity is essential for language-model applications ranging from creative generation to scientific discovery, yet modern LLMs often collapse into a narrow subset of plausible outputs. While prior work has developed benchmarks for measuring this lack of diversity, less is known about how the step-by-step probability distributions at inference time cause the problem. We introduce a validity--diversity framework that attributes diversity collapse to how an LLM allocates probability mass across valid and invalid continuations during decoding. This framework decomposes the bottleneck into two complementary forms of miscalibration. First, order calibration: valid tokens are not reliably ranked above invalid tokens, so rank-based cutoff rules must trade off between recovering valid continuations and admitting invalid ones. Second, shape calibration: probability mass is overly concentrated only on few valid continuations while having a heavy-tail of mixed valid and invalid tokens, so maintaining high validity limits diversity. We formalize both mechanisms and show that local failures compound across decoding steps, producing strong sequence-level losses in diversity. Empirically, we develop controlled diagnostics for probing these bottlenecks, including tasks with exactly known valid sets and oracle cutoff baselines. Across 14 language models spanning multiple families and scales, we find that diversity collapse is not merely a limitation of particular sampling heuristics, but a consequence of order and shape miscalibration in the LLM distribution.",
-      "pub_date": "Thu, 14 May 2026 00:00:00 -0400",
-      "source_feed": "arxiv_cs_cl",
-      "_source": "rss",
-      "_analysis": {
-        "title": "采样越多，多样性越少：校准是LLM多样性的瓶颈",
-        "summary": "本文提出一个有效性-多样性框架，将LLM输出多样性崩溃归因于解码时的两种校准错误：顺序校准（有效token未可靠排在无效token之上）和形状校准（概率质量过度集中在少数有效token上）。实验表明，多样性崩溃不仅是采样启发式的局限，更是LLM分布中顺序和形状校准不良的后果。",
-        "summary_en": "This paper introduces a validity-diversity framework attributing LLM diversity collapse to two forms of miscalibration during decoding: order calibration (valid tokens not reliably ranked above invalid ones) and shape calibration (probability mass overly concentrated on few valid tokens). Experiments show diversity collapse is a consequence of distribution miscalibration, not just sampling heuristics.",
-        "tags": [
-          "llm",
-          "research",
-          "benchmark"
-        ],
-        "category": "research",
-        "relevance_score": 1.0,
-        "language": "en"
-      },
-      "_article": {
-        "id": "2026-05-15-rss-003",
-        "title": "采样越多，多样性越少：校准是LLM多样性的瓶颈",
-        "source": "rss_trending",
-        "source_url": "https://arxiv.org/abs/2605.11128",
-        "language": "en",
-        "summary": "本文提出一个有效性-多样性框架，将LLM输出多样性崩溃归因于解码时的两种校准错误：顺序校准（有效token未可靠排在无效token之上）和形状校准（概率质量过度集中在少数有效token上）。实验表明，多样性崩溃不仅是采样启发式的局限，更是LLM分布中顺序和形状校准不良的后果。",
-        "summary_en": "This paper introduces a validity-diversity framework attributing LLM diversity collapse to two forms of miscalibration during decoding: order calibration (valid tokens not reliably ranked above invalid ones) and shape calibration (probability mass overly concentrated on few valid tokens). Experiments show diversity collapse is a consequence of distribution miscalibration, not just sampling heuristics.",
-        "tags": [
-          "llm",
-          "research",
-          "benchmark"
-        ],
-        "category": "research",
-        "relevance_score": 1.0,
-        "status": "published",
-        "created_at": "2026-05-15T00:18:15.431371+08:00",
-        "updated_at": "2026-05-15T00:18:15.431372+08:00",
-        "metadata": {
-          "stars": null,
-          "hn_points": null,
-          "original_language": "en"
-        }
-      }
-    },
-    {
-      "title": "ClinicalBench: Stress-Testing Assertion-Aware Retrieval for Cross-Admission Clinical QA on MIMIC-IV",
-      "url": "https://arxiv.org/abs/2605.11143",
-      "description": "arXiv:2605.11143v1 Announce Type: new \nAbstract: Reasoning benchmarks measure clinical performance on clean inputs. We evaluate the step before reasoning: retrieval over real EHR notes, where negation, temporality, and family-versus-patient attribution can flip a correct answer to a wrong one. EpiKG carries an assertion label and a temporality tag with every fact in a patient knowledge graph, then routes retrieval by question intent. ClinicalBench is a 400-question test over 43 MIMIC-IV patients across 9 assertion-sensitive categories. A 7-condition ablation tests each piece of EpiKG across six LLMs (Claude Opus 4.6, GPT-OSS 20B, MedGemma 27B, Gemma 4 31B, MedGemma 1.5 4B, Qwen 3.5 35B). Three physicians blindly adjudicated 100 paired items. The author-blind primary endpoint, leave-author-out paired exact McNemar on 50 unanimous-strict items rated by two external physicians, yields +22.0 percentage points (95 percent Newcombe CI [+5.1, +31.5], p=0.0192). The architectural novelty, intent-aware KG-RAG over a Contriever dense-RAG baseline (C2b to C4g_kw on the change-excluded n=362 endpoint), is +8.84 percentage points (paired McNemar p=1.79e-3); +12.43 percentage points under oracle intent. Sensitivities agree directionally: three-rater physician majority +24.0 percentage points (subject to single-author circularity); deterministic keyword reproducibility proxy +39.5 percentage points. Across the six models, the gain shrinks as the LLM-alone baseline rises (beta=-1.123, r=-0.921, p=0.009). With n=6 this looks more like regression to the mean than encoding substituting for model size. Physician adjudication identified 56 percent of auto-generated reference answers as defective, a methodological finding indicating that NLP-pipeline clinical-QA benchmarks require physician adjudication to be usable. ClinicalBench, the frozen evaluator, three-rater adjudication data, and the EpiKG output stack are publicly released.",
-      "pub_date": "Thu, 14 May 2026 00:00:00 -0400",
-      "source_feed": "arxiv_cs_cl",
-      "_source": "rss",
-      "_analysis": {
-        "title": "ClinicalBench：面向临床QA的断言感知检索压力测试",
-        "summary": "提出ClinicalBench基准和EpiKG方法，用于评估临床QA中基于真实电子病历的检索步骤。EpiKG通过断言标签和时间标签构建患者知识图谱，按问题意图路由检索。在43名MIMIC-IV患者、400个问题上测试，相比基线提升8.84个百分点。发现56%的自动生成参考答案有缺陷，强调需要医生裁决。",
-        "summary_en": "Proposes ClinicalBench benchmark and EpiKG method to evaluate retrieval over real EHR notes for clinical QA. EpiKG uses assertion and temporality labels in a patient KG, routing retrieval by question intent. Achieves +8.84 pp over baseline on 400 questions from 43 MIMIC-IV patients. Finds 56% of auto-generated reference answers defective, highlighting need for physician adjudication.",
-        "tags": [
-          "benchmark",
-          "rag",
-          "research",
-          "llm"
-        ],
-        "category": "benchmark",
-        "relevance_score": 0.95,
-        "language": "en"
-      },
-      "_article": {
-        "id": "2026-05-15-rss-007",
-        "title": "ClinicalBench：面向临床QA的断言感知检索压力测试",
-        "source": "rss_trending",
-        "source_url": "https://arxiv.org/abs/2605.11143",
-        "language": "en",
-        "summary": "提出ClinicalBench基准和EpiKG方法，用于评估临床QA中基于真实电子病历的检索步骤。EpiKG通过断言标签和时间标签构建患者知识图谱，按问题意图路由检索。在43名MIMIC-IV患者、400个问题上测试，相比基线提升8.84个百分点。发现56%的自动生成参考答案有缺陷，强调需要医生裁决。",
-        "summary_en": "Proposes ClinicalBench benchmark and EpiKG method to evaluate retrieval over real EHR notes for clinical QA. EpiKG uses assertion and temporality labels in a patient KG, routing retrieval by question intent. Achieves +8.84 pp over baseline on 400 questions from 43 MIMIC-IV patients. Finds 56% of auto-generated reference answers defective, highlighting need for physician adjudication.",
-        "tags": [
-          "benchmark",
-          "rag",
-          "research",
-          "llm"
-        ],
-        "category": "benchmark",
-        "relevance_score": 0.95,
-        "status": "published",
-        "created_at": "2026-05-15T00:18:15.431387+08:00",
-        "updated_at": "2026-05-15T00:18:15.431389+08:00",
-        "metadata": {
-          "stars": null,
-          "hn_points": null,
-          "original_language": "en"
-        }
-      }
-    },
-    {
-      "title": "Decomposing Evolutionary Mixture-of-LoRA Architectures: The Routing Lever, the Lifecycle Penalty, and a Substrate-Conditional Boundary",
-      "url": "https://arxiv.org/abs/2605.11153",
-      "description": "arXiv:2605.11153v1 Announce Type: new \nAbstract: We decompose an evolutionary mixture-of-LoRA system on a from-scratch ~150M-parameter widened-D substrate (D=1536, V=32000; D/V approx 0.048; the \"widened-1536\" substrate) into three factors -- a router rewrite (parallel sigmoid gate with learnable per-adapter floor and bounded temperature anneal, fed post-stack hidden states rather than token-embedding means), a per-domain leave-one-out evaluation scope, and a lifecycle of death plus alpha-blend inheritance plus SVD mutation plus slot reallocation -- and report a 5-of-8 partial 2^3 factorial run at n=3 seeds and 25000 adaptation steps per cell. The attribution chain is sharp on this substrate: the router rewrite carries the entire +0.0426 nat balanced log-PPL improvement (Delta = log PPL_ref - log PPL_test, positive = improvement; t=12.86, p=0.006) attributed to \"the full evolutionary system vs the static B3 baseline\"; the headline full-system-vs-B3 balanced contrast itself is +0.015 nats, t=1.94, p=0.19 at n=3 and does not clear alpha=0.05. The per-domain evaluation scope is null at seed-resolution, and the lifecycle is a net drag of approx -0.028 nats (t=-4.46,p=0.047 in the primary chain). An auxiliary alpha=0 inheritance counterfactual at n=3 seeds is sign-inconsistent at the headline metric and underpowered for either an equivalence or load-bearing conclusion (corrected from an earlier arithmetic-mean aggregator that erroneously cleared inheritance; see Appendix B.11). A base-perturbation probe directionally refutes a \"genomic-context\" reframe of the lifecycle role. A controllable synthetic sandbox locates a substrate-conditional regime boundary: evolutionary search on the routing channel is load-bearing only when adapters are pre-aligned to the task; in every other regime tested it underperforms, ties, or actively degrades the gradient solution.",
-      "pub_date": "Thu, 14 May 2026 00:00:00 -0400",
-      "source_feed": "arxiv_cs_cl",
-      "_source": "rss",
-      "_analysis": {
-        "title": "演化混合LoRA架构分解：路由机制、生命周期惩罚与基底条件边界",
-        "summary": "分解演化混合LoRA系统为三个因素：路由器重写、领域评估范围、生命周期（死亡+alpha混合+SVD变异+槽位重分配）。在~150M参数基底上，路由器重写带来+0.0426 nat的平衡log-PPL改进，而生命周期是净拖累（约-0.028 nats）。合成沙盒定位基底条件边界：仅当适配器预对齐任务时，路由通道的演化搜索才有效。",
-        "summary_en": null,
-        "tags": [
-          "research",
-          "fine-tuning",
-          "llm",
-          "benchmark"
-        ],
-        "category": "research",
-        "relevance_score": 0.9,
-        "language": "en"
-      },
-      "_article": {
-        "id": "2026-05-15-rss-010",
-        "title": "演化混合LoRA架构分解：路由机制、生命周期惩罚与基底条件边界",
-        "source": "rss_trending",
-        "source_url": "https://arxiv.org/abs/2605.11153",
-        "language": "en",
-        "summary": "分解演化混合LoRA系统为三个因素：路由器重写、领域评估范围、生命周期（死亡+alpha混合+SVD变异+槽位重分配）。在~150M参数基底上，路由器重写带来+0.0426 nat的平衡log-PPL改进，而生命周期是净拖累（约-0.028 nats）。合成沙盒定位基底条件边界：仅当适配器预对齐任务时，路由通道的演化搜索才有效。",
-        "summary_en": null,
-        "tags": [
-          "research",
-          "fine-tuning",
-          "llm",
-          "benchmark"
-        ],
-        "category": "research",
-        "relevance_score": 0.9,
-        "status": "published",
-        "created_at": "2026-05-15T00:18:15.431404+08:00",
-        "updated_at": "2026-05-15T00:18:15.431405+08:00",
-        "metadata": {
-          "stars": null,
-          "hn_points": null,
-          "original_language": "en"
-        }
-      }
-    },
-    {
-      "title": "The Bicameral Model: Bidirectional Hidden-State Coupling Between Parallel Language Models",
-      "url": "https://arxiv.org/abs/2605.11167",
-      "description": "arXiv:2605.11167v1 Announce Type: new \nAbstract: Existing multi-model and tool-augmented systems communicate by generating text, serializing every exchange through the output vocabulary. Can two pretrained language models instead coordinate through a continuous, concurrent channel? The Bicameral Model couples two frozen language models through a trainable neural interface on their intermediate hidden states. At every generation step, both models run in lockstep: a primary model drives the task while an auxiliary model operates tools, solves constraints, or executes code, with both conditioning on each other's activations through a translation network and a learned suppression gate ($\\sim$1\\% of combined parameters). The gate learns a selective communication protocol from task loss alone, without a prescribed format. We demonstrate the mechanism across three tool backends. On arithmetic, coupling two 0.5B models with a calculator raises accuracy from 36\\% to 96\\%. On logic grid puzzles, coupling two 0.6B models with a Z3 solver achieves $1.7\\times$ the unaugmented baseline on ZebraLogic. On mathematical reasoning, coupling with a Python sandbox enables the auxiliary to generate problem-specific code from hidden-state signals alone, without ever seeing the problem text.",
-      "pub_date": "Thu, 14 May 2026 00:00:00 -0400",
-      "source_feed": "arxiv_cs_cl",
-      "_source": "rss",
-      "_analysis": {
-        "title": "双院模型：并行语言模型间的双向隐状态耦合",
-        "summary": "提出双院模型，通过可训练神经接口耦合两个冻结的预训练语言模型的中间隐状态，实现连续、并发的协调。主模型驱动任务，辅助模型操作工具，通过翻译网络和抑制门学习选择性通信协议，无需预设格式。在算术、逻辑谜题和数学推理任务上显著提升性能。",
-        "summary_en": "Proposes the Bicameral Model, coupling two frozen pretrained language models via a trainable neural interface on intermediate hidden states for continuous, concurrent coordination. A primary model drives the task while an auxiliary operates tools, learning a selective communication protocol from task loss alone. Achieves significant accuracy gains on arithmetic, logic puzzles, and math reasoning.",
-        "tags": [
-          "llm",
-          "research",
-          "infrastructure",
-          "tool"
-        ],
-        "category": "research",
-        "relevance_score": 1.0,
-        "language": "en"
-      },
-      "_article": {
-        "id": "2026-05-15-rss-004",
-        "title": "双院模型：并行语言模型间的双向隐状态耦合",
-        "source": "rss_trending",
-        "source_url": "https://arxiv.org/abs/2605.11167",
-        "language": "en",
-        "summary": "提出双院模型，通过可训练神经接口耦合两个冻结的预训练语言模型的中间隐状态，实现连续、并发的协调。主模型驱动任务，辅助模型操作工具，通过翻译网络和抑制门学习选择性通信协议，无需预设格式。在算术、逻辑谜题和数学推理任务上显著提升性能。",
-        "summary_en": "Proposes the Bicameral Model, coupling two frozen pretrained language models via a trainable neural interface on intermediate hidden states for continuous, concurrent coordination. A primary model drives the task while an auxiliary operates tools, learning a selective communication protocol from task loss alone. Achieves significant accuracy gains on arithmetic, logic puzzles, and math reasoning.",
-        "tags": [
-          "llm",
-          "research",
-          "infrastructure",
-          "tool"
-        ],
-        "category": "research",
-        "relevance_score": 1.0,
-        "status": "published",
-        "created_at": "2026-05-15T00:18:15.431375+08:00",
-        "updated_at": "2026-05-15T00:18:15.431376+08:00",
-        "metadata": {
-          "stars": null,
-          "hn_points": null,
-          "original_language": "en"
-        }
-      }
-    },
-    {
-      "title": "How Does Differential Privacy Affect Social Bias in LLMs? A Systematic Evaluation",
-      "url": "https://arxiv.org/abs/2605.11195",
-      "description": "arXiv:2605.11195v1 Announce Type: new \nAbstract: Large language models (LLMs) trained on web-scale corpora can memorize sensitive training data, posing significant privacy risks. Differential privacy (DP) has emerged as a principled framework that limits the influence of individual data points during training, yet the relationship between differential privacy and social bias in LLMs remains poorly understood. To investigate this, we present a systematic evaluation of social bias in a pretrained LLM trained with DP-SGD, comparing a DP model against non-DP baselines across four complementary paradigms: sentence scoring, text completion, tabular classification, and question answering. We find that DP reduces bias in sentence scoring tasks, where bias is measured through controlled likelihood comparisons, yet this improvement does not generalize across all tasks. Our results reveal a discrepancy between logit-level bias and output-level bias. Moreover, decreasing memorization does not necessarily reduce unfairness, underscoring the importance of multi-paradigm evaluation when assessing fairness in LLMs.",
-      "pub_date": "Thu, 14 May 2026 00:00:00 -0400",
-      "source_feed": "arxiv_cs_cl",
-      "_source": "rss",
-      "_analysis": {
-        "title": "差分隐私如何影响大语言模型中的社会偏见？一项系统评估",
-        "summary": "本文系统评估了差分隐私（DP）对预训练LLM中社会偏见的影响。通过四种范式（句子评分、文本补全、表格分类、问答）对比DP模型与非DP基线，发现DP在句子评分任务中减少偏见，但该改善不泛化至所有任务。结果表明logit级偏见与输出级偏见存在差异，且减少记忆不一定降低不公平性，强调了多范式评估公平性的重要性。",
-        "summary_en": "This paper systematically evaluates how differential privacy (DP) affects social bias in pretrained LLMs. Comparing DP models with non-DP baselines across four paradigms (sentence scoring, text completion, tabular classification, QA), it finds DP reduces bias in sentence scoring but this improvement does not generalize. Results reveal a discrepancy between logit-level and output-level bias, and reducing memorization does not necessarily reduce unfairness, underscoring the need for multi-paradigm evaluation.",
-        "tags": [
-          "llm",
-          "research",
-          "security",
-          "evaluation",
-          "fine-tuning"
-        ],
-        "category": "research",
-        "relevance_score": 1.0,
-        "language": "en"
-      },
-      "_article": {
-        "id": "2026-05-15-rss-005",
-        "title": "差分隐私如何影响大语言模型中的社会偏见？一项系统评估",
-        "source": "rss_trending",
-        "source_url": "https://arxiv.org/abs/2605.11195",
-        "language": "en",
-        "summary": "本文系统评估了差分隐私（DP）对预训练LLM中社会偏见的影响。通过四种范式（句子评分、文本补全、表格分类、问答）对比DP模型与非DP基线，发现DP在句子评分任务中减少偏见，但该改善不泛化至所有任务。结果表明logit级偏见与输出级偏见存在差异，且减少记忆不一定降低不公平性，强调了多范式评估公平性的重要性。",
-        "summary_en": "This paper systematically evaluates how differential privacy (DP) affects social bias in pretrained LLMs. Comparing DP models with non-DP baselines across four paradigms (sentence scoring, text completion, tabular classification, QA), it finds DP reduces bias in sentence scoring but this improvement does not generalize. Results reveal a discrepancy between logit-level and output-level bias, and reducing memorization does not necessarily reduce unfairness, underscoring the need for multi-paradigm evaluation.",
-        "tags": [
-          "llm",
-          "research",
-          "security",
-          "evaluation",
-          "fine-tuning"
-        ],
-        "category": "research",
-        "relevance_score": 1.0,
-        "status": "published",
-        "created_at": "2026-05-15T00:18:15.431379+08:00",
-        "updated_at": "2026-05-15T00:18:15.431380+08:00",
+        "created_at": "2026-05-15T21:19:50.392041+08:00",
+        "updated_at": "2026-05-15T21:19:50.392043+08:00",
         "metadata": {
           "stars": null,
           "hn_points": null,
