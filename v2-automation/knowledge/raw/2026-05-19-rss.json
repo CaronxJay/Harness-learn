@@ -1,0 +1,452 @@
+{
+  "collected_at": "2026-05-19T01:35:09.173997+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "DeepSlide: From Artifacts to Presentation Delivery",
+      "url": "https://arxiv.org/abs/2605.15202",
+      "description": "arXiv:2605.15202v1 Announce Type: new \nAbstract: Presentations are a primary medium for scholarly communication, yet most AI slide generators optimize the artifact (a visually plausible deck) while under-optimizing the delivery process (pacing, narrative, and presentation preparation). We present DeepSlide, a human-in-the-loop multi-agent system that supports preparing the full presentation process, from requirement elicitation and time-budgeted narrative planning, to evidence-grounded slide--script generation, attention augmentation, and rehearsal support. DeepSlide integrates (i) a controllable logical-chain planner with per-node time budgets, (ii) a lightweight content-tree retriever for grounding, (iii) Markov-style sequential rendering with style inheritance, and (iv) sandboxed execution with minimal repair to ensure renderability. We further introduce a dual-scoreboard benchmark that cleanly separates static artifact quality from dynamic delivery excellence. Across 20 domains and diverse audience profiles, DeepSlide matches strong baselines on artifact quality while consistently achieving larger gains on delivery metrics, improving narrative flow, pacing precision, and slide--script synergy with clearer attention guidance.",
+      "pub_date": "Mon, 18 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "DeepSlide：从幻灯片制作到演示交付的全流程AI系统",
+        "summary": "DeepSlide是一个人在回路的多智能体系统，支持从需求获取、时间预算叙事规划、基于证据的幻灯片与脚本生成、注意力增强到排练支持的完整演示流程。它集成了可控逻辑链规划器、轻量级内容树检索器、马尔可夫式顺序渲染和沙盒执行。引入双记分板基准，在20个领域和多种受众配置下，在保持幻灯片质量的同时显著提升叙事流畅性、节奏精度和幻灯片-脚本协同。",
+        "summary_en": "DeepSlide is a human-in-the-loop multi-agent system supporting the full presentation process from requirement elicitation and time-budgeted narrative planning to evidence-grounded slide-script generation, attention augmentation, and rehearsal support. It integrates a controllable logical-chain planner, lightweight content-tree retriever, Markov-style sequential rendering, and sandboxed execution. A dual-scoreboard benchmark is introduced. Across 20 domains, DeepSlide matches baselines on artifact quality while achieving larger gains on delivery metrics like narrative flow, pacing precision, and slide-script synergy.",
+        "tags": [
+          "research",
+          "multimodal",
+          "agent-framework",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-19-rss-004",
+        "title": "DeepSlide：从幻灯片制作到演示交付的全流程AI系统",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.15202",
+        "language": "en",
+        "summary": "DeepSlide是一个人在回路的多智能体系统，支持从需求获取、时间预算叙事规划、基于证据的幻灯片与脚本生成、注意力增强到排练支持的完整演示流程。它集成了可控逻辑链规划器、轻量级内容树检索器、马尔可夫式顺序渲染和沙盒执行。引入双记分板基准，在20个领域和多种受众配置下，在保持幻灯片质量的同时显著提升叙事流畅性、节奏精度和幻灯片-脚本协同。",
+        "summary_en": "DeepSlide is a human-in-the-loop multi-agent system supporting the full presentation process from requirement elicitation and time-budgeted narrative planning to evidence-grounded slide-script generation, attention augmentation, and rehearsal support. It integrates a controllable logical-chain planner, lightweight content-tree retriever, Markov-style sequential rendering, and sandboxed execution. A dual-scoreboard benchmark is introduced. Across 20 domains, DeepSlide matches baselines on artifact quality while achieving larger gains on delivery metrics like narrative flow, pacing precision, and slide-script synergy.",
+        "tags": [
+          "research",
+          "multimodal",
+          "agent-framework",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-05-19T01:35:09.173226+08:00",
+        "updated_at": "2026-05-19T01:35:09.173229+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "SDOF: Taming the Alignment Tax in Multi-Agent Orchestration with State-Constrained Dispatch",
+      "url": "https://arxiv.org/abs/2605.15204",
+      "description": "arXiv:2605.15204v1 Announce Type: new \nAbstract: Multi-agent orchestration frameworks such as LangChain, LangGraph, and CrewAI route tasks through graph-based pipelines but do not enforce the stage constraints that govern real business processes. We present SDOF, a framework that treats multi-agent execution as a constrained state machine. SDOF operates through two primary defensive layers, implemented by three components: (1) an Online-RLHF Specialized Intent Router trained via Generative Reward Modeling (GRPO) and (2) a StateAwareDispatcher with GoalStage finite-automaton checks and precondition/postcondition SkillRegistry validation for auditable execution control. On a recruitment system backed by the Beisen iTalent platform (6000+ enterprises), 185 expert-curated scenarios trigger 1671 live API calls. Our GSPO-aligned 7B Intent Router achieves higher joint accuracy than zero-shot GPT-4o on this FSM-constrained adversarial routing benchmark (80.9% versus 48.9%). In end-to-end execution, SDOF reaches 86.5% task completion (95% confidence interval 80.8 to 90.7) and blocks all 22 operations in the injection, illegal HR subset. Under a broader message-level blocking audit, SDOF attains precision 100% and recall 88%, expert agreement kappa=0.94. A separate evaluation on 960 SGD-derived dialogues spanning 8 service domains surfaces 201 stage-order conflicts under our FSM mapping, 41 of which arise in the normal split. This arXiv version reports the current validated scope; extended multi-seed training comparisons and deeper workflow evaluations will be released in a subsequent update.",
+      "pub_date": "Mon, 18 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "SDOF：通过状态约束调度驯服多智能体编排中的对齐税",
+        "summary": "SDOF框架将多智能体执行视为受约束的状态机，通过在线RLHF意图路由器和状态感知调度器实现可审计的执行控制。在招聘系统基准测试中，7B模型在对抗性路由任务上准确率达80.9%（GPT-4o为48.9%），端到端任务完成率86.5%，并完全阻止了注入攻击。",
+        "summary_en": "SDOF treats multi-agent execution as a constrained state machine, using an online-RLHF intent router and state-aware dispatcher for auditable control. On a recruitment benchmark, a 7B model achieves 80.9% routing accuracy (vs 48.9% for GPT-4o), 86.5% task completion, and blocks all injection attacks.",
+        "tags": [
+          "agent-framework",
+          "research",
+          "security",
+          "fine-tuning",
+          "evaluation"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-19-rss-001",
+        "title": "SDOF：通过状态约束调度驯服多智能体编排中的对齐税",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.15204",
+        "language": "en",
+        "summary": "SDOF框架将多智能体执行视为受约束的状态机，通过在线RLHF意图路由器和状态感知调度器实现可审计的执行控制。在招聘系统基准测试中，7B模型在对抗性路由任务上准确率达80.9%（GPT-4o为48.9%），端到端任务完成率86.5%，并完全阻止了注入攻击。",
+        "summary_en": "SDOF treats multi-agent execution as a constrained state machine, using an online-RLHF intent router and state-aware dispatcher for auditable control. On a recruitment benchmark, a 7B model achieves 80.9% routing accuracy (vs 48.9% for GPT-4o), 86.5% task completion, and blocks all injection attacks.",
+        "tags": [
+          "agent-framework",
+          "research",
+          "security",
+          "fine-tuning",
+          "evaluation"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-05-19T01:35:09.173192+08:00",
+        "updated_at": "2026-05-19T01:35:09.173197+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Does Theory of Mind Improvement Really Benefit Human-AI Interactions? Empirical Findings from Interactive Evaluations",
+      "url": "https://arxiv.org/abs/2605.15205",
+      "description": "arXiv:2605.15205v1 Announce Type: new \nAbstract: Improving the Theory of Mind (ToM) capability of Large Language Models (LLMs) is crucial for effective social interactions between these AI models and humans. However, the existing benchmarks often measure ToM capability improvement through story-reading, multiple-choice questions from a third-person perspective, while ignoring the first-person, dynamic, and open-ended nature of human-AI (HAI) interactions. To directly examine how ToM improvement techniques benefit HAI interactions, we first proposed the new paradigm of interactive ToM evaluation with both perspective and metric shifts. Next, following the paradigm, we conducted a systematic study of four representative ToM enhancement techniques using both four real-world datasets and a user study, covering both goal-oriented tasks (e.g., coding, math) and experience-oriented tasks (e.g., counseling). Our findings reveal that improvements on static benchmarks do not always translate to better performance in dynamic HAI interactions. This paper offers critical insights into ToM evaluation, showing the necessity of interaction-based assessments in developing next-generation, socially aware LLMs for HAI symbiosis.",
+      "pub_date": "Mon, 18 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "心智理论改进是否真正有益于人机交互？来自交互式评估的实证发现",
+        "summary": "研究提出交互式心智理论评估新范式，系统评估四种ToM增强技术在动态人机交互中的效果。发现静态基准上的改进并不总能转化为更好的交互表现，强调基于交互的评估对开发社交感知LLM的必要性。",
+        "summary_en": "Proposes a new interactive ToM evaluation paradigm, systematically studying four ToM enhancement techniques in dynamic HAI interactions. Findings show improvements on static benchmarks do not always translate to better interactive performance, highlighting the need for interaction-based assessments.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-19-rss-005",
+        "title": "心智理论改进是否真正有益于人机交互？来自交互式评估的实证发现",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.15205",
+        "language": "en",
+        "summary": "研究提出交互式心智理论评估新范式，系统评估四种ToM增强技术在动态人机交互中的效果。发现静态基准上的改进并不总能转化为更好的交互表现，强调基于交互的评估对开发社交感知LLM的必要性。",
+        "summary_en": "Proposes a new interactive ToM evaluation paradigm, systematically studying four ToM enhancement techniques in dynamic HAI interactions. Findings show improvements on static benchmarks do not always translate to better interactive performance, highlighting the need for interaction-based assessments.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-05-19T01:35:09.173233+08:00",
+        "updated_at": "2026-05-19T01:35:09.173235+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "SkillSmith: Compiling Agent Skills into Boundary-Guided Runtime Interfaces",
+      "url": "https://arxiv.org/abs/2605.15215",
+      "description": "arXiv:2605.15215v1 Announce Type: new \nAbstract: Recently, skills have been widely adopted in large language model (LLM)-based agent systems across various domains. In existing frameworks, skills are typically injected into the agent reasoning loop as contextual guidance once matched to a runtime task, enabling specialized task-solving capabilities. We find that this execution paradigm introduces two major sources of redundancy: irrelevant context injection and repeated skill-specific reasoning and planning. To this end, we propose SkillSmith, a boundary-first compiler-runtime framework that compiles skill packages offline into minimal executable interfaces. By extracting fine-grained operational boundaries from skills, SkillSmith enables agents to dynamically access and execute only the relevant components at runtime, thereby minimizing unnecessary context injection and redundant reasoning overhead. In the evaluation on SkillsBench benchmark, SkillSmith reduces solve-stage token usage by 57.44%, thinking iterations by 42.99%, solve time by 50.57% (2.02x faster), and token-proportional monetary cost by 57.44% compared with using raw-skills. Moreover, compiled artifacts produced by a stronger model can be reused by a smaller or more efficient runtime model, improving task accuracy in cases where raw skill interpretation fails. The source code and data are available at https://github.com/AetherHeart-AI/Aeloon.",
+      "pub_date": "Mon, 18 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "SkillSmith：将智能体技能编译为边界引导的运行时接口",
+        "summary": "SkillSmith提出一种边界优先的编译-运行时框架，通过离线编译技能包为最小可执行接口，提取细粒度操作边界，使智能体在运行时仅动态访问和执行相关组件，从而减少不必要的上下文注入和冗余推理开销。在SkillsBench基准上，相比原始技能，求解阶段token使用量减少57.44%，思考迭代减少42.99%，求解时间减少50.57%（加速2.02倍），token相关成本降低57.44%。更强模型生成的编译产物可被更小或更高效的运行时模型复用，提升原始技能解释失败时的任务准确率。",
+        "summary_en": "SkillSmith proposes a boundary-first compiler-runtime framework that compiles skill packages offline into minimal executable interfaces. By extracting fine-grained operational boundaries, it enables agents to dynamically access only relevant components at runtime, reducing context injection and reasoning overhead. On SkillsBench, it reduces solve-stage token usage by 57.44%, thinking iterations by 42.99%, solve time by 50.57% (2.02x faster), and cost by 57.44%. Compiled artifacts from stronger models can be reused by smaller models, improving accuracy when raw skill interpretation fails.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "tool"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 1.0,
+        "language": "en"
+      }
+    },
+    {
+      "title": "Fair outputs, Biased Internals: Causal Potency and Asymmetry of Latent Bias in LLMs for High-Stakes Decisions",
+      "url": "https://arxiv.org/abs/2605.15217",
+      "description": "arXiv:2605.15217v1 Announce Type: new \nAbstract: Instruction-tuned language models exhibit behavioural fairness in high-stakes decisions while retaining biased associations in their internal representations. However, whether these suppressed representations can affect model outputs - and whether such causal potency is symmetric across demographic groups - remains unknown. We investigate the use of open-weight models for mortgage underwriting using matched applications that differ only in racially-associated names and reveal a critical disconnect: models show no output-level bias, yet retain and amplify demographic representations across model layers. Through activation steering and novel cross-layer interventions, we demonstrate that this suppressed information is decision-relevant: when reinjected at critical layers, it produces near-complete decision reversals. Critically, this latent bias is asymmetric - steering interventions affect decisions in one demographic direction, while producing minimal effects in reverse - and susceptible to adversarial prompt engineering and parameter-efficient fine-tuning. These findings demonstrate that behavioural audits focused on outputs are insufficient: fair outputs can mask exploitable internal biases. They also motivate dual-layer testing frameworks combining output evaluation with representational analysis for AI governance in high-stakes decisions.",
+      "pub_date": "Mon, 18 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "公平输出，偏见内部：LLM在高风险决策中潜在偏见的因果效力与不对称性",
+        "summary": "研究发现，指令微调语言模型在高风险决策中表现出行为公平性，但内部表征仍保留偏见关联。通过激活引导和跨层干预，证明这些被抑制的表征具有决策相关性，且偏见具有不对称性，易受对抗性提示和微调利用。提出结合输出评估与表征分析的双层测试框架。",
+        "summary_en": "Instruction-tuned LLMs show fair outputs in high-stakes decisions but retain biased internal representations. Activation steering reveals these suppressed representations are causally potent and asymmetric, enabling decision reversals. Proposes dual-layer testing combining output evaluation and representational analysis for AI governance.",
+        "tags": [
+          "llm",
+          "research",
+          "security",
+          "evaluation",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-19-rss-002",
+        "title": "公平输出，偏见内部：LLM在高风险决策中潜在偏见的因果效力与不对称性",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.15217",
+        "language": "en",
+        "summary": "研究发现，指令微调语言模型在高风险决策中表现出行为公平性，但内部表征仍保留偏见关联。通过激活引导和跨层干预，证明这些被抑制的表征具有决策相关性，且偏见具有不对称性，易受对抗性提示和微调利用。提出结合输出评估与表征分析的双层测试框架。",
+        "summary_en": "Instruction-tuned LLMs show fair outputs in high-stakes decisions but retain biased internal representations. Activation steering reveals these suppressed representations are causally potent and asymmetric, enabling decision reversals. Proposes dual-layer testing combining output evaluation and representational analysis for AI governance.",
+        "tags": [
+          "llm",
+          "research",
+          "security",
+          "evaluation",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-05-19T01:35:09.173203+08:00",
+        "updated_at": "2026-05-19T01:35:09.173207+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Always Learning, Always Mixing: Efficient and Simple Data Mixing All The Time",
+      "url": "https://arxiv.org/abs/2605.15220",
+      "description": "arXiv:2605.15220v1 Announce Type: new \nAbstract: Data mixing decides how to combine different sources or types of data and is a consequential problem throughout language model training. In pretraining, data composition is a key determinant of model quality; in continual learning and adaptation, it governs what is retained and acquired. Yet existing data mixing methods address only one phase of this lifecycle at a time: some require smaller proxy models tied to a single training phase, others assume a fixed domain set, and continual learning lacks principled guidance altogether. We argue that data mixing is fundamentally an online decision making problem -- one that recurs throughout training and demands a single, unified solution. We introduce OP-Mix (On-Policy Mix), a data mixing algorithm that operates across the entire language model training lifecycle. Our main insight is that candidate data mixtures can be cheaply simulated by interpolating between low-rank adapters trained directly on the current model, eliminating separate proxy models and ensuring the search is always grounded in the model's actual learning dynamics. Across pretraining, continual midtraining, and continual instruction tuning, OP-Mix consistently finds near-optimal mixtures while using a fraction of the compute of the baselines. In pretraining, OP-Mix improves upon training without mixing by 6.3% in average perplexity. For continual learning, OP-Mix matches the performance of both retraining and on-policy distillation while using 66% and 95% less overall compute, respectively. OP-Mix suggests a different view of language model training: not a sequence of distinct phases, but a single continuous process of learning from data.",
+      "pub_date": "Mon, 18 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "持续学习与混合：高效简单的全周期数据混合方法",
+        "summary": "OP-Mix是一种统一的数据混合算法，适用于预训练、持续中训练和持续指令微调等整个语言模型训练生命周期。它通过在当前模型上训练的低秩适配器之间插值来廉价模拟候选数据混合，无需单独的代理模型。在预训练中，平均困惑度提升6.3%；在持续学习中，计算量减少66%-95%。",
+        "summary_en": "OP-Mix is a unified data mixing algorithm for the entire LLM training lifecycle (pretraining, continual midtraining, continual instruction tuning). It cheaply simulates candidate mixtures by interpolating between low-rank adapters trained on the current model, eliminating separate proxy models. It improves pretraining perplexity by 6.3% and reduces compute by 66%-95% in continual learning.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-19-rss-003",
+        "title": "持续学习与混合：高效简单的全周期数据混合方法",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.15220",
+        "language": "en",
+        "summary": "OP-Mix是一种统一的数据混合算法，适用于预训练、持续中训练和持续指令微调等整个语言模型训练生命周期。它通过在当前模型上训练的低秩适配器之间插值来廉价模拟候选数据混合，无需单独的代理模型。在预训练中，平均困惑度提升6.3%；在持续学习中，计算量减少66%-95%。",
+        "summary_en": "OP-Mix is a unified data mixing algorithm for the entire LLM training lifecycle (pretraining, continual midtraining, continual instruction tuning). It cheaply simulates candidate mixtures by interpolating between low-rank adapters trained on the current model, eliminating separate proxy models. It improves pretraining perplexity by 6.3% and reduces compute by 66%-95% in continual learning.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-05-19T01:35:09.173212+08:00",
+        "updated_at": "2026-05-19T01:35:09.173215+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Fluency and Faithfulness in Human and Machine Literary Translation",
+      "url": "https://arxiv.org/abs/2605.15282",
+      "description": "arXiv:2605.15282v1 Announce Type: new \nAbstract: Literary translation requires balancing target-language fluency with faithfulness to the source. Recent large language models (LLMs) often produce fluent translations, but it remains unclear whether fluency corresponds to semantic preservation in literary text. We examine this relationship using 130,486 translated paragraphs from 106 novels in 16 source languages, including human, Google Translate, and TranslateGemma translations. Fluency is measured as original-likeness with a translationese classifier trained on paragraph part-of-speech n-grams, and faithfulness with the automatic translation evaluation metric COMET-KIWI. We control for paragraph length and find a consistent negative correlation between fluency and faithfulness. The pattern appears for both human and Google Translate, but is weaker and often non-significant for TranslateGemma. These results show that segment length matters for automatic evaluation and suggest a tradeoff between fluency and faithfulness in literary translation.",
+      "pub_date": "Mon, 18 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "文学翻译中的流畅性与忠实性：人类与机器翻译的对比研究",
+        "summary": "研究分析了106部小说、16种源语言的130,486个翻译段落，发现流畅性与忠实性之间存在一致的负相关。该模式在人类翻译和Google翻译中均出现，但在TranslateGemma中较弱且常不显著。结果表明段落长度影响自动评估，且文学翻译中流畅性与忠实性存在权衡。",
+        "summary_en": "Analysis of 130,486 translated paragraphs from 106 novels across 16 source languages reveals a consistent negative correlation between fluency and faithfulness in both human and Google Translate, but weaker for TranslateGemma, suggesting a tradeoff in literary translation.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-19-rss-006",
+        "title": "文学翻译中的流畅性与忠实性：人类与机器翻译的对比研究",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.15282",
+        "language": "en",
+        "summary": "研究分析了106部小说、16种源语言的130,486个翻译段落，发现流畅性与忠实性之间存在一致的负相关。该模式在人类翻译和Google翻译中均出现，但在TranslateGemma中较弱且常不显著。结果表明段落长度影响自动评估，且文学翻译中流畅性与忠实性存在权衡。",
+        "summary_en": "Analysis of 130,486 translated paragraphs from 106 novels across 16 source languages reveals a consistent negative correlation between fluency and faithfulness in both human and Google Translate, but weaker for TranslateGemma, suggesting a tradeoff in literary translation.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-05-19T01:35:09.173239+08:00",
+        "updated_at": "2026-05-19T01:35:09.173241+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "DiscoExplorer: An Open Interface for the Study of Multilingual Discourse Relations",
+      "url": "https://arxiv.org/abs/2605.15304",
+      "description": "arXiv:2605.15304v1 Announce Type: new \nAbstract: The relations connecting propositions in discourse such as cause (A because B) or concession (A although B) are a subject of intense interest in Computational Linguistics and Pragmatics, but challenging to study and compare across languages. Recent progress in standardizing discourse relation inventories across datasets offers the potential to facilitate such studies, but is hindered by the complexity of relevant data and the lack of easily accessible interfaces to analyze it. In this paper we present DiscoExplorer, a new open source web interface, capable of running on local computers, which we use to make datasets from the DISRPT Shared Task on discourse relation classification publicly available, covering 16 different languages. We present the query language, search and visualization facilities for relations and signaling devices such as connectives, as well as some example studies.",
+      "pub_date": "Mon, 18 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "DiscoExplorer：多语言话语关系开放接口",
+        "summary": "DiscoExplorer是一个开源Web界面，用于研究多语言话语关系（如因果、让步）。它支持本地运行，公开了DISRPT共享任务中16种语言的话语关系数据集，提供查询、搜索和可视化功能，便于跨语言话语关系分析。",
+        "summary_en": "DiscoExplorer is an open-source web interface for studying multilingual discourse relations (e.g., cause, concession). It runs locally, makes DISRPT shared task datasets for 16 languages publicly available, and offers query, search, and visualization for relations and signaling devices.",
+        "tags": [
+          "research",
+          "multimodal",
+          "open-source",
+          "tool"
+        ],
+        "category": "research",
+        "relevance_score": 0.6,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-19-rss-009",
+        "title": "DiscoExplorer：多语言话语关系开放接口",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.15304",
+        "language": "en",
+        "summary": "DiscoExplorer是一个开源Web界面，用于研究多语言话语关系（如因果、让步）。它支持本地运行，公开了DISRPT共享任务中16种语言的话语关系数据集，提供查询、搜索和可视化功能，便于跨语言话语关系分析。",
+        "summary_en": "DiscoExplorer is an open-source web interface for studying multilingual discourse relations (e.g., cause, concession). It runs locally, makes DISRPT shared task datasets for 16 languages publicly available, and offers query, search, and visualization for relations and signaling devices.",
+        "tags": [
+          "research",
+          "multimodal",
+          "open-source",
+          "tool"
+        ],
+        "category": "research",
+        "relevance_score": 0.6,
+        "status": "published",
+        "created_at": "2026-05-19T01:35:09.173258+08:00",
+        "updated_at": "2026-05-19T01:35:09.173260+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Automatic Construction of a Legal Citation Graph from 100 Million Ukrainian Court Decisions: Large-Scale Extraction, Topological Analysis, and Ontology-Driven Clustering",
+      "url": "https://arxiv.org/abs/2605.15362",
+      "description": "arXiv:2605.15362v1 Announce Type: new \nAbstract: Half a billion citation edges extracted from 100.7 million Ukrainian court decisions reveal that judicial citation structure encodes legal domain boundaries without supervision and predicts future legislative importance with near-perfect accuracy. We construct the first large-scale citation graph from the complete EDRSR registry (99.5 million full texts, 1.1 TB), extracting 502 million citation links across six types via regex on commodity hardware in approximately 5 hours, with precision of 1.00 on a 200-decision validation sample (95% Wilson CI: [0.982, 1.000]).\n  Three principal findings emerge. (1) The degree distribution follows a power law (alpha = 1.57 +/- 0.008), placing the Ukrainian court network near the EU Court of Justice and below the US Supreme Court, with hub articles cited by millions of decisions. (2) Louvain community detection on the co-citation projection recovers legal domain boundaries (civil, criminal, administrative, commercial) with modularity Q = 0.44-0.55 and temporal stability (NMI = 0.83-0.86 across periods), constituting an automatically constructed legal ontology grounded in judicial practice. (3) Citation features predict top-1000 articles with AUC = 0.9984, substantially outperforming a naive frequency baseline (P@1000 = 0.655); temporal dynamics detect legislative regime changes as phase transitions and the 2022 invasion as a citation entropy spike (H: 11.02 -> 13.49) with emergent wartime legislation nodes.\n  The citation-derived ontology is operationalized as the domain layer of a workflow memory system for LLM-assisted legal analysis, connecting to the ontology-controlled paradigm. The extraction pipeline, analysis code, and aggregated statistics are released as open data.",
+      "pub_date": "Mon, 18 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "乌克兰百万级法院判决引用图谱的自动构建与分析",
+        "summary": "从1.007亿份乌克兰法院判决中提取5.02亿条引用链接，构建首个大规模法律引用图谱。发现引用结构无监督地编码法律领域边界，并以近乎完美的准确率预测未来立法重要性。将引用本体作为LLM辅助法律分析的工作流记忆系统的领域层。",
+        "summary_en": "Constructed the first large-scale legal citation graph from 100.7 million Ukrainian court decisions, extracting 502 million citation links. Found that citation structure encodes legal domain boundaries without supervision and predicts legislative importance with near-perfect accuracy. The citation-derived ontology is operationalized as the domain layer of a workflow memory system for LLM-assisted legal analysis.",
+        "tags": [
+          "research",
+          "application",
+          "infrastructure",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-19-rss-008",
+        "title": "乌克兰百万级法院判决引用图谱的自动构建与分析",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.15362",
+        "language": "en",
+        "summary": "从1.007亿份乌克兰法院判决中提取5.02亿条引用链接，构建首个大规模法律引用图谱。发现引用结构无监督地编码法律领域边界，并以近乎完美的准确率预测未来立法重要性。将引用本体作为LLM辅助法律分析的工作流记忆系统的领域层。",
+        "summary_en": "Constructed the first large-scale legal citation graph from 100.7 million Ukrainian court decisions, extracting 502 million citation links. Found that citation structure encodes legal domain boundaries without supervision and predicts legislative importance with near-perfect accuracy. The citation-derived ontology is operationalized as the domain layer of a workflow memory system for LLM-assisted legal analysis.",
+        "tags": [
+          "research",
+          "application",
+          "infrastructure",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "status": "published",
+        "created_at": "2026-05-19T01:35:09.173254+08:00",
+        "updated_at": "2026-05-19T01:35:09.173256+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Greedy or not, here I come: Language production under vocabulary constraints in humans and resource-rational models",
+      "url": "https://arxiv.org/abs/2605.15365",
+      "description": "arXiv:2605.15365v1 Announce Type: new \nAbstract: Communicating using only a limited vocabulary is a common but challenging cognitive phenomenon, requiring an ideal communicator to plan carefully to optimize for intelligibility while circumventing a constrained lexicon. In this work, we investigate how humans respond to a broad array of questions under variable vocabulary limitations, consisting of only 250 highly frequent words at the most restrictive. We provide theoretically motivated comparisons to greedy and globally optimal sampling algorithms using Sequential Monte Carlo inference with large language models. Humans generally resemble greedy sampling more than globally optimal sampling, though more skilled humans are more likely to backtrack and revise -- a non-greedy behavior. An observed human pattern of leaning on semantically light words in high-constraint settings falls out of both greedy and globally optimal sampling. We discuss the results and their broader implications for resource-rational cognition, psycholinguistics, L2 communication, and language impairments.",
+      "pub_date": "Mon, 18 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "词汇限制下的语言生成：人类与资源理性模型的比较研究",
+        "summary": "研究人类在有限词汇（最低仅250个高频词）下如何回答问题，并与基于大语言模型的贪婪和全局最优采样算法进行比较。人类行为更接近贪婪采样，但高技能者会回溯修正。在强限制下，人类倾向于使用语义轻的词。",
+        "summary_en": "Investigates how humans answer questions under severe vocabulary constraints (as few as 250 high-frequency words), comparing with greedy and globally optimal sampling using LLMs. Humans resemble greedy sampling, but skilled humans backtrack and revise. Humans lean on semantically light words under high constraint.",
+        "tags": [
+          "llm",
+          "research",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-19-rss-007",
+        "title": "词汇限制下的语言生成：人类与资源理性模型的比较研究",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.15365",
+        "language": "en",
+        "summary": "研究人类在有限词汇（最低仅250个高频词）下如何回答问题，并与基于大语言模型的贪婪和全局最优采样算法进行比较。人类行为更接近贪婪采样，但高技能者会回溯修正。在强限制下，人类倾向于使用语义轻的词。",
+        "summary_en": "Investigates how humans answer questions under severe vocabulary constraints (as few as 250 high-frequency words), comparing with greedy and globally optimal sampling using LLMs. Humans resemble greedy sampling, but skilled humans backtrack and revise. Humans lean on semantically light words under high constraint.",
+        "tags": [
+          "llm",
+          "research",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-05-19T01:35:09.173248+08:00",
+        "updated_at": "2026-05-19T01:35:09.173251+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

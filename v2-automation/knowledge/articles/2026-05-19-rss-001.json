@@ -1,0 +1,26 @@
+{
+  "id": "2026-05-19-rss-001",
+  "title": "SDOF：通过状态约束调度驯服多智能体编排中的对齐税",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.15204",
+  "language": "en",
+  "summary": "SDOF框架将多智能体执行视为受约束的状态机，通过在线RLHF意图路由器和状态感知调度器实现可审计的执行控制。在招聘系统基准测试中，7B模型在对抗性路由任务上准确率达80.9%（GPT-4o为48.9%），端到端任务完成率86.5%，并完全阻止了注入攻击。",
+  "summary_en": "SDOF treats multi-agent execution as a constrained state machine, using an online-RLHF intent router and state-aware dispatcher for auditable control. On a recruitment benchmark, a 7B model achieves 80.9% routing accuracy (vs 48.9% for GPT-4o), 86.5% task completion, and blocks all injection attacks.",
+  "tags": [
+    "agent-framework",
+    "research",
+    "security",
+    "fine-tuning",
+    "evaluation"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-05-19T01:35:09.173192+08:00",
+  "updated_at": "2026-05-19T01:35:09.173197+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
