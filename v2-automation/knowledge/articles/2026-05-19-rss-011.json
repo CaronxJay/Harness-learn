@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-19-rss-011",
+  "title": "ANNEAL：通过受控符号补丁学习自适应LLM智能体",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.16309",
+  "language": "en",
+  "summary": "ANNEAL是一种神经符号智能体，通过故障驱动知识获取（FDKA）机制，将重复故障转化为过程知识图谱的受控符号编辑，无需修改模型权重。在四个领域27次多种子运行中，ANNEAL将重复故障率从72-100%降至0%，消融实验显示移除FDKA后成功率下降26.7个百分点。",
+  "summary_en": "ANNEAL is a neuro-symbolic agent that converts recurring failures into governed symbolic edits of a process knowledge graph via Failure-Driven Knowledge Acquisition (FDKA), without modifying model weights. Across four domains and 27 multi-seed runs, it reduces recurring failure rates from 72-100% to 0%, with ablation showing a 26.7 percentage point drop in success rate when FDKA is removed.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "research",
+    "tool"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-05-19T19:16:53.052290+08:00",
+  "updated_at": "2026-05-19T19:16:53.052291+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

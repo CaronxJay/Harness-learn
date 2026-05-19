@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-19-rss-013",
+  "title": "Skim：面向Web Agent的投机执行框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.16565",
+  "language": "en",
+  "summary": "Skim是一个针对Web Agent的投机执行框架，利用目的性构建网站的稳定结构模式。通过离线分析器捕获模式，运行时匹配模板、合成目标URL并用小模型提取答案，轻量验证器确保正确性。在多个基准测试中，Skim将中位任务成本降低1.9倍，延迟降低33.4%，且无精度损失。",
+  "summary_en": "Skim is a speculative execution framework for web agents that exploits predictable website structures. It reduces median per-task cost by 1.9x and latency by 33.4% with no accuracy loss across standard benchmarks.",
+  "tags": [
+    "agent-framework",
+    "research",
+    "application",
+    "llm"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-05-19T19:16:53.052299+08:00",
+  "updated_at": "2026-05-19T19:16:53.052300+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

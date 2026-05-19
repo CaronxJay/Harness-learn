@@ -1,0 +1,26 @@
+{
+  "id": "2026-05-19-rss-015",
+  "title": "PQR：生成引发问答智能体故障的多样且真实用户查询的框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.16551",
+  "language": "en",
+  "summary": "PQR框架通过查询精炼和提示精炼两个模块的迭代交互，自动生成能触发LLM智能体故障的多样且真实用户查询，无需大量人工设计。在电商QA智能体评估中，相比现有方法，PQR发现的无帮助响应增加了23%-78%，且生成的查询更多样、更真实。",
+  "summary_en": "PQR is a framework that automatically generates diverse and realistic user queries that trigger LLM agent failures through iterative interaction between query refinement and prompt refinement modules. It uncovers 23%-78% more unhelpful responses in e-commerce QA agent evaluation, with more diverse and realistic queries than prior methods.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "agent-framework",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-05-19T19:16:53.052306+08:00",
+  "updated_at": "2026-05-19T19:16:53.052308+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

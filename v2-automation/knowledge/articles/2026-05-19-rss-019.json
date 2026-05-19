@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-19-rss-019",
+  "title": "arXiv数学论文HTML转换与MathML 4无障碍访问",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.16562",
+  "language": "en",
+  "summary": "报告arXiv HTML论文服务的进展：2025-2026年主要成果包括社区驱动的HTML保真度改进（处理6000份用户报告中的一半）、语料库规模转换（75%无错误HTML）、MathML 4意图注释支持语音输出，以及LaTeXML的Rust移植以降低计算成本。",
+  "summary_en": "Reports progress on arXiv's HTML Papers service: 2025-2026 highlights include community-driven HTML fidelity improvements (half of 6,000 user reports resolved), corpus-scale conversion (75% error-free HTML), MathML 4 Intent annotations for accessible speech, and a Rust port of LaTeXML to reduce compute costs.",
+  "tags": [
+    "infrastructure",
+    "open-source",
+    "accessibility",
+    "rust"
+  ],
+  "category": "infrastructure",
+  "relevance_score": 0.6,
+  "status": "published",
+  "created_at": "2026-05-19T19:16:53.052332+08:00",
+  "updated_at": "2026-05-19T19:16:53.052333+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
