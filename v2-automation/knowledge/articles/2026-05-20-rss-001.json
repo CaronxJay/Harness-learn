@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-20-rss-001",
+  "title": "数据探针：从根本上理解数据如何影响大语言模型性能",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.18801",
+  "language": "en",
+  "summary": "本文提出开发“数据探针”系统方法论，通过从随机过程生成合成序列，观察LLM行为，以系统研究数据特征如何影响模型性能、泛化性和鲁棒性，超越经验启发式方法。",
+  "summary_en": "This position paper advocates for developing 'data probes'—systematic methodologies for generating synthetic sequences from random processes—to fundamentally understand how data characteristics influence LLM performance, generalization, and robustness, moving beyond empirical heuristics.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-05-20T18:49:42.402121+08:00",
+  "updated_at": "2026-05-20T18:49:42.402125+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

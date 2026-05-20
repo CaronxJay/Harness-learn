@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-20-rss-009",
+  "title": "低资源NLP评估中的标注稀缺悖论：十年加速与新兴约束",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.19066",
+  "language": "en",
+  "summary": "本文批判性综述低资源NLP评估（2014年至今），提出“标注稀缺悖论”：模型扩展能力远超主权人工评估基础设施。探讨数据管道、幽灵工作等问题，并评估数据增强、模型评估、参与式策展等应对策略，呼吁从交易式数据提取转向关系性、社区嵌入的评估范式。",
+  "summary_en": "This paper presents a critical survey of low-resource NLP evaluation (2014-present), introducing the 'Annotation Scarcity Paradox' where model scaling outpaces human evaluation infrastructure. It examines extractive pipelines, ghost work, and emerging responses, calling for a shift to relational, community-embedded evaluation.",
+  "tags": [
+    "research",
+    "evaluation",
+    "low-resource",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-05-20T18:49:42.402163+08:00",
+  "updated_at": "2026-05-20T18:49:42.402165+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "2026-05-20-rss-008",
+  "title": "个人健康记录在个性化健康AI中的效用评估",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.18937",
+  "language": "en",
+  "summary": "研究评估了大型语言模型（Gemini 3.0 Flash）利用个人健康记录（PHR）回答用户健康查询的效用。使用2257个查询和1945份去标识化PHR，发现加入PHR上下文后回答的有用性显著提升（p<0.001），并开发了评估框架识别LLM对复杂PHR理解的不足。",
+  "summary_en": "Evaluates LLM (Gemini 3.0 Flash) utility in answering health queries using Personal Health Records (PHR). With 2257 queries and 1945 PHRs, significant improvement in answer helpfulness with PHR context (p<0.001). Develops evaluation framework identifying LLM gaps in understanding complex PHRs.",
+  "tags": [
+    "llm",
+    "research",
+    "application",
+    "evaluation",
+    "rag"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-05-20T18:49:42.402159+08:00",
+  "updated_at": "2026-05-20T18:49:42.402161+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

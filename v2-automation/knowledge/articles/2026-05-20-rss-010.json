@@ -1,0 +1,24 @@
+{
+  "id": "2026-05-20-rss-010",
+  "title": "商用ASR系统在代码切换语音上的基准测试：阿拉伯语、波斯语和德语",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.19069",
+  "language": "en",
+  "summary": "针对代码切换语音这一ASR领域的难点，评估了五家商用ASR提供商在四种语言对上的表现。提出两阶段流水线筛选数据集，将LLM评分成本降低约91%。发现BERTScore比WER更适合评估阿拉伯语和波斯语。ElevenLabs Scribe v2在所有语言对上取得最低WER（整体13.2%）。公开了基准数据集。",
+  "summary_en": "Benchmarks five commercial ASR providers on code-switching speech across four language pairs. Proposes a two-stage pipeline reducing LLM scoring costs by ~91%. Finds BERTScore more reliable than WER for Arabic and Persian. ElevenLabs Scribe v2 achieves lowest WER (13.2% overall). Dataset publicly available.",
+  "tags": [
+    "benchmark",
+    "research",
+    "multimodal"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-05-20T18:49:42.402168+08:00",
+  "updated_at": "2026-05-20T18:49:42.402169+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

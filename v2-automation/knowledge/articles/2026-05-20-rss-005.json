@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-20-rss-005",
+  "title": "学习型线控训练治理：压力下的有界自主训练实现稳定性与效率",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.19008",
+  "language": "en",
+  "summary": "提出LBW-Guard，一种位于AdamW之上的有界自主训练控制治理层，通过观察训练遥测并应用有界控制来提升LLM训练的稳定性与效率。在Qwen2.5-7B上，困惑度从13.21降至10.74（提升18.7%），训练时间从392.54秒降至357.02秒（加速1.10倍）。在高学习率压力下，AdamW退化严重，而LBW-Guard仍保持可训练状态。",
+  "summary_en": "Introduces LBW-Guard, a bounded autonomous training control governance layer above AdamW that observes training telemetry and applies bounded control to improve LLM training stability and efficiency. On Qwen2.5-7B, perplexity drops from 13.21 to 10.74 (18.7% improvement) and training time reduces from 392.54s to 357.02s (1.10x speedup). Under high learning rate stress, AdamW degrades severely while LBW-Guard remains trainable.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "infrastructure"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-05-20T18:49:42.402144+08:00",
+  "updated_at": "2026-05-20T18:49:42.402146+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
