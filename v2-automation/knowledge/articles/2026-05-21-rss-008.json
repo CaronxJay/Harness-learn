@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-21-rss-008",
+  "title": "LLM中的残疾表征：光鲜故事与隐藏困境",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.20191",
+  "language": "en",
+  "summary": "研究LLM如何表征残疾群体，发现模型常产生过度乐观的刻板印象，无法真实反映残疾人的生活现实；同时存在负面偏见，将职业、娱乐等话题与健全人过度关联，强化排斥性叙事。",
+  "summary_en": "Investigates how LLMs represent disability, finding they often produce overly positive stereotypes that fail to capture lived realities, and exhibit negative bias by disproportionately associating topics like career and entertainment with non-disabled individuals.",
+  "tags": [
+    "llm",
+    "research",
+    "bias",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-05-21T19:23:29.313047+08:00",
+  "updated_at": "2026-05-21T19:23:29.313048+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
