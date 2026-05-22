@@ -1,0 +1,32 @@
+{
+  "id": "2026-05-05-016",
+  "title": "AI工具系统提示与模型集大成仓库",
+  "source": "github",
+  "source_url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+  "summary": "该项目收集并归档了超过20种主流AI开发工具（如Cursor、Devin、Copilot、Windsurf等）的内部系统提示（System Prompts）、私有模型描述及内部工具配置，旨在为AI研究和逆向工程提供参考。它覆盖了从代码补全、代理编程到智能IDE的全谱系工具，是研究当前AI辅助开发工具内部机制的重要资料库。由于仓库持续更新并包含稀有开源模型的提示，对于希望理解或复现这些工具行为的开发",
+  "highlights": [
+    "涵盖20+主流AI开发工具的系统提示，包括Cursor、Devin、Replit等最新版本",
+    "持续更新并收录部分开源模型的内部提示与工具配置",
+    "为理解AI编程助手的提示工程和内部工作流提供直观参考"
+  ],
+  "score": 7,
+  "score_reason": "直接有助于研究和逆向工程AI工具的内部机制，但部分提示可能随工具版本快速变化。",
+  "tags": [
+    "open-source",
+    "prompt-engineering",
+    "llm",
+    "agent",
+    "code-generation"
+  ],
+  "status": "published",
+  "fetched_at": "2026-05-05T09:40:41Z",
+  "analyzed_at": "2026-05-05T09:40:43Z",
+  "published_at": "2026-05-05T09:42:08Z",
+  "metadata": {
+    "stars": 136703,
+    "stars_today": null,
+    "language": "",
+    "hackernews_points": null,
+    "hackernews_comments": null
+  }
+}

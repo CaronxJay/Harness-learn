@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-21-rss-002",
+  "title": "并行LLM推理实现抗偏稳健的概念抽象",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.20194",
+  "language": "en",
+  "summary": "提出一种结构化框架，通过并行分块处理与基于证据的整合，解决长文档分析中的累积偏差、遗漏错误和过度泛化问题。实验表明，该方法将遗漏错误减少约84%，证据可追溯性提升高达130%，无依据声明减少高达91%，尤其对小模型效果显著。",
+  "summary_en": "Proposes a structured framework combining parallel chunk-level processing with evidence-anchored consolidation to address cumulative bias, omission errors, and over-generalization in long document analysis. Experiments show ~84% reduction in omission errors, up to 130% increase in evidence traceability, and up to 91% reduction in unsupported claims, with smaller models benefiting most.",
+  "tags": [
+    "llm",
+    "research",
+    "benchmark",
+    "rag"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-05-21T19:23:29.313017+08:00",
+  "updated_at": "2026-05-21T19:23:29.313019+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

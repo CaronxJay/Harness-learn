@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-19-rss-014",
+  "title": "LLM智能体系统中技能的规模定律",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.16508",
+  "language": "en",
+  "summary": "该研究揭示了智能体系统中技能库规模的两个耦合定律：路由定律（单步路由准确率随库大小对数衰减）和执行定律（正确执行可改善下游决策约4倍）。通过15个前沿LLM、1141个真实技能和超过300万次路由/执行决策验证。基于定律的优化将路由准确率从71.3%提升至91.7%，劫持率从22.4%降至4.1%，并在下游基准测试中显著提升通过率。",
+  "summary_en": "This paper identifies two coupled scaling laws in LLM agent systems: routing law (logarithmic decay of accuracy with library size) and execution law (correct execution improves downstream decisions ~4x). Validated across 15 LLMs, 1,141 skills, and 3M+ decisions. Law-guided optimization boosts routing accuracy from 71.3% to 91.7%, reduces hijack from 22.4% to 4.1%, and improves downstream pass rates.",
+  "tags": [
+    "research",
+    "llm",
+    "agent-framework",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-05-19T19:16:53.052302+08:00",
+  "updated_at": "2026-05-19T19:16:53.052304+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

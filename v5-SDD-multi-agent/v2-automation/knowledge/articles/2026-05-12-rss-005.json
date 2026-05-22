@@ -1,0 +1,26 @@
+{
+  "id": "2026-05-12-rss-005",
+  "title": "多智能体AI中的隐藏联盟：基于内部表示的频谱诊断方法",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.06696",
+  "language": "en",
+  "summary": "提出一种从多智能体系统内部神经表示中检测联盟结构的实用方法。通过构建隐藏状态的成对互信息图并应用频谱划分，识别最显著的联盟边界。在MARL和LLM场景中验证，能有效区分真正的信息耦合与行为协同，为监控分布式AI系统中的涌现结构提供可扩展的诊断工具。",
+  "summary_en": "Introduces a practical method to detect coalition structures from internal neural representations of multi-agent systems. Constructs pairwise mutual-information graphs from hidden states and applies spectral partitioning to identify salient coalition boundaries. Validated in MARL and LLM settings, effectively distinguishing genuine informational coupling from behavioral coordination.",
+  "tags": [
+    "research",
+    "multi-agent",
+    "llm",
+    "benchmark",
+    "agent-framework"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-05-12T01:14:26.281758+08:00",
+  "updated_at": "2026-05-12T01:14:26.281759+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "2026-05-19-rss-002",
+  "title": "公平输出，偏见内部：LLM在高风险决策中潜在偏见的因果效力与不对称性",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.15217",
+  "language": "en",
+  "summary": "研究发现，指令微调语言模型在高风险决策中表现出行为公平性，但内部表征仍保留偏见关联。通过激活引导和跨层干预，证明这些被抑制的表征具有决策相关性，且偏见具有不对称性，易受对抗性提示和微调利用。提出结合输出评估与表征分析的双层测试框架。",
+  "summary_en": "Instruction-tuned LLMs show fair outputs in high-stakes decisions but retain biased internal representations. Activation steering reveals these suppressed representations are causally potent and asymmetric, enabling decision reversals. Proposes dual-layer testing combining output evaluation and representational analysis for AI governance.",
+  "tags": [
+    "llm",
+    "research",
+    "security",
+    "evaluation",
+    "fine-tuning"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-05-19T01:35:09.173203+08:00",
+  "updated_at": "2026-05-19T01:35:09.173207+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

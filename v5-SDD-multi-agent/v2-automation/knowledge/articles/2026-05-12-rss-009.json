@@ -1,0 +1,26 @@
+{
+  "id": "2026-05-12-rss-009",
+  "title": "塔吉克-波斯语跨脚本低资源NLP词汇资源与混合模型",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.06886",
+  "language": "en",
+  "summary": "介绍TajPersLexon，一个包含40,112对词和短语的塔吉克-波斯语平行词汇资源，用于低资源场景下的跨脚本词汇检索、音译和对齐。CPU基准测试表明，神经和检索方法达到98-99%的top-1准确率，而可解释的混合模型在OCR后校正任务中实现96.4%准确率，兼顾精度与效率。",
+  "summary_en": "Introduces TajPersLexon, a Tajik-Persian parallel lexical resource of 40,112 pairs for cross-script lexical retrieval, transliteration, and alignment in low-resource settings. CPU benchmarks show neural and retrieval methods achieve 98-99% top-1 accuracy, while an interpretable hybrid model offers 96.4% accuracy in OCR post-correction with favorable efficiency.",
+  "tags": [
+    "llm",
+    "research",
+    "benchmark",
+    "low-resource",
+    "multilingual"
+  ],
+  "category": "research",
+  "relevance_score": 0.8,
+  "status": "published",
+  "created_at": "2026-05-12T01:14:26.281782+08:00",
+  "updated_at": "2026-05-12T01:14:26.281784+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

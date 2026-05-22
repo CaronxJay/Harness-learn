@@ -1,0 +1,91 @@
+# RSS 数据源配置文件
+#
+# 字段说明：
+#   name     - 数据源唯一标识
+#   url      - RSS / Atom feed 地址
+#   category - 分类：comprehensive（综合技术）/ research（AI 研究）/
+#                    company（公司博客）/ chinese（中文社区）
+#   enabled  - 是否启用采集（false 表示默认跳过）
+
+sources:
+  # =========================================================================
+  # 综合技术
+  # =========================================================================
+  - name: hnrss_best_ai
+    url: "https://hnrss.org/best?q=ai+OR+llm+OR+agent+OR+machine+learning+OR+deep+learning+OR+rag"
+    category: comprehensive
+    enabled: false  # 数据量大，默认关闭
+
+  - name: lobsters_ai
+    url: "https://lobste.rs/t/ai.rss"
+    category: comprehensive
+    enabled: true
+
+  - name: lobsters_ml
+    url: "https://lobste.rs/t/machinelearning.rss"
+    category: comprehensive
+    enabled: true
+
+  # =========================================================================
+  # AI 研究
+  # =========================================================================
+  - name: arxiv_cs_ai
+    url: "https://export.arxiv.org/rss/cs.AI"
+    category: research
+    enabled: true
+
+  - name: arxiv_cs_cl
+    url: "https://export.arxiv.org/rss/cs.CL"
+    category: research
+    enabled: true
+
+  - name: arxiv_cs_lg
+    url: "https://export.arxiv.org/rss/cs.LG"
+    category: research
+    enabled: false  # 数据量大（机器学习全领域），默认关闭
+
+  - name: arxiv_stat_ml
+    url: "https://export.arxiv.org/rss/stat.ML"
+    category: research
+    enabled: false  # 数据量大，默认关闭
+
+  # =========================================================================
+  # 公司博客
+  # =========================================================================
+  - name: openai_blog
+    url: "https://openai.com/blog/rss.xml"
+    category: company
+    enabled: true
+
+  - name: anthropic_research
+    url: "https://www.anthropic.com/research/feed"
+    category: company
+    enabled: true
+
+  - name: huggingface_blog
+    url: "https://huggingface.co/blog/feed.xml"
+    category: company
+    enabled: true
+
+  - name: google_deepmind_blog
+    url: "https://deepmind.google/blog/feed.xml"
+    category: company
+    enabled: false  # 可选
+
+  - name: meta_ai_blog
+    url: "https://ai.meta.com/blog/feed/"
+    category: company
+    enabled: false  # 可选
+
+  # =========================================================================
+  # 中文社区（默认 disabled，待确认 RSS 可用性后手动开启）
+  # =========================================================================
+  - name: jiqizhixin
+    url: "https://www.jiqizhixin.com/rss"
+    category: chinese
+    enabled: false  # 待确认 RSS 可用性
+
+  - name: qbitai
+    url: "https://www.qbitai.com/feed"
+    category: chinese
+    enabled: false  # 待确认 RSS 可用性

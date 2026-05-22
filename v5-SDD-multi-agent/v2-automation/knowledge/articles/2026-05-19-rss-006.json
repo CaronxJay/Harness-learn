@@ -1,0 +1,24 @@
+{
+  "id": "2026-05-19-rss-006",
+  "title": "文学翻译中的流畅性与忠实性：人类与机器翻译的对比研究",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.15282",
+  "language": "en",
+  "summary": "研究分析了106部小说、16种源语言的130,486个翻译段落，发现流畅性与忠实性之间存在一致的负相关。该模式在人类翻译和Google翻译中均出现，但在TranslateGemma中较弱且常不显著。结果表明段落长度影响自动评估，且文学翻译中流畅性与忠实性存在权衡。",
+  "summary_en": "Analysis of 130,486 translated paragraphs from 106 novels across 16 source languages reveals a consistent negative correlation between fluency and faithfulness in both human and Google Translate, but weaker for TranslateGemma, suggesting a tradeoff in literary translation.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-05-19T01:35:09.173239+08:00",
+  "updated_at": "2026-05-19T01:35:09.173241+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "2026-05-07-github-010",
+  "title": "Mastra：构建AI应用与智能体的TypeScript框架",
+  "source": "github_trending",
+  "source_url": "",
+  "language": "en",
+  "summary": "Mastra 是由 Gatsby 团队开发的 TypeScript 框架，专注于构建 AI 驱动的应用和智能体。它提供现代开发体验，支持复杂工作流、多模型集成、记忆管理、工具调用和检索增强生成（RAG）。框架强调生产就绪，具备可观测性、安全性和可扩展性，适合构建从聊天机器人到多智能体协作系统的各类应用。",
+  "summary_en": "Mastra is a TypeScript framework from the Gatsby team for building AI-powered applications and agents. It offers modern development experience, supporting complex workflows, multi-model integration, m",
+  "tags": [
+    "TypeScript",
+    "AI框架",
+    "智能体",
+    "RAG",
+    "工作流",
+    "Gatsby"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.95,
+  "status": "draft",
+  "created_at": "2026-05-07T11:58:23.651789+00:00",
+  "updated_at": "2026-05-07T11:58:23.674281+00:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

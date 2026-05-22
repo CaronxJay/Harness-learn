@@ -1,0 +1,27 @@
+{
+  "id": "2026-05-07-github-006",
+  "title": "LangGraph：构建弹性语言代理的图框架",
+  "source": "github_trending",
+  "source_url": "",
+  "language": "en",
+  "summary": "LangGraph 是一个用于构建弹性语言代理的图框架，支持 TypeScript 和 Python。它允许开发者将代理逻辑表示为有向图，其中节点是函数或工具调用，边是状态转换。该框架基于 LangChain，提供循环、条件分支和持久化状态，适用于复杂多步骤任务。开源、活跃维护，适合生产级代理开发。",
+  "summary_en": "LangGraph is a graph framework for building resilient language agents, available in TypeScript and Python. It allows developers to represent agent logic as directed graphs with nodes as function/tool ",
+  "tags": [
+    "agent-framework",
+    "langchain",
+    "graph",
+    "state-machine",
+    "typescript",
+    "python"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.95,
+  "status": "draft",
+  "created_at": "2026-05-07T11:58:23.651789+00:00",
+  "updated_at": "2026-05-07T11:58:23.665224+00:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

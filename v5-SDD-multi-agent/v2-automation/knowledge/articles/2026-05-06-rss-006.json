@@ -1,0 +1,26 @@
+{
+  "id": "2026-05-06-rss-006",
+  "title": "2026年人工智能与机器学习智能制造路线图",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.00839",
+  "language": "en",
+  "summary": "该路线图全面概述了AI/ML在智能制造中的基础、应用和新兴方向，涵盖工业大数据、自主系统、数字孪生、机器人、LLM和基础模型等关键领域，并指出了方法、集成策略和工业采纳方面所需的进展。",
+  "summary_en": null,
+  "tags": [
+    "research",
+    "application",
+    "llm",
+    "multimodal",
+    "infrastructure"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-05-06T13:35:18.214946+08:00",
+  "updated_at": "2026-05-06T13:35:18.214947+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

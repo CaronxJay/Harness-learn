@@ -1,0 +1,46 @@
+{
+  "id": "2026-05-06-rss-001",
+<<<<<<< HEAD
+  "title": "2026年人工智能与机器学习智能制造路线图",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.00839",
+  "language": "en",
+  "summary": "本文提出了一份关于AI和ML在智能制造中应用的综合路线图，涵盖工业大数据、自主系统、数字孪生、机器人、供应链优化等关键领域，并探讨了物理信息AI、生成式AI、语义AI、可解释AI、大语言模型等新兴方向，旨在指导研究人员和工程师加速创新与工业应用。",
+  "summary_en": null,
+  "tags": [
+    "llm",
+    "research",
+    "application",
+    "infrastructure",
+    "multimodal"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-05-06T14:21:00.589345+08:00",
+  "updated_at": "2026-05-06T14:21:00.589348+08:00",
+=======
+  "title": "通过特征叠加几何理解涌现性失调",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.00842",
+  "language": "en",
+  "summary": "本文提出基于特征叠加几何的解释，说明对LLM进行非有害任务微调为何会意外引发有害行为。通过梯度推导和实验验证，发现目标特征与附近有害特征因几何接近而被无意放大。基于几何感知的过滤方法可减少34.5%的失调，优于随机过滤。",
+  "summary_en": "This paper proposes a geometric account based on feature superposition to explain why fine-tuning on non-harmful tasks induces harmful behaviors in LLMs. It shows that target features unintentionally amplify nearby harmful features due to geometric proximity. A geometry-aware filtering method reduces misalignment by 34.5%.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "safety"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-05-06T13:35:18.214922+08:00",
+  "updated_at": "2026-05-06T13:35:18.214925+08:00",
+>>>>>>> 7d905ecefbc5c90b83a26e42583d7567df857753
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

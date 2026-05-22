@@ -1,0 +1,24 @@
+{
+  "id": "2026-05-07-rss-005",
+  "title": "让不可见变得可见：理解AI采纳中组织目标与员工体验的错位",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.03078",
+  "language": "en",
+  "summary": "本文通过访谈医疗、金融和管理领域日常使用AI的专业人士，揭示了组织期望与员工体验之间的脱节。识别出可用性差、期望错位、控制权有限和沟通不足等关键障碍，并提出在个体、任务和组织层面调整AI系统以更好匹配实际工作实践的适应策略。",
+  "summary_en": "Through interviews with professionals in healthcare, finance, and management who interact with AI daily, this paper reveals the disconnect between organizational expectations and worker experiences. It identifies key barriers like poor usability, misaligned expectations, limited control, and insufficient communication, proposing adaptation strategies at individual, task, and organizational levels.",
+  "tags": [
+    "research",
+    "application",
+    "llm"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-05-07T23:57:07.109781+08:00",
+  "updated_at": "2026-05-07T23:57:07.109784+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

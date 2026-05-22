@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-08-rss-006",
+  "title": "可解释性理解标注者安全策略",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.05329",
+  "language": "en",
+  "summary": "提出标注者策略模型（APMs），从标注行为中学习标注者内部安全策略，无需额外标注即可揭示标注分歧原因（操作失误、政策模糊、价值多元），准确率>80%，支持更透明、包容的安全政策设计。",
+  "summary_en": "Introduces Annotator Policy Models (APMs) that learn annotators' internal safety policies from labeling behavior alone, revealing sources of annotation disagreement (operational failures, policy ambiguity, value pluralism) with >80% accuracy, enabling more transparent and inclusive safety policy design.",
+  "tags": [
+    "llm",
+    "research",
+    "security",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-05-08T20:17:27.482676+08:00",
+  "updated_at": "2026-05-08T20:17:27.482678+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

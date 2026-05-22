@@ -1,0 +1,31 @@
+{
+  "id": "2026-05-05-002",
+  "title": "mike：开源 AI 法律平台",
+  "source": "github",
+  "source_url": "https://github.com/willchen96/mike",
+  "summary": "mike 是一个 AGPL-3.0 开源 AI 法律平台，提供智能化法律咨询与文档处理能力。TypeScript 全栈架构，面向个人与中小企业降低法律 AI 服务使用门槛，是 LLM 在法律垂直行业的落地实践。",
+  "highlights": [
+    "面向法律行业的端到端 AI 平台，覆盖咨询、文档生成等核心场景",
+    "AGPL-3.0 开源协议，TypeScript 全栈架构",
+    "降低法律 AI 服务的使用门槛，服务个人与中小企业"
+  ],
+  "score": 6,
+  "score_reason": "垂直行业应用有明确需求，但产品细节公开不足，需观察实际法律场景的准确度和可靠性。",
+  "tags": [
+    "llm",
+    "agent",
+    "open-source",
+    "workflow"
+  ],
+  "status": "published",
+  "fetched_at": "2026-05-05T04:11:06Z",
+  "analyzed_at": "2026-05-05T04:17:54Z",
+  "published_at": "2026-05-05T04:17:54Z",
+  "metadata": {
+    "stars": 2041,
+    "stars_today": null,
+    "language": "TypeScript",
+    "hackernews_points": null,
+    "hackernews_comments": null
+  }
+}

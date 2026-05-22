@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-06-rss-020",
+  "title": "AI接口加速电池研究：FINALES与Kadi4Mat协同优化",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.00909",
+  "language": "en",
+  "summary": "本研究提出一个框架，通过FINALES与Kadi4Mat生态系统互操作，利用多目标贝叶斯优化算法，高效探索钠离子电池化成时间与寿命性能的权衡，加速电池研究并减少实验资源消耗。",
+  "summary_en": null,
+  "tags": [
+    "research",
+    "application",
+    "optimization",
+    "infrastructure"
+  ],
+  "category": "research",
+  "relevance_score": 0.8,
+  "status": "published",
+  "created_at": "2026-05-06T23:55:27.058575+08:00",
+  "updated_at": "2026-05-06T23:55:27.058576+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-19-rss-016",
+  "title": "超越情感分类：文本情感强度评估的生成框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.16613",
+  "language": "en",
+  "summary": "提出一种从离散分类转向连续情感强度评估的新方法。通过构建情感强度数据集并微调生成式语言模型输出0-100的连续值，在金融等领域展现出更强的表达力和泛化能力，优于传统分类基线。",
+  "summary_en": "Introduces a generative framework for emotion intensity evaluation, shifting from discrete classification to continuous 0-100 scoring. Fine-tuned LLMs outperform classification baselines and show generalization to sentiment and arousal, benefiting domains like finance.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-05-19T19:16:53.052319+08:00",
+  "updated_at": "2026-05-19T19:16:53.052321+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

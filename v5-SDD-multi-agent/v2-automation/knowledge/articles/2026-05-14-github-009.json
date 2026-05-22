@@ -1,0 +1,24 @@
+{
+  "id": "2026-05-14-github-009",
+  "title": "人工智能学习路径",
+  "source": "github_trending",
+  "source_url": "https://github.com/DebanKShahi/Artificial-Intelligence",
+  "language": "en",
+  "summary": "一个个人学习人工智能及其子领域（机器学习、深度学习、生成式AI包括LLM和Agentic AI）的仓库。",
+  "summary_en": null,
+  "tags": [
+    "llm",
+    "research",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.8,
+  "status": "published",
+  "created_at": "2026-05-14T00:35:28.203557+08:00",
+  "updated_at": "2026-05-14T00:35:28.203559+08:00",
+  "metadata": {
+    "stars": 0,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

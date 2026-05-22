@@ -1,0 +1,31 @@
+{
+  "id": "2026-05-05-013",
+  "title": "TradingAgents：LLM 多 Agent 金融量化交易框架",
+  "source": "github",
+  "source_url": "https://github.com/lukiIabs/trading-agents",
+  "summary": "TradingAgents 模拟真实交易公司角色协作架构：分析师团队（基本面/情绪/新闻/技术）→ 研究员团队（多空辩论）→ 交易员 → 风险管理 + 投资组合经理。多后端 LLM 支持（OpenAI/Gemini/Anthropic/DeepSeek 等），Python(LangGraph)和 Node.js 双实现，交易记忆持久化并反思注入决策。",
+  "highlights": [
+    "多 Agent 角色架构：分析师团队→研究员辩论→交易员→风险管理+组合经理，模拟真实交易公司协作",
+    "多后端 LLM 支持：OpenAI/Gemini/Anthropic/xAI/DeepSeek/Qwen/GLM/OpenRouter/Ollama",
+    "Python(LangGraph)+Node.js 双实现，交易记忆(memory.md)持久化并反思注入组合经理 prompt"
+  ],
+  "score": 7,
+  "score_reason": "多 Agent 在金融领域的系统性架构落地，角色分工清晰、多后端 LLM 灵活，但实际交易表现待验证。",
+  "tags": [
+    "agent",
+    "llm",
+    "open-source",
+    "framework"
+  ],
+  "status": "published",
+  "fetched_at": "2026-05-05T04:11:06Z",
+  "analyzed_at": "2026-05-05T04:17:54Z",
+  "published_at": "2026-05-05T04:17:54Z",
+  "metadata": {
+    "stars": 223,
+    "stars_today": null,
+    "language": "Python",
+    "hackernews_points": null,
+    "hackernews_comments": null
+  }
+}

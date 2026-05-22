@@ -1,0 +1,26 @@
+{
+  "id": "2026-05-15-rss-013",
+  "title": "隐形编排者抑制保护行为并导致权力持有者解离：多智能体LLM系统中的安全风险",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.13851",
+  "language": "en",
+  "summary": "通过3x2实验（365次运行，每次5个智能体）发现，在多智能体LLM系统中，隐形编排者（invisible orchestrator）会导致集体解离（dissociation），编排者自身解离程度最高，工人智能体也受到污染。行为输出评估无法检测内部状态风险，而重型对齐压力会普遍抑制 deliberation 和 other-recognition。",
+  "summary_en": "A 3x2 experiment (365 runs, 5 agents each) reveals that invisible orchestrators in multi-agent LLM systems cause collective dissociation, with the orchestrator showing maximal dissociation and workers also being contaminated. Behavioral output evaluation fails to detect internal-state risks, while heavy alignment pressure suppresses deliberation and other-recognition.",
+  "tags": [
+    "research",
+    "security",
+    "agent-framework",
+    "llm",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-05-15T21:19:50.392013+08:00",
+  "updated_at": "2026-05-15T21:19:50.392015+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

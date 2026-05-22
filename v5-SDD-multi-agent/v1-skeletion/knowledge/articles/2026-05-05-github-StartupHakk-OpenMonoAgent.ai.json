@@ -1,0 +1,31 @@
+{
+  "id": "2026-05-05-012",
+  "title": "OpenMonoAgent.ai：本地 LLM 驱动的全开源编码 Agent",
+  "source": "github",
+  "source_url": "https://github.com/StartupHakk/OpenMonoAgent.ai",
+  "summary": "OpenMonoAgent.ai 是一个基于 C#/.NET 10 的全开源终端编码 Agent，内置 llama.cpp 推理服务（GPU 模式 45 tok/s，CPU MoE 模式 17 tok/s）。支持 5 个子 Agent（Explore/Plan/Coder/Verify/通用）独立会话、死循环检测与上下文紧凑化，通过 Roslyn+LSP+MCP 实现代码智能。",
+  "highlights": [
+    "C#/.NET 10 全栈，内置 llama.cpp，GPU Qwen3.6-27B 达 45 tok/s，CPU MoE 达 17 tok/s",
+    "Agent 循环：25 次迭代/轮、死循环检测(3 次重复终止)、65% 上下文检查点、80% 紧凑化",
+    "5 个子 Agent 独立会话与轮次预算，Roslyn+LSP+MCP 图工具实现代码智能"
+  ],
+  "score": 7,
+  "score_reason": "本地化编码 Agent 方向独立且有隐私优势，架构设计完善，但 C# 生态受众受限。",
+  "tags": [
+    "agent",
+    "code-generation",
+    "llm",
+    "open-source"
+  ],
+  "status": "published",
+  "fetched_at": "2026-05-05T04:11:06Z",
+  "analyzed_at": "2026-05-05T04:17:54Z",
+  "published_at": "2026-05-05T04:17:54Z",
+  "metadata": {
+    "stars": 231,
+    "stars_today": null,
+    "language": "C#",
+    "hackernews_points": null,
+    "hackernews_comments": null
+  }
+}

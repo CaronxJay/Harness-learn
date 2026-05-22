@@ -1,0 +1,822 @@
+[
+  {
+    "id": "2026-05-07-github-001",
+    "title": "LangChain：智能体工程平台（TypeScript版）",
+    "source": "github_trending",
+    "source_url": "",
+    "language": "en",
+    "summary": "LangChain 是一个面向智能体工程的平台，提供 Python 和 TypeScript 版本。它简化了基于大语言模型的应用开发，支持链式调用、工具集成、记忆管理等功能，广泛应用于构建对话系统、自主智能体和 RAG 应用。拥有超过 13.6 万星标，是 LLM 生态中最流行的框架之一。",
+    "summary_en": "LangChain is an agent engineering platform available in TypeScript, enabling developers to build LLM-powered applications with chaining, tool integration, and memory management. It is widely used for ",
+    "tags": [
+      "langchain",
+      "llm",
+      "agent",
+      "framework",
+      "typescript",
+      "rag"
+    ],
+    "category": "agent-framework",
+    "relevance_score": 0.98,
+    "status": "draft",
+    "created_at": "2026-05-07T11:58:23.651789+00:00",
+    "updated_at": "2026-05-07T11:58:23.654721+00:00",
+    "metadata": {
+      "stars": null,
+      "hn_points": null,
+      "original_language": "en"
+    }
+  },
+  {
+    "id": "2026-05-07-github-002",
+    "title": "MetaGPT：首个AI软件公司的多智能体框架",
+    "source": "github_trending",
+    "source_url": "",
+    "language": "en",
+    "summary": "MetaGPT是一个创新的多智能体框架，模拟软件公司结构，集成产品经理、架构师、项目经理、工程师等角色。它通过将GPT等大模型分配给不同角色，实现从自然语言需求到软件产品的自动化生成。框架支持多种LLM后端，提供SOP（标准操作程序）驱动的协作机制，能输出用户故事、竞品分析、需求文档、设计文档、任务分配等中间产物。MetaGPT在代码生成、软件开发效率方面表现出色，是自然语言编程的重要实践。",
+    "summary_en": "MetaGPT is an innovative multi-agent framework that simulates a software company structure, integrating roles such as product manager, architect, project manager, and engineer. It assigns large langua",
+    "tags": [
+      "multi-agent",
+      "LLM",
+      "natural language programming",
+      "code generation",
+      "software development",
+      "SOP",
+      "GPT",
+      "agent framework"
+    ],
+    "category": "agent-framework",
+    "relevance_score": 0.98,
+    "status": "draft",
+    "created_at": "2026-05-07T11:58:23.651789+00:00",
+    "updated_at": "2026-05-07T11:58:23.656262+00:00",
+    "metadata": {
+      "stars": null,
+      "hn_points": null,
+      "original_language": "en"
+    }
+  },
+  {
+    "id": "2026-05-07-github-003",
+    "title": "微软AutoGen：多智能体对话编程框架",
+    "source": "github_trending",
+    "source_url": "",
+    "language": "en",
+    "summary": "AutoGen 是微软推出的一个开源编程框架，用于构建基于多智能体对话的 AI 应用。它支持多个 LLM 驱动的智能体通过对话协作完成任务，提供灵活的角色定义、工具调用、人机交互等功能。该框架简化了复杂 AI 工作流的构建，适用于研究、原型和实际应用。",
+    "summary_en": "AutoGen is an open-source programming framework by Microsoft for building multi-agent conversational AI applications. It enables multiple LLM-driven agents to collaborate through dialogue, offering fl",
+    "tags": [
+      "multi-agent",
+      "framework",
+      "conversational AI",
+      "LLM",
+      "Microsoft",
+      "open-source",
+      "agent collaboration"
+    ],
+    "category": "agent-framework",
+    "relevance_score": 0.95,
+    "status": "draft",
+    "created_at": "2026-05-07T11:58:23.651789+00:00",
+    "updated_at": "2026-05-07T11:58:23.658156+00:00",
+    "metadata": {
+      "stars": null,
+      "hn_points": null,
+      "original_language": "en"
+    }
+  },
+  {
+    "id": "2026-05-07-github-004",
+    "title": "CrewAI：多智能体协作框架",
+    "source": "github_trending",
+    "source_url": "",
+    "language": "en",
+    "summary": "CrewAI 是一个用于编排角色扮演、自主 AI 智能体的框架。通过促进协作智能，它使智能体能够无缝协作，处理复杂任务。该框架基于 Python 实现，支持动态任务分配、角色定义与交互，适用于自动化工作流、研究模拟等场景。",
+    "summary_en": "CrewAI is a framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, it empowers agents to work together seamlessly on complex tasks. Built in Python, i",
+    "tags": [
+      "multi-agent",
+      "orchestration",
+      "role-playing",
+      "autonomous-agents",
+      "collaborative-ai",
+      "python"
+    ],
+    "category": "agent-framework",
+    "relevance_score": 0.95,
+    "status": "draft",
+    "created_at": "2026-05-07T11:58:23.651789+00:00",
+    "updated_at": "2026-05-07T11:58:23.660599+00:00",
+    "metadata": {
+      "stars": null,
+      "hn_points": null,
+      "original_language": "en"
+    }
+  },
+  {
+    "id": "2026-05-07-github-005",
+    "title": "AstrBot：全能AI代理助手与开发框架",
+    "source": "github_trending",
+    "source_url": "",
+    "language": "en",
+    "summary": "AstrBot是一个集成了多种即时通讯平台、大型语言模型、插件和AI功能的开发框架，可作为OpenClaw的替代品。它支持AI代理助手功能，提供灵活的扩展性和定制能力，适用于构建智能对话系统和自动化工作流。",
+    "summary_en": "AstrBot is a development framework integrating multiple IM platforms, LLMs, plugins, and AI features, serving as an alternative to OpenClaw. It supports AI agent assistant functionality with flexible ",
+    "tags": [
+      "AI Agent",
+      "LLM",
+      "IM Platform",
+      "Plugin",
+      "OpenClaw Alternative",
+      "Python",
+      "Multi-modal"
+    ],
+    "category": "agent-framework",
+    "relevance_score": 0.95,
+    "status": "draft",
+    "created_at": "2026-05-07T11:58:23.651789+00:00",
+    "updated_at": "2026-05-07T11:58:23.662890+00:00",
+    "metadata": {
+      "stars": null,
+      "hn_points": null,
+      "original_language": "en"
+    }
+  },
+  {
+    "id": "2026-05-07-github-006",
+    "title": "LangGraph：构建弹性语言代理的图框架",
+    "source": "github_trending",
+    "source_url": "",
+    "language": "en",
+    "summary": "LangGraph 是一个用于构建弹性语言代理的图框架，支持 TypeScript 和 Python。它允许开发者将代理逻辑表示为有向图，其中节点是函数或工具调用，边是状态转换。该框架基于 LangChain，提供循环、条件分支和持久化状态，适用于复杂多步骤任务。开源、活跃维护，适合生产级代理开发。",
+    "summary_en": "LangGraph is a graph framework for building resilient language agents, available in TypeScript and Python. It allows developers to represent agent logic as directed graphs with nodes as function/tool ",
+    "tags": [
+      "agent-framework",
+      "langchain",
+      "graph",
+      "state-machine",
+      "typescript",
+      "python"
+    ],
+    "category": "agent-framework",
+    "relevance_score": 0.95,
+    "status": "draft",
+    "created_at": "2026-05-07T11:58:23.651789+00:00",
+    "updated_at": "2026-05-07T11:58:23.665224+00:00",
+    "metadata": {
+      "stars": null,
+      "hn_points": null,
+      "original_language": "en"
+    }
+  },
+  {
+    "id": "2026-05-07-github-007",
+    "title": "OpenAI轻量级多智能体框架",
+    "source": "github_trending",
+    "source_url": "",
+    "language": "en",
+    "summary": "OpenAI推出的开源Python框架，专为多智能体工作流设计。它轻量级、功能强大，支持智能体协调、任务分配与执行，适用于复杂AI自动化场景。基于OpenAI API，易于集成与扩展，是构建多智能体系统的实用工具。",
+    "summary_en": "An open-source Python framework by OpenAI, designed for multi-agent workflows. It is lightweight, powerful, supporting agent coordination, task allocation, and execution, suitable for complex AI autom",
+    "tags": [
+      "multi-agent",
+      "framework",
+      "OpenAI",
+      "agent workflow",
+      "Python",
+      "automation",
+      "AI orchestration"
+    ],
+    "category": "agent-framework",
+    "relevance_score": 0.95,
+    "status": "draft",
+    "created_at": "2026-05-07T11:58:23.651789+00:00",
+    "updated_at": "2026-05-07T11:58:23.667613+00:00",
+    "metadata": {
+      "stars": null,
+      "hn_points": null,
+      "original_language": "en"
+    }
+  },
+  {
+    "id": "2026-05-07-github-008",
+    "title": "Open-AutoGLM：开放手机端AI代理模型与框架",
+    "source": "github_trending",
+    "source_url": "",
+    "language": "en",
+    "summary": "Open-AutoGLM 是一个开源的手机端 AI 代理模型与框架，旨在让每个人都能拥有 AI 手机。它提供了一套完整的工具和接口，使开发者能够轻松构建和部署能够在手机上运行、具备自主决策和操作能力的智能代理，从而解锁手机的 AI 潜能。",
+    "summary_en": "Open-AutoGLM is an open-source phone agent model and framework that aims to provide an AI phone for everyone. It offers a complete set of tools and interfaces for developers to easily build and deploy",
+    "tags": [
+      "AI Agent",
+      "手机端",
+      "开源框架",
+      "自主决策",
+      "移动AI"
+    ],
+    "category": "agent-framework",
+    "relevance_score": 0.95,
+    "status": "draft",
+    "created_at": "2026-05-07T11:58:23.651789+00:00",
+    "updated_at": "2026-05-07T11:58:23.670124+00:00",
+    "metadata": {
+      "stars": null,
+      "hn_points": null,
+      "original_language": "en"
+    }
+  },
+  {
+    "id": "2026-05-07-github-009",
+    "title": "Haystack：开源AI编排框架，构建可扩展的LLM应用",
+    "source": "github_trending",
+    "source_url": "",
+    "language": "en",
+    "summary": "Haystack是一个开源AI编排框架，专注于构建上下文工程化、生产就绪的LLM应用。它支持模块化管道和代理工作流，提供对检索、路由、记忆和生成等环节的显式控制。适用于可扩展代理、RAG、多模态应用、语义搜索等场景。",
+    "summary_en": "Haystack is an open-source AI orchestration framework for building context-engineered, production-ready LLM applications. It supports modular pipelines and agent workflows with explicit control over r",
+    "tags": [
+      "haystack",
+      "LLM",
+      "agent",
+      "RAG",
+      "pipeline",
+      "orchestration",
+      "semantic search",
+      "multimodal"
+    ],
+    "category": "agent-framework",
+    "relevance_score": 0.98,
+    "status": "draft",
+    "created_at": "2026-05-07T11:58:23.651789+00:00",
+    "updated_at": "2026-05-07T11:58:23.672527+00:00",
+    "metadata": {
+      "stars": null,
+      "hn_points": null,
+      "original_language": "en"
+    }
+  },
+  {
+    "id": "2026-05-07-github-010",
+    "title": "Mastra：构建AI应用与智能体的TypeScript框架",
+    "source": "github_trending",
+    "source_url": "",
+    "language": "en",
+    "summary": "Mastra 是由 Gatsby 团队开发的 TypeScript 框架，专注于构建 AI 驱动的应用和智能体。它提供现代开发体验，支持复杂工作流、多模型集成、记忆管理、工具调用和检索增强生成（RAG）。框架强调生产就绪，具备可观测性、安全性和可扩展性，适合构建从聊天机器人到多智能体协作系统的各类应用。",
+    "summary_en": "Mastra is a TypeScript framework from the Gatsby team for building AI-powered applications and agents. It offers modern development experience, supporting complex workflows, multi-model integration, m",
+    "tags": [
+      "TypeScript",
+      "AI框架",
+      "智能体",
+      "RAG",
+      "工作流",
+      "Gatsby"
+    ],
+    "category": "agent-framework",
+    "relevance_score": 0.95,
+    "status": "draft",
+    "created_at": "2026-05-07T11:58:23.651789+00:00",
+    "updated_at": "2026-05-07T11:58:23.674281+00:00",
+    "metadata": {
+      "stars": null,
+      "hn_points": null,
+      "original_language": "en"
+    }
+  },
+  {
+    "id": "2026-05-07-github-011",
+    "title": "Repomix：将整个代码库打包成单个AI友好文件的工具",
+    "source": "github_trending",
+    "source_url": "",
+    "language": "en",
+    "summary": "Repomix是一个强大的工具，能够将整个GitHub仓库打包成一个单一的、AI友好的文件，便于将代码库输入到大型语言模型（如Claude、ChatGPT、DeepSeek等）或其他AI工具中。它支持多种输出格式，并针对AI处理进行了优化，非常适合需要向AI提供完整代码上下文的场景。该项目使用TypeScript编写，拥有2.4万颗星，广受开发者欢迎。",
+    "summary_en": "Repomix is a powerful tool that packs an entire GitHub repository into a single AI-friendly file, making it easy to feed codebases into large language models (like Claude, ChatGPT, DeepSeek, etc.) or ",
+    "tags": [
+      "codebase packaging",
+      "AI-friendly file",
+      "LLM input",
+      "TypeScript",
+      "repository analysis"
+    ],
+    "category": "infrastructure",
+    "relevance_score": 0.92,
+    "status": "draft",
+    "created_at": "2026-05-07T11:58:23.651789+00:00",
+    "updated_at": "2026-05-07T11:58:23.675793+00:00",
+    "metadata": {
+      "stars": null,
+      "hn_points": null,
+      "original_language": "en"
+    }
+  },
+  {
+    "id": "2026-05-07-github-012",
+    "title": "Shell-GPT：AI驱动的命令行效率工具",
+    "source": "github_trending",
+    "source_url": "",
+    "language": "en",
+    "summary": "Shell-GPT 是一个基于AI大语言模型（如GPT-5）的命令行生产力工具，旨在帮助用户更快、更高效地完成任务。它提供直接的Shell命令生成、代码片段、文档查询等功能，通过自然语言交互简化终端操作。项目使用Python实现，拥有超过12k星标，适合开发者、系统管理员等提升日常工作效率。",
+    "summary_en": "Shell-GPT is a command-line productivity tool powered by AI large language models like GPT-5, designed to help users accomplish tasks faster and more efficiently. It provides direct shell command gene",
+    "tags": [
+      "cli",
+      "llm",
+      "gpt",
+      "productivity",
+      "shell",
+      "python"
+    ],
+    "category": "application",
+    "relevance_score": 0.92,
+    "status": "draft",
+    "created_at": "2026-05-07T11:58:23.651789+00:00",
+    "updated_at": "2026-05-07T11:58:23.677536+00:00",
+    "metadata": {
+      "stars": null,
+      "hn_points": null,
+      "original_language": "en"
+    }
+  },
+  {
+    "id": "2026-05-07-github-013",
+    "title": "合并预训练大语言模型的工具集",
+    "source": "github_trending",
+    "source_url": "",
+    "language": "en",
+    "summary": "mergekit 是一个用于合并预训练大语言模型的开源工具集，支持多种合并方法（如线性插值、任务向量、TIES、DARE、SLERP等），并提供易用的命令行界面和配置文件。它允许用户将多个基础模型或微调模型组合成新模型，无需额外训练即可获得具有复合能力的模型，广泛应用于模型集成、知识蒸馏和领域适应。该项目拥有7063颗星，社区活跃，支持Hugging Face Hub集成，是LLM合并领域的主流工",
+    "summary_en": "Mergekit is an open-source toolkit for merging pretrained large language models, supporting various merging methods (e.g., linear interpolation, task vectors, TIES, DARE, SLERP) with a user-friendly C",
+    "tags": [
+      "LLM",
+      "模型合并",
+      "预训练模型",
+      "工具",
+      "Python"
+    ],
+    "category": "infrastructure",
+    "relevance_score": 0.98,
+    "status": "draft",
+    "created_at": "2026-05-07T11:58:23.651789+00:00",
+    "updated_at": "2026-05-07T11:58:23.679089+00:00",
+    "metadata": {
+      "stars": null,
+      "hn_points": null,
+      "original_language": "en"
+    }
+  },
+  {
+    "id": "2026-05-07-github-014",
+    "title": "RWKV-Runner：轻量级RWKV模型管理与启动工具",
+    "source": "github_trending",
+    "source_url": "",
+    "language": "en",
+    "summary": "RWKV-Runner 是一个全自动的RWKV大语言模型管理与启动工具，体积仅8MB，提供与OpenAI API兼容的接口。它简化了RWKV模型的部署和使用，支持商业应用，适合开发者快速集成。",
+    "summary_en": "RWKV-Runner is a fully automated RWKV large language model management and startup tool, only 8MB in size, with an OpenAI API-compatible interface. It simplifies the deployment and use of RWKV models f",
+    "tags": [
+      "RWKV",
+      "LLM",
+      "OpenAI API",
+      "模型管理",
+      "自动化"
+    ],
+    "category": "infrastructure",
+    "relevance_score": 0.95,
+    "status": "draft",
+    "created_at": "2026-05-07T11:58:23.651789+00:00",
+    "updated_at": "2026-05-07T11:58:23.680558+00:00",
+    "metadata": {
+      "stars": null,
+      "hn_points": null,
+      "original_language": "en"
+    }
+  },
+  {
+    "id": "2026-05-07-github-015",
+    "title": "ToolBench：大型语言模型工具学习的开源平台",
+    "source": "github_trending",
+    "source_url": "",
+    "language": "en",
+    "summary": "ToolBench 是一个面向大型语言模型（LLM）工具学习的开源平台，涵盖训练、服务与评估全流程。该平台提供标准化接口，支持LLM调用各种外部工具（如API、数据库等），并包含丰富的工具库和评估基准。项目已被ICLR'24接收为spotlight论文，旨在促进LLM与真实世界工具的交互能力。代码基于Python，提供完整的数据集、训练脚本和评估框架，适用于研究者和开发者快速构建工具增强型LLM应",
+    "summary_en": "ToolBench is an open platform for training, serving, and evaluating large language models (LLMs) for tool learning. It provides standardized interfaces for LLMs to interact with various external tools",
+    "tags": [
+      "tool learning",
+      "large language model",
+      "open platform",
+      "evaluation benchmark",
+      "API interaction",
+      "ICLR 2024"
+    ],
+    "category": "agent-framework",
+    "relevance_score": 0.95,
+    "status": "draft",
+    "created_at": "2026-05-07T11:58:23.651789+00:00",
+    "updated_at": "2026-05-07T11:58:23.682934+00:00",
+    "metadata": {
+      "stars": null,
+      "hn_points": null,
+      "original_language": "en"
+    }
+  },
+  {
+    "id": "2026-05-07-github-016",
+    "title": "MarkPDFdown：基于大模型视觉识别的PDF转Markdown工具",
+    "source": "github_trending",
+    "source_url": "",
+    "language": "en",
+    "summary": "MarkPDFdown 是一款利用大语言模型视觉识别能力的高质量PDF转Markdown工具。它支持将PDF文件中的文本、表格、图表等内容准确转换为Markdown格式，保持原有结构和格式。基于Python开发，依赖多模态大模型进行版面分析和OCR，显著提升转换准确率。适合需要将学术论文、技术文档等PDF转为可编辑Markdown的用户。",
+    "summary_en": "MarkPDFdown is a high-quality PDF to Markdown conversion tool leveraging large language model visual recognition. It accurately converts text, tables, and figures from PDFs into Markdown, preserving o",
+    "tags": [
+      "PDF转Markdown",
+      "大模型视觉识别",
+      "多模态",
+      "OCR",
+      "文档转换",
+      "Python",
+      "LLM应用"
+    ],
+    "category": "application",
+    "relevance_score": 0.92,
+    "status": "draft",
+    "created_at": "2026-05-07T11:58:23.651789+00:00",
+    "updated_at": "2026-05-07T11:58:23.686377+00:00",
+    "metadata": {
+      "stars": null,
+      "hn_points": null,
+      "original_language": "en"
+    }
+  },
+  {
+    "id": "2026-05-07-github-017",
+    "title": "mcphost：基于MCP协议的CLI AI代理主机",
+    "source": "github_trending",
+    "source_url": "",
+    "language": "en",
+    "summary": "mcphost 是一个用 Go 编写的 CLI 主机应用，通过模型上下文协议（MCP）让大语言模型（LLM）与外部工具交互。它支持多种 LLM 提供商（如 OpenAI、Anthropic、Google、Ollama）和 MCP 服务器，提供交互式聊天、单次查询、自动工具调用及会话管理功能。该项目旨在简化 AI 与外部工具的集成，适合开发者和 AI 代理场景。",
+    "summary_en": "mcphost is a CLI host application written in Go that enables LLMs to interact with external tools via the Model Context Protocol (MCP). It supports multiple LLM providers (e.g., OpenAI, Anthropic, Goo",
+    "tags": [
+      "MCP",
+      "LLM",
+      "CLI",
+      "工具调用",
+      "AI代理",
+      "Go"
+    ],
+    "category": "agent-framework",
+    "relevance_score": 0.95,
+    "status": "draft",
+    "created_at": "2026-05-07T11:58:23.651789+00:00",
+    "updated_at": "2026-05-07T11:58:23.688027+00:00",
+    "metadata": {
+      "stars": null,
+      "hn_points": null,
+      "original_language": "en"
+    }
+  },
+  {
+    "id": "2026-05-07-github-018",
+    "title": "PaSa：基于大语言模型的高级论文搜索智能体",
+    "source": "github_trending",
+    "source_url": "",
+    "language": "en",
+    "summary": "PaSa是一个由字节跳动开发的高级论文搜索智能体，利用大语言模型自主决策，包括调用搜索工具、阅读论文、选择相关参考文献等，以获取复杂学术查询的全面准确结果。该项目旨在提升学术搜索效率与质量。",
+    "summary_en": "PaSa is an advanced paper search agent developed by ByteDance, powered by large language models. It autonomously makes decisions such as invoking search tools, reading papers, and selecting relevant r",
+    "tags": [
+      "paper search",
+      "language model",
+      "academic search",
+      "agent",
+      "ByteDance",
+      "Python"
+    ],
+    "category": "agent-framework",
+    "relevance_score": 0.95,
+    "status": "draft",
+    "created_at": "2026-05-07T11:58:23.651789+00:00",
+    "updated_at": "2026-05-07T11:58:23.689291+00:00",
+    "metadata": {
+      "stars": null,
+      "hn_points": null,
+      "original_language": "en"
+    }
+  },
+  {
+    "id": "2026-05-07-github-019",
+    "title": "AttackGen：基于LLM和MITRE ATT&CK的网络安全事件响应测试工具",
+    "source": "github_trending",
+    "source_url": "",
+    "language": "en",
+    "summary": "AttackGen 是一个利用大型语言模型和 MITRE ATT&CK 框架的网络安全事件响应测试工具。它根据用户选择的威胁行为者群体和组织详细信息，生成定制化的事件响应场景，帮助安全团队进行演练和测试。",
+    "summary_en": "AttackGen is a cybersecurity incident response testing tool that leverages large language models and the MITRE ATT&CK framework. It generates tailored incident response scenarios based on user-selecte",
+    "tags": [
+      "cybersecurity",
+      "incident response",
+      "LLM",
+      "MITRE ATT&CK",
+      "threat intelligence",
+      "Python"
+    ],
+    "category": "security",
+    "relevance_score": 0.85,
+    "status": "draft",
+    "created_at": "2026-05-07T11:58:23.651789+00:00",
+    "updated_at": "2026-05-07T11:58:23.690459+00:00",
+    "metadata": {
+      "stars": null,
+      "hn_points": null,
+      "original_language": "en"
+    }
+  },
+  {
+    "id": "2026-05-07-github-020",
+    "title": "trpc-agent-go：基于Go语言与大模型的智能代理框架",
+    "source": "github_trending",
+    "source_url": "",
+    "language": "en",
+    "summary": "trpc-agent-go是一个用Go编写的强大框架，专为构建基于大语言模型（LLM）和工具的智能代理系统而设计。它提供了高效的集成方式，支持多种LLM，并具备工具调用、任务规划等能力，适用于开发自主代理、工作流自动化等场景。",
+    "summary_en": "trpc-agent-go is a powerful Go framework for building intelligent agent systems using large language models (LLMs) and tools. It offers efficient integration, supports multiple LLMs, and enables tool ",
+    "tags": [
+      "Go",
+      "LLM",
+      "Agent Framework",
+      "Intelligent Agent",
+      "Tool Integration",
+      "Workflow Automation"
+    ],
+    "category": "agent-framework",
+    "relevance_score": 0.95,
+    "status": "draft",
+    "created_at": "2026-05-07T11:58:23.651789+00:00",
+    "updated_at": "2026-05-07T11:58:23.691813+00:00",
+    "metadata": {
+      "stars": null,
+      "hn_points": null,
+      "original_language": "en"
+    }
+  },
+  {
+    "id": "2026-05-07-github-021",
+    "title": "ruflo：Claude智能体编排平台",
+    "source": "github_trending",
+    "source_url": "",
+    "language": "en",
+    "summary": "ruflo是专为Claude设计的领先智能体编排平台，支持多智能体群组部署、自主工作流协调及对话式AI系统构建。具备企业级架构、自学习群体智能、RAG集成及原生Claude Code/Codex集成能力，旨在提升复杂AI任务的执行效率与协作能力。",
+    "summary_en": "ruflo is the leading agent orchestration platform for Claude, enabling deployment of multi-agent swarms, coordination of autonomous workflows, and building conversational AI systems. It features enter",
+    "tags": [
+      "agent-framework",
+      "Claude",
+      "multi-agent",
+      "orchestration",
+      "RAG",
+      "swarm-intelligence",
+      "typescript"
+    ],
+    "category": "agent-framework",
+    "relevance_score": 0.95,
+    "status": "draft",
+    "created_at": "2026-05-07T11:58:23.651789+00:00",
+    "updated_at": "2026-05-07T11:58:23.693360+00:00",
+    "metadata": {
+      "stars": null,
+      "hn_points": null,
+      "original_language": "en"
+    }
+  },
+  {
+    "id": "2026-05-07-github-022",
+    "title": "GenAI智能体实战教程库",
+    "source": "github_trending",
+    "source_url": "",
+    "language": "en",
+    "summary": "该仓库提供50多个教程和实现，涵盖从基础对话机器人到复杂多智能体系统的生成式AI智能体技术。内容实用，适合学习与开发。",
+    "summary_en": "This repository offers 50+ tutorials and implementations for Generative AI Agent techniques, ranging from basic conversational bots to complex multi-agent systems, practical for learning and developme",
+    "tags": [
+      "generative ai",
+      "agents",
+      "tutorials",
+      "multi-agent",
+      "conversational bots"
+    ],
+    "category": "agent-framework",
+    "relevance_score": 0.95,
+    "status": "draft",
+    "created_at": "2026-05-07T11:58:23.651789+00:00",
+    "updated_at": "2026-05-07T11:58:23.694538+00:00",
+    "metadata": {
+      "stars": null,
+      "hn_points": null,
+      "original_language": "en"
+    }
+  },
+  {
+    "id": "2026-05-07-github-023",
+    "title": "RagaAI-Catalyst：智能体AI可观测性、监控与评估框架",
+    "source": "github_trending",
+    "source_url": "",
+    "language": "en",
+    "summary": "RagaAI-Catalyst 是一个专为智能体AI设计的Python SDK，提供可观测性、监控和评估功能。它支持对智能体、大语言模型和工具的追踪，能够调试多智能体系统，并包含自托管仪表盘、时间线及执行图视图等高级分析功能。该项目旨在帮助开发者更好地理解和优化AI系统的行为。",
+    "summary_en": "RagaAI-Catalyst is a Python SDK for Agent AI observability, monitoring, and evaluation. It supports tracing of agents, LLMs, and tools, debugging multi-agent systems, and includes a self-hosted dashbo",
+    "tags": [
+      "agent-observability",
+      "monitoring",
+      "evaluation",
+      "llm-tracing",
+      "multi-agent",
+      "python-sdk",
+      "dashboard"
+    ],
+    "category": "agent-framework",
+    "relevance_score": 0.95,
+    "status": "draft",
+    "created_at": "2026-05-07T11:58:23.651789+00:00",
+    "updated_at": "2026-05-07T11:58:23.696464+00:00",
+    "metadata": {
+      "stars": null,
+      "hn_points": null,
+      "original_language": "en"
+    }
+  },
+  {
+    "id": "2026-05-07-github-024",
+    "title": "三省六部制 · OpenClaw 多智能体编排系统",
+    "source": "github_trending",
+    "source_url": "",
+    "language": "en",
+    "summary": "该项目是一个基于“三省六部制”理念的多智能体编排系统，包含9个专业化AI代理、实时仪表盘、模型配置和完整审计追踪。采用Python开发，支持任务分配、协同工作与日志监控，旨在构建高效、可扩展的AI代理协作框架。",
+    "summary_en": "This project is a multi-agent orchestration system inspired by the 'Three Departments and Six Ministries' structure, featuring 9 specialized AI agents, a real-time dashboard, model configuration, and ",
+    "tags": [
+      "multi-agent",
+      "orchestration",
+      "AI agents",
+      "dashboard",
+      "audit trail",
+      "Python",
+      "open-source"
+    ],
+    "category": "agent-framework",
+    "relevance_score": 0.92,
+    "status": "draft",
+    "created_at": "2026-05-07T11:58:23.651789+00:00",
+    "updated_at": "2026-05-07T11:58:23.697784+00:00",
+    "metadata": {
+      "stars": null,
+      "hn_points": null,
+      "original_language": "en"
+    }
+  },
+  {
+    "id": "2026-05-07-github-025",
+    "title": "Agent技能库：上下文工程与多智能体系统实战指南",
+    "source": "github_trending",
+    "source_url": "",
+    "language": "en",
+    "summary": "该仓库提供了全面的Agent技能集合，专注于上下文工程、多智能体架构和生产级Agent系统的构建、优化与调试。包含丰富的Python代码示例和最佳实践，帮助开发者高效管理上下文、设计多Agent协作系统，并提升Agent在实际应用中的表现。适用于从入门到进阶的AI Agent开发人员。",
+    "summary_en": "A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. It provides Python code examples and best practices for building, optimizin",
+    "tags": [
+      "Agent Skills",
+      "Context Engineering",
+      "Multi-Agent",
+      "Production Agent Systems",
+      "Python",
+      "LLM",
+      "Best Practices"
+    ],
+    "category": "agent-framework",
+    "relevance_score": 0.95,
+    "status": "draft",
+    "created_at": "2026-05-07T11:58:23.651789+00:00",
+    "updated_at": "2026-05-07T11:58:23.699099+00:00",
+    "metadata": {
+      "stars": null,
+      "hn_points": null,
+      "original_language": "en"
+    }
+  },
+  {
+    "id": "2026-05-07-github-026",
+    "title": "DevOpsGPT：AI驱动软件开发的智能多代理系统",
+    "source": "github_trending",
+    "source_url": "",
+    "language": "en",
+    "summary": "DevOpsGPT是一个多代理系统，将LLM与DevOps工具结合，能够将自然语言需求转化为可运行的软件。它支持任意开发语言，并能扩展现有代码。该项目集成了AI、DevOps和软件工程，旨在自动化软件开发流程，提高效率。",
+    "summary_en": "DevOpsGPT is a multi-agent system that combines LLM with DevOps tools to convert natural language requirements into working software. It supports any development language and extends existing code. Th",
+    "tags": [
+      "multi-agent",
+      "LLM",
+      "DevOps",
+      "software development",
+      "code generation",
+      "automation",
+      "AI"
+    ],
+    "category": "application",
+    "relevance_score": 0.95,
+    "status": "draft",
+    "created_at": "2026-05-07T11:58:23.651789+00:00",
+    "updated_at": "2026-05-07T11:58:23.700258+00:00",
+    "metadata": {
+      "stars": null,
+      "hn_points": null,
+      "original_language": "en"
+    }
+  },
+  {
+    "id": "2026-05-07-github-027",
+    "title": "ROMA：递归开放元智能体框架",
+    "source": "github_trending",
+    "source_url": "",
+    "language": "en",
+    "summary": "ROMA是一款高性能、递归开放元智能体框架，旨在构建复杂多智能体系统。它采用递归架构，支持动态扩展与协作，优化了多智能体间的任务分配与执行效率，适合大规模智能体应用场景。",
+    "summary_en": "ROMA is a high-performance, recursive open meta-agent framework designed to build complex multi-agent systems. It employs a recursive architecture, supports dynamic expansion and collaboration, and op",
+    "tags": [
+      "multi-agent",
+      "meta-agent",
+      "recursive",
+      "framework",
+      "python",
+      "high-performance",
+      "dynamic-expansion"
+    ],
+    "category": "agent-framework",
+    "relevance_score": 0.95,
+    "status": "draft",
+    "created_at": "2026-05-07T11:58:23.651789+00:00",
+    "updated_at": "2026-05-07T11:58:23.701505+00:00",
+    "metadata": {
+      "stars": null,
+      "hn_points": null,
+      "original_language": "en"
+    }
+  },
+  {
+    "id": "2026-05-07-github-028",
+    "title": "Solace Agent Mesh：事件驱动的多智能体AI编排框架",
+    "source": "github_trending",
+    "source_url": "",
+    "language": "en",
+    "summary": "Solace Agent Mesh 是一个基于Python的事件驱动框架，用于构建和编排多智能体AI系统。它无缝集成AI智能体与实时数据源及后端系统，支持复杂、多步骤的工作流。该框架利用事件驱动架构实现智能体间的高效通信与协作，适用于需要实时响应和动态数据处理的场景，如自动化运维、智能客服和数据分析。其核心优势在于松耦合、可扩展和实时性。",
+    "summary_en": "Solace Agent Mesh is an event-driven Python framework for building and orchestrating multi-agent AI systems. It seamlessly integrates AI agents with real-time data sources and backend systems, enablin",
+    "tags": [
+      "multi-agent",
+      "event-driven",
+      "AI orchestration",
+      "workflow",
+      "Python",
+      "real-time",
+      "data integration",
+      "agent framework"
+    ],
+    "category": "agent-framework",
+    "relevance_score": 0.95,
+    "status": "draft",
+    "created_at": "2026-05-07T11:58:23.651789+00:00",
+    "updated_at": "2026-05-07T11:58:23.702835+00:00",
+    "metadata": {
+      "stars": null,
+      "hn_points": null,
+      "original_language": "en"
+    }
+  },
+  {
+    "id": "2026-05-07-github-029",
+    "title": "Golutra：多智能体AI编排平台",
+    "source": "github_trending",
+    "source_url": "",
+    "language": "en",
+    "summary": "Golutra是一个基于Rust构建的多智能体AI编排平台，旨在将Codex、Claude Code和OpenClaw等工具统一为协同工作的智能体系统。它支持并行执行、任务编排、长期运行的工作流以及AI生产力工作空间，为自动化、工作流和开发者工具提供强大支持。该项目在GitHub上获得3393颗星，显示出社区的高度关注。",
+    "summary_en": "Golutra is a multi-agent AI orchestration platform built in Rust, unifying Codex, Claude Code, and OpenClaw into a collaborative agent system. It supports parallel execution, task orchestration, long-",
+    "tags": [
+      "multi-agent",
+      "AI orchestration",
+      "Rust",
+      "workflow automation",
+      "developer tools"
+    ],
+    "category": "agent-framework",
+    "relevance_score": 0.95,
+    "status": "draft",
+    "created_at": "2026-05-07T11:58:23.651789+00:00",
+    "updated_at": "2026-05-07T11:58:23.704753+00:00",
+    "metadata": {
+      "stars": null,
+      "hn_points": null,
+      "original_language": "en"
+    }
+  },
+  {
+    "id": "2026-05-07-github-030",
+    "title": "DeepResearchAgent：分层多智能体深度研究系统",
+    "source": "github_trending",
+    "source_url": "",
+    "language": "en",
+    "summary": "DeepResearchAgent 是一个分层多智能体系统，专为深度研究和通用任务解决而设计。它利用顶层规划智能体协调多个专用低级智能体，实现自动任务分解和高效执行。该框架支持复杂任务的自动化处理，适用于研究、数据分析等领域，具有高度的灵活性和可扩展性。",
+    "summary_en": "DeepResearchAgent is a hierarchical multi-agent system designed for deep research and general-purpose task solving. It leverages a top-level planning agent to coordinate multiple specialized lower-lev",
+    "tags": [
+      "multi-agent",
+      "hierarchical",
+      "research",
+      "task decomposition",
+      "planning agent",
+      "python"
+    ],
+    "category": "agent-framework",
+    "relevance_score": 0.95,
+    "status": "draft",
+    "created_at": "2026-05-07T11:58:23.651789+00:00",
+    "updated_at": "2026-05-07T11:58:23.705971+00:00",
+    "metadata": {
+      "stars": null,
+      "hn_points": null,
+      "original_language": "en"
+    }
+  }
+]

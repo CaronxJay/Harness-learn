@@ -1,0 +1,481 @@
+{
+  "collected_at": "2026-05-12T01:14:26.282462+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "GraphDC: A Divide-and-Conquer Multi-Agent System for Scalable Graph Algorithm Reasoning",
+      "url": "https://arxiv.org/abs/2605.06671",
+      "description": "arXiv:2605.06671v1 Announce Type: new \nAbstract: Large Language Models (LLMs) have demonstrated strong potential for many mathematical problems. However, their performance on graph algorithmic tasks is still unsatisfying, since graphs are naturally more complex in topology and often require systematic multi-step reasoning, especially on larger graphs. Motivated by this gap, we propose GraphDC, a Divide-and-Conquer multi-agent framework for scalable graph algorithm reasoning. Specifically, inspired by Divide-and-Conquer design, GraphDC decomposes an input graph into smaller subgraphs, assigns each subgraph to a specialized agent for local reasoning, and uses a master agent to integrate the local outputs with inter-subgraph information to produce the final solution. This hierarchical design reduces the reasoning burden on individual agents, alleviates computational bottlenecks, and improves robustness on large graph instances. Extensive experiments show that GraphDC consistently outperforms existing methods on graph algorithm reasoning across diverse tasks and scales, especially on larger instances where direct end-to-end reasoning is less reliable.",
+      "pub_date": "Mon, 11 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "GraphDC：一种用于可扩展图算法推理的分治多智能体系统",
+        "summary": "GraphDC是一个分治多智能体框架，通过将输入图分解为子图、分配给专门智能体进行局部推理，并由主智能体整合信息，从而提升LLM在图算法推理任务上的性能，尤其在大型图实例上表现优异。",
+        "summary_en": "GraphDC is a divide-and-conquer multi-agent framework that decomposes input graphs into subgraphs, assigns them to specialized agents for local reasoning, and uses a master agent to integrate information, improving LLM performance on graph algorithm reasoning, especially on large instances.",
+        "tags": [
+          "research",
+          "llm",
+          "agent-framework",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-12-rss-003",
+        "title": "GraphDC：一种用于可扩展图算法推理的分治多智能体系统",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.06671",
+        "language": "en",
+        "summary": "GraphDC是一个分治多智能体框架，通过将输入图分解为子图、分配给专门智能体进行局部推理，并由主智能体整合信息，从而提升LLM在图算法推理任务上的性能，尤其在大型图实例上表现优异。",
+        "summary_en": "GraphDC is a divide-and-conquer multi-agent framework that decomposes input graphs into subgraphs, assigns them to specialized agents for local reasoning, and uses a master agent to integrate information, improving LLM performance on graph algorithm reasoning, especially on large instances.",
+        "tags": [
+          "research",
+          "llm",
+          "agent-framework",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-05-12T01:14:26.281751+08:00",
+        "updated_at": "2026-05-12T01:14:26.281752+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "More Thinking, More Bias: Length-Driven Position Bias in Reasoning Models",
+      "url": "https://arxiv.org/abs/2605.06672",
+      "description": "arXiv:2605.06672v1 Announce Type: new \nAbstract: Chain-of-thought (CoT) reasoning and reasoning-tuned models such as DeepSeek-R1 are commonly assumed to reduce shallow heuristic biases by thinking carefully. We test this on position bias in multiple-choice QA and find a different story: within any reasoning-capable model, per-question position bias scales with the length of the reasoning trajectory.\n  Across thirteen reasoning-mode configurations (two R1-distilled 7-8B models, two base models prompted with CoT, and DeepSeek-R1 at 671B) on MMLU, ARC-Challenge, and GPQA, twelve show a positive partial correlation between trajectory length and Position Bias Score (PBS) after controlling for accuracy, ranging from 0.11 to 0.41 (all p < 0.05). All twelve open-weight reasoning-mode configurations show monotonically increasing PBS across length quartiles. A truncation intervention provides causal evidence: continuations resumed from later points in the trajectory are increasingly likely to shift toward position-preferred options (16% to 32% for R1-Qwen-7B across absolute-position buckets).\n  At 671B, aggregate PBS collapses to 0.019, but the length effect still manifests in the longest quartile (PBS = 0.071), suggesting that accuracy gates the expression of length-driven bias rather than eliminating the underlying mechanism. We additionally find that direct-answer position bias is a distinct phenomenon with a different footprint (strong in Llama-Instruct-direct, weak in Qwen-Instruct-direct, and uncorrelated with trajectory length): CoT reasoning replaces this baseline bias with length-accumulated bias.\n  Our results argue that reasoning-capable models should not be treated as order-robust by default in MCQ evaluation pipelines, and offer a diagnostic toolkit (PBS, commitment change point, effective switching, truncation probes) for auditing position bias in reasoning models.",
+      "pub_date": "Mon, 11 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "思考越多，偏见越深：推理模型中的长度驱动位置偏见",
+        "summary": "研究发现，在推理模型中，思维链推理轨迹的长度与多项选择题中的位置偏见正相关。轨迹越长，模型越倾向于选择位置偏好的选项。截断干预实验提供了因果证据。尽管大模型（671B）的总体偏见较小，但长度效应仍在最长四分位数中显现。",
+        "summary_en": "Research reveals that in reasoning models, chain-of-thought trajectory length positively correlates with position bias in multiple-choice QA. Longer trajectories increase preference for position-favored options. Truncation intervention provides causal evidence. While aggregate bias is small in large models (671B), length effect persists in the longest quartile.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-12-rss-004",
+        "title": "思考越多，偏见越深：推理模型中的长度驱动位置偏见",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.06672",
+        "language": "en",
+        "summary": "研究发现，在推理模型中，思维链推理轨迹的长度与多项选择题中的位置偏见正相关。轨迹越长，模型越倾向于选择位置偏好的选项。截断干预实验提供了因果证据。尽管大模型（671B）的总体偏见较小，但长度效应仍在最长四分位数中显现。",
+        "summary_en": "Research reveals that in reasoning models, chain-of-thought trajectory length positively correlates with position bias in multiple-choice QA. Longer trajectories increase preference for position-favored options. Truncation intervention provides causal evidence. While aggregate bias is small in large models (671B), length effect persists in the longest quartile.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-05-12T01:14:26.281754+08:00",
+        "updated_at": "2026-05-12T01:14:26.281755+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Fast and Effective Redistricting Optimization via Composite-Move Tabu Search",
+      "url": "https://arxiv.org/abs/2605.06682",
+      "description": "arXiv:2605.06682v1 Announce Type: new \nAbstract: Spatial redistricting is a practical combinatorial optimization problem that demands high-quality solutions, rapid turnaround, and flexibility to accommodate multi-criteria objectives and interactive refinement. A central challenge is the contiguity constraint: enforcing contiguity in integer-programming or heuristic search can severely shrink the feasible neighborhood, weaken exploration, and trap the search in poor local optima. We introduce a composite-move Tabu search (CM-Tabu) that systematically expands the feasible neighborhood space in Tabu search while preserving contiguity. When a boundary unit cannot be reassigned individually without disconnecting its district, our method identifies a minimal set of units that can move together, or a pair of units (or sets of units) that can be switched, as a contiguity-preserving composite move. Candidate single-unit and composite moves are generated in linear time by analyzing each district's contiguity graph using articulation points and biconnected components. Extensive experiments demonstrate that the proposed approach substantially improves solution quality, run-to-run robustness, and computational efficiency relative to traditional Tabu search and other baselines. For example, in the Philadelphia case, the approach can consistently attain the theoretical global optimum in population-equality and support multi-criteria trade-offs. CM-Tabu delivers optimization performance suitable for real-world practices and decision-support workflows.",
+      "pub_date": "Mon, 11 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "基于复合移动禁忌搜索的高效选区优化",
+        "summary": "提出复合移动禁忌搜索（CM-Tabu），通过分析连通性图并利用关节点和双连通分量，在保持选区连通性的同时系统扩展可行邻域空间，显著提升解质量、鲁棒性和计算效率。在费城案例中可稳定达到理论全局最优。",
+        "summary_en": null,
+        "tags": [
+          "research",
+          "optimization",
+          "algorithm"
+        ],
+        "category": "research",
+        "relevance_score": 0.4,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-12-rss-010",
+        "title": "基于复合移动禁忌搜索的高效选区优化",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.06682",
+        "language": "en",
+        "summary": "提出复合移动禁忌搜索（CM-Tabu），通过分析连通性图并利用关节点和双连通分量，在保持选区连通性的同时系统扩展可行邻域空间，显著提升解质量、鲁棒性和计算效率。在费城案例中可稳定达到理论全局最优。",
+        "summary_en": null,
+        "tags": [
+          "research",
+          "optimization",
+          "algorithm"
+        ],
+        "category": "research",
+        "relevance_score": 0.4,
+        "status": "published",
+        "created_at": "2026-05-12T01:14:26.281787+08:00",
+        "updated_at": "2026-05-12T01:14:26.281789+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "State Representation and Termination for Recursive Reasoning Systems",
+      "url": "https://arxiv.org/abs/2605.06690",
+      "description": "arXiv:2605.06690v1 Announce Type: new \nAbstract: Recursive reasoning systems alternate between acquiring new evidence and refining an accumulated understanding. Two design choices are typically left implicit: how to represent the evolving reasoning state, and when to stop iterating. This paper addresses both. We represent the reasoning state as an epistemic state graph encoding extracted claims, evidential relations, open questions, and confidence weights. We define the order-gap as the distance between the states reached by expand-then-consolidate versus consolidate-then-expand; a small order-gap suggests that the two orderings agree and further iteration is unlikely to help. Our main result gives a necessary and sufficient condition for the linearised order-gap to be non-degenerate near the fixed point, showing when the criterion is informative rather than algebraically vacuous. This is a local condition, not a global convergence guarantee. We apply the framework to recursive reasoning systems and sketch its application to agent loops, tree-of-thought reasoning, theorem proving, and continual learning.",
+      "pub_date": "Mon, 11 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "递归推理系统的状态表示与终止条件",
+        "summary": "本文提出用认知状态图表示递归推理中的演化状态，并定义“序间隙”作为终止判据。主要结果给出了线性化序间隙在不动点附近非退化的充要条件，为递归推理系统、代理循环、思维树、定理证明和持续学习等场景提供了理论分析框架。",
+        "summary_en": "This paper proposes representing evolving reasoning states as epistemic state graphs and defines the order-gap as a stopping criterion. The main result gives a necessary and sufficient condition for the linearized order-gap to be non-degenerate near the fixed point, providing a theoretical framework for recursive reasoning systems, agent loops, tree-of-thought, theorem proving, and continual learning.",
+        "tags": [
+          "research",
+          "llm",
+          "agent-framework",
+          "reasoning"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-12-rss-008",
+        "title": "递归推理系统的状态表示与终止条件",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.06690",
+        "language": "en",
+        "summary": "本文提出用认知状态图表示递归推理中的演化状态，并定义“序间隙”作为终止判据。主要结果给出了线性化序间隙在不动点附近非退化的充要条件，为递归推理系统、代理循环、思维树、定理证明和持续学习等场景提供了理论分析框架。",
+        "summary_en": "This paper proposes representing evolving reasoning states as epistemic state graphs and defines the order-gap as a stopping criterion. The main result gives a necessary and sufficient condition for the linearized order-gap to be non-degenerate near the fixed point, providing a theoretical framework for recursive reasoning systems, agent loops, tree-of-thought, theorem proving, and continual learning.",
+        "tags": [
+          "research",
+          "llm",
+          "agent-framework",
+          "reasoning"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-05-12T01:14:26.281777+08:00",
+        "updated_at": "2026-05-12T01:14:26.281778+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Hidden Coalitions in Multi-Agent AI: A Spectral Diagnostic from Internal Representations",
+      "url": "https://arxiv.org/abs/2605.06696",
+      "description": "arXiv:2605.06696v1 Announce Type: new \nAbstract: Collections of interacting AI agents can form coalitions, creating emergent group-level organization that is critical for AI safety and alignment. However, observing agent behavior alone is often insufficient to distinguish genuine informational coupling from spurious similarity, as consequential coalitions may form at the level of internal representations before any overt behavioral change is apparent. Here, we introduce a practical method for detecting coalition structure from the internal neural representations of multi-agent systems. The approach constructs a pairwise mutual-information graph from the hidden states of agents and applies spectral partitioning to identify the most salient coalition boundary.\n  We validate this method in two domains. First, in multi-agent reinforcement learning environments, the method successfully recovers programmed hierarchical and dynamic coalition structures and correctly rejects false positives arising from behavioral coordination without informational coupling. Second, using a large language model, the method identifies coalition structures implied by descriptive prompts, tracks dynamic team reassignments, and reveals a representational hierarchy where explicit labels dominate over conflicting interaction patterns. Across both settings, the recovered partition reveals subgroup organization that a scalar cross-agent mutual-information measure cannot distinguish. The results demonstrate that analyzing hidden-state mutual information through spectral partitioning provides a scalable diagnostic for identifying representational coalitions, offering a valuable tool for monitoring emergent structure in distributed AI systems.",
+      "pub_date": "Mon, 11 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "多智能体AI中的隐藏联盟：基于内部表示的频谱诊断方法",
+        "summary": "提出一种从多智能体系统内部神经表示中检测联盟结构的实用方法。通过构建隐藏状态的成对互信息图并应用频谱划分，识别最显著的联盟边界。在MARL和LLM场景中验证，能有效区分真正的信息耦合与行为协同，为监控分布式AI系统中的涌现结构提供可扩展的诊断工具。",
+        "summary_en": "Introduces a practical method to detect coalition structures from internal neural representations of multi-agent systems. Constructs pairwise mutual-information graphs from hidden states and applies spectral partitioning to identify salient coalition boundaries. Validated in MARL and LLM settings, effectively distinguishing genuine informational coupling from behavioral coordination.",
+        "tags": [
+          "research",
+          "multi-agent",
+          "llm",
+          "benchmark",
+          "agent-framework"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-12-rss-005",
+        "title": "多智能体AI中的隐藏联盟：基于内部表示的频谱诊断方法",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.06696",
+        "language": "en",
+        "summary": "提出一种从多智能体系统内部神经表示中检测联盟结构的实用方法。通过构建隐藏状态的成对互信息图并应用频谱划分，识别最显著的联盟边界。在MARL和LLM场景中验证，能有效区分真正的信息耦合与行为协同，为监控分布式AI系统中的涌现结构提供可扩展的诊断工具。",
+        "summary_en": "Introduces a practical method to detect coalition structures from internal neural representations of multi-agent systems. Constructs pairwise mutual-information graphs from hidden states and applies spectral partitioning to identify salient coalition boundaries. Validated in MARL and LLM settings, effectively distinguishing genuine informational coupling from behavioral coordination.",
+        "tags": [
+          "research",
+          "multi-agent",
+          "llm",
+          "benchmark",
+          "agent-framework"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-05-12T01:14:26.281758+08:00",
+        "updated_at": "2026-05-12T01:14:26.281759+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Domain-level metacognitive monitoring in frontier LLMs: A 33-model atlas",
+      "url": "https://arxiv.org/abs/2605.06673",
+      "description": "arXiv:2605.06673v1 Announce Type: new \nAbstract: Aggregate metacognitive quality scores mask within-model variation across MMLU benchmark domains. We administered 1,500 MMLU items (250 per domain, under an a priori six-domain grouping) to 33 frontier LLMs from eight model families and computed Type-2 AUROC per model-domain cell using verbalized confidence (0-100). Total observations: 47,151. Every model with above-chance aggregate monitoring showed non-trivial domain-level variation. Applied/Professional knowledge was reliably the easiest benchmark domain to monitor (mean AUROC = .742, ranked top-2 in 21 of 33 models); Formal Reasoning and Natural Science were reliably the hardest (one of the two ranked bottom-2 in 27 of 33 models). The three middle domains were statistically indistinguishable (Kendall's W = .164). A subject-level coherence analysis (within-domain similarity ratio = 0.95) confirms the six-domain grouping is a pragmatic benchmark taxonomy, not a validated latent construct. Within-family profile-shape clustering is significant for Anthropic, Google-Gemini, and Qwen (permutation p < .0001) but not DeepSeek, Google-Gemma, or OpenAI. Gemma 4 31B showed a +.202 AUROC improvement over Gemma 3 27B. Three models classified Invalid on binary KEEP/WITHDRAW probes produced normal profiles under verbalized confidence, confirming probe-format specificity. Bootstrap 95% CIs on 198 cells have median width .199. Split-half aggregate stability r = .893; profile-level split-half is weaker (grand median r = .184). These results show stable benchmark-domain variation obscured by aggregate metrics, and support benchmark-stage domain screening as a step before deployment in specific application areas.",
+      "pub_date": "Mon, 11 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "前沿LLM领域级元认知监控：33模型图谱",
+        "summary": "对33个前沿LLM在MMLU基准的6个领域进行元认知质量分析，发现聚合指标掩盖了领域级差异。应用/专业知识监控最容易，形式推理和自然科学最难。家族内轮廓聚类显著，但不同模型家族表现不同。结果支持在部署前进行基准领域筛选。",
+        "summary_en": "Analysis of metacognitive quality across 6 MMLU domains for 33 frontier LLMs reveals aggregate metrics mask domain-level variation. Applied/Professional knowledge is easiest to monitor, Formal Reasoning and Natural Science hardest. Within-family profile clustering is significant for some families. Results support benchmark-stage domain screening before deployment.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-12-rss-001",
+        "title": "前沿LLM领域级元认知监控：33模型图谱",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.06673",
+        "language": "en",
+        "summary": "对33个前沿LLM在MMLU基准的6个领域进行元认知质量分析，发现聚合指标掩盖了领域级差异。应用/专业知识监控最容易，形式推理和自然科学最难。家族内轮廓聚类显著，但不同模型家族表现不同。结果支持在部署前进行基准领域筛选。",
+        "summary_en": "Analysis of metacognitive quality across 6 MMLU domains for 33 frontier LLMs reveals aggregate metrics mask domain-level variation. Applied/Professional knowledge is easiest to monitor, Formal Reasoning and Natural Science hardest. Within-family profile clustering is significant for some families. Results support benchmark-stage domain screening before deployment.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-05-12T01:14:26.281741+08:00",
+        "updated_at": "2026-05-12T01:14:26.281744+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "VITA-QinYu: Expressive Spoken Language Model for Role-Playing and Singing",
+      "url": "https://arxiv.org/abs/2605.06765",
+      "description": "arXiv:2605.06765v1 Announce Type: new \nAbstract: Human speech conveys expressiveness beyond linguistic content, including personality, mood, or performance elements, such as a comforting tone or humming a song, which we formalize as role-playing and singing. We present VITA-QinYu, the first expressive end-to-end (E2E) spoken language model (SLM) that goes beyond natural conversation to support both role-playing and singing generation. VITA-QinYu adopts a hybrid speech-text paradigm that extends interleaved text-audio modeling with multi-codebook audio tokens, a design enabling richer paralinguistic representation while preserving a clear separation between modalities to avoid interference. We further develop a comprehensive data generation pipeline to synthesize a total of 15.8K hours of natural conversation, role-playing, and singing data for training. VITA-QinYu demonstrates superior expressiveness, outperforming peer SLMs by 7 percentage points on objective role-playing benchmarks, and surpassing peer models by 0.13 points on a 5-point MOS scale for singing. Simultaneously, it achieves state-of-the-art conversational accuracy and fluency, exceeding prior SLMs by 1.38 and 4.98 percentage points on the C3 and URO benchmarks, respectively. We open-source our code and models and provide an easy-to-use demo with full-stack support for streaming and full-duplex interaction.",
+      "pub_date": "Mon, 11 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "VITA-QinYu：用于角色扮演和歌唱的富有表现力的口语语言模型",
+        "summary": "VITA-QinYu 是首个支持角色扮演和歌唱生成的端到端口语语言模型。采用混合语音-文本范式，结合多码本音频令牌，实现丰富的副语言表示。在角色扮演和歌唱基准上超越现有模型，同时保持最先进的对话准确性和流畅性。开源代码和模型。",
+        "summary_en": "VITA-QinYu is the first expressive end-to-end spoken language model supporting role-playing and singing. It uses a hybrid speech-text paradigm with multi-codebook audio tokens for rich paralinguistic representation, outperforming peers on role-playing and singing benchmarks while maintaining state-of-the-art conversational accuracy.",
+        "tags": [
+          "llm",
+          "multimodal",
+          "research",
+          "open-source"
+        ],
+        "category": "multimodal",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-12-rss-006",
+        "title": "VITA-QinYu：用于角色扮演和歌唱的富有表现力的口语语言模型",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.06765",
+        "language": "en",
+        "summary": "VITA-QinYu 是首个支持角色扮演和歌唱生成的端到端口语语言模型。采用混合语音-文本范式，结合多码本音频令牌，实现丰富的副语言表示。在角色扮演和歌唱基准上超越现有模型，同时保持最先进的对话准确性和流畅性。开源代码和模型。",
+        "summary_en": "VITA-QinYu is the first expressive end-to-end spoken language model supporting role-playing and singing. It uses a hybrid speech-text paradigm with multi-codebook audio tokens for rich paralinguistic representation, outperforming peers on role-playing and singing benchmarks while maintaining state-of-the-art conversational accuracy.",
+        "tags": [
+          "llm",
+          "multimodal",
+          "research",
+          "open-source"
+        ],
+        "category": "multimodal",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-05-12T01:14:26.281761+08:00",
+        "updated_at": "2026-05-12T01:14:26.281762+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "IntentGrasp: A Comprehensive Benchmark for Intent Understanding",
+      "url": "https://arxiv.org/abs/2605.06832",
+      "description": "arXiv:2605.06832v1 Announce Type: new \nAbstract: Accurately understanding the intent behind speech, conversation, and writing is crucial to the development of helpful Large Language Model (LLM) assistants. This paper introduces IntentGrasp, a comprehensive benchmark for evaluating the intent understanding capability of LLMs. Derived from 49 high-quality, open-licensed corpora spanning 12 diverse domains, IntentGrasp is constructed through source datasets curation, intent label contextualization, and task format unification. IntentGrasp contains a large-scale training set of 262,759 instances and two evaluation sets: an All Set of 12,909 test cases and a more balanced and challenging Gem Set of 470 cases. Extensive evaluations on 20 LLMs across 7 families (including frontier models such as GPT-5.4, Gemini-3.1-Pro, and Claude-Opus-4.7) demonstrate unsatisfactory performance, with scores below 60% on All Set and below 25% on Gem set. Notably, 17 out of 20 tested models perform worse than a random-guess baseline (15.2%) on Gem Set, while the estimated human performance is ~81.1%, showing substantial room for improvement. To enhance such ability, this paper proposes Intentional Fine-Tuning (IFT), which fine-tunes the models on the training set in IntentGrasp, yielding significant gains of 30+ F1 points on All Set and 20+ points on Gem Set. Tellingly, the leave-one-domain-out (Lodo) experiments further demonstrate the strong cross-domain generalizability of IFT, verifying that it is a promising approach to substantially enhancing the intent understanding of LLMs. Overall, by benchmarking and boosting intent understanding ability, this study sheds light on a promising path towards more intentional, capable, and safe AI assistants for human benefits and social good.",
+      "pub_date": "Mon, 11 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "IntentGrasp：意图理解综合基准",
+        "summary": "提出IntentGrasp基准，用于评估LLM的意图理解能力。包含26万训练样本和两个测试集，对20个LLM评估发现性能不佳。提出Intentional Fine-Tuning (IFT)方法，在All Set和Gem Set上分别提升30+和20+F1分，并展现出强跨域泛化能力。",
+        "summary_en": "Introduces IntentGrasp, a benchmark for evaluating LLM intent understanding. Contains 262K training instances and two test sets. Evaluations on 20 LLMs show poor performance. Proposes Intentional Fine-Tuning (IFT), achieving 30+ F1 gains on All Set and 20+ on Gem Set, with strong cross-domain generalization.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "fine-tuning",
+          "evaluation"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-12-rss-002",
+        "title": "IntentGrasp：意图理解综合基准",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.06832",
+        "language": "en",
+        "summary": "提出IntentGrasp基准，用于评估LLM的意图理解能力。包含26万训练样本和两个测试集，对20个LLM评估发现性能不佳。提出Intentional Fine-Tuning (IFT)方法，在All Set和Gem Set上分别提升30+和20+F1分，并展现出强跨域泛化能力。",
+        "summary_en": "Introduces IntentGrasp, a benchmark for evaluating LLM intent understanding. Contains 262K training instances and two test sets. Evaluations on 20 LLMs show poor performance. Proposes Intentional Fine-Tuning (IFT), achieving 30+ F1 gains on All Set and 20+ on Gem Set, with strong cross-domain generalization.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "fine-tuning",
+          "evaluation"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-05-12T01:14:26.281747+08:00",
+        "updated_at": "2026-05-12T01:14:26.281748+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "TajPersLexon: A Tajik-Persian Lexical Resource and Hybrid Model for Cross-Script Low-Resource NLP",
+      "url": "https://arxiv.org/abs/2605.06886",
+      "description": "arXiv:2605.06886v1 Announce Type: new \nAbstract: This work introduces TajPersLexon, a curated Tajik--Persian parallel lexical resource of 40,112 word and short-phrase pairs for cross-script lexical retrieval, transliteration, and alignment in low-resource settings. We conduct a comprehensive CPU-only benchmark comparing three methodological families: (i) a lightweight hybrid pipeline, (ii) neural sequence-to-sequence models, and (iii) retrieval methods. Our evaluation establishes that the task is essentially solvable, with neural and retrieval baselines achieving 98-99% top-1 accuracy. Crucially, we demonstrate that while large multilingual sentence transformers fail on this exact lexical matching, our interpretable hybrid model offers a favorable accuracy-efficiency trade-off for practical applications, achieving 96.4% accuracy in an OCR post-correction task. All experiments use fixed random seeds for full reproducibility. The dataset, code, and models will be publicly released.",
+      "pub_date": "Mon, 11 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "塔吉克-波斯语跨脚本低资源NLP词汇资源与混合模型",
+        "summary": "介绍TajPersLexon，一个包含40,112对词和短语的塔吉克-波斯语平行词汇资源，用于低资源场景下的跨脚本词汇检索、音译和对齐。CPU基准测试表明，神经和检索方法达到98-99%的top-1准确率，而可解释的混合模型在OCR后校正任务中实现96.4%准确率，兼顾精度与效率。",
+        "summary_en": "Introduces TajPersLexon, a Tajik-Persian parallel lexical resource of 40,112 pairs for cross-script lexical retrieval, transliteration, and alignment in low-resource settings. CPU benchmarks show neural and retrieval methods achieve 98-99% top-1 accuracy, while an interpretable hybrid model offers 96.4% accuracy in OCR post-correction with favorable efficiency.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "low-resource",
+          "multilingual"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-12-rss-009",
+        "title": "塔吉克-波斯语跨脚本低资源NLP词汇资源与混合模型",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.06886",
+        "language": "en",
+        "summary": "介绍TajPersLexon，一个包含40,112对词和短语的塔吉克-波斯语平行词汇资源，用于低资源场景下的跨脚本词汇检索、音译和对齐。CPU基准测试表明，神经和检索方法达到98-99%的top-1准确率，而可解释的混合模型在OCR后校正任务中实现96.4%准确率，兼顾精度与效率。",
+        "summary_en": "Introduces TajPersLexon, a Tajik-Persian parallel lexical resource of 40,112 pairs for cross-script lexical retrieval, transliteration, and alignment in low-resource settings. CPU benchmarks show neural and retrieval methods achieve 98-99% top-1 accuracy, while an interpretable hybrid model offers 96.4% accuracy in OCR post-correction with favorable efficiency.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "low-resource",
+          "multilingual"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "status": "published",
+        "created_at": "2026-05-12T01:14:26.281782+08:00",
+        "updated_at": "2026-05-12T01:14:26.281784+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "MIST: Multimodal Interactive Speech-based Tool-calling Conversational Assistants for Smart Homes",
+      "url": "https://arxiv.org/abs/2605.06897",
+      "description": "arXiv:2605.06897v1 Announce Type: new \nAbstract: The rise of Internet of Things (IoT) devices in the physical world necessitates voice-based interfaces capable of handling complex user experiences. While modern Large Language Models (LLMs) already demonstrate strong tool-usage capabilities, modeling real-world IoT devices presents a difficult, understudied challenge which combines modeling spatiotemporal constraints with speech inputs, dynamic state tracking, and mixed-initiative interaction patterns. We introduce MIST (the Multimodal Interactive Speech-based Tool-calling Dataset), a synthetic multi-turn, voice-driven code generation task that operates over IoT devices. We find that there is a significant gap between open- and closed-weight multimodal LLMs on MIST, and that even frontier closed-weight LLMs have substantial headroom. We release MIST and an extensible data generation framework to build related datasets in order to facilitate research on mixed-initiative voice assistants which reason about physical world constraints.",
+      "pub_date": "Mon, 11 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "MIST：面向智能家居的多模态交互式语音工具调用对话助手",
+        "summary": "MIST是一个合成多轮语音驱动代码生成数据集，用于物联网设备。研究发现开放与封闭权重多模态LLM之间存在显著差距，即使前沿封闭权重模型也有提升空间。发布了MIST及可扩展数据生成框架，以促进对物理世界约束进行推理的混合主动语音助手研究。",
+        "summary_en": "MIST is a synthetic multi-turn, voice-driven code generation dataset for IoT devices. A significant gap exists between open- and closed-weight multimodal LLMs, with even frontier closed-weight models having headroom. The dataset and an extensible data generation framework are released to facilitate research on mixed-initiative voice assistants reasoning about physical world constraints.",
+        "tags": [
+          "multimodal",
+          "llm",
+          "dataset",
+          "tool",
+          "application"
+        ],
+        "category": "multimodal",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-12-rss-007",
+        "title": "MIST：面向智能家居的多模态交互式语音工具调用对话助手",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.06897",
+        "language": "en",
+        "summary": "MIST是一个合成多轮语音驱动代码生成数据集，用于物联网设备。研究发现开放与封闭权重多模态LLM之间存在显著差距，即使前沿封闭权重模型也有提升空间。发布了MIST及可扩展数据生成框架，以促进对物理世界约束进行推理的混合主动语音助手研究。",
+        "summary_en": "MIST is a synthetic multi-turn, voice-driven code generation dataset for IoT devices. A significant gap exists between open- and closed-weight multimodal LLMs, with even frontier closed-weight models having headroom. The dataset and an extensible data generation framework are released to facilitate research on mixed-initiative voice assistants reasoning about physical world constraints.",
+        "tags": [
+          "multimodal",
+          "llm",
+          "dataset",
+          "tool",
+          "application"
+        ],
+        "category": "multimodal",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-05-12T01:14:26.281772+08:00",
+        "updated_at": "2026-05-12T01:14:26.281774+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

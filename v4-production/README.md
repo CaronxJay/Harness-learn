@@ -64,7 +64,7 @@
 
 ```bash
 git clone https://github.com/CaronxJay/ai-knowledge-base.git
-cd ai-knowledge-base
+cd ai-knowledge-base/v4-production
 ```
 
 ### 2. 配置环境变量
@@ -109,10 +109,9 @@ python bot/knowledge_bot.py
 | `v2-automation/` | 自动化版本：Python CLI 流水线 + crontab 定时 | V2 |
 | `v3-multi-agent/` | 多 Agent 版本：LangGraph 8 节点工作流 + 审核循环 | V3 |
 | `v4-production/` | **生产版本 (当前)**：全功能集成 + 四渠道推送 + KnowledgeBot | V4 |
-| `v5-SDD-multi-agent/` | **SDD 多 Agent 版本**：基于 SDD 的多 Agent 实现 | V5 |
 | `v4-production/pipeline/` | 独立流水线：采集 → 分析 → 整理 → 保存 | V4 |
 | `v4-production/workflows/` | LangGraph 工作流：StateGraph + 8 节点定义 | V4 |
-| `v4-production/distribution/` | 推送模块：Formatter + Publisher (QQ / 飞书 / Telegram / 企业微信) | V4 |
+| `v4-production/distribution/` | 推送模块：Formatter + Publisher (QQ / 飞书 / Telegram / 微信) | V4 |
 | `v4-production/bot/` | 交互查询：KnowledgeBot + SearchEngine + 订阅 + 权限 | V4 |
 | `v4-production/hooks/` | 质量工具：JSON 校验 + 5 维度质量评分 | V4 |
 | `v4-production/patterns/` | Agent 设计模式：Supervisor 监督 / Router 路由 | V3 |
@@ -152,7 +151,6 @@ python bot/knowledge_bot.py
 | **V2** | 自动化 (Automation) | Python 全 Pipeline CLI (`pipeline.py`)；LLM 客户端多提供商 (DeepSeek / Qwen / OpenAI)；crontab 定时调度；MCP Knowledge Server；CostTracker 成本报告；`--step` 分步运行 |
 | **V3** | 多 Agent (Multi-Agent) | LangGraph 8 节点 StateGraph (plan → collect → analyze → review → revise → organize → save → human_flag)；5 维度加权 LLM 审核 (阈值 7.0)；审核-修正循环 (最多 3 轮)；CostGuard 预算熔断；3 档采集策略 (lite/standard/full)；Agent 设计模式库 (Supervisor / Router)；安全模块 (注入清洗 + PII 掩码) |
 | **V4** | 生产 (Production) | KnowledgeBot 规则意图识别 + 全文搜索 + 订阅管理 + 三级权限；四渠道日报推送 (Telegram / 飞书 / QQ / 企业微信)；5 种消息格式转换器；OpenClaw 网关集成；GitHub Actions 全自动 CI |
-| **V5** | SDD 多 Agent | 基于 SDD 的多 Agent 实现，包含完整的知识库系统和 MCP Server |
 
 ---
 
@@ -174,4 +172,4 @@ python bot/knowledge_bot.py
 
 ## License
 
-MIT © 2026
+MIT © 2025

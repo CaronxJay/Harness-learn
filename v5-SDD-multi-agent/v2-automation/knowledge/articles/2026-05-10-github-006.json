@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-10-github-006",
+  "title": "神经网络游乐场",
+  "source": "github_trending",
+  "source_url": "https://github.com/khaledwaleedsamir/Neural-Networks-Playground",
+  "language": "en",
+  "summary": "一个从经典算法到深度学习、大语言模型和智能体AI的机器学习实践指南。",
+  "summary_en": "A hands-on journey through machine learning — from classical algorithms to deep learning, LLMs, and agentic AI.",
+  "tags": [
+    "llm",
+    "research",
+    "application",
+    "fine-tuning"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-05-10T19:17:08.998555+08:00",
+  "updated_at": "2026-05-10T19:17:08.998556+08:00",
+  "metadata": {
+    "stars": 0,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

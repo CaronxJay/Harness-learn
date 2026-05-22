@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-21-github-009",
+  "title": "人工智能学习路径",
+  "source": "github_trending",
+  "source_url": "https://github.com/RitikKShahi/Artificial-Intelligence",
+  "language": "en",
+  "summary": "一个个人学习人工智能及其子领域（机器学习、深度学习、生成式AI包括LLM和Agentic AI）的仓库，使用Jupyter Notebook。",
+  "summary_en": "A personal repository for learning AI and its subsets including Machine Learning, Deep Learning, Generative AI (LLM, Agentic AI), using Jupyter Notebook.",
+  "tags": [
+    "llm",
+    "research",
+    "application",
+    "open-source"
+  ],
+  "category": "research",
+  "relevance_score": 0.8,
+  "status": "published",
+  "created_at": "2026-05-21T19:23:29.312404+08:00",
+  "updated_at": "2026-05-21T19:23:29.312406+08:00",
+  "metadata": {
+    "stars": 0,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

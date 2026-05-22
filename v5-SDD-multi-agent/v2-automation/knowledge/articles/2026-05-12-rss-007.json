@@ -1,0 +1,26 @@
+{
+  "id": "2026-05-12-rss-007",
+  "title": "MIST：面向智能家居的多模态交互式语音工具调用对话助手",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.06897",
+  "language": "en",
+  "summary": "MIST是一个合成多轮语音驱动代码生成数据集，用于物联网设备。研究发现开放与封闭权重多模态LLM之间存在显著差距，即使前沿封闭权重模型也有提升空间。发布了MIST及可扩展数据生成框架，以促进对物理世界约束进行推理的混合主动语音助手研究。",
+  "summary_en": "MIST is a synthetic multi-turn, voice-driven code generation dataset for IoT devices. A significant gap exists between open- and closed-weight multimodal LLMs, with even frontier closed-weight models having headroom. The dataset and an extensible data generation framework are released to facilitate research on mixed-initiative voice assistants reasoning about physical world constraints.",
+  "tags": [
+    "multimodal",
+    "llm",
+    "dataset",
+    "tool",
+    "application"
+  ],
+  "category": "multimodal",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-05-12T01:14:26.281772+08:00",
+  "updated_at": "2026-05-12T01:14:26.281774+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

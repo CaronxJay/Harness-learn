@@ -1,0 +1,26 @@
+{
+  "id": "2026-05-20-rss-006",
+  "title": "AgentNLQ：面向自然语言转SQL的通用智能体",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.19010",
+  "language": "en",
+  "summary": "提出一种新的多智能体方法AgentNLQ，用于自然语言到SQL的转换，在BIRD基准上达到78.1%的语义准确率。该方法通过语义丰富的模式表示、业务规则集成以及基于LLM的规划、编排、反思与自我纠正，生成准确的SQL查询。主要贡献包括优化编排器、高级模式丰富方法以及跨领域泛化验证。",
+  "summary_en": null,
+  "tags": [
+    "llm",
+    "research",
+    "agent-framework",
+    "application",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-05-20T18:49:42.402148+08:00",
+  "updated_at": "2026-05-20T18:49:42.402150+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

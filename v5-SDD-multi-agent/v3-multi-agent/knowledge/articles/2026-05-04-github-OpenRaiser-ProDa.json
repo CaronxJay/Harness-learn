@@ -1,0 +1,26 @@
+{
+  "id": "2026-05-04-009",
+  "title": "ProDa：AI 驱动的数据工程工具",
+  "source": "github",
+  "source_url": "https://github.com/OpenRaiser/ProDa",
+  "summary": "面向原始语料的数据工程 IDE，提供 AI 辅助的数据合成、数据生成和交互式开发环境，结合 Benchmark 能力评估数据质量，适用于 LLM 训练数据和 RAG 知识库的数据准备阶段。",
+  "highlights": [
+    "AI 辅助数据合成与质量评估",
+    "交互式数据工程 IDE",
+    "内置 Benchmark 评测"
+  ],
+  "score": 5,
+  "score_reason": "数据工程是 LLM 微调的前置环节，ProDa 的概念有价值但项目尚早期(stars:forks=100:6，fork 率偏低)，成熟度和社区验证不足。值得关注但暂不建议投入生产。",
+  "tags": ["data-engineering", "benchmark", "rag"],
+  "status": "published",
+  "fetched_at": "2026-05-04T10:30:00Z",
+  "analyzed_at": "2026-05-04T10:45:00Z",
+  "published_at": "2026-05-04T11:00:00Z",
+  "metadata": {
+    "stars": 100,
+    "stars_today": null,
+    "language": "TypeScript",
+    "hackernews_points": null,
+    "hackernews_comments": null
+  }
+}

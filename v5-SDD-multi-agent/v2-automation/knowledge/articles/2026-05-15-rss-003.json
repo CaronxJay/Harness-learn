@@ -1,0 +1,24 @@
+{
+  "id": "2026-05-15-rss-003",
+  "title": "采样越多，多样性越少：校准是LLM多样性的瓶颈",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.11128",
+  "language": "en",
+  "summary": "本文提出一个有效性-多样性框架，将LLM输出多样性崩溃归因于解码时的两种校准错误：顺序校准（有效token未可靠排在无效token之上）和形状校准（概率质量过度集中在少数有效token上）。实验表明，多样性崩溃不仅是采样启发式的局限，更是LLM分布中顺序和形状校准不良的后果。",
+  "summary_en": "This paper introduces a validity-diversity framework attributing LLM diversity collapse to two forms of miscalibration during decoding: order calibration (valid tokens not reliably ranked above invalid ones) and shape calibration (probability mass overly concentrated on few valid tokens). Experiments show diversity collapse is a consequence of distribution miscalibration, not just sampling heuristics.",
+  "tags": [
+    "llm",
+    "research",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-05-15T00:18:15.431371+08:00",
+  "updated_at": "2026-05-15T00:18:15.431372+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

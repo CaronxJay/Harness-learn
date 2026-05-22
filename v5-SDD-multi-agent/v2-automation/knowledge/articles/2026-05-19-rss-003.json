@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-19-rss-003",
+  "title": "持续学习与混合：高效简单的全周期数据混合方法",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.15220",
+  "language": "en",
+  "summary": "OP-Mix是一种统一的数据混合算法，适用于预训练、持续中训练和持续指令微调等整个语言模型训练生命周期。它通过在当前模型上训练的低秩适配器之间插值来廉价模拟候选数据混合，无需单独的代理模型。在预训练中，平均困惑度提升6.3%；在持续学习中，计算量减少66%-95%。",
+  "summary_en": "OP-Mix is a unified data mixing algorithm for the entire LLM training lifecycle (pretraining, continual midtraining, continual instruction tuning). It cheaply simulates candidate mixtures by interpolating between low-rank adapters trained on the current model, eliminating separate proxy models. It improves pretraining perplexity by 6.3% and reduces compute by 66%-95% in continual learning.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "prompt-engineering"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-05-19T01:35:09.173212+08:00",
+  "updated_at": "2026-05-19T01:35:09.173215+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

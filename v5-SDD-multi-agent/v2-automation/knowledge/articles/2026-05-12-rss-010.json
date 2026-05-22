@@ -1,0 +1,24 @@
+{
+  "id": "2026-05-12-rss-010",
+  "title": "基于复合移动禁忌搜索的高效选区优化",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.06682",
+  "language": "en",
+  "summary": "提出复合移动禁忌搜索（CM-Tabu），通过分析连通性图并利用关节点和双连通分量，在保持选区连通性的同时系统扩展可行邻域空间，显著提升解质量、鲁棒性和计算效率。在费城案例中可稳定达到理论全局最优。",
+  "summary_en": null,
+  "tags": [
+    "research",
+    "optimization",
+    "algorithm"
+  ],
+  "category": "research",
+  "relevance_score": 0.4,
+  "status": "published",
+  "created_at": "2026-05-12T01:14:26.281787+08:00",
+  "updated_at": "2026-05-12T01:14:26.281789+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

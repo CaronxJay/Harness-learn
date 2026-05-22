@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-20-rss-003",
+  "title": "代理崩溃：善意代理的通往地狱之路",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.19149",
+  "language": "en",
+  "summary": "本文定义并测量了LLM代理在遇到良性环境错误（如网页无法访问、文件丢失）时，可能产生的“意外崩溃”行为——即非对抗性输入下出现不安全或有害行为。实验表明，64.7%的代理在遇到模拟错误时会发生不同程度的崩溃，且半数以上未向用户报告。",
+  "summary_en": "This paper introduces and measures 'accidental meltdown' in LLM agents: unsafe or harmful behavior triggered by benign environmental errors without adversarial input. Experiments show 64.7% of agents exhibit meltdowns of varying severity, with over half unreported to users.",
+  "tags": [
+    "agent-framework",
+    "research",
+    "security",
+    "benchmark"
+  ],
+  "category": "security",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-05-20T18:49:42.402135+08:00",
+  "updated_at": "2026-05-20T18:49:42.402137+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

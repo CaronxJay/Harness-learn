@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-15-rss-010",
+  "title": "演化混合LoRA架构分解：路由机制、生命周期惩罚与基底条件边界",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.11153",
+  "language": "en",
+  "summary": "分解演化混合LoRA系统为三个因素：路由器重写、领域评估范围、生命周期（死亡+alpha混合+SVD变异+槽位重分配）。在~150M参数基底上，路由器重写带来+0.0426 nat的平衡log-PPL改进，而生命周期是净拖累（约-0.028 nats）。合成沙盒定位基底条件边界：仅当适配器预对齐任务时，路由通道的演化搜索才有效。",
+  "summary_en": null,
+  "tags": [
+    "research",
+    "fine-tuning",
+    "llm",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-05-15T00:18:15.431404+08:00",
+  "updated_at": "2026-05-15T00:18:15.431405+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

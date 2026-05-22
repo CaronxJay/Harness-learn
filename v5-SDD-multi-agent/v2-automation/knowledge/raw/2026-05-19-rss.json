@@ -1,0 +1,479 @@
+{
+  "collected_at": "2026-05-19T19:16:53.053168+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "AgentWall: A Runtime Safety Layer for Local AI Agents",
+      "url": "https://arxiv.org/abs/2605.16265",
+      "description": "arXiv:2605.16265v1 Announce Type: new \nAbstract: The safety of autonomous AI agents is increasingly recognized as a critical open problem. As agents transition from passive text generators to active actors capable of executing shell commands, modifying files, calling APIs, and browsing the web, the consequences of unsafe or adversarially manipulated behavior become immediate and tangible. Existing AI safety work has focused primarily on model alignment and input filtering, but these approaches do not address what happens at the moment an agent's intent becomes a real action on a real machine. This gap is especially acute in local environments, where developers run agents against their own filesystems, credentials, and infrastructure with little runtime control. This paper introduces AgentWall, a runtime safety and observability layer for local AI agents. AgentWall intercepts every proposed agent action before it reaches the host environment, evaluates it against an explicit declarative policy, requires human approval for sensitive operations, and records a complete execution trail for audit and replay. It is implemented as a policy-enforcing MCP proxy and native OpenClaw plugin, working across Claude Desktop, Cursor, Windsurf, Claude Code, and OpenClaw with a single install command. We present the design, architecture, threat model, and policy model of AgentWall, and demonstrate 92.9% policy enforcement accuracy with sub-millisecond overhead across 14 benchmark tests. AgentWall is open-source at https://github.com/agentwall/Agentwall.",
+      "pub_date": "Tue, 19 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "AgentWall：本地AI代理的运行时安全层",
+        "summary": "AgentWall 是一个针对本地AI代理的运行时安全与可观测层。它在代理动作执行前进行拦截，依据声明式策略评估，对敏感操作要求人工审批，并记录完整执行轨迹。作为MCP代理和OpenClaw插件实现，支持Claude Desktop、Cursor等工具，策略执行准确率92.9%，开销亚毫秒级。开源。",
+        "summary_en": "AgentWall is a runtime safety and observability layer for local AI agents. It intercepts every proposed agent action before execution, evaluates against declarative policies, requires human approval for sensitive operations, and records a full audit trail. Implemented as an MCP proxy and OpenClaw plugin, it achieves 92.9% policy enforcement accuracy with sub-millisecond overhead. Open-source.",
+        "tags": [
+          "agent-framework",
+          "security",
+          "infrastructure",
+          "open-source"
+        ],
+        "category": "security",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-19-rss-010",
+        "title": "AgentWall：本地AI代理的运行时安全层",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.16265",
+        "language": "en",
+        "summary": "AgentWall 是一个针对本地AI代理的运行时安全与可观测层。它在代理动作执行前进行拦截，依据声明式策略评估，对敏感操作要求人工审批，并记录完整执行轨迹。作为MCP代理和OpenClaw插件实现，支持Claude Desktop、Cursor等工具，策略执行准确率92.9%，开销亚毫秒级。开源。",
+        "summary_en": "AgentWall is a runtime safety and observability layer for local AI agents. It intercepts every proposed agent action before execution, evaluates against declarative policies, requires human approval for sensitive operations, and records a full audit trail. Implemented as an MCP proxy and OpenClaw plugin, it achieves 92.9% policy enforcement accuracy with sub-millisecond overhead. Open-source.",
+        "tags": [
+          "agent-framework",
+          "security",
+          "infrastructure",
+          "open-source"
+        ],
+        "category": "security",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-05-19T19:16:53.052282+08:00",
+        "updated_at": "2026-05-19T19:16:53.052285+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "ANNEAL: Adapting LLM Agents via Governed Symbolic Patch Learning",
+      "url": "https://arxiv.org/abs/2605.16309",
+      "description": "arXiv:2605.16309v1 Announce Type: new \nAbstract: LLM-based agents can recover from individual execution errors, yet they repeatedly fail on the same fault when the underlying process knowledge--operator schemas, preconditions, and constraints--remains unrepaired. Existing self-evolving approaches address this gap by updating prompts, memory, or model weights, but none directly repair the symbolic structures that encode how tasks are executed, and few provide the governance guarantees required for safe deployment. We introduce ANNEAL, a neuro-symbolic agent that converts recurring failures into governed symbolic edits of a process knowledge graph without modifying foundation model weights. Its core mechanism, Failure-Driven Knowledge Acquisition (FDKA), localizes the responsible operator, synthesizes a typed patch through constrained LLM generation, and validates the proposal via multi-dimensional scoring, symbolic guardrails, and canary testing before commit. Every accepted edit carries full provenance and deterministic rollback capability. Across four domains and 27 multi-seed runs, ANNEAL is the only evaluated system that commits persistent structural repairs--strong baselines such as ReAct and Reflexion achieve high episodic recovery yet retain 72-100% holdout failure rates on recurring faults, whereas ANNEAL reduces these to 0% in the tested recurring-failure settings. Ablation confirms that removing FDKA eliminates all structural repairs and drops success rate by up to 26.7 percentage points. These results suggest that governed symbolic repair offers a complementary paradigm to weight-level and prompt-level adaptation for persistent fault elimination.",
+      "pub_date": "Tue, 19 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "ANNEAL：通过受控符号补丁学习自适应LLM智能体",
+        "summary": "ANNEAL是一种神经符号智能体，通过故障驱动知识获取（FDKA）机制，将重复故障转化为过程知识图谱的受控符号编辑，无需修改模型权重。在四个领域27次多种子运行中，ANNEAL将重复故障率从72-100%降至0%，消融实验显示移除FDKA后成功率下降26.7个百分点。",
+        "summary_en": "ANNEAL is a neuro-symbolic agent that converts recurring failures into governed symbolic edits of a process knowledge graph via Failure-Driven Knowledge Acquisition (FDKA), without modifying model weights. Across four domains and 27 multi-seed runs, it reduces recurring failure rates from 72-100% to 0%, with ablation showing a 26.7 percentage point drop in success rate when FDKA is removed.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "tool"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-19-rss-011",
+        "title": "ANNEAL：通过受控符号补丁学习自适应LLM智能体",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.16309",
+        "language": "en",
+        "summary": "ANNEAL是一种神经符号智能体，通过故障驱动知识获取（FDKA）机制，将重复故障转化为过程知识图谱的受控符号编辑，无需修改模型权重。在四个领域27次多种子运行中，ANNEAL将重复故障率从72-100%降至0%，消融实验显示移除FDKA后成功率下降26.7个百分点。",
+        "summary_en": "ANNEAL is a neuro-symbolic agent that converts recurring failures into governed symbolic edits of a process knowledge graph via Failure-Driven Knowledge Acquisition (FDKA), without modifying model weights. Across four domains and 27 multi-seed runs, it reduces recurring failure rates from 72-100% to 0%, with ablation showing a 26.7 percentage point drop in success rate when FDKA is removed.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "tool"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-05-19T19:16:53.052290+08:00",
+        "updated_at": "2026-05-19T19:16:53.052291+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "From Prompts to Protocols: An AI Agent for Laboratory Automation",
+      "url": "https://arxiv.org/abs/2605.16552",
+      "description": "arXiv:2605.16552v1 Announce Type: new \nAbstract: Automating science laboratories enables faster, safer, more accurate, and more reproducible execution of protocols, accelerating the discovery and testing of new materials, drugs, and more. However, setting up and running autonomous labs requires coordinating numerous instruments and robots, forcing scientists to write code, manage configuration files, and navigate complex software infrastructure. We present an AI agent architecture that integrates large language models with laboratory orchestration, enabling scientists to interactively create and monitor automated lab protocols using natural language. Integrated into the Experiment Orchestration System (EOS), the AI agent operates under an agentic loop with automated validation and error correction, and supports the complete experimental lifecycle: creating protocols, running and monitoring both protocols and closed-loop optimization campaigns, and analyzing results. A visual graph editor renders protocols as interactive node-based diagrams synchronized with the AI agent's protocol representation, enabling seamless alternation between AI-assisted and manual protocol construction. Evaluated on three simulated automated labs spanning chemistry, biology, and materials science, the AI agent achieves a 97% first-attempt protocol generation success rate and an order of magnitude reduction in required interface actions.",
+      "pub_date": "Tue, 19 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "从提示到协议：用于实验室自动化的AI智能体",
+        "summary": "提出一种集成大语言模型与实验室编排的AI智能体架构，使科学家能用自然语言交互式创建和监控自动化实验协议。在实验编排系统（EOS）中实现，支持协议创建、运行、闭环优化及结果分析，并配有可视化图形编辑器。在化学、生物学和材料科学三个模拟实验室中评估，首次协议生成成功率达97%，所需界面操作减少一个数量级。",
+        "summary_en": "Presents an AI agent architecture integrating LLMs with lab orchestration, enabling scientists to create and monitor automated protocols via natural language. Integrated into EOS, it supports the full experimental lifecycle with visual graph editing. Evaluated on three simulated labs, achieving 97% first-attempt protocol success and an order-of-magnitude reduction in interface actions.",
+        "tags": [
+          "llm",
+          "agent-framework",
+          "application",
+          "research"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-19-rss-012",
+        "title": "从提示到协议：用于实验室自动化的AI智能体",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.16552",
+        "language": "en",
+        "summary": "提出一种集成大语言模型与实验室编排的AI智能体架构，使科学家能用自然语言交互式创建和监控自动化实验协议。在实验编排系统（EOS）中实现，支持协议创建、运行、闭环优化及结果分析，并配有可视化图形编辑器。在化学、生物学和材料科学三个模拟实验室中评估，首次协议生成成功率达97%，所需界面操作减少一个数量级。",
+        "summary_en": "Presents an AI agent architecture integrating LLMs with lab orchestration, enabling scientists to create and monitor automated protocols via natural language. Integrated into EOS, it supports the full experimental lifecycle with visual graph editing. Evaluated on three simulated labs, achieving 97% first-attempt protocol success and an order-of-magnitude reduction in interface actions.",
+        "tags": [
+          "llm",
+          "agent-framework",
+          "application",
+          "research"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-05-19T19:16:53.052294+08:00",
+        "updated_at": "2026-05-19T19:16:53.052296+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Skim: Speculative Execution for Fast and Efficient Web Agents",
+      "url": "https://arxiv.org/abs/2605.16565",
+      "description": "arXiv:2605.16565v1 Announce Type: new \nAbstract: Skim is a speculative execution framework for web agents that exploits the predictable structure of purpose-built websites. Today's web-agent expense is not intrinsic to the tasks but a property of how agents are composed: frontier-model inference, browser rendering, and ReAct-style planning are applied to every step of every task regardless of complexity. Skim's key observation is that websites enforce stable URL patterns, answer formats, and task-to-trajectory mappings across queries of the same type, so most queries can bypass these heavyweight components entirely. An offline profiler captures these patterns once per site. At runtime, Skim matches each query to a template, synthesizes the destination URL, and extracts the answer with a small model. A lightweight verifier gates each fast-path output against the query and schema; rare misspeculations cascade to the full agent, warm-started by the fast path's final URL to preserve upstream trajectory progress. Across standard web-agent benchmarks paired with three backboneagents (WebVoyager, AgentOccam, BrowserUse), Skim reduces median per-task cost by 1.9x and latency by 33.4% with no accuracy loss.",
+      "pub_date": "Tue, 19 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "Skim：面向Web Agent的投机执行框架",
+        "summary": "Skim是一个针对Web Agent的投机执行框架，利用目的性构建网站的稳定结构模式。通过离线分析器捕获模式，运行时匹配模板、合成目标URL并用小模型提取答案，轻量验证器确保正确性。在多个基准测试中，Skim将中位任务成本降低1.9倍，延迟降低33.4%，且无精度损失。",
+        "summary_en": "Skim is a speculative execution framework for web agents that exploits predictable website structures. It reduces median per-task cost by 1.9x and latency by 33.4% with no accuracy loss across standard benchmarks.",
+        "tags": [
+          "agent-framework",
+          "research",
+          "application",
+          "llm"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-19-rss-013",
+        "title": "Skim：面向Web Agent的投机执行框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.16565",
+        "language": "en",
+        "summary": "Skim是一个针对Web Agent的投机执行框架，利用目的性构建网站的稳定结构模式。通过离线分析器捕获模式，运行时匹配模板、合成目标URL并用小模型提取答案，轻量验证器确保正确性。在多个基准测试中，Skim将中位任务成本降低1.9倍，延迟降低33.4%，且无精度损失。",
+        "summary_en": "Skim is a speculative execution framework for web agents that exploits predictable website structures. It reduces median per-task cost by 1.9x and latency by 33.4% with no accuracy loss across standard benchmarks.",
+        "tags": [
+          "agent-framework",
+          "research",
+          "application",
+          "llm"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-05-19T19:16:53.052299+08:00",
+        "updated_at": "2026-05-19T19:16:53.052300+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Scalable Uncertainty Reasoning in Knowledge Graphs",
+      "url": "https://arxiv.org/abs/2605.16568",
+      "description": "arXiv:2605.16568v1 Announce Type: new \nAbstract: Knowledge Graphs are pivotal for semantic data integration. The real-world data they model is often inherently uncertain. Within knowledge graphs, uncertainty manifests in three distinct levels: imprecise attribute values, probabilistic triple existence, and incomplete schema knowledge. However, current Semantic Web standards lack native support for reasoning over such uncertainty, and na\\\"ive extensions often incur computational intractability. In this thesis, I aim to develop a modular framework that addresses each level through tailored techniques: (1) defining probabilistic literals and a corresponding query algebra for continuous attributes; (2) a compilation-based framework transforming SPARQL provenance into tractable probabilistic circuits for uncertain triples; and (3) topology-aware geometric embeddings for statistical schema reasoning. The central hypothesis is that specialized reasoning mechanisms, namely algebraic, logical, and geometric approaches, can reconcile semantic precision with computational tractability.",
+      "pub_date": "Tue, 19 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "知识图谱中的可扩展不确定性推理",
+        "summary": "该论文提出一个模块化框架，针对知识图谱中三种不确定性（属性值不精确、三元组存在概率性、模式知识不完整）分别采用代数、逻辑和几何方法进行推理，旨在兼顾语义精度与计算可处理性。",
+        "summary_en": "This thesis proposes a modular framework for reasoning over three levels of uncertainty in knowledge graphs (imprecise attributes, probabilistic triples, incomplete schema) using algebraic, logical, and geometric approaches to balance semantic precision and computational tractability.",
+        "tags": [
+          "research",
+          "knowledge-graph",
+          "reasoning",
+          "uncertainty"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-19-rss-018",
+        "title": "知识图谱中的可扩展不确定性推理",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.16568",
+        "language": "en",
+        "summary": "该论文提出一个模块化框架，针对知识图谱中三种不确定性（属性值不精确、三元组存在概率性、模式知识不完整）分别采用代数、逻辑和几何方法进行推理，旨在兼顾语义精度与计算可处理性。",
+        "summary_en": "This thesis proposes a modular framework for reasoning over three levels of uncertainty in knowledge graphs (imprecise attributes, probabilistic triples, incomplete schema) using algebraic, logical, and geometric approaches to balance semantic precision and computational tractability.",
+        "tags": [
+          "research",
+          "knowledge-graph",
+          "reasoning",
+          "uncertainty"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "status": "published",
+        "created_at": "2026-05-19T19:16:53.052327+08:00",
+        "updated_at": "2026-05-19T19:16:53.052329+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "The Scaling Laws of Skills in LLM Agent Systems",
+      "url": "https://arxiv.org/abs/2605.16508",
+      "description": "arXiv:2605.16508v1 Announce Type: new \nAbstract: As agent systems scale, skills accumulate into large reusable libraries, yet their scaling laws remain poorly understood. Across 15 frontier LLMs, 1,141 real-world skills, and over 3M routing or execution decisions, we identify two coupled laws. Routing law: single-step routing accuracy decays logarithmically with library size ($R^2{>}0.97$ for all models), with errors progressing from local skill competition to cross-family drift and capture by overly general \"black-hole skills\". Execution law: before state realization, joint routing is approximately multiplicative, whereas correct execution can improve difficult downstream decisions by about $4{\\times}$. A single parameter, the routing logarithmic decay slope $b$, couples the two laws: routing-side fits predict execution-side rescue across models, showing that the same library property controls both pre-execution collapse and downstream recoverability. The laws are actionable: law-guided optimization raises held-out routing accuracy from 71.3% to 91.7%, reduces hijack from 22.4% to 4.1%, and transfers directionally to downstream ClawBench and ClawMark execution settings, improving mean pass rate from 49.3% to 61.6% on ClawBench and from 28.4% to 34.5% on ClawMark. These results show that agent performance depends not only on model capability, but also on the structure, granularity, and exposure policy of the skill library.",
+      "pub_date": "Tue, 19 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "LLM智能体系统中技能的规模定律",
+        "summary": "该研究揭示了智能体系统中技能库规模的两个耦合定律：路由定律（单步路由准确率随库大小对数衰减）和执行定律（正确执行可改善下游决策约4倍）。通过15个前沿LLM、1141个真实技能和超过300万次路由/执行决策验证。基于定律的优化将路由准确率从71.3%提升至91.7%，劫持率从22.4%降至4.1%，并在下游基准测试中显著提升通过率。",
+        "summary_en": "This paper identifies two coupled scaling laws in LLM agent systems: routing law (logarithmic decay of accuracy with library size) and execution law (correct execution improves downstream decisions ~4x). Validated across 15 LLMs, 1,141 skills, and 3M+ decisions. Law-guided optimization boosts routing accuracy from 71.3% to 91.7%, reduces hijack from 22.4% to 4.1%, and improves downstream pass rates.",
+        "tags": [
+          "research",
+          "llm",
+          "agent-framework",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-19-rss-014",
+        "title": "LLM智能体系统中技能的规模定律",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.16508",
+        "language": "en",
+        "summary": "该研究揭示了智能体系统中技能库规模的两个耦合定律：路由定律（单步路由准确率随库大小对数衰减）和执行定律（正确执行可改善下游决策约4倍）。通过15个前沿LLM、1141个真实技能和超过300万次路由/执行决策验证。基于定律的优化将路由准确率从71.3%提升至91.7%，劫持率从22.4%降至4.1%，并在下游基准测试中显著提升通过率。",
+        "summary_en": "This paper identifies two coupled scaling laws in LLM agent systems: routing law (logarithmic decay of accuracy with library size) and execution law (correct execution improves downstream decisions ~4x). Validated across 15 LLMs, 1,141 skills, and 3M+ decisions. Law-guided optimization boosts routing accuracy from 71.3% to 91.7%, reduces hijack from 22.4% to 4.1%, and improves downstream pass rates.",
+        "tags": [
+          "research",
+          "llm",
+          "agent-framework",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-05-19T19:16:53.052302+08:00",
+        "updated_at": "2026-05-19T19:16:53.052304+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "PQR: A Framework to Generate Diverse and Realistic User Queries that Elicit QA Agent Failures",
+      "url": "https://arxiv.org/abs/2605.16551",
+      "description": "arXiv:2605.16551v1 Announce Type: new \nAbstract: Evaluating LLM-based agents remains challenging because identifying meaningful failure cases often requires substantial human effort to design realistic test scenarios. Prior works primarily focus on automatically discovering agent failures induced by adversarial users, while overlooking queries with real user intents that also trigger agent failures. We introduce PQR, a framework that not only surfaces agent failures with respect to specific objectives (e.g., helpfulness, safety, etc.) but also resembles real users' intents. PQR operates through an iterative interaction between two complementary modules. The query refinement module performs rewrites to explore diverse query variations, while the prompt refinement module uses prior feedback to derive new objective-violating strategies and realism policies for refining prompts, which in turn generate failure-triggering yet realistic queries. We evaluate PQR on detecting an e-commerce QA agent's unhelpful responses. Our method uncovers 23% - 78% more unhelpful responses, and our generated queries are more diverse and realistic compared to previous methods.",
+      "pub_date": "Tue, 19 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "PQR：生成引发问答智能体故障的多样且真实用户查询的框架",
+        "summary": "PQR框架通过查询精炼和提示精炼两个模块的迭代交互，自动生成能触发LLM智能体故障的多样且真实用户查询，无需大量人工设计。在电商QA智能体评估中，相比现有方法，PQR发现的无帮助响应增加了23%-78%，且生成的查询更多样、更真实。",
+        "summary_en": "PQR is a framework that automatically generates diverse and realistic user queries that trigger LLM agent failures through iterative interaction between query refinement and prompt refinement modules. It uncovers 23%-78% more unhelpful responses in e-commerce QA agent evaluation, with more diverse and realistic queries than prior methods.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "agent-framework",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-19-rss-015",
+        "title": "PQR：生成引发问答智能体故障的多样且真实用户查询的框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.16551",
+        "language": "en",
+        "summary": "PQR框架通过查询精炼和提示精炼两个模块的迭代交互，自动生成能触发LLM智能体故障的多样且真实用户查询，无需大量人工设计。在电商QA智能体评估中，相比现有方法，PQR发现的无帮助响应增加了23%-78%，且生成的查询更多样、更真实。",
+        "summary_en": "PQR is a framework that automatically generates diverse and realistic user queries that trigger LLM agent failures through iterative interaction between query refinement and prompt refinement modules. It uncovers 23%-78% more unhelpful responses in e-commerce QA agent evaluation, with more diverse and realistic queries than prior methods.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "agent-framework",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-05-19T19:16:53.052306+08:00",
+        "updated_at": "2026-05-19T19:16:53.052308+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Scaling Accessible Mathematics on arXiv: HTML Conversion and MathML 4",
+      "url": "https://arxiv.org/abs/2605.16562",
+      "description": "arXiv:2605.16562v1 Announce Type: new \nAbstract: We report on the ongoing development of arXiv's HTML Papers offering, available on every new TeX/LaTeX submission since its initial release in 2023.\n  The main highlights from 2025 and early 2026 are:\n  (i) community-driven improvements to HTML fidelity and service health, with roughly half of 6,000 user reports resolved;\n  (ii) corpus-scale conversion work aimed at 90% error-free HTML (currently 75%);\n  (iii) initial MathML 4 Intent annotations for accessible speech output;\n  (iv) an in-progress Rust port of LaTeXML, reducing compute costs and enabling faster previews on submission.\n  The arXiv HTML Papers project remains experimental, but is gradually maturing as we better understand the needs of arXiv's readers and the technical opportunities presented by new standards and by advances in programming languages and AI.",
+      "pub_date": "Tue, 19 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "arXiv数学论文HTML转换与MathML 4无障碍访问",
+        "summary": "报告arXiv HTML论文服务的进展：2025-2026年主要成果包括社区驱动的HTML保真度改进（处理6000份用户报告中的一半）、语料库规模转换（75%无错误HTML）、MathML 4意图注释支持语音输出，以及LaTeXML的Rust移植以降低计算成本。",
+        "summary_en": "Reports progress on arXiv's HTML Papers service: 2025-2026 highlights include community-driven HTML fidelity improvements (half of 6,000 user reports resolved), corpus-scale conversion (75% error-free HTML), MathML 4 Intent annotations for accessible speech, and a Rust port of LaTeXML to reduce compute costs.",
+        "tags": [
+          "infrastructure",
+          "open-source",
+          "accessibility",
+          "rust"
+        ],
+        "category": "infrastructure",
+        "relevance_score": 0.6,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-19-rss-019",
+        "title": "arXiv数学论文HTML转换与MathML 4无障碍访问",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.16562",
+        "language": "en",
+        "summary": "报告arXiv HTML论文服务的进展：2025-2026年主要成果包括社区驱动的HTML保真度改进（处理6000份用户报告中的一半）、语料库规模转换（75%无错误HTML）、MathML 4意图注释支持语音输出，以及LaTeXML的Rust移植以降低计算成本。",
+        "summary_en": "Reports progress on arXiv's HTML Papers service: 2025-2026 highlights include community-driven HTML fidelity improvements (half of 6,000 user reports resolved), corpus-scale conversion (75% error-free HTML), MathML 4 Intent annotations for accessible speech, and a Rust port of LaTeXML to reduce compute costs.",
+        "tags": [
+          "infrastructure",
+          "open-source",
+          "accessibility",
+          "rust"
+        ],
+        "category": "infrastructure",
+        "relevance_score": 0.6,
+        "status": "published",
+        "created_at": "2026-05-19T19:16:53.052332+08:00",
+        "updated_at": "2026-05-19T19:16:53.052333+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Beyond Sentiment Classification: A Generative Framework for Emotion Intensity Evaluation in Text",
+      "url": "https://arxiv.org/abs/2605.16613",
+      "description": "arXiv:2605.16613v1 Announce Type: new \nAbstract: We introduce a novel approach to emotion modeling that shifts the focus from\n  identification to evaluation, addressing the limitations of discrete classification in\n  applied domains such as finance. By constructing a dataset of emotional intensity\n  scores and fine-tuning open-weight generative language models to output continuous\n  values from 0-100, we demonstrate a more expressive, generalizable framework for\n  sentiment and emotion analysis. Our findings not only outperform classification\n  baselines but also reveal surprising generalization capabilities and transfer effects\n  to related constructs such as sentiment and arousal. This work contributes to the\n  interdisciplinary recontextualization of NLP by introducing emotion intensity\n  evaluation as an alternative to classification, arguing that this shift better aligns\n  with the needs of domains--such as finance--where the degree of emotional content is\n  central to interpretation and decision-making.",
+      "pub_date": "Tue, 19 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "超越情感分类：文本情感强度评估的生成框架",
+        "summary": "提出一种从离散分类转向连续情感强度评估的新方法。通过构建情感强度数据集并微调生成式语言模型输出0-100的连续值，在金融等领域展现出更强的表达力和泛化能力，优于传统分类基线。",
+        "summary_en": "Introduces a generative framework for emotion intensity evaluation, shifting from discrete classification to continuous 0-100 scoring. Fine-tuned LLMs outperform classification baselines and show generalization to sentiment and arousal, benefiting domains like finance.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-19-rss-016",
+        "title": "超越情感分类：文本情感强度评估的生成框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.16613",
+        "language": "en",
+        "summary": "提出一种从离散分类转向连续情感强度评估的新方法。通过构建情感强度数据集并微调生成式语言模型输出0-100的连续值，在金融等领域展现出更强的表达力和泛化能力，优于传统分类基线。",
+        "summary_en": "Introduces a generative framework for emotion intensity evaluation, shifting from discrete classification to continuous 0-100 scoring. Fine-tuned LLMs outperform classification baselines and show generalization to sentiment and arousal, benefiting domains like finance.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-05-19T19:16:53.052319+08:00",
+        "updated_at": "2026-05-19T19:16:53.052321+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "SKG-Eval: Stateful Evaluation of Multi-Turn Dialogue via Incremental Semantic Knowledge Graphs",
+      "url": "https://arxiv.org/abs/2605.16650",
+      "description": "arXiv:2605.16650v1 Announce Type: new \nAbstract: Evaluating multi-turn dialogue systems remains challenging because response quality depends not only on the current prompt, but also on previously established entities, claims, and conversational commitments. Existing automatic evaluators, including LLM-as-a-judge frameworks and embedding-based metrics, largely rely on flat or turn-isolated representations, making them less effective at detecting long-range issues such as contradiction, topic drift, and entity inconsistency. To address this, we propose SKG-Eval, a quasi-deterministic and interpretable framework that models dialogue as an evolving Semantic Knowledge Graph (SKG) of entities, relations, and commitments across turns. The framework incrementally updates the graph through structured triple extraction and computes three complementary signals: (i) local relevance, measuring alignment with the current prompt and optional reference; (ii) historical consistency, evaluating how newly introduced information connects to prior conversational context using graph-based and embedding-driven signals; and (iii) logical coherence, assessed by a geometric contradiction engine that detects cross-turn conflicts without relying on NLI models or LLM judges. These signals are adaptively fused and aggregated into a length-invariant session score via recency-weighted trend analysis. Across multiple benchmarks, SKG-Eval achieves higher correlation with human judgments and substantially improves detection of long-range inconsistencies in extended conversations. In addition, the framework produces explicit contradiction certificates and deterministic scores for fixed inputs, enabling reproducible and auditable evaluation. Overall, our results suggest that structured externalized state tracking through semantic knowledge graphs provides a scalable alternative to implicit reasoning in LLM-based dialogue evaluators.",
+      "pub_date": "Tue, 19 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "SKG-Eval：基于增量语义知识图谱的多轮对话状态评估",
+        "summary": "提出SKG-Eval框架，通过构建增量语义知识图谱（SKG）来建模多轮对话中的实体、关系和承诺，从而评估对话质量。该框架计算局部相关性、历史一致性和逻辑连贯性三个信号，并自适应融合为会话评分。实验表明，该方法在长对话中能更好地检测矛盾、主题漂移等长程问题，且结果可解释、可复现。",
+        "summary_en": "Proposes SKG-Eval, a quasi-deterministic framework that models multi-turn dialogue as an evolving Semantic Knowledge Graph (SKG) to evaluate response quality. It computes local relevance, historical consistency, and logical coherence signals, adaptively fused into a session score. Achieves higher correlation with human judgments and better detection of long-range inconsistencies.",
+        "tags": [
+          "evaluation",
+          "research",
+          "llm",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-19-rss-017",
+        "title": "SKG-Eval：基于增量语义知识图谱的多轮对话状态评估",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.16650",
+        "language": "en",
+        "summary": "提出SKG-Eval框架，通过构建增量语义知识图谱（SKG）来建模多轮对话中的实体、关系和承诺，从而评估对话质量。该框架计算局部相关性、历史一致性和逻辑连贯性三个信号，并自适应融合为会话评分。实验表明，该方法在长对话中能更好地检测矛盾、主题漂移等长程问题，且结果可解释、可复现。",
+        "summary_en": "Proposes SKG-Eval, a quasi-deterministic framework that models multi-turn dialogue as an evolving Semantic Knowledge Graph (SKG) to evaluate response quality. It computes local relevance, historical consistency, and logical coherence signals, adaptively fused into a session score. Achieves higher correlation with human judgments and better detection of long-range inconsistencies.",
+        "tags": [
+          "evaluation",
+          "research",
+          "llm",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-05-19T19:16:53.052323+08:00",
+        "updated_at": "2026-05-19T19:16:53.052325+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-15-rss-019",
+  "title": "推导提示：一种基于逻辑的检索增强生成改进方法",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.14053",
+  "language": "en",
+  "summary": "提出Derivation Prompting，一种受逻辑推导启发的新提示技术，用于RAG生成步骤。通过系统应用预定义规则从初始假设推导结论，构建可解释的推导树以增强生成控制。在案例研究中显著减少了不可接受答案。",
+  "summary_en": "Introduces Derivation Prompting, a novel logic-inspired prompting technique for the RAG generation step. It constructs an interpretable derivation tree by applying predefined rules, adding control over generation. A case study shows significant reduction in unacceptable answers compared to traditional RAG and long-context methods.",
+  "tags": [
+    "llm",
+    "research",
+    "rag",
+    "prompt-engineering"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-05-15T21:19:50.392041+08:00",
+  "updated_at": "2026-05-15T21:19:50.392043+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

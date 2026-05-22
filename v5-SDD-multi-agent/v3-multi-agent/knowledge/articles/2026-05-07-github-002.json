@@ -1,0 +1,29 @@
+{
+  "id": "2026-05-07-github-002",
+  "title": "MetaGPT：首个AI软件公司的多智能体框架",
+  "source": "github_trending",
+  "source_url": "",
+  "language": "en",
+  "summary": "MetaGPT是一个创新的多智能体框架，模拟软件公司结构，集成产品经理、架构师、项目经理、工程师等角色。它通过将GPT等大模型分配给不同角色，实现从自然语言需求到软件产品的自动化生成。框架支持多种LLM后端，提供SOP（标准操作程序）驱动的协作机制，能输出用户故事、竞品分析、需求文档、设计文档、任务分配等中间产物。MetaGPT在代码生成、软件开发效率方面表现出色，是自然语言编程的重要实践。",
+  "summary_en": "MetaGPT is an innovative multi-agent framework that simulates a software company structure, integrating roles such as product manager, architect, project manager, and engineer. It assigns large langua",
+  "tags": [
+    "multi-agent",
+    "LLM",
+    "natural language programming",
+    "code generation",
+    "software development",
+    "SOP",
+    "GPT",
+    "agent framework"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.98,
+  "status": "draft",
+  "created_at": "2026-05-07T11:58:23.651789+00:00",
+  "updated_at": "2026-05-07T11:58:23.656262+00:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

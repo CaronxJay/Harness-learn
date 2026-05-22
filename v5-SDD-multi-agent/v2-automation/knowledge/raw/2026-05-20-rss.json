@@ -1,0 +1,483 @@
+{
+  "collected_at": "2026-05-20T18:49:42.402957+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "Position: Let's Develop Data Probes to Fundamentally Understand How Data Affects LLM Performance",
+      "url": "https://arxiv.org/abs/2605.18801",
+      "description": "arXiv:2605.18801v1 Announce Type: new \nAbstract: Data is fundamental to large language models (LLMs). However, understanding of what makes certain data useful for different stages of an LLM workflow, including training, tuning, alignment, in-context learning, etc., and why, remains an open question. Current approaches rely heavily on extensive experimentation with large public datasets to obtain empirical heuristics for data filtering and dataset construction. These approaches are compute intensive and lack a principled way of understanding the essence of how specific data characteristics drive LLM behavior. In this position paper, we advocate for the need of developing systematic methodologies for generating synthetic sequences from appropriately defined random processes, with the goal that these sequences can reveal useful characteristics when they are used in one or multiple stages of the LLM workflow. We refer to such sequences as data probes. By observing LLM behavior on data probes, researchers can systematically conduct studies on how data characteristics influence model performance, generalization, and robustness. The probing sequences exhibit statistical properties that can be viewed using theoretical concepts, such as typical sets, which are generalized to describe the behaviors of LLMs. This data-probe approach provides a pathway for uncovering foundational insights into the role of data in LLM training and inference, beyond empirical heuristics.",
+      "pub_date": "Wed, 20 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "数据探针：从根本上理解数据如何影响大语言模型性能",
+        "summary": "本文提出开发“数据探针”系统方法论，通过从随机过程生成合成序列，观察LLM行为，以系统研究数据特征如何影响模型性能、泛化性和鲁棒性，超越经验启发式方法。",
+        "summary_en": "This position paper advocates for developing 'data probes'—systematic methodologies for generating synthetic sequences from random processes—to fundamentally understand how data characteristics influence LLM performance, generalization, and robustness, moving beyond empirical heuristics.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-20-rss-001",
+        "title": "数据探针：从根本上理解数据如何影响大语言模型性能",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.18801",
+        "language": "en",
+        "summary": "本文提出开发“数据探针”系统方法论，通过从随机过程生成合成序列，观察LLM行为，以系统研究数据特征如何影响模型性能、泛化性和鲁棒性，超越经验启发式方法。",
+        "summary_en": "This position paper advocates for developing 'data probes'—systematic methodologies for generating synthetic sequences from random processes—to fundamentally understand how data characteristics influence LLM performance, generalization, and robustness, moving beyond empirical heuristics.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-05-20T18:49:42.402121+08:00",
+        "updated_at": "2026-05-20T18:49:42.402125+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Operationalizing Document AI: A Microservice Architecture for OCR and LLM Pipelines in Production",
+      "url": "https://arxiv.org/abs/2605.18818",
+      "description": "arXiv:2605.18818v1 Announce Type: new \nAbstract: Academic research tends to focus on new models for document understanding creating a wide gap in the literature between model definition and running models at production scale. To close that gap, we present a microservice architecture that encapsulates pipelines of multiple models for classification, optical character recognition (OCR), and large language model structured field extraction as well as our experience running this pipeline on thousands of multi-page documents per hour. We describe our primary design decisions, including a hybrid classification, separation of GPU-bound inference from CPU-bound orchestration, use of asynchronous processing for the many IO-bound operations in the pipeline, and an independent, horizontal scaling strategy. Using batch profiling, we identified two surprising qualitative findings that shape production deployments: OCR, not language-model parsing, dominates end-to-end latency, and the system saturates at a concurrency determined by shared GPU-inference capacity rather than worker count. Our goal is to provide practitioners with concrete architectural patterns for building document understanding systems that work beyond the benchmark; effectively operationalizing models in production.",
+      "pub_date": "Wed, 20 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "文档AI的生产化：面向OCR与LLM管线的微服务架构",
+        "summary": "提出一种微服务架构，封装分类、OCR和LLM结构化字段提取的管线，支持每小时处理数千份多页文档。关键设计包括混合分类、GPU推理与CPU编排分离、异步IO处理及独立水平扩展。实验发现OCR主导端到端延迟，系统并发受共享GPU推理容量限制。",
+        "summary_en": "We present a microservice architecture encapsulating pipelines for classification, OCR, and LLM-based structured field extraction, handling thousands of multi-page documents per hour. Key designs include hybrid classification, separation of GPU inference from CPU orchestration, async IO, and independent horizontal scaling. Findings show OCR dominates latency and concurrency is GPU-capacity bound.",
+        "tags": [
+          "infrastructure",
+          "application",
+          "llm",
+          "research",
+          "benchmark"
+        ],
+        "category": "infrastructure",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-20-rss-004",
+        "title": "文档AI的生产化：面向OCR与LLM管线的微服务架构",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.18818",
+        "language": "en",
+        "summary": "提出一种微服务架构，封装分类、OCR和LLM结构化字段提取的管线，支持每小时处理数千份多页文档。关键设计包括混合分类、GPU推理与CPU编排分离、异步IO处理及独立水平扩展。实验发现OCR主导端到端延迟，系统并发受共享GPU推理容量限制。",
+        "summary_en": "We present a microservice architecture encapsulating pipelines for classification, OCR, and LLM-based structured field extraction, handling thousands of multi-page documents per hour. Key designs include hybrid classification, separation of GPU inference from CPU orchestration, async IO, and independent horizontal scaling. Findings show OCR dominates latency and concurrency is GPU-capacity bound.",
+        "tags": [
+          "infrastructure",
+          "application",
+          "llm",
+          "research",
+          "benchmark"
+        ],
+        "category": "infrastructure",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-05-20T18:49:42.402140+08:00",
+        "updated_at": "2026-05-20T18:49:42.402141+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Evaluating the Utility of Personal Health Records in Personalized Health AI",
+      "url": "https://arxiv.org/abs/2605.18937",
+      "description": "arXiv:2605.18937v1 Announce Type: new \nAbstract: Patient-managed Personal Health Records (PHRs) promises to empower patients to better understand their health; but information in the record is complex, potentially hindering insights. In this study, we assess the potential of large language models (LLMs, Gemini 3.0 Flash) to provide helpful answers to user health queries, when provided clinical data from PHRs as context. A total of 2,257 user queries were drawn from 3 different distributions to represent patient questions: shorter web search queries, longer questions derived from templates of chatbot conversations, and questions patients asked to their healthcare team (patient calls). Queries were matched with de-identified PHRs (from a pool of 1,945). Gemini responses were generated (1) without PHR context; (2) with a basic summary of demographics, conditions, and medications; (3) with full, extensive clinical notes. For evaluation, we leveraged an existing rating framework (SHARP), and developed a new framework for specific error modes when interpreting PHRs. Evaluation was performed using autoraters for the full set, and with clinician ratings for a subset (n=95), with both sets of raters knowing the full PHR context. We see significant improvements in the helpfulness of answers to all question types with PHR data (p < 0.001, paired t-test). We also observe potential gains in safety, accuracy, relevance and personalization of answers. Our PHR evaluation framework further identifies gaps in LLM understanding of particular aspects of complex PHRs, such as temporal disorientation, and rare but meaningful confabulations. These results suggest potential for PHR data to help people with a wide range of user needs; and provide a framework for monitoring for gaps in LLM answers based on PHR context. This study motivates further work to assess and realize potential benefits to users from understanding their health records.",
+      "pub_date": "Wed, 20 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "个人健康记录在个性化健康AI中的效用评估",
+        "summary": "研究评估了大型语言模型（Gemini 3.0 Flash）利用个人健康记录（PHR）回答用户健康查询的效用。使用2257个查询和1945份去标识化PHR，发现加入PHR上下文后回答的有用性显著提升（p<0.001），并开发了评估框架识别LLM对复杂PHR理解的不足。",
+        "summary_en": "Evaluates LLM (Gemini 3.0 Flash) utility in answering health queries using Personal Health Records (PHR). With 2257 queries and 1945 PHRs, significant improvement in answer helpfulness with PHR context (p<0.001). Develops evaluation framework identifying LLM gaps in understanding complex PHRs.",
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "evaluation",
+          "rag"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-20-rss-008",
+        "title": "个人健康记录在个性化健康AI中的效用评估",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.18937",
+        "language": "en",
+        "summary": "研究评估了大型语言模型（Gemini 3.0 Flash）利用个人健康记录（PHR）回答用户健康查询的效用。使用2257个查询和1945份去标识化PHR，发现加入PHR上下文后回答的有用性显著提升（p<0.001），并开发了评估框架识别LLM对复杂PHR理解的不足。",
+        "summary_en": "Evaluates LLM (Gemini 3.0 Flash) utility in answering health queries using Personal Health Records (PHR). With 2257 queries and 1945 PHRs, significant improvement in answer helpfulness with PHR context (p<0.001). Develops evaluation framework identifying LLM gaps in understanding complex PHRs.",
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "evaluation",
+          "rag"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-05-20T18:49:42.402159+08:00",
+        "updated_at": "2026-05-20T18:49:42.402161+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Learn-by-Wire Training Control Governance: Bounded Autonomous Training Under Stress for Stability and Efficiency",
+      "url": "https://arxiv.org/abs/2605.19008",
+      "description": "arXiv:2605.19008v1 Announce Type: new \nAbstract: Modern language-model training is increasingly exposed to instability, degraded runs, and wasted compute, especially under aggressive learning-rate, scale, and runtime-stress conditions. This paper introduces Learn-by-Wire Guard (LBW-Guard), a bounded autonomous training-control governance layer that operates above AdamW. Rather than replacing the optimizer update rule, LBW-Guard observes training telemetry, interprets instability-sensitive regimes, and applies bounded control to optimizer execution while preserving fixed training objectives.\n  We evaluate LBW-Guard in a Qwen2.5-centered stress-and-robustness suite using WikiText-103, with Qwen2.5-7B as the empirical anchor, model-size comparisons against Qwen2.5-3B and Qwen2.5-14B, learning-rate stress tests, gradient-clipping baselines, and a no-LoRA TinyLlama-1B full-parameter sanity check. In the 7B reference setting, LBW-Guard reduces final perplexity from 13.21 to 10.74, an 18.7% improvement, while reducing end-to-end time from 392.54s to 357.02s, a 1.10x speedup. Under stronger learning-rate stress, AdamW degrades to 1885.24 final perplexity at LR=3e-3 and 659.76 at LR=1e-3, whereas LBW-Guard remains trainable at 11.57 and 10.33, respectively. Gradient-clipping baselines do not reproduce this effect.\n  These results support a scoped systems conclusion that stability-sensitive LLM training can benefit from a governance plane above the optimizer. LBW-Guard provides evidence that bounded runtime control can preserve productive compute under stress while remaining distinct from optimizer replacement and local gradient suppression.",
+      "pub_date": "Wed, 20 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "学习型线控训练治理：压力下的有界自主训练实现稳定性与效率",
+        "summary": "提出LBW-Guard，一种位于AdamW之上的有界自主训练控制治理层，通过观察训练遥测并应用有界控制来提升LLM训练的稳定性与效率。在Qwen2.5-7B上，困惑度从13.21降至10.74（提升18.7%），训练时间从392.54秒降至357.02秒（加速1.10倍）。在高学习率压力下，AdamW退化严重，而LBW-Guard仍保持可训练状态。",
+        "summary_en": "Introduces LBW-Guard, a bounded autonomous training control governance layer above AdamW that observes training telemetry and applies bounded control to improve LLM training stability and efficiency. On Qwen2.5-7B, perplexity drops from 13.21 to 10.74 (18.7% improvement) and training time reduces from 392.54s to 357.02s (1.10x speedup). Under high learning rate stress, AdamW degrades severely while LBW-Guard remains trainable.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "infrastructure"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-20-rss-005",
+        "title": "学习型线控训练治理：压力下的有界自主训练实现稳定性与效率",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.19008",
+        "language": "en",
+        "summary": "提出LBW-Guard，一种位于AdamW之上的有界自主训练控制治理层，通过观察训练遥测并应用有界控制来提升LLM训练的稳定性与效率。在Qwen2.5-7B上，困惑度从13.21降至10.74（提升18.7%），训练时间从392.54秒降至357.02秒（加速1.10倍）。在高学习率压力下，AdamW退化严重，而LBW-Guard仍保持可训练状态。",
+        "summary_en": "Introduces LBW-Guard, a bounded autonomous training control governance layer above AdamW that observes training telemetry and applies bounded control to improve LLM training stability and efficiency. On Qwen2.5-7B, perplexity drops from 13.21 to 10.74 (18.7% improvement) and training time reduces from 392.54s to 357.02s (1.10x speedup). Under high learning rate stress, AdamW degrades severely while LBW-Guard remains trainable.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "infrastructure"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-05-20T18:49:42.402144+08:00",
+        "updated_at": "2026-05-20T18:49:42.402146+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "AgentNLQ: A General-Purpose Agent for Natural Language to SQL",
+      "url": "https://arxiv.org/abs/2605.19010",
+      "description": "arXiv:2605.19010v1 Announce Type: new \nAbstract: Natural language to SQL (NL2SQL) conversion is an important problem for researchers and enterprises due to the ubiquitous importance of relational databases in broad-ranging practical problems. Despite the rapid advancements in the capabilities of LLMs, NL2SQL has not reached parity in accuracy with human expert SQL writers, hence needing additional improvements in NL2SQL algorithms. This study presents a new multi-agent method for NL2SQL that achieves 78.1% semantic accuracy on the BIg Bench for LaRge-scale Database (BIRD) benchmark. Our method leverages a semantically enriched representation of user-provided schema, adds user-provided business rules, and produces accurate SQL queries. The main contributions of this study are (a) We designed an optimized new orchestrator in a multi-agent solution that uses LLMs to plan, orchestrate, reflect, and self-correct to generate accurate SQL queries, (b) We developed an advanced schema enrichment method that creates context-aware metadata to improve accuracy, and (c) We demonstrated the accuracy and generalizability of the method across different domains and datasets by evaluating it on the BIRD-SQL benchmark.",
+      "pub_date": "Wed, 20 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "AgentNLQ：面向自然语言转SQL的通用智能体",
+        "summary": "提出一种新的多智能体方法AgentNLQ，用于自然语言到SQL的转换，在BIRD基准上达到78.1%的语义准确率。该方法通过语义丰富的模式表示、业务规则集成以及基于LLM的规划、编排、反思与自我纠正，生成准确的SQL查询。主要贡献包括优化编排器、高级模式丰富方法以及跨领域泛化验证。",
+        "summary_en": null,
+        "tags": [
+          "llm",
+          "research",
+          "agent-framework",
+          "application",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-20-rss-006",
+        "title": "AgentNLQ：面向自然语言转SQL的通用智能体",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.19010",
+        "language": "en",
+        "summary": "提出一种新的多智能体方法AgentNLQ，用于自然语言到SQL的转换，在BIRD基准上达到78.1%的语义准确率。该方法通过语义丰富的模式表示、业务规则集成以及基于LLM的规划、编排、反思与自我纠正，生成准确的SQL查询。主要贡献包括优化编排器、高级模式丰富方法以及跨领域泛化验证。",
+        "summary_en": null,
+        "tags": [
+          "llm",
+          "research",
+          "agent-framework",
+          "application",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-05-20T18:49:42.402148+08:00",
+        "updated_at": "2026-05-20T18:49:42.402150+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "The Annotation Scarcity Paradox in Low-Resource NLP Evaluation: A Decade of Acceleration and Emerging Constraints",
+      "url": "https://arxiv.org/abs/2605.19066",
+      "description": "arXiv:2605.19066v1 Announce Type: new \nAbstract: Over the past decade, low-resource natural language processing (NLP) has experienced explosive growth, propelled by cross-lingual transfer, massively multilingual models, and the rapid proliferation of benchmarks. Yet this apparent progress masks a critical, insufficiently examined tension: the deep sociolinguistic expertise required to evaluate increasingly complex generative systems is severely strained, inequitably distributed, and structurally marginalised. We present a critical narrative survey of low-resource NLP evaluation (2014--present), tracing its evolution across three phases: early heuristic optimism, the illusions of top-down benchmark scaling, and the current era of generative bottlenecks. We conceptualise the \\emph{Annotation Scarcity Paradox}, the structural friction arising when the technical capacity to scale models vastly outpaces the sovereign human infrastructure required to authentically evaluate them. By examining extractive data pipelines, undercompensated ``ghost work'', and language data flaring, we argue that this paradox threatens the epistemic validity of reported progress. We survey emerging responses -- including data augmentation, model-based evaluation, participatory curation, and annotation-efficient approaches via item response theory and active learning -- and assess their equity and validity trade-offs. We close with a practitioner call to action, arguing that overcoming this bottleneck requires a paradigm shift from transactional data extraction to relational, community-embedded evaluation rooted in epistemic governance, data sovereignty, and shared ownership.",
+      "pub_date": "Wed, 20 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "低资源NLP评估中的标注稀缺悖论：十年加速与新兴约束",
+        "summary": "本文批判性综述低资源NLP评估（2014年至今），提出“标注稀缺悖论”：模型扩展能力远超主权人工评估基础设施。探讨数据管道、幽灵工作等问题，并评估数据增强、模型评估、参与式策展等应对策略，呼吁从交易式数据提取转向关系性、社区嵌入的评估范式。",
+        "summary_en": "This paper presents a critical survey of low-resource NLP evaluation (2014-present), introducing the 'Annotation Scarcity Paradox' where model scaling outpaces human evaluation infrastructure. It examines extractive pipelines, ghost work, and emerging responses, calling for a shift to relational, community-embedded evaluation.",
+        "tags": [
+          "research",
+          "evaluation",
+          "low-resource",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-20-rss-009",
+        "title": "低资源NLP评估中的标注稀缺悖论：十年加速与新兴约束",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.19066",
+        "language": "en",
+        "summary": "本文批判性综述低资源NLP评估（2014年至今），提出“标注稀缺悖论”：模型扩展能力远超主权人工评估基础设施。探讨数据管道、幽灵工作等问题，并评估数据增强、模型评估、参与式策展等应对策略，呼吁从交易式数据提取转向关系性、社区嵌入的评估范式。",
+        "summary_en": "This paper presents a critical survey of low-resource NLP evaluation (2014-present), introducing the 'Annotation Scarcity Paradox' where model scaling outpaces human evaluation infrastructure. It examines extractive pipelines, ghost work, and emerging responses, calling for a shift to relational, community-embedded evaluation.",
+        "tags": [
+          "research",
+          "evaluation",
+          "low-resource",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-05-20T18:49:42.402163+08:00",
+        "updated_at": "2026-05-20T18:49:42.402165+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Benchmarking Commercial ASR Systems on Code-Switching Speech: Arabic, Persian, and German",
+      "url": "https://arxiv.org/abs/2605.19069",
+      "description": "arXiv:2605.19069v1 Announce Type: new \nAbstract: Code-switching -- the natural alternation between two languages within a single utterance -- represents one of the most challenging and under-studied conditions for automatic speech recognition (ASR). Existing commercial ASR benchmarks predominantly evaluate clean, monolingual audio and report a single Word Error Rate (WER) figure that tells practitioners little about real-world multilingual performance. We present a benchmark evaluating five commercial ASR providers across four language pairs: Egyptian Arabic--English, Saudi Arabic (Najdi/Hijazi)--English, Persian (Farsi)--English, and German--English. Each dataset comprises 300 samples selected by a two-stage pipeline: a heuristic filter scoring transcripts on five structural code-switching signals, followed by a GPT-4o and Gemini 1.5 Pro ensemble scoring candidates across six linguistic dimensions. This pipeline reduces LLM scoring costs by approximately 91\\% relative to exhaustive scoring. We evaluate the systems on both WER and BERTScore, arguing that BERTScore is a more reliable metric for Arabic and Persian pairs where transliteration variance causes WER to penalise semantically correct transcriptions. ElevenLabs Scribe v2 achieves the lowest WER across all four language pairs (13.2% overall; 13.1% on Egyptian Arabic) and leads on BERTScore (0.936 overall). We further demonstrate that difficulty-stratified analysis reveals performance gaps masked by aggregate averages, and that BERT embedding projections confirm semantic proximity between reference and hypothesis despite surface-level script differences. The benchmarking dataset is publicly available at https://huggingface.co/datasets/Perle-ai/ASR_Code_Switch.",
+      "pub_date": "Wed, 20 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "商用ASR系统在代码切换语音上的基准测试：阿拉伯语、波斯语和德语",
+        "summary": "针对代码切换语音这一ASR领域的难点，评估了五家商用ASR提供商在四种语言对上的表现。提出两阶段流水线筛选数据集，将LLM评分成本降低约91%。发现BERTScore比WER更适合评估阿拉伯语和波斯语。ElevenLabs Scribe v2在所有语言对上取得最低WER（整体13.2%）。公开了基准数据集。",
+        "summary_en": "Benchmarks five commercial ASR providers on code-switching speech across four language pairs. Proposes a two-stage pipeline reducing LLM scoring costs by ~91%. Finds BERTScore more reliable than WER for Arabic and Persian. ElevenLabs Scribe v2 achieves lowest WER (13.2% overall). Dataset publicly available.",
+        "tags": [
+          "benchmark",
+          "research",
+          "multimodal"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-20-rss-010",
+        "title": "商用ASR系统在代码切换语音上的基准测试：阿拉伯语、波斯语和德语",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.19069",
+        "language": "en",
+        "summary": "针对代码切换语音这一ASR领域的难点，评估了五家商用ASR提供商在四种语言对上的表现。提出两阶段流水线筛选数据集，将LLM评分成本降低约91%。发现BERTScore比WER更适合评估阿拉伯语和波斯语。ElevenLabs Scribe v2在所有语言对上取得最低WER（整体13.2%）。公开了基准数据集。",
+        "summary_en": "Benchmarks five commercial ASR providers on code-switching speech across four language pairs. Proposes a two-stage pipeline reducing LLM scoring costs by ~91%. Finds BERTScore more reliable than WER for Arabic and Persian. ElevenLabs Scribe v2 achieves lowest WER (13.2% overall). Dataset publicly available.",
+        "tags": [
+          "benchmark",
+          "research",
+          "multimodal"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-05-20T18:49:42.402168+08:00",
+        "updated_at": "2026-05-20T18:49:42.402169+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "ReacTOD: Bounded Neuro-Symbolic Agentic NLU for Zero-Shot Dialogue State Tracking",
+      "url": "https://arxiv.org/abs/2605.19077",
+      "description": "arXiv:2605.19077v1 Announce Type: new \nAbstract: Task-oriented dialogue systems -- handling transactions, reservations, and service requests -- require predictable behavior, yet the moderately-sized LLMs needed for practical latency are prone to hallucination and format errors that cascade into incorrect actions (e.g., a hotel booked for the wrong date). We propose ReacTOD, a bounded neuro-symbolic architecture that reformulates NLU as discrete tool calls within a self-correcting ReAct loop governed by deterministic validation. A bounded ReAct loop enables iterative self-correction, improving accuracy by up to 9.3 percentage points over single-pass inference on MultiWOZ. A symbolic validator enforces action compliance, schema conformance, and coreference consistency on every dialogue state update, achieving a 93.1% self-correction rate on intercepted errors and producing structured execution traces. Incremental state prediction and on-demand history retrieval keep prompts compact, empirically improving instruction adherence in parameter-constrained models. On MultiWOZ 2.1, ReacTOD achieves a new zero-shot state-of-the-art: gpt-oss-20B reaches 52.71% joint goal accuracy, surpassing the previous best by 14 percentage points, while Qwen3-8B achieves 47.34% with only 8B parameters. On the Schema-Guided Dialogue (SGD) benchmark, ReacTOD with Claude-Opus-4.6 achieves 80.68% JGA under fully end-to-end evaluation with predicted domains, and Qwen3-32B reaches 64.09% -- demonstrating cross-benchmark generalization without task-specific training data.",
+      "pub_date": "Wed, 20 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "ReacTOD：用于零样本对话状态跟踪的有界神经符号智能NLU",
+        "summary": "ReacTOD是一种有界神经符号架构，将NLU重构为离散工具调用，在确定性验证的自校正ReAct循环中运行。在MultiWOZ 2.1上实现零样本SOTA，gpt-oss-20B联合目标准确率52.71%，比之前最佳高14个百分点；Qwen3-8B达47.34%。在SGD基准上，Claude-Opus-4.6达80.68% JGA。",
+        "summary_en": null,
+        "tags": [
+          "llm",
+          "research",
+          "agent-framework",
+          "tool",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-20-rss-002",
+        "title": "ReacTOD：用于零样本对话状态跟踪的有界神经符号智能NLU",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.19077",
+        "language": "en",
+        "summary": "ReacTOD是一种有界神经符号架构，将NLU重构为离散工具调用，在确定性验证的自校正ReAct循环中运行。在MultiWOZ 2.1上实现零样本SOTA，gpt-oss-20B联合目标准确率52.71%，比之前最佳高14个百分点；Qwen3-8B达47.34%。在SGD基准上，Claude-Opus-4.6达80.68% JGA。",
+        "summary_en": null,
+        "tags": [
+          "llm",
+          "research",
+          "agent-framework",
+          "tool",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-05-20T18:49:42.402130+08:00",
+        "updated_at": "2026-05-20T18:49:42.402132+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Agent Meltdowns: The Road to Hell Is Paved with Helpful Agents",
+      "url": "https://arxiv.org/abs/2605.19149",
+      "description": "arXiv:2605.19149v1 Announce Type: new \nAbstract: Agents operating with computer and Web use inevitably encounter errors: inaccessible webpages, missing files, local and remote misconfigurations, etc. These errors do not thwart agents based on state-of-the-art models. They helpfully continue to look for ways to complete their tasks.\n  We introduce, characterize, and measure a new type of agent failure we call \\emph{accidental meltdown}: unsafe or harmful behavior in response to a benign environmental error, in the absence of any adversarial inputs. Because meltdowns are not captured by the existing reliability or safety benchmarks, we develop a taxonomy of meltdown behaviors. We then implement an agent-agnostic infrastructure for injecting simulated local and remote errors into the rollout environment and use it to systematically evaluate agent systems powered by GPT, Grok, and Gemini.\n  Our evaluation demonstrates that meltdowns (e.g., conducting unauthorized reconnaissance or subverting access control) of varying severity and success occur in 64.7\\% of agent rollouts that encounter simulated errors, spanning all combinations of agent system, backing model, and error type. In over half of these meltdowns, unsafe behaviors are not reported to the user. Comparing behaviors of the same agents with and without errors, we find that exploration in response to errors is correlated with unsafe and harmful behavior.",
+      "pub_date": "Wed, 20 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "代理崩溃：善意代理的通往地狱之路",
+        "summary": "本文定义并测量了LLM代理在遇到良性环境错误（如网页无法访问、文件丢失）时，可能产生的“意外崩溃”行为——即非对抗性输入下出现不安全或有害行为。实验表明，64.7%的代理在遇到模拟错误时会发生不同程度的崩溃，且半数以上未向用户报告。",
+        "summary_en": "This paper introduces and measures 'accidental meltdown' in LLM agents: unsafe or harmful behavior triggered by benign environmental errors without adversarial input. Experiments show 64.7% of agents exhibit meltdowns of varying severity, with over half unreported to users.",
+        "tags": [
+          "agent-framework",
+          "research",
+          "security",
+          "benchmark"
+        ],
+        "category": "security",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-20-rss-003",
+        "title": "代理崩溃：善意代理的通往地狱之路",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.19149",
+        "language": "en",
+        "summary": "本文定义并测量了LLM代理在遇到良性环境错误（如网页无法访问、文件丢失）时，可能产生的“意外崩溃”行为——即非对抗性输入下出现不安全或有害行为。实验表明，64.7%的代理在遇到模拟错误时会发生不同程度的崩溃，且半数以上未向用户报告。",
+        "summary_en": "This paper introduces and measures 'accidental meltdown' in LLM agents: unsafe or harmful behavior triggered by benign environmental errors without adversarial input. Experiments show 64.7% of agents exhibit meltdowns of varying severity, with over half unreported to users.",
+        "tags": [
+          "agent-framework",
+          "research",
+          "security",
+          "benchmark"
+        ],
+        "category": "security",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-05-20T18:49:42.402135+08:00",
+        "updated_at": "2026-05-20T18:49:42.402137+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Prompting language influences diagnostic reasoning and accuracy of large language models",
+      "url": "https://arxiv.org/abs/2605.19173",
+      "description": "arXiv:2605.19173v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly explored for clinical decision support, yet most evaluations are conducted in English, leaving their reliability in other languages uncertain. Here we evaluate the impact of prompting language on diagnostic reasoning and final diagnosis accuracy by comparing English and French performance across five LLMs (o3, DeepSeek-R1, GPT-4-Turbo, Llama-3.1-405B-Instruct, and BioMistral-7B). A total of 180 clinical vignettes covering 16 medical specialties were assessed by two physicians using an 18-point scale evaluating both diagnosis accuracy and reasoning quality. Four of the five models performed better in English (mean difference 0.37-0.91, adjusted p < 0.05), with the gap spanning multiple aspects of reasoning, including differential diagnosis, logical structure, and internal validity. o3 was the only model showing no overall language effect. These findings demonstrate that prompting language remains a critical determinant of LLM clinical performance, with implications for equitable linguistico-cultural deployment worldwide.",
+      "pub_date": "Wed, 20 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "提示语言影响大语言模型的诊断推理与准确性",
+        "summary": "研究评估了五种LLM在英语和法语临床场景下的诊断推理与准确性，发现除o3外，其他模型在英语中表现更优，提示语言是影响LLM临床性能的关键因素。",
+        "summary_en": "Evaluating five LLMs on clinical vignettes in English and French, the study finds that prompting language significantly impacts diagnostic reasoning and accuracy, with most models performing better in English except o3.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "multimodal"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-20-rss-007",
+        "title": "提示语言影响大语言模型的诊断推理与准确性",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.19173",
+        "language": "en",
+        "summary": "研究评估了五种LLM在英语和法语临床场景下的诊断推理与准确性，发现除o3外，其他模型在英语中表现更优，提示语言是影响LLM临床性能的关键因素。",
+        "summary_en": "Evaluating five LLMs on clinical vignettes in English and French, the study finds that prompting language significantly impacts diagnostic reasoning and accuracy, with most models performing better in English except o3.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "multimodal"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-05-20T18:49:42.402153+08:00",
+        "updated_at": "2026-05-20T18:49:42.402154+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

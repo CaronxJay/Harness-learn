@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-13-rss-001",
+  "title": "视觉语言模型可靠性机制研究：注意力、隐藏状态与因果回路",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.08200",
+  "language": "en",
+  "summary": "本文通过统一机制管道VRP，系统研究了VLM中注意力结构与正确性的关系。发现注意力结构几乎无法预测正确性，而隐藏状态几何和稀疏的后期回路能更可靠地指示可靠性。不同融合架构（晚期融合vs早期融合）在可靠性分布上存在显著差异。",
+  "summary_en": "This paper systematically studies the relationship between attention structure and correctness in VLMs using a unified mechanistic pipeline (VRP). It finds that attention structure is a near-zero predictor of correctness, while hidden-state geometry and sparse late-layer circuits more reliably indicate reliability. Significant architectural splits in reliability distribution are observed between late-fusion and early-fusion models.",
+  "tags": [
+    "research",
+    "multimodal",
+    "llm",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-05-13T00:34:25.339172+08:00",
+  "updated_at": "2026-05-13T00:34:25.339176+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "2026-05-07-github-011",
+  "title": "Repomix：将整个代码库打包成单个AI友好文件的工具",
+  "source": "github_trending",
+  "source_url": "",
+  "language": "en",
+  "summary": "Repomix是一个强大的工具，能够将整个GitHub仓库打包成一个单一的、AI友好的文件，便于将代码库输入到大型语言模型（如Claude、ChatGPT、DeepSeek等）或其他AI工具中。它支持多种输出格式，并针对AI处理进行了优化，非常适合需要向AI提供完整代码上下文的场景。该项目使用TypeScript编写，拥有2.4万颗星，广受开发者欢迎。",
+  "summary_en": "Repomix is a powerful tool that packs an entire GitHub repository into a single AI-friendly file, making it easy to feed codebases into large language models (like Claude, ChatGPT, DeepSeek, etc.) or ",
+  "tags": [
+    "codebase packaging",
+    "AI-friendly file",
+    "LLM input",
+    "TypeScript",
+    "repository analysis"
+  ],
+  "category": "infrastructure",
+  "relevance_score": 0.92,
+  "status": "draft",
+  "created_at": "2026-05-07T11:58:23.651789+00:00",
+  "updated_at": "2026-05-07T11:58:23.675793+00:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

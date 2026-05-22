@@ -1,0 +1,31 @@
+{
+  "id": "2026-05-05-015",
+  "title": "AI 交易 Agent：LLM 驱动的加密货币自动交易系统",
+  "source": "github",
+  "source_url": "https://github.com/endless-sky-team/ai-trading-agent",
+  "summary": "基于 TypeScript 全栈（Bun 运行时 + React 前端 + PostgreSQL）的 LLM 驱动加密货币自动交易系统，支持通过 OpenRouter 统一接口灵活切换多种 LLM 后端，覆盖 BTC/ETH 主流交易对，开源 DeFi 量化交易实验框架。",
+  "highlights": [
+    "通过 OpenRouter 统一接口实现多种 LLM 后端切换，灵活适配不同模型成本/能力",
+    "TypeScript 全栈(Bun 运行时+React 前端+PostgreSQL)，覆盖 BTC/ETH 主流交易对",
+    "开源 DeFi 量化交易框架，适合开发者进行策略实验与回测"
+  ],
+  "score": 6,
+  "score_reason": "LLM+DeFi 交易实践，多模型切换设计灵活，但交易策略有效性缺乏基准数据支撑。",
+  "tags": [
+    "agent",
+    "llm",
+    "open-source",
+    "framework"
+  ],
+  "status": "published",
+  "fetched_at": "2026-05-05T04:11:06Z",
+  "analyzed_at": "2026-05-05T04:17:54Z",
+  "published_at": "2026-05-05T04:17:54Z",
+  "metadata": {
+    "stars": 217,
+    "stars_today": null,
+    "language": "TypeScript",
+    "hackernews_points": null,
+    "hackernews_comments": null
+  }
+}

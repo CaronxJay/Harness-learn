@@ -1,0 +1,24 @@
+{
+  "id": "2026-05-14-rss-010",
+  "title": "演化混合LoRA架构的分解：路由杠杆、生命周期惩罚与基板条件边界",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.11153",
+  "language": "en",
+  "summary": "对约1.5亿参数的演化混合LoRA系统进行分解，发现路由重写带来显著改进（+0.0426 nats），而生命周期机制反而造成性能拖累（约-0.028 nats）。通过可控合成沙盒定位了基板条件边界：演化搜索仅在适配器预对齐任务时有效。",
+  "summary_en": "Decomposes an evolutionary mixture-of-LoRA system, finding the router rewrite yields significant improvement (+0.0426 nats) while the lifecycle mechanism is a net drag (~-0.028 nats). A synthetic sandbox reveals a substrate-conditional boundary: evolutionary search is load-bearing only when adapters are pre-aligned to the task.",
+  "tags": [
+    "research",
+    "fine-tuning",
+    "llm"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-05-14T00:35:28.203932+08:00",
+  "updated_at": "2026-05-14T00:35:28.203933+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

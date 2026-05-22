@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-19-rss-017",
+  "title": "SKG-Eval：基于增量语义知识图谱的多轮对话状态评估",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.16650",
+  "language": "en",
+  "summary": "提出SKG-Eval框架，通过构建增量语义知识图谱（SKG）来建模多轮对话中的实体、关系和承诺，从而评估对话质量。该框架计算局部相关性、历史一致性和逻辑连贯性三个信号，并自适应融合为会话评分。实验表明，该方法在长对话中能更好地检测矛盾、主题漂移等长程问题，且结果可解释、可复现。",
+  "summary_en": "Proposes SKG-Eval, a quasi-deterministic framework that models multi-turn dialogue as an evolving Semantic Knowledge Graph (SKG) to evaluate response quality. It computes local relevance, historical consistency, and logical coherence signals, adaptively fused into a session score. Achieves higher correlation with human judgments and better detection of long-range inconsistencies.",
+  "tags": [
+    "evaluation",
+    "research",
+    "llm",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-05-19T19:16:53.052323+08:00",
+  "updated_at": "2026-05-19T19:16:53.052325+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

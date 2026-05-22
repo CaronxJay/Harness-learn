@@ -1,0 +1,26 @@
+{
+  "id": "2026-05-04-007",
+  "title": "Google Surf MCP：免 API Key 的搜索 MCP 服务",
+  "source": "github",
+  "source_url": "https://github.com/HarimxChoi/google-surf-mcp",
+  "summary": "基于 Playwright 实现的 Google 搜索 MCP 服务器，无需 Google API Key 即可通过浏览器自动化实现搜索功能，自带反机器人检测能力，可接入 Claude Desktop、Cursor、Windsurf 等 MCP 客户端，MIT 协议开源。",
+  "highlights": [
+    "零 API Key 的 Google 搜索 MCP",
+    "Playwright 反机器人检测",
+    "即插即用接入主流 AI IDE"
+  ],
+  "score": 7,
+  "score_reason": "解决了 MCP 生态中搜索工具的 API Key 门槛问题，技术实现巧妙（Playwright 浏览器自动化），119 Stars + 18 forks 表明存在真实需求。对 AI Agent 联网搜索能力有直接帮助。",
+  "tags": ["agent", "tool-use", "open-source"],
+  "status": "published",
+  "fetched_at": "2026-05-04T10:30:00Z",
+  "analyzed_at": "2026-05-04T10:45:00Z",
+  "published_at": "2026-05-04T11:00:00Z",
+  "metadata": {
+    "stars": 119,
+    "stars_today": null,
+    "language": "TypeScript",
+    "hackernews_points": null,
+    "hackernews_comments": null
+  }
+}

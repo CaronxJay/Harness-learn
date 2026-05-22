@@ -1,0 +1,24 @@
+{
+  "id": "2026-05-13-rss-010",
+  "title": "改变我的观点？在线讨论中的说服与极化动态",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.08383",
+  "language": "en",
+  "summary": "使用大型语言模型分析Reddit的r/ChangeMyView辩论语料库，研究说服与极化动态。通过混合机器辅助程序对回复进行十种修辞策略编码，发现让步和共情显著增加信念改变的可能性，而正面反驳、可信度攻击和话题偏离则降低这种可能性。结果表明，有效的公共推理既依赖于关系框架也依赖于证据内容。",
+  "summary_en": "Using LLMs to analyze Reddit's r/ChangeMyView debates, this study codes replies for ten rhetorical strategies. Concession and empathy substantially increase belief change, while frontal refutation and credibility attacks diminish it. Effective public reasoning depends on relational framing as much as evidential content.",
+  "tags": [
+    "llm",
+    "research",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-05-13T00:34:25.339224+08:00",
+  "updated_at": "2026-05-13T00:34:25.339225+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

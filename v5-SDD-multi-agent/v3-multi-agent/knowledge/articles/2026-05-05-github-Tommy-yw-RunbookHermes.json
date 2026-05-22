@@ -1,0 +1,31 @@
+{
+  "id": "2026-05-05-005",
+  "title": "RunbookHermes：基于 Hermes 的 AIOps Agent",
+  "source": "github",
+  "source_url": "https://github.com/Tommy-yw/RunbookHermes",
+  "summary": "RunbookHermes 是基于 Nous Research Hermes Agent 运行时构建的 AIOps Agent，Python 87.2% 实现。核心创新包括 EvidenceStack 上下文引擎压缩告警/证据/假设链、审批门控修复管线（策略→审批→检查点→干跑→受控执行→恢复验证→审计），支持从已解决事件自动生成可复用 Runbook 技能。",
+  "highlights": [
+    "基于 Hermes Agent 运行时构建，复用 agent loop、工具系统与内存架构",
+    "EvidenceStack 上下文引擎压缩告警链而非原始日志灌入 prompt；IncidentMemory 存储服务画像与根因模式",
+    "审批门控修复管线：策略→审批→检查点→干跑→受控执行→恢复验证→审计时间线"
+  ],
+  "score": 7,
+  "score_reason": "AIOps 领域 Agent 系统的生产级实践，审批门控设计具有安全参考价值，但需要 Ops 团队配置投入。",
+  "tags": [
+    "agent",
+    "workflow",
+    "safety",
+    "deployment"
+  ],
+  "status": "published",
+  "fetched_at": "2026-05-05T04:11:06Z",
+  "analyzed_at": "2026-05-05T04:17:54Z",
+  "published_at": "2026-05-05T04:17:54Z",
+  "metadata": {
+    "stars": 505,
+    "stars_today": null,
+    "language": "Python",
+    "hackernews_points": null,
+    "hackernews_comments": null
+  }
+}

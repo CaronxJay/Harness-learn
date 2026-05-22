@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-14-rss-003",
+  "title": "双院模型：并行语言模型间的双向隐态耦合",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.11167",
+  "language": "en",
+  "summary": "提出双院模型，通过可训练的神经接口在中间隐态上耦合两个冻结的语言模型。主模型驱动任务，辅助模型操作工具，两者通过翻译网络和抑制门（约1%参数）相互调节。在算术、逻辑谜题和数学推理任务上显著提升性能。",
+  "summary_en": "Proposes the Bicameral Model that couples two frozen language models via a trainable neural interface on intermediate hidden states. A primary model drives the task while an auxiliary model operates tools, with both conditioning on each other's activations. Achieves significant accuracy gains on arithmetic, logic puzzles, and mathematical reasoning.",
+  "tags": [
+    "llm",
+    "research",
+    "infrastructure",
+    "tool"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-05-14T00:35:28.203892+08:00",
+  "updated_at": "2026-05-14T00:35:28.203893+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

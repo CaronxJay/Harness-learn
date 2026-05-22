@@ -1,0 +1,29 @@
+{
+  "id": "2026-05-05-004",
+  "title": "Dictionary of AI Coding：AI 编程术语词典",
+  "source": "github",
+  "source_url": "https://github.com/mattpocock/dictionary-of-ai-coding",
+  "summary": "由 TypeScript 布道者 Matt Pocock 维护的 AI 编码术语词典，用通俗英语解释 AI 辅助编程中的核心概念与行业黑话，社区驱动内容持续更新，旨在降低 AI 编程的认知门槛。",
+  "highlights": [
+    "TypeScript 领域知名布道者 Matt Pocock 出品，社区信任度高",
+    "覆盖 AI 编码领域的核心概念与术语，面向开发者群体",
+    "社区驱动的持续内容更新机制"
+  ],
+  "score": 5,
+  "score_reason": "有益的教育类参考工具，但本质是术语词典，技术增量和独特性有限。",
+  "tags": [
+    "code-generation",
+    "open-source"
+  ],
+  "status": "published",
+  "fetched_at": "2026-05-05T04:11:06Z",
+  "analyzed_at": "2026-05-05T04:17:54Z",
+  "published_at": "2026-05-05T04:17:54Z",
+  "metadata": {
+    "stars": 981,
+    "stars_today": null,
+    "language": "TypeScript",
+    "hackernews_points": null,
+    "hackernews_comments": null
+  }
+}

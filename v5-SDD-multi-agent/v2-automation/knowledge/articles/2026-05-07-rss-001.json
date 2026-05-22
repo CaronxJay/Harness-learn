@@ -1,0 +1,26 @@
+{
+  "id": "2026-05-07-rss-001",
+  "title": "创造力基准：通过基于功能的工具重用来评估智能体的创造性推理",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.02910",
+  "language": "en",
+  "summary": "提出CreativityBench基准，用于评估大语言模型基于功能的创造性工具使用能力。构建了包含4K实体和15万+功能注释的大规模知识库，并生成1.4万个需要识别非显而易见但物理可行解决方案的任务。评估10个模型发现，模型能选择合理物体，但无法识别正确部件、功能及物理机制，性能显著下降。模型扩展收益饱和，强推理能力不能可靠转化为创造性发现，思维链等策略提升有限。",
+  "summary_en": "Introduces CreativityBench, a benchmark for evaluating affordance-based creative tool use in LLMs. Built a large-scale affordance knowledge base with 4K entities and 150K+ annotations, generating 14K grounded tasks. Evaluation across 10 models shows they can select plausible objects but fail to identify correct parts, affordances, and physical mechanisms, with limited gains from scaling or Chain-of-Thought.",
+  "tags": [
+    "benchmark",
+    "llm",
+    "research",
+    "evaluation",
+    "tool"
+  ],
+  "category": "benchmark",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-05-07T23:57:07.109747+08:00",
+  "updated_at": "2026-05-07T23:57:07.109752+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

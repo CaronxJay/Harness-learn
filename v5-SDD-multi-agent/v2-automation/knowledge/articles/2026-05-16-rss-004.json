@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-16-rss-004",
+  "title": "Preping：无需任务即可构建智能体记忆",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.13880",
+  "language": "en",
+  "summary": "Preping提出了一种无需任务经验即可构建智能体程序性记忆的方法，通过提议者引导的合成实践、执行和验证框架，在AppWorld等基准上性能与基于剧本的方法相当，且部署成本降低2-3倍。",
+  "summary_en": "Preping proposes a proposer-guided framework for building agent procedural memory without task-specific experience, using synthetic practice, execution, and validation. It achieves competitive performance with playbook-based methods on AppWorld, BFCL v3, and MCP-Universe, with 2-3x lower deployment cost.",
+  "tags": [
+    "agent-framework",
+    "research",
+    "memory",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-05-16T19:33:03.479397+08:00",
+  "updated_at": "2026-05-16T19:33:03.479398+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
