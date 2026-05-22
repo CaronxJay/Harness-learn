@@ -1,0 +1,26 @@
+{
+  "id": "2026-05-22-rss-006",
+  "title": "COSMO-Agent：面向闭环优化、仿真与建模编排的工具增强智能体",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.20190",
+  "language": "en",
+  "summary": "提出COSMO-Agent框架，通过工具增强的强化学习，教会LLM完成CAD-CAE闭环流程，包括几何生成、仿真求解、结果解析和参数修订，以解决工业设计中的语义鸿沟问题。实验表明，该方法显著提升了小模型在约束驱动设计中的可行性、效率和稳定性。",
+  "summary_en": "Proposes COSMO-Agent, a tool-augmented RL framework that teaches LLMs to complete the closed-loop CAD-CAE process, including geometry generation, simulation solving, result parsing, and parameter revision, addressing the semantic gap in industrial design. Experiments show significant improvement in feasibility, efficiency, and stability for small open-source LLMs.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "research",
+    "application",
+    "tool"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-05-22T18:50:05.479759+08:00",
+  "updated_at": "2026-05-22T18:50:05.479761+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

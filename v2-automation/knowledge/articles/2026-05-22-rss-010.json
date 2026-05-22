@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-22-rss-010",
+  "title": "基于生成式AI的交通安全数据访问扩展：一种模式驱动的空间自然语言查询框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.21712",
+  "language": "en",
+  "summary": "本文提出一种模式驱动的自然语言接口，用于交通安全分析。该框架利用大语言模型（LLM）解释用户意图，同时通过规则层验证、编译为有向无环图并在PostGIS数据库上执行，确保结果可复现且基于模式。在马萨诸塞州全州交通安全数据库上评估，所有查询成功执行，验证层纠正了29%的查询错误，表明结合自然语言可访问性与确定性执行是扩大交通安全数据访问的实用方向。",
+  "summary_en": "This paper presents a schema-grounded natural language interface for transportation safety analysis. It uses an LLM to interpret user intent while ensuring deterministic, reviewable execution against an authoritative database via a rule-based validation layer and typed DAG of spatial operations. Evaluated on a statewide Massachusetts database, all queries succeeded; the validation layer corrected errors in 29% of queries, showing that combining natural language accessibility with deterministic execution is a practical direction for broadening access to transportation safety data.",
+  "tags": [
+    "llm",
+    "application",
+    "rag",
+    "research"
+  ],
+  "category": "application",
+  "relevance_score": 0.8,
+  "status": "published",
+  "created_at": "2026-05-22T18:50:05.479778+08:00",
+  "updated_at": "2026-05-22T18:50:05.479780+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

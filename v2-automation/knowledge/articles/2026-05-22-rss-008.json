@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-22-rss-008",
+  "title": "Sem-Detect：基于语义级别的AI生成同行评审检测方法",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.21713",
+  "language": "en",
+  "summary": "提出Sem-Detect方法，通过结合文本特征与声明级语义分析，区分AI生成与人类撰写的同行评审。利用不同AI模型倾向于生成相似观点而人类评审更独特多样的观察，在ICLR和NeurIPS超2万条评审数据集上，TPR@0.1%FPR比最强基线提升25.5%。",
+  "summary_en": null,
+  "tags": [
+    "research",
+    "security",
+    "benchmark",
+    "llm"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-05-22T18:50:05.479770+08:00",
+  "updated_at": "2026-05-22T18:50:05.479772+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

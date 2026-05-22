@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-22-rss-004",
+  "title": "大型语言模型的概率归因方法",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.21726",
+  "language": "en",
+  "summary": "提出一种模型无关的概率性token归因度量，利用贝叶斯规则反转下一个token的对数概率，以捕捉模型对token序列分布的内部表示。通过计算给定提示下响应的条件概率与边际化一个token后的概率之比的对数作为归因分数，并计算熵以分析模型行为。在8个模型和7个提示上评估，提高了可解释性。",
+  "summary_en": "Proposes a model-agnostic probabilistic token attribution measure using Bayes' rule to invert next-token log-probabilities, capturing the model's internal distribution over token sequences. The attribution score is the log ratio of conditional probabilities. Evaluated on 8 models and 7 prompts, improving interpretability.",
+  "tags": [
+    "llm",
+    "research",
+    "interpretability",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-05-22T18:50:05.479751+08:00",
+  "updated_at": "2026-05-22T18:50:05.479752+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

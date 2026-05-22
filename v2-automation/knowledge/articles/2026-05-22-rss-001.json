@@ -1,0 +1,26 @@
+{
+  "id": "2026-05-22-rss-001",
+  "title": "SOLAR：面向终身学习与持续适应的自优化开放式自主智能体",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.20189",
+  "language": "en",
+  "summary": "SOLAR是一种自优化终身自主推理器，通过参数级元学习和多级强化学习，在测试时自主发现适应策略，平衡可塑性与稳定性，在常识、数学、医学、编程、社会和逻辑推理任务上优于强基线。",
+  "summary_en": "SOLAR is a self-optimizing lifelong autonomous agent that uses parameter-level meta-learning and multi-level reinforcement learning to autonomously discover adaptation strategies at test time, balancing plasticity and stability, outperforming strong baselines on commonsense, math, medical, coding, social, and logical reasoning tasks.",
+  "tags": [
+    "llm",
+    "research",
+    "agent-framework",
+    "fine-tuning",
+    "reinforcement-learning"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-05-22T18:50:05.479733+08:00",
+  "updated_at": "2026-05-22T18:50:05.479736+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

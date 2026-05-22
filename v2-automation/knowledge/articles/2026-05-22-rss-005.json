@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-22-rss-005",
+  "title": "RankJudge：多轮对话LLM裁判合成基准生成器",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.21748",
+  "language": "en",
+  "summary": "RankJudge是一个用于评估LLM作为裁判（LLM-as-a-judge）在多轮对话中表现的新型基准生成器。它通过注入单一缺陷生成成对对话，实现无歧义的优劣标注和精确的错误定位。覆盖机器学习、生物医学和金融领域，评估了21个前沿LLM裁判，并利用Bradley-Terry模型进行排名。该方法还支持动态选择评估子集以减少标签噪声。",
+  "summary_en": "RankJudge is a benchmark generator for evaluating LLM-as-a-judge on multi-turn conversations. It creates paired conversations with a single injected flaw, enabling unambiguous labeling and precise error localization. Evaluates 21 frontier LLM judges across ML, biomedicine, and finance, ranking them via Bradley-Terry model. Supports dynamic evaluation slice curation to reduce label noise.",
+  "tags": [
+    "llm",
+    "benchmark",
+    "evaluation",
+    "research"
+  ],
+  "category": "benchmark",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-05-22T18:50:05.479755+08:00",
+  "updated_at": "2026-05-22T18:50:05.479756+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

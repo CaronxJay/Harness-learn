@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-22-rss-003",
+  "title": "AgentCo-op：基于检索的互操作多智能体工作流合成",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.20425",
+  "language": "en",
+  "summary": "AgentCo-op是一个基于检索的合成框架，通过类型化工件传递组合可复用技能、工具和外部智能体为可执行工作流，并在执行失败时进行局部修复。在基因组学案例和六个基准测试中表现优异，降低了成本。",
+  "summary_en": "AgentCo-op is a retrieval-based synthesis framework that composes reusable skills, tools, and external agents into executable workflows via typed artifact handoffs, with bounded self-guided local repair on failure. It achieves top results on four of six benchmarks and reduces costs.",
+  "tags": [
+    "agent-framework",
+    "research",
+    "application",
+    "tool"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-05-22T18:50:05.479747+08:00",
+  "updated_at": "2026-05-22T18:50:05.479748+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

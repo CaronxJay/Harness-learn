@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-22-rss-009",
+  "title": "用于Horn逻辑推理的高质量嵌入",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.20467",
+  "language": "en",
+  "summary": "本文提出并评估了多种生成逻辑语句数值嵌入的方法，通过三元组损失训练，引入重复项锚点生成、难易平衡的正负样本及周期强调困难样本等策略，以提升下游推理效率。",
+  "summary_en": "This paper introduces and evaluates several approaches to creating embeddings for logical statements using triplet loss, with strategies like repeated-term anchors, balanced positive/negative examples, and periodic hard example emphasis, improving downstream reasoning efficiency.",
+  "tags": [
+    "research",
+    "llm",
+    "fine-tuning",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.8,
+  "status": "published",
+  "created_at": "2026-05-22T18:50:05.479774+08:00",
+  "updated_at": "2026-05-22T18:50:05.479776+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,479 @@
+{
+  "collected_at": "2026-05-22T18:50:05.480600+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "SOLAR: A Self-Optimizing Open-Ended Autonomous Agent for Lifelong Learning and Continual Adaptation",
+      "url": "https://arxiv.org/abs/2605.20189",
+      "description": "arXiv:2605.20189v1 Announce Type: new \nAbstract: Despite the remarkable success of large language models (LLMs), they still face bottlenecks while deploying in dynamic, real-world settings with primary challenges being concept drift and the high cost of gradient-based adaptation. Traditional fine-tuning (FT) struggles to adapt to non-stationary data streams without resulting in catastrophic for getting or requiring extensive manual data curation. To address these limitations within the streaming and continual learning paradigm, we propose the Self-Optimizing Lifelong Autonomous Reasoner (SOLAR) which is an open-ended autonomous agent that leverages parameter-level meta-learning to self-improve, treating model weights as an environment for exploration. It initiates the process by consolidating a strong prior over common-sense knowledge making it effective for transfer-learning. By utilizing a multi-level reinforcement learning approach, SOLAR autonomously discovers adaptation strategies, enabling efficient test-time adaptation to unseen domains. Crucially, SOLAR maintains an evolving knowledge base of valid modification strategies, implicitly acting as an episodic memory buffer to balance plasticity (adaptation to new tasks) and stability (retention of meta-knowledge). Experiments demonstrate that SOLAR outperforms strong baselines on common-sense, mathematical, medical, coding, social and logical reasoning tasks, marking a significant step toward autonomous agents capable of lifelong adaptation in evolving environments.",
+      "pub_date": "Fri, 22 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "SOLAR：面向终身学习与持续适应的自优化开放式自主智能体",
+        "summary": "SOLAR是一种自优化终身自主推理器，通过参数级元学习和多级强化学习，在测试时自主发现适应策略，平衡可塑性与稳定性，在常识、数学、医学、编程、社会和逻辑推理任务上优于强基线。",
+        "summary_en": "SOLAR is a self-optimizing lifelong autonomous agent that uses parameter-level meta-learning and multi-level reinforcement learning to autonomously discover adaptation strategies at test time, balancing plasticity and stability, outperforming strong baselines on commonsense, math, medical, coding, social, and logical reasoning tasks.",
+        "tags": [
+          "llm",
+          "research",
+          "agent-framework",
+          "fine-tuning",
+          "reinforcement-learning"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-22-rss-001",
+        "title": "SOLAR：面向终身学习与持续适应的自优化开放式自主智能体",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.20189",
+        "language": "en",
+        "summary": "SOLAR是一种自优化终身自主推理器，通过参数级元学习和多级强化学习，在测试时自主发现适应策略，平衡可塑性与稳定性，在常识、数学、医学、编程、社会和逻辑推理任务上优于强基线。",
+        "summary_en": "SOLAR is a self-optimizing lifelong autonomous agent that uses parameter-level meta-learning and multi-level reinforcement learning to autonomously discover adaptation strategies at test time, balancing plasticity and stability, outperforming strong baselines on commonsense, math, medical, coding, social, and logical reasoning tasks.",
+        "tags": [
+          "llm",
+          "research",
+          "agent-framework",
+          "fine-tuning",
+          "reinforcement-learning"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-05-22T18:50:05.479733+08:00",
+        "updated_at": "2026-05-22T18:50:05.479736+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Tool-Augmented Agent for Closed-loop Optimization,Simulation,and Modeling Orchestration",
+      "url": "https://arxiv.org/abs/2605.20190",
+      "description": "arXiv:2605.20190v1 Announce Type: new \nAbstract: Iterative industrial design-simulation optimization is bottlenecked by the CAD-CAE semantic gap: translating simulation feedback into valid geometric edits under diverse, coupled constraints. To fill this gap, we propose COSMO-Agent (Closed-loop Optimization, Simulation, and Modeling Orchestration), a tool-augmented reinforcement learning (RL) framework that teaches LLMs to complete the closed-loop CAD-CAE process. Specifically, we cast CAD generation, CAE solving, result parsing, and geometry revision as an interactive RL environment, where an LLM learns to orchestrate external tools and revise parametric geometries until constraints are satisfied. To make this learning stable and industrially usable, we design a multi-constraint reward that jointly encourages feasibility, toolchain robustness, and structured output validity. In addition, we contribute an industry-aligned dataset that covers 25 component categories with executable CAD-CAE tasks to support realistic training and evaluation. Experiments show that COSMO-Agent training substantially improves small open-source LLMs for constraint-driven design, exceeding large open-source and strong closed-source models in feasibility, efficiency, and stability.",
+      "pub_date": "Fri, 22 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "COSMO-Agent：面向闭环优化、仿真与建模编排的工具增强智能体",
+        "summary": "提出COSMO-Agent框架，通过工具增强的强化学习，教会LLM完成CAD-CAE闭环流程，包括几何生成、仿真求解、结果解析和参数修订，以解决工业设计中的语义鸿沟问题。实验表明，该方法显著提升了小模型在约束驱动设计中的可行性、效率和稳定性。",
+        "summary_en": "Proposes COSMO-Agent, a tool-augmented RL framework that teaches LLMs to complete the closed-loop CAD-CAE process, including geometry generation, simulation solving, result parsing, and parameter revision, addressing the semantic gap in industrial design. Experiments show significant improvement in feasibility, efficiency, and stability for small open-source LLMs.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "application",
+          "tool"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-22-rss-006",
+        "title": "COSMO-Agent：面向闭环优化、仿真与建模编排的工具增强智能体",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.20190",
+        "language": "en",
+        "summary": "提出COSMO-Agent框架，通过工具增强的强化学习，教会LLM完成CAD-CAE闭环流程，包括几何生成、仿真求解、结果解析和参数修订，以解决工业设计中的语义鸿沟问题。实验表明，该方法显著提升了小模型在约束驱动设计中的可行性、效率和稳定性。",
+        "summary_en": "Proposes COSMO-Agent, a tool-augmented RL framework that teaches LLMs to complete the closed-loop CAD-CAE process, including geometry generation, simulation solving, result parsing, and parameter revision, addressing the semantic gap in industrial design. Experiments show significant improvement in feasibility, efficiency, and stability for small open-source LLMs.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "application",
+          "tool"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-05-22T18:50:05.479759+08:00",
+        "updated_at": "2026-05-22T18:50:05.479761+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "OSCToM: RL-Guided Adversarial Generation for High-Order Theory of Mind",
+      "url": "https://arxiv.org/abs/2605.20423",
+      "description": "arXiv:2605.20423v1 Announce Type: new \nAbstract: Large Language Models (LLMs) perform well on many language tasks, but their Theory of Mind (ToM) reasoning is still uneven in complex social settings. Existing benchmarks, including ExploreToM, do not always test the recursive beliefs and information asymmetries that make these settings difficult. This paper presents OSCToM (Observer-Self Conflict Theory of Mind), an approach for modeling nested belief conflicts in LLM-based ToM tasks. The key case is one in which an observer's view of another agent conflicts with the observer's own belief state. Such cases go beyond simple perspective-taking and require recursive, multi-layered reasoning. OSCToM combines reinforcement learning (RL), an extended domain-specific language, and compositional surrogate models to generate observer-self conflicts. In our experiments, OSCToM-8B gives the best overall result among the systems tested. It improves on the reported ExploreToM results on FANToM and remains competitive on Hi-ToM and BigToM. On the information-asymmetric FANToM benchmark, OSCToM reaches 76% accuracy, compared with the 0.2% reported by ExploreToM. The data-synthesis procedure is also 6x more efficient, indicating that targeted training data can help smaller models handle advanced cognitive reasoning. The project code is available at https://github.com/sharminsrishty/osct.",
+      "pub_date": "Fri, 22 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "OSCToM：基于强化学习引导的对抗生成实现高阶心智理论",
+        "summary": "提出OSCToM方法，通过强化学习、领域特定语言和组合代理模型生成观察者-自我冲突，以测试LLM在高阶心智理论任务中的递归信念推理能力。在FANToM基准上达到76%准确率，数据合成效率提升6倍。",
+        "summary_en": "Proposes OSCToM, combining RL, domain-specific language, and compositional surrogate models to generate observer-self conflicts for testing LLM's recursive belief reasoning in high-order Theory of Mind tasks. Achieves 76% accuracy on FANToM benchmark with 6x data synthesis efficiency.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-22-rss-002",
+        "title": "OSCToM：基于强化学习引导的对抗生成实现高阶心智理论",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.20423",
+        "language": "en",
+        "summary": "提出OSCToM方法，通过强化学习、领域特定语言和组合代理模型生成观察者-自我冲突，以测试LLM在高阶心智理论任务中的递归信念推理能力。在FANToM基准上达到76%准确率，数据合成效率提升6倍。",
+        "summary_en": "Proposes OSCToM, combining RL, domain-specific language, and compositional surrogate models to generate observer-self conflicts for testing LLM's recursive belief reasoning in high-order Theory of Mind tasks. Achieves 76% accuracy on FANToM benchmark with 6x data synthesis efficiency.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-05-22T18:50:05.479741+08:00",
+        "updated_at": "2026-05-22T18:50:05.479743+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "AgentCo-op: Retrieval-Based Synthesis of Interoperable Multi-Agent Workflows",
+      "url": "https://arxiv.org/abs/2605.20425",
+      "description": "arXiv:2605.20425v1 Announce Type: new \nAbstract: Designing multi-agent workflows is especially difficult in open-ended scientific settings where tasks lack curated training sets, reliable scalar evaluation metrics, and standardized interfaces between existing tools and agents. We propose AgentCo-op, a retrieval-based synthesis framework that composes reusable skills, tools, and external agents into executable workflows through typed artifact handoffs, then applies bounded self-guided local repair to implicated components when execution evidence indicates failure. In two open-world genomics case studies, AgentCo-op composes independently developed scientific agents and external tool repositories into auditable workflows without redesigning them or running global topology search. It coordinates specialized agents for spatial transcriptomics and gene-set interpretation to enable collaborative discovery from spatial transcriptomics data, and builds a parallel workflow for cross-modality marker analysis on single-cell multiome data. AgentCo-op can also import a searched workflow as a structural prior and improve it by grounding nodes with retrieved components and applying local repair, showing that synthesis and search are complementary. On six coding, math, and question-answering benchmarks, AgentCo-op achieves the best result on four benchmarks and the best average score under a unified backbone setting, while consistently reducing per-task cost relative to multi-agent baselines. Together, these results suggest that retrieval-based synthesis can extend automated agentic workflow design beyond benchmark-optimized agent graphs to open-world workflows built from existing agents, tools, and typed artifacts.",
+      "pub_date": "Fri, 22 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "AgentCo-op：基于检索的互操作多智能体工作流合成",
+        "summary": "AgentCo-op是一个基于检索的合成框架，通过类型化工件传递组合可复用技能、工具和外部智能体为可执行工作流，并在执行失败时进行局部修复。在基因组学案例和六个基准测试中表现优异，降低了成本。",
+        "summary_en": "AgentCo-op is a retrieval-based synthesis framework that composes reusable skills, tools, and external agents into executable workflows via typed artifact handoffs, with bounded self-guided local repair on failure. It achieves top results on four of six benchmarks and reduces costs.",
+        "tags": [
+          "agent-framework",
+          "research",
+          "application",
+          "tool"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-22-rss-003",
+        "title": "AgentCo-op：基于检索的互操作多智能体工作流合成",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.20425",
+        "language": "en",
+        "summary": "AgentCo-op是一个基于检索的合成框架，通过类型化工件传递组合可复用技能、工具和外部智能体为可执行工作流，并在执行失败时进行局部修复。在基因组学案例和六个基准测试中表现优异，降低了成本。",
+        "summary_en": "AgentCo-op is a retrieval-based synthesis framework that composes reusable skills, tools, and external agents into executable workflows via typed artifact handoffs, with bounded self-guided local repair on failure. It achieves top results on four of six benchmarks and reduces costs.",
+        "tags": [
+          "agent-framework",
+          "research",
+          "application",
+          "tool"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-05-22T18:50:05.479747+08:00",
+        "updated_at": "2026-05-22T18:50:05.479748+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "High Quality Embeddings for Horn Logic Reasoning",
+      "url": "https://arxiv.org/abs/2605.20467",
+      "description": "arXiv:2605.20467v1 Announce Type: new \nAbstract: Neural networks can be trained to rank the choices made by logical reasoners, resulting in more efficient searches for answers. A key step in this process is creating useful embeddings, i.e., numeric representations of logical statements. This paper introduces and evaluates several approaches to creating embeddings that result in better downstream results. We train embeddings using triplet loss, which requires examples consisting of an anchor, a positive example, and a negative example. We introduce three ideas: generating anchors that are more likely to have repeated terms, generating positive and negative examples in a way that ensures a good balance between easy, medium, and hard examples, and periodically emphasizing the hardest examples during training. We conduct several experiments to evaluate this approach, including a comparison of different embeddings across different knowledge bases, in an attempt to identify what characteristics make an embedding well-suited to a particular reasoning task.",
+      "pub_date": "Fri, 22 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "用于Horn逻辑推理的高质量嵌入",
+        "summary": "本文提出并评估了多种生成逻辑语句数值嵌入的方法，通过三元组损失训练，引入重复项锚点生成、难易平衡的正负样本及周期强调困难样本等策略，以提升下游推理效率。",
+        "summary_en": "This paper introduces and evaluates several approaches to creating embeddings for logical statements using triplet loss, with strategies like repeated-term anchors, balanced positive/negative examples, and periodic hard example emphasis, improving downstream reasoning efficiency.",
+        "tags": [
+          "research",
+          "llm",
+          "fine-tuning",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-22-rss-009",
+        "title": "用于Horn逻辑推理的高质量嵌入",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.20467",
+        "language": "en",
+        "summary": "本文提出并评估了多种生成逻辑语句数值嵌入的方法，通过三元组损失训练，引入重复项锚点生成、难易平衡的正负样本及周期强调困难样本等策略，以提升下游推理效率。",
+        "summary_en": "This paper introduces and evaluates several approaches to creating embeddings for logical statements using triplet loss, with strategies like repeated-term anchors, balanced positive/negative examples, and periodic hard example emphasis, improving downstream reasoning efficiency.",
+        "tags": [
+          "research",
+          "llm",
+          "fine-tuning",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "status": "published",
+        "created_at": "2026-05-22T18:50:05.479774+08:00",
+        "updated_at": "2026-05-22T18:50:05.479776+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "CR4T: Rewrite-Based Guardrails for Adolescent LLM Safety",
+      "url": "https://arxiv.org/abs/2605.21609",
+      "description": "arXiv:2605.21609v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly embedded in adolescent digital environments, mediating information seeking, advice, and emotionally sensitive interactions. Yet existing safety mechanisms remain largely grounded in adult-centric norms and operationalize safety through refusal-oriented suppression. While such approaches may reduce immediate policy violations, they can also create conversational dead-ends, limit constructive guidance, and fail to address the developmental vulnerabilities inherent in adolescent-AI interactions. We argue that adolescent LLM safety should be framed not solely as a filtering problem, but as a socio-technical, developmentally aligned transformation problem. To operationalize this perspective, we propose Critique-and-Revise-for-Teenagers (CR4T), a model-agnostic safeguarding framework that selectively reconstructs unsafe or refusal-style outputs into ageappropriate, guidance-oriented responses while preserving benign intent. CR4T combines lightweight risk detection with domain-conditioned rewriting to remove risk-amplifying content, reduce unnecessary conversational shutdown, and introduce developmentally appropriate guidance. Experimental results show that targeted rewriting substantially reduces unsafe and refusal-oriented outcomes while avoiding unnecessary intervention on acceptable interactions. These findings suggest that selective response reconstruction offers a more human-centered alternative to refusal-centric guardrails for adolescent-facing LLM systems.",
+      "pub_date": "Fri, 22 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "CR4T：面向青少年LLM安全的基于重写的护栏框架",
+        "summary": "CR4T是一个模型无关的安全框架，通过选择性重写不安全或拒绝式输出，将其转化为适合年龄的指导性回应，同时保留良性意图。实验表明，该方法能有效减少不安全内容和对话中断，为青少年AI交互提供更人性化的替代方案。",
+        "summary_en": "CR4T is a model-agnostic safeguarding framework that selectively rewrites unsafe or refusal-style outputs into age-appropriate, guidance-oriented responses while preserving benign intent. Experiments show it reduces unsafe content and conversational dead-ends, offering a human-centered alternative for adolescent LLM safety.",
+        "tags": [
+          "llm",
+          "security",
+          "research"
+        ],
+        "category": "security",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-22-rss-007",
+        "title": "CR4T：面向青少年LLM安全的基于重写的护栏框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.21609",
+        "language": "en",
+        "summary": "CR4T是一个模型无关的安全框架，通过选择性重写不安全或拒绝式输出，将其转化为适合年龄的指导性回应，同时保留良性意图。实验表明，该方法能有效减少不安全内容和对话中断，为青少年AI交互提供更人性化的替代方案。",
+        "summary_en": "CR4T is a model-agnostic safeguarding framework that selectively rewrites unsafe or refusal-style outputs into age-appropriate, guidance-oriented responses while preserving benign intent. Experiments show it reduces unsafe content and conversational dead-ends, offering a human-centered alternative for adolescent LLM safety.",
+        "tags": [
+          "llm",
+          "security",
+          "research"
+        ],
+        "category": "security",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-05-22T18:50:05.479764+08:00",
+        "updated_at": "2026-05-22T18:50:05.479765+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Broadening Access to Transportation Safety Data with Generative AI: A Schema-Grounded Framework for Spatial Natural Language Queries",
+      "url": "https://arxiv.org/abs/2605.21712",
+      "description": "arXiv:2605.21712v1 Announce Type: new \nAbstract: Transportation safety analysis requires integrating crash records, roadway attributes, and geospatial data through GIS-based workflows, but access remains uneven across agencies and community stakeholders. Technical prerequisites create a gap between analytical tools central to safety planning and the practitioners able to use them. Local agencies, school committees, and residents may have safety concerns but limited capacity to retrieve, filter, map, and analyze relevant data. Generative AI offers a way to narrow this divide, but its public-sector use raises questions about reliability, reproducibility, and governance. This paper presents a schema-grounded natural language interface for transportation safety analysis, using a large language model (LLM) to interpret user intent while preserving deterministic, reviewable execution against an authoritative database. User queries are translated into structured semantic frames, validated by a rule-based layer, compiled into a typed directed acyclic graph of spatial operations, and executed against a PostGIS database. This bounded design separates language interpretation from deterministic execution, keeping results reproducible and schema-grounded while removing access barriers. The framework is evaluated using a statewide Massachusetts transportation safety database integrating crash records, roadway attributes, and geospatial layers including schools, bus stops, crosswalks, and municipal boundaries. All queries executed successfully; the validation layer corrects errors in 29% of evaluation queries, reflecting the gap between flexible natural language and strict schema-grounded requirements. The results suggest that combining natural language accessibility with deterministic execution is a practical direction for broadening access to transportation safety data, with implications for trustworthy AI in public-sector planning.",
+      "pub_date": "Fri, 22 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "基于生成式AI的交通安全数据访问扩展：一种模式驱动的空间自然语言查询框架",
+        "summary": "本文提出一种模式驱动的自然语言接口，用于交通安全分析。该框架利用大语言模型（LLM）解释用户意图，同时通过规则层验证、编译为有向无环图并在PostGIS数据库上执行，确保结果可复现且基于模式。在马萨诸塞州全州交通安全数据库上评估，所有查询成功执行，验证层纠正了29%的查询错误，表明结合自然语言可访问性与确定性执行是扩大交通安全数据访问的实用方向。",
+        "summary_en": "This paper presents a schema-grounded natural language interface for transportation safety analysis. It uses an LLM to interpret user intent while ensuring deterministic, reviewable execution against an authoritative database via a rule-based validation layer and typed DAG of spatial operations. Evaluated on a statewide Massachusetts database, all queries succeeded; the validation layer corrected errors in 29% of queries, showing that combining natural language accessibility with deterministic execution is a practical direction for broadening access to transportation safety data.",
+        "tags": [
+          "llm",
+          "application",
+          "rag",
+          "research"
+        ],
+        "category": "application",
+        "relevance_score": 0.8,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-22-rss-010",
+        "title": "基于生成式AI的交通安全数据访问扩展：一种模式驱动的空间自然语言查询框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.21712",
+        "language": "en",
+        "summary": "本文提出一种模式驱动的自然语言接口，用于交通安全分析。该框架利用大语言模型（LLM）解释用户意图，同时通过规则层验证、编译为有向无环图并在PostGIS数据库上执行，确保结果可复现且基于模式。在马萨诸塞州全州交通安全数据库上评估，所有查询成功执行，验证层纠正了29%的查询错误，表明结合自然语言可访问性与确定性执行是扩大交通安全数据访问的实用方向。",
+        "summary_en": "This paper presents a schema-grounded natural language interface for transportation safety analysis. It uses an LLM to interpret user intent while ensuring deterministic, reviewable execution against an authoritative database via a rule-based validation layer and typed DAG of spatial operations. Evaluated on a statewide Massachusetts database, all queries succeeded; the validation layer corrected errors in 29% of queries, showing that combining natural language accessibility with deterministic execution is a practical direction for broadening access to transportation safety data.",
+        "tags": [
+          "llm",
+          "application",
+          "rag",
+          "research"
+        ],
+        "category": "application",
+        "relevance_score": 0.8,
+        "status": "published",
+        "created_at": "2026-05-22T18:50:05.479778+08:00",
+        "updated_at": "2026-05-22T18:50:05.479780+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Sem-Detect: Semantic Level Detection of AI Generated Peer-Reviews",
+      "url": "https://arxiv.org/abs/2605.21713",
+      "description": "arXiv:2605.21713v1 Announce Type: new \nAbstract: How can we distinguish whether a peer review was written by a human or generated by an AI model? We argue that, in this setting, authorship should not be attributed solely from the textual features of a review, but also from the ideas, judgments, and claims it expresses. To this end, we propose Sem-Detect, an authorship detection method for peer reviews that operationalizes this principle by combining textual features with claim-level semantic analysis. Sem-Detect compares a target review against multiple AI-generated reviews of the same paper, leveraging the observation that different AI models tend to converge on similar points, while human reviewers introduce more unique and diverse ones. As a result, Sem-Detect is able to distinguish fully AI reviews from authentic human-written ones, including those that have been refined using an LLM but still reflect human judgment. Across a dataset of over 20,000 peer reviews from ICLR and NeurIPS conferences, Sem-Detect improves over the strongest baseline by 25.5% in TPR@0.1% FPR in the binary setting. Moreover, in the three-class scenario, we empirically show that LLM refinement preserves the semantic signals of human reviews, which remain distinct from the patterns exhibited by fully AI-generated text; as a result, fewer than 3.5% of LLM-refined human reviews are misclassified as AI-generated.",
+      "pub_date": "Fri, 22 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "Sem-Detect：基于语义级别的AI生成同行评审检测方法",
+        "summary": "提出Sem-Detect方法，通过结合文本特征与声明级语义分析，区分AI生成与人类撰写的同行评审。利用不同AI模型倾向于生成相似观点而人类评审更独特多样的观察，在ICLR和NeurIPS超2万条评审数据集上，TPR@0.1%FPR比最强基线提升25.5%。",
+        "summary_en": null,
+        "tags": [
+          "research",
+          "security",
+          "benchmark",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-22-rss-008",
+        "title": "Sem-Detect：基于语义级别的AI生成同行评审检测方法",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.21713",
+        "language": "en",
+        "summary": "提出Sem-Detect方法，通过结合文本特征与声明级语义分析，区分AI生成与人类撰写的同行评审。利用不同AI模型倾向于生成相似观点而人类评审更独特多样的观察，在ICLR和NeurIPS超2万条评审数据集上，TPR@0.1%FPR比最强基线提升25.5%。",
+        "summary_en": null,
+        "tags": [
+          "research",
+          "security",
+          "benchmark",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-05-22T18:50:05.479770+08:00",
+        "updated_at": "2026-05-22T18:50:05.479772+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Probabilistic Attribution For Large Language Models",
+      "url": "https://arxiv.org/abs/2605.21726",
+      "description": "arXiv:2605.21726v1 Announce Type: new \nAbstract: The generative nature of Large Language Models (LLMs) is reflected in the conditional probabilities they compute to sample each response token given the previous tokens. These probabilities encode the distributional structure that the model learns in training and exploits in inference. In this work, we use these probabilities to situate LLMs within the mathematical theory of stochastic processes. We use this framework to design a model-agnostic probabilistic token attribution measure, using Bayes rule to invert the next-token log-probabilities so as to capture the models internal representation of the distribution over token sequences. The representation is independent of the models computational structure. This representation yields the conditional probability of the response given the prompt, and of the response given the prompt with a token marginalized away. Our attribution score is the log of the ratio of these probabilities. We further compute the entropies of a single prompts token distributions, conditioned on the remaining context. The interplay between entropy and attribution score sheds light on LLM behavior. We evaluate 8 models across 7 prompts and investigate anomalies, token sensitivity, response stability, model stability, and training convergence, thereby improving interpretability and guiding users to focus on uncertain or unstable parts of the generation.",
+      "pub_date": "Fri, 22 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "大型语言模型的概率归因方法",
+        "summary": "提出一种模型无关的概率性token归因度量，利用贝叶斯规则反转下一个token的对数概率，以捕捉模型对token序列分布的内部表示。通过计算给定提示下响应的条件概率与边际化一个token后的概率之比的对数作为归因分数，并计算熵以分析模型行为。在8个模型和7个提示上评估，提高了可解释性。",
+        "summary_en": "Proposes a model-agnostic probabilistic token attribution measure using Bayes' rule to invert next-token log-probabilities, capturing the model's internal distribution over token sequences. The attribution score is the log ratio of conditional probabilities. Evaluated on 8 models and 7 prompts, improving interpretability.",
+        "tags": [
+          "llm",
+          "research",
+          "interpretability",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-22-rss-004",
+        "title": "大型语言模型的概率归因方法",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.21726",
+        "language": "en",
+        "summary": "提出一种模型无关的概率性token归因度量，利用贝叶斯规则反转下一个token的对数概率，以捕捉模型对token序列分布的内部表示。通过计算给定提示下响应的条件概率与边际化一个token后的概率之比的对数作为归因分数，并计算熵以分析模型行为。在8个模型和7个提示上评估，提高了可解释性。",
+        "summary_en": "Proposes a model-agnostic probabilistic token attribution measure using Bayes' rule to invert next-token log-probabilities, capturing the model's internal distribution over token sequences. The attribution score is the log ratio of conditional probabilities. Evaluated on 8 models and 7 prompts, improving interpretability.",
+        "tags": [
+          "llm",
+          "research",
+          "interpretability",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-05-22T18:50:05.479751+08:00",
+        "updated_at": "2026-05-22T18:50:05.479752+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "RankJudge: A Multi-Turn LLM-as-a-Judge Synthetic Benchmark Generator",
+      "url": "https://arxiv.org/abs/2605.21748",
+      "description": "arXiv:2605.21748v1 Announce Type: new \nAbstract: As interactive LLM-based applications are created and refined, model developers need to evaluate the quality of generated text along many possible axes. For simpler systems, human evaluation may be practical, but in complicated systems like conversational chatbots, the amount of generated text can overwhelm human annotation resources. Model developers have begun to rely heavily on auto-evaluation, where LLMs are also used to judge generation quality. However, existing LLM-as-a-judge benchmarks largely focus on simple Q\\&A tasks that do not match the complexity of multi-turn conversations. We introduce RankJudge, a benchmark generator for evaluating LLM-as-a-judge on multi-turn conversations grounded in reference documents. RankJudge creates pairs of conversations where one conversation has a single flaw injected into one turn. This construction allows paired conversations to be labeled unambiguously as better or worse, and precisely isolates failure categories to individual turns, enabling a strict joint correctness criterion for judging. We implement RankJudge across the domains of machine learning, biomedicine, and finance, evaluate 21 frontier LLM judges, and rank those judges via the Bradley-Terry model. Our formulation also allows ranking each conversation pair with difficulty ratings, which we use to dynamically curate the evaluation slice to reduce label noise, as confirmed via human annotation. We find that judge rankings are stable under partial observability, coarser correctness criteria, and an alternative random-walk rating algorithm.",
+      "pub_date": "Fri, 22 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "RankJudge：多轮对话LLM裁判合成基准生成器",
+        "summary": "RankJudge是一个用于评估LLM作为裁判（LLM-as-a-judge）在多轮对话中表现的新型基准生成器。它通过注入单一缺陷生成成对对话，实现无歧义的优劣标注和精确的错误定位。覆盖机器学习、生物医学和金融领域，评估了21个前沿LLM裁判，并利用Bradley-Terry模型进行排名。该方法还支持动态选择评估子集以减少标签噪声。",
+        "summary_en": "RankJudge is a benchmark generator for evaluating LLM-as-a-judge on multi-turn conversations. It creates paired conversations with a single injected flaw, enabling unambiguous labeling and precise error localization. Evaluates 21 frontier LLM judges across ML, biomedicine, and finance, ranking them via Bradley-Terry model. Supports dynamic evaluation slice curation to reduce label noise.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "evaluation",
+          "research"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-22-rss-005",
+        "title": "RankJudge：多轮对话LLM裁判合成基准生成器",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.21748",
+        "language": "en",
+        "summary": "RankJudge是一个用于评估LLM作为裁判（LLM-as-a-judge）在多轮对话中表现的新型基准生成器。它通过注入单一缺陷生成成对对话，实现无歧义的优劣标注和精确的错误定位。覆盖机器学习、生物医学和金融领域，评估了21个前沿LLM裁判，并利用Bradley-Terry模型进行排名。该方法还支持动态选择评估子集以减少标签噪声。",
+        "summary_en": "RankJudge is a benchmark generator for evaluating LLM-as-a-judge on multi-turn conversations. It creates paired conversations with a single injected flaw, enabling unambiguous labeling and precise error localization. Evaluates 21 frontier LLM judges across ML, biomedicine, and finance, ranking them via Bradley-Terry model. Supports dynamic evaluation slice curation to reduce label noise.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "evaluation",
+          "research"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-05-22T18:50:05.479755+08:00",
+        "updated_at": "2026-05-22T18:50:05.479756+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}
