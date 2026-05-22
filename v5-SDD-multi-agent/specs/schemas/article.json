@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Article Knowledge Entry",
+  "description": "Organizer Agent 输出的最终文章格式",
+  "type": "object",
+  "required": ["id", "title", "source_url", "source_type", "summary", "tags", "tech_direction", "quality_level", "use_case", "status", "collected_at"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "format": "uuid",
+      "description": "唯一标识符"
+    },
+    "title": {
+      "type": "string",
+      "description": "条目标题"
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "来源链接"
+    },
+    "source_type": {
+      "type": "string",
+      "enum": ["github", "hackernews"],
+      "description": "数据来源"
+    },
+    "summary": {
+      "type": "string",
+      "description": "AI 生成摘要"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "技术标签数组"
+    },
+    "tech_direction": {
+      "type": "string",
+      "enum": ["llm", "agent", "rag", "multimodal", "code-gen", "fine-tuning", "inference", "training", "dataset", "tool", "framework", "application"],
+      "description": "主要技术方向"
+    },
+    "quality_level": {
+      "type": "string",
+      "enum": ["S", "A", "B", "C"],
+      "description": "质量等级"
+    },
+    "use_case": {
+      "type": "string",
+      "description": "适用场景描述"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["raw", "analyzed", "published"],
+      "description": "状态"
+    },
+    "collected_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "采集时间"
+    }
+  }
+}

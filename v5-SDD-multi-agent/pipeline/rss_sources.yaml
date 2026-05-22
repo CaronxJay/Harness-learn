@@ -1,0 +1,97 @@
+# RSS 数据源配置
+# 每个源包含：name、url、category、enabled
+
+sources:
+  # ============================================================
+  # 综合技术
+  # ============================================================
+  - name: "Hacker News Best (AI 相关)"
+    url: "https://hnrss.org/best?q=AI+OR+LLM+OR+agent+OR+machine+learning"
+    category: "综合技术"
+    enabled: true
+
+  - name: "Lobsters AI/ML"
+    url: "https://lobste.rs/t/ai.ml.rss"
+    category: "综合技术"
+    enabled: true
+
+  - name: "Hacker News Top"
+    url: "https://hnrss.org/top"
+    category: "综合技术"
+    enabled: false  # 量太大，默认关闭
+
+  # ============================================================
+  # AI 研究
+  # ============================================================
+  - name: "arXiv cs.AI"
+    url: "https://rss.arxiv.org/rss/cs.AI"
+    category: "AI 研究"
+    enabled: true
+
+  - name: "arXiv cs.CL"
+    url: "https://rss.arxiv.org/rss/cs.CL"
+    category: "AI 研究"
+    enabled: true
+
+  - name: "arXiv cs.LG"
+    url: "https://rss.arxiv.org/rss/cs.LG"
+    category: "AI 研究"
+    enabled: false  # 量太大，默认关闭
+
+  # ============================================================
+  # 公司博客
+  # ============================================================
+  - name: "OpenAI Blog"
+    url: "https://openai.com/blog/rss.xml"
+    category: "公司博客"
+    enabled: true
+
+  - name: "Anthropic Research"
+    url: "https://www.anthropic.com/research/rss.xml"
+    category: "公司博客"
+    enabled: true
+
+  - name: "Hugging Face Blog"
+    url: "https://huggingface.co/blog/feed.xml"
+    category: "公司博客"
+    enabled: true
+
+  - name: "Google AI Blog"
+    url: "https://blog.google/technology/ai/rss/"
+    category: "公司博客"
+    enabled: false  # 量太大，默认关闭
+
+  - name: "Meta AI Blog"
+    url: "https://ai.meta.com/blog/rss/"
+    category: "公司博客"
+    enabled: false  # 量太大，默认关闭
+
+  # ============================================================
+  # 中文社区
+  # ============================================================
+  - name: "机器之心"
+    url: "https://www.jiqizhixin.com/rss"
+    category: "中文社区"
+    enabled: false  # 需确认 RSS 可用性
+
+  - name: "量子位"
+    url: "https://www.qbitai.com/feed"
+    category: "中文社区"
+    enabled: false  # 需确认 RSS 可用性
+
+  - name: "AI 前线"
+    url: "https://www.infoq.cn/topic/AI/rss"
+    category: "中文社区"
+    enabled: false  # 需确认 RSS 可用性
+
+# ============================================================
+# 配置说明
+# ============================================================
+# enabled: true  - 启用采集
+# enabled: false - 禁用采集（量太大或需确认可用性）
+#
+# 分类说明：
+# - 综合技术：技术社区的 AI 相关内容
+# - AI 研究：学术论文和研究成果
+# - 公司博客：AI 公司的官方博客
+# - 中文社区：中文 AI 资讯网站（需确认 RSS 可用性）

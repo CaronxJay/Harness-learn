@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Raw Knowledge Entry",
+  "description": "Collector Agent 输出的原始数据格式",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["title", "url", "source", "popularity", "summary"],
+    "properties": {
+      "title": {
+        "type": "string",
+        "description": "项目名称"
+      },
+      "url": {
+        "type": "string",
+        "format": "uri",
+        "description": "项目链接"
+      },
+      "source": {
+        "type": "string",
+        "enum": ["github", "hackernews"],
+        "description": "数据来源"
+      },
+      "popularity": {
+        "type": "number",
+        "minimum": 0,
+        "description": "热度指标（stars/points）"
+      },
+      "summary": {
+        "type": "string",
+        "description": "一句话中文摘要"
+      }
+    }
+  }
+}

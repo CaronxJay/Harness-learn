@@ -1,0 +1,16 @@
+[
+  {
+    "title": "LangGraph",
+    "url": "https://github.com/langchain-ai/langgraph",
+    "source": "github",
+    "popularity": 12500,
+    "summary": "LangChain 的图结构 Agent 框架，支持复杂工作流编排"
+  },
+  {
+    "title": "Ollama",
+    "url": "https://github.com/ollama/ollama",
+    "source": "github",
+    "popularity": 85000,
+    "summary": "本地运行大语言模型的工具，支持多种模型"
+  }
+]
