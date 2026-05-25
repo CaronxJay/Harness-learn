@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-25-rss-007",
+  "title": "查询自适应语义分块：面向检索增强生成的动态上下文窗口扩展策略",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.22834",
+  "language": "en",
+  "summary": "提出查询自适应语义分块（QASC），通过将用户查询集成到分块阶段，利用余弦相似度评分、上下文窗口扩展和分块级分数聚合动态构建块。在100篇技术文档、200个查询上评估，F1分数达0.85，相比固定分块提升18-27%，相比语义和代理方法提升8-12%。",
+  "summary_en": "Proposes Query-Adaptive Semantic Chunking (QASC) that integrates user queries into chunking via cosine similarity scoring, contextual window expansion, and chunk-level score aggregation. Evaluated on 100 technical documents with 200 queries, achieving F1-score of 0.85, improving 18-27% over fixed chunking and 8-12% over semantic/agentic methods.",
+  "tags": [
+    "rag",
+    "research",
+    "fine-tuning",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-05-25T19:52:51.203453+08:00",
+  "updated_at": "2026-05-25T19:52:51.203455+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

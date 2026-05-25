@@ -1,0 +1,459 @@
+{
+  "collected_at": "2026-05-25T19:52:51.204264+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "BOHM: Zero-Cost Hierarchical Attribution for Compound AI Systems",
+      "url": "https://arxiv.org/abs/2605.22866",
+      "description": "arXiv:2605.22866v1 Announce Type: new \nAbstract: Compound AI systems route tasks through hierarchies of specialised components. Attribution is dominated by Shapley-based methods (SHAP), which decompose a coalition value function into per-component marginal contributions and require evaluation of the system on arbitrary component subsets. That requirement fails for third-party APIs, opaque endpoints, and agentic orchestrators that concentrate routing on a few tools, leaving most coalitions un-evaluable from the deployed orchestrator. We introduce BOHM, which extracts a hierarchical attribution tree directly from the routing weights such systems already maintain: leaf attribution is the path product of root-to-leaf routing weights; level-k attribution is the induced distribution over depth-k nodes. The method has zero marginal cost, requires no access to component internals, and provides multi-resolution attribution at every level simultaneously, which flat methods cannot offer at any evaluation budget. BOHM and SHAP answer different questions and converge when the deployed router routes near-optimally. On 18 LLMs in a 3-level hierarchy over 880 LiveCodeBench problems, BOHM yields Kendall tau=0.928; SHAP reaches tau=0.980 at 9,000x more coalition evaluations per seed. On a 5-driver, 7-benchmark agentic study (35 cells, complete coverage), drivers concentrate routing on a single tool (top-share median 0.65), and cell-level tau(BOHM,SHAP) is predicted by whether the driver's top pick is the empirically best tool (mean +0.22 vs ~+0.01). On a US Census hierarchy (475 leaves, 4 levels), BOHM recovers ground-truth rankings at every level (tau up to 0.722). BOHM satisfies efficiency, monotonicity, symmetry, and weak suppression but not Shapley's additivity. It is best understood as a complementary primitive: a multi-resolution decomposition computable wherever routing state exists, whose disagreement with Shapley is itself diagnostic.",
+      "pub_date": "Mon, 25 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "BOHM：复合AI系统的零成本分层归因方法",
+        "summary": "BOHM是一种零成本的分层归因方法，通过从路由权重中提取归因树，无需访问组件内部或评估任意子集，即可提供多分辨率归因。实验表明，在多个层次结构上，BOHM与SHAP高度相关（Kendall tau最高0.928），但计算成本仅为SHAP的极小部分，适用于第三方API和代理编排器等场景。",
+        "summary_en": "BOHM is a zero-cost hierarchical attribution method that extracts an attribution tree from routing weights, requiring no access to component internals or evaluation of arbitrary subsets. It provides multi-resolution attribution and achieves high correlation with SHAP (Kendall tau up to 0.928) at a fraction of the computational cost, suitable for third-party APIs and agentic orchestrators.",
+        "tags": [
+          "research",
+          "llm",
+          "agent-framework",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-25-rss-003",
+        "title": "BOHM：复合AI系统的零成本分层归因方法",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.22866",
+        "language": "en",
+        "summary": "BOHM是一种零成本的分层归因方法，通过从路由权重中提取归因树，无需访问组件内部或评估任意子集，即可提供多分辨率归因。实验表明，在多个层次结构上，BOHM与SHAP高度相关（Kendall tau最高0.928），但计算成本仅为SHAP的极小部分，适用于第三方API和代理编排器等场景。",
+        "summary_en": "BOHM is a zero-cost hierarchical attribution method that extracts an attribution tree from routing weights, requiring no access to component internals or evaluation of arbitrary subsets. It provides multi-resolution attribution and achieves high correlation with SHAP (Kendall tau up to 0.928) at a fraction of the computational cost, suitable for third-party APIs and agentic orchestrators.",
+        "tags": [
+          "research",
+          "llm",
+          "agent-framework",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-05-25T19:52:51.203379+08:00",
+        "updated_at": "2026-05-25T19:52:51.203381+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "NeuroNL2LTL: A Neurosymbolic Framework for Natural Language Translation of Linear Temporal Logic",
+      "url": "https://arxiv.org/abs/2605.22874",
+      "description": "arXiv:2605.22874v1 Announce Type: new \nAbstract: Effectively translating between natural language (NL) and formal logics like Linear Temporal Logic (LTL) requires expertise that limits formal verification's reach in safety-critical development. Template-based approaches sacrifice expressiveness for reliability; neural methods achieve fluency but provide no correctness guarantees. We present NeuroNL2LTL, a neurosymbolic architecture unifying learned translation with formal verification. NeuroNL2LTL routes translation through an intermediate representation whose mapping to LTL is structure-preserving by construction. Generated specifications undergo satisfiability and non-triviality checking; a minimal-edit repair mechanism corrects near-miss outputs before they reach downstream tools. The central innovation is verifier-in-the-loop training: verification outcomes serve as reward signals for reinforcement learning, producing neural components that optimize directly for formal correctness. On 200,000+ requirements spanning aerospace, robotics, autonomous vehicles, and ten additional domains, NeuroNL2LTL achieves 28\\% semantic equivalence with reference specifications while ensuring 86\\% of outputs are verified satisfiable. The system also generates contextually grounded explanations from LTL, enabling domain experts to validate specifications without specialized training. This work demonstrates that formal verification can function as both training objective and runtime filter for neural specification systems, allowing us to build neural-based tools whose reliability derives from logical guarantees rather than statistical confidence.",
+      "pub_date": "Mon, 25 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "NeuroNL2LTL：自然语言到线性时序逻辑的神经符号翻译框架",
+        "summary": "提出NeuroNL2LTL神经符号架构，结合学习翻译与形式验证。通过中间表示保证结构保持映射，利用验证结果作为强化学习奖励信号，使神经组件直接优化形式正确性。在20万+需求上实现28%语义等价，86%输出可满足，并生成上下文解释，让领域专家无需专业训练即可验证规约。",
+        "summary_en": "NeuroNL2LTL is a neurosymbolic framework that unifies learned translation with formal verification for NL-to-LTL. It uses a structure-preserving intermediate representation, verifier-in-the-loop RL training, and minimal-edit repair. Achieves 28% semantic equivalence and 86% satisfiability on 200K+ requirements across 13 domains, enabling domain experts to validate specifications without specialized training.",
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "fine-tuning",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-25-rss-004",
+        "title": "NeuroNL2LTL：自然语言到线性时序逻辑的神经符号翻译框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.22874",
+        "language": "en",
+        "summary": "提出NeuroNL2LTL神经符号架构，结合学习翻译与形式验证。通过中间表示保证结构保持映射，利用验证结果作为强化学习奖励信号，使神经组件直接优化形式正确性。在20万+需求上实现28%语义等价，86%输出可满足，并生成上下文解释，让领域专家无需专业训练即可验证规约。",
+        "summary_en": "NeuroNL2LTL is a neurosymbolic framework that unifies learned translation with formal verification for NL-to-LTL. It uses a structure-preserving intermediate representation, verifier-in-the-loop RL training, and minimal-edit repair. Achieves 28% semantic equivalence and 86% satisfiability on 200K+ requirements across 13 domains, enabling domain experts to validate specifications without specialized training.",
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "fine-tuning",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-05-25T19:52:51.203387+08:00",
+        "updated_at": "2026-05-25T19:52:51.203436+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "RMA: an Agentic System for Research-Level Mathematical Problems",
+      "url": "https://arxiv.org/abs/2605.22875",
+      "description": "arXiv:2605.22875v1 Announce Type: new \nAbstract: We present $\\textbf{Research Math Agents (RMA)}$, an agentic framework for automated reasoning on research-level mathematical problems. Unlike prior studies centered on competition mathematics or formal theorem proving, RMA targets research-level mathematical problems that require long-horizon reasoning, literature grounding, and iterative proof refinement. RMA decomposes research-level proof solving into specialized modules for problem analysis, literature search and understanding, fair comparison, knowledge-bank construction, and proof verification, all coordinated by initializer, proposer, and verifier agents through a shared structured memory. Within this unified framework, these agents operate in a multi-role, multi-round workflow, collaboratively generating, refining, and verifying candidate proofs through iterative feedback. We evaluate RMA on the First Proof benchmark, which consists of ten research-level problems contributed by expert mathematicians across diverse domains. Through comprehensive expert evaluation, RMA outperforms strong baselines on the First Proof benchmark, including GPT-5.2R and Aletheia, solving eight out of ten research problems and producing more logically sound and readable proofs. Our comprehensive ablation studies further show that performance gains arise from the interaction of structured reasoning modules, iterative refinement, and verifier-based feedback, rather than any single component. Our solutions and implementations will be made publicly available upon acceptance.",
+      "pub_date": "Mon, 25 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "研究级数学问题的智能体系统RMA",
+        "summary": "提出Research Math Agents (RMA)框架，专为研究级数学问题设计。通过多角色、多轮协作的智能体（初始化、提议、验证）分解问题、搜索文献、构建知识库并迭代精炼证明。在First Proof基准上解决10个问题中的8个，超越GPT-5.2R等基线。",
+        "summary_en": "Introduces Research Math Agents (RMA), an agentic framework for research-level math problems. It decomposes proof solving into specialized modules coordinated by multi-role agents. On the First Proof benchmark, RMA solves 8 out of 10 problems, outperforming GPT-5.2R and Aletheia.",
+        "tags": [
+          "agent-framework",
+          "research",
+          "llm",
+          "benchmark"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-25-rss-001",
+        "title": "研究级数学问题的智能体系统RMA",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.22875",
+        "language": "en",
+        "summary": "提出Research Math Agents (RMA)框架，专为研究级数学问题设计。通过多角色、多轮协作的智能体（初始化、提议、验证）分解问题、搜索文献、构建知识库并迭代精炼证明。在First Proof基准上解决10个问题中的8个，超越GPT-5.2R等基线。",
+        "summary_en": "Introduces Research Math Agents (RMA), an agentic framework for research-level math problems. It decomposes proof solving into specialized modules coordinated by multi-role agents. On the First Proof benchmark, RMA solves 8 out of 10 problems, outperforming GPT-5.2R and Aletheia.",
+        "tags": [
+          "agent-framework",
+          "research",
+          "llm",
+          "benchmark"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-05-25T19:52:51.203359+08:00",
+        "updated_at": "2026-05-25T19:52:51.203364+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "SciAtlas: A Large-Scale Knowledge Graph for Automated Scientific Research",
+      "url": "https://arxiv.org/abs/2605.22878",
+      "description": "arXiv:2605.22878v1 Announce Type: new \nAbstract: The exponential growth of global academic output has confronted researchers and AI agents with an unprecedented ``information explosion,'' where fragmented and unstructured knowledge organization impedes deep interdisciplinary integration. Current academic retrieval tools predominantly rely on superficial keyword matching or vector-space semantic retrieval, which lack the topological reasoning capabilities required to navigate complex logical connections. Agentic deep-research-based frameworks are often prone to logical hallucinations and consuming high inference costs. To bridge this gap, in this report, we introduce SciAtlas, a large-scale, multi-disciplinary, heterogeneous academic resource knowledge graph designed as a panoramic scientific evolution network. By integrating over 43M papers from 26 disciplines, and a total of 157M entities and 3B triplets, SciAtlas provides a structured topological cognitive substrate that dismantles disciplinary barriers and furnishes AI agents with a global perspective. Furthermore, we develop a neuro-symbolic retrieval algorithm featuring tri-path collaborative recall and graph reranking, achieving a seamless transition from simple semantic matching to deterministic association discovery. We also present key application directions of SciAtlas, including literature review, automated research trend synthesis, idea positioning, and academic trajectory exploration, to demonstrate that SciAtlas can serve as an effective ``cognitive map'' to empower the full loop of automated scientific research while significantly reducing reasoning costs. We have released the interfaces for KG retrieval and various downstream tasks in our GitHub repo.",
+      "pub_date": "Mon, 25 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "SciAtlas：面向自动化科学研究的超大规模知识图谱",
+        "summary": "SciAtlas是一个跨学科、异构的学术资源知识图谱，整合了4300万篇论文、1.57亿实体和30亿三元组，旨在解决学术信息爆炸和跨学科整合难题。它采用神经符号检索算法，实现从语义匹配到确定性关联发现的转变，为AI代理提供结构化拓扑认知基础，降低推理成本，支持文献综述、趋势综合、创意定位等自动化科研全流程。",
+        "summary_en": "SciAtlas is a large-scale, multi-disciplinary knowledge graph integrating 43M papers, 157M entities, and 3B triplets to address information explosion in academia. It uses a neuro-symbolic retrieval algorithm for deterministic association discovery, providing AI agents with structured topological cognition to reduce reasoning costs and empower automated scientific research.",
+        "tags": [
+          "knowledge-graph",
+          "research",
+          "infrastructure",
+          "rag",
+          "application"
+        ],
+        "category": "infrastructure",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-25-rss-005",
+        "title": "SciAtlas：面向自动化科学研究的超大规模知识图谱",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.22878",
+        "language": "en",
+        "summary": "SciAtlas是一个跨学科、异构的学术资源知识图谱，整合了4300万篇论文、1.57亿实体和30亿三元组，旨在解决学术信息爆炸和跨学科整合难题。它采用神经符号检索算法，实现从语义匹配到确定性关联发现的转变，为AI代理提供结构化拓扑认知基础，降低推理成本，支持文献综述、趋势综合、创意定位等自动化科研全流程。",
+        "summary_en": "SciAtlas is a large-scale, multi-disciplinary knowledge graph integrating 43M papers, 157M entities, and 3B triplets to address information explosion in academia. It uses a neuro-symbolic retrieval algorithm for deterministic association discovery, providing AI agents with structured topological cognition to reduce reasoning costs and empower automated scientific research.",
+        "tags": [
+          "knowledge-graph",
+          "research",
+          "infrastructure",
+          "rag",
+          "application"
+        ],
+        "category": "infrastructure",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-05-25T19:52:51.203440+08:00",
+        "updated_at": "2026-05-25T19:52:51.203442+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Energy per Successful Goal: Goal-Level Energy Accounting for Agentic AI Systems",
+      "url": "https://arxiv.org/abs/2605.22883",
+      "description": "arXiv:2605.22883v1 Announce Type: new \nAbstract: Current AI energy benchmarks measure consumption at the granularity of a single model invocation or training run. For classical single-turn workloads this unit remains coherent. For agentic systems - where a single user goal may trigger multi-step orchestration, tool calls, retries, and failure-recovery cycles - the invocation count is an implementation artifact rather than a task property, and inference-level normalization misrepresents the energy cost of goal completion. We present A-LEMS (Agentic LLM Energy Measurement System), a cross-layer measurement framework that redefines the unit of AI energy accounting from energy per inference to Energy per Successful Goal (EpG). EpG aggregates total workflow energy across all execution attempts, including failures and retries, normalized by successfully completed goals. A-LEMS formalizes energy attribution through a temporal boundary model, a five-layer observation pipeline mapping RAPL signals to workflow-level energy, and a reproducibility protocol binding every measurement to hardware and runtime configuration. Building on EpG, we define the Orchestration Overhead Index (OOI), isolating the energy cost of orchestration relative to linear execution under identical task criteria.\n  Across five reasoning and three tool-augmented task families, agentic workflows consume 4.33x higher mean energy per successful goal than linear baselines (888.1 J vs 205.3 J). This overhead is driven by orchestration structure, not inference compute. For tool-augmented tasks, OOI inverts below 1.0x: agentic execution is cheaper than linear, confirming the metric captures orchestration structure rather than a fixed upward bias.\n  These findings establish that energy-per-inference is insufficient for agentic AI. EpG and OOI provide the measurement foundation for accurate benchmarking, where orchestration structure is the primary determinant of energy cost.",
+      "pub_date": "Mon, 25 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "面向智能体AI系统的目标级能耗核算方法",
+        "summary": "提出A-LEMS框架，将AI能耗计量从每次推理能耗重新定义为每个成功目标能耗（EpG），并定义编排开销指数（OOI）。实验表明，智能体工作流能耗是线性基线的4.33倍，且开销主要由编排结构而非推理计算驱动。",
+        "summary_en": "Proposes A-LEMS framework redefining AI energy accounting from energy per inference to Energy per Successful Goal (EpG), and defines Orchestration Overhead Index (OOI). Experiments show agentic workflows consume 4.33x more energy than linear baselines, driven by orchestration structure.",
+        "tags": [
+          "research",
+          "benchmark",
+          "agent-framework",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-25-rss-006",
+        "title": "面向智能体AI系统的目标级能耗核算方法",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.22883",
+        "language": "en",
+        "summary": "提出A-LEMS框架，将AI能耗计量从每次推理能耗重新定义为每个成功目标能耗（EpG），并定义编排开销指数（OOI）。实验表明，智能体工作流能耗是线性基线的4.33倍，且开销主要由编排结构而非推理计算驱动。",
+        "summary_en": "Proposes A-LEMS framework redefining AI energy accounting from energy per inference to Energy per Successful Goal (EpG), and defines Orchestration Overhead Index (OOI). Experiments show agentic workflows consume 4.33x more energy than linear baselines, driven by orchestration structure.",
+        "tags": [
+          "research",
+          "benchmark",
+          "agent-framework",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-05-25T19:52:51.203449+08:00",
+        "updated_at": "2026-05-25T19:52:51.203451+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Evaluating Large Language Models in a Complex Hidden Role Game",
+      "url": "https://arxiv.org/abs/2605.22826",
+      "description": "arXiv:2605.22826v1 Announce Type: new \nAbstract: Quantifying the deceptive potential of Large Language Models (LLMs) is critical for AI safety, yet difficult to achieve in uncontrolled environments. This work investigates the reasoning, persuasion, and deceptive capabilities of LLMs within the social deduction game Secret Hitler. I introduce an open-source framework and novel metrics to measure performance: Role Identification Accuracy, Deception Retention Rate, and Game State Impact Rate. By benchmarking models against rule-based algorithms and human games, I identify a gap between conversational ability and strategic depth. The study also analyzes the impact of reasoning-enhancement techniques on win rates and strategic reasoning. Neither Chain-of-Thought prompting nor internal memory bring improvements in performance, with up to 23.2% worse win rates for fascist roles. While rule-based agents align with expert human voting decisions 86.7% of the time, models like Llama 3.1 70B achieve only a 59.7% accuracy. Models playing as Fascists consistently yield negative impact scores and fail to sustain deception, resulting in roughly 40% shorter games compared to humans. These findings suggest that current architectures remain ineffective at complex, multi-turn manipulation. As capabilities advance, detecting when models begin to master these deceptive behaviors is crucial. The developed framework serves as a reproducible testbed for future alignment research.",
+      "pub_date": "Mon, 25 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "在复杂隐藏角色游戏中评估大型语言模型",
+        "summary": "本研究在社交推理游戏《秘密希特勒》中评估LLM的推理、说服和欺骗能力。提出了开源框架和新指标（角色识别准确率、欺骗保持率、游戏状态影响率）。发现LLM在对话能力与战略深度之间存在差距，推理增强技术未能提升胜率，当前架构在多轮操纵中表现低效。",
+        "summary_en": "This work evaluates LLMs' reasoning, persuasion, and deception capabilities in the social deduction game Secret Hitler. It introduces an open-source framework and novel metrics, revealing a gap between conversational ability and strategic depth. Reasoning enhancements fail to improve win rates; current architectures remain ineffective at multi-turn manipulation.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "security",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-25-rss-002",
+        "title": "在复杂隐藏角色游戏中评估大型语言模型",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.22826",
+        "language": "en",
+        "summary": "本研究在社交推理游戏《秘密希特勒》中评估LLM的推理、说服和欺骗能力。提出了开源框架和新指标（角色识别准确率、欺骗保持率、游戏状态影响率）。发现LLM在对话能力与战略深度之间存在差距，推理增强技术未能提升胜率，当前架构在多轮操纵中表现低效。",
+        "summary_en": "This work evaluates LLMs' reasoning, persuasion, and deception capabilities in the social deduction game Secret Hitler. It introduces an open-source framework and novel metrics, revealing a gap between conversational ability and strategic depth. Reasoning enhancements fail to improve win rates; current architectures remain ineffective at multi-turn manipulation.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "security",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-05-25T19:52:51.203371+08:00",
+        "updated_at": "2026-05-25T19:52:51.203373+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "A Survey of Text and Speech Resources for Hausa and Fongbe: Availability, Quality, and Gaps for NLP Development",
+      "url": "https://arxiv.org/abs/2605.22828",
+      "description": "arXiv:2605.22828v1 Announce Type: new \nAbstract: This survey provides a comprehensive catalog of publicly available text and speech resources for two West African languages: Hausa, an Afroasiatic language with approximately 80-100 million speakers, and Fongbe, a Niger-Congo language spoken by approximately 2 million people in Benin. These languages represent contrasting cases on the resource availability spectrum. We address the question: \\textit{What is the current state of publicly available NLP resources for Hausa and Fongbe, and what gaps remain?} Through systematic search of academic repositories, data platforms, and web sources, we catalog parallel corpora, monolingual text collections, speech datasets, pre-trained models, and evaluation benchmarks. For each resource, we document size, domain coverage, format, licensing, and accessibility. Our findings reveal that Hausa benefits from broader text resource diversity across news, encyclopedic, and educational domains. Fongbe, while having more limited text resources, has been the focus of recent academic speech data collection initiatives. Both languages are represented in Masakhane benchmarks for NER and POS tagging. We provide task-specific recommendations and identify priority gaps including domain-diverse Fongbe text and dedicated Hausa speech corpora.",
+      "pub_date": "Mon, 25 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "豪萨语和丰贝语文本与语音资源综述：可用性、质量及NLP发展差距",
+        "summary": "该综述全面梳理了豪萨语（约8000万-1亿使用者）和丰贝语（约200万人使用）的公开文本与语音资源，涵盖语料库、预训练模型和评估基准。豪萨语在新闻、百科等文本资源多样性上更丰富，丰贝语则有近期学术语音数据采集成果。两者均出现在Masakhane基准中。研究指出了领域多样丰贝语文本和专用豪萨语语音语料库等优先缺口。",
+        "summary_en": null,
+        "tags": [
+          "research",
+          "benchmark",
+          "multimodal",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.7,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-25-rss-009",
+        "title": "豪萨语和丰贝语文本与语音资源综述：可用性、质量及NLP发展差距",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.22828",
+        "language": "en",
+        "summary": "该综述全面梳理了豪萨语（约8000万-1亿使用者）和丰贝语（约200万人使用）的公开文本与语音资源，涵盖语料库、预训练模型和评估基准。豪萨语在新闻、百科等文本资源多样性上更丰富，丰贝语则有近期学术语音数据采集成果。两者均出现在Masakhane基准中。研究指出了领域多样丰贝语文本和专用豪萨语语音语料库等优先缺口。",
+        "summary_en": null,
+        "tags": [
+          "research",
+          "benchmark",
+          "multimodal",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.7,
+        "status": "published",
+        "created_at": "2026-05-25T19:52:51.203462+08:00",
+        "updated_at": "2026-05-25T19:52:51.203463+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Query-Adaptive Semantic Chunking for Retrieval-Augmented Generation: A Dynamic Strategy with Contextual Window Expansion",
+      "url": "https://arxiv.org/abs/2605.22834",
+      "description": "arXiv:2605.22834v1 Announce Type: new \nAbstract: Retrieval-Augmented Generation (RAG) systems depend critically on document chunking quality for retrieving relevant context. Fixed chunking segments documents into uniform units irrespective of semantics or user intent, producing a precision-recall trade-off unresolvable by tuning chunk size alone. Semantic and agentic methods partially address these limitations but do not integrate user queries at the chunking stage. We present Query-Adaptive Semantic Chunking (QASC), which dynamically constructs chunks by integrating queries into segmentation through three mechanisms: cosine similarity scoring between sentence and query embeddings to identify seed sentences, contextual window expansion around seeds to preserve coherence, and chunk-level score aggregation to ensure holistic relevance. We evaluate QASC on 100 technical documents across 200 queries spanning four types, comparing against fixed chunking at five granularities, recursive splitting, semantic chunking, and agentic chunking. QASC achieves an F1-score of 0.85, a relative improvement of 18-27% over fixed chunking and 8-12% over semantic and agentic alternatives. Ablation studies confirm each component contributes meaningfully. Human evaluation by three annotators (Cohen kappa = 0.82) corroborates that QASC produces more relevant and coherent chunks than existing methods.",
+      "pub_date": "Mon, 25 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "查询自适应语义分块：面向检索增强生成的动态上下文窗口扩展策略",
+        "summary": "提出查询自适应语义分块（QASC），通过将用户查询集成到分块阶段，利用余弦相似度评分、上下文窗口扩展和分块级分数聚合动态构建块。在100篇技术文档、200个查询上评估，F1分数达0.85，相比固定分块提升18-27%，相比语义和代理方法提升8-12%。",
+        "summary_en": "Proposes Query-Adaptive Semantic Chunking (QASC) that integrates user queries into chunking via cosine similarity scoring, contextual window expansion, and chunk-level score aggregation. Evaluated on 100 technical documents with 200 queries, achieving F1-score of 0.85, improving 18-27% over fixed chunking and 8-12% over semantic/agentic methods.",
+        "tags": [
+          "rag",
+          "research",
+          "fine-tuning",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-25-rss-007",
+        "title": "查询自适应语义分块：面向检索增强生成的动态上下文窗口扩展策略",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.22834",
+        "language": "en",
+        "summary": "提出查询自适应语义分块（QASC），通过将用户查询集成到分块阶段，利用余弦相似度评分、上下文窗口扩展和分块级分数聚合动态构建块。在100篇技术文档、200个查询上评估，F1分数达0.85，相比固定分块提升18-27%，相比语义和代理方法提升8-12%。",
+        "summary_en": "Proposes Query-Adaptive Semantic Chunking (QASC) that integrates user queries into chunking via cosine similarity scoring, contextual window expansion, and chunk-level score aggregation. Evaluated on 100 technical documents with 200 queries, achieving F1-score of 0.85, improving 18-27% over fixed chunking and 8-12% over semantic/agentic methods.",
+        "tags": [
+          "rag",
+          "research",
+          "fine-tuning",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-05-25T19:52:51.203453+08:00",
+        "updated_at": "2026-05-25T19:52:51.203455+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Knowledge Distillation for Low-Resource Open-source Text-to-SQL Model",
+      "url": "https://arxiv.org/abs/2605.22843",
+      "description": "arXiv:2605.22843v1 Announce Type: new \nAbstract: Text-to-SQL converts natural language questions into executable SQL queries, enabling non-technical users to access relational databases for analytics and intelligent data services. In real-world scenarios, performance is often constrained by low-resource settings, where high-quality annotated \\texttt{<question, SQL>} pairs are scarce, particularly for domain-specific databases. Additional challenges include opaque schema definitions, abbreviations, and implicit business logic that are not explicitly encoded in the schema. Existing data synthesis and prompting techniques improve coverage but often fail to produce task-specific, semantically grounded examples aligned with database constraints. To address these challenges, we propose a knowledge-aware Text-to-SQL framework that constructs task-specific knowledge base including schema semantics, abbreviations, business logic, and query patterns, and injects them into both training and inference. This framework generates diverse, contextually grounded synthetic training data and enhances inference through targeted knowledge retrieval. Experiments on seven benchmarks, covering both general and domain-specific datasets, demonstrate that our approach substantially improves the performance of open-source and closed-source large language models in Text-to-SQL tasks, especially in low-resource domain-specific settings, enhancing generalization, robustness, and adaptability.",
+      "pub_date": "Mon, 25 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "面向低资源开源文本到SQL模型的知识蒸馏",
+        "summary": "提出知识感知的Text-to-SQL框架，构建任务特定知识库（含模式语义、缩写、业务逻辑和查询模式），注入训练和推理过程。生成多样化合成数据并通过知识检索增强推理。在7个基准上显著提升开源和闭源LLM在低资源领域场景下的性能。",
+        "summary_en": "Proposes a knowledge-aware Text-to-SQL framework that constructs task-specific knowledge bases (schema semantics, abbreviations, business logic, query patterns) and injects them into training and inference. Generates diverse synthetic data and enhances inference via targeted knowledge retrieval. Experiments on 7 benchmarks show significant improvements for open/closed-source LLMs in low-resource domain-specific settings.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "rag"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-25-rss-008",
+        "title": "面向低资源开源文本到SQL模型的知识蒸馏",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.22843",
+        "language": "en",
+        "summary": "提出知识感知的Text-to-SQL框架，构建任务特定知识库（含模式语义、缩写、业务逻辑和查询模式），注入训练和推理过程。生成多样化合成数据并通过知识检索增强推理。在7个基准上显著提升开源和闭源LLM在低资源领域场景下的性能。",
+        "summary_en": "Proposes a knowledge-aware Text-to-SQL framework that constructs task-specific knowledge bases (schema semantics, abbreviations, business logic, query patterns) and injects them into training and inference. Generates diverse synthetic data and enhances inference via targeted knowledge retrieval. Experiments on 7 benchmarks show significant improvements for open/closed-source LLMs in low-resource domain-specific settings.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "rag"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-05-25T19:52:51.203458+08:00",
+        "updated_at": "2026-05-25T19:52:51.203459+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "How Far Will They Go? Red-Teaming Online Influence with Large Language Models",
+      "url": "https://arxiv.org/abs/2605.22880",
+      "description": "arXiv:2605.22880v1 Announce Type: new \nAbstract: As large language model (LLM)-based agents increasingly participate in online discourse, red-teaming their capacity to support political influence campaigns is critical for information integrity. In pursuit of this goal, we focus on locally deployed open-source LLMs, as opposed to frontier API-only models, given their superior alignment with the operational constraints of privacy-conscious malicious actors deployed in social media environments. We introduce an empirical red-teaming framework for measuring LLM Overton Windows (OWs), defined as the range of political opinions a model can reliably express on controversial topics, and for quantifying how simple natural-language jailbreaks expand that range. We evaluate more than 30 LLMs spanning 10 model families and five countries of origin. We find systematic asymmetries in political expressivity: open-source LLMs are typically more willing to generate left-leaning social media content, OWs tend to contract inversely to model size, and regional differences are substantial despite uneven representation in the open-source ecosystem. Jailbreak potency also varies sharply across model families, motivating a workflow for identifying effective combinations of jailbreak techniques. Taken together, our results establish a practical framework for auditing the political steerability of open-source LLMs and for helping future researchers design stronger countermeasures against LLM-enabled influence campaigns.",
+      "pub_date": "Mon, 25 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "LLM在线影响力红队测试：衡量政治可操控性",
+        "summary": "提出红队测试框架，衡量开源LLM在争议话题上的政治观点表达范围（Overton Window），并量化简单自然语言越狱如何扩大该范围。评估了30多个模型，发现政治表达存在系统性不对称：开源模型更倾向于生成左倾内容，Overton Window随模型规模增大而收缩，且存在显著地区差异。越狱效果在不同模型家族间差异很大。该框架可用于审计开源LLM的政治可操控性，并帮助设计针对LLM影响力活动的反制措施。",
+        "summary_en": "Introduces a red-teaming framework to measure the Overton Window (range of political opinions) of open-source LLMs on controversial topics and quantify how simple jailbreaks expand it. Evaluates 30+ models, finding systematic asymmetries: models are more willing to generate left-leaning content, OWs contract with model size, and regional differences are substantial. Jailbreak potency varies across families. Provides a practical framework for auditing political steerability and designing countermeasures against LLM-enabled influence campaigns.",
+        "tags": [
+          "llm",
+          "research",
+          "security",
+          "benchmark",
+          "open-source"
+        ],
+        "category": "security",
+        "relevance_score": 1.0,
+        "language": "en"
+      }
+    }
+  ]
+}

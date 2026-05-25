@@ -1,0 +1,26 @@
+{
+  "id": "2026-05-25-rss-002",
+  "title": "在复杂隐藏角色游戏中评估大型语言模型",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.22826",
+  "language": "en",
+  "summary": "本研究在社交推理游戏《秘密希特勒》中评估LLM的推理、说服和欺骗能力。提出了开源框架和新指标（角色识别准确率、欺骗保持率、游戏状态影响率）。发现LLM在对话能力与战略深度之间存在差距，推理增强技术未能提升胜率，当前架构在多轮操纵中表现低效。",
+  "summary_en": "This work evaluates LLMs' reasoning, persuasion, and deception capabilities in the social deduction game Secret Hitler. It introduces an open-source framework and novel metrics, revealing a gap between conversational ability and strategic depth. Reasoning enhancements fail to improve win rates; current architectures remain ineffective at multi-turn manipulation.",
+  "tags": [
+    "llm",
+    "research",
+    "benchmark",
+    "security",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-05-25T19:52:51.203371+08:00",
+  "updated_at": "2026-05-25T19:52:51.203373+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
