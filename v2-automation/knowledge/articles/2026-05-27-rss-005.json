@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-27-rss-005",
+  "title": "智能体记忆是数据库吗？重新思考长期AI智能体记忆的数据基础",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.26252",
+  "language": "en",
+  "summary": "本文提出长期AI智能体记忆应被视为一种新的数据管理工作负载，其正确性取决于状态轨迹而非单个记录。作者形式化了受控演化记忆（GEM），用四个状态级操作符替代记录级数据库操作，并定义了六个正确性条件。通过原型MemState验证了可行性，并指出了构建原生引擎的研究方向。",
+  "summary_en": "This paper proposes that long-term AI agent memory should be treated as a new data-management workload, where correctness is a property of the state trajectory, not individual records. It formalizes Governed Evolving Memory (GEM) with four state-level operators and six correctness conditions, validates feasibility via MemState prototype, and outlines research directions for memory-centric data management.",
+  "tags": [
+    "research",
+    "llm",
+    "infrastructure",
+    "agent-framework"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-05-27T19:37:49.159649+08:00",
+  "updated_at": "2026-05-27T19:37:49.159650+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

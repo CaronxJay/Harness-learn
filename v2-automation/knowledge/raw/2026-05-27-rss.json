@@ -1,0 +1,479 @@
+{
+  "collected_at": "2026-05-27T19:37:49.160503+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "BrickAnything: Geometry-Conditioned Buildable Brick Generation with Structure-Aware Tokenization",
+      "url": "https://arxiv.org/abs/2605.26182",
+      "description": "arXiv:2605.26182v1 Announce Type: new \nAbstract: Generating physically buildable brick structures from 3D shapes requires more than geometric reconstruction: the output must also satisfy discrete part constraints and structural stability. Existing brick generation methods either rely on heuristic optimization, which can break down when the target 3D shape does not admit a feasible structure under predefined constraints, or generate brick sequences without explicitly modeling the underlying 3D geometry and assembly relations. In this work, we present BrickAnything, a geometry-conditioned autoregressive framework for generating buildable brick structures from diverse 3D representations. BrickAnything uses point clouds as a unified geometric interface and predicts brick sequences that reconstruct the target shape under assembly constraints. To model structural dependencies among bricks, we introduce a structure-aware tree tokenization, which represents brick structures through local attachment relations. This formulation makes sequence generation more consistent with the physical construction process, and reduces invalid intermediate states. We further introduce preference-based alignment post-training, validity-constrained decoding and adaptive rollback to improve buildability objectives such as stability and geometric fidelity. Extensive experiments demonstrate that BrickAnything produces geometrically faithful and physically realizable brick structures, and that the proposed tokenization effectively reduces rollback and regeneration compared with conventional ordering strategies.",
+      "pub_date": "Wed, 27 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "BrickAnything：基于几何条件的可搭建砖块生成与结构感知分词",
+        "summary": "BrickAnything 是一个基于几何条件的自回归框架，可从3D点云生成可物理搭建的砖块结构。它引入结构感知树分词来表示砖块间的局部附着关系，并结合偏好对齐、有效性约束解码和自适应回滚，确保生成结构的几何保真度和物理稳定性。实验证明该方法优于传统启发式优化和序列生成方法。",
+        "summary_en": "BrickAnything is a geometry-conditioned autoregressive framework that generates physically buildable brick structures from 3D point clouds. It introduces structure-aware tree tokenization to model local attachment relations, and uses preference alignment, validity-constrained decoding, and adaptive rollback to ensure geometric fidelity and structural stability.",
+        "tags": [
+          "research",
+          "llm",
+          "application",
+          "3d-generation"
+        ],
+        "category": "research",
+        "relevance_score": 0.7,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-27-rss-009",
+        "title": "BrickAnything：基于几何条件的可搭建砖块生成与结构感知分词",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.26182",
+        "language": "en",
+        "summary": "BrickAnything 是一个基于几何条件的自回归框架，可从3D点云生成可物理搭建的砖块结构。它引入结构感知树分词来表示砖块间的局部附着关系，并结合偏好对齐、有效性约束解码和自适应回滚，确保生成结构的几何保真度和物理稳定性。实验证明该方法优于传统启发式优化和序列生成方法。",
+        "summary_en": "BrickAnything is a geometry-conditioned autoregressive framework that generates physically buildable brick structures from 3D point clouds. It introduces structure-aware tree tokenization to model local attachment relations, and uses preference alignment, validity-constrained decoding, and adaptive rollback to ensure geometric fidelity and structural stability.",
+        "tags": [
+          "research",
+          "llm",
+          "application",
+          "3d-generation"
+        ],
+        "category": "research",
+        "relevance_score": 0.7,
+        "status": "published",
+        "created_at": "2026-05-27T19:37:49.159668+08:00",
+        "updated_at": "2026-05-27T19:37:49.159669+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Can LLMs Introspect? A Reality Check",
+      "url": "https://arxiv.org/abs/2605.26242",
+      "description": "arXiv:2605.26242v1 Announce Type: new \nAbstract: Can large language models detect and report their own internal states? A number of studies have argued that the answer to this question is yes. We argue, based on lessons from human metacognition research, that this conclusion may be premature: to be convinced of this conclusion we need to distinguish genuine introspection from pattern matching based on surface-level cues. Furthermore, we argue that behavioral evidence alone is inherently insufficient to establish strong introspective claims.\n  We re-examine two recently introduced evaluation paradigms in light of this consideration. In the first paradigm, models are expected to detect whether their internal states have been tampered with. We find that models cannot reliably distinguish such interventions on their internal states from manipulations of the input, suggesting that their success in the original studies reflects their ability to detect anomalies more generally, as opposed to interventions on their internal states in particular. In the second paradigm we examine, models are tasked with predicting labels derived from their own hidden states. Here, we find that classifiers that only have access to the input achieve equivalent performance to the model's own in-context predictions, indicating that the original results do not conclusively demonstrate that the model has privileged access to its internal representations. We further introduce a relabeled control setting, where models cannot rely on the semantics of the task to solve it, and instead must rely on the internal representation; models perform closer to chance on this better-controlled version of the task. Taken together, these results indicate that current evidence is insufficient to establish that LLMs display metacognitive monitoring.",
+      "pub_date": "Wed, 27 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "LLM能否内省？一次现实检验",
+        "summary": "本文质疑LLM能内省自身内部状态的说法。基于人类元认知研究，指出当前行为证据不足以证明内省，可能只是模式匹配。通过重新检验两个评估范式，发现模型无法可靠区分内部状态干预与输入异常，且仅访问输入的分类器能达到与模型内省预测相当的性能。结论是现有证据不足以证明LLM具有元认知监控能力。",
+        "summary_en": "This paper questions claims that LLMs can introspect their internal states. Drawing on human metacognition research, it argues behavioral evidence is insufficient and may reflect pattern matching. Re-examining two evaluation paradigms, it finds models cannot reliably distinguish internal state interventions from input anomalies, and input-only classifiers match model introspective predictions. Concludes current evidence fails to demonstrate LLM metacognitive monitoring.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-27-rss-001",
+        "title": "LLM能否内省？一次现实检验",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.26242",
+        "language": "en",
+        "summary": "本文质疑LLM能内省自身内部状态的说法。基于人类元认知研究，指出当前行为证据不足以证明内省，可能只是模式匹配。通过重新检验两个评估范式，发现模型无法可靠区分内部状态干预与输入异常，且仅访问输入的分类器能达到与模型内省预测相当的性能。结论是现有证据不足以证明LLM具有元认知监控能力。",
+        "summary_en": "This paper questions claims that LLMs can introspect their internal states. Drawing on human metacognition research, it argues behavioral evidence is insufficient and may reflect pattern matching. Re-examining two evaluation paradigms, it finds models cannot reliably distinguish internal state interventions from input anomalies, and input-only classifiers match model introspective predictions. Concludes current evidence fails to demonstrate LLM metacognitive monitoring.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-05-27T19:37:49.159630+08:00",
+        "updated_at": "2026-05-27T19:37:49.159632+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Is Agent Memory a Database? Rethinking Data Foundations for Long-Term AI Agent Memory",
+      "url": "https://arxiv.org/abs/2605.26252",
+      "description": "arXiv:2605.26252v1 Announce Type: new \nAbstract: Long-running AI agents need persistent memory. Memory supports learning across sessions, reduces repeated context injection, and enables auditing of past decisions. Current agent memory systems and database paradigms treat memory as storage. They localize correctness at records, embeddings, or edges. Each supplies only some of the capabilities that long-term memory requires. The result is four recurring failure modes: unregulated growth, missing semantic revision, capacity-driven forgetting, and read-only retrieval. In our vision, long-term agent memory is a new data-management workload. Its correctness is a property of the state trajectory, not of individual records. We formalize this as Governed Evolving Memory (GEM). GEM replaces record-level database operations with four state-level operators: ingestion, revision, forgetting, and retrieval. Six correctness conditions govern how the state evolves. Three structural observations establish that no record-level system can satisfy these conditions, regardless of the storage model. We realize the abstraction in MemState, a prototype on a property-graph backend. MemState validates feasibility and exposes the gap to a native engine. We outline three research directions that define memory-centric data management as a workload.",
+      "pub_date": "Wed, 27 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "智能体记忆是数据库吗？重新思考长期AI智能体记忆的数据基础",
+        "summary": "本文提出长期AI智能体记忆应被视为一种新的数据管理工作负载，其正确性取决于状态轨迹而非单个记录。作者形式化了受控演化记忆（GEM），用四个状态级操作符替代记录级数据库操作，并定义了六个正确性条件。通过原型MemState验证了可行性，并指出了构建原生引擎的研究方向。",
+        "summary_en": "This paper proposes that long-term AI agent memory should be treated as a new data-management workload, where correctness is a property of the state trajectory, not individual records. It formalizes Governed Evolving Memory (GEM) with four state-level operators and six correctness conditions, validates feasibility via MemState prototype, and outlines research directions for memory-centric data management.",
+        "tags": [
+          "research",
+          "llm",
+          "infrastructure",
+          "agent-framework"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-27-rss-005",
+        "title": "智能体记忆是数据库吗？重新思考长期AI智能体记忆的数据基础",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.26252",
+        "language": "en",
+        "summary": "本文提出长期AI智能体记忆应被视为一种新的数据管理工作负载，其正确性取决于状态轨迹而非单个记录。作者形式化了受控演化记忆（GEM），用四个状态级操作符替代记录级数据库操作，并定义了六个正确性条件。通过原型MemState验证了可行性，并指出了构建原生引擎的研究方向。",
+        "summary_en": "This paper proposes that long-term AI agent memory should be treated as a new data-management workload, where correctness is a property of the state trajectory, not individual records. It formalizes Governed Evolving Memory (GEM) with four state-level operators and six correctness conditions, validates feasibility via MemState prototype, and outlines research directions for memory-centric data management.",
+        "tags": [
+          "research",
+          "llm",
+          "infrastructure",
+          "agent-framework"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-05-27T19:37:49.159649+08:00",
+        "updated_at": "2026-05-27T19:37:49.159650+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Personalizing Embodied Multimodal Large Language Model Agents over Long-term User Interactions",
+      "url": "https://arxiv.org/abs/2605.26256",
+      "description": "arXiv:2605.26256v1 Announce Type: new \nAbstract: Multimodal large language model (MLLM)-based embodied agents have shown strong potential for solving complex tasks in physical environments. However, personalized assistance requires more than following generic instruction or recognizing object categories. In real-world scenarios, the intended target is often specified only implicitly through prior interactions, requiring agents to leverage personalized context accumulated over time. In this work, we propose POLAR, a multiomodal memory-augmented framework for personalized embodied agents over long-term user interactions. POLAR organizes prior interactions into a multimodal knowledge graph that captures semantic memory for personalized context and visual concepts, and episodic memory for embodied experiences such as agent trajectories. To execute embodied tasks, POLAR retrieves relevant memories to interpret the current request and guide task execution. We evaluate POLAR across multiple MLLM backbones and diverse evaluation scenarios to study the role of memory in long-term personalization. Results show that the proposed memory mechanism consistently improves performance by enabling more effective use of information accumulated over prior interactions. The gains are especially pronounced when the agents are required to reason across multiple interactions, perform multi-hop inference, or tracking updates in user-specific context over time.",
+      "pub_date": "Wed, 27 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "个性化多模态大语言模型代理：基于长期用户交互的记忆增强框架",
+        "summary": "提出POLAR框架，通过多模态知识图谱记忆（语义记忆+情景记忆）增强具身MLLM代理的个性化能力，使其能利用长期交互中的隐式上下文执行任务。实验表明该机制在跨交互推理、多跳推理和用户上下文追踪等场景下显著提升性能。",
+        "summary_en": "Proposes POLAR, a multimodal memory-augmented framework for personalized embodied MLLM agents. It organizes prior interactions into a knowledge graph capturing semantic and episodic memory, enabling agents to leverage long-term user context for task execution. Consistently improves performance, especially in multi-interaction reasoning and user-specific context tracking.",
+        "tags": [
+          "multimodal",
+          "llm",
+          "research",
+          "agent-framework",
+          "rag"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-27-rss-006",
+        "title": "个性化多模态大语言模型代理：基于长期用户交互的记忆增强框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.26256",
+        "language": "en",
+        "summary": "提出POLAR框架，通过多模态知识图谱记忆（语义记忆+情景记忆）增强具身MLLM代理的个性化能力，使其能利用长期交互中的隐式上下文执行任务。实验表明该机制在跨交互推理、多跳推理和用户上下文追踪等场景下显著提升性能。",
+        "summary_en": "Proposes POLAR, a multimodal memory-augmented framework for personalized embodied MLLM agents. It organizes prior interactions into a knowledge graph capturing semantic and episodic memory, enabling agents to leverage long-term user context for task execution. Consistently improves performance, especially in multi-interaction reasoning and user-specific context tracking.",
+        "tags": [
+          "multimodal",
+          "llm",
+          "research",
+          "agent-framework",
+          "rag"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-05-27T19:37:49.159653+08:00",
+        "updated_at": "2026-05-27T19:37:49.159655+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Constraint acquisition needs better benchmarks",
+      "url": "https://arxiv.org/abs/2605.26279",
+      "description": "arXiv:2605.26279v1 Announce Type: new \nAbstract: Constraint Acquisition (CA) and related research on the validation and enhancement of Mathematical Programming (MP) models from domain knowledge artifacts are currently limited by inadequate benchmarks. This deficiency impedes reproducibility and cross-study comparability, slowing the maturation of CA methods. Existing benchmarks were designed for solver evaluation rather than for assessing CA algorithms. They are loosely organized, treat individual problems inconsistently, and omit the domain knowledge artifacts required by CA methods. This work presents MPMMine, a benchmark suite designed to assess algorithms that discover, validate, and enhance MP models using diverse domain knowledge artifacts. MPMMine is guided by consistency, standardization, completeness, extensibility, openness, and version control. It adopts a uniform structure and relies on open formats: MiniZinc, CommonMark, and JSON. It provides multiple models per problem, tens of instances per model, and thousands of solutions and non-solutions in both integer and continuous domains, alongside natural-language descriptions to support text-to-model methods.",
+      "pub_date": "Wed, 27 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "约束获取需要更好的基准测试",
+        "summary": "当前约束获取（CA）研究因缺乏合适的基准测试而受限，影响可重复性和可比性。本文提出MPMMine基准套件，通过统一结构、开放格式（MiniZinc、CommonMark、JSON）和版本控制，提供多模型、多实例及自然语言描述，以支持CA算法评估。",
+        "summary_en": "Constraint Acquisition research is hindered by inadequate benchmarks. This paper introduces MPMMine, a benchmark suite with uniform structure, open formats, and version control, providing multiple models, instances, and natural-language descriptions to evaluate CA algorithms.",
+        "tags": [
+          "benchmark",
+          "research",
+          "infrastructure"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.7,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-27-rss-010",
+        "title": "约束获取需要更好的基准测试",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.26279",
+        "language": "en",
+        "summary": "当前约束获取（CA）研究因缺乏合适的基准测试而受限，影响可重复性和可比性。本文提出MPMMine基准套件，通过统一结构、开放格式（MiniZinc、CommonMark、JSON）和版本控制，提供多模型、多实例及自然语言描述，以支持CA算法评估。",
+        "summary_en": "Constraint Acquisition research is hindered by inadequate benchmarks. This paper introduces MPMMine, a benchmark suite with uniform structure, open formats, and version control, providing multiple models, instances, and natural-language descriptions to evaluate CA algorithms.",
+        "tags": [
+          "benchmark",
+          "research",
+          "infrastructure"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.7,
+        "status": "published",
+        "created_at": "2026-05-27T19:37:49.159672+08:00",
+        "updated_at": "2026-05-27T19:37:49.159673+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Self-Verified Distillation: Your Language Model Is Secretly Its Own Synthetic Data Pipeline",
+      "url": "https://arxiv.org/abs/2605.26132",
+      "description": "arXiv:2605.26132v1 Announce Type: new \nAbstract: Can post-trained large language models (LLMs) further improve themselves using only unlabeled prompts, without external teachers or feedback from tools? We study this setting starting only from unlabeled seed questions with no ground-truth solutions, across three reasoning domains: math, science, and coding. We propose Self-Verified Distillation, a simple post-training refinement algorithm in which the model generates candidate solutions to these seed questions, filters them using prompt-based self-verification, and trains on the resulting self-curated dataset. Inspired by the UQ benchmark's use of multiple validators to screen candidate answers to hard unsolved questions, we adapt this validation-based filtering idea to self-training: the model filters its own generated solutions through a three-stage cascade of cycle-consistency, factuality, and correctness checks, accepting a solution only if it passes all stages with unanimous judge votes. We find that sampling more candidate generations and using a larger verification budget during training data construction produces higher-quality self-curated data and, in turn, better reasoning models. We then train Qwen3 models at multiple scales with Self-Verified Distillation and obtain gains across all three domains. For Qwen3-4B, our method improves aggregate held-out pass@1 by +16.7 points in math (AIME26 and HMMT), +11.1 points in science (GPQA Diamond and HLE), and +8.3 points in coding (LCBv5 and LCBv6), with gains also extending to 0.6B and 8B models. Compared to our test-time-only baseline (UQ-TTC), which improves performance by spending extra compute at inference time, Self-Verified Distillation achieves better performance in most settings while requiring only a single inference call at test time.",
+      "pub_date": "Wed, 27 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "自验证蒸馏：语言模型自身作为合成数据管道",
+        "summary": "提出自验证蒸馏算法，让大语言模型仅使用无标签种子问题，通过自生成候选解、基于提示的自验证过滤（包括循环一致性、事实性和正确性检查），构建高质量自训练数据集，从而提升推理能力。在数学、科学和编程三个领域，Qwen3模型（0.6B/4B/8B）均取得显著性能提升。",
+        "summary_en": "Proposes Self-Verified Distillation, a post-training refinement algorithm where LLMs generate candidate solutions to unlabeled seed questions, filter them via prompt-based self-verification (cycle-consistency, factuality, correctness), and train on the curated dataset. Achieves significant gains across math, science, and coding for Qwen3 models.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-27-rss-002",
+        "title": "自验证蒸馏：语言模型自身作为合成数据管道",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.26132",
+        "language": "en",
+        "summary": "提出自验证蒸馏算法，让大语言模型仅使用无标签种子问题，通过自生成候选解、基于提示的自验证过滤（包括循环一致性、事实性和正确性检查），构建高质量自训练数据集，从而提升推理能力。在数学、科学和编程三个领域，Qwen3模型（0.6B/4B/8B）均取得显著性能提升。",
+        "summary_en": "Proposes Self-Verified Distillation, a post-training refinement algorithm where LLMs generate candidate solutions to unlabeled seed questions, filter them via prompt-based self-verification (cycle-consistency, factuality, correctness), and train on the curated dataset. Achieves significant gains across math, science, and coding for Qwen3 models.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-05-27T19:37:49.159636+08:00",
+        "updated_at": "2026-05-27T19:37:49.159637+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Pretraining Data Exposure in Large Language Models: A Survey of Membership Inference, Data Contamination, and Security Implications",
+      "url": "https://arxiv.org/abs/2605.26133",
+      "description": "arXiv:2605.26133v1 Announce Type: new \nAbstract: Large Language Models (LLMs) have become the predominant paradigm in NLP, advancing both research and industry. As model sizes and pretraining data grow, concerns about Pretraining Data Exposure (PDE) increase due to the scale and opacity of training datasets.\n  PDE refers to determining whether specific data appeared in an LLM's pretraining corpus. It is critical for ensuring evaluation integrity and protecting privacy, intersecting two key areas: data contamination and membership inference. Though conceptually related, these areas have often been studied in isolation. This paper offers the first unified survey of both under the PDE framework. We formalize PDE across exposure levels, review attack and defense methods, synthesize empirical findings, and highlight open challenges and future research directions.",
+      "pub_date": "Wed, 27 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "大语言模型预训练数据暴露：成员推断、数据污染与安全影响综述",
+        "summary": "本文首次统一综述了大语言模型中的预训练数据暴露问题，涵盖成员推断和数据污染两个关键领域。形式化定义了暴露级别，回顾了攻击与防御方法，综合了实证发现，并指出了开放挑战与未来研究方向。",
+        "summary_en": "This paper presents the first unified survey of pretraining data exposure in LLMs, covering membership inference and data contamination. It formalizes exposure levels, reviews attack and defense methods, synthesizes empirical findings, and highlights open challenges and future directions.",
+        "tags": [
+          "llm",
+          "research",
+          "security",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-27-rss-003",
+        "title": "大语言模型预训练数据暴露：成员推断、数据污染与安全影响综述",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.26133",
+        "language": "en",
+        "summary": "本文首次统一综述了大语言模型中的预训练数据暴露问题，涵盖成员推断和数据污染两个关键领域。形式化定义了暴露级别，回顾了攻击与防御方法，综合了实证发现，并指出了开放挑战与未来研究方向。",
+        "summary_en": "This paper presents the first unified survey of pretraining data exposure in LLMs, covering membership inference and data contamination. It formalizes exposure levels, reviews attack and defense methods, synthesizes empirical findings, and highlights open challenges and future directions.",
+        "tags": [
+          "llm",
+          "research",
+          "security",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-05-27T19:37:49.159640+08:00",
+        "updated_at": "2026-05-27T19:37:49.159642+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "SPEAR: Code-Augmented Agentic Prompt Optimization",
+      "url": "https://arxiv.org/abs/2605.26275",
+      "description": "arXiv:2605.26275v1 Announce Type: new \nAbstract: Automatic prompt engineering (APE) rewrites prompts to improve downstream task performance, but existing APE loops treat the optimizer itself as a fixed pipeline. We port the code-as-action paradigm of CodeAct (Wang et al., 2024a) to APE and propose SPEAR (Sandboxed Prompt Engineer with Active Roll-back), a free-form agentic optimizer with four tools -- evaluate, python, set_prompt, finish -- that decides autonomously how and when to use them. The distinctive tool is the Python sandbox: the optimizer writes and executes arbitrary Python on the current evaluation DataFrame, performing structural error analysis (confusion matrices, error clustering, per group metrics) the agent itself authors. Two guardrails turn the long-horizon agent into a monotone-improving optimizer: auto-rollback on metric regression, and an optional guard metric floor. We evaluate on three industrial LLM-as-judge suites (13 judge tasks across recruiter-intake, conversational-memory, and query-refinement systems) plus seven BBH tasks and GSM8K. SPEAR wins every industrial task on the primary metric ($\\kappa$ 0.857 vs 0.359 on tool-selection; F1-macro 0.815 vs 0.763 on filter-relevance; $\\kappa$ 0.254 vs 0.218 on the hardest extraction dimension). On BBH-7 SPEAR averages 0.938 accuracy vs GEPA 0.628 and TextGrad 0.484. Ablations show the Python tool is the largest single lever on complex judge tasks ($\\Delta \\approx +0.79\\kappa$ on the 5-class tool-selection judge, $\\Delta \\approx +0.35\\kappa$ on the hardest extraction dimension when removed); its irreplaceable contribution is class-pair confusion aggregation that a long-context LLM cannot extract reliably from the raw eval DataFrame.",
+      "pub_date": "Wed, 27 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "SPEAR：基于代码增强的智能体提示优化",
+        "summary": "SPEAR将代码即行动范式引入自动提示工程，提出沙盒式主动回滚优化器。它通过Python沙盒执行结构化错误分析，并采用自动回滚和指标下限两个护栏确保单调改进。在工业级LLM评判任务和BBH/GSM8K基准上全面超越现有方法。",
+        "summary_en": "SPEAR ports the code-as-action paradigm to automatic prompt engineering, introducing a sandboxed agentic optimizer with Python execution for structural error analysis and monotonic improvement guardrails. It outperforms existing methods on industrial LLM-as-judge tasks and BBH/GSM8K benchmarks.",
+        "tags": [
+          "llm",
+          "research",
+          "prompt-engineering",
+          "evaluation",
+          "python"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-27-rss-004",
+        "title": "SPEAR：基于代码增强的智能体提示优化",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.26275",
+        "language": "en",
+        "summary": "SPEAR将代码即行动范式引入自动提示工程，提出沙盒式主动回滚优化器。它通过Python沙盒执行结构化错误分析，并采用自动回滚和指标下限两个护栏确保单调改进。在工业级LLM评判任务和BBH/GSM8K基准上全面超越现有方法。",
+        "summary_en": "SPEAR ports the code-as-action paradigm to automatic prompt engineering, introducing a sandboxed agentic optimizer with Python execution for structural error analysis and monotonic improvement guardrails. It outperforms existing methods on industrial LLM-as-judge tasks and BBH/GSM8K benchmarks.",
+        "tags": [
+          "llm",
+          "research",
+          "prompt-engineering",
+          "evaluation",
+          "python"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-05-27T19:37:49.159644+08:00",
+        "updated_at": "2026-05-27T19:37:49.159646+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "CroCo: Cross-Lingual Contrastive Preference Tuning on Self-Generations",
+      "url": "https://arxiv.org/abs/2605.26293",
+      "description": "arXiv:2605.26293v1 Announce Type: new \nAbstract: Prior work establishes that controlled contrastiveness between self-generated responses from large language models, set via reward scores, improves downstream preference tuning in English. We extend this method to multiple languages and evaluate two models across a total of 14 high and low-resource languages on a diverse set of tasks. Our central finding is that cross-lingual contrastive preference tuning on self-generations (CroCo) transfers without language-specific preference annotation. A reward model trained on English preferences (atop a multilingual base) produces useful within-language rankings across most languages, and pairing in either a monolingual or multilingual setting improves over each model on the majority of setups while preventing the catastrophic forgetting of supervised fine-tuning. We observe that the gains require on-policy data. Off-policy responses reduce the benefit and online preference optimization fails to improve over the offline variant. Specifically, on structured tasks, our method matches or exceeds the base in 6/7 languages for EuroLLM-9B and 4/7 settings for Aya-3B. On open-ended generation, both tuned models win against their respective base across 11 evaluated languages. Overall, we show promising directions for multilingual preference tuning.",
+      "pub_date": "Wed, 27 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "CroCo：基于自生成响应的跨语言对比偏好调优",
+        "summary": "CroCo方法将英语中的对比偏好调优扩展到多语言场景，无需语言特定的偏好标注。通过英语奖励模型对多语言自生成响应排序，在14种高低资源语言上提升模型性能，防止灾难性遗忘，并发现在线策略数据是关键。",
+        "summary_en": "CroCo extends contrastive preference tuning to multiple languages without language-specific annotations. Using an English reward model on multilingual self-generations, it improves performance across 14 languages, prevents catastrophic forgetting, and shows on-policy data is critical.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "multilingual"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-27-rss-007",
+        "title": "CroCo：基于自生成响应的跨语言对比偏好调优",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.26293",
+        "language": "en",
+        "summary": "CroCo方法将英语中的对比偏好调优扩展到多语言场景，无需语言特定的偏好标注。通过英语奖励模型对多语言自生成响应排序，在14种高低资源语言上提升模型性能，防止灾难性遗忘，并发现在线策略数据是关键。",
+        "summary_en": "CroCo extends contrastive preference tuning to multiple languages without language-specific annotations. Using an English reward model on multilingual self-generations, it improves performance across 14 languages, prevents catastrophic forgetting, and shows on-policy data is critical.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "multilingual"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-05-27T19:37:49.159660+08:00",
+        "updated_at": "2026-05-27T19:37:49.159661+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "The Daily Dose: Workflow-Integrated Large Language Model Automation for Clinical Summarization and Trial Identification in Radiation Oncology",
+      "url": "https://arxiv.org/abs/2605.26346",
+      "description": "arXiv:2605.26346v1 Announce Type: new \nAbstract: Objective: To describe the design and early clinical evaluation of The Daily Dose (TDD), an LLM-driven, automated clinical summarization and clinical-trial identification system integrated into routine radiation oncology practice. Design: Mixed-methods evaluation using a cross-sectional, anonymous clinician survey administered after 1 month of system deployment. Exposure: Daily automated delivery of physician-specific email summaries generated using RadOnc-GPT, including patient schedules, concise EHR-derived clinical-status summaries, and automated identification of potentially relevant clinical trials for new or consult visits. Main Outcomes and Measures: Primary outcomes included self-reported usability, satisfaction, perceived usefulness, perceived impact on workflow, time savings, and intention for continued use. Internal consistency reliability was assessed using Cronbach's $\\alpha$. Results: Among 55 respondents, 52 (94.5\\%) worked in radiation oncology, and 38 (69.1\\%) were attending physicians. Most participants (83.6\\%) reported using TDD daily or several times per week. Mean (SD) scores were 3.89 (1.04) for usability and satisfaction, 3.43 (1.24) for perceived usefulness, and 3.80 (1.17) for impact and future use (5-point Likert scale). Overall satisfaction was positively associated with perceived time savings ($p < .001$). Participants reported variable time savings, with 27\\% estimating $\\geq 10$ minutes saved per day. The questionnaire demonstrated excellent internal consistency (overall Cronbach's $\\alpha$ = 0.97).",
+      "pub_date": "Wed, 27 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "每日剂量：放射肿瘤学中工作流集成的大语言模型自动化临床总结与试验识别",
+        "summary": "本文介绍了“每日剂量”（TDD）系统，这是一个集成到常规放射肿瘤学实践中的LLM驱动的自动化临床总结和临床试验识别系统。经过一个月的部署，对55名临床医生的调查显示，该系统具有良好的可用性、满意度和感知有用性，83.6%的用户每天或每周多次使用，27%的用户估计每天节省至少10分钟。",
+        "summary_en": "This paper presents The Daily Dose (TDD), an LLM-driven automated clinical summarization and clinical-trial identification system integrated into routine radiation oncology practice. After one month of deployment, a survey of 55 clinicians showed good usability, satisfaction, and perceived usefulness, with 83.6% using it daily or several times per week and 27% estimating at least 10 minutes saved per day.",
+        "tags": [
+          "llm",
+          "application",
+          "rag",
+          "fine-tuning"
+        ],
+        "category": "application",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-27-rss-008",
+        "title": "每日剂量：放射肿瘤学中工作流集成的大语言模型自动化临床总结与试验识别",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.26346",
+        "language": "en",
+        "summary": "本文介绍了“每日剂量”（TDD）系统，这是一个集成到常规放射肿瘤学实践中的LLM驱动的自动化临床总结和临床试验识别系统。经过一个月的部署，对55名临床医生的调查显示，该系统具有良好的可用性、满意度和感知有用性，83.6%的用户每天或每周多次使用，27%的用户估计每天节省至少10分钟。",
+        "summary_en": "This paper presents The Daily Dose (TDD), an LLM-driven automated clinical summarization and clinical-trial identification system integrated into routine radiation oncology practice. After one month of deployment, a survey of 55 clinicians showed good usability, satisfaction, and perceived usefulness, with 83.6% using it daily or several times per week and 27% estimating at least 10 minutes saved per day.",
+        "tags": [
+          "llm",
+          "application",
+          "rag",
+          "fine-tuning"
+        ],
+        "category": "application",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-05-27T19:37:49.159664+08:00",
+        "updated_at": "2026-05-27T19:37:49.159665+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

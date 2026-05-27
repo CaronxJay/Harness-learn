@@ -1,0 +1,26 @@
+{
+  "id": "2026-05-27-rss-006",
+  "title": "个性化多模态大语言模型代理：基于长期用户交互的记忆增强框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.26256",
+  "language": "en",
+  "summary": "提出POLAR框架，通过多模态知识图谱记忆（语义记忆+情景记忆）增强具身MLLM代理的个性化能力，使其能利用长期交互中的隐式上下文执行任务。实验表明该机制在跨交互推理、多跳推理和用户上下文追踪等场景下显著提升性能。",
+  "summary_en": "Proposes POLAR, a multimodal memory-augmented framework for personalized embodied MLLM agents. It organizes prior interactions into a knowledge graph capturing semantic and episodic memory, enabling agents to leverage long-term user context for task execution. Consistently improves performance, especially in multi-interaction reasoning and user-specific context tracking.",
+  "tags": [
+    "multimodal",
+    "llm",
+    "research",
+    "agent-framework",
+    "rag"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-05-27T19:37:49.159653+08:00",
+  "updated_at": "2026-05-27T19:37:49.159655+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

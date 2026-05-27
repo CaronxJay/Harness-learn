@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-27-rss-003",
+  "title": "大语言模型预训练数据暴露：成员推断、数据污染与安全影响综述",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.26133",
+  "language": "en",
+  "summary": "本文首次统一综述了大语言模型中的预训练数据暴露问题，涵盖成员推断和数据污染两个关键领域。形式化定义了暴露级别，回顾了攻击与防御方法，综合了实证发现，并指出了开放挑战与未来研究方向。",
+  "summary_en": "This paper presents the first unified survey of pretraining data exposure in LLMs, covering membership inference and data contamination. It formalizes exposure levels, reviews attack and defense methods, synthesizes empirical findings, and highlights open challenges and future directions.",
+  "tags": [
+    "llm",
+    "research",
+    "security",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-05-27T19:37:49.159640+08:00",
+  "updated_at": "2026-05-27T19:37:49.159642+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

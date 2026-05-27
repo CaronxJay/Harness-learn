@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-27-rss-008",
+  "title": "每日剂量：放射肿瘤学中工作流集成的大语言模型自动化临床总结与试验识别",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.26346",
+  "language": "en",
+  "summary": "本文介绍了“每日剂量”（TDD）系统，这是一个集成到常规放射肿瘤学实践中的LLM驱动的自动化临床总结和临床试验识别系统。经过一个月的部署，对55名临床医生的调查显示，该系统具有良好的可用性、满意度和感知有用性，83.6%的用户每天或每周多次使用，27%的用户估计每天节省至少10分钟。",
+  "summary_en": "This paper presents The Daily Dose (TDD), an LLM-driven automated clinical summarization and clinical-trial identification system integrated into routine radiation oncology practice. After one month of deployment, a survey of 55 clinicians showed good usability, satisfaction, and perceived usefulness, with 83.6% using it daily or several times per week and 27% estimating at least 10 minutes saved per day.",
+  "tags": [
+    "llm",
+    "application",
+    "rag",
+    "fine-tuning"
+  ],
+  "category": "application",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-05-27T19:37:49.159664+08:00",
+  "updated_at": "2026-05-27T19:37:49.159665+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

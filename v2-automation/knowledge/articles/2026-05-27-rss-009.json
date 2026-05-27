@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-27-rss-009",
+  "title": "BrickAnything：基于几何条件的可搭建砖块生成与结构感知分词",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.26182",
+  "language": "en",
+  "summary": "BrickAnything 是一个基于几何条件的自回归框架，可从3D点云生成可物理搭建的砖块结构。它引入结构感知树分词来表示砖块间的局部附着关系，并结合偏好对齐、有效性约束解码和自适应回滚，确保生成结构的几何保真度和物理稳定性。实验证明该方法优于传统启发式优化和序列生成方法。",
+  "summary_en": "BrickAnything is a geometry-conditioned autoregressive framework that generates physically buildable brick structures from 3D point clouds. It introduces structure-aware tree tokenization to model local attachment relations, and uses preference alignment, validity-constrained decoding, and adaptive rollback to ensure geometric fidelity and structural stability.",
+  "tags": [
+    "research",
+    "llm",
+    "application",
+    "3d-generation"
+  ],
+  "category": "research",
+  "relevance_score": 0.7,
+  "status": "published",
+  "created_at": "2026-05-27T19:37:49.159668+08:00",
+  "updated_at": "2026-05-27T19:37:49.159669+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

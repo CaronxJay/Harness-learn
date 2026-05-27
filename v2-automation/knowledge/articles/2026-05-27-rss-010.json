@@ -1,0 +1,24 @@
+{
+  "id": "2026-05-27-rss-010",
+  "title": "约束获取需要更好的基准测试",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.26279",
+  "language": "en",
+  "summary": "当前约束获取（CA）研究因缺乏合适的基准测试而受限，影响可重复性和可比性。本文提出MPMMine基准套件，通过统一结构、开放格式（MiniZinc、CommonMark、JSON）和版本控制，提供多模型、多实例及自然语言描述，以支持CA算法评估。",
+  "summary_en": "Constraint Acquisition research is hindered by inadequate benchmarks. This paper introduces MPMMine, a benchmark suite with uniform structure, open formats, and version control, providing multiple models, instances, and natural-language descriptions to evaluate CA algorithms.",
+  "tags": [
+    "benchmark",
+    "research",
+    "infrastructure"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.7,
+  "status": "published",
+  "created_at": "2026-05-27T19:37:49.159672+08:00",
+  "updated_at": "2026-05-27T19:37:49.159673+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

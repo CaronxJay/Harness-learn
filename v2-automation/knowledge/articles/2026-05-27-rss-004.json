@@ -1,0 +1,26 @@
+{
+  "id": "2026-05-27-rss-004",
+  "title": "SPEAR：基于代码增强的智能体提示优化",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.26275",
+  "language": "en",
+  "summary": "SPEAR将代码即行动范式引入自动提示工程，提出沙盒式主动回滚优化器。它通过Python沙盒执行结构化错误分析，并采用自动回滚和指标下限两个护栏确保单调改进。在工业级LLM评判任务和BBH/GSM8K基准上全面超越现有方法。",
+  "summary_en": "SPEAR ports the code-as-action paradigm to automatic prompt engineering, introducing a sandboxed agentic optimizer with Python execution for structural error analysis and monotonic improvement guardrails. It outperforms existing methods on industrial LLM-as-judge tasks and BBH/GSM8K benchmarks.",
+  "tags": [
+    "llm",
+    "research",
+    "prompt-engineering",
+    "evaluation",
+    "python"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-05-27T19:37:49.159644+08:00",
+  "updated_at": "2026-05-27T19:37:49.159646+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-27-rss-007",
+  "title": "CroCo：基于自生成响应的跨语言对比偏好调优",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.26293",
+  "language": "en",
+  "summary": "CroCo方法将英语中的对比偏好调优扩展到多语言场景，无需语言特定的偏好标注。通过英语奖励模型对多语言自生成响应排序，在14种高低资源语言上提升模型性能，防止灾难性遗忘，并发现在线策略数据是关键。",
+  "summary_en": "CroCo extends contrastive preference tuning to multiple languages without language-specific annotations. Using an English reward model on multilingual self-generations, it improves performance across 14 languages, prevents catastrophic forgetting, and shows on-policy data is critical.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "multilingual"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-05-27T19:37:49.159660+08:00",
+  "updated_at": "2026-05-27T19:37:49.159661+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

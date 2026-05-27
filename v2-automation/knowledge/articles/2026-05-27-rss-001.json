@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-27-rss-001",
+  "title": "LLM能否内省？一次现实检验",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.26242",
+  "language": "en",
+  "summary": "本文质疑LLM能内省自身内部状态的说法。基于人类元认知研究，指出当前行为证据不足以证明内省，可能只是模式匹配。通过重新检验两个评估范式，发现模型无法可靠区分内部状态干预与输入异常，且仅访问输入的分类器能达到与模型内省预测相当的性能。结论是现有证据不足以证明LLM具有元认知监控能力。",
+  "summary_en": "This paper questions claims that LLMs can introspect their internal states. Drawing on human metacognition research, it argues behavioral evidence is insufficient and may reflect pattern matching. Re-examining two evaluation paradigms, it finds models cannot reliably distinguish internal state interventions from input anomalies, and input-only classifiers match model introspective predictions. Concludes current evidence fails to demonstrate LLM metacognitive monitoring.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-05-27T19:37:49.159630+08:00",
+  "updated_at": "2026-05-27T19:37:49.159632+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

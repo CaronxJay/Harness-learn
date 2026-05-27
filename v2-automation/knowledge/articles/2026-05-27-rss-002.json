@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-27-rss-002",
+  "title": "自验证蒸馏：语言模型自身作为合成数据管道",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.26132",
+  "language": "en",
+  "summary": "提出自验证蒸馏算法，让大语言模型仅使用无标签种子问题，通过自生成候选解、基于提示的自验证过滤（包括循环一致性、事实性和正确性检查），构建高质量自训练数据集，从而提升推理能力。在数学、科学和编程三个领域，Qwen3模型（0.6B/4B/8B）均取得显著性能提升。",
+  "summary_en": "Proposes Self-Verified Distillation, a post-training refinement algorithm where LLMs generate candidate solutions to unlabeled seed questions, filter them via prompt-based self-verification (cycle-consistency, factuality, correctness), and train on the curated dataset. Achieves significant gains across math, science, and coding for Qwen3 models.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "prompt-engineering"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-05-27T19:37:49.159636+08:00",
+  "updated_at": "2026-05-27T19:37:49.159637+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
