@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-28-rss-005",
+  "title": "DynaSchedBench：基于LLM调度代理的校准动态调度基准与可观测性悖论",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.27566",
+  "language": "en",
+  "summary": "提出DynaSchedBench框架，通过顺序事件空间校准器（SESC）和调度压力指数（SSI）对动态柔性作业车间调度问题（DFJSP）实例进行难度分层。发现LLM调度代理存在“可观测性悖论”：提供完整结构信息反而降低性能，且工具增强和优化策略无法可靠提升效果。",
+  "summary_en": "Introduces DynaSchedBench, a diagnostic framework for DFJSP using Sequential Event-Space Calibrator (SESC) and Schedule Stress Index (SSI) to stratify instance difficulty. Identifies an 'Observability Paradox' in LLM scheduling agents: full structural information degrades performance, and tool-augmented strategies fail to reliably improve results.",
+  "tags": [
+    "llm",
+    "research",
+    "benchmark",
+    "agent-framework"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-05-28T19:38:09.540666+08:00",
+  "updated_at": "2026-05-28T19:38:09.540669+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

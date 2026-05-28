@@ -1,0 +1,26 @@
+{
+  "id": "2026-05-28-rss-001",
+  "title": "Soro：面向塔吉克语的轻量级基础模型与聊天机器人",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.27379",
+  "language": "en",
+  "summary": "Soro 是一系列专为塔吉克语设计的轻量级对话大语言模型，基于 Gemma 3 进行持续预训练和监督微调，在塔吉克语基准测试上显著优于基线模型，同时保持英语性能。支持 FP8/INT4 量化以适配边缘部署，已在教育领域试点。",
+  "summary_en": "Soro is a family of Tajik-specialized lightweight conversational LLMs, built on Gemma 3 with continual pretraining and instruction tuning. It outperforms baselines on Tajik benchmarks while retaining English performance, and supports FP8/INT4 quantization for edge deployment in education.",
+  "tags": [
+    "llm",
+    "fine-tuning",
+    "benchmark",
+    "application",
+    "multimodal"
+  ],
+  "category": "llm",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-05-28T19:38:09.540631+08:00",
+  "updated_at": "2026-05-28T19:38:09.540636+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

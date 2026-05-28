@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-28-rss-007",
+  "title": "基于LLM的可定制人类价值观识别架构",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.27373",
+  "language": "en",
+  "summary": "提出一种基于大语言模型（LLM）的模块化架构，用于从文本中检测和量化人类价值观的强度。该架构包含三个模块：从理论文本生成结构化价值规范、基于规范标注文本、根据修辞和语义证据分配支持或反对等级。该方法避免了以往方法受限于特定价值理论或复杂提示工程的缺陷，具有可扩展性和可重复性。在ValueEval数据集上验证了良好性能。",
+  "summary_en": "Introduces a modular LLM-based architecture to detect and quantify the intensity of human values in text, avoiding limitations of prior approaches tied to specific value theories or complex prompt engineering. The architecture generates structured value specifications, labels texts, and assigns graded support/resistance. Evaluated on ValueEval dataset with good performance.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "prompt-engineering"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-05-28T19:38:09.540679+08:00",
+  "updated_at": "2026-05-28T19:38:09.540681+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

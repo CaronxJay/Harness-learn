@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-28-rss-008",
+  "title": "通过隐写继承追踪合成信息起源",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.27551",
+  "language": "en",
+  "summary": "提出一种类似生物遗传的隐写机制，为合成信息赋予可追溯的谱系特征。通过投影器提取父本特征并隐写嵌入子代，在查询时提取比对以确定亲缘关系。理论分析和实验验证了该方法在多种处理操作和语义修改下的可行性，旨在解决AI生成信息溯源难题。",
+  "summary_en": "Proposes a steganographic mechanism analogous to heredity to trace the lineage of synthetic information. A projector derives a trait from the parent and hides it in the offspring via steganography; parentage is determined by extracting and comparing traits. Theoretical analysis and empirical evaluations demonstrate viability under various operations and modifications, addressing the challenge of tracing AI-generated content.",
+  "tags": [
+    "research",
+    "security",
+    "llm",
+    "infrastructure"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-05-28T19:38:09.540686+08:00",
+  "updated_at": "2026-05-28T19:38:09.540688+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

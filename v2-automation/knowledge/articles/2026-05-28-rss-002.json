@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-28-rss-002",
+  "title": "LLM因果发现失败原因及干预式智能体解决方案",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.27567",
+  "language": "en",
+  "summary": "本文证明LLM在因果发现中存在根本性局限：监督微调、DPO和上下文学习均无法区分产生相似观测数据的因果图，且模型内部表示需无限增长才能解决。提出Agentic Causal Bayesian Optimization (A-CBO)，利用冻结语言模型作为干预预言机，外部贝叶斯循环在对数轮内收敛。在Corr2Cause和扩展基准上无需训练即可匹配或超越微调基线。",
+  "summary_en": "Proves LLMs fundamentally fail at causal discovery due to a kernel obstruction theorem. Proposes Agentic Causal Bayesian Optimization (A-CBO) using frozen LLM as interventional oracle with external Bayesian loop, achieving provable convergence and outperforming fine-tuning on benchmarks up to 24 variables.",
+  "tags": [
+    "llm",
+    "research",
+    "agent-framework",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-05-28T19:38:09.540642+08:00",
+  "updated_at": "2026-05-28T19:38:09.540645+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

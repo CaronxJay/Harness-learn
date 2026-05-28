@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-28-rss-009",
+  "title": "ICG：基于多模态大语言模型提示与个性化偏好对齐的封面图像生成改进",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.27374",
+  "language": "en",
+  "summary": "提出ICG框架，利用多模态大语言模型（MLLM）进行提示，并结合个性化偏好对齐，生成高质量、上下文相关的封面图像。通过元标记提取语义特征，使用用户嵌入进行个性化，并采用多奖励学习策略优化。实验表明ICG在图像质量、语义保真度和个性化方面显著提升。",
+  "summary_en": "Proposes ICG, a framework integrating MLLM-based prompting with personalized preference alignment for high-quality cover image generation. It extracts semantic features via meta tokens, personalizes with user embeddings, and uses multi-reward learning. Experiments show improvements in image quality, semantic fidelity, and personalization.",
+  "tags": [
+    "multimodal",
+    "llm",
+    "application",
+    "fine-tuning"
+  ],
+  "category": "multimodal",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-05-28T19:38:09.540692+08:00",
+  "updated_at": "2026-05-28T19:38:09.540695+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

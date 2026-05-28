@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-28-rss-006",
+  "title": "LCO：基于LLM的约束优化实现更安全的智能体LLM",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.27375",
+  "language": "en",
+  "summary": "提出LCO框架，通过自省模块和进化采样模块，在不微调模型的情况下减少上下文奖励黑客行为（ICRH），在推文优化任务中使毒性增长率降低39%，在策略优化基准中使ICRH发生率降低15.23%。",
+  "summary_en": "Proposes LCO framework that reduces in-context reward hacking (ICRH) via self-thought and evolutionary sampling modules without fine-tuning, achieving 39% TGR reduction on tweet optimization and 15.23% ICRH reduction on policy benchmark.",
+  "tags": [
+    "llm",
+    "research",
+    "security",
+    "agent-framework"
+  ],
+  "category": "security",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-05-28T19:38:09.540673+08:00",
+  "updated_at": "2026-05-28T19:38:09.540675+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-28-rss-010",
+  "title": "解锁基于提示的文本转语音模型中的细粒度与句内说话风格控制",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.27376",
+  "language": "en",
+  "summary": "本文针对基于提示的TTS模型在细粒度控制和句内风格变化上的不足，提出了两种新技术：通过嵌入空间中的对比风格提示向量插值实现句间风格平滑过渡；通过KV缓存交换和滑动窗口注意力掩码实现句内风格动态变化。实验验证了性别转换成功率99-100%，音高变化达36Hz，语速变化达1.6音节/秒，句内转换保持说话人相似度0.81-0.91，感知平滑度3.48-4.48。",
+  "summary_en": null,
+  "tags": [
+    "llm",
+    "research",
+    "application",
+    "fine-tuning"
+  ],
+  "category": "research",
+  "relevance_score": 0.8,
+  "status": "published",
+  "created_at": "2026-05-28T19:38:09.540699+08:00",
+  "updated_at": "2026-05-28T19:38:09.540702+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

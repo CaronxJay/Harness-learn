@@ -1,0 +1,26 @@
+{
+  "id": "2026-05-28-rss-003",
+  "title": "RAG-Coding：利用结构化外部知识增强LLM医疗编码",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.27377",
+  "language": "en",
+  "summary": "提出RAG-Coding方法，通过编排四个LLM代理并基于外部知识源（如官方编码表和指南）进行编码决策，提升ICD-10-CM自动编码的准确性和临床合规性。在MDACE数据集上，微F1和宏F1分别比最佳LLM基线高8-13%和2-8%。同时发布了更新至2025年指南的MDACE-2025数据集。",
+  "summary_en": "We present RAG-Coding, an agentic method for automated ICD-10-CM coding that orchestrates four LLM agents and grounds decisions in external knowledge sources, outperforming LLM baselines by 8-13% micro-F1 and 2-8% macro-F1 on MDACE. Also releases MDACE-2025 with updated 2025 guidelines.",
+  "tags": [
+    "llm",
+    "rag",
+    "agent-framework",
+    "application",
+    "benchmark"
+  ],
+  "category": "application",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-05-28T19:38:09.540649+08:00",
+  "updated_at": "2026-05-28T19:38:09.540651+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
