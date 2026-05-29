@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-29-rss-001",
+  "title": "MechELK：大型语言模型中潜在知识提取的机制可解释性框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.28825",
+  "language": "en",
+  "summary": "MechELK是一个三阶段框架，结合机制可解释性与潜在知识提取。通过定位（SAE特征分析）、验证（因果探测）和提取（表示工程）步骤，在TruthfulQA等基准上平均提取准确率达84.7%，优于现有方法，并能识别78.3%的表面错误输出中的潜在知识，适用于AI安全。",
+  "summary_en": "MechELK is a three-stage framework bridging mechanistic interpretability and latent knowledge elicitation. Using SAE feature analysis, causal probing, and representation engineering, it achieves 84.7% average elicitation accuracy on benchmarks like TruthfulQA, outperforming CCS by 6.2%, and identifies latent knowledge in 78.3% of cases with incorrect surface outputs, aiding AI safety.",
+  "tags": [
+    "llm",
+    "research",
+    "interpretability",
+    "safety"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-05-29T19:28:52.281527+08:00",
+  "updated_at": "2026-05-29T19:28:52.281530+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

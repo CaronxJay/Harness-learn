@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-29-rss-009",
+  "title": "超低影响包裹式伐木（URIEL）：利用空中机器人系统实现热带森林选择性可持续采伐与采后造林处理",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.28883",
+  "language": "zh",
+  "summary": "提出URIEL方法，结合直升机伐木、机器人、AI及无人机采后造林，实现热带森林可持续采伐。数字仿真与可行性分析表明，该方法经济可行，能几乎消除对森林的附带损害，维持生态系统服务。",
+  "summary_en": null,
+  "tags": [
+    "robotics",
+    "ai",
+    "sustainability",
+    "application"
+  ],
+  "category": "application",
+  "relevance_score": 0.6,
+  "status": "published",
+  "created_at": "2026-05-29T19:28:52.281567+08:00",
+  "updated_at": "2026-05-29T19:28:52.281569+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "zh"
+  }
+}

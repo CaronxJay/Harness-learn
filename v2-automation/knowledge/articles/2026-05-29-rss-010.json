@@ -1,0 +1,24 @@
+{
+  "id": "2026-05-29-rss-010",
+  "title": "类型可控词汇生成的模块化架构",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.28824",
+  "language": "en",
+  "summary": "提出一个模块化框架，从PHOIBLE采样音位清单，在可互换音系语法下生成词形，并通过Swadesh-Leipzig-Jakarta本体分配语义。评估表明概率语法在音位连贯性和类型学真实性上优于确定性和随机基线。",
+  "summary_en": "Proposes a modular framework that samples phoneme inventories from PHOIBLE, generates word forms under interchangeable phonological grammars, and assigns meanings via a Swadesh-Leipzig-Jakarta ontology. Evaluation shows probabilistic grammars outperform deterministic and random baselines on phonotactic coherence and typological realism.",
+  "tags": [
+    "research",
+    "llm",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.6,
+  "status": "published",
+  "created_at": "2026-05-29T19:28:52.281572+08:00",
+  "updated_at": "2026-05-29T19:28:52.281573+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

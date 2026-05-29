@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-29-rss-004",
+  "title": "LLM概念界定、探测与追踪",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.28823",
+  "language": "en",
+  "summary": "本文提出一种低成本、可应用于任意LLM的线性探测方法，通过精心构建包含/不包含特定概念的数据集来界定概念，训练线性探针检测LLM各层嵌入中的概念，并展示其在长上下文中的追踪能力。在四个概念和三个LLM上验证，为大规模监控模型思考内容奠定基础。",
+  "summary_en": "This paper proposes a low-cost, LLM-agnostic linear probing method to detect concepts in embeddings. It carefully delineates concepts via datasets with/without them, trains probes, and tracks concepts across contexts. Validated on four concepts and three LLMs, it enables scalable monitoring of model internals.",
+  "tags": [
+    "llm",
+    "research",
+    "interpretability",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-05-29T19:28:52.281543+08:00",
+  "updated_at": "2026-05-29T19:28:52.281544+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

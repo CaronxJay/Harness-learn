@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-29-rss-006",
+  "title": "基于轻量级多模态大模型的电力设备缺陷分级方法",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.28822",
+  "language": "en",
+  "summary": "提出一种基于多模态大语言模型（MLLM）的电力设备缺陷分级框架。通过上下文学习最大化商用MLLM潜力，利用思维链问答对微调Qwen3-VL-8B，仅微调语言层即达最优性能，多任务联合微调验证了单一轻量级MLLM处理多个分级任务的可行性。",
+  "summary_en": "Proposes a defect grading framework for power transmission equipment based on multimodal LLMs. Maximizes commercial MLLM potential via in-context learning, uses chain-of-thought Q&A pairs to fine-tune Qwen3-VL-8B, achieving SOTA by only fine-tuning the language layer. Multi-task joint fine-tuning validates handling multiple grading tasks with a single lightweight MLLM.",
+  "tags": [
+    "multimodal",
+    "fine-tuning",
+    "application",
+    "llm"
+  ],
+  "category": "application",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-05-29T19:28:52.281552+08:00",
+  "updated_at": "2026-05-29T19:28:52.281553+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

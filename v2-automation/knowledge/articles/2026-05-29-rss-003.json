@@ -1,0 +1,24 @@
+{
+  "id": "2026-05-29-rss-003",
+  "title": "认知范畴变换器：用于语言建模的范畴论归纳偏置",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.28864",
+  "language": "en",
+  "summary": "提出认知范畴变换器（CCT），在GPT-2 Small骨干上集成范畴论和认知科学组件。在WikiText-103上，CCT达到21.27验证困惑度，比微调基线降低2.92 PPL（12%相对改进）。消融实验证实单纯复形消息传递贡献了84%的架构改进。",
+  "summary_en": "Proposes the Cognitive Categorical Transformer (CCT), augmenting GPT-2 Small with category-theoretic and cognitive components. Achieves 21.27 validation perplexity on WikiText-103, a 2.92 PPL (12% relative) reduction over fine-tuned baseline. Ablation validates simplicial message passing contributes 84% of the improvement.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-05-29T19:28:52.281539+08:00",
+  "updated_at": "2026-05-29T19:28:52.281540+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

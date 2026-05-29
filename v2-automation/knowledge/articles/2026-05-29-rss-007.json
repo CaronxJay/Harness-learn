@@ -1,0 +1,24 @@
+{
+  "id": "2026-05-29-rss-007",
+  "title": "行为诱导的镜像-近端时序差分学习加速离策略预测",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.28849",
+  "language": "en",
+  "summary": "提出STHTD-MP方法，用行为策略Bellman矩阵的对称部分替代协方差度量，在原始-对偶鞍点公式中引入行为诱导几何，实现更快的离策略预测收敛。提供收敛性分析和数值验证。",
+  "summary_en": "Proposes STHTD-MP, replacing the covariance metric with the symmetric part of the behavior-policy Bellman matrix in the primal-dual saddle-point formulation, enabling faster off-policy prediction convergence. Provides convergence analysis and numerical validation.",
+  "tags": [
+    "research",
+    "reinforcement-learning",
+    "optimization"
+  ],
+  "category": "research",
+  "relevance_score": 0.8,
+  "status": "published",
+  "created_at": "2026-05-29T19:28:52.281559+08:00",
+  "updated_at": "2026-05-29T19:28:52.281560+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

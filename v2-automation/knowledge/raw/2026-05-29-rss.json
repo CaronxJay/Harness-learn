@@ -1,0 +1,473 @@
+{
+  "collected_at": "2026-05-29T19:28:52.282387+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "Behavior-Induced Mirror-Prox Temporal-Difference Learning for Faster Off-Policy Prediction",
+      "url": "https://arxiv.org/abs/2605.28849",
+      "description": "arXiv:2605.28849v1 Announce Type: new \nAbstract: Gradient temporal-difference methods provide stable off-policy prediction with linear function approximation, but their practical performance is strongly affected by the geometry induced by the auxiliary-variable metric. Existing Mirror-Prox TD methods typically use the feature covariance metric, whereas hybrid TD methods suggest that behavior-policy transition information can provide a more informative update geometry. This paper proposes a behavior-induced Mirror-Prox temporal-difference method, called STHTD-MP, which replaces the covariance metric in the primal-dual saddle-point formulation with the symmetric part of the behavior-policy Bellman matrix. The method keeps a single learning rate for the primal and auxiliary variables and applies a Mirror-Prox prediction-correction step to the resulting hybrid saddle-point operator. We provide a formal convergence analysis for fixed-policy linear prediction under standard stochastic approximation assumptions: the behavior-induced metric is positive definite, the joint mean system is Hurwitz, boundedness follows from a Lyapunov argument, and the stochastic recursion converges by the ODE method. We further derive projected-oracle ergodic gap bounds and an exact mean-operator comparison with GTD2-MP based on the spectral radius of the deterministic Mirror-Prox error matrix. The analysis shows that STHTD-MP can have a smaller mean contraction factor than GTD2-MP when the behavior-induced metric improves the saddle-point geometry. Exact numerical mean-operator analysis on two-state, Random Walk, and Boyan Chain benchmarks supports this condition, while Baird's counterexample is identified as a singular boundary case where the strict assumptions fail.",
+      "pub_date": "Fri, 29 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "行为诱导的镜像-近端时序差分学习加速离策略预测",
+        "summary": "提出STHTD-MP方法，用行为策略Bellman矩阵的对称部分替代协方差度量，在原始-对偶鞍点公式中引入行为诱导几何，实现更快的离策略预测收敛。提供收敛性分析和数值验证。",
+        "summary_en": "Proposes STHTD-MP, replacing the covariance metric with the symmetric part of the behavior-policy Bellman matrix in the primal-dual saddle-point formulation, enabling faster off-policy prediction convergence. Provides convergence analysis and numerical validation.",
+        "tags": [
+          "research",
+          "reinforcement-learning",
+          "optimization"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-29-rss-007",
+        "title": "行为诱导的镜像-近端时序差分学习加速离策略预测",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.28849",
+        "language": "en",
+        "summary": "提出STHTD-MP方法，用行为策略Bellman矩阵的对称部分替代协方差度量，在原始-对偶鞍点公式中引入行为诱导几何，实现更快的离策略预测收敛。提供收敛性分析和数值验证。",
+        "summary_en": "Proposes STHTD-MP, replacing the covariance metric with the symmetric part of the behavior-policy Bellman matrix in the primal-dual saddle-point formulation, enabling faster off-policy prediction convergence. Provides convergence analysis and numerical validation.",
+        "tags": [
+          "research",
+          "reinforcement-learning",
+          "optimization"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "status": "published",
+        "created_at": "2026-05-29T19:28:52.281559+08:00",
+        "updated_at": "2026-05-29T19:28:52.281560+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Behavior-Aware Auxiliary Corrections for Off-Policy Temporal-Difference Prediction",
+      "url": "https://arxiv.org/abs/2605.28855",
+      "description": "arXiv:2605.28855v1 Announce Type: new \nAbstract: Temporal-difference learning with function approximation can be unstable under off-policy sampling. TDC stabilizes off-policy TD through an auxiliary covariance correction, and TDRC further regularizes this correction in a single-timescale recursion. This paper studies a behavior-aware replacement of the auxiliary covariance geometry in the linear prediction setting, which is the standard local model for understanding the feature-space dynamics of value-function approximation. We first replace the TDC auxiliary matrix (C) by the behavior Bellman matrix (A_\\mu), yielding BA-TDC, and then regularize the same behavior-aware equation to obtain BA-TDRC. This two-step construction separates the contribution of behavior-aware geometry from the contribution of regularization. The linear analysis also provides a tractable model for an auxiliary-geometry design question that arises in neural-network value approximation, where feature covariances and temporal transition matrices jointly shape the last-layer correction dynamics. We give a finite-state mean-system formulation, prove fixed-point preservation and almost-sure convergence under a Hurwitz stability condition on the instantiated mean system, and compare deterministic mean rates through the spectral radius of the exact linear error recursion. Experiments on the two-state counterexample, Baird's counterexample, Random Walk, and Boyan Chain show that the behavior-aware replacement can be highly beneficial by itself on some tasks, but that regularization is necessary for robust performance across harder settings.",
+      "pub_date": "Fri, 29 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "行为感知的辅助修正用于离策略时序差分预测",
+        "summary": "本文提出行为感知的辅助修正方法（BA-TDC/BA-TDRC），通过用行为贝尔曼矩阵替换TDC中的辅助矩阵，稳定离策略TD学习。理论分析证明了不动点保持和几乎必然收敛，实验表明行为感知替换本身有益，但正则化对鲁棒性至关重要。",
+        "summary_en": null,
+        "tags": [
+          "research",
+          "reinforcement-learning",
+          "off-policy",
+          "temporal-difference"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-29-rss-008",
+        "title": "行为感知的辅助修正用于离策略时序差分预测",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.28855",
+        "language": "en",
+        "summary": "本文提出行为感知的辅助修正方法（BA-TDC/BA-TDRC），通过用行为贝尔曼矩阵替换TDC中的辅助矩阵，稳定离策略TD学习。理论分析证明了不动点保持和几乎必然收敛，实验表明行为感知替换本身有益，但正则化对鲁棒性至关重要。",
+        "summary_en": null,
+        "tags": [
+          "research",
+          "reinforcement-learning",
+          "off-policy",
+          "temporal-difference"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "status": "published",
+        "created_at": "2026-05-29T19:28:52.281563+08:00",
+        "updated_at": "2026-05-29T19:28:52.281565+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "The Cognitive Categorical Transformer: Category-Theoretic Inductive Biases for Language Modeling",
+      "url": "https://arxiv.org/abs/2605.28864",
+      "description": "arXiv:2605.28864v1 Announce Type: new \nAbstract: The Cognitive Categorical Transformer (CCT) is a 306M-parameter architecture that augments a pretrained GPT-2 Small backbone with cognitively grounded components derived from category theory and several inspirations from cognitive science. Under a matched-step protocol (215,000 optimizer steps, matched data, matched optimizer and schedule) on WikiText-103, CCT reaches 21.27 validation perplexity, compared with 24.19 for an identically fine-tuned GPT-2 Small baseline. The architecture therefore contributes a 2.92 PPL (12% relative) reduction beyond what in-domain fine-tuning alone provides. A retrain-from-scratch ablation that holds GT-Full simplicial message passing bypassed across the entire seven-phase activation schedule reaches 23.72 PPL, localizing 84% of the architectural improvement (2.45 of 2.92 PPL) to GT-Full. We present the first ablation-validated evidence that simplicial message passing improves language-model perplexity at the 306M-parameter scale on WikiText-103. Published GPT-2 Large reaches 22.05 zero-shot PPL on WikiText-103 with 6.2x more parameters than GPT-2 Small; this paper treats that number as an external published reference, not as the architectural benchmark. Three negative results on consistency-style categorical priors (sheaf smoothing, adjunction round-trip, curvature regularization) and the joint structural-prior result for GT-Full and PrecisionWeightedPP together support an empirical pattern termed the *structure/consistency distinction*, in which categorical priors that add new topology improve language modeling and those that enforce a consistency identity do not.",
+      "pub_date": "Fri, 29 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "认知范畴变换器：用于语言建模的范畴论归纳偏置",
+        "summary": "提出认知范畴变换器（CCT），在GPT-2 Small骨干上集成范畴论和认知科学组件。在WikiText-103上，CCT达到21.27验证困惑度，比微调基线降低2.92 PPL（12%相对改进）。消融实验证实单纯复形消息传递贡献了84%的架构改进。",
+        "summary_en": "Proposes the Cognitive Categorical Transformer (CCT), augmenting GPT-2 Small with category-theoretic and cognitive components. Achieves 21.27 validation perplexity on WikiText-103, a 2.92 PPL (12% relative) reduction over fine-tuned baseline. Ablation validates simplicial message passing contributes 84% of the improvement.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-29-rss-003",
+        "title": "认知范畴变换器：用于语言建模的范畴论归纳偏置",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.28864",
+        "language": "en",
+        "summary": "提出认知范畴变换器（CCT），在GPT-2 Small骨干上集成范畴论和认知科学组件。在WikiText-103上，CCT达到21.27验证困惑度，比微调基线降低2.92 PPL（12%相对改进）。消融实验证实单纯复形消息传递贡献了84%的架构改进。",
+        "summary_en": "Proposes the Cognitive Categorical Transformer (CCT), augmenting GPT-2 Small with category-theoretic and cognitive components. Achieves 21.27 validation perplexity on WikiText-103, a 2.92 PPL (12% relative) reduction over fine-tuned baseline. Ablation validates simplicial message passing contributes 84% of the improvement.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-05-29T19:28:52.281539+08:00",
+        "updated_at": "2026-05-29T19:28:52.281540+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Ultra-Reduced-Impact-Encased-Logging (URIEL): propose a new method for selective sustainable logging and post-harvest silvicultural treatment in tropical forest using airborne robotics systems",
+      "url": "https://arxiv.org/abs/2605.28883",
+      "description": "arXiv:2605.28883v1 Announce Type: new \nAbstract: Tropical forests worldwide are under intense deforestation pressure driven by economic and political interests, and scientific evidence suggests this deforestation contributes to climate change. This paper proposes a novel logging method for tropical forests, Ultra-Reduced-Impact-Encased-Logging (URIEL). This new method is based on heli-logging techniques combined with intensive use of robotics and AI integrated with post-harvest silvicultural treatments performed by drones. The concept of appropriate equipment for this method was developed, dimensions were determined, details were completed in a digital proof of concept, and an effective digital simulation and economic feasibility analysis were carried out for various helicopter-timber-distance combinations. The results demonstrated that a URIEL method has high economic viability and makes it possible to virtually eliminate collateral damage to forests while maintaining ecosystem services. The main conclusion of this paper is that, despite the satisfactory scientific and technological results, the feasibility of a Uriel method depends on the integration of stakeholders intrinsic to the context: high-tech industry; political governments; certified logging companies; and native populations.",
+      "pub_date": "Fri, 29 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "超低影响包裹式伐木（URIEL）：利用空中机器人系统实现热带森林选择性可持续采伐与采后造林处理",
+        "summary": "提出URIEL方法，结合直升机伐木、机器人、AI及无人机采后造林，实现热带森林可持续采伐。数字仿真与可行性分析表明，该方法经济可行，能几乎消除对森林的附带损害，维持生态系统服务。",
+        "summary_en": null,
+        "tags": [
+          "robotics",
+          "ai",
+          "sustainability",
+          "application"
+        ],
+        "category": "application",
+        "relevance_score": 0.6,
+        "language": "zh"
+      },
+      "_article": {
+        "id": "2026-05-29-rss-009",
+        "title": "超低影响包裹式伐木（URIEL）：利用空中机器人系统实现热带森林选择性可持续采伐与采后造林处理",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.28883",
+        "language": "zh",
+        "summary": "提出URIEL方法，结合直升机伐木、机器人、AI及无人机采后造林，实现热带森林可持续采伐。数字仿真与可行性分析表明，该方法经济可行，能几乎消除对森林的附带损害，维持生态系统服务。",
+        "summary_en": null,
+        "tags": [
+          "robotics",
+          "ai",
+          "sustainability",
+          "application"
+        ],
+        "category": "application",
+        "relevance_score": 0.6,
+        "status": "published",
+        "created_at": "2026-05-29T19:28:52.281567+08:00",
+        "updated_at": "2026-05-29T19:28:52.281569+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "zh"
+        }
+      }
+    },
+    {
+      "title": "Review Arcade: On the Human Alignment and Gameability of LLM Reviews",
+      "url": "https://arxiv.org/abs/2605.28897",
+      "description": "arXiv:2605.28897v1 Announce Type: new \nAbstract: LLM-generated reviews for scientific papers are gaining considerable traction and are even being officially piloted by major conferences. We have to assume that not only reviewers are using LLM-assistance, but also that authors use LLMs to revise their papers before submitting. In this work, we perform empirical experiments on papers from the 2025 ACL Rolling Review (ARR) to evaluate LLM reviews from both the author and the reviewer perspective. First, we identify a limited alignment of LLM reviews with human ones. In the best-case scenario, the alignment is reasonable. However, we also find that LLM-human alignment varies substantially across prompts and models. Finally, we investigate the scenario in which the author uses an iterative draft-revise workflow to improve the submission according to the LLM review. We find that this \"gaming\" of LLM reviews can be effective in specific scenarios, leading to a statistically significant increase of overall scores for up to 35\\% of papers. We publish our code: https://github.com/uhh-hcds/reviewarcade.",
+      "pub_date": "Fri, 29 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "LLM评审的对齐性与可操纵性研究",
+        "summary": "本研究针对ACL滚动评审中的论文，评估LLM生成的评审与人类评审的对齐程度，发现对齐性有限且随提示和模型变化。同时发现作者可根据LLM评审迭代修改论文以提升评分，最多35%的论文分数显著提高。",
+        "summary_en": "This study evaluates LLM-generated reviews for ACL Rolling Review papers, finding limited alignment with human reviews that varies by prompt and model. It also shows authors can iteratively revise papers based on LLM reviews, achieving significant score increases for up to 35% of papers.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "benchmark",
+          "security"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-29-rss-005",
+        "title": "LLM评审的对齐性与可操纵性研究",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.28897",
+        "language": "en",
+        "summary": "本研究针对ACL滚动评审中的论文，评估LLM生成的评审与人类评审的对齐程度，发现对齐性有限且随提示和模型变化。同时发现作者可根据LLM评审迭代修改论文以提升评分，最多35%的论文分数显著提高。",
+        "summary_en": "This study evaluates LLM-generated reviews for ACL Rolling Review papers, finding limited alignment with human reviews that varies by prompt and model. It also shows authors can iteratively revise papers based on LLM reviews, achieving significant score increases for up to 35% of papers.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "benchmark",
+          "security"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-05-29T19:28:52.281547+08:00",
+        "updated_at": "2026-05-29T19:28:52.281548+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Lightweight Multimodal LLM-Enabled Cost-Effective Defect Grading of Power Transmission Equipment",
+      "url": "https://arxiv.org/abs/2605.28822",
+      "description": "arXiv:2605.28822v1 Announce Type: new \nAbstract: Defect grading of power transmission equipment (DGPTE) is crucial to the stability of electric energy transmission. Although existing machine learning methods exhibit strong capabilities in defect detection, they are plagued by difficulties in integrating expert experience and facing class imbalance in more refined defect grading field. To address this issue, this paper introduces a novel defect grading framework based on multimodal large language model (MLLM). Specifically, this approach maximizes the commercial MLLMs' potential of DGPTE through in-context learning and obtains the state-of-te-art (SOTA) model. By sending a secondary request to this model, a small number of chain of thought-based question-answer pairs (Q\\&As) are generated, which effectively reduces the cost of manual annotation. In this way, these high-quality interpretable Q\\&As are used to train Qwen3-VL-8B via Low-Rank Adaption-based supervised fine-tuning (SFT). Experimental results on three DGPTE tasks demonstrate that fine-tuning only the language model layer yields the SOTA performance. Furthermore, multi-task joint fine-tuning verifies the feasibility of handling multiple grading tasks within only a single lightweight MLLM.",
+      "pub_date": "Fri, 29 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "基于轻量级多模态大模型的电力设备缺陷分级方法",
+        "summary": "提出一种基于多模态大语言模型（MLLM）的电力设备缺陷分级框架。通过上下文学习最大化商用MLLM潜力，利用思维链问答对微调Qwen3-VL-8B，仅微调语言层即达最优性能，多任务联合微调验证了单一轻量级MLLM处理多个分级任务的可行性。",
+        "summary_en": "Proposes a defect grading framework for power transmission equipment based on multimodal LLMs. Maximizes commercial MLLM potential via in-context learning, uses chain-of-thought Q&A pairs to fine-tune Qwen3-VL-8B, achieving SOTA by only fine-tuning the language layer. Multi-task joint fine-tuning validates handling multiple grading tasks with a single lightweight MLLM.",
+        "tags": [
+          "multimodal",
+          "fine-tuning",
+          "application",
+          "llm"
+        ],
+        "category": "application",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-29-rss-006",
+        "title": "基于轻量级多模态大模型的电力设备缺陷分级方法",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.28822",
+        "language": "en",
+        "summary": "提出一种基于多模态大语言模型（MLLM）的电力设备缺陷分级框架。通过上下文学习最大化商用MLLM潜力，利用思维链问答对微调Qwen3-VL-8B，仅微调语言层即达最优性能，多任务联合微调验证了单一轻量级MLLM处理多个分级任务的可行性。",
+        "summary_en": "Proposes a defect grading framework for power transmission equipment based on multimodal LLMs. Maximizes commercial MLLM potential via in-context learning, uses chain-of-thought Q&A pairs to fine-tune Qwen3-VL-8B, achieving SOTA by only fine-tuning the language layer. Multi-task joint fine-tuning validates handling multiple grading tasks with a single lightweight MLLM.",
+        "tags": [
+          "multimodal",
+          "fine-tuning",
+          "application",
+          "llm"
+        ],
+        "category": "application",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-05-29T19:28:52.281552+08:00",
+        "updated_at": "2026-05-29T19:28:52.281553+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "What are They Thinking? Delineation, Probing and Tracking of Concepts in LLMs",
+      "url": "https://arxiv.org/abs/2605.28823",
+      "description": "arXiv:2605.28823v1 Announce Type: new \nAbstract: As the influence of LLMs expands, it is imperative to gain insight into their decisions. One way to do that is to develop probes that detect the presence or absence of a broad set of concepts within the embeddings computed in an LLM - which is what we might say a model is \"thinking\" about. Such probes should be low-cost and easily applicable to any LLM, so that monitoring for many concepts is possible during normal operation.\n  In this paper, we take the first steps towards developing the capability of creating many such probes by defining and executing examples of the key tasks needed: first, the careful delineation of a concept through the creation of a dataset with the concept both present and then absent. Then, the training and testing of a set of linear probes to detect the concept on any layer of an LLM, including an exploration of the complexity of the probe needed. Finally, we show that such probes can track concepts across larger contexts. This is done with four separate concepts and three different LLMs. When this process is scaled to many more concepts, it will create the ability to easily monitor new models.",
+      "pub_date": "Fri, 29 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "LLM概念界定、探测与追踪",
+        "summary": "本文提出一种低成本、可应用于任意LLM的线性探测方法，通过精心构建包含/不包含特定概念的数据集来界定概念，训练线性探针检测LLM各层嵌入中的概念，并展示其在长上下文中的追踪能力。在四个概念和三个LLM上验证，为大规模监控模型思考内容奠定基础。",
+        "summary_en": "This paper proposes a low-cost, LLM-agnostic linear probing method to detect concepts in embeddings. It carefully delineates concepts via datasets with/without them, trains probes, and tracks concepts across contexts. Validated on four concepts and three LLMs, it enables scalable monitoring of model internals.",
+        "tags": [
+          "llm",
+          "research",
+          "interpretability",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-29-rss-004",
+        "title": "LLM概念界定、探测与追踪",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.28823",
+        "language": "en",
+        "summary": "本文提出一种低成本、可应用于任意LLM的线性探测方法，通过精心构建包含/不包含特定概念的数据集来界定概念，训练线性探针检测LLM各层嵌入中的概念，并展示其在长上下文中的追踪能力。在四个概念和三个LLM上验证，为大规模监控模型思考内容奠定基础。",
+        "summary_en": "This paper proposes a low-cost, LLM-agnostic linear probing method to detect concepts in embeddings. It carefully delineates concepts via datasets with/without them, trains probes, and tracks concepts across contexts. Validated on four concepts and three LLMs, it enables scalable monitoring of model internals.",
+        "tags": [
+          "llm",
+          "research",
+          "interpretability",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-05-29T19:28:52.281543+08:00",
+        "updated_at": "2026-05-29T19:28:52.281544+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "A Modular Architecture for Typologically Controlled Lexicon Generation",
+      "url": "https://arxiv.org/abs/2605.28824",
+      "description": "arXiv:2605.28824v1 Announce Type: new \nAbstract: Constructing artificial lexicons that are pronounceable, typologically plausible, and semantically structured remains an open challenge in computational linguistics. Existing conlang generators either lack formal phonotactic guarantees or delegate generation to opaque, non-reproducible LLM-based pipelines. We propose a modular framework that samples phoneme inventories from PHOIBLE, generates word forms under interchangeable phonological grammars (deterministic, OT, and MaxEnt), and assigns meanings via a Swadesh--Leipzig--Jakarta ontology with explicit form--meaning alignment. Evaluation on character $n$-gram perplexity, log-likelihood, and KL divergence against PHOIBLE across lexicon sizes of 100-5,000 forms shows that probabilistic grammars consistently outperform deterministic and random baselines on both phonotactic coherence and typological realism.",
+      "pub_date": "Fri, 29 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "类型可控词汇生成的模块化架构",
+        "summary": "提出一个模块化框架，从PHOIBLE采样音位清单，在可互换音系语法下生成词形，并通过Swadesh-Leipzig-Jakarta本体分配语义。评估表明概率语法在音位连贯性和类型学真实性上优于确定性和随机基线。",
+        "summary_en": "Proposes a modular framework that samples phoneme inventories from PHOIBLE, generates word forms under interchangeable phonological grammars, and assigns meanings via a Swadesh-Leipzig-Jakarta ontology. Evaluation shows probabilistic grammars outperform deterministic and random baselines on phonotactic coherence and typological realism.",
+        "tags": [
+          "research",
+          "llm",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.6,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-29-rss-010",
+        "title": "类型可控词汇生成的模块化架构",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.28824",
+        "language": "en",
+        "summary": "提出一个模块化框架，从PHOIBLE采样音位清单，在可互换音系语法下生成词形，并通过Swadesh-Leipzig-Jakarta本体分配语义。评估表明概率语法在音位连贯性和类型学真实性上优于确定性和随机基线。",
+        "summary_en": "Proposes a modular framework that samples phoneme inventories from PHOIBLE, generates word forms under interchangeable phonological grammars, and assigns meanings via a Swadesh-Leipzig-Jakarta ontology. Evaluation shows probabilistic grammars outperform deterministic and random baselines on phonotactic coherence and typological realism.",
+        "tags": [
+          "research",
+          "llm",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.6,
+        "status": "published",
+        "created_at": "2026-05-29T19:28:52.281572+08:00",
+        "updated_at": "2026-05-29T19:28:52.281573+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "MechELK: A Mechanistic Interpretability Framework for Eliciting Latent Knowledge in Large Language Models",
+      "url": "https://arxiv.org/abs/2605.28825",
+      "description": "arXiv:2605.28825v1 Announce Type: new \nAbstract: Large language models (LLMs) frequently encode factual and reasoning knowledge in their internal representations that is not faithfully reflected in their surface-level outputs -- a phenomenon known as \\emph{latent knowledge}. Existing approaches to eliciting latent knowledge, such as Contrastive Consistency Search (CCS), rely on contrastive activation patterns and struggle with complex multi-step reasoning tasks, while mechanistic interpretability tools have primarily been used to \\emph{understand} model behavior rather than to \\emph{extract} hidden knowledge. We present \\textbf{MechELK}, a unified three-stage framework that bridges mechanistic interpretability and latent knowledge elicitation. MechELK operates through: (1) \\textbf{Locate} -- using Sparse Autoencoder (SAE) feature analysis and activation patching to identify knowledge-bearing representations; (2) \\textbf{Verify} -- employing causal probing to distinguish genuine latent knowledge from spurious correlations; and (3) \\textbf{Elicit} -- applying representation engineering to surface hidden knowledge without modifying model weights. Evaluated on TruthfulQA, a curated Deceptive Alignment benchmark, and the Quirky LM dataset, MechELK achieves an average elicitation accuracy of 84.7\\%, outperforming CCS by 6.2\\% and direct linear probing by 9.1\\%. Crucially, MechELK successfully identifies latent knowledge in 78.3\\% of cases where the model's surface output is incorrect or evasive, demonstrating its utility for AI safety applications including deceptive alignment detection.",
+      "pub_date": "Fri, 29 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "MechELK：大型语言模型中潜在知识提取的机制可解释性框架",
+        "summary": "MechELK是一个三阶段框架，结合机制可解释性与潜在知识提取。通过定位（SAE特征分析）、验证（因果探测）和提取（表示工程）步骤，在TruthfulQA等基准上平均提取准确率达84.7%，优于现有方法，并能识别78.3%的表面错误输出中的潜在知识，适用于AI安全。",
+        "summary_en": "MechELK is a three-stage framework bridging mechanistic interpretability and latent knowledge elicitation. Using SAE feature analysis, causal probing, and representation engineering, it achieves 84.7% average elicitation accuracy on benchmarks like TruthfulQA, outperforming CCS by 6.2%, and identifies latent knowledge in 78.3% of cases with incorrect surface outputs, aiding AI safety.",
+        "tags": [
+          "llm",
+          "research",
+          "interpretability",
+          "safety"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-29-rss-001",
+        "title": "MechELK：大型语言模型中潜在知识提取的机制可解释性框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.28825",
+        "language": "en",
+        "summary": "MechELK是一个三阶段框架，结合机制可解释性与潜在知识提取。通过定位（SAE特征分析）、验证（因果探测）和提取（表示工程）步骤，在TruthfulQA等基准上平均提取准确率达84.7%，优于现有方法，并能识别78.3%的表面错误输出中的潜在知识，适用于AI安全。",
+        "summary_en": "MechELK is a three-stage framework bridging mechanistic interpretability and latent knowledge elicitation. Using SAE feature analysis, causal probing, and representation engineering, it achieves 84.7% average elicitation accuracy on benchmarks like TruthfulQA, outperforming CCS by 6.2%, and identifies latent knowledge in 78.3% of cases with incorrect surface outputs, aiding AI safety.",
+        "tags": [
+          "llm",
+          "research",
+          "interpretability",
+          "safety"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-05-29T19:28:52.281527+08:00",
+        "updated_at": "2026-05-29T19:28:52.281530+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "From Context Shift to Stylistic Collapse: Why Training Objectives Matter More Than Scale",
+      "url": "https://arxiv.org/abs/2605.28826",
+      "description": "arXiv:2605.28826v1 Announce Type: new \nAbstract: In modern LLMs, linguistic features function not as stylistic artifacts but as probes of probability mass, allocated under training alignment objectives. Language models trained with contemporary pipelines exhibit severe reshaping of linguistic features, leading to extreme language re-distribution. While previous stylometric analyses explored linguistic differences between AI-generated and human texts, we focus on the reshaping plaguing the LLM training pipeline itself. We analyze 17 models (410M-100B+ parameters) across 24 linguistically-motivated probes, documenting that instruction-tuned systems systematically collapse language entropy along discourse and structural dimensions (mean amplification: 1,949-16,853%, peaks: 5,181-209,675%), while selectively suppressing complex punctuation to 3.2-23.2% of baseline frequencies. These effects do not worsen under RLHF, as divergence patterns are statistically indistinguishable (p > 0.25) across matched base and instruction-tuned model pairs. Weak intervention (lambda=1.0) exacerbates collapse by 240%, while strong control (lambda=5.0) achieves 40.5% improvement and outperforms frontier models by 96.7-98.2% despite 200-1000x scale disadvantage. Additionally, lambda=5.0 delivers 15% higher distinct-4, 27% higher vocabulary diversity, and 78% lower repetition than moderate regularization, establishing that alignment requires sufficient control strength, not merely distributional smoothing. Our findings underscore how modern LLMs reallocate stylistic probability mass, despite RLHF and scale. More broadly, our work reveals a structural limitation of current alignment pipelines: preference optimization reshapes language distributions invisible to standard quality metrics yet detectable through distributional probes, with implications for AI detection, training data contamination, and long-term linguistic evolution.",
+      "pub_date": "Fri, 29 May 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "从上下文偏移到风格崩溃：训练目标比规模更重要",
+        "summary": "研究发现，现代LLM训练中，指令微调系统会导致语言熵沿语篇和结构维度系统性崩溃（平均放大1949-16853%），复杂标点被抑制到基线频率的3.2-23.2%。弱干预加剧崩溃240%，而强控制（lambda=5.0）可改善40.5%，在200-1000倍规模劣势下超越前沿模型96.7-98.2%。揭示了偏好优化重塑语言分布的结构性限制。",
+        "summary_en": "Research shows instruction-tuned LLMs cause systematic collapse of language entropy along discourse and structural dimensions (mean amplification 1,949-16,853%), suppressing complex punctuation to 3.2-23.2% of baseline. Weak intervention worsens collapse by 240%, while strong control (lambda=5.0) achieves 40.5% improvement, outperforming frontier models by 96.7-98.2% despite 200-1000x scale disadvantage. Reveals structural limitations of preference optimization.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-05-29-rss-002",
+        "title": "从上下文偏移到风格崩溃：训练目标比规模更重要",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.28826",
+        "language": "en",
+        "summary": "研究发现，现代LLM训练中，指令微调系统会导致语言熵沿语篇和结构维度系统性崩溃（平均放大1949-16853%），复杂标点被抑制到基线频率的3.2-23.2%。弱干预加剧崩溃240%，而强控制（lambda=5.0）可改善40.5%，在200-1000倍规模劣势下超越前沿模型96.7-98.2%。揭示了偏好优化重塑语言分布的结构性限制。",
+        "summary_en": "Research shows instruction-tuned LLMs cause systematic collapse of language entropy along discourse and structural dimensions (mean amplification 1,949-16,853%), suppressing complex punctuation to 3.2-23.2% of baseline. Weak intervention worsens collapse by 240%, while strong control (lambda=5.0) achieves 40.5% improvement, outperforming frontier models by 96.7-98.2% despite 200-1000x scale disadvantage. Reveals structural limitations of preference optimization.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-05-29T19:28:52.281534+08:00",
+        "updated_at": "2026-05-29T19:28:52.281535+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

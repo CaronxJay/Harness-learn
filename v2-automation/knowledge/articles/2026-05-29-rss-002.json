@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-29-rss-002",
+  "title": "从上下文偏移到风格崩溃：训练目标比规模更重要",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.28826",
+  "language": "en",
+  "summary": "研究发现，现代LLM训练中，指令微调系统会导致语言熵沿语篇和结构维度系统性崩溃（平均放大1949-16853%），复杂标点被抑制到基线频率的3.2-23.2%。弱干预加剧崩溃240%，而强控制（lambda=5.0）可改善40.5%，在200-1000倍规模劣势下超越前沿模型96.7-98.2%。揭示了偏好优化重塑语言分布的结构性限制。",
+  "summary_en": "Research shows instruction-tuned LLMs cause systematic collapse of language entropy along discourse and structural dimensions (mean amplification 1,949-16,853%), suppressing complex punctuation to 3.2-23.2% of baseline. Weak intervention worsens collapse by 240%, while strong control (lambda=5.0) achieves 40.5% improvement, outperforming frontier models by 96.7-98.2% despite 200-1000x scale disadvantage. Reveals structural limitations of preference optimization.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-05-29T19:28:52.281534+08:00",
+  "updated_at": "2026-05-29T19:28:52.281535+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

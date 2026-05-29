@@ -1,0 +1,26 @@
+{
+  "id": "2026-05-29-rss-005",
+  "title": "LLM评审的对齐性与可操纵性研究",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.28897",
+  "language": "en",
+  "summary": "本研究针对ACL滚动评审中的论文，评估LLM生成的评审与人类评审的对齐程度，发现对齐性有限且随提示和模型变化。同时发现作者可根据LLM评审迭代修改论文以提升评分，最多35%的论文分数显著提高。",
+  "summary_en": "This study evaluates LLM-generated reviews for ACL Rolling Review papers, finding limited alignment with human reviews that varies by prompt and model. It also shows authors can iteratively revise papers based on LLM reviews, achieving significant score increases for up to 35% of papers.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "benchmark",
+    "security"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-05-29T19:28:52.281547+08:00",
+  "updated_at": "2026-05-29T19:28:52.281548+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

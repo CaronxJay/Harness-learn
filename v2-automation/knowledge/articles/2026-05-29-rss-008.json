@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-29-rss-008",
+  "title": "行为感知的辅助修正用于离策略时序差分预测",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.28855",
+  "language": "en",
+  "summary": "本文提出行为感知的辅助修正方法（BA-TDC/BA-TDRC），通过用行为贝尔曼矩阵替换TDC中的辅助矩阵，稳定离策略TD学习。理论分析证明了不动点保持和几乎必然收敛，实验表明行为感知替换本身有益，但正则化对鲁棒性至关重要。",
+  "summary_en": null,
+  "tags": [
+    "research",
+    "reinforcement-learning",
+    "off-policy",
+    "temporal-difference"
+  ],
+  "category": "research",
+  "relevance_score": 0.8,
+  "status": "published",
+  "created_at": "2026-05-29T19:28:52.281563+08:00",
+  "updated_at": "2026-05-29T19:28:52.281565+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
