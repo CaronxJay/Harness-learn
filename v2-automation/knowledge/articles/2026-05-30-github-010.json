@@ -1,0 +1,26 @@
+{
+  "id": "2026-05-30-github-010",
+  "title": "AI4X：人工智能学习路径记录",
+  "source": "github_trending",
+  "source_url": "https://github.com/lunyang/AI4X",
+  "language": "en",
+  "summary": "该项目记录了作者在人工智能领域的学习路径，涵盖LLM、智能体、RAG、MCP、机器学习和深度学习等多个方向，适合初学者或希望系统了解AI技术栈的学习者参考。",
+  "summary_en": null,
+  "tags": [
+    "llm",
+    "rag",
+    "agent-framework",
+    "application",
+    "research"
+  ],
+  "category": "application",
+  "relevance_score": 0.8,
+  "status": "published",
+  "created_at": "2026-05-30T18:00:01.606347+08:00",
+  "updated_at": "2026-05-30T18:00:01.606349+08:00",
+  "metadata": {
+    "stars": 0,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
