@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-01-rss-002",
+  "title": "LLM团队能否玩《什么？哪里？何时？》",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.30459",
+  "language": "en",
+  "summary": "研究团队策略（投票、沉默团队、健谈团队）如何提升LLM在《什么？哪里？何时？》问答游戏中的表现。使用2025年572个问题评估六个开源模型，团队策略相比单模型准确率提升高达20个百分点，最佳团队达到44.23%，接近人类水平。分析表明，解释性沟通能缓解性能下降，团队主要作为答案选择和错误过滤机制。",
+  "summary_en": "Investigates how team strategies (Voting, Silent Team, Talkative Team) improve LLM performance in the What? Where? When? quiz game. Evaluated on 572 questions from 2025 using six open models, team strategies yield up to 20 percentage points accuracy gain, with the best team achieving 44.23%, approaching human performance. Explanatory communication mitigates performance drops; teams function as answer selection and error-filtering mechanisms.",
+  "tags": [
+    "llm",
+    "research",
+    "benchmark",
+    "multi-agent"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-01T21:39:29.259190+08:00",
+  "updated_at": "2026-06-01T21:39:29.259193+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

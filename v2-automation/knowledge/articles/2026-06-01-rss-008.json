@@ -1,0 +1,24 @@
+{
+  "id": "2026-06-01-rss-008",
+  "title": "跨语言引导比喻生成",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.30443",
+  "language": "en",
+  "summary": "本研究利用激活引导技术，探究多语言大模型中比喻生成的内部分方向是否跨语言可复用。实验表明，从一种语言学到的比喻方向可有效迁移至其他语言，且多语言组合方向可媲美甚至超越目标语言自身方向，为跨语言比喻生成提供了直接证据。",
+  "summary_en": "Using activation steering, this study investigates whether internal directions for figurative language generation in multilingual LLMs are reusable across languages. Results show directions learned in one language transfer effectively, and combined directions can match or exceed native ones, providing direct evidence for cross-lingual reusable signals.",
+  "tags": [
+    "llm",
+    "research",
+    "multimodal"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-06-01T21:39:29.259244+08:00",
+  "updated_at": "2026-06-01T21:39:29.259247+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

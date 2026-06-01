@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-01-rss-007",
+  "title": "语言模型中的领域适应与推理框架：以历史宇宙学为受控实验",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.30415",
+  "language": "en",
+  "summary": "通过历史宇宙学受控实验，研究领域适应如何重塑语言模型的解释行为。阶段一从头训练小模型，阶段二用QLoRA微调大模型。结果显示领域适应主要重塑解释框架，立场变化是次要结果。",
+  "summary_en": "Investigates how domain adaptation reshapes explanatory behavior in language models using historical cosmology as a controlled setting. Results show adaptation primarily reshapes linguistic frameworks, with stance changes emerging secondarily.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-06-01T21:39:29.259237+08:00",
+  "updated_at": "2026-06-01T21:39:29.259240+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

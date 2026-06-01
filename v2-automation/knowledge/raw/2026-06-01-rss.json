@@ -1,0 +1,475 @@
+{
+  "collected_at": "2026-06-01T21:39:29.260174+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "PhyDrawGen: Physically Grounded Diagram Generation from Natural Language",
+      "url": "https://arxiv.org/abs/2605.30512",
+      "description": "arXiv:2605.30512v1 Announce Type: new \nAbstract: Generating physics diagrams from text requires strict adherence to physical laws. While current generative models produce visually plausible outputs, they systematically hallucinate force vectors, ignore conservation laws, and violate geometric constraints. We present PhyDrawGen, a neuro-symbolic pipeline that decouples semantic scene understanding from physical constraint satisfaction. First, a large language model extracts a typed scene graph from the problem text. A deterministic solver then converts this graph into a Planar Straight-Line Graph (PSLG), encoding force balance, optical paths, and field topologies as exact geometric primitives. Finally, a fine-tuned Qwen-VL model implements a visually grounded propose-verify loop to iteratively correct any constraint violations. Evaluated on a benchmark of 1,449 problems spanning mechanics, optics, and electromagnetism, PhyDrawGen significantly outperforms GPT-5-image, Gemini 2.5 Flash, and Gemini 3 Pro, demonstrating robust physical accuracy even on unusual-object problems.",
+      "pub_date": "Mon, 01 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "PhyDrawGen：基于物理规律的图表生成",
+        "summary": "PhyDrawGen是一个神经符号管道，从自然语言生成物理图表。它利用大语言模型提取场景图，通过确定性求解器转换为平面直线图，并用微调的Qwen-VL模型迭代修正约束违反。在1449个物理问题基准上，其物理准确性显著优于GPT-5-image等模型。",
+        "summary_en": "PhyDrawGen is a neuro-symbolic pipeline that generates physics diagrams from natural language. It uses an LLM to extract a scene graph, a deterministic solver to convert it into a planar straight-line graph, and a fine-tuned Qwen-VL model to iteratively correct constraint violations. It significantly outperforms GPT-5-image on a benchmark of 1,449 physics problems.",
+        "tags": [
+          "llm",
+          "research",
+          "multimodal",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-01-rss-003",
+        "title": "PhyDrawGen：基于物理规律的图表生成",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.30512",
+        "language": "en",
+        "summary": "PhyDrawGen是一个神经符号管道，从自然语言生成物理图表。它利用大语言模型提取场景图，通过确定性求解器转换为平面直线图，并用微调的Qwen-VL模型迭代修正约束违反。在1449个物理问题基准上，其物理准确性显著优于GPT-5-image等模型。",
+        "summary_en": "PhyDrawGen is a neuro-symbolic pipeline that generates physics diagrams from natural language. It uses an LLM to extract a scene graph, a deterministic solver to convert it into a planar straight-line graph, and a fine-tuned Qwen-VL model to iteratively correct constraint violations. It significantly outperforms GPT-5-image on a benchmark of 1,449 physics problems.",
+        "tags": [
+          "llm",
+          "research",
+          "multimodal",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-06-01T21:39:29.259199+08:00",
+        "updated_at": "2026-06-01T21:39:29.259201+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Physically Viable World Models: A Case for Query-Conditioned Embodied AI",
+      "url": "https://arxiv.org/abs/2605.30542",
+      "description": "arXiv:2605.30542v1 Announce Type: new \nAbstract: World models for embodied AI must be physically viable: constructed to answer intervention queries by representing the physical structure governing action outcomes, rather than merely predicting future observations. Existing observation-predictive world models can produce visually plausible but physically wrong rollouts. This failure is structural; distinct physical systems can look identical yet diverge under intervention. We expose this problem with controlled benchmarks that fix the visible scene while varying latent physics. We show that such models may recommend infeasible actions, mispredict interaction outcomes, or certify unsafe behavior. We argue that embodied AI requires world models that identify the simplest physical abstraction sufficient to answer an intervention query. Such a model comprises modular components, including environment representation, latent state and parameter estimation, action specification, interventional dynamics, and query-level response. An autonomous orchestrator should identify the relevant abstraction and compose compatible learned and structured components per query. When closed-form physics is unavailable, uncertain, or costly, the transition model may be analytic, simulated, learned, or hybrid, but it must preserve the structure that determines interventional outcomes. This decomposition makes the model interpretable, its components verifiable, and its outputs auditable against the query. It also provides a design principle for new world models and a feasibility test for existing ones: the right abstraction is not the most detailed model of the world, but the simplest model that preserves the distinctions relevant to the query. We demonstrate this approach on queries that existing systems fail to answer correctly, and outline how an orchestrator can dynamically assemble and adapt physically viable models for planning, control, and verification.",
+      "pub_date": "Mon, 01 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "物理可行的世界模型：面向查询条件具身AI的案例",
+        "summary": "本文提出具身AI的世界模型必须物理可行，即通过表示动作结果的物理结构来回答干预查询，而非仅预测未来观测。现有模型可能产生视觉合理但物理错误的展开。作者论证了需要识别最简单的物理抽象来回答查询，并提出了模块化设计原则，包括环境表示、潜在状态估计、动作规范、干预动力学和查询级响应。该方法使模型可解释、组件可验证、输出可审计。",
+        "summary_en": "World models for embodied AI must be physically viable, answering intervention queries by representing physical structure governing action outcomes. The paper argues for identifying the simplest physical abstraction sufficient to answer a query, proposing modular components and an orchestrator for dynamic assembly. This makes models interpretable, verifiable, and auditable.",
+        "tags": [
+          "research",
+          "embodied-ai",
+          "world-models",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-01-rss-004",
+        "title": "物理可行的世界模型：面向查询条件具身AI的案例",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.30542",
+        "language": "en",
+        "summary": "本文提出具身AI的世界模型必须物理可行，即通过表示动作结果的物理结构来回答干预查询，而非仅预测未来观测。现有模型可能产生视觉合理但物理错误的展开。作者论证了需要识别最简单的物理抽象来回答查询，并提出了模块化设计原则，包括环境表示、潜在状态估计、动作规范、干预动力学和查询级响应。该方法使模型可解释、组件可验证、输出可审计。",
+        "summary_en": "World models for embodied AI must be physically viable, answering intervention queries by representing physical structure governing action outcomes. The paper argues for identifying the simplest physical abstraction sufficient to answer a query, proposing modular components and an orchestrator for dynamic assembly. This makes models interpretable, verifiable, and auditable.",
+        "tags": [
+          "research",
+          "embodied-ai",
+          "world-models",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-06-01T21:39:29.259207+08:00",
+        "updated_at": "2026-06-01T21:39:29.259210+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Transforming and Encoding FTS for SAT Solving: What Helps, What Hurts (Extended Version)",
+      "url": "https://arxiv.org/abs/2605.30563",
+      "description": "arXiv:2605.30563v1 Announce Type: new \nAbstract: Factored tasks are a classical planning representation that extends SAS+ with limited forms of disjunctive preconditions, conditional effects, and angelic nondeterminism. This allows for a more compact representation of tasks than traditional formalisms such as STRIPS or SAS+, and supports a wide range of task transformations. However, existing planning approaches for factored tasks have been limited to heuristic search methods.\n  In this work, we investigate how to encode factored tasks in SAT. We propose several ways to encode the tasks, focusing on different strategies for translating the factored transition relation into propositional logic. We also analyze how to exploit parallelism at various levels in this setting and study the impact of common task transformations on the performance of SAT-based planners.",
+      "pub_date": "Mon, 01 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "将因子化任务编码为SAT求解：什么有帮助，什么有害（扩展版）",
+        "summary": "本文研究了如何将因子化任务（一种扩展SAS+的经典规划表示）编码为SAT问题。提出了多种编码策略，重点是将因子化转移关系转换为命题逻辑的不同方法，并分析了在此设置中利用不同级别并行性的方式，以及常见任务转换对基于SAT的规划器性能的影响。",
+        "summary_en": "This paper investigates how to encode factored tasks, a classical planning representation extending SAS+, into SAT. It proposes several encoding strategies focusing on translating the factored transition relation into propositional logic, analyzes exploiting parallelism at various levels, and studies the impact of common task transformations on SAT-based planner performance.",
+        "tags": [
+          "research",
+          "benchmark",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.6,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-01-rss-010",
+        "title": "将因子化任务编码为SAT求解：什么有帮助，什么有害（扩展版）",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.30563",
+        "language": "en",
+        "summary": "本文研究了如何将因子化任务（一种扩展SAS+的经典规划表示）编码为SAT问题。提出了多种编码策略，重点是将因子化转移关系转换为命题逻辑的不同方法，并分析了在此设置中利用不同级别并行性的方式，以及常见任务转换对基于SAT的规划器性能的影响。",
+        "summary_en": "This paper investigates how to encode factored tasks, a classical planning representation extending SAS+, into SAT. It proposes several encoding strategies focusing on translating the factored transition relation into propositional logic, analyzes exploiting parallelism at various levels, and studies the impact of common task transformations on SAT-based planner performance.",
+        "tags": [
+          "research",
+          "benchmark",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.6,
+        "status": "published",
+        "created_at": "2026-06-01T21:39:29.259259+08:00",
+        "updated_at": "2026-06-01T21:39:29.259261+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Procedural Generation of First Person Shooter Maps using Map-Elites",
+      "url": "https://arxiv.org/abs/2605.30570",
+      "description": "arXiv:2605.30570v1 Announce Type: new \nAbstract: We investigate the application of MAP-Elites (a well-known quality diversity algorithm) to design levels for First-Person Shooter (FPS) games. We consider two well-known map representations (All-Black and Grid-Graph) and introduce two novel representations (Point-Line and Spatial-Layout) that improve the characterization of FPS maps. We define a series of metrics to describe maps' topological properties (which solely depend on maps' layout), and emergent properties (which must be evaluated through actual gameplay). We perform an in-depth analysis to identify the most suitable features to guide MAP-Elites illumination process. We apply MAP-Elites with Sliding Boundaries (MESB) to evolve populations of FPS maps. Our results show that the new representations can generate maps with higher diversity and quality than the representations previously used for evolving FPS maps.",
+      "pub_date": "Mon, 01 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "基于MAP-Elites的第一人称射击游戏地图程序化生成",
+        "summary": "研究应用MAP-Elites算法生成FPS游戏地图，提出两种新地图表示法（点线、空间布局），相比传统方法能生成更高多样性和质量的地图。",
+        "summary_en": "Applies MAP-Elites algorithm to generate FPS game maps, introduces two novel map representations (Point-Line, Spatial-Layout) that produce maps with higher diversity and quality than previous methods.",
+        "tags": [
+          "research",
+          "application",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.7,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-01-rss-009",
+        "title": "基于MAP-Elites的第一人称射击游戏地图程序化生成",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.30570",
+        "language": "en",
+        "summary": "研究应用MAP-Elites算法生成FPS游戏地图，提出两种新地图表示法（点线、空间布局），相比传统方法能生成更高多样性和质量的地图。",
+        "summary_en": "Applies MAP-Elites algorithm to generate FPS game maps, introduces two novel map representations (Point-Line, Spatial-Layout) that produce maps with higher diversity and quality than previous methods.",
+        "tags": [
+          "research",
+          "application",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.7,
+        "status": "published",
+        "created_at": "2026-06-01T21:39:29.259251+08:00",
+        "updated_at": "2026-06-01T21:39:29.259254+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Uncertainty-Aware and Temporally Regulated Expert Advice in Reinforcement Learning for Autonomous Driving",
+      "url": "https://arxiv.org/abs/2605.30576",
+      "description": "arXiv:2605.30576v1 Announce Type: new \nAbstract: Exploration in reinforcement learning for autonomous driving is inherently unsafe: agents must experience novel behaviors to learn, yet exploration can lead to collisions or off-road driving. We propose an uncertainty-aware framework that leverages expert advice to guide exploration while avoiding long-term dependence. Advice is triggered when epistemic or aleatoric uncertainty exceeds adaptive thresholds derived from rolling buffers, ensuring advice evolves with the agent's confidence. A commitment-cooldown strategy with a stochastic early-stop heuristic regulates the duration and frequency of guidance, exposing the agent to coherent maneuvers without exhausting the advice budget. Expert and agent experiences are combined in a shared replay buffer within an off-policy implicit quantile network (IQN) backbone, enabling efficient reuse of expert trajectories. Experiments in CARLA show that our method outperforms the IQN baseline, improving success by 5-7% and reducing failures, demonstrating that risk-sensitive uncertainty coupled with regulated expert integration enables safer and more efficient exploration for sensor-based RL policy learning in unsignalized intersection navigation.",
+      "pub_date": "Mon, 01 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "自动驾驶中基于不确定性感知与时间调节的专家建议强化学习",
+        "summary": "提出一种不确定性感知框架，通过自适应阈值触发专家建议，结合承诺-冷却策略与随机早停机制，在离策略IQN骨干中共享经验，实现自动驾驶中更安全高效的探索。在CARLA实验中成功率提升5-7%，减少故障。",
+        "summary_en": null,
+        "tags": [
+          "research",
+          "reinforcement-learning",
+          "autonomous-driving",
+          "uncertainty"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-01-rss-005",
+        "title": "自动驾驶中基于不确定性感知与时间调节的专家建议强化学习",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.30576",
+        "language": "en",
+        "summary": "提出一种不确定性感知框架，通过自适应阈值触发专家建议，结合承诺-冷却策略与随机早停机制，在离策略IQN骨干中共享经验，实现自动驾驶中更安全高效的探索。在CARLA实验中成功率提升5-7%，减少故障。",
+        "summary_en": null,
+        "tags": [
+          "research",
+          "reinforcement-learning",
+          "autonomous-driving",
+          "uncertainty"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-06-01T21:39:29.259215+08:00",
+        "updated_at": "2026-06-01T21:39:29.259218+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Protocol for evaluating ChatGPT in biomedical association generation and verification using a RAG-enabled, cross-model majority voting workflow",
+      "url": "https://arxiv.org/abs/2605.30400",
+      "description": "arXiv:2605.30400v1 Announce Type: new \nAbstract: We present a protocol to evaluate ChatGPT's ability to generate disease-centric biomedical associations. It outlines how we generate the associations, validate the biological entities using biomedical ontologies, and verify associations using literature. The protocol includes a self-consistency strategy to assess generative reliability across ChatGPT models. To address ontology exact-match limitations, we provide a use case performing semantic verification through a workflow enabled by Retrieval-Augmented Generation (RAG) powered by open-source large language models (LLMs). This enables LLMs to establish truth over content generated by other LLMs and expose hallucination.",
+      "pub_date": "Mon, 01 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "基于RAG和跨模型多数投票的ChatGPT生物医学关联生成与验证评估协议",
+        "summary": "提出一个评估ChatGPT生成疾病中心生物医学关联能力的协议，包括使用生物医学本体验证实体、通过文献验证关联、自一致性策略评估生成可靠性，以及利用RAG和开源LLM进行语义验证以暴露幻觉。",
+        "summary_en": "Presents a protocol to evaluate ChatGPT's ability to generate disease-centric biomedical associations, including entity validation via ontologies, literature verification, self-consistency strategy, and RAG-powered semantic verification with open-source LLMs to expose hallucination.",
+        "tags": [
+          "llm",
+          "research",
+          "rag",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-01-rss-006",
+        "title": "基于RAG和跨模型多数投票的ChatGPT生物医学关联生成与验证评估协议",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.30400",
+        "language": "en",
+        "summary": "提出一个评估ChatGPT生成疾病中心生物医学关联能力的协议，包括使用生物医学本体验证实体、通过文献验证关联、自一致性策略评估生成可靠性，以及利用RAG和开源LLM进行语义验证以暴露幻觉。",
+        "summary_en": "Presents a protocol to evaluate ChatGPT's ability to generate disease-centric biomedical associations, including entity validation via ontologies, literature verification, self-consistency strategy, and RAG-powered semantic verification with open-source LLMs to expose hallucination.",
+        "tags": [
+          "llm",
+          "research",
+          "rag",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-06-01T21:39:29.259223+08:00",
+        "updated_at": "2026-06-01T21:39:29.259226+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Exploring Autonomous Agentic Data Engineering for Model Specialization",
+      "url": "https://arxiv.org/abs/2605.30407",
+      "description": "arXiv:2605.30407v1 Announce Type: new \nAbstract: Large Language Models (LLMs) have demonstrated strong performance on general tasks, while often struggling to adapt to specialized domains without high-quality domain-specific data. Existing LLM-based data curation methods primarily rely on human-designed workflows, leaving it unexamined whether LLMs can autonomously execute an end-to-end data engineering pipeline for model specialization. We formalize \\textbf{Autonomous Agentic Data Engineering}, a novel task designed to evaluate LLMs as autonomous data engineers that drive model specialization through end-to-end data curation. We frame data as an optimizable component and study agents that plan, generate, and iteratively optimize training data across multiple domains, guided by post-training performance improvement. Experiments show that autonomous LLM data engineers yield substantial gains, as GPT-5.2 constructs a training curriculum that improves a student model by \\textbf{57.29\\%}, entirely through iterative, agent-driven data adaptation. By illuminating both potential and bottlenecks, our study establishes autonomous data engineering as a measurable capability and charts a path toward agent-driven model specialization\\footnote{Code will be released at https://github.com/zjunlp/DataAgent.}.",
+      "pub_date": "Mon, 01 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "自主智能体数据工程：面向模型专业化的端到端数据策展",
+        "summary": "本文提出“自主智能体数据工程”任务，让LLM作为自主数据工程师，通过规划、生成和迭代优化训练数据来驱动模型专业化。实验表明，GPT-5.2通过智能体驱动的数据适应，使学生模型性能提升57.29%，展示了自主数据工程的潜力与瓶颈。",
+        "summary_en": "This paper proposes Autonomous Agentic Data Engineering, where LLMs act as autonomous data engineers to plan, generate, and iteratively optimize training data for model specialization. Experiments show GPT-5.2 improves a student model by 57.29% through agent-driven data adaptation, revealing potential and bottlenecks.",
+        "tags": [
+          "llm",
+          "research",
+          "agent-framework",
+          "fine-tuning",
+          "data-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-01-rss-001",
+        "title": "自主智能体数据工程：面向模型专业化的端到端数据策展",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.30407",
+        "language": "en",
+        "summary": "本文提出“自主智能体数据工程”任务，让LLM作为自主数据工程师，通过规划、生成和迭代优化训练数据来驱动模型专业化。实验表明，GPT-5.2通过智能体驱动的数据适应，使学生模型性能提升57.29%，展示了自主数据工程的潜力与瓶颈。",
+        "summary_en": "This paper proposes Autonomous Agentic Data Engineering, where LLMs act as autonomous data engineers to plan, generate, and iteratively optimize training data for model specialization. Experiments show GPT-5.2 improves a student model by 57.29% through agent-driven data adaptation, revealing potential and bottlenecks.",
+        "tags": [
+          "llm",
+          "research",
+          "agent-framework",
+          "fine-tuning",
+          "data-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-01T21:39:29.259177+08:00",
+        "updated_at": "2026-06-01T21:39:29.259183+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Domain Adaptation and Reasoning Frameworks in Language Models: A Controlled Experiment with Historical Cosmology",
+      "url": "https://arxiv.org/abs/2605.30415",
+      "description": "arXiv:2605.30415v1 Announce Type: new \nAbstract: We investigate how domain adaptation reshapes explanatory behavior in language models using historical cosmology as a controlled setting. In Phase 1, we train a small language model from scratch on a pre-Copernican corpus from which explicit heliocentric references were removed, and evaluate whether Earth-motion or heliocentric continuations nevertheless emerge. In Phase 2, we fine-tune a larger pretrained model using QLoRA on the same corpus in order to study how adaptation modifies explanatory framing and cosmological stance. Model outputs are evaluated using an LLM-as-judge framework that labels both cosmological stance (geocentric, heliocentric, or ambiguous) and explanatory frame (premodern versus modern). In the constrained setting of Phase 1, the smaller models occasionally generate local Earth-motion continuations, but these remain globally unstable and insufficient to support coherent cosmological reasoning. In Phase 2, fine-tuning induces a large and statistically significant shift toward premodern explanatory framing, while the conditional cosmological stance distributions remain comparatively stable within those frames. As a result, increases in geocentric outputs arise primarily from redistribution over explanatory regimes rather than from direct modification of stance. These results suggest that domain adaptation may primarily reshape the linguistic frameworks from which continuations are generated, with changes in stance emerging secondarily from those shifts.",
+      "pub_date": "Mon, 01 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "语言模型中的领域适应与推理框架：以历史宇宙学为受控实验",
+        "summary": "通过历史宇宙学受控实验，研究领域适应如何重塑语言模型的解释行为。阶段一从头训练小模型，阶段二用QLoRA微调大模型。结果显示领域适应主要重塑解释框架，立场变化是次要结果。",
+        "summary_en": "Investigates how domain adaptation reshapes explanatory behavior in language models using historical cosmology as a controlled setting. Results show adaptation primarily reshapes linguistic frameworks, with stance changes emerging secondarily.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-01-rss-007",
+        "title": "语言模型中的领域适应与推理框架：以历史宇宙学为受控实验",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.30415",
+        "language": "en",
+        "summary": "通过历史宇宙学受控实验，研究领域适应如何重塑语言模型的解释行为。阶段一从头训练小模型，阶段二用QLoRA微调大模型。结果显示领域适应主要重塑解释框架，立场变化是次要结果。",
+        "summary_en": "Investigates how domain adaptation reshapes explanatory behavior in language models using historical cosmology as a controlled setting. Results show adaptation primarily reshapes linguistic frameworks, with stance changes emerging secondarily.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-06-01T21:39:29.259237+08:00",
+        "updated_at": "2026-06-01T21:39:29.259240+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Cross-Lingual Steering for Figurative Language Generation",
+      "url": "https://arxiv.org/abs/2605.30443",
+      "description": "arXiv:2605.30443v1 Announce Type: new \nAbstract: Multilingual large language models can generate figurative language, but whether the internal signals driving this behavior are language-specific or reusable across languages is unclear. Using activation steering as a probe, we estimate a direction for a figurative category from figurative--literal activation differences in one language and apply it during generation. Across five figurative categories, six languages, and four multilingual LLMs, these directions steer reliably within their own language, most robustly for metaphor and simile. More importantly, they transfer across languages: a direction learned in one increases the target behavior when applied to another, with German among the most receptive targets. Going further, directions assembled from other languages can match or even surpass a target language's own native direction, while removing this shared component weakens native steering. Together, these results provide direct evidence of a reusable but target-dependent cross-lingual signal for figurative generation.",
+      "pub_date": "Mon, 01 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "跨语言引导比喻生成",
+        "summary": "本研究利用激活引导技术，探究多语言大模型中比喻生成的内部分方向是否跨语言可复用。实验表明，从一种语言学到的比喻方向可有效迁移至其他语言，且多语言组合方向可媲美甚至超越目标语言自身方向，为跨语言比喻生成提供了直接证据。",
+        "summary_en": "Using activation steering, this study investigates whether internal directions for figurative language generation in multilingual LLMs are reusable across languages. Results show directions learned in one language transfer effectively, and combined directions can match or exceed native ones, providing direct evidence for cross-lingual reusable signals.",
+        "tags": [
+          "llm",
+          "research",
+          "multimodal"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-01-rss-008",
+        "title": "跨语言引导比喻生成",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.30443",
+        "language": "en",
+        "summary": "本研究利用激活引导技术，探究多语言大模型中比喻生成的内部分方向是否跨语言可复用。实验表明，从一种语言学到的比喻方向可有效迁移至其他语言，且多语言组合方向可媲美甚至超越目标语言自身方向，为跨语言比喻生成提供了直接证据。",
+        "summary_en": "Using activation steering, this study investigates whether internal directions for figurative language generation in multilingual LLMs are reusable across languages. Results show directions learned in one language transfer effectively, and combined directions can match or exceed native ones, providing direct evidence for cross-lingual reusable signals.",
+        "tags": [
+          "llm",
+          "research",
+          "multimodal"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-06-01T21:39:29.259244+08:00",
+        "updated_at": "2026-06-01T21:39:29.259247+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Can LLM Teams Play What? Where? When?",
+      "url": "https://arxiv.org/abs/2605.30459",
+      "description": "arXiv:2605.30459v1 Announce Type: new \nAbstract: Large language models (LLMs) remain limited on tasks requiring indirect reasoning, cultural knowledge, and coordinated hypothesis testing. We investigate whether team-based interaction improves LLM performance in What? Where? When? (ChGK), a quiz game designed to reward collective reasoning. We introduce three team strategies: Voting, Silent Team (the captain observes final answers), and Talkative Team (the captain observes both answers and rationales). To minimize data leakage, we evaluate these strategies on a dataset consisting of 572 ChGK questions released in 2025. Using six recent large-scale open models, we show that team-based strategies outperform single-model baselines, yielding gains of up to 20 percentage points in accuracy. The best team achieves 44.23% accuracy, and approaches human team performance on questions with available human statistics. Analysis of inter-model diversity reveals that disagreement strongly predicts lower accuracy, but explanatory communication substantially mitigates performance drops. We further examine captain behavior and find no evidence of self-preference bias; access to peer rationales improves captain judgments. Overall, LLM teams function primarily as answer selection and error-filtering mechanisms rather than generators of novel solutions. Our findings highlight the importance of interaction and suggest adaptive strategies as a promising direction for multi-agent systems.",
+      "pub_date": "Mon, 01 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "LLM团队能否玩《什么？哪里？何时？》",
+        "summary": "研究团队策略（投票、沉默团队、健谈团队）如何提升LLM在《什么？哪里？何时？》问答游戏中的表现。使用2025年572个问题评估六个开源模型，团队策略相比单模型准确率提升高达20个百分点，最佳团队达到44.23%，接近人类水平。分析表明，解释性沟通能缓解性能下降，团队主要作为答案选择和错误过滤机制。",
+        "summary_en": "Investigates how team strategies (Voting, Silent Team, Talkative Team) improve LLM performance in the What? Where? When? quiz game. Evaluated on 572 questions from 2025 using six open models, team strategies yield up to 20 percentage points accuracy gain, with the best team achieving 44.23%, approaching human performance. Explanatory communication mitigates performance drops; teams function as answer selection and error-filtering mechanisms.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "multi-agent"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-01-rss-002",
+        "title": "LLM团队能否玩《什么？哪里？何时？》",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2605.30459",
+        "language": "en",
+        "summary": "研究团队策略（投票、沉默团队、健谈团队）如何提升LLM在《什么？哪里？何时？》问答游戏中的表现。使用2025年572个问题评估六个开源模型，团队策略相比单模型准确率提升高达20个百分点，最佳团队达到44.23%，接近人类水平。分析表明，解释性沟通能缓解性能下降，团队主要作为答案选择和错误过滤机制。",
+        "summary_en": "Investigates how team strategies (Voting, Silent Team, Talkative Team) improve LLM performance in the What? Where? When? quiz game. Evaluated on 572 questions from 2025 using six open models, team strategies yield up to 20 percentage points accuracy gain, with the best team achieving 44.23%, approaching human performance. Explanatory communication mitigates performance drops; teams function as answer selection and error-filtering mechanisms.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "multi-agent"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-01T21:39:29.259190+08:00",
+        "updated_at": "2026-06-01T21:39:29.259193+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

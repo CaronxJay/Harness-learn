@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-01-rss-005",
+  "title": "自动驾驶中基于不确定性感知与时间调节的专家建议强化学习",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.30576",
+  "language": "en",
+  "summary": "提出一种不确定性感知框架，通过自适应阈值触发专家建议，结合承诺-冷却策略与随机早停机制，在离策略IQN骨干中共享经验，实现自动驾驶中更安全高效的探索。在CARLA实验中成功率提升5-7%，减少故障。",
+  "summary_en": null,
+  "tags": [
+    "research",
+    "reinforcement-learning",
+    "autonomous-driving",
+    "uncertainty"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-06-01T21:39:29.259215+08:00",
+  "updated_at": "2026-06-01T21:39:29.259218+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

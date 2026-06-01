@@ -1,0 +1,26 @@
+{
+  "id": "2026-06-01-rss-006",
+  "title": "基于RAG和跨模型多数投票的ChatGPT生物医学关联生成与验证评估协议",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.30400",
+  "language": "en",
+  "summary": "提出一个评估ChatGPT生成疾病中心生物医学关联能力的协议，包括使用生物医学本体验证实体、通过文献验证关联、自一致性策略评估生成可靠性，以及利用RAG和开源LLM进行语义验证以暴露幻觉。",
+  "summary_en": "Presents a protocol to evaluate ChatGPT's ability to generate disease-centric biomedical associations, including entity validation via ontologies, literature verification, self-consistency strategy, and RAG-powered semantic verification with open-source LLMs to expose hallucination.",
+  "tags": [
+    "llm",
+    "research",
+    "rag",
+    "evaluation",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-06-01T21:39:29.259223+08:00",
+  "updated_at": "2026-06-01T21:39:29.259226+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

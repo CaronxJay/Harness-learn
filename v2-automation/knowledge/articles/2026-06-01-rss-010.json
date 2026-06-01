@@ -1,0 +1,24 @@
+{
+  "id": "2026-06-01-rss-010",
+  "title": "将因子化任务编码为SAT求解：什么有帮助，什么有害（扩展版）",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.30563",
+  "language": "en",
+  "summary": "本文研究了如何将因子化任务（一种扩展SAS+的经典规划表示）编码为SAT问题。提出了多种编码策略，重点是将因子化转移关系转换为命题逻辑的不同方法，并分析了在此设置中利用不同级别并行性的方式，以及常见任务转换对基于SAT的规划器性能的影响。",
+  "summary_en": "This paper investigates how to encode factored tasks, a classical planning representation extending SAS+, into SAT. It proposes several encoding strategies focusing on translating the factored transition relation into propositional logic, analyzes exploiting parallelism at various levels, and studies the impact of common task transformations on SAT-based planner performance.",
+  "tags": [
+    "research",
+    "benchmark",
+    "llm"
+  ],
+  "category": "research",
+  "relevance_score": 0.6,
+  "status": "published",
+  "created_at": "2026-06-01T21:39:29.259259+08:00",
+  "updated_at": "2026-06-01T21:39:29.259261+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

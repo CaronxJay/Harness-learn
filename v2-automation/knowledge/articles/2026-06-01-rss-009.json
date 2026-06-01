@@ -1,0 +1,24 @@
+{
+  "id": "2026-06-01-rss-009",
+  "title": "基于MAP-Elites的第一人称射击游戏地图程序化生成",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.30570",
+  "language": "en",
+  "summary": "研究应用MAP-Elites算法生成FPS游戏地图，提出两种新地图表示法（点线、空间布局），相比传统方法能生成更高多样性和质量的地图。",
+  "summary_en": "Applies MAP-Elites algorithm to generate FPS game maps, introduces two novel map representations (Point-Line, Spatial-Layout) that produce maps with higher diversity and quality than previous methods.",
+  "tags": [
+    "research",
+    "application",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.7,
+  "status": "published",
+  "created_at": "2026-06-01T21:39:29.259251+08:00",
+  "updated_at": "2026-06-01T21:39:29.259254+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

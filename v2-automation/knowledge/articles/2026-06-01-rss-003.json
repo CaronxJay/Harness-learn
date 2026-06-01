@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-01-rss-003",
+  "title": "PhyDrawGen：基于物理规律的图表生成",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.30512",
+  "language": "en",
+  "summary": "PhyDrawGen是一个神经符号管道，从自然语言生成物理图表。它利用大语言模型提取场景图，通过确定性求解器转换为平面直线图，并用微调的Qwen-VL模型迭代修正约束违反。在1449个物理问题基准上，其物理准确性显著优于GPT-5-image等模型。",
+  "summary_en": "PhyDrawGen is a neuro-symbolic pipeline that generates physics diagrams from natural language. It uses an LLM to extract a scene graph, a deterministic solver to convert it into a planar straight-line graph, and a fine-tuned Qwen-VL model to iteratively correct constraint violations. It significantly outperforms GPT-5-image on a benchmark of 1,449 physics problems.",
+  "tags": [
+    "llm",
+    "research",
+    "multimodal",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-06-01T21:39:29.259199+08:00",
+  "updated_at": "2026-06-01T21:39:29.259201+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

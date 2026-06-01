@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-01-rss-004",
+  "title": "物理可行的世界模型：面向查询条件具身AI的案例",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.30542",
+  "language": "en",
+  "summary": "本文提出具身AI的世界模型必须物理可行，即通过表示动作结果的物理结构来回答干预查询，而非仅预测未来观测。现有模型可能产生视觉合理但物理错误的展开。作者论证了需要识别最简单的物理抽象来回答查询，并提出了模块化设计原则，包括环境表示、潜在状态估计、动作规范、干预动力学和查询级响应。该方法使模型可解释、组件可验证、输出可审计。",
+  "summary_en": "World models for embodied AI must be physically viable, answering intervention queries by representing physical structure governing action outcomes. The paper argues for identifying the simplest physical abstraction sufficient to answer a query, proposing modular components and an orchestrator for dynamic assembly. This makes models interpretable, verifiable, and auditable.",
+  "tags": [
+    "research",
+    "embodied-ai",
+    "world-models",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-06-01T21:39:29.259207+08:00",
+  "updated_at": "2026-06-01T21:39:29.259210+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

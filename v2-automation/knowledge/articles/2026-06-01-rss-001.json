@@ -1,0 +1,26 @@
+{
+  "id": "2026-06-01-rss-001",
+  "title": "自主智能体数据工程：面向模型专业化的端到端数据策展",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2605.30407",
+  "language": "en",
+  "summary": "本文提出“自主智能体数据工程”任务，让LLM作为自主数据工程师，通过规划、生成和迭代优化训练数据来驱动模型专业化。实验表明，GPT-5.2通过智能体驱动的数据适应，使学生模型性能提升57.29%，展示了自主数据工程的潜力与瓶颈。",
+  "summary_en": "This paper proposes Autonomous Agentic Data Engineering, where LLMs act as autonomous data engineers to plan, generate, and iteratively optimize training data for model specialization. Experiments show GPT-5.2 improves a student model by 57.29% through agent-driven data adaptation, revealing potential and bottlenecks.",
+  "tags": [
+    "llm",
+    "research",
+    "agent-framework",
+    "fine-tuning",
+    "data-engineering"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-01T21:39:29.259177+08:00",
+  "updated_at": "2026-06-01T21:39:29.259183+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
