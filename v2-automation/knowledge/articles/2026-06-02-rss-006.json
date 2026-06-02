@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-02-rss-006",
+  "title": "AEyeDE：基于注意力的AI生成文本检测框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.00016",
+  "language": "en",
+  "summary": "提出AEyeDE框架，利用代理Transformer模型的注意力归因矩阵作为判别信号，通过轻量级CNN学习表征，在编码器-解码器和解码器设置中均优于文本基线，且对跨数据集和扰动具有鲁棒性。",
+  "summary_en": "Proposes AEyeDE, an attribution-driven framework that uses attention matrices from a proxy Transformer as discriminative signals for AI-generated text detection, outperforming text-only baselines and showing robustness across datasets and perturbations.",
+  "tags": [
+    "llm",
+    "research",
+    "security",
+    "benchmark"
+  ],
+  "category": "security",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-06-02T20:03:34.711856+08:00",
+  "updated_at": "2026-06-02T20:03:34.711857+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

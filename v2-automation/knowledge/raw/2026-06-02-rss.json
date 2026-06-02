@@ -1,0 +1,477 @@
+{
+  "collected_at": "2026-06-02T20:03:34.712837+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "Position Paper: Post-Solve Robustness in Decision Engines: Feasible Regions and Smoothness Under Perturbations",
+      "url": "https://arxiv.org/abs/2606.00002",
+      "description": "arXiv:2606.00002v1 Announce Type: new \nAbstract: Mixed-Integer Linear Programming (MILP) decision engines routinely output nominally optimal plans for high-stakes industrial systems. Yet deployment rarely matches solve-time assumptions: small perturbations in costs, demands, or resource availability can invalidate feasibility or trigger discontinuous shifts to qualitatively different solutions. We argue that this post-solve robustness gap is a missing layer in today's optimization pipelines and a missing evaluation dimension for learning-enabled decision systems. Rather than replacing robust optimization or stochastic programming, the proposed layer audits a solved incumbent and returns solver-backed evidence about how far that solution can be trusted. We formalize two central objects: (i) an $\\epsilon$-near-optimal feasible neighborhood in parameter space, capturing when an incumbent remains feasible and near-optimal under perturbations, and (ii) solution smoothness in decision space, capturing whether nearby alternatives with small combinatorial edits remain competitive. We then synthesize the most relevant partial answers from sensitivity and stability analysis, robust optimization, neighborhood search, adversarial testing, and learning-based enhancements, and articulate an agenda for a unified post-solve robustness layer. Concretely, we call for certified inner approximations around the incumbent, probabilistic robustness estimation with calibrated uncertainty, adversarial robustness margins, and learning-based prediction and explanation aligned with solver-backed verification. We conclude with a compact reporting template and evaluation protocol that would make robustness a first-class output of decision engines.",
+      "pub_date": "Tue, 02 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "决策引擎求解后鲁棒性：可行域与扰动下的平滑性",
+        "summary": "本文提出决策引擎的“求解后鲁棒性”概念，针对混合整数线性规划在部署时因参数扰动导致不可行或解跳变的问题，主张在优化流程中增加审计层，形式化定义了ϵ-近优可行邻域和解平滑性，并综合敏感性分析、鲁棒优化、邻域搜索等方法，提出了统一鲁棒性层的议程。",
+        "summary_en": "This position paper introduces 'post-solve robustness' for decision engines, addressing the gap between solve-time assumptions and deployment perturbations. It formalizes ϵ-near-optimal feasible neighborhoods and solution smoothness, synthesizes relevant methods, and proposes a unified robustness layer with certified inner approximations, probabilistic estimation, and adversarial margins.",
+        "tags": [
+          "research",
+          "infrastructure",
+          "optimization",
+          "robustness"
+        ],
+        "category": "research",
+        "relevance_score": 0.7,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-02-rss-009",
+        "title": "决策引擎求解后鲁棒性：可行域与扰动下的平滑性",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.00002",
+        "language": "en",
+        "summary": "本文提出决策引擎的“求解后鲁棒性”概念，针对混合整数线性规划在部署时因参数扰动导致不可行或解跳变的问题，主张在优化流程中增加审计层，形式化定义了ϵ-近优可行邻域和解平滑性，并综合敏感性分析、鲁棒优化、邻域搜索等方法，提出了统一鲁棒性层的议程。",
+        "summary_en": "This position paper introduces 'post-solve robustness' for decision engines, addressing the gap between solve-time assumptions and deployment perturbations. It formalizes ϵ-near-optimal feasible neighborhoods and solution smoothness, synthesizes relevant methods, and proposes a unified robustness layer with certified inner approximations, probabilistic estimation, and adversarial margins.",
+        "tags": [
+          "research",
+          "infrastructure",
+          "optimization",
+          "robustness"
+        ],
+        "category": "research",
+        "relevance_score": 0.7,
+        "status": "published",
+        "created_at": "2026-06-02T20:03:34.711871+08:00",
+        "updated_at": "2026-06-02T20:03:34.711872+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Emergent Collaborative Deliberation in Multi-Model AI Systems: A BFT-Derived Protocol for Epistemic Synthesis",
+      "url": "https://arxiv.org/abs/2606.00005",
+      "description": "arXiv:2606.00005v1 Announce Type: new \nAbstract: We present the Consilium Protocol, a Byzantine Fault Tolerance-derived architecture for structured multi-model AI deliberation that treats inter-model disagreement as epistemic signal rather than error. The protocol assigns engineered cognitive personas to language models -- separating what a model is from how it reasons -- and introduces an In-Sample/Out-of-Sample validation framework adapted from quantitative finance to distinguish training-data consensus from empirically grounded conclusions. Across 1,478 deliberation sessions spanning 32 topics in 10 domain categories, we demonstrate that (1) the cognitive persona, not the underlying model, determines epistemic behavior: free edge-inference models costing 0.0002 USD per batch produced comparable analytical output to frontier models costing 10.69 USD; (2) RLHF alignment training creates measurable, domain-specific epistemic blind spots -- contested policy topics exhibit 12.3 percentage points less adversarial challenge than settled science topics, and AI safety topics show asymmetric bias ($\\Delta$=11.6%) where models challenge claims that AI is dangerous far more vigorously than claims that AI risk is overstated; (3) the protocol exhibits no directional bias of its own (immigration $\\Delta$=2.3%, renewables $\\Delta$=1.2%); and (4) out-of-sample evidence retrieval validated 239 claims with 100% evidence retrieval and surfaced 167 blind-spot discoveries invisible to training-data deliberation. Run-to-run reproducibility across randomized model$\\times$persona assignments averages $\\pm$2.2% standard deviation. Total cost for the complete battery including all overhead: 217 USD. We release the protocol specification under MIT license to enable independent verification.",
+      "pub_date": "Tue, 02 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "多模型AI系统中的涌现协作审议：一种基于拜占庭容错的认知综合协议",
+        "summary": "提出Consilium协议，一种基于拜占庭容错的多模型AI审议架构，将模型间分歧视为认知信号而非错误。通过认知角色分离、样本内外验证框架，在1478次会话中证明：认知角色决定认知行为，低成本模型可媲美前沿模型；RLHF对齐训练导致特定领域认知盲点；协议本身无方向性偏差；外部证据检索可发现训练数据盲点。协议以MIT许可证开源。",
+        "summary_en": "Introduces the Consilium Protocol, a BFT-derived architecture for multi-model AI deliberation treating disagreement as epistemic signal. Across 1,478 sessions, it shows cognitive persona determines behavior, RLHF creates blind spots, and out-of-sample retrieval discovers hidden insights. Open-sourced under MIT.",
+        "tags": [
+          "research",
+          "llm",
+          "infrastructure",
+          "security",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-02-rss-001",
+        "title": "多模型AI系统中的涌现协作审议：一种基于拜占庭容错的认知综合协议",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.00005",
+        "language": "en",
+        "summary": "提出Consilium协议，一种基于拜占庭容错的多模型AI审议架构，将模型间分歧视为认知信号而非错误。通过认知角色分离、样本内外验证框架，在1478次会话中证明：认知角色决定认知行为，低成本模型可媲美前沿模型；RLHF对齐训练导致特定领域认知盲点；协议本身无方向性偏差；外部证据检索可发现训练数据盲点。协议以MIT许可证开源。",
+        "summary_en": "Introduces the Consilium Protocol, a BFT-derived architecture for multi-model AI deliberation treating disagreement as epistemic signal. Across 1,478 sessions, it shows cognitive persona determines behavior, RLHF creates blind spots, and out-of-sample retrieval discovers hidden insights. Open-sourced under MIT.",
+        "tags": [
+          "research",
+          "llm",
+          "infrastructure",
+          "security",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-02T20:03:34.711831+08:00",
+        "updated_at": "2026-06-02T20:03:34.711835+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Deliberative Curation: A Protocol for Multi-Agent Knowledge Bases",
+      "url": "https://arxiv.org/abs/2606.00007",
+      "description": "arXiv:2606.00007v1 Announce Type: new \nAbstract: As AI agents transition from isolated tools to collaborative participants in shared knowledge ecosystems, governing collective knowledge curation becomes a critical challenge. Human platform governance mechanisms do not transfer directly: agent statelessness undermines deterrence-based sanctions, model homogeneity violates independence assumptions underlying crowd wisdom, and sycophancy collapses deliberative consensus.\n  We propose a deliberative curation protocol combining three governance layers: (1) a knowledge artifact lifecycle formalized as a labeled transition system; (2) reputation-weighted deliberative voting integrating Beta Reputation with EigenTrust amplification; and (3) graduated sanctions adapted for stateless agents, including broken agent handling distinguishing malfunction from adversarial behavior.\n  We evaluate the protocol through agent-based simulation with 100 agents across seven behavioral archetypes under two adversity scenarios (30 seeds, paired t-tests). The protocol trades modest precision under benign conditions for substantially better resilience under adversity: 0.826 vs 0.791 for majority vote under moderate adversity (p<0.001), widening to 0.807 vs 0.740 under stress (p<0.001). The protocol degrades roughly three times more slowly than majority vote. Ablation analysis identifies commit-reveal vote concealment as the most impactful single component (8.2-8.6pp precision improvement, p<0.001), outperforming reputation weighting and deliberation combined. Graduated sanctions were not exercised in simulation and remain empirically unvalidated.",
+      "pub_date": "Tue, 02 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "多智能体知识库的审慎策展协议",
+        "summary": "提出一种针对多智能体知识库的审慎策展协议，结合知识工件生命周期、声誉加权审议投票和分级制裁三层治理。模拟实验表明，该协议在逆境下鲁棒性显著优于多数投票，性能退化速度慢约3倍，其中承诺-揭示投票隐藏机制贡献最大。",
+        "summary_en": "Proposes a deliberative curation protocol for multi-agent knowledge bases, combining knowledge artifact lifecycle, reputation-weighted deliberative voting, and graduated sanctions. Simulations show significantly better resilience under adversity than majority vote, degrading roughly 3x slower, with commit-reveal vote concealment as the most impactful component.",
+        "tags": [
+          "agent-framework",
+          "research",
+          "infrastructure",
+          "security"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-02-rss-004",
+        "title": "多智能体知识库的审慎策展协议",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.00007",
+        "language": "en",
+        "summary": "提出一种针对多智能体知识库的审慎策展协议，结合知识工件生命周期、声誉加权审议投票和分级制裁三层治理。模拟实验表明，该协议在逆境下鲁棒性显著优于多数投票，性能退化速度慢约3倍，其中承诺-揭示投票隐藏机制贡献最大。",
+        "summary_en": "Proposes a deliberative curation protocol for multi-agent knowledge bases, combining knowledge artifact lifecycle, reputation-weighted deliberative voting, and graduated sanctions. Simulations show significantly better resilience under adversity than majority vote, degrading roughly 3x slower, with commit-reveal vote concealment as the most impactful component.",
+        "tags": [
+          "agent-framework",
+          "research",
+          "infrastructure",
+          "security"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-06-02T20:03:34.711848+08:00",
+        "updated_at": "2026-06-02T20:03:34.711849+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Agents on a Tree: Pathwise Coordination for Multi-Objective Molecular Optimization",
+      "url": "https://arxiv.org/abs/2606.00008",
+      "description": "arXiv:2606.00008v1 Announce Type: new \nAbstract: Multi-objective molecular optimization requires searching vast chemical spaces under conflicting objectives, where early design decisions strongly constrain downstream outcomes. Existing methods typically rely on a single policy or fixed scalarization, which limits their ability to represent diverse trade-offs and to explore multiple promising design trajectories. We propose ATOM, a multi-agent framework that formulates molecular optimization as a tree-structured search. Each node corresponds to an atomic operation and hosts an agent specialized for a particular objective or decision context. Agents coordinate along different paths of the tree rather than enforcing a global consensus, enabling the method to maintain and compare alternative molecular evolution trajectories. A global memory of past optimization behaviors further supports balanced exploration and exploitation across objectives. This tree-structured interaction enables reasoning over long-horizon dependencies inherent in molecular design. Experiments on challenging multi-objective benchmarks involving activity, synthesizability, and ADMET-related properties show that ATOM consistently achieves improved Pareto coverage and hypervolume over strong baselines. These results demonstrate the effectiveness of pathwise multi-agent coordination for molecular optimization. Code is available at https://anonymous.4open.science/r/ATOM-41CE.",
+      "pub_date": "Tue, 02 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "树上智能体：多目标分子优化的路径协调",
+        "summary": "提出ATOM多智能体框架，将分子优化建模为树结构搜索。每个节点对应原子操作并托管一个智能体，智能体沿不同路径协调而非全局共识，维护和比较多条分子演化轨迹。全局记忆支持跨目标的平衡探索与利用。在活性、可合成性、ADMET等多目标基准上，ATOM在帕累托覆盖和超体积指标上持续超越强基线。",
+        "summary_en": null,
+        "tags": [
+          "agent-framework",
+          "research",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-02-rss-007",
+        "title": "树上智能体：多目标分子优化的路径协调",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.00008",
+        "language": "en",
+        "summary": "提出ATOM多智能体框架，将分子优化建模为树结构搜索。每个节点对应原子操作并托管一个智能体，智能体沿不同路径协调而非全局共识，维护和比较多条分子演化轨迹。全局记忆支持跨目标的平衡探索与利用。在活性、可合成性、ADMET等多目标基准上，ATOM在帕累托覆盖和超体积指标上持续超越强基线。",
+        "summary_en": null,
+        "tags": [
+          "agent-framework",
+          "research",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-06-02T20:03:34.711863+08:00",
+        "updated_at": "2026-06-02T20:03:34.711864+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Optimal Transport-based Permutation-Invariant Bayesian Optimization of Offshore Wind Farm Layouts",
+      "url": "https://arxiv.org/abs/2606.00009",
+      "description": "arXiv:2606.00009v1 Announce Type: new \nAbstract: Bayesian Optimization (BO) is widely and successfully adopted for solving optimization problems having an expensive-to-evaluate, black-box, and non-convex objective function. However, the vanilla BO algorithm is not able to exploit possible symmetries characterizing the target problem. An intuitive case is given by optimal location problems, whose decision variables refer to a finite set of points within a continuous space, with the order of points not affecting the value of the objective function. We refer to this setting as optimization over layouts to distinguish from optimization over point-clouds where, instead, the order of points counts. As an instance of optimization over layouts we consider a real-life industrial-relevant application, that is the optimization of the layout of an offshore wind farm: given identical wind turbines, switching any pair of them has not any effect on the annual energy production. Based on Optimal Transport theory, we propose a Permutation-Invariant BO approach, namely PIBO, proved to provide better wind farm layouts when compared to the vanilla BO approach while cutting computation time roughly in half.",
+      "pub_date": "Tue, 02 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "基于最优传输的排列不变贝叶斯优化方法用于海上风电场布局优化",
+        "summary": "提出PIBO方法，利用最优传输理论实现排列不变的贝叶斯优化，解决海上风电场布局优化问题。与标准贝叶斯优化相比，PIBO能利用问题对称性，获得更优布局并减少约一半计算时间。",
+        "summary_en": "Proposes PIBO, a permutation-invariant Bayesian Optimization method based on Optimal Transport theory, for optimizing offshore wind farm layouts. It exploits symmetries to achieve better layouts and roughly halve computation time compared to vanilla BO.",
+        "tags": [
+          "research",
+          "optimization",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.3,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-02-rss-010",
+        "title": "基于最优传输的排列不变贝叶斯优化方法用于海上风电场布局优化",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.00009",
+        "language": "en",
+        "summary": "提出PIBO方法，利用最优传输理论实现排列不变的贝叶斯优化，解决海上风电场布局优化问题。与标准贝叶斯优化相比，PIBO能利用问题对称性，获得更优布局并减少约一半计算时间。",
+        "summary_en": "Proposes PIBO, a permutation-invariant Bayesian Optimization method based on Optimal Transport theory, for optimizing offshore wind farm layouts. It exploits symmetries to achieve better layouts and roughly halve computation time compared to vanilla BO.",
+        "tags": [
+          "research",
+          "optimization",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.3,
+        "status": "published",
+        "created_at": "2026-06-02T20:03:34.711875+08:00",
+        "updated_at": "2026-06-02T20:03:34.711877+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "DraDDP: A Multimodal Multi-Party Dialogue Discourse Parsing Dataset",
+      "url": "https://arxiv.org/abs/2606.00012",
+      "description": "arXiv:2606.00012v1 Announce Type: new \nAbstract: Multi-party dialogue discourse parsing aims to identify dependency structures and relation types between utterances in conversations. Previous studies are mostly limited to textual modality or two-party dialogue, failing to meet the multimodal and multi-party settings. In this paper, we construct the first publicly available English multimodal dataset DraDDP for multi-party dialogue discourse parsing, based on American TV dramas. DraDDP contains 495 dialogue segments with 6,374 utterances and 9.1 hours of parallel video content, covering rich multi-party interaction scenarios. Moreover, we establish comprehensive benchmarks by evaluating this task on DraDDP and conducting in-depth analysis on the impact of different modalities. Experimental results demonstrate the value of multimodal information in capturing dialogue structures and relation types. We will publicly release the dataset, annotation guidelines, and code to promote future research in multimodal dialogue understanding.",
+      "pub_date": "Tue, 02 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "DraDDP：多模态多方对话话语解析数据集",
+        "summary": "首个公开的英文多模态多方对话话语解析数据集，基于美剧构建，包含495个对话片段、6374个话语和9.1小时视频。实验证明多模态信息对捕捉对话结构和关系类型的价值。",
+        "summary_en": "First publicly available English multimodal multi-party dialogue discourse parsing dataset, built from American TV dramas with 495 segments, 6,374 utterances, and 9.1 hours of video. Experiments show multimodal information helps capture dialogue structures and relation types.",
+        "tags": [
+          "multimodal",
+          "dataset",
+          "research",
+          "benchmark"
+        ],
+        "category": "multimodal",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-02-rss-008",
+        "title": "DraDDP：多模态多方对话话语解析数据集",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.00012",
+        "language": "en",
+        "summary": "首个公开的英文多模态多方对话话语解析数据集，基于美剧构建，包含495个对话片段、6374个话语和9.1小时视频。实验证明多模态信息对捕捉对话结构和关系类型的价值。",
+        "summary_en": "First publicly available English multimodal multi-party dialogue discourse parsing dataset, built from American TV dramas with 495 segments, 6,374 utterances, and 9.1 hours of video. Experiments show multimodal information helps capture dialogue structures and relation types.",
+        "tags": [
+          "multimodal",
+          "dataset",
+          "research",
+          "benchmark"
+        ],
+        "category": "multimodal",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-06-02T20:03:34.711867+08:00",
+        "updated_at": "2026-06-02T20:03:34.711868+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Toward Robust In-Context Learning: Leveraging Out-of-distribution Proxies for Target Inaccessible Demonstration Retrieval",
+      "url": "https://arxiv.org/abs/2606.00014",
+      "description": "arXiv:2606.00014v1 Announce Type: new \nAbstract: Although studies have demonstrated that Large Language Models (LLMs) can perform well on Out-of-Distribution (OOD) tasks, their advantage tends to diminish as the distribution shift becomes more severe. Consequently, researchers aim to retrieve distributionally similar and informative demonstrations from the available source domain to boost the inference capabilities of LLMs. However, in practical scenarios where the target domain is inaccessible, evaluating the unknown distribution is challenging, which indirectly impacts the quality of the selected demonstrations. To address this problem, we propose \\textbf{DOPA}, a demonstration search framework that incorporates an OOD proxy to approximate the inaccessible target domain and guide the retrieval process. Building on proxy-based evaluation, DOPA further introduces a Mahalanobis distance-based global diversity constraint to ensure sufficient diversity among the retrieved demonstrations. Experimental results on multiple LLMs and tasks demonstrate that DOPA effectively enhances robustness in OOD settings\\footnote{https://github.com/bort64/ood\\_code}.",
+      "pub_date": "Tue, 02 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "面向鲁棒上下文学习：利用分布外代理实现目标不可访问的示例检索",
+        "summary": "提出DOPA框架，通过引入分布外代理近似不可访问的目标域，并利用马氏距离全局多样性约束，提升大语言模型在分布偏移场景下的上下文学习鲁棒性。实验表明该方法有效。",
+        "summary_en": "Proposes DOPA, a demonstration search framework that uses an OOD proxy to approximate inaccessible target domains and a Mahalanobis distance-based diversity constraint, enhancing LLM robustness in out-of-distribution settings.",
+        "tags": [
+          "llm",
+          "research",
+          "in-context-learning",
+          "robustness"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-02-rss-005",
+        "title": "面向鲁棒上下文学习：利用分布外代理实现目标不可访问的示例检索",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.00014",
+        "language": "en",
+        "summary": "提出DOPA框架，通过引入分布外代理近似不可访问的目标域，并利用马氏距离全局多样性约束，提升大语言模型在分布偏移场景下的上下文学习鲁棒性。实验表明该方法有效。",
+        "summary_en": "Proposes DOPA, a demonstration search framework that uses an OOD proxy to approximate inaccessible target domains and a Mahalanobis distance-based diversity constraint, enhancing LLM robustness in out-of-distribution settings.",
+        "tags": [
+          "llm",
+          "research",
+          "in-context-learning",
+          "robustness"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-06-02T20:03:34.711852+08:00",
+        "updated_at": "2026-06-02T20:03:34.711853+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "AEyeDE: An Attention-Based Attribution Framework for AI-Generated Text Detection",
+      "url": "https://arxiv.org/abs/2606.00016",
+      "description": "arXiv:2606.00016v1 Announce Type: new \nAbstract: Detecting AI-generated text is becoming increasingly challenging as modern language models approach human-level fluency and can evade detectors that rely on surface statistics or likelihood-based signals. We propose \\textsc{AEyeDE}, an attribution-driven approach to human-AI authorship detection that leverages model attention as a discriminative signal. Specifically, we extract attention-based attribution matrices for both human- and AI-generated text using a \\emph{proxy} Transformer model with white-box access and train a lightweight Convolutional Neural Network to learn representations from these attribution maps. Across encoder-decoder translation settings, our method consistently outperforms a text-only baseline. In decoder-only settings, it performs strongly in generator-specific detection, remains competitive on standard benchmarks, and shows robustness under cross-dataset transfer and alternative-spelling perturbations. We further show that attention maps exhibit recurring local structures whose relative frequencies differ consistently between human- and AI-generated text across datasets and proxy models. These findings suggest that attention-based attribution maps provide a complementary and interpretable signal for AI-generated text detection. We will make the code publicly available to support future research.",
+      "pub_date": "Tue, 02 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "AEyeDE：基于注意力的AI生成文本检测框架",
+        "summary": "提出AEyeDE框架，利用代理Transformer模型的注意力归因矩阵作为判别信号，通过轻量级CNN学习表征，在编码器-解码器和解码器设置中均优于文本基线，且对跨数据集和扰动具有鲁棒性。",
+        "summary_en": "Proposes AEyeDE, an attribution-driven framework that uses attention matrices from a proxy Transformer as discriminative signals for AI-generated text detection, outperforming text-only baselines and showing robustness across datasets and perturbations.",
+        "tags": [
+          "llm",
+          "research",
+          "security",
+          "benchmark"
+        ],
+        "category": "security",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-02-rss-006",
+        "title": "AEyeDE：基于注意力的AI生成文本检测框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.00016",
+        "language": "en",
+        "summary": "提出AEyeDE框架，利用代理Transformer模型的注意力归因矩阵作为判别信号，通过轻量级CNN学习表征，在编码器-解码器和解码器设置中均优于文本基线，且对跨数据集和扰动具有鲁棒性。",
+        "summary_en": "Proposes AEyeDE, an attribution-driven framework that uses attention matrices from a proxy Transformer as discriminative signals for AI-generated text detection, outperforming text-only baselines and showing robustness across datasets and perturbations.",
+        "tags": [
+          "llm",
+          "research",
+          "security",
+          "benchmark"
+        ],
+        "category": "security",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-06-02T20:03:34.711856+08:00",
+        "updated_at": "2026-06-02T20:03:34.711857+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "CSRP: Chain-of-Thought Reasoning for Chinese Text Correction via Reinforcement Learning with Efficiency-Aware Rewards",
+      "url": "https://arxiv.org/abs/2606.00020",
+      "description": "arXiv:2606.00020v1 Announce Type: new \nAbstract: Large Language Model (LLM) based Chinese Grammatical Error Correction (CGEC) systems face two critical challenges: general-purpose models lack specialized linguistic priors for subtle grammatical distinctions, and Supervised Fine-Tuning (SFT) with Maximum Likelihood Estimation fails to optimize for precision-focused metrics, leading to systematic over-correction. We propose CSRP, a three-stage framework that progressively builds correction capability through Continual Pre-training (CPT) on 5.9M balanced samples to internalize domain knowledge, Chain-of-Thought SFT with explicit error reasoning for diagnostic transparency, and Group Relative Policy Optimization with a novel Efficiency-Aware Reward that explicitly penalizes unnecessary edits. On the NACGEC benchmark, CSRP achieves state-of-the-art performance with 50.99 $F_{0.5}$ and 57.17 precision, substantially outperforming previous best results while effectively mitigating the over-correction bias inherent in MLE-trained models. Our method also advances CSCD spelling correction to 59.61 F1, surpassing GPT-4 by 5.20 points. Comprehensive ablation studies demonstrate that the RL alignment stage contributes a 8\\% relative gain over the SFT baseline, and that this gain is orthogonal to the contribution of large-scale CPT, validating that explicit optimization for edit efficiency is essential for high-quality grammatical error correction. Our code is available at https://github.com/TW-NLP/ChineseErrorCorrector.",
+      "pub_date": "Tue, 02 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "CSRP：基于强化学习和效率感知奖励的中文文本纠错链式推理",
+        "summary": "提出CSRP三阶段框架，通过持续预训练、链式思维监督微调和基于效率感知奖励的强化学习，解决中文语法纠错中的过度纠正问题。在NACGEC基准上达到50.99 F0.5和57.17精确率，拼写纠正F1达59.61，超越GPT-4。",
+        "summary_en": "Proposes CSRP, a three-stage framework combining continual pre-training, chain-of-thought SFT, and reinforcement learning with efficiency-aware rewards to address over-correction in Chinese grammatical error correction. Achieves 50.99 F0.5 and 57.17 precision on NACGEC, and 59.61 F1 on spelling correction, surpassing GPT-4.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "prompt-engineering",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-02-rss-002",
+        "title": "CSRP：基于强化学习和效率感知奖励的中文文本纠错链式推理",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.00020",
+        "language": "en",
+        "summary": "提出CSRP三阶段框架，通过持续预训练、链式思维监督微调和基于效率感知奖励的强化学习，解决中文语法纠错中的过度纠正问题。在NACGEC基准上达到50.99 F0.5和57.17精确率，拼写纠正F1达59.61，超越GPT-4。",
+        "summary_en": "Proposes CSRP, a three-stage framework combining continual pre-training, chain-of-thought SFT, and reinforcement learning with efficiency-aware rewards to address over-correction in Chinese grammatical error correction. Achieves 50.99 F0.5 and 57.17 precision on NACGEC, and 59.61 F1 on spelling correction, surpassing GPT-4.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "prompt-engineering",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-02T20:03:34.711839+08:00",
+        "updated_at": "2026-06-02T20:03:34.711841+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "SENSE: Semantic Embedding Navigation with Soft-gated Evaluation for Retrieval-based Speculative Decoding",
+      "url": "https://arxiv.org/abs/2606.00021",
+      "description": "arXiv:2606.00021v1 Announce Type: new \nAbstract: Speculative Decoding (SD) accelerates Large Language Model (LLM) inference by employing a lightweight draft model to propose candidate tokens, which are verified in parallel by the target model, without compromising generation quality. While Retrieval-based Speculative Decoding (RSD) is favored for its plug-and-play versatility, its potential is impeded by rigid lexical dependencies, rendering both retrieval and verification brittle to surface-level variations. To address this, we propose SENSE (Semantic Embedding Navigation with Soft-gated Evaluation). By anchoring retrieval on the hidden states of the target model, SENSE establishes robust semantic alignment, which empowers the Soft-gated Evaluation module to validate semantic equivalence rather than surface forms. To ensure rigorous benchmarking, we deconstruct existing methods into atomic primitives within a unified framework, facilitating granular, component-level comparison. Extensive experiments across diverse domains demonstrate that SENSE outperforms multiple baselines on the LLaMA and Qwen families, attaining up to 4.09 mean acceptance length and 3.26x speedup, while preserving generation quality. Our code will be released upon publication.",
+      "pub_date": "Tue, 02 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "SENSE：基于语义嵌入导航与软门控评估的检索式推测解码",
+        "summary": "提出SENSE方法，通过将检索锚定在目标模型的隐藏状态上建立语义对齐，并利用软门控评估模块验证语义等价性，从而解决检索式推测解码中词汇依赖导致的鲁棒性问题。在LLaMA和Qwen系列模型上实现高达4.09的平均接受长度和3.26倍加速，同时保持生成质量。",
+        "summary_en": "Proposes SENSE, which anchors retrieval on target model hidden states for semantic alignment and uses soft-gated evaluation for semantic equivalence validation, addressing robustness issues in retrieval-based speculative decoding. Achieves up to 4.09 mean acceptance length and 3.26x speedup on LLaMA and Qwen models while preserving generation quality.",
+        "tags": [
+          "llm",
+          "research",
+          "inference-acceleration",
+          "retrieval"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-02-rss-003",
+        "title": "SENSE：基于语义嵌入导航与软门控评估的检索式推测解码",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.00021",
+        "language": "en",
+        "summary": "提出SENSE方法，通过将检索锚定在目标模型的隐藏状态上建立语义对齐，并利用软门控评估模块验证语义等价性，从而解决检索式推测解码中词汇依赖导致的鲁棒性问题。在LLaMA和Qwen系列模型上实现高达4.09的平均接受长度和3.26倍加速，同时保持生成质量。",
+        "summary_en": "Proposes SENSE, which anchors retrieval on target model hidden states for semantic alignment and uses soft-gated evaluation for semantic equivalence validation, addressing robustness issues in retrieval-based speculative decoding. Achieves up to 4.09 mean acceptance length and 3.26x speedup on LLaMA and Qwen models while preserving generation quality.",
+        "tags": [
+          "llm",
+          "research",
+          "inference-acceleration",
+          "retrieval"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-02T20:03:34.711844+08:00",
+        "updated_at": "2026-06-02T20:03:34.711845+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

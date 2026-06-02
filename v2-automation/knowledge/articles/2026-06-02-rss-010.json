@@ -1,0 +1,24 @@
+{
+  "id": "2026-06-02-rss-010",
+  "title": "基于最优传输的排列不变贝叶斯优化方法用于海上风电场布局优化",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.00009",
+  "language": "en",
+  "summary": "提出PIBO方法，利用最优传输理论实现排列不变的贝叶斯优化，解决海上风电场布局优化问题。与标准贝叶斯优化相比，PIBO能利用问题对称性，获得更优布局并减少约一半计算时间。",
+  "summary_en": "Proposes PIBO, a permutation-invariant Bayesian Optimization method based on Optimal Transport theory, for optimizing offshore wind farm layouts. It exploits symmetries to achieve better layouts and roughly halve computation time compared to vanilla BO.",
+  "tags": [
+    "research",
+    "optimization",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.3,
+  "status": "published",
+  "created_at": "2026-06-02T20:03:34.711875+08:00",
+  "updated_at": "2026-06-02T20:03:34.711877+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

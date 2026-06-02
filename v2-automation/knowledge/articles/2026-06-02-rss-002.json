@@ -1,0 +1,26 @@
+{
+  "id": "2026-06-02-rss-002",
+  "title": "CSRP：基于强化学习和效率感知奖励的中文文本纠错链式推理",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.00020",
+  "language": "en",
+  "summary": "提出CSRP三阶段框架，通过持续预训练、链式思维监督微调和基于效率感知奖励的强化学习，解决中文语法纠错中的过度纠正问题。在NACGEC基准上达到50.99 F0.5和57.17精确率，拼写纠正F1达59.61，超越GPT-4。",
+  "summary_en": "Proposes CSRP, a three-stage framework combining continual pre-training, chain-of-thought SFT, and reinforcement learning with efficiency-aware rewards to address over-correction in Chinese grammatical error correction. Achieves 50.99 F0.5 and 57.17 precision on NACGEC, and 59.61 F1 on spelling correction, surpassing GPT-4.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "prompt-engineering",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-02T20:03:34.711839+08:00",
+  "updated_at": "2026-06-02T20:03:34.711841+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

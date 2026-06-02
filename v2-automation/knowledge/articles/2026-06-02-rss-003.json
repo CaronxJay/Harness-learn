@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-02-rss-003",
+  "title": "SENSE：基于语义嵌入导航与软门控评估的检索式推测解码",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.00021",
+  "language": "en",
+  "summary": "提出SENSE方法，通过将检索锚定在目标模型的隐藏状态上建立语义对齐，并利用软门控评估模块验证语义等价性，从而解决检索式推测解码中词汇依赖导致的鲁棒性问题。在LLaMA和Qwen系列模型上实现高达4.09的平均接受长度和3.26倍加速，同时保持生成质量。",
+  "summary_en": "Proposes SENSE, which anchors retrieval on target model hidden states for semantic alignment and uses soft-gated evaluation for semantic equivalence validation, addressing robustness issues in retrieval-based speculative decoding. Achieves up to 4.09 mean acceptance length and 3.26x speedup on LLaMA and Qwen models while preserving generation quality.",
+  "tags": [
+    "llm",
+    "research",
+    "inference-acceleration",
+    "retrieval"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-02T20:03:34.711844+08:00",
+  "updated_at": "2026-06-02T20:03:34.711845+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

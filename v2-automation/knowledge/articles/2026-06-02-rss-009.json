@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-02-rss-009",
+  "title": "决策引擎求解后鲁棒性：可行域与扰动下的平滑性",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.00002",
+  "language": "en",
+  "summary": "本文提出决策引擎的“求解后鲁棒性”概念，针对混合整数线性规划在部署时因参数扰动导致不可行或解跳变的问题，主张在优化流程中增加审计层，形式化定义了ϵ-近优可行邻域和解平滑性，并综合敏感性分析、鲁棒优化、邻域搜索等方法，提出了统一鲁棒性层的议程。",
+  "summary_en": "This position paper introduces 'post-solve robustness' for decision engines, addressing the gap between solve-time assumptions and deployment perturbations. It formalizes ϵ-near-optimal feasible neighborhoods and solution smoothness, synthesizes relevant methods, and proposes a unified robustness layer with certified inner approximations, probabilistic estimation, and adversarial margins.",
+  "tags": [
+    "research",
+    "infrastructure",
+    "optimization",
+    "robustness"
+  ],
+  "category": "research",
+  "relevance_score": 0.7,
+  "status": "published",
+  "created_at": "2026-06-02T20:03:34.711871+08:00",
+  "updated_at": "2026-06-02T20:03:34.711872+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

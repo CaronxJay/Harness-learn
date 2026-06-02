@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-02-rss-005",
+  "title": "面向鲁棒上下文学习：利用分布外代理实现目标不可访问的示例检索",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.00014",
+  "language": "en",
+  "summary": "提出DOPA框架，通过引入分布外代理近似不可访问的目标域，并利用马氏距离全局多样性约束，提升大语言模型在分布偏移场景下的上下文学习鲁棒性。实验表明该方法有效。",
+  "summary_en": "Proposes DOPA, a demonstration search framework that uses an OOD proxy to approximate inaccessible target domains and a Mahalanobis distance-based diversity constraint, enhancing LLM robustness in out-of-distribution settings.",
+  "tags": [
+    "llm",
+    "research",
+    "in-context-learning",
+    "robustness"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-06-02T20:03:34.711852+08:00",
+  "updated_at": "2026-06-02T20:03:34.711853+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

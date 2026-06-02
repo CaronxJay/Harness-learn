@@ -1,0 +1,24 @@
+{
+  "id": "2026-06-02-rss-007",
+  "title": "树上智能体：多目标分子优化的路径协调",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.00008",
+  "language": "en",
+  "summary": "提出ATOM多智能体框架，将分子优化建模为树结构搜索。每个节点对应原子操作并托管一个智能体，智能体沿不同路径协调而非全局共识，维护和比较多条分子演化轨迹。全局记忆支持跨目标的平衡探索与利用。在活性、可合成性、ADMET等多目标基准上，ATOM在帕累托覆盖和超体积指标上持续超越强基线。",
+  "summary_en": null,
+  "tags": [
+    "agent-framework",
+    "research",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-06-02T20:03:34.711863+08:00",
+  "updated_at": "2026-06-02T20:03:34.711864+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

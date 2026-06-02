@@ -1,0 +1,26 @@
+{
+  "id": "2026-06-02-rss-001",
+  "title": "多模型AI系统中的涌现协作审议：一种基于拜占庭容错的认知综合协议",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.00005",
+  "language": "en",
+  "summary": "提出Consilium协议，一种基于拜占庭容错的多模型AI审议架构，将模型间分歧视为认知信号而非错误。通过认知角色分离、样本内外验证框架，在1478次会话中证明：认知角色决定认知行为，低成本模型可媲美前沿模型；RLHF对齐训练导致特定领域认知盲点；协议本身无方向性偏差；外部证据检索可发现训练数据盲点。协议以MIT许可证开源。",
+  "summary_en": "Introduces the Consilium Protocol, a BFT-derived architecture for multi-model AI deliberation treating disagreement as epistemic signal. Across 1,478 sessions, it shows cognitive persona determines behavior, RLHF creates blind spots, and out-of-sample retrieval discovers hidden insights. Open-sourced under MIT.",
+  "tags": [
+    "research",
+    "llm",
+    "infrastructure",
+    "security",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-02T20:03:34.711831+08:00",
+  "updated_at": "2026-06-02T20:03:34.711835+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

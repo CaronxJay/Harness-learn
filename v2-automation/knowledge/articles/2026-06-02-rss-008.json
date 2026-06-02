@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-02-rss-008",
+  "title": "DraDDP：多模态多方对话话语解析数据集",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.00012",
+  "language": "en",
+  "summary": "首个公开的英文多模态多方对话话语解析数据集，基于美剧构建，包含495个对话片段、6374个话语和9.1小时视频。实验证明多模态信息对捕捉对话结构和关系类型的价值。",
+  "summary_en": "First publicly available English multimodal multi-party dialogue discourse parsing dataset, built from American TV dramas with 495 segments, 6,374 utterances, and 9.1 hours of video. Experiments show multimodal information helps capture dialogue structures and relation types.",
+  "tags": [
+    "multimodal",
+    "dataset",
+    "research",
+    "benchmark"
+  ],
+  "category": "multimodal",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-06-02T20:03:34.711867+08:00",
+  "updated_at": "2026-06-02T20:03:34.711868+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

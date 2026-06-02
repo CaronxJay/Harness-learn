@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-02-rss-004",
+  "title": "多智能体知识库的审慎策展协议",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.00007",
+  "language": "en",
+  "summary": "提出一种针对多智能体知识库的审慎策展协议，结合知识工件生命周期、声誉加权审议投票和分级制裁三层治理。模拟实验表明，该协议在逆境下鲁棒性显著优于多数投票，性能退化速度慢约3倍，其中承诺-揭示投票隐藏机制贡献最大。",
+  "summary_en": "Proposes a deliberative curation protocol for multi-agent knowledge bases, combining knowledge artifact lifecycle, reputation-weighted deliberative voting, and graduated sanctions. Simulations show significantly better resilience under adversity than majority vote, degrading roughly 3x slower, with commit-reveal vote concealment as the most impactful component.",
+  "tags": [
+    "agent-framework",
+    "research",
+    "infrastructure",
+    "security"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-06-02T20:03:34.711848+08:00",
+  "updated_at": "2026-06-02T20:03:34.711849+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
