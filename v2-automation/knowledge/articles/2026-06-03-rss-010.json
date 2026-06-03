@@ -1,0 +1,24 @@
+{
+  "id": "2026-06-03-rss-010",
+  "title": "评估Transformer和LSTM在无资料流域预测中的表现",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.02791",
+  "language": "en",
+  "summary": "该研究评估了仅编码器Transformer与LSTM在无资料流域上游径流推断中的表现。结果表明，LSTM整体性能优于Transformer，而加入下游信息可使中位数NNSE提升超60%。研究强调循环记忆更适合该任务，下游水文上下文能显著提升预测能力。",
+  "summary_en": "This study evaluates encoder-only Transformer vs LSTM for upstream streamflow inference in ungauged basins. Results show LSTM outperforms Transformer, and incorporating downstream information boosts median NNSE by over 60%. Recurrent memory aligns better with the task, while downstream context improves prediction across architectures.",
+  "tags": [
+    "research",
+    "llm",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.6,
+  "status": "published",
+  "created_at": "2026-06-03T20:41:21.196582+08:00",
+  "updated_at": "2026-06-03T20:41:21.196584+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

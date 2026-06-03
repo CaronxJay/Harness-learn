@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-03-rss-003",
+  "title": "视觉图谱支架：大型语言模型的结构化推理新方法",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.02673",
+  "language": "en",
+  "summary": "本文提出将图结构作为大型语言模型内部推理的视觉支架，而非仅作为外部知识源。实验表明，在去除直接答案提示后，文本化的图结构效果有限，而视觉图引导仍能有效提升多跳问答的推理效率与答案质量，支持图作为组织推理的视觉工具。",
+  "summary_en": "This paper proposes using graph structures as visual scaffolds for internal reasoning in LLMs, not just as external knowledge. Experiments show that visual graph guidance remains effective without direct answer hints, while flattened text graphs degrade, supporting graphs as visual tools for organizing reasoning.",
+  "tags": [
+    "llm",
+    "research",
+    "multimodal",
+    "reasoning"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-06-03T20:41:21.196515+08:00",
+  "updated_at": "2026-06-03T20:41:21.196535+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

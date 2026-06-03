@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-03-rss-002",
+  "title": "深层价值向量是否需要残差流的上下文？",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.02780",
+  "language": "en",
+  "summary": "研究发现，在Transformer深层，学习无上下文的价值向量（仅保留原始token信息）能提升模型性能。提出Bank of Values（BoV）方法，通过查找表为最后三分之一的层学习token特定价值向量，在135M和780M模型上优于标准注意力，且计算和内存需求更低。",
+  "summary_en": "The study finds that learning context-free value vectors (preserving original token information) in deep transformer layers improves model performance. It proposes Bank of Values (BoV), which uses a lookup table for token-specific value vectors in the last third of layers, outperforming standard attention on 135M and 780M models with less compute and memory.",
+  "tags": [
+    "llm",
+    "research",
+    "attention-mechanism",
+    "efficiency"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-03T20:41:21.196507+08:00",
+  "updated_at": "2026-06-03T20:41:21.196510+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

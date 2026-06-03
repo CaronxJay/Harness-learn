@@ -1,0 +1,26 @@
+{
+  "id": "2026-06-03-github-006",
+  "title": "AI项目合集",
+  "source": "github_trending",
+  "source_url": "https://github.com/AI-Projects-Girish/AI-Projects",
+  "language": "en",
+  "summary": "一个包含机器学习、深度学习、大语言模型和智能体AI实验的项目集合。",
+  "summary_en": null,
+  "tags": [
+    "llm",
+    "machine-learning",
+    "deep-learning",
+    "agent-framework",
+    "python"
+  ],
+  "category": "application",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-06-03T20:41:21.195614+08:00",
+  "updated_at": "2026-06-03T20:41:21.195617+08:00",
+  "metadata": {
+    "stars": 0,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

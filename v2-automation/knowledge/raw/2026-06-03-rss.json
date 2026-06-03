@@ -1,0 +1,477 @@
+{
+  "collected_at": "2026-06-03T20:41:21.197555+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "Visual Graph Scaffolds for Structural Reasoning in Large Language Models",
+      "url": "https://arxiv.org/abs/2606.02673",
+      "description": "arXiv:2606.02673v1 Announce Type: new \nAbstract: Graphs have been used to enhance large language models (LLMs) for structured reasoning, mostly as external knowledge sources are provided to models at test time. In this paper, we take a different view: the value of graphs for LLMs lie not only in supplying information, but also in organizing reasoning. Inspired by how humans use graph-structured mind maps to organize branching and converging thoughts, we ask whether graphs can serve as an internal form of reasoning assistance. We study this question on multi-hop question answering tasks, where teacher-provided reasoning traces are rewritten as graph mind maps and used to guide a student model. Our experiments reveal a clear modality gap. When graph structures are flattened into text, their benefits become limited once direct answer hints are removed. Under this abstract guidance setting, both reasoning efficiency and answer quality degrade substantially. In contrast, visual graph guidance remains effective without direct answer clues, and its advantage persists after supervised fine-tuning and KL-based distillation. The above findings support the claim that graphs should be studied not only as external knowledge structures for LLMs, but also as visual scaffolds for organizing reasoning.",
+      "pub_date": "Wed, 03 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "视觉图谱支架：大型语言模型的结构化推理新方法",
+        "summary": "本文提出将图结构作为大型语言模型内部推理的视觉支架，而非仅作为外部知识源。实验表明，在去除直接答案提示后，文本化的图结构效果有限，而视觉图引导仍能有效提升多跳问答的推理效率与答案质量，支持图作为组织推理的视觉工具。",
+        "summary_en": "This paper proposes using graph structures as visual scaffolds for internal reasoning in LLMs, not just as external knowledge. Experiments show that visual graph guidance remains effective without direct answer hints, while flattened text graphs degrade, supporting graphs as visual tools for organizing reasoning.",
+        "tags": [
+          "llm",
+          "research",
+          "multimodal",
+          "reasoning"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-03-rss-003",
+        "title": "视觉图谱支架：大型语言模型的结构化推理新方法",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.02673",
+        "language": "en",
+        "summary": "本文提出将图结构作为大型语言模型内部推理的视觉支架，而非仅作为外部知识源。实验表明，在去除直接答案提示后，文本化的图结构效果有限，而视觉图引导仍能有效提升多跳问答的推理效率与答案质量，支持图作为组织推理的视觉工具。",
+        "summary_en": "This paper proposes using graph structures as visual scaffolds for internal reasoning in LLMs, not just as external knowledge. Experiments show that visual graph guidance remains effective without direct answer hints, while flattened text graphs degrade, supporting graphs as visual tools for organizing reasoning.",
+        "tags": [
+          "llm",
+          "research",
+          "multimodal",
+          "reasoning"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-06-03T20:41:21.196515+08:00",
+        "updated_at": "2026-06-03T20:41:21.196535+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "AURA: Action-Gated Memory for Robot Policies at Constant VRAM",
+      "url": "https://arxiv.org/abs/2606.02775",
+      "description": "arXiv:2606.02775v1 Announce Type: new \nAbstract: The KV-cache is the right memory for datacenters but the wrong memory for robots. Datacenter inference batches many short requests and resets them, amortizing an attention cache across a crowd. Embodied agents instead run one long, non-resetting episode on bandwidth-limited edge hardware, where high-bandwidth memory and flash are scarce, flash has finite write endurance, and memory writes rather than compute can become the binding constraint.\n  AURA-Mem (Action-Utility Recurrent Adaptive Memory) targets this regime. It wraps a frozen vision-language-action backbone with a constant-size recurrent memory and a learned gate that writes only when the current observation would change the next action: memory that knows when to stay silent. Unlike reconstruction-based memory, the gate is trained directly against a closed-loop action-error signal. Its inference state is fixed at 4,224 bytes regardless of horizon, while a KV-cache grows to 6,061 times larger at 100,000 steps.\n  On a controlled synthetic benchmark, AURA-Mem matches the best O(1) baseline in accuracy while using 5.19-6.13 times fewer writes, and up to 9.19 times fewer writes on easier configurations. Budget-matched random and periodic schedules do not recover this gain, isolating the benefit to the action-surprise signal. On a trained closed-loop OpenVLA-OFT 7B panel on LIBERO-Long (n=60 episodes per arm), the gate does not hurt success: AURA-Mem matches the ungated base policy (0.233) and slightly exceeds an always-write KV arm (0.217), while using 7.0 times fewer writes and constant memory. We also instantiate an approximate-information-state value-loss bound as a methodology demonstration; at this scale, the bound is vacuous rather than a guarantee.",
+      "pub_date": "Wed, 03 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "AURA: 面向机器人策略的恒定显存动作门控记忆",
+        "summary": "AURA-Mem提出一种恒定大小的循环记忆与学习门控机制，仅在当前观测会改变下一步动作时才写入记忆，从而大幅减少写入次数。在合成基准测试中，准确率与最佳O(1)基线持平，写入次数减少5.19-6.13倍；在LIBERO-Long上，成功率达0.233，写入次数减少7倍，推理状态固定为4,224字节。",
+        "summary_en": "AURA-Mem introduces a constant-size recurrent memory with a learned gate that writes only when the current observation would change the next action, drastically reducing writes. On synthetic benchmarks, it matches the best O(1) baseline in accuracy with 5.19-6.13x fewer writes; on LIBERO-Long, it achieves 0.233 success rate with 7x fewer writes and constant 4,224-byte inference state.",
+        "tags": [
+          "research",
+          "llm",
+          "application",
+          "infrastructure"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-03-rss-004",
+        "title": "AURA: 面向机器人策略的恒定显存动作门控记忆",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.02775",
+        "language": "en",
+        "summary": "AURA-Mem提出一种恒定大小的循环记忆与学习门控机制，仅在当前观测会改变下一步动作时才写入记忆，从而大幅减少写入次数。在合成基准测试中，准确率与最佳O(1)基线持平，写入次数减少5.19-6.13倍；在LIBERO-Long上，成功率达0.233，写入次数减少7倍，推理状态固定为4,224字节。",
+        "summary_en": "AURA-Mem introduces a constant-size recurrent memory with a learned gate that writes only when the current observation would change the next action, drastically reducing writes. On synthetic benchmarks, it matches the best O(1) baseline in accuracy with 5.19-6.13x fewer writes; on LIBERO-Long, it achieves 0.233 success rate with 7x fewer writes and constant 4,224-byte inference state.",
+        "tags": [
+          "research",
+          "llm",
+          "application",
+          "infrastructure"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-06-03T20:41:21.196540+08:00",
+        "updated_at": "2026-06-03T20:41:21.196542+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Evaluating Transformer and LSTM Frameworks for Prediction in Ungauged Basins",
+      "url": "https://arxiv.org/abs/2606.02791",
+      "description": "arXiv:2606.02791v1 Announce Type: new \nAbstract: Watershed networks exhibit convergent topologies in which multiple tributaries merge into downstream channels,integrating diverse upstream hydrological processes. In ungauged basins, the absence of direct observations increases uncertainty and limits the ability to anticipate extreme events. This study evaluates whether an encoder-only Transformer provides an advantage over an LSTM for upstream streamflow inference under limited hydrologic information, using retrospective simulations from the NOAA National Water Model (NWM). Across both upstream-only and combined configurations, the LSTM showed stronger overall performance than the Transformer model across the two configurations. Incorporating downstream information further boosted performance for all models, increasing median NNSE by more than 60%. Rather than treating this as a leaderboard-style comparison, we interpret the experiments as a test of architectural inductive bias for hydrologic sequence inference. The results indicate that recurrent memory remains better aligned with this upstream reconstruction task than an encoder-only Transformer, while downstream hydrologic context provides a strong auxiliary constraint that substantially improves prediction skill across architectures",
+      "pub_date": "Wed, 03 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "评估Transformer和LSTM在无资料流域预测中的表现",
+        "summary": "该研究评估了仅编码器Transformer与LSTM在无资料流域上游径流推断中的表现。结果表明，LSTM整体性能优于Transformer，而加入下游信息可使中位数NNSE提升超60%。研究强调循环记忆更适合该任务，下游水文上下文能显著提升预测能力。",
+        "summary_en": "This study evaluates encoder-only Transformer vs LSTM for upstream streamflow inference in ungauged basins. Results show LSTM outperforms Transformer, and incorporating downstream information boosts median NNSE by over 60%. Recurrent memory aligns better with the task, while downstream context improves prediction across architectures.",
+        "tags": [
+          "research",
+          "llm",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.6,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-03-rss-010",
+        "title": "评估Transformer和LSTM在无资料流域预测中的表现",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.02791",
+        "language": "en",
+        "summary": "该研究评估了仅编码器Transformer与LSTM在无资料流域上游径流推断中的表现。结果表明，LSTM整体性能优于Transformer，而加入下游信息可使中位数NNSE提升超60%。研究强调循环记忆更适合该任务，下游水文上下文能显著提升预测能力。",
+        "summary_en": "This study evaluates encoder-only Transformer vs LSTM for upstream streamflow inference in ungauged basins. Results show LSTM outperforms Transformer, and incorporating downstream information boosts median NNSE by over 60%. Recurrent memory aligns better with the task, while downstream context improves prediction across architectures.",
+        "tags": [
+          "research",
+          "llm",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.6,
+        "status": "published",
+        "created_at": "2026-06-03T20:41:21.196582+08:00",
+        "updated_at": "2026-06-03T20:41:21.196584+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "BehaviorBench: Modeling Real-World User Decisions from Behavioral Traces",
+      "url": "https://arxiv.org/abs/2606.02798",
+      "description": "arXiv:2606.02798v1 Announce Type: new \nAbstract: Many decision-support settings require systems that adapt to individual users, but evaluation data for this problem remain limited. Existing benchmarks for user understanding often rely on simulated users or model-generated behavior, even though recent work cautions that model-based simulations can diverge systematically from human behavior. We introduce \\textsc{BehaviorBench}, a benchmark for evaluating personalized decision modeling from real-world behavioral traces. \\textsc{BehaviorBench} reconstructs wallet-level decision histories from observed public prediction-market and on-chain records, and organizes them into two complementary task layers: \\emph{Belief prediction}, which predicts a user's final revealed stance and confidence in a market, and \\emph{Trade prediction}, which predicts the direction and amount of individual transactions. Across 2,000 evaluation wallets, the benchmark contains 141,445 Belief instances and 1,485,972 Trade instances, with disjoint support pools for retrieval-based evaluation. We evaluate frontier and open-weight generative models under four history interfaces: no personalization, direct recent history, generated user profiles, and retrieved support-wallet evidence. Personalization improves Belief prediction more consistently than Trade prediction, model rankings change across task layers and metrics, and different history interfaces expose different failure modes. \\textsc{BehaviorBench} provides an evaluation setting for studying whether personalized methods can use real-world behavioral evidence rather than simulated users alone.",
+      "pub_date": "Wed, 03 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "BehaviorBench：从行为轨迹建模真实用户决策",
+        "summary": "BehaviorBench是一个评估个性化决策建模的基准，利用真实世界的行为轨迹（预测市场和链上记录）构建。包含信念预测和交易预测两个任务层，覆盖2000个钱包，共141,445个信念实例和1,485,972个交易实例。评估发现个性化方法能提升信念预测，但模型排名因任务和指标而异。",
+        "summary_en": "BehaviorBench is a benchmark for evaluating personalized decision modeling from real-world behavioral traces (prediction-market and on-chain records). It includes belief prediction and trade prediction tasks across 2,000 wallets (141,445 belief and 1,485,972 trade instances). Personalization improves belief prediction more consistently, and model rankings vary across tasks and metrics.",
+        "tags": [
+          "benchmark",
+          "research",
+          "llm",
+          "application"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-03-rss-006",
+        "title": "BehaviorBench：从行为轨迹建模真实用户决策",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.02798",
+        "language": "en",
+        "summary": "BehaviorBench是一个评估个性化决策建模的基准，利用真实世界的行为轨迹（预测市场和链上记录）构建。包含信念预测和交易预测两个任务层，覆盖2000个钱包，共141,445个信念实例和1,485,972个交易实例。评估发现个性化方法能提升信念预测，但模型排名因任务和指标而异。",
+        "summary_en": "BehaviorBench is a benchmark for evaluating personalized decision modeling from real-world behavioral traces (prediction-market and on-chain records). It includes belief prediction and trade prediction tasks across 2,000 wallets (141,445 belief and 1,485,972 trade instances). Personalization improves belief prediction more consistently, and model rankings vary across tasks and metrics.",
+        "tags": [
+          "benchmark",
+          "research",
+          "llm",
+          "application"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-06-03T20:41:21.196557+08:00",
+        "updated_at": "2026-06-03T20:41:21.196559+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "ChatHealthAI: Aligning Electronic Health Record Representations with Large Language Models for Grounded Clinical Reasoning",
+      "url": "https://arxiv.org/abs/2606.02802",
+      "description": "arXiv:2606.02802v1 Announce Type: new \nAbstract: Large language models (LLMs) exhibit strong natural-language reasoning abilities for clinical decision support, but struggle to effectively model structured longitudinal electronic health records (EHRs). In contrast, EHR foundation models can learn predictive patient representations, yet lack interpretable language-based reasoning. To bridge this gap, we propose ChatHealthAI, a multimodal reasoning framework that aligns structured EHR representations from a pretrained EHR foundation model with the semantic space of a frozen LLM through a task-aware resampler. By integrating longitudinal patient representations with refined clinical event descriptions, ChatHealthAI enables clinically grounded natural-language reasoning while maintaining accurate patient prediction. We evaluated ChatHealthAI on three clinical predictive tasks from the EHRSHOT benchmark. Results show that ChatHealthAI improves reasoning quality and interpretability while preserving competitive predictive performance. These findings highlight the potential of integrating EHR foundation models with pretrained LLMs for interpretable clinical prediction.",
+      "pub_date": "Wed, 03 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "ChatHealthAI：对齐电子健康记录表示与大型语言模型以实现基于临床的推理",
+        "summary": "ChatHealthAI 是一个多模态推理框架，通过任务感知重采样器将预训练的 EHR 基础模型的结构化表示与冻结的 LLM 语义空间对齐，实现基于临床的自然语言推理，同时保持准确的预测性能。在 EHRSHOT 基准测试的三个临床预测任务上，该框架提升了推理质量和可解释性。",
+        "summary_en": "ChatHealthAI is a multimodal reasoning framework that aligns structured EHR representations from a pretrained foundation model with a frozen LLM via a task-aware resampler, enabling grounded clinical reasoning while maintaining predictive performance. It improves reasoning quality and interpretability on three clinical tasks from the EHRSHOT benchmark.",
+        "tags": [
+          "llm",
+          "multimodal",
+          "research",
+          "application",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-03-rss-005",
+        "title": "ChatHealthAI：对齐电子健康记录表示与大型语言模型以实现基于临床的推理",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.02802",
+        "language": "en",
+        "summary": "ChatHealthAI 是一个多模态推理框架，通过任务感知重采样器将预训练的 EHR 基础模型的结构化表示与冻结的 LLM 语义空间对齐，实现基于临床的自然语言推理，同时保持准确的预测性能。在 EHRSHOT 基准测试的三个临床预测任务上，该框架提升了推理质量和可解释性。",
+        "summary_en": "ChatHealthAI is a multimodal reasoning framework that aligns structured EHR representations from a pretrained foundation model with a frozen LLM via a task-aware resampler, enabling grounded clinical reasoning while maintaining predictive performance. It improves reasoning quality and interpretability on three clinical tasks from the EHRSHOT benchmark.",
+        "tags": [
+          "llm",
+          "multimodal",
+          "research",
+          "application",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-06-03T20:41:21.196546+08:00",
+        "updated_at": "2026-06-03T20:41:21.196548+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "IdiomX A Multilingual Benchmark for Idiom Understanding, Retrieval, and Interpretation",
+      "url": "https://arxiv.org/abs/2606.02584",
+      "description": "arXiv:2606.02584v1 Announce Type: new \nAbstract: Idiomatic expressions remain a persistent challenge for natural language processing because their meanings are often non-compositional, context-dependent, and difficult to align across languages. Existing idiom resources are often limited in scale, contextual diversity, or multilingual coverage, restricting their utility for modern language models. We introduce IdiomX, a large-scale multilingual benchmark for idiom understanding, retrieval, and interpretation, constructed through a reproducible multi-stage pipeline combining lexical resource extraction, large-scale normalization, controlled large language model enrichment, and structured validation. The resulting dataset contains over 190K contextualized examples spanning 12K+ idioms, with aligned English, Arabic, and French semantic representations, idiomatic and literal usage labels, and rich linguistic metadata. Building on this resource, we define a unified four-task benchmark covering idiom detection, context-to-idiom retrieval, Arabic-to-English idiom retrieval, and idiom interpretation, extending evaluation from figurative recognition to semantic grounding and explainable meaning retrieval. Experiments show that contextual transformer models substantially improve idiom detection, while hybrid retrieval and reranking architectures significantly strengthen both monolingual and cross-lingual idiom retrieval. Results further demonstrate that idiom interpretation can be effectively modeled as a semantic retrieval task, introducing interpretability as a complementary benchmark dimension. Overall, IdiomX provides a scalable benchmark for studying idiomatic language as a progression from detection to retrieval and semantic interpretation, and offers a modular framework extensible to additional languages and figurative reasoning tasks",
+      "pub_date": "Wed, 03 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "IdiomX：多语言习语理解、检索与解释基准",
+        "summary": "IdiomX是一个大规模多语言习语基准，包含19万+上下文示例和1.2万+习语，覆盖英语、阿拉伯语和法语。它定义了四个任务：习语检测、上下文到习语检索、阿拉伯语到英语习语检索和习语解释。实验表明，上下文Transformer模型改进了习语检测，混合检索和重排序架构增强了单语和跨语言习语检索。",
+        "summary_en": "IdiomX is a large-scale multilingual idiom benchmark with over 190K contextualized examples and 12K+ idioms across English, Arabic, and French. It defines four tasks: idiom detection, context-to-idiom retrieval, Arabic-to-English idiom retrieval, and idiom interpretation. Experiments show that contextual transformer models improve idiom detection, while hybrid retrieval and reranking architectures enhance both monolingual and cross-lingual idiom retrieval.",
+        "tags": [
+          "benchmark",
+          "multimodal",
+          "llm",
+          "research"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-03-rss-007",
+        "title": "IdiomX：多语言习语理解、检索与解释基准",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.02584",
+        "language": "en",
+        "summary": "IdiomX是一个大规模多语言习语基准，包含19万+上下文示例和1.2万+习语，覆盖英语、阿拉伯语和法语。它定义了四个任务：习语检测、上下文到习语检索、阿拉伯语到英语习语检索和习语解释。实验表明，上下文Transformer模型改进了习语检测，混合检索和重排序架构增强了单语和跨语言习语检索。",
+        "summary_en": "IdiomX is a large-scale multilingual idiom benchmark with over 190K contextualized examples and 12K+ idioms across English, Arabic, and French. It defines four tasks: idiom detection, context-to-idiom retrieval, Arabic-to-English idiom retrieval, and idiom interpretation. Experiments show that contextual transformer models improve idiom detection, while hybrid retrieval and reranking architectures enhance both monolingual and cross-lingual idiom retrieval.",
+        "tags": [
+          "benchmark",
+          "multimodal",
+          "llm",
+          "research"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-06-03T20:41:21.196563+08:00",
+        "updated_at": "2026-06-03T20:41:21.196565+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Greener Than Humans? Environmental Attitudes in Large Language Models",
+      "url": "https://arxiv.org/abs/2606.02741",
+      "description": "arXiv:2606.02741v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly used in sustainability-related decision support, reporting, and public communication, yet little systematic evidence exists on the environmental attitudes embedded in their outputs. This paper develops a benchmark for evaluating environmental cognition, affect, and behavioural recommendations in LLMs and applies it to 31 widely used proprietary and open-weight models. Drawing on questions from established environmental awareness surveys and additional sustainability-related behavioural measures, we compare LLM responses 1) among models and 2) between models and human survey benchmarks from Germany. We assess their robustness across prompting conditions. We find that many LLMs align more closely with environmentally progressive attitudes than the average survey respondent, exhibiting higher levels of environmental affect and cognition and recommending behaviours associated with substantial potential CO2 reductions. At the same time, we observe no systematic relationship between sustainability-oriented responses and model origin, size, or release context. However, models exhibit contextual sensitivity, controlled by persona-based prompting and show sycophantic shifts mirroring user-specified ideological positions, which raises concerns about steerability and normative reliability in real-world deployments. Our findings provide a reusable evaluation framework for assessing sustainability-related value alignment in LLMs and highlight the importance of governance, transparency, and critical oversight as AI systems become increasingly embedded in sustainability transformations and public decision-making.",
+      "pub_date": "Wed, 03 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "大型语言模型中的环境态度：比人类更环保？",
+        "summary": "本文构建了一个基准，用于评估大型语言模型（LLM）在环境认知、情感和行为建议方面的表现。通过对31个主流模型进行测试，并与德国人类调查数据对比，发现许多LLM比普通受访者更倾向于环保进步态度，但存在语境敏感性和谄媚性偏移问题。研究为评估LLM的可持续性价值对齐提供了可复用的框架。",
+        "summary_en": "This paper develops a benchmark for evaluating environmental attitudes in LLMs, testing 31 models against German human survey data. It finds many LLMs align more with progressive environmental views than average humans, but exhibit contextual sensitivity and sycophantic shifts, raising concerns about steerability and normative reliability.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "evaluation",
+          "research"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-03-rss-008",
+        "title": "大型语言模型中的环境态度：比人类更环保？",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.02741",
+        "language": "en",
+        "summary": "本文构建了一个基准，用于评估大型语言模型（LLM）在环境认知、情感和行为建议方面的表现。通过对31个主流模型进行测试，并与德国人类调查数据对比，发现许多LLM比普通受访者更倾向于环保进步态度，但存在语境敏感性和谄媚性偏移问题。研究为评估LLM的可持续性价值对齐提供了可复用的框架。",
+        "summary_en": "This paper develops a benchmark for evaluating environmental attitudes in LLMs, testing 31 models against German human survey data. It finds many LLMs align more with progressive environmental views than average humans, but exhibit contextual sensitivity and sycophantic shifts, raising concerns about steerability and normative reliability.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "evaluation",
+          "research"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-06-03T20:41:21.196569+08:00",
+        "updated_at": "2026-06-03T20:41:21.196571+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "On the Persistent Effects of Lexicality in Large Language Mod",
+      "url": "https://arxiv.org/abs/2606.02750",
+      "description": "arXiv:2606.02750v1 Announce Type: new \nAbstract: Representations extracted from large language models (LLMs) play an important role in many downstream applications. However, the structure of these representations is often influenced by lexical overlap rather than semantic content. Our understanding of the relationship between this lexical influence and semantic content, and its implications for downstream tasks, remains limited. In this work, we investigate representations to quantify the effect of lexical overlap relative to semantic content. We consider several adversarial semantic stress tests and further connect our findings to the information theory perspective. We find that lexical influence extends across the depth of models, consistently across architectures, training regimes, and objective functions, including the models trained for semantic similarity. Moreover, we observe a mid-depth region in which both lexical and semantic signals degrade simultaneously, indicating a transitional regime where representations are poor for both surface form and meaning. We further demonstrate the effect of lexical influence on downstream uses of LLMs using summarization and model editing as a case study.",
+      "pub_date": "Wed, 03 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "大语言模型中词汇性对表示的持久影响",
+        "summary": "研究揭示LLM表示受词汇重叠影响大于语义内容，词汇影响贯穿模型深度，存在中间深度区域语义和词汇信号同时退化，影响下游任务如摘要和模型编辑。",
+        "summary_en": "Study shows LLM representations are more influenced by lexical overlap than semantic content, with lexical effects persisting across model depth and a mid-depth region where both signals degrade, impacting downstream tasks like summarization and model editing.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-03-rss-001",
+        "title": "大语言模型中词汇性对表示的持久影响",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.02750",
+        "language": "en",
+        "summary": "研究揭示LLM表示受词汇重叠影响大于语义内容，词汇影响贯穿模型深度，存在中间深度区域语义和词汇信号同时退化，影响下游任务如摘要和模型编辑。",
+        "summary_en": "Study shows LLM representations are more influenced by lexical overlap than semantic content, with lexical effects persisting across model depth and a mid-depth region where both signals degrade, impacting downstream tasks like summarization and model editing.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-03T20:41:21.196495+08:00",
+        "updated_at": "2026-06-03T20:41:21.196500+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Topics as Proxies for Sociodemographics: How Conversational Context Affects LLM Answers",
+      "url": "https://arxiv.org/abs/2606.02776",
+      "description": "arXiv:2606.02776v1 Announce Type: new \nAbstract: When large language models (LLMs) are used in high-stakes scenarios, such as legal, medical and financial advice, even a single conversation history is enough to drive differences in outcomes between users. Prior work has demonstrated that this results in outcome disparities between sociodemographic groups, with some groups receiving more advantageous outcomes than others. In this work, we demonstrate that LLMs actually struggle to infer user sociodemographics from a single conversation history and that although there are disparities between sociodemographic groups, they are minimal in magnitude. To investigate what the main driver of these disparities is, we compare user sociodemographics to a range of (psycho)linguistic features of conversations, including conversation topic, emotions, and readability. We find that conversation topics are most predictive of LLM-generated advice within a conversational context, which, to some extent, function as proxies for sociodemographic groups and often affect advice in unpredictable ways. This is cause for concern and highlights the need for future research to better understand and, if needed, mitigate the effect of conversational context on LLM outputs in high-stakes scenarios.",
+      "pub_date": "Wed, 03 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "对话主题作为社会人口统计的代理：对话上下文如何影响LLM回答",
+        "summary": "研究表明，在高风险场景（如法律、医疗、金融建议）中，LLM难以从单次对话历史推断用户社会人口统计特征，但对话主题是预测LLM生成建议的主要因素，其作为社会人口统计的代理，以不可预测的方式影响输出，引发对对话上下文影响的担忧。",
+        "summary_en": "Research shows that in high-stakes scenarios (legal, medical, financial advice), LLMs struggle to infer user sociodemographics from a single conversation history, but conversation topics are the main predictor of LLM-generated advice, acting as proxies for sociodemographic groups and affecting outputs unpredictably, raising concerns about conversational context influence.",
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "benchmark",
+          "security"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-03-rss-009",
+        "title": "对话主题作为社会人口统计的代理：对话上下文如何影响LLM回答",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.02776",
+        "language": "en",
+        "summary": "研究表明，在高风险场景（如法律、医疗、金融建议）中，LLM难以从单次对话历史推断用户社会人口统计特征，但对话主题是预测LLM生成建议的主要因素，其作为社会人口统计的代理，以不可预测的方式影响输出，引发对对话上下文影响的担忧。",
+        "summary_en": "Research shows that in high-stakes scenarios (legal, medical, financial advice), LLMs struggle to infer user sociodemographics from a single conversation history, but conversation topics are the main predictor of LLM-generated advice, acting as proxies for sociodemographic groups and affecting outputs unpredictably, raising concerns about conversational context influence.",
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "benchmark",
+          "security"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-06-03T20:41:21.196576+08:00",
+        "updated_at": "2026-06-03T20:41:21.196578+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Do Value Vectors in Deep Layers Need Context from the Residual Stream?",
+      "url": "https://arxiv.org/abs/2606.02780",
+      "description": "arXiv:2606.02780v1 Announce Type: new \nAbstract: The success of the transformer architecture as the backbone of modern LLMs is in large part due to its use of attention layers. An attention layer follows the standard neural network paradigm: it takes the residual stream as input and thereby produces context-dependent query, key, and value vectors. However, we find that model performance meaningfully improves when deeper layers learn only a context-free value vector to preserve the original token information, without drawing on any context from the residual stream. When the model has access to this context-free value vector, adding back the context-dependent component provides little additional benefit for aggregate benchmark performance. Such context-free value vectors can be stored as sparse model parameters, eliminating the need to recompute or persistently cache these values. Through systematic ablations on the key design choices for such context-free value vectors, we propose Bank of Values (BoV), a new way of computing value vectors in attention by learning a lookup table of token-specific value vectors for each of the last third of layers. Across 135M and 780M models, BoV improves validation loss over standard attention and, at 780M, the average score across 21 benchmarks, matching the previous best method that adds token information to the value vector with less compute and memory.",
+      "pub_date": "Wed, 03 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "深层价值向量是否需要残差流的上下文？",
+        "summary": "研究发现，在Transformer深层，学习无上下文的价值向量（仅保留原始token信息）能提升模型性能。提出Bank of Values（BoV）方法，通过查找表为最后三分之一的层学习token特定价值向量，在135M和780M模型上优于标准注意力，且计算和内存需求更低。",
+        "summary_en": "The study finds that learning context-free value vectors (preserving original token information) in deep transformer layers improves model performance. It proposes Bank of Values (BoV), which uses a lookup table for token-specific value vectors in the last third of layers, outperforming standard attention on 135M and 780M models with less compute and memory.",
+        "tags": [
+          "llm",
+          "research",
+          "attention-mechanism",
+          "efficiency"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-03-rss-002",
+        "title": "深层价值向量是否需要残差流的上下文？",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.02780",
+        "language": "en",
+        "summary": "研究发现，在Transformer深层，学习无上下文的价值向量（仅保留原始token信息）能提升模型性能。提出Bank of Values（BoV）方法，通过查找表为最后三分之一的层学习token特定价值向量，在135M和780M模型上优于标准注意力，且计算和内存需求更低。",
+        "summary_en": "The study finds that learning context-free value vectors (preserving original token information) in deep transformer layers improves model performance. It proposes Bank of Values (BoV), which uses a lookup table for token-specific value vectors in the last third of layers, outperforming standard attention on 135M and 780M models with less compute and memory.",
+        "tags": [
+          "llm",
+          "research",
+          "attention-mechanism",
+          "efficiency"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-03T20:41:21.196507+08:00",
+        "updated_at": "2026-06-03T20:41:21.196510+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

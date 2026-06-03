@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-03-rss-007",
+  "title": "IdiomX：多语言习语理解、检索与解释基准",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.02584",
+  "language": "en",
+  "summary": "IdiomX是一个大规模多语言习语基准，包含19万+上下文示例和1.2万+习语，覆盖英语、阿拉伯语和法语。它定义了四个任务：习语检测、上下文到习语检索、阿拉伯语到英语习语检索和习语解释。实验表明，上下文Transformer模型改进了习语检测，混合检索和重排序架构增强了单语和跨语言习语检索。",
+  "summary_en": "IdiomX is a large-scale multilingual idiom benchmark with over 190K contextualized examples and 12K+ idioms across English, Arabic, and French. It defines four tasks: idiom detection, context-to-idiom retrieval, Arabic-to-English idiom retrieval, and idiom interpretation. Experiments show that contextual transformer models improve idiom detection, while hybrid retrieval and reranking architectures enhance both monolingual and cross-lingual idiom retrieval.",
+  "tags": [
+    "benchmark",
+    "multimodal",
+    "llm",
+    "research"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-06-03T20:41:21.196563+08:00",
+  "updated_at": "2026-06-03T20:41:21.196565+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

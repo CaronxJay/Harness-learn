@@ -1,0 +1,26 @@
+{
+  "id": "2026-06-03-rss-005",
+  "title": "ChatHealthAI：对齐电子健康记录表示与大型语言模型以实现基于临床的推理",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.02802",
+  "language": "en",
+  "summary": "ChatHealthAI 是一个多模态推理框架，通过任务感知重采样器将预训练的 EHR 基础模型的结构化表示与冻结的 LLM 语义空间对齐，实现基于临床的自然语言推理，同时保持准确的预测性能。在 EHRSHOT 基准测试的三个临床预测任务上，该框架提升了推理质量和可解释性。",
+  "summary_en": "ChatHealthAI is a multimodal reasoning framework that aligns structured EHR representations from a pretrained foundation model with a frozen LLM via a task-aware resampler, enabling grounded clinical reasoning while maintaining predictive performance. It improves reasoning quality and interpretability on three clinical tasks from the EHRSHOT benchmark.",
+  "tags": [
+    "llm",
+    "multimodal",
+    "research",
+    "application",
+    "fine-tuning"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-06-03T20:41:21.196546+08:00",
+  "updated_at": "2026-06-03T20:41:21.196548+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

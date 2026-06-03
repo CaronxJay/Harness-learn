@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-03-rss-006",
+  "title": "BehaviorBench：从行为轨迹建模真实用户决策",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.02798",
+  "language": "en",
+  "summary": "BehaviorBench是一个评估个性化决策建模的基准，利用真实世界的行为轨迹（预测市场和链上记录）构建。包含信念预测和交易预测两个任务层，覆盖2000个钱包，共141,445个信念实例和1,485,972个交易实例。评估发现个性化方法能提升信念预测，但模型排名因任务和指标而异。",
+  "summary_en": "BehaviorBench is a benchmark for evaluating personalized decision modeling from real-world behavioral traces (prediction-market and on-chain records). It includes belief prediction and trade prediction tasks across 2,000 wallets (141,445 belief and 1,485,972 trade instances). Personalization improves belief prediction more consistently, and model rankings vary across tasks and metrics.",
+  "tags": [
+    "benchmark",
+    "research",
+    "llm",
+    "application"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-06-03T20:41:21.196557+08:00",
+  "updated_at": "2026-06-03T20:41:21.196559+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

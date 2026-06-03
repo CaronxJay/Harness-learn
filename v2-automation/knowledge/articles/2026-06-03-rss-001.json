@@ -1,0 +1,24 @@
+{
+  "id": "2026-06-03-rss-001",
+  "title": "大语言模型中词汇性对表示的持久影响",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.02750",
+  "language": "en",
+  "summary": "研究揭示LLM表示受词汇重叠影响大于语义内容，词汇影响贯穿模型深度，存在中间深度区域语义和词汇信号同时退化，影响下游任务如摘要和模型编辑。",
+  "summary_en": "Study shows LLM representations are more influenced by lexical overlap than semantic content, with lexical effects persisting across model depth and a mid-depth region where both signals degrade, impacting downstream tasks like summarization and model editing.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-03T20:41:21.196495+08:00",
+  "updated_at": "2026-06-03T20:41:21.196500+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-03-rss-008",
+  "title": "大型语言模型中的环境态度：比人类更环保？",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.02741",
+  "language": "en",
+  "summary": "本文构建了一个基准，用于评估大型语言模型（LLM）在环境认知、情感和行为建议方面的表现。通过对31个主流模型进行测试，并与德国人类调查数据对比，发现许多LLM比普通受访者更倾向于环保进步态度，但存在语境敏感性和谄媚性偏移问题。研究为评估LLM的可持续性价值对齐提供了可复用的框架。",
+  "summary_en": "This paper develops a benchmark for evaluating environmental attitudes in LLMs, testing 31 models against German human survey data. It finds many LLMs align more with progressive environmental views than average humans, but exhibit contextual sensitivity and sycophantic shifts, raising concerns about steerability and normative reliability.",
+  "tags": [
+    "llm",
+    "benchmark",
+    "evaluation",
+    "research"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-06-03T20:41:21.196569+08:00",
+  "updated_at": "2026-06-03T20:41:21.196571+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

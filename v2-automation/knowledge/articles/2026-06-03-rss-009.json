@@ -1,0 +1,26 @@
+{
+  "id": "2026-06-03-rss-009",
+  "title": "对话主题作为社会人口统计的代理：对话上下文如何影响LLM回答",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.02776",
+  "language": "en",
+  "summary": "研究表明，在高风险场景（如法律、医疗、金融建议）中，LLM难以从单次对话历史推断用户社会人口统计特征，但对话主题是预测LLM生成建议的主要因素，其作为社会人口统计的代理，以不可预测的方式影响输出，引发对对话上下文影响的担忧。",
+  "summary_en": "Research shows that in high-stakes scenarios (legal, medical, financial advice), LLMs struggle to infer user sociodemographics from a single conversation history, but conversation topics are the main predictor of LLM-generated advice, acting as proxies for sociodemographic groups and affecting outputs unpredictably, raising concerns about conversational context influence.",
+  "tags": [
+    "llm",
+    "research",
+    "application",
+    "benchmark",
+    "security"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-06-03T20:41:21.196576+08:00",
+  "updated_at": "2026-06-03T20:41:21.196578+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
