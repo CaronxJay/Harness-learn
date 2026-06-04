@@ -1,0 +1,479 @@
+{
+  "collected_at": "2026-06-04T19:15:03.172122+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "Toward Pre-Deployment Assurance for Enterprise AI Agents: Ontology-Grounded Simulation and Trust Certification",
+      "url": "https://arxiv.org/abs/2606.04037",
+      "description": "arXiv:2606.04037v1 Announce Type: new \nAbstract: Pre-deployment verification of enterprise artificial intelligence (AI) agents remains a critical gap between large language model (LLM) capability benchmarking and production deployment. Post-deployment monitoring, human-in-the-loop controls, and prompt-level guardrails offer limited assurance once an agent is operating in production. We propose an ontology-grounded verification framework combining three components: an Agent Operational Envelope formalizing the certification space across permissions, domain constraints, safety properties, governance rules, and autonomy levels; an ontology-to-scenario generation pipeline that derives regulatory, operational, and adversarial test scenarios automatically; and a Trust Certificate carrying a machine-verifiable attestation with graduated deployment verdicts (Approved, Conditional, Rejected). A controlled pilot across four regulated industries (Fintech, Banking, Insurance, and Healthcare), instantiated as five industry-by-regulatory-regime cells across the United States and Vietnam, generated 1,800 scenarios evaluated against 125 primary-source regulatory requirements and 25 injected faults. Ontology-grounded generation (G4) achieved 48.3% regulatory coverage versus 33.1% for the persona-based baseline (corrected p = .0006) and the highest domain specificity (4.77/5.0; p = 2e-6). The coverage advantage over baseline and retrieval-augmented prompting was not robust after Bonferroni correction. Cross-validation across three LLM families (Claude Sonnet 4, Qwen 2.5 72B, Gemma 4 26B; 5,400 total scenarios) replicated the persona-versus-ontology pattern. The results establish ontology-grounded scenario generation as a credible complement to persona-based test suites for regulatory-intensive domains.",
+      "pub_date": "Thu, 04 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "面向企业AI智能体部署前的保障：基于本体的仿真与信任认证",
+        "summary": "提出一种基于本体的验证框架，用于企业AI智能体部署前的保障。该框架包含操作包络、本体到场景生成管道和信任证书三个组件。在四个受监管行业的试点中，本体驱动生成相比基线方法实现了更高的监管覆盖率（48.3% vs 33.1%）和领域特异性（4.77/5.0）。",
+        "summary_en": "Proposes an ontology-grounded verification framework for pre-deployment assurance of enterprise AI agents, combining an operational envelope, scenario generation pipeline, and trust certificate. A pilot across four regulated industries showed ontology-driven generation achieved 48.3% regulatory coverage vs 33.1% baseline and highest domain specificity (4.77/5.0).",
+        "tags": [
+          "agent-framework",
+          "research",
+          "security",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-04-rss-005",
+        "title": "面向企业AI智能体部署前的保障：基于本体的仿真与信任认证",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.04037",
+        "language": "en",
+        "summary": "提出一种基于本体的验证框架，用于企业AI智能体部署前的保障。该框架包含操作包络、本体到场景生成管道和信任证书三个组件。在四个受监管行业的试点中，本体驱动生成相比基线方法实现了更高的监管覆盖率（48.3% vs 33.1%）和领域特异性（4.77/5.0）。",
+        "summary_en": "Proposes an ontology-grounded verification framework for pre-deployment assurance of enterprise AI agents, combining an operational envelope, scenario generation pipeline, and trust certificate. A pilot across four regulated industries showed ontology-driven generation achieved 48.3% regulatory coverage vs 33.1% baseline and highest domain specificity (4.77/5.0).",
+        "tags": [
+          "agent-framework",
+          "research",
+          "security",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-06-04T19:15:03.171312+08:00",
+        "updated_at": "2026-06-04T19:15:03.171314+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Stumbling Into AI Emotional Dependence: How Routine AI Interactions Reshape Human Connection",
+      "url": "https://arxiv.org/abs/2606.04150",
+      "description": "arXiv:2606.04150v1 Announce Type: new \nAbstract: Public discourse and emerging policy typically assume that AI emotional support is a deliberate act: a lonely user consciously seeking comfort from a dedicated companion chatbot. In this paper, we draw on emerging empirical evidence and argue that this picture is inaccurate on two accounts, both in how AI emotional support arises and how it shapes future behavior. First, AI emotional support commonly emerges incidentally within task-oriented interactions on general-purpose platforms, much as workplace friendships deepen through collaboration. Second, these incidental encounters are path-dependent: positive experiences of AI emotional support update people's beliefs about AI's emotional capabilities and redirect their choices for future emotional support, increasing preference for AI and decreasing preference for humans. We review recent evidence, including a large-scale longitudinal study conducted in collaboration with OpenAI, showing that daily five-minute conversations with an AI about personal issues over 28 days led to a 10.3% decrease in the preference for seeking support from humans and an 11.6% increase in the preference for AI. These findings suggest that current policy, focused on companion apps and isolated interactions, cannot adequately protect human connection. Instead, effective regulations should extend to general-purpose AI systems and address cumulative, trajectory-level changes in how people seek support. Recognizing how people stumble into AI emotional support and how those encounters redirect human connections over time is essential to safeguarding human well-being.",
+      "pub_date": "Thu, 04 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "偶然陷入AI情感依赖：日常AI互动如何重塑人际关系",
+        "summary": "本文挑战了AI情感支持是用户主动寻求的假设，指出其常意外发生在通用平台的任务导向互动中。这些偶然经历具有路径依赖性，会改变用户对AI情感能力的信念，并减少对人类的求助偏好。一项与OpenAI合作的研究显示，28天内每天与AI进行5分钟个人话题对话，导致对人类支持的偏好下降10.3%，对AI的偏好上升11.6%。",
+        "summary_en": "This paper challenges the assumption that AI emotional support is a deliberate act, arguing it often emerges incidentally in task-oriented interactions on general-purpose platforms. These encounters are path-dependent, updating beliefs about AI's emotional capabilities and decreasing preference for human support. A study with OpenAI found that daily 5-minute AI conversations over 28 days led to a 10.3% decrease in preference for human support and an 11.6% increase for AI.",
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "security"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-04-rss-006",
+        "title": "偶然陷入AI情感依赖：日常AI互动如何重塑人际关系",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.04150",
+        "language": "en",
+        "summary": "本文挑战了AI情感支持是用户主动寻求的假设，指出其常意外发生在通用平台的任务导向互动中。这些偶然经历具有路径依赖性，会改变用户对AI情感能力的信念，并减少对人类的求助偏好。一项与OpenAI合作的研究显示，28天内每天与AI进行5分钟个人话题对话，导致对人类支持的偏好下降10.3%，对AI的偏好上升11.6%。",
+        "summary_en": "This paper challenges the assumption that AI emotional support is a deliberate act, arguing it often emerges incidentally in task-oriented interactions on general-purpose platforms. These encounters are path-dependent, updating beliefs about AI's emotional capabilities and decreasing preference for human support. A study with OpenAI found that daily 5-minute AI conversations over 28 days led to a 10.3% decrease in preference for human support and an 11.6% increase for AI.",
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "security"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-06-04T19:15:03.171319+08:00",
+        "updated_at": "2026-06-04T19:15:03.171321+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Thinking Through Signs: PEEL as a Semiotic Scaffolding for Epistemically Accountable AI-Enabled Research",
+      "url": "https://arxiv.org/abs/2606.04152",
+      "description": "arXiv:2606.04152v1 Announce Type: new \nAbstract: Large language models are reshaping research practice while quietly eroding researchers epistemic accountability. This commentary introduces PEEL - Protocols for Epistemically Engaged Literacy in AI, a working scaffolding that combines deterministic distant reading via Voyant Tools with LLM interpretation via Claude, grounded in Peircean semiotics and abductive reasoning. Applied to AI-generated condensations of three source texts, PEEL reveals systematic distortions in quantity, term frequency, and epistemic voice that are invisible without non-AI measurement -- and yields three design implications: deterministic instruments must accompany AI tools; fluency is not fidelity; epistemic authority must be designed in, not assumed.",
+      "pub_date": "Thu, 04 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "PEEL框架：为AI赋能研究提供认知责任脚手架",
+        "summary": "本文提出PEEL框架（Protocols for Epistemically Engaged Literacy in AI），结合Voyant Tools的确定性远读与Claude的LLM解释，基于皮尔斯符号学和溯因推理，揭示AI在研究中系统性扭曲数量、词频和认知声音的问题，并得出三个设计启示。",
+        "summary_en": null,
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-04-rss-009",
+        "title": "PEEL框架：为AI赋能研究提供认知责任脚手架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.04152",
+        "language": "en",
+        "summary": "本文提出PEEL框架（Protocols for Epistemically Engaged Literacy in AI），结合Voyant Tools的确定性远读与Claude的LLM解释，基于皮尔斯符号学和溯因推理，揭示AI在研究中系统性扭曲数量、词频和认知声音的问题，并得出三个设计启示。",
+        "summary_en": null,
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-06-04T19:15:03.171332+08:00",
+        "updated_at": "2026-06-04T19:15:03.171333+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "SMAC-Talk: A Natural Language Extension of the StarCraft Multi-Agent Challenge for Large Language Models",
+      "url": "https://arxiv.org/abs/2606.04202",
+      "description": "arXiv:2606.04202v1 Announce Type: new \nAbstract: As LLMs become more widely deployed, they are increasingly expected to work alongside other AI agents rather than operating in isolation. Effective coordination in these settings requires agents to communicate, share information and make decisions under uncertainty. We introduce SMAC-Talk, a natural language extension of the StarCraft Multi-Agent Challenge for evaluating LLM-based agents in cooperative multi-agent environments. The environment has several key features such as decentralized control, partial observability and long-horizon decision making. SMAC-Talk includes a natural language communication channel which is used to probe agent coordination and trust. We use this communication channel to construct different evaluation scenarios, including settings with an embedded deceptive communicator that tries to disrupt and deceive allies through communication alone. We provide three agents for benchmarking using 4 models from the Qwen3.5 family and study how reasoning structure, memory and model scale affect coordination between agents. We release SMAC-Talk as an open benchmark to support the research community in developing and evaluating LLM agents in cooperative multi-agent settings.",
+      "pub_date": "Thu, 04 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "SMAC-Talk：面向大语言模型的星际争霸多智能体挑战自然语言扩展",
+        "summary": "SMAC-Talk 是星际争霸多智能体挑战的自然语言扩展，用于评估基于 LLM 的智能体在合作多智能体环境中的表现。环境支持去中心化控制、部分可观测性和长周期决策，包含自然语言通信通道，可构建包含欺骗性通信者的评估场景。提供了基于 Qwen3.5 系列模型的基准智能体，研究推理结构、记忆和模型规模对协调的影响。作为开放基准发布。",
+        "summary_en": "SMAC-Talk is a natural language extension of the StarCraft Multi-Agent Challenge for evaluating LLM-based agents in cooperative multi-agent environments. It features decentralized control, partial observability, long-horizon decision making, and a natural language communication channel to probe coordination and trust, including scenarios with deceptive communicators. Benchmark agents using Qwen3.5 models are provided.",
+        "tags": [
+          "llm",
+          "agent-framework",
+          "benchmark",
+          "research",
+          "multimodal"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-04-rss-001",
+        "title": "SMAC-Talk：面向大语言模型的星际争霸多智能体挑战自然语言扩展",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.04202",
+        "language": "en",
+        "summary": "SMAC-Talk 是星际争霸多智能体挑战的自然语言扩展，用于评估基于 LLM 的智能体在合作多智能体环境中的表现。环境支持去中心化控制、部分可观测性和长周期决策，包含自然语言通信通道，可构建包含欺骗性通信者的评估场景。提供了基于 Qwen3.5 系列模型的基准智能体，研究推理结构、记忆和模型规模对协调的影响。作为开放基准发布。",
+        "summary_en": "SMAC-Talk is a natural language extension of the StarCraft Multi-Agent Challenge for evaluating LLM-based agents in cooperative multi-agent environments. It features decentralized control, partial observability, long-horizon decision making, and a natural language communication channel to probe coordination and trust, including scenarios with deceptive communicators. Benchmark agents using Qwen3.5 models are provided.",
+        "tags": [
+          "llm",
+          "agent-framework",
+          "benchmark",
+          "research",
+          "multimodal"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-04T19:15:03.171292+08:00",
+        "updated_at": "2026-06-04T19:15:03.171295+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Consensus is Strategically Insufficient: Reasoning-Trace Disagreement as a Knowledge-Representation Signal",
+      "url": "https://arxiv.org/abs/2606.04223",
+      "description": "arXiv:2606.04223v1 Announce Type: new \nAbstract: Multi-agent systems are commonly designed to reduce disagreement through voting, consensus protocols, debate, or fault-tolerant aggregation. We argue that this objective is insufficient for value-laden tasks, where disagreement may reflect genuine normative uncertainty rather than agent error. Building on prior work on reasoning-trace disagreement in human-AI collaborative moderation, we propose a knowledge-representation layer in which reasoning traces and agent decisions are abstracted into symbolic disagreement states. Given agents producing explicit reasoning traces and binary decisions, we distinguish four states according to reasoning similarity and conclusion agreement: convergent agreement, divergent agreement, convergent disagreement and divergent disagreement. These states support defeasible strategic routing rules. We instantiate the framework in content moderation and argue that disagreement-aware routing provides a bridge between sub-symbolic LLM deliberation and symbolic knowledge representation for multi-agent strategic reasoning.",
+      "pub_date": "Thu, 04 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "共识在战略上不足：推理轨迹分歧作为知识表示信号",
+        "summary": "本文提出多智能体系统中，对于价值负载任务，分歧可能反映规范不确定性而非错误。通过将推理轨迹和决策抽象为符号分歧状态（收敛一致、发散一致、收敛分歧、发散分歧），支持可废止的战略路由规则，在内容审核中实例化，连接亚符号LLM审议与符号知识表示。",
+        "summary_en": "This paper argues that in multi-agent systems for value-laden tasks, disagreement may reflect normative uncertainty rather than error. It proposes a knowledge-representation layer abstracting reasoning traces and decisions into symbolic disagreement states (convergent agreement, divergent agreement, convergent disagreement, divergent disagreement), supporting defeasible strategic routing, instantiated in content moderation to bridge sub-symbolic LLM deliberation and symbolic knowledge representation.",
+        "tags": [
+          "research",
+          "multi-agent",
+          "llm",
+          "knowledge-representation"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-04-rss-007",
+        "title": "共识在战略上不足：推理轨迹分歧作为知识表示信号",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.04223",
+        "language": "en",
+        "summary": "本文提出多智能体系统中，对于价值负载任务，分歧可能反映规范不确定性而非错误。通过将推理轨迹和决策抽象为符号分歧状态（收敛一致、发散一致、收敛分歧、发散分歧），支持可废止的战略路由规则，在内容审核中实例化，连接亚符号LLM审议与符号知识表示。",
+        "summary_en": "This paper argues that in multi-agent systems for value-laden tasks, disagreement may reflect normative uncertainty rather than error. It proposes a knowledge-representation layer abstracting reasoning traces and decisions into symbolic disagreement states (convergent agreement, divergent agreement, convergent disagreement, divergent disagreement), supporting defeasible strategic routing, instantiated in content moderation to bridge sub-symbolic LLM deliberation and symbolic knowledge representation.",
+        "tags": [
+          "research",
+          "multi-agent",
+          "llm",
+          "knowledge-representation"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-06-04T19:15:03.171324+08:00",
+        "updated_at": "2026-06-04T19:15:03.171325+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "POLARIS: Guiding Small Models to Write Long Stories",
+      "url": "https://arxiv.org/abs/2606.04095",
+      "description": "arXiv:2606.04095v1 Announce Type: new \nAbstract: Small open-weight models struggle at long-form creative writing: their generated stories either fall far short of the requested length, or their quality significantly degrades as length increases, especially when compared to frontier models. We present POLARIS (Policy Optimization with LLM-as-a-judge rewards and Anchored-Reference Injection for Storywriting), a lower-compute GRPO recipe with two key ingredients: a frontier LLM judge with a structured Story Quality rubric as the online reward, and human-reference injection (HRI), where a teacher-forced human-written story serves as a high-reward anchor within each GRPO group. By applying our training recipe to Qwen3.5-9B, using a dataset of approximately 1.4K prompt-story pairs derived from 100 short-story anthologies and 4 A100 GPUs, we obtain POLARIS-9B. Across five benchmarks spanning in-distribution and out-of-distribution prompts and rubrics, POLARIS-9B is competitive with much larger open-weight models while following length instructions more closely. A blinded human evaluation confirms that POLARIS-9B is preferred to the base Qwen3.5-9B and on par with Qwen3.5-27B. Despite training only on stories up to 4k words, POLARIS-9B preserves quality on prompts requesting stories up to 3 times the training length, a regime where most open-weight models degrade substantially in quality, length adherence, or both. More broadly, our results suggest that length generalization is a meaningful stress test for creative-writing models and a useful lens for distinguishing otherwise close models.",
+      "pub_date": "Thu, 04 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "POLARIS：引导小模型撰写长篇小说",
+        "summary": "POLARIS 是一种低计算量的 GRPO 训练方法，结合前沿 LLM 裁判奖励和人类参考注入，使 9B 小模型在长故事写作中与 27B 模型性能相当，并展现出长度泛化能力。",
+        "summary_en": "POLARIS is a low-compute GRPO recipe combining frontier LLM judge rewards and human-reference injection, enabling a 9B model to match 27B models in long-form story writing while demonstrating length generalization.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-04-rss-002",
+        "title": "POLARIS：引导小模型撰写长篇小说",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.04095",
+        "language": "en",
+        "summary": "POLARIS 是一种低计算量的 GRPO 训练方法，结合前沿 LLM 裁判奖励和人类参考注入，使 9B 小模型在长故事写作中与 27B 模型性能相当，并展现出长度泛化能力。",
+        "summary_en": "POLARIS is a low-compute GRPO recipe combining frontier LLM judge rewards and human-reference injection, enabling a 9B model to match 27B models in long-form story writing while demonstrating length generalization.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-04T19:15:03.171299+08:00",
+        "updated_at": "2026-06-04T19:15:03.171301+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Discourse-Role Labels as Presentation-Time Variables for Context Use in Language Models",
+      "url": "https://arxiv.org/abs/2606.04109",
+      "description": "arXiv:2606.04109v1 Announce Type: new \nAbstract: Context-augmented language model systems often wrap supplied content with labels such as Reference:, Evidence:, Instruction:, Note:, or Example:, but the effect of these labels on reader-model behavior remains underexplored. We introduce a paired fixed-content probe over 500 MMLU-Pro items: each item receives the same misleading answer-bearing assertion under different discourse-role labels, and adoption is measured by whether the model outputs the injected wrong option. Across GPT-5.5, DeepSeek V4 Pro, Llama-3-8B-Instruct, and Qwen2.5-7B-Instruct, Misleading Adoption Rate shifts by 56-84 percentage points. Binding or source-like labels such as Instruction: and Reference: produce high adoption, whereas Example: consistently suppresses it. Paired tests, bootstrap intervals, final-instruction ablations, and Qwen final-step log-probability probes support a label-conditioned candidate preference. Boundary probes show where the effect weakens or persists: arithmetic tasks reduce adoption, passage-shaped external context preserves smaller label gaps, short-answer evaluation rules out option-letter copying, and nested-label conflicts suggest that illustrative framing can delimit adoption scope. A 200-case single-author manual audit confirms that the short-answer contrasts are stable under conservative adjudication. The resulting claim is bounded but practical: context-utilization and reader-side RAG benchmarks should report and control wrapper labels, because presentation choices can change measured reliance on supplied context.",
+      "pub_date": "Thu, 04 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "语篇角色标签作为语言模型上下文使用的呈现时间变量",
+        "summary": "研究发现，在上下文增强的语言模型中，不同的语篇角色标签（如Instruction:、Reference:、Example:）会显著影响模型对错误信息的采纳率，变化幅度达56-84个百分点。建议在RAG基准测试中报告并控制这些标签。",
+        "summary_en": "Discourse-role labels (e.g., Instruction:, Reference:, Example:) significantly affect language models' adoption of misleading information, shifting adoption rates by 56-84 percentage points. The study recommends reporting and controlling such labels in RAG benchmarks.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "rag"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-04-rss-008",
+        "title": "语篇角色标签作为语言模型上下文使用的呈现时间变量",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.04109",
+        "language": "en",
+        "summary": "研究发现，在上下文增强的语言模型中，不同的语篇角色标签（如Instruction:、Reference:、Example:）会显著影响模型对错误信息的采纳率，变化幅度达56-84个百分点。建议在RAG基准测试中报告并控制这些标签。",
+        "summary_en": "Discourse-role labels (e.g., Instruction:, Reference:, Example:) significantly affect language models' adoption of misleading information, shifting adoption rates by 56-84 percentage points. The study recommends reporting and controlling such labels in RAG benchmarks.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "rag"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-06-04T19:15:03.171328+08:00",
+        "updated_at": "2026-06-04T19:15:03.171329+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Computational conceptual history of scientific concepts: From early digital methods to LLMs",
+      "url": "https://arxiv.org/abs/2606.04118",
+      "description": "arXiv:2606.04118v1 Announce Type: new \nAbstract: This article situates large language models (LLMs) within the longer history of computational approaches to concept analysis in the history, philosophy, and sociology of science (HPSS). We examine what LLMs add to existing methods, how they inherit longstanding problems, and review recent case studies that employ them. In the first part, we reconstruct computational conceptual history before LLMs by bringing together three strands of work: early digital methods in HPSS, distributional approaches from digital history and related research, and lexical semantic change detection. We provide an overview of the main challenges and opportunities, focusing on corpus construction, operationalization and modelling choices, and evaluation and interpretation. In the second part, we turn to the era of LLMs, starting with a short introduction to LLMs before reviewing LLM-based work on lexical semantic change detection and relevant case studies in HPSS. We then revisit the earlier methodological questions, showing how issues of corpus construction, model choice and training data, operationalization trade-offs, and evaluation and interpretation play out in LLM-based workflows.",
+      "pub_date": "Thu, 04 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "科学概念的计算概念史：从早期数字方法到LLM",
+        "summary": "本文探讨了大型语言模型（LLM）在科学概念分析中的历史地位，回顾了LLM出现前的计算方法（早期数字方法、分布语义、词汇语义变化检测），并分析了LLM如何继承旧问题、带来新机遇，重点讨论了语料库构建、模型选择、操作化与评估等挑战。",
+        "summary_en": "This article situates LLMs within the history of computational concept analysis in HPSS, reviewing pre-LLM methods and examining how LLMs inherit old challenges while offering new opportunities, focusing on corpus construction, model choice, operationalization, and evaluation.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-04-rss-010",
+        "title": "科学概念的计算概念史：从早期数字方法到LLM",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.04118",
+        "language": "en",
+        "summary": "本文探讨了大型语言模型（LLM）在科学概念分析中的历史地位，回顾了LLM出现前的计算方法（早期数字方法、分布语义、词汇语义变化检测），并分析了LLM如何继承旧问题、带来新机遇，重点讨论了语料库构建、模型选择、操作化与评估等挑战。",
+        "summary_en": "This article situates LLMs within the history of computational concept analysis in HPSS, reviewing pre-LLM methods and examining how LLMs inherit old challenges while offering new opportunities, focusing on corpus construction, model choice, operationalization, and evaluation.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-06-04T19:15:03.171336+08:00",
+        "updated_at": "2026-06-04T19:15:03.171337+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "SaliMory: Orchestrating Cognitive Memory for Conversational Agents",
+      "url": "https://arxiv.org/abs/2606.04120",
+      "description": "arXiv:2606.04120v1 Announce Type: new \nAbstract: Conversational agents that serve as lifelong companions must maintain persistent memory across all interactions. However, simply expanding context windows with raw retrieval degrades reasoning quality, while training memory agents via standard reinforcement learning creates a severe credit assignment bottleneck in a multi-stage pipeline. To solve this, we introduce SALIMORY, a framework that trains a single language model to manage a cognitively-structured memory-spanning user facts, preferences, and working memory. By introducing a hierarchical stage-wise process reward and reward-decomposed contrastive refinement, SALIMORY provides isolated supervision for distinct memory operations (selective filtering, consolidation, and cue-driven recall) end-to-end. SALIMORY cuts memory-attributed failures by one-third, outperforms the state-of-the-art by over 10% in end-to-end accuracy, and more than doubles the Good Personalization rate.",
+      "pub_date": "Thu, 04 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "SaliMory：为对话代理编排认知记忆",
+        "summary": "SALIMORY框架通过训练单一语言模型管理认知结构化的记忆（用户事实、偏好和工作记忆），引入分层阶段过程奖励和奖励分解对比细化，为不同记忆操作提供端到端独立监督。相比现有方法，将记忆相关失败减少三分之一，端到端准确率提升超10%，个性化率翻倍。",
+        "summary_en": "SALIMORY trains a single language model to manage cognitively-structured memory (user facts, preferences, working memory) using hierarchical stage-wise process reward and reward-decomposed contrastive refinement. It cuts memory-attributed failures by one-third, outperforms SOTA by over 10% in accuracy, and more than doubles personalization rate.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "agent-framework"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-04-rss-003",
+        "title": "SaliMory：为对话代理编排认知记忆",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.04120",
+        "language": "en",
+        "summary": "SALIMORY框架通过训练单一语言模型管理认知结构化的记忆（用户事实、偏好和工作记忆），引入分层阶段过程奖励和奖励分解对比细化，为不同记忆操作提供端到端独立监督。相比现有方法，将记忆相关失败减少三分之一，端到端准确率提升超10%，个性化率翻倍。",
+        "summary_en": "SALIMORY trains a single language model to manage cognitively-structured memory (user facts, preferences, working memory) using hierarchical stage-wise process reward and reward-decomposed contrastive refinement. It cuts memory-attributed failures by one-third, outperforms SOTA by over 10% in accuracy, and more than doubles personalization rate.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "agent-framework"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-04T19:15:03.171305+08:00",
+        "updated_at": "2026-06-04T19:15:03.171306+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "When Retrieval Doesn't Help: A Large-Scale Study of Biomedical RAG",
+      "url": "https://arxiv.org/abs/2606.04127",
+      "description": "arXiv:2606.04127v1 Announce Type: new \nAbstract: Medical question answering is a high-stakes setting where factual errors can have serious consequences. Retrieval-augmented generation (RAG) is widely viewed as a promising solution, and prior work has reported substantial gains for large medical QA models. We revisit this assumption across a broad range of open-weight instruction-tuned models spanning 7B to 72B parameters. Across five models, ten biomedical QA datasets, four retrieval methods, and four retrieval corpora, we find that retrieval yields only small and inconsistent improvements over a no-retrieval baseline, typically within 1-2 points. In contrast, the choice of backbone model has a much larger effect than the choice of retriever or corpus, and expert and layman retrieval sources perform similarly in most settings. These results suggest that the main bottleneck is not retrieval quality alone, but the model's limited ability to use retrieved evidence effectively.",
+      "pub_date": "Thu, 04 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "检索无益：生物医学RAG的大规模研究",
+        "summary": "该研究在多种模型、数据集和检索方法上发现，检索增强生成（RAG）在生物医学问答中仅带来微小且不稳定的改进（1-2个百分点），主要瓶颈在于模型有效利用检索证据的能力，而非检索质量本身。",
+        "summary_en": "This large-scale study finds that retrieval-augmented generation (RAG) yields only small and inconsistent improvements (1-2 points) in biomedical QA, with the main bottleneck being the model's limited ability to use retrieved evidence rather than retrieval quality.",
+        "tags": [
+          "rag",
+          "research",
+          "benchmark",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-04-rss-004",
+        "title": "检索无益：生物医学RAG的大规模研究",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.04127",
+        "language": "en",
+        "summary": "该研究在多种模型、数据集和检索方法上发现，检索增强生成（RAG）在生物医学问答中仅带来微小且不稳定的改进（1-2个百分点），主要瓶颈在于模型有效利用检索证据的能力，而非检索质量本身。",
+        "summary_en": "This large-scale study finds that retrieval-augmented generation (RAG) yields only small and inconsistent improvements (1-2 points) in biomedical QA, with the main bottleneck being the model's limited ability to use retrieved evidence rather than retrieval quality.",
+        "tags": [
+          "rag",
+          "research",
+          "benchmark",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-04T19:15:03.171309+08:00",
+        "updated_at": "2026-06-04T19:15:03.171310+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

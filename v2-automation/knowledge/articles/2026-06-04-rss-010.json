@@ -1,0 +1,24 @@
+{
+  "id": "2026-06-04-rss-010",
+  "title": "科学概念的计算概念史：从早期数字方法到LLM",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.04118",
+  "language": "en",
+  "summary": "本文探讨了大型语言模型（LLM）在科学概念分析中的历史地位，回顾了LLM出现前的计算方法（早期数字方法、分布语义、词汇语义变化检测），并分析了LLM如何继承旧问题、带来新机遇，重点讨论了语料库构建、模型选择、操作化与评估等挑战。",
+  "summary_en": "This article situates LLMs within the history of computational concept analysis in HPSS, reviewing pre-LLM methods and examining how LLMs inherit old challenges while offering new opportunities, focusing on corpus construction, model choice, operationalization, and evaluation.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-06-04T19:15:03.171336+08:00",
+  "updated_at": "2026-06-04T19:15:03.171337+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-04-rss-006",
+  "title": "偶然陷入AI情感依赖：日常AI互动如何重塑人际关系",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.04150",
+  "language": "en",
+  "summary": "本文挑战了AI情感支持是用户主动寻求的假设，指出其常意外发生在通用平台的任务导向互动中。这些偶然经历具有路径依赖性，会改变用户对AI情感能力的信念，并减少对人类的求助偏好。一项与OpenAI合作的研究显示，28天内每天与AI进行5分钟个人话题对话，导致对人类支持的偏好下降10.3%，对AI的偏好上升11.6%。",
+  "summary_en": "This paper challenges the assumption that AI emotional support is a deliberate act, arguing it often emerges incidentally in task-oriented interactions on general-purpose platforms. These encounters are path-dependent, updating beliefs about AI's emotional capabilities and decreasing preference for human support. A study with OpenAI found that daily 5-minute AI conversations over 28 days led to a 10.3% decrease in preference for human support and an 11.6% increase for AI.",
+  "tags": [
+    "llm",
+    "research",
+    "application",
+    "security"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-06-04T19:15:03.171319+08:00",
+  "updated_at": "2026-06-04T19:15:03.171321+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-04-rss-002",
+  "title": "POLARIS：引导小模型撰写长篇小说",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.04095",
+  "language": "en",
+  "summary": "POLARIS 是一种低计算量的 GRPO 训练方法，结合前沿 LLM 裁判奖励和人类参考注入，使 9B 小模型在长故事写作中与 27B 模型性能相当，并展现出长度泛化能力。",
+  "summary_en": "POLARIS is a low-compute GRPO recipe combining frontier LLM judge rewards and human-reference injection, enabling a 9B model to match 27B models in long-form story writing while demonstrating length generalization.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-04T19:15:03.171299+08:00",
+  "updated_at": "2026-06-04T19:15:03.171301+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

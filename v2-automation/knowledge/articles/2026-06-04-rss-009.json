@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-04-rss-009",
+  "title": "PEEL框架：为AI赋能研究提供认知责任脚手架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.04152",
+  "language": "en",
+  "summary": "本文提出PEEL框架（Protocols for Epistemically Engaged Literacy in AI），结合Voyant Tools的确定性远读与Claude的LLM解释，基于皮尔斯符号学和溯因推理，揭示AI在研究中系统性扭曲数量、词频和认知声音的问题，并得出三个设计启示。",
+  "summary_en": null,
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-06-04T19:15:03.171332+08:00",
+  "updated_at": "2026-06-04T19:15:03.171333+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

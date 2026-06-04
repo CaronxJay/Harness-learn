@@ -1,0 +1,26 @@
+{
+  "id": "2026-06-04-rss-005",
+  "title": "面向企业AI智能体部署前的保障：基于本体的仿真与信任认证",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.04037",
+  "language": "en",
+  "summary": "提出一种基于本体的验证框架，用于企业AI智能体部署前的保障。该框架包含操作包络、本体到场景生成管道和信任证书三个组件。在四个受监管行业的试点中，本体驱动生成相比基线方法实现了更高的监管覆盖率（48.3% vs 33.1%）和领域特异性（4.77/5.0）。",
+  "summary_en": "Proposes an ontology-grounded verification framework for pre-deployment assurance of enterprise AI agents, combining an operational envelope, scenario generation pipeline, and trust certificate. A pilot across four regulated industries showed ontology-driven generation achieved 48.3% regulatory coverage vs 33.1% baseline and highest domain specificity (4.77/5.0).",
+  "tags": [
+    "agent-framework",
+    "research",
+    "security",
+    "evaluation",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-06-04T19:15:03.171312+08:00",
+  "updated_at": "2026-06-04T19:15:03.171314+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
