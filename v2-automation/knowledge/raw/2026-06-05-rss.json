@@ -1,0 +1,427 @@
+{
+  "collected_at": "2026-06-05T19:28:06.927595+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "Toward Pre-Deployment Assurance for Enterprise AI Agents: Ontology-Grounded Simulation and Trust Certification",
+      "url": "https://arxiv.org/abs/2606.04037",
+      "description": "arXiv:2606.04037v2 Announce Type: new \nAbstract: Pre-deployment verification of enterprise artificial intelligence (AI) agents remains a critical gap between large language model (LLM) capability benchmarking and production deployment. Post-deployment monitoring, human-in-the-loop controls, and prompt-level guardrails offer limited assurance once an agent is operating in production. We present an ontology-grounded verification framework -- to our knowledge the first to combine three components: an Agent Operational Envelope formalizing the certification space across permissions, domain constraints, safety properties, governance rules, and autonomy levels; an ontology-to-scenario generation pipeline that derives regulatory, operational, and adversarial test scenarios automatically; and a machine-verifiable Trust Certificate with graduated deployment verdicts. A controlled pilot across four regulated industries (Fintech, Banking, Insurance, Healthcare), instantiated as five industry-by-regulatory-regime cells across the United States and Vietnam (where Vietnam's 2025 AI Law makes such verification legally mandated for financial services), generated 1,800 scenarios evaluated against 125 primary-source regulatory requirements and 25 injected faults. Ontology-grounded generation significantly outperformed the dominant persona-based baseline on regulatory coverage (48.3% versus 33.1%; corrected p_c = .0006) and attained the highest domain specificity (4.77/5.0; p = 2e-6); transparently, its advantage over plain and retrieval-augmented prompting did not survive Bonferroni correction. Cross-validation across three LLM families (Claude Sonnet 4, Qwen 2.5 72B, Gemma 4 26B; 5,400 total scenarios) replicated the persona-versus-ontology pattern. The framework offers a reproducible, regulation-grounded route to pre-deployment assurance for enterprise AI agents, complementing runtime governance with an auditable deployment gate.",
+      "pub_date": "Fri, 05 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "面向企业AI智能体部署前保障的本体驱动仿真与信任认证框架",
+        "summary": "提出首个结合本体驱动仿真与信任认证的企业AI智能体预部署验证框架，通过Agent运行包络、本体到场景生成流水线及可验证信任证书，在金融、银行、保险、医疗等受监管行业显著提升监管覆盖率（48.3% vs 33.1%），为生产部署提供可审计的保障门控。",
+        "summary_en": "Proposes the first ontology-grounded verification framework for pre-deployment assurance of enterprise AI agents, combining Agent Operational Envelope, ontology-to-scenario generation pipeline, and verifiable Trust Certificate. Achieves 48.3% regulatory coverage vs 33.1% baseline in regulated industries (Fintech, Banking, Insurance, Healthcare).",
+        "tags": [
+          "research",
+          "security",
+          "evaluation",
+          "agent-framework"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-05-rss-001",
+        "title": "面向企业AI智能体部署前保障的本体驱动仿真与信任认证框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.04037",
+        "language": "en",
+        "summary": "提出首个结合本体驱动仿真与信任认证的企业AI智能体预部署验证框架，通过Agent运行包络、本体到场景生成流水线及可验证信任证书，在金融、银行、保险、医疗等受监管行业显著提升监管覆盖率（48.3% vs 33.1%），为生产部署提供可审计的保障门控。",
+        "summary_en": "Proposes the first ontology-grounded verification framework for pre-deployment assurance of enterprise AI agents, combining Agent Operational Envelope, ontology-to-scenario generation pipeline, and verifiable Trust Certificate. Achieves 48.3% regulatory coverage vs 33.1% baseline in regulated industries (Fintech, Banking, Insurance, Healthcare).",
+        "tags": [
+          "research",
+          "security",
+          "evaluation",
+          "agent-framework"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-05T19:28:06.926518+08:00",
+        "updated_at": "2026-06-05T19:28:06.926524+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Stumbling Into AI Emotional Dependence: How Routine AI Interactions Reshape Human Connection",
+      "url": "https://arxiv.org/abs/2606.04150",
+      "description": "arXiv:2606.04150v1 Announce Type: new \nAbstract: Public discourse and emerging policy typically assume that AI emotional support is a deliberate act: a lonely user consciously seeking comfort from a dedicated companion chatbot. In this paper, we draw on emerging empirical evidence and argue that this picture is inaccurate on two accounts, both in how AI emotional support arises and how it shapes future behavior. First, AI emotional support commonly emerges incidentally within task-oriented interactions on general-purpose platforms, much as workplace friendships deepen through collaboration. Second, these incidental encounters are path-dependent: positive experiences of AI emotional support update people's beliefs about AI's emotional capabilities and redirect their choices for future emotional support, increasing preference for AI and decreasing preference for humans. We review recent evidence, including a large-scale longitudinal study conducted in collaboration with OpenAI, showing that daily five-minute conversations with an AI about personal issues over 28 days led to a 10.3% decrease in the preference for seeking support from humans and an 11.6% increase in the preference for AI. These findings suggest that current policy, focused on companion apps and isolated interactions, cannot adequately protect human connection. Instead, effective regulations should extend to general-purpose AI systems and address cumulative, trajectory-level changes in how people seek support. Recognizing how people stumble into AI emotional support and how those encounters redirect human connections over time is essential to safeguarding human well-being.",
+      "pub_date": "Fri, 05 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "偶然陷入AI情感依赖：日常AI交互如何重塑人际关系",
+        "summary": "本文挑战了AI情感支持是刻意行为的普遍假设，指出它常意外地出现在通用平台的任务导向交互中。这些偶然遭遇具有路径依赖性，会改变人们对AI情感能力的信念，并使其偏好从人类转向AI。一项与OpenAI合作的大规模纵向研究发现，每天与AI进行5分钟个人话题对话，持续28天后，寻求人类支持的偏好下降10.3%，对AI的偏好上升11.6%。这表明当前仅关注陪伴应用的政策不足以保护人际关系，监管应扩展到通用AI系统并关注累积性轨迹变化。",
+        "summary_en": "This paper challenges the assumption that AI emotional support is a deliberate act, arguing it often emerges incidentally in task-oriented interactions on general-purpose platforms. These encounters are path-dependent, shifting preferences from humans to AI. A large-scale longitudinal study with OpenAI found daily 5-minute AI conversations over 28 days decreased preference for human support by 10.3% and increased preference for AI by 11.6%, suggesting current policies focused on companion apps are insufficient.",
+        "tags": [
+          "research",
+          "llm",
+          "application",
+          "security"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      }
+    },
+    {
+      "title": "Thinking Through Signs: PEEL as a Semiotic Scaffolding for Epistemically Accountable AI-Enabled Research",
+      "url": "https://arxiv.org/abs/2606.04152",
+      "description": "arXiv:2606.04152v1 Announce Type: new \nAbstract: Large language models are reshaping research practice while quietly eroding researchers epistemic accountability. This commentary introduces PEEL - Protocols for Epistemically Engaged Literacy in AI, a working scaffolding that combines deterministic distant reading via Voyant Tools with LLM interpretation via Claude, grounded in Peircean semiotics and abductive reasoning. Applied to AI-generated condensations of three source texts, PEEL reveals systematic distortions in quantity, term frequency, and epistemic voice that are invisible without non-AI measurement -- and yields three design implications: deterministic instruments must accompany AI tools; fluency is not fidelity; epistemic authority must be designed in, not assumed.",
+      "pub_date": "Fri, 05 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "PEEL框架：AI赋能研究中确保认知责任性的符号学支架",
+        "summary": "本文提出PEEL框架（Protocols for Epistemically Engaged Literacy in AI），结合Voyant Tools的确定性远读与Claude的LLM解释，基于皮尔斯符号学和溯因推理。应用于AI生成的文本凝练时，揭示了数量、词频和认知声音的系统性失真，并得出三项设计启示：确定性工具必须伴随AI工具；流畅性不等于保真度；认知权威必须被设计而非假设。",
+        "summary_en": "Introduces PEEL, a scaffolding combining deterministic distant reading (Voyant Tools) with LLM interpretation (Claude), grounded in Peircean semiotics. Applied to AI-generated condensations, it reveals systematic distortions in quantity, term frequency, and epistemic voice, yielding three design implications for accountable AI research.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-05-rss-007",
+        "title": "PEEL框架：AI赋能研究中确保认知责任性的符号学支架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.04152",
+        "language": "en",
+        "summary": "本文提出PEEL框架（Protocols for Epistemically Engaged Literacy in AI），结合Voyant Tools的确定性远读与Claude的LLM解释，基于皮尔斯符号学和溯因推理。应用于AI生成的文本凝练时，揭示了数量、词频和认知声音的系统性失真，并得出三项设计启示：确定性工具必须伴随AI工具；流畅性不等于保真度；认知权威必须被设计而非假设。",
+        "summary_en": "Introduces PEEL, a scaffolding combining deterministic distant reading (Voyant Tools) with LLM interpretation (Claude), grounded in Peircean semiotics. Applied to AI-generated condensations, it reveals systematic distortions in quantity, term frequency, and epistemic voice, yielding three design implications for accountable AI research.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-06-05T19:28:06.926573+08:00",
+        "updated_at": "2026-06-05T19:28:06.926575+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "SMAC-Talk: A Natural Language Extension of the StarCraft Multi-Agent Challenge for Large Language Models",
+      "url": "https://arxiv.org/abs/2606.04202",
+      "description": "arXiv:2606.04202v1 Announce Type: new \nAbstract: As LLMs become more widely deployed, they are increasingly expected to work alongside other AI agents rather than operating in isolation. Effective coordination in these settings requires agents to communicate, share information and make decisions under uncertainty. We introduce SMAC-Talk, a natural language extension of the StarCraft Multi-Agent Challenge for evaluating LLM-based agents in cooperative multi-agent environments. The environment has several key features such as decentralized control, partial observability and long-horizon decision making. SMAC-Talk includes a natural language communication channel which is used to probe agent coordination and trust. We use this communication channel to construct different evaluation scenarios, including settings with an embedded deceptive communicator that tries to disrupt and deceive allies through communication alone. We provide three agents for benchmarking using 4 models from the Qwen3.5 family and study how reasoning structure, memory and model scale affect coordination between agents. We release SMAC-Talk as an open benchmark to support the research community in developing and evaluating LLM agents in cooperative multi-agent settings.",
+      "pub_date": "Fri, 05 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "SMAC-Talk：面向大语言模型的星际争霸多智能体挑战自然语言扩展",
+        "summary": "SMAC-Talk 是星际争霸多智能体挑战的自然语言扩展，用于评估基于LLM的智能体在合作多智能体环境中的表现。环境具有去中心化控制、部分可观测和长周期决策等特点，包含自然语言通信通道，可构建含欺骗性通信者的评估场景。提供了基于Qwen3.5系列的基准智能体，研究推理结构、记忆和模型规模对协调的影响。",
+        "summary_en": "SMAC-Talk is a natural language extension of the StarCraft Multi-Agent Challenge for evaluating LLM-based agents in cooperative multi-agent environments, featuring decentralized control, partial observability, long-horizon decision making, and a natural language communication channel to probe coordination and trust, including deceptive communicator scenarios. It provides benchmark agents from the Qwen3.5 family.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "agent-framework",
+          "multimodal"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-05-rss-002",
+        "title": "SMAC-Talk：面向大语言模型的星际争霸多智能体挑战自然语言扩展",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.04202",
+        "language": "en",
+        "summary": "SMAC-Talk 是星际争霸多智能体挑战的自然语言扩展，用于评估基于LLM的智能体在合作多智能体环境中的表现。环境具有去中心化控制、部分可观测和长周期决策等特点，包含自然语言通信通道，可构建含欺骗性通信者的评估场景。提供了基于Qwen3.5系列的基准智能体，研究推理结构、记忆和模型规模对协调的影响。",
+        "summary_en": "SMAC-Talk is a natural language extension of the StarCraft Multi-Agent Challenge for evaluating LLM-based agents in cooperative multi-agent environments, featuring decentralized control, partial observability, long-horizon decision making, and a natural language communication channel to probe coordination and trust, including deceptive communicator scenarios. It provides benchmark agents from the Qwen3.5 family.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "agent-framework",
+          "multimodal"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-05T19:28:06.926530+08:00",
+        "updated_at": "2026-06-05T19:28:06.926533+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Consensus is Strategically Insufficient: Reasoning-Trace Disagreement as a Knowledge-Representation Signal",
+      "url": "https://arxiv.org/abs/2606.04223",
+      "description": "arXiv:2606.04223v1 Announce Type: new \nAbstract: Multi-agent systems are commonly designed to reduce disagreement through voting, consensus protocols, debate, or fault-tolerant aggregation. We argue that this objective is insufficient for value-laden tasks, where disagreement may reflect genuine normative uncertainty rather than agent error. Building on prior work on reasoning-trace disagreement in human-AI collaborative moderation, we propose a knowledge-representation layer in which reasoning traces and agent decisions are abstracted into symbolic disagreement states. Given agents producing explicit reasoning traces and binary decisions, we distinguish four states according to reasoning similarity and conclusion agreement: convergent agreement, divergent agreement, convergent disagreement and divergent disagreement. These states support defeasible strategic routing rules. We instantiate the framework in content moderation and argue that disagreement-aware routing provides a bridge between sub-symbolic LLM deliberation and symbolic knowledge representation for multi-agent strategic reasoning.",
+      "pub_date": "Fri, 05 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "共识策略不足：推理轨迹分歧作为知识表示信号",
+        "summary": "本文指出多智能体系统中通过投票、共识等减少分歧的策略在价值判断任务中不足，分歧可能反映规范不确定性而非错误。提出基于推理轨迹与决策抽象为符号化分歧状态的知识表示层，区分四种状态（趋同一致、趋异一致、趋同分歧、趋异分歧），支持可废止策略路由，并在内容审核中实例化，连接亚符号LLM推理与符号知识表示。",
+        "summary_en": "This paper argues that consensus-seeking strategies in multi-agent systems are insufficient for value-laden tasks, as disagreement may reflect normative uncertainty. It proposes a knowledge-representation layer abstracting reasoning traces and decisions into symbolic disagreement states (convergent/divergent agreement/disagreement), supporting defeasible routing, instantiated in content moderation to bridge sub-symbolic LLM deliberation and symbolic knowledge representation.",
+        "tags": [
+          "research",
+          "multi-agent",
+          "llm",
+          "knowledge-representation"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-05-rss-003",
+        "title": "共识策略不足：推理轨迹分歧作为知识表示信号",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.04223",
+        "language": "en",
+        "summary": "本文指出多智能体系统中通过投票、共识等减少分歧的策略在价值判断任务中不足，分歧可能反映规范不确定性而非错误。提出基于推理轨迹与决策抽象为符号化分歧状态的知识表示层，区分四种状态（趋同一致、趋异一致、趋同分歧、趋异分歧），支持可废止策略路由，并在内容审核中实例化，连接亚符号LLM推理与符号知识表示。",
+        "summary_en": "This paper argues that consensus-seeking strategies in multi-agent systems are insufficient for value-laden tasks, as disagreement may reflect normative uncertainty. It proposes a knowledge-representation layer abstracting reasoning traces and decisions into symbolic disagreement states (convergent/divergent agreement/disagreement), supporting defeasible routing, instantiated in content moderation to bridge sub-symbolic LLM deliberation and symbolic knowledge representation.",
+        "tags": [
+          "research",
+          "multi-agent",
+          "llm",
+          "knowledge-representation"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-06-05T19:28:06.926539+08:00",
+        "updated_at": "2026-06-05T19:28:06.926541+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Epidemiology of Model Collapse: Modeling Synthetic Data Contamination via Bilayer SIR Dynamics",
+      "url": "https://arxiv.org/abs/2606.05168",
+      "description": "arXiv:2606.05168v1 Announce Type: new \nAbstract: Training on synthetic data causes model collapse, but existing analyses treat this as single-chain degradation. In reality, the AI ecosystem involves cross-contamination: models ingest synthetic data from other models, produce new synthetic text, and contaminate shared corpora. We propose a bilayer coupled SIR/SIRS framework -- a phenomenological mean-field model treating data corpora and AI models as two interacting populations, each with susceptible, infected, and recovered compartments linked by cross-layer transmission. The SIRS variant (our primary recommendation) incorporates immunity waning, reflecting that filtered corpora and retrained models remain susceptible to re-contamination. We derive the basic reproduction number $R_0 = \\sqrt{\\beta_D \\beta_M / [(\\gamma_D+\\mu_D)(\\gamma_M+\\mu_M)]}$ via the Next Generation Matrix and apply standard epidemic threshold results to the bilayer system. Illustrative scenario-based calibration from public AI text prevalence data yields supercritical dynamics ($R_0 > 1$) across three scenarios; Sobol sensitivity analysis identifies synthetic-text detection as the highest-leverage parameter. A bipartite-network agent-based model confirms mean-field consistency ($R^2 > 0.96$) for dense networks but degrades under heterogeneity. GPT-2 contamination chain experiments (192 runs across WikiText and Shakespeare) show dose-response degradation and diversity loss qualitatively consistent with the threshold picture. Matched-budget source-diversity experiments (1,088 runs) provide suggestive evidence that multi-source mixing modestly attenuates collapse, but the effect vanishes at lower contamination fractions. Intervention analysis identifies detection-based filtering and herd immunity as the highest-leverage strategies.",
+      "pub_date": "Fri, 05 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "模型塌陷流行病学：基于双层SIR动力学的合成数据污染建模",
+        "summary": "提出双层SIR/SIRS框架，将数据语料库和AI模型视为两个相互作用的种群，建模合成数据交叉污染导致的模型塌陷。推导基本再生数R0，通过情景校准和敏感性分析识别合成文本检测为高杠杆参数。GPT-2实验验证了阈值行为，多源混合可适度缓解塌陷。",
+        "summary_en": "Proposes a bilayer SIR/SIRS framework modeling cross-contamination between data corpora and AI models leading to model collapse. Derives R0, identifies synthetic-text detection as high-leverage via sensitivity analysis. GPT-2 experiments confirm threshold behavior; multi-source mixing modestly attenuates collapse.",
+        "tags": [
+          "research",
+          "llm",
+          "benchmark",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-05-rss-004",
+        "title": "模型塌陷流行病学：基于双层SIR动力学的合成数据污染建模",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.05168",
+        "language": "en",
+        "summary": "提出双层SIR/SIRS框架，将数据语料库和AI模型视为两个相互作用的种群，建模合成数据交叉污染导致的模型塌陷。推导基本再生数R0，通过情景校准和敏感性分析识别合成文本检测为高杠杆参数。GPT-2实验验证了阈值行为，多源混合可适度缓解塌陷。",
+        "summary_en": "Proposes a bilayer SIR/SIRS framework modeling cross-contamination between data corpora and AI models leading to model collapse. Derives R0, identifies synthetic-text detection as high-leverage via sensitivity analysis. GPT-2 experiments confirm threshold behavior; multi-source mixing modestly attenuates collapse.",
+        "tags": [
+          "research",
+          "llm",
+          "benchmark",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-06-05T19:28:06.926546+08:00",
+        "updated_at": "2026-06-05T19:28:06.926548+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Predict and Reconstruct: Joint Objectives for Self-Supervised Language Representation Learning",
+      "url": "https://arxiv.org/abs/2606.05173",
+      "description": "arXiv:2606.05173v1 Announce Type: new \nAbstract: Masked language modelling (MLM) has been the dominant pre-training objective for text encoders since BERT, yet it encourages representations that are strongly anchored to surface-form token identity rather than deeper semantic structure. Inspired by the success of Joint Embedding Predictive Architectures (JEPA) (LeCun, 2022) in vision and audio, we propose a hybrid pre-training objective that combines a JEPA-style latent-space prediction loss with a standard MLM objective over a single shared encoder. A learnable scalar parameter continuously balances the two objectives during training. We pre-train both a hybrid model and a pure-MLM baseline on English Wikipedia using identical architectures and compute budgets (NVIDIA H100). Extensive representation analysis across five GLUE benchmarks (SST-2, MRPC, MNLI, CoLA, STS-B) using four pooling strategies reveals that the hybrid encoder produces significantly more uniform embeddings (uniformity less than -0.16 vs -0.05 for MLM), exhibits richer spectral geometry under max pooling, encodes less surface-level lexical information, and achieves a better semantic-to-lexical balance. Despite similar linear-probe downstream accuracy, the geometric differences are consistent and significant, suggesting that the JEPA predictive objective reshapes the latent space in ways that standard accuracy metrics alone cannot capture.",
+      "pub_date": "Fri, 05 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "预测与重建：自监督语言表示学习的联合目标",
+        "summary": "提出一种结合JEPA风格潜在空间预测损失与标准MLM目标的混合预训练目标，通过可学习标量参数平衡两者。在GLUE基准上分析表明，混合编码器产生更均匀的嵌入，具有更丰富的谱几何结构，编码更少的表层词汇信息，实现更好的语义-词汇平衡。",
+        "summary_en": "Proposes a hybrid pre-training objective combining JEPA-style latent-space prediction loss with standard MLM, balanced by a learnable scalar. Analysis on GLUE benchmarks shows the hybrid encoder produces more uniform embeddings, richer spectral geometry, less surface-level lexical information, and better semantic-lexical balance.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-05-rss-005",
+        "title": "预测与重建：自监督语言表示学习的联合目标",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.05173",
+        "language": "en",
+        "summary": "提出一种结合JEPA风格潜在空间预测损失与标准MLM目标的混合预训练目标，通过可学习标量参数平衡两者。在GLUE基准上分析表明，混合编码器产生更均匀的嵌入，具有更丰富的谱几何结构，编码更少的表层词汇信息，实现更好的语义-词汇平衡。",
+        "summary_en": "Proposes a hybrid pre-training objective combining JEPA-style latent-space prediction loss with standard MLM, balanced by a learnable scalar. Analysis on GLUE benchmarks shows the hybrid encoder produces more uniform embeddings, richer spectral geometry, less surface-level lexical information, and better semantic-lexical balance.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-06-05T19:28:06.926558+08:00",
+        "updated_at": "2026-06-05T19:28:06.926561+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Improving Heart-Focused Medical Question Answering in LLMs via Variance-Aware Rubric Rewards with GRPO",
+      "url": "https://arxiv.org/abs/2606.05174",
+      "description": "arXiv:2606.05174v1 Announce Type: new \nAbstract: Large Language Models (LLMs) have shown strong promise in healthcare applications. Yet deploying general-purpose models in real-world settings remains difficult due to data privacy constraints, inference costs, and limited suitability for edge or on-device use. These challenges motivate the development of smaller, more efficient models that require robust post-training strategies to ensure reliable medical reasoning. In this work, we investigate Group Relative Policy Optimization (GRPO) for post-training LLMs on heart-focused medical question answering with rubric-based supervision derived from RaR-Medicine. We propose a Variance-Aware Reward Framework that extends the Explicit Aggregation and Implicit Aggregation strategies of Rubrics as Rewards by replacing weighted binary criterion aggregation and single overall Likert-style scoring with continuous analytical reward functions derived from criterion-level rubric outcomes. This formulation provides richer optimization signals for feedback that is sparse, multi-criteria, and difficult to verify automatically, and enables more stable on-policy reinforcement learning. On a held-out heart-related subset of HealthBench, our best GRPO variant improves accuracy from 0.362 to 0.502 and F1 from 0.532 to 0.668 relative to the Qwen3-14B base model, while remaining competitive with GPT-OSS-120B (0.508 accuracy, 0.674 F1). Our findings show that carefully designed rubric-based rewards provide a practical strategy for improving heart-focused medical question answering in LLMs, with potential to extend to other rubric-based tasks.",
+      "pub_date": "Fri, 05 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "基于方差感知评分奖励的GRPO方法提升LLM心脏医疗问答能力",
+        "summary": "本文提出一种方差感知奖励框架，结合GRPO算法和基于评分标准的奖励机制，用于后训练LLM以提升心脏医疗问答能力。在HealthBench子集上，最佳变体将准确率从0.362提升至0.502，F1从0.532提升至0.668，接近120B参数模型水平。",
+        "summary_en": null,
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-05-rss-006",
+        "title": "基于方差感知评分奖励的GRPO方法提升LLM心脏医疗问答能力",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.05174",
+        "language": "en",
+        "summary": "本文提出一种方差感知奖励框架，结合GRPO算法和基于评分标准的奖励机制，用于后训练LLM以提升心脏医疗问答能力。在HealthBench子集上，最佳变体将准确率从0.362提升至0.502，F1从0.532提升至0.668，接近120B参数模型水平。",
+        "summary_en": null,
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-06-05T19:28:06.926565+08:00",
+        "updated_at": "2026-06-05T19:28:06.926568+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Generic Triple-Latent Compression with Gated Associative Retrieval",
+      "url": "https://arxiv.org/abs/2606.05175",
+      "description": "arXiv:2606.05175v1 Announce Type: new \nAbstract: We study generic triple-latent sequence models that maintain a running token state and compressed pair-memory pathway to capture higher-order token interactions without benchmark-specific parsing. The triple-latent family improves a small Transformer baseline on byte-level WikiText-2 and on a tokenizer-based MiniMind language-model benchmark, while a recall-focused gated key-value retrieval extension improves associative recall but remains seed-sensitive and much slower in the current reference implementation.",
+      "pub_date": "Fri, 05 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "通用三重潜在压缩与门控关联检索",
+        "summary": "研究通用三重潜在序列模型，通过维护运行令牌状态和压缩对记忆路径来捕获高阶令牌交互，无需基准特定解析。该系列改进了小型Transformer在字节级WikiText-2和基于分词器的MiniMind语言模型基准上的性能，而专注于召回的门控键值检索扩展提高了关联召回，但对种子敏感且当前参考实现速度较慢。",
+        "summary_en": "Studies generic triple-latent sequence models that maintain a running token state and compressed pair-memory pathway to capture higher-order token interactions without benchmark-specific parsing. The family improves a small Transformer baseline on byte-level WikiText-2 and a tokenizer-based MiniMind benchmark, while a recall-focused gated key-value retrieval extension improves associative recall but remains seed-sensitive and slower in the current implementation.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-05-rss-008",
+        "title": "通用三重潜在压缩与门控关联检索",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.05175",
+        "language": "en",
+        "summary": "研究通用三重潜在序列模型，通过维护运行令牌状态和压缩对记忆路径来捕获高阶令牌交互，无需基准特定解析。该系列改进了小型Transformer在字节级WikiText-2和基于分词器的MiniMind语言模型基准上的性能，而专注于召回的门控键值检索扩展提高了关联召回，但对种子敏感且当前参考实现速度较慢。",
+        "summary_en": "Studies generic triple-latent sequence models that maintain a running token state and compressed pair-memory pathway to capture higher-order token interactions without benchmark-specific parsing. The family improves a small Transformer baseline on byte-level WikiText-2 and a tokenizer-based MiniMind benchmark, while a recall-focused gated key-value retrieval extension improves associative recall but remains seed-sensitive and slower in the current implementation.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-06-05T19:28:06.926579+08:00",
+        "updated_at": "2026-06-05T19:28:06.926582+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "PEFT of SLM for Telecommunications Customer Support: A Comparative Study of LoRA Configurations with Energy Consumption Analysis",
+      "url": "https://arxiv.org/abs/2606.05176",
+      "description": "arXiv:2606.05176v1 Announce Type: new \nAbstract: While large language models (LLMs) show strong performance in natural language understanding and generation, their evaluation and adaptation to domain-specific constraints in telecommunications customer support remain limited. In addition, data sovereignty, regulatory constraints, and the handling of sensitive customer and network information complicate the use of externally hosted foundation models in this domain.\n  We present a systematic study of parameter-efficient fine-tuning (PEFT) using Low-Rank Adaptation (LoRA) applied to Qwen2.5-3B to build a domain-specific conversational assistant. We introduce a combinatorial synthetic data generation approach based on a glossary of 52 industry-specific terms, producing approximately 30,000 training examples across 1,560 distinct problem scenarios via a generative pipeline powered by Gemini 2.0 Flash.\n  We evaluate 16 LoRA configurations by varying hyperparameters and target modules. Our evaluation extends beyond standard metrics by incorporating energy consumption analysis and qualitative assessment using an LLM-as-a-judge framework with GPT-5.2 and Claude 4.5 Sonnet.\n  Results show a clear divergence between quantitative and qualitative performance: models achieving the lowest validation loss do not necessarily obtain the best human-aligned rankings. The best validation loss (0.5024) ranks only 6th-7th in qualitative evaluation, while the worst loss (0.6807) ranks first according to both judges.\n  This work contributes (1) a combinatorial method for synthetic dataset construction, (2) insights into the impact of target module selection for LoRA injection, (3) evidence that validation loss alone is insufficient for selecting fine-tuning configurations in conversational AI, and (4) an energy-performance trade-off analysis for sustainable LLM deployment.",
+      "pub_date": "Fri, 05 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "面向电信客服的SLM参数高效微调：LoRA配置与能耗对比研究",
+        "summary": "系统研究了使用LoRA对Qwen2.5-3B进行参数高效微调，构建电信领域对话助手。提出基于52个行业术语的组合合成数据生成方法，生成约3万训练样本。评估16种LoRA配置，引入能耗分析和LLM-as-judge评估。发现验证损失与人类对齐排名存在显著差异，最低损失(0.5024)仅排第6-7位，而最高损失(0.6807)排名第一。贡献包括组合数据构建方法、目标模块选择影响分析、验证损失不足的证据及能耗-性能权衡分析。",
+        "summary_en": "Systematic study of PEFT using LoRA on Qwen2.5-3B for telecom customer support. Introduces combinatorial synthetic data generation from 52 industry terms, evaluates 16 LoRA configurations with energy analysis and LLM-as-judge. Finds validation loss diverges from human-aligned rankings: best loss (0.5024) ranks 6-7th, worst loss (0.6807) ranks 1st.",
+        "tags": [
+          "llm",
+          "fine-tuning",
+          "research",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      }
+    }
+  ]
+}

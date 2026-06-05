@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-05-rss-005",
+  "title": "预测与重建：自监督语言表示学习的联合目标",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.05173",
+  "language": "en",
+  "summary": "提出一种结合JEPA风格潜在空间预测损失与标准MLM目标的混合预训练目标，通过可学习标量参数平衡两者。在GLUE基准上分析表明，混合编码器产生更均匀的嵌入，具有更丰富的谱几何结构，编码更少的表层词汇信息，实现更好的语义-词汇平衡。",
+  "summary_en": "Proposes a hybrid pre-training objective combining JEPA-style latent-space prediction loss with standard MLM, balanced by a learnable scalar. Analysis on GLUE benchmarks shows the hybrid encoder produces more uniform embeddings, richer spectral geometry, less surface-level lexical information, and better semantic-lexical balance.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-06-05T19:28:06.926558+08:00",
+  "updated_at": "2026-06-05T19:28:06.926561+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

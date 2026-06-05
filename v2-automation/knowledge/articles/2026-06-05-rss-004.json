@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-05-rss-004",
+  "title": "模型塌陷流行病学：基于双层SIR动力学的合成数据污染建模",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.05168",
+  "language": "en",
+  "summary": "提出双层SIR/SIRS框架，将数据语料库和AI模型视为两个相互作用的种群，建模合成数据交叉污染导致的模型塌陷。推导基本再生数R0，通过情景校准和敏感性分析识别合成文本检测为高杠杆参数。GPT-2实验验证了阈值行为，多源混合可适度缓解塌陷。",
+  "summary_en": "Proposes a bilayer SIR/SIRS framework modeling cross-contamination between data corpora and AI models leading to model collapse. Derives R0, identifies synthetic-text detection as high-leverage via sensitivity analysis. GPT-2 experiments confirm threshold behavior; multi-source mixing modestly attenuates collapse.",
+  "tags": [
+    "research",
+    "llm",
+    "benchmark",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-06-05T19:28:06.926546+08:00",
+  "updated_at": "2026-06-05T19:28:06.926548+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

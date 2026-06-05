@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-05-rss-006",
+  "title": "基于方差感知评分奖励的GRPO方法提升LLM心脏医疗问答能力",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.05174",
+  "language": "en",
+  "summary": "本文提出一种方差感知奖励框架，结合GRPO算法和基于评分标准的奖励机制，用于后训练LLM以提升心脏医疗问答能力。在HealthBench子集上，最佳变体将准确率从0.362提升至0.502，F1从0.532提升至0.668，接近120B参数模型水平。",
+  "summary_en": null,
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-06-05T19:28:06.926565+08:00",
+  "updated_at": "2026-06-05T19:28:06.926568+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

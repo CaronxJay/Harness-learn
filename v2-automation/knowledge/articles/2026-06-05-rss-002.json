@@ -1,0 +1,26 @@
+{
+  "id": "2026-06-05-rss-002",
+  "title": "SMAC-Talk：面向大语言模型的星际争霸多智能体挑战自然语言扩展",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.04202",
+  "language": "en",
+  "summary": "SMAC-Talk 是星际争霸多智能体挑战的自然语言扩展，用于评估基于LLM的智能体在合作多智能体环境中的表现。环境具有去中心化控制、部分可观测和长周期决策等特点，包含自然语言通信通道，可构建含欺骗性通信者的评估场景。提供了基于Qwen3.5系列的基准智能体，研究推理结构、记忆和模型规模对协调的影响。",
+  "summary_en": "SMAC-Talk is a natural language extension of the StarCraft Multi-Agent Challenge for evaluating LLM-based agents in cooperative multi-agent environments, featuring decentralized control, partial observability, long-horizon decision making, and a natural language communication channel to probe coordination and trust, including deceptive communicator scenarios. It provides benchmark agents from the Qwen3.5 family.",
+  "tags": [
+    "llm",
+    "research",
+    "benchmark",
+    "agent-framework",
+    "multimodal"
+  ],
+  "category": "benchmark",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-05T19:28:06.926530+08:00",
+  "updated_at": "2026-06-05T19:28:06.926533+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-05-rss-003",
+  "title": "共识策略不足：推理轨迹分歧作为知识表示信号",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.04223",
+  "language": "en",
+  "summary": "本文指出多智能体系统中通过投票、共识等减少分歧的策略在价值判断任务中不足，分歧可能反映规范不确定性而非错误。提出基于推理轨迹与决策抽象为符号化分歧状态的知识表示层，区分四种状态（趋同一致、趋异一致、趋同分歧、趋异分歧），支持可废止策略路由，并在内容审核中实例化，连接亚符号LLM推理与符号知识表示。",
+  "summary_en": "This paper argues that consensus-seeking strategies in multi-agent systems are insufficient for value-laden tasks, as disagreement may reflect normative uncertainty. It proposes a knowledge-representation layer abstracting reasoning traces and decisions into symbolic disagreement states (convergent/divergent agreement/disagreement), supporting defeasible routing, instantiated in content moderation to bridge sub-symbolic LLM deliberation and symbolic knowledge representation.",
+  "tags": [
+    "research",
+    "multi-agent",
+    "llm",
+    "knowledge-representation"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-06-05T19:28:06.926539+08:00",
+  "updated_at": "2026-06-05T19:28:06.926541+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

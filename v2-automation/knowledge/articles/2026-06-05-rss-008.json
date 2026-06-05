@@ -1,0 +1,24 @@
+{
+  "id": "2026-06-05-rss-008",
+  "title": "通用三重潜在压缩与门控关联检索",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.05175",
+  "language": "en",
+  "summary": "研究通用三重潜在序列模型，通过维护运行令牌状态和压缩对记忆路径来捕获高阶令牌交互，无需基准特定解析。该系列改进了小型Transformer在字节级WikiText-2和基于分词器的MiniMind语言模型基准上的性能，而专注于召回的门控键值检索扩展提高了关联召回，但对种子敏感且当前参考实现速度较慢。",
+  "summary_en": "Studies generic triple-latent sequence models that maintain a running token state and compressed pair-memory pathway to capture higher-order token interactions without benchmark-specific parsing. The family improves a small Transformer baseline on byte-level WikiText-2 and a tokenizer-based MiniMind benchmark, while a recall-focused gated key-value retrieval extension improves associative recall but remains seed-sensitive and slower in the current implementation.",
+  "tags": [
+    "llm",
+    "research",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-06-05T19:28:06.926579+08:00",
+  "updated_at": "2026-06-05T19:28:06.926582+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

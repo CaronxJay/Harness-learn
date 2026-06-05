@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-05-rss-007",
+  "title": "PEEL框架：AI赋能研究中确保认知责任性的符号学支架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.04152",
+  "language": "en",
+  "summary": "本文提出PEEL框架（Protocols for Epistemically Engaged Literacy in AI），结合Voyant Tools的确定性远读与Claude的LLM解释，基于皮尔斯符号学和溯因推理。应用于AI生成的文本凝练时，揭示了数量、词频和认知声音的系统性失真，并得出三项设计启示：确定性工具必须伴随AI工具；流畅性不等于保真度；认知权威必须被设计而非假设。",
+  "summary_en": "Introduces PEEL, a scaffolding combining deterministic distant reading (Voyant Tools) with LLM interpretation (Claude), grounded in Peircean semiotics. Applied to AI-generated condensations, it reveals systematic distortions in quantity, term frequency, and epistemic voice, yielding three design implications for accountable AI research.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "prompt-engineering"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-06-05T19:28:06.926573+08:00",
+  "updated_at": "2026-06-05T19:28:06.926575+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
