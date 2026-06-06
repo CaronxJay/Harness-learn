@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-06-rss-002",
+  "title": "智能体应如何交流？面向高效多智能体系统的行动-状态通信",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.05304",
+  "language": "en",
+  "summary": "分析了多智能体系统中五种常见通信策略，发现无固定策略普遍最优。提出PACT（协议化行动-状态通信与传输），将智能体间通信视为公共状态更新问题，将原始输出压缩为紧凑的行动-状态记录，从而在保持或提升任务性能的同时显著减少token消耗。在OpenHands和SWE-agent等生产环境中验证了有效性。",
+  "summary_en": "Analyzes five common inter-agent communication strategies, finding no universally optimal fixed strategy. Proposes PACT, which treats inter-agent communication as a public state-update problem and compresses raw outputs into compact action-state records, achieving comparable or better performance with substantially fewer tokens. Validated on production systems like OpenHands and SWE-agent.",
+  "tags": [
+    "research",
+    "agent-framework",
+    "llm",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-06T18:03:08.395371+08:00",
+  "updated_at": "2026-06-06T18:03:08.395373+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

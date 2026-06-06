@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-06-rss-004",
+  "title": "GITCO：时间序列基础模型中的门控推理时上下文优化",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.05332",
+  "language": "en",
+  "summary": "提出GITCO框架，通过门控机制在推理时优化输入上下文，无需修改模型权重即可提升时间序列基础模型（TSFM）的零样本预测精度。在TimesFM 2.5上平均MASE降低1.95%，达到改进上限的89.9%。",
+  "summary_en": null,
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-06-06T18:03:08.395380+08:00",
+  "updated_at": "2026-06-06T18:03:08.395382+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

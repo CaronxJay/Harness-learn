@@ -1,0 +1,242 @@
+{
+  "collected_at": "2026-06-06T18:03:08.396246+08:00",
+  "source": "rss",
+  "count": 5,
+  "items": [
+    {
+      "title": "How Far Did They Go? The Persuasive Tactics of Covert LLM Agents in a Discontinued Field Experiment",
+      "url": "https://arxiv.org/abs/2606.05256",
+      "description": "arXiv:2606.05256v1 Announce Type: new \nAbstract: This study analyzes a publicly released dataset from a discontinued field experiment on Reddit's r/ChangeMyView. The intervention, conducted by unknown, external researchers and halted following ethical backlash, involved undisclosed AI-generated accounts engaging users in live debate. After public disclosure, Reddit authorized moderators to release an archive of the AI-generated comments, creating a rare opportunity to examine how large language models operated in an identity-rich deliberative forum without disclosure. We conduct a structured content analysis of this corpus, evaluating identity performance, authority signaling, alignment strategies, and activation of cognitive heuristics. Identity targeting or adoption appears in over two-thirds of comments, alignment moves and authority claims in nearly all of them, and cognitive-bias triggers -- particularly confirmation bias, representativeness, and availability -- in the large majority. These patterns co-occur systematically, composing a rhetorical architecture calibrated for persuasive efficiency rather than authentic deliberative participation. Compared against human-authored CMV counter-arguments, the agents inverted the typical distribution on every dimension: denser authority use, more adversarial alignment, and heavier reliance on external citation over experiential grounding. In such environments, distinctions between authentic and synthetic epistemic standing grow increasingly opaque -- an asymmetry that disclosure mandates alone cannot address. The results point toward auditing frameworks capable of assessing how AI systems structure credibility, not merely whether they are present.",
+      "pub_date": "Sat, 06 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "隐蔽LLM代理的说服策略：基于已终止现场实验的分析",
+        "summary": "本研究分析了一个已终止的Reddit现场实验数据集，该实验中未公开的AI生成账户参与用户辩论。研究发现，超过三分之二的评论涉及身份定位，几乎所有评论都包含结盟策略和权威声明，且大量使用认知偏差触发。与人类相比，AI代理更密集地使用权威、对抗性结盟和外部引用，表明其修辞架构旨在说服效率而非真实参与。研究呼吁建立审计框架评估AI如何构建可信度。",
+        "summary_en": "This study analyzes a discontinued Reddit field experiment where undisclosed AI accounts engaged in live debate. Findings show over two-thirds of comments involved identity targeting, nearly all used alignment and authority claims, and most triggered cognitive biases. Compared to humans, AI agents used denser authority, adversarial alignment, and external citations, suggesting a rhetorical architecture for persuasive efficiency. The study calls for auditing frameworks to assess how AI structures credibility.",
+        "tags": [
+          "llm",
+          "research",
+          "security",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-06-rss-001",
+        "title": "隐蔽LLM代理的说服策略：基于已终止现场实验的分析",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.05256",
+        "language": "en",
+        "summary": "本研究分析了一个已终止的Reddit现场实验数据集，该实验中未公开的AI生成账户参与用户辩论。研究发现，超过三分之二的评论涉及身份定位，几乎所有评论都包含结盟策略和权威声明，且大量使用认知偏差触发。与人类相比，AI代理更密集地使用权威、对抗性结盟和外部引用，表明其修辞架构旨在说服效率而非真实参与。研究呼吁建立审计框架评估AI如何构建可信度。",
+        "summary_en": "This study analyzes a discontinued Reddit field experiment where undisclosed AI accounts engaged in live debate. Findings show over two-thirds of comments involved identity targeting, nearly all used alignment and authority claims, and most triggered cognitive biases. Compared to humans, AI agents used denser authority, adversarial alignment, and external citations, suggesting a rhetorical architecture for persuasive efficiency. The study calls for auditing frameworks to assess how AI structures credibility.",
+        "tags": [
+          "llm",
+          "research",
+          "security",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-06T18:03:08.395364+08:00",
+        "updated_at": "2026-06-06T18:03:08.395367+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "What Should Agents Say? Action-state Communication for Efficient Multi-Agent Systems",
+      "url": "https://arxiv.org/abs/2606.05304",
+      "description": "arXiv:2606.05304v1 Announce Type: new \nAbstract: Multi-agent systems (MAS) built on large language models are typically organized around roles, pipelines, and turn schedules, while the content that agents pass to one another is often left as unconstrained natural language. However, this free-form communication can rapidly inflate token usage, consume the shared context window, and ultimately affect both system performance and inference cost. We analyze five common inter-agent communication strategies across two MAS topologies, finding that no fixed strategy is universally optimal. Instead, effective inter-agent messages consistently preserve action-centered information needed by downstream agents. Building on this, we propose the PACT (Protocolized Action-state Communication and Transmission), which treats inter-agent communication as a public state-update problem and projects each raw agent output into a compact action-state record before it enters shared history. Across different MAS topologies, PACT consistently improves the performance-cost trade-off, achieving comparable or stronger task performance with substantially fewer tokens. The gains extend to production coding harnesses: PACT lifts OpenHands' resolve rate at -10% tokens-per-resolved, and is resolve-neutral on SWE-agent while halving input tokens. Our code is publicly available at https://github.com/iNLP-Lab/PACT.",
+      "pub_date": "Sat, 06 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "智能体应如何交流？面向高效多智能体系统的行动-状态通信",
+        "summary": "分析了多智能体系统中五种常见通信策略，发现无固定策略普遍最优。提出PACT（协议化行动-状态通信与传输），将智能体间通信视为公共状态更新问题，将原始输出压缩为紧凑的行动-状态记录，从而在保持或提升任务性能的同时显著减少token消耗。在OpenHands和SWE-agent等生产环境中验证了有效性。",
+        "summary_en": "Analyzes five common inter-agent communication strategies, finding no universally optimal fixed strategy. Proposes PACT, which treats inter-agent communication as a public state-update problem and compresses raw outputs into compact action-state records, achieving comparable or better performance with substantially fewer tokens. Validated on production systems like OpenHands and SWE-agent.",
+        "tags": [
+          "research",
+          "agent-framework",
+          "llm",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-06-rss-002",
+        "title": "智能体应如何交流？面向高效多智能体系统的行动-状态通信",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.05304",
+        "language": "en",
+        "summary": "分析了多智能体系统中五种常见通信策略，发现无固定策略普遍最优。提出PACT（协议化行动-状态通信与传输），将智能体间通信视为公共状态更新问题，将原始输出压缩为紧凑的行动-状态记录，从而在保持或提升任务性能的同时显著减少token消耗。在OpenHands和SWE-agent等生产环境中验证了有效性。",
+        "summary_en": "Analyzes five common inter-agent communication strategies, finding no universally optimal fixed strategy. Proposes PACT, which treats inter-agent communication as a public state-update problem and compresses raw outputs into compact action-state records, achieving comparable or better performance with substantially fewer tokens. Validated on production systems like OpenHands and SWE-agent.",
+        "tags": [
+          "research",
+          "agent-framework",
+          "llm",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-06T18:03:08.395371+08:00",
+        "updated_at": "2026-06-06T18:03:08.395373+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "I Know What You Meme, Even If it Emerged Today: Understanding Evolving Memes through Open-World Knowledge Acquisition",
+      "url": "https://arxiv.org/abs/2606.05316",
+      "description": "arXiv:2606.05316v1 Announce Type: new \nAbstract: Multimodal memes are dynamic and often require up to date background knowledge for interpretation. Existing methods often overlook such knowledge or rely on fixed parametric knowledge of pretrained models that may be incomplete, outdated, or unavailable for emerging memes. We introduce Query Retrieve Conclude, a zero shot framework that identifies missing knowledge, retrieves open web evidence, and synthesizes evidence grounded background knowledge for meme understanding and detection. We also introduce a curated meme understanding benchmark of recent memes from 2024 to 2026 with external background knowledge annotations. Experiments on three meme understanding datasets and five meme detection tasks show that our framework improves knowledge recovery, meme understanding and downstream detection over zero shot baselines.",
+      "pub_date": "Sat, 06 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "理解动态模因：通过开放世界知识获取实现新兴模因理解",
+        "summary": "提出Query-Retrieve-Conclude零样本框架，通过识别缺失知识、检索开放网络证据并综合背景知识，实现对动态模因的理解与检测。同时引入2024-2026年模因理解基准数据集，实验证明该方法在知识恢复、模因理解和检测任务上优于零样本基线。",
+        "summary_en": "Proposes Query-Retrieve-Conclude, a zero-shot framework that identifies missing knowledge, retrieves open-web evidence, and synthesizes background knowledge for understanding and detecting evolving memes. Introduces a curated meme benchmark (2024-2026) with external knowledge annotations. Outperforms zero-shot baselines on three understanding datasets and five detection tasks.",
+        "tags": [
+          "multimodal",
+          "research",
+          "benchmark",
+          "rag"
+        ],
+        "category": "multimodal",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-06-rss-003",
+        "title": "理解动态模因：通过开放世界知识获取实现新兴模因理解",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.05316",
+        "language": "en",
+        "summary": "提出Query-Retrieve-Conclude零样本框架，通过识别缺失知识、检索开放网络证据并综合背景知识，实现对动态模因的理解与检测。同时引入2024-2026年模因理解基准数据集，实验证明该方法在知识恢复、模因理解和检测任务上优于零样本基线。",
+        "summary_en": "Proposes Query-Retrieve-Conclude, a zero-shot framework that identifies missing knowledge, retrieves open-web evidence, and synthesizes background knowledge for understanding and detecting evolving memes. Introduces a curated meme benchmark (2024-2026) with external knowledge annotations. Outperforms zero-shot baselines on three understanding datasets and five detection tasks.",
+        "tags": [
+          "multimodal",
+          "research",
+          "benchmark",
+          "rag"
+        ],
+        "category": "multimodal",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-06-06T18:03:08.395376+08:00",
+        "updated_at": "2026-06-06T18:03:08.395378+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "GITCO: Gated Inference-Time Context Optimization in TSFMs",
+      "url": "https://arxiv.org/abs/2606.05332",
+      "description": "arXiv:2606.05332v1 Announce Type: new \nAbstract: Patch-based Time Series Foundation Models (TSFMs) suffer from context poisoning: structurally anomalous patches capture disproportionate attention and silently degrade zero-shot forecast quality. We propose improving TSFM accuracy at inference time by optimizing the input context rather than modifying model weights. We present GITCO (Gated Inference-Time Context Optimization), a lightweight three-component framework: Gate, Router, and Critic that selectively identifies and suppresses harmful patches without any parameter updates. Evaluated on TimesFM 2.5 across 53 GIFT-Eval datasets under K-fold cross-validation, GITCO achieves an average +1.95% MASE reduction on TimesFM 2.5 while capturing 89.9% of the improvement upper bound. We introduce context sensitivity profiles as a new characterizable property of TSFMs: the mapping from time series meta-features to expected accuracy improvement under inference-time context intervention, shaped jointly by model architecture and the statistical structure of the data.",
+      "pub_date": "Sat, 06 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "GITCO：时间序列基础模型中的门控推理时上下文优化",
+        "summary": "提出GITCO框架，通过门控机制在推理时优化输入上下文，无需修改模型权重即可提升时间序列基础模型（TSFM）的零样本预测精度。在TimesFM 2.5上平均MASE降低1.95%，达到改进上限的89.9%。",
+        "summary_en": null,
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-06-rss-004",
+        "title": "GITCO：时间序列基础模型中的门控推理时上下文优化",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.05332",
+        "language": "en",
+        "summary": "提出GITCO框架，通过门控机制在推理时优化输入上下文，无需修改模型权重即可提升时间序列基础模型（TSFM）的零样本预测精度。在TimesFM 2.5上平均MASE降低1.95%，达到改进上限的89.9%。",
+        "summary_en": null,
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-06-06T18:03:08.395380+08:00",
+        "updated_at": "2026-06-06T18:03:08.395382+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Uncertainty Aware Functional Behavior Prediction and Material Fatigue Assessment for Circular Factory",
+      "url": "https://arxiv.org/abs/2606.05334",
+      "description": "arXiv:2606.05334v1 Announce Type: new \nAbstract: Returned products in circular factories re-enter production with heterogeneous degradation states, usage histories, and remaining capability. Reuse cannot be decided from the current inspection alone, because future function fulfillment and component integrity may evolve differently under the next service scenario. Existing PHM approaches support degradation prediction, but often target fixed operating conditions or isolated component benchmarks, while material-fatigue assessment is rarely linked to system-level functional prognosis. This paper addresses this gap for an angle grinder by combining uncertainty-aware functional prediction with component-level fatigue assessment in an instance-specific reliability workflow. The proposed framework combines the current tool state with recent force--torque usage windows. A convolutional encoder extracts loading patterns from spindle forces and shaft torque, and an LSTM backbone predicts nine functional variables as Gaussian mean and variance estimates. In parallel, the same loading history is translated into output-shaft fatigue information through finite-element-supported stress reconstruction, S--N/Miner damage evaluation with Haibach extension, and Paris-law crack-growth analysis. A streaming replay algorithm consolidates both branches into functional, material, and system reliability trajectories. Held-out tests show mean \\(2\\%\\)-tolerance accuracy of 0.9652 across nine outputs. Thermal variables are predicted near-perfectly, while drive motor current and load speed remain the most demanding dynamic outputs, with \\(R^2\\) values of 0.9750 and 0.9924. Torque history is especially important for these variables, and the conventional LSTM outperforms GRU and xLSTM in the short-history setting. Reliability calibration is most informative for drive motor current, where predicted and observed exceedance probabilities ...",
+      "pub_date": "Sat, 06 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "面向循环工厂的不确定性感知功能行为预测与材料疲劳评估",
+        "summary": "提出一种结合不确定性感知功能预测与组件级疲劳评估的框架，用于循环工厂中回收产品的复用决策。通过卷积编码器提取载荷模式，LSTM预测功能变量，并利用有限元支持的应力重建和损伤评估进行疲劳分析。在角磨机测试中，九项输出的平均2%容差准确率达0.9652。",
+        "summary_en": null,
+        "tags": [
+          "research",
+          "application",
+          "llm",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.6,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-06-rss-005",
+        "title": "面向循环工厂的不确定性感知功能行为预测与材料疲劳评估",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.05334",
+        "language": "en",
+        "summary": "提出一种结合不确定性感知功能预测与组件级疲劳评估的框架，用于循环工厂中回收产品的复用决策。通过卷积编码器提取载荷模式，LSTM预测功能变量，并利用有限元支持的应力重建和损伤评估进行疲劳分析。在角磨机测试中，九项输出的平均2%容差准确率达0.9652。",
+        "summary_en": null,
+        "tags": [
+          "research",
+          "application",
+          "llm",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.6,
+        "status": "published",
+        "created_at": "2026-06-06T18:03:08.395384+08:00",
+        "updated_at": "2026-06-06T18:03:08.395386+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

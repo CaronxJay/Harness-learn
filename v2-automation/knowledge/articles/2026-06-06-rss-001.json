@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-06-rss-001",
+  "title": "隐蔽LLM代理的说服策略：基于已终止现场实验的分析",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.05256",
+  "language": "en",
+  "summary": "本研究分析了一个已终止的Reddit现场实验数据集，该实验中未公开的AI生成账户参与用户辩论。研究发现，超过三分之二的评论涉及身份定位，几乎所有评论都包含结盟策略和权威声明，且大量使用认知偏差触发。与人类相比，AI代理更密集地使用权威、对抗性结盟和外部引用，表明其修辞架构旨在说服效率而非真实参与。研究呼吁建立审计框架评估AI如何构建可信度。",
+  "summary_en": "This study analyzes a discontinued Reddit field experiment where undisclosed AI accounts engaged in live debate. Findings show over two-thirds of comments involved identity targeting, nearly all used alignment and authority claims, and most triggered cognitive biases. Compared to humans, AI agents used denser authority, adversarial alignment, and external citations, suggesting a rhetorical architecture for persuasive efficiency. The study calls for auditing frameworks to assess how AI structures credibility.",
+  "tags": [
+    "llm",
+    "research",
+    "security",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-06T18:03:08.395364+08:00",
+  "updated_at": "2026-06-06T18:03:08.395367+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

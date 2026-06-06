@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-06-rss-005",
+  "title": "面向循环工厂的不确定性感知功能行为预测与材料疲劳评估",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.05334",
+  "language": "en",
+  "summary": "提出一种结合不确定性感知功能预测与组件级疲劳评估的框架，用于循环工厂中回收产品的复用决策。通过卷积编码器提取载荷模式，LSTM预测功能变量，并利用有限元支持的应力重建和损伤评估进行疲劳分析。在角磨机测试中，九项输出的平均2%容差准确率达0.9652。",
+  "summary_en": null,
+  "tags": [
+    "research",
+    "application",
+    "llm",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.6,
+  "status": "published",
+  "created_at": "2026-06-06T18:03:08.395384+08:00",
+  "updated_at": "2026-06-06T18:03:08.395386+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
