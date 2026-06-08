@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-08-rss-004",
+  "title": "重新聚焦人类在LLM个性化中的中心地位",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.06614",
+  "language": "en",
+  "summary": "本文研究了LLM个性化在使用合成数据与人类数据时的性能差距。通过收集550个人类对话和大量判断，发现模型在提取用户属性、匹配相关属性及生成个性化回复方面存在局限。引入两种轻量级训练干预可改善前两个阶段，但第三阶段中奖励模型与人类评分的相关性仍较低。",
+  "summary_en": "This paper studies the gap in LLM personalization performance between synthetic and human data. By collecting 550 human conversations and numerous judgments, it reveals model limitations in extracting attributes, matching relevant attributes, and generating personalized responses. Two lightweight training interventions improve the first two stages, but reward models show only modest correlation with human ratings in the third stage.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-08T20:27:36.281424+08:00",
+  "updated_at": "2026-06-08T20:27:36.281426+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

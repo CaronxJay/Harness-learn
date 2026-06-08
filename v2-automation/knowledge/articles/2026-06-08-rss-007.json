@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-08-rss-007",
+  "title": "CrowdMath：众包数学研究讨论数据集",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.06526",
+  "language": "en",
+  "summary": "CrowdMath 数据集包含 164 条专家标注的进展链，来自 MIT PRIMES-AoPS 众包数学项目（2016-2025）。每条链追踪从开放问题到完整证明的多参与者论坛讨论，帖子按功能角色（如部分进展、证明完成、错误推理等）标注。基准测试显示，模型在下一帖预测上准确率 83-88%，但在帖子角色分类上 macro-F1 仅 0.42，揭示了模型在理解协作式数学进展方面的差距。",
+  "summary_en": "CrowdMath dataset contains 164 expert-annotated progress chains from the MIT PRIMES-AoPS CrowdMath program (2016-2025). Each chain traces multi-participant forum discussions from open problem to completed proof, with posts labeled by functional roles. Models achieve 83-88% accuracy on next-post prediction but only 0.42 macro-F1 on post-role classification, exposing a gap in understanding collaborative mathematical progress.",
+  "tags": [
+    "llm",
+    "research",
+    "benchmark",
+    "evaluation"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-06-08T20:27:36.281447+08:00",
+  "updated_at": "2026-06-08T20:27:36.281449+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

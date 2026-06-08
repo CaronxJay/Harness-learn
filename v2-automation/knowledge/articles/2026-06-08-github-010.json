@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-08-github-010",
+  "title": "人工智能学习路径",
+  "source": "github_trending",
+  "source_url": "https://github.com/RitikKShahi/Artificial-Intelligence",
+  "language": "en",
+  "summary": "该项目是作者学习人工智能及其子领域（机器学习、深度学习、生成式AI，包括LLM和Agentic AI）的个人学习笔记和代码仓库。",
+  "summary_en": null,
+  "tags": [
+    "llm",
+    "research",
+    "application",
+    "python"
+  ],
+  "category": "research",
+  "relevance_score": 0.8,
+  "status": "published",
+  "created_at": "2026-06-08T20:27:36.280479+08:00",
+  "updated_at": "2026-06-08T20:27:36.280481+08:00",
+  "metadata": {
+    "stars": 0,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

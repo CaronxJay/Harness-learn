@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-08-rss-001",
+  "title": "SafeGene：可复用适配器实现可迁移的安全对齐",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.06519",
+  "language": "en",
+  "summary": "SafeGene提出一种可复用的安全适配器模块，将安全能力解耦为独立于任务更新的可复用表示，通过数据感知的层选择和少量样本的层系数重校准，在多个模型族和下游任务中有效降低有害响应率，同时保持下游性能。",
+  "summary_en": null,
+  "tags": [
+    "llm",
+    "fine-tuning",
+    "security",
+    "research"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-08T20:27:36.281397+08:00",
+  "updated_at": "2026-06-08T20:27:36.281403+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

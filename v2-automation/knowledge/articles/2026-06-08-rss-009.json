@@ -1,0 +1,24 @@
+{
+  "id": "2026-06-08-rss-009",
+  "title": "将公平性视为对称操作以检测和缓解偏见",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.06514",
+  "language": "en",
+  "summary": "该论文将机器学习中的偏见形式化为对称性破缺操作，提出通过损失正则化作为对称性恢复机制来实现公平性。在四个合成数据集上实现了高达90%的违规减少，准确率成本约5%。该方法无需因果图知识，计算轻量，适用于任何可定义为比特翻转的敏感属性。",
+  "summary_en": "This paper formalizes bias as a symmetry-breaking operation and proposes loss-based regularization as a symmetry-restoring mechanism for fairness. It achieves over 90% violation reduction with ~5% accuracy cost on synthetic datasets, requiring no causal graph knowledge and being computationally lightweight.",
+  "tags": [
+    "research",
+    "security",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.8,
+  "status": "published",
+  "created_at": "2026-06-08T20:27:36.281459+08:00",
+  "updated_at": "2026-06-08T20:27:36.281461+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

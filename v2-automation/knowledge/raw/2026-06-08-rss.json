@@ -1,0 +1,473 @@
+{
+  "collected_at": "2026-06-08T20:27:36.282388+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "Detecting and Mitigating Bias by Treating Fairness as a Symmetry Operation",
+      "url": "https://arxiv.org/abs/2606.06514",
+      "description": "arXiv:2606.06514v1 Announce Type: new \nAbstract: Machine learning systems deployed in high stakes socioeconomic settings routinely display bias. We formalize bias as a symmetry breaking operation: a classifier is fair if its outputs remain invariant under the counterfactual operation of switching a sensitive attribute, with merit features held fixed. We implement loss based regularization as a symmetry restoring mechanism and evaluate the framework on four synthetic datasets with varying levels of noise, correlation, and bias. The framework achieves upwards of 90\\% violation reduction, with accuracy costs around 5\\%. This framework does not require causal graph knowledge, is computationally lightweight, and generalizes to any sensitive attribute definable as a bit-flip, making it suitable for contexts where local sources of discrimination remain absent from mainstream benchmarks.",
+      "pub_date": "Mon, 08 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "将公平性视为对称操作以检测和缓解偏见",
+        "summary": "该论文将机器学习中的偏见形式化为对称性破缺操作，提出通过损失正则化作为对称性恢复机制来实现公平性。在四个合成数据集上实现了高达90%的违规减少，准确率成本约5%。该方法无需因果图知识，计算轻量，适用于任何可定义为比特翻转的敏感属性。",
+        "summary_en": "This paper formalizes bias as a symmetry-breaking operation and proposes loss-based regularization as a symmetry-restoring mechanism for fairness. It achieves over 90% violation reduction with ~5% accuracy cost on synthetic datasets, requiring no causal graph knowledge and being computationally lightweight.",
+        "tags": [
+          "research",
+          "security",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-08-rss-009",
+        "title": "将公平性视为对称操作以检测和缓解偏见",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.06514",
+        "language": "en",
+        "summary": "该论文将机器学习中的偏见形式化为对称性破缺操作，提出通过损失正则化作为对称性恢复机制来实现公平性。在四个合成数据集上实现了高达90%的违规减少，准确率成本约5%。该方法无需因果图知识，计算轻量，适用于任何可定义为比特翻转的敏感属性。",
+        "summary_en": "This paper formalizes bias as a symmetry-breaking operation and proposes loss-based regularization as a symmetry-restoring mechanism for fairness. It achieves over 90% violation reduction with ~5% accuracy cost on synthetic datasets, requiring no causal graph knowledge and being computationally lightweight.",
+        "tags": [
+          "research",
+          "security",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "status": "published",
+        "created_at": "2026-06-08T20:27:36.281459+08:00",
+        "updated_at": "2026-06-08T20:27:36.281461+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "DiBS: Diffusion-Informed Branch Selection",
+      "url": "https://arxiv.org/abs/2606.06518",
+      "description": "arXiv:2606.06518v1 Announce Type: new \nAbstract: Sudoku is a representative constraint satisfaction problem that requires global structural reasoning under strict discrete constraints. The existing works of solving Sudoku mainly focus on two dominant approaches, i.e., traditional heuristic and deep learning solver. However, they suffer from two complementary limitations: learning-based solvers lack hard correctness guarantees, while complete symbolic solvers are still prone to long-tail search. To address these shortcomings, we propose a novel diffusion model-guided approach, termed as DiBS, for the branch selection search process. Specifically, DiBS keeps the symbolic solver complete and uses the diffusion model as a branch-ordering guide. The core method is ranking candidate values under the current partial assignment and lightweight consistency signal. Furthermore, we provide an in-depth theoretical proof to reveal how it works and why it works. Experiments on the challenging Royle 17-clue Sudoku benchmark show that our DiBS substantially reduces search cost relative to strong heuristic baselines, especially in nodes, backtracks, and long-tail percentiles. Besides, these results confirm that learned global guidance is effective on hard instances where branch-order mistakes are most expensive. All codes are available at https://github.com/shanxierdan/DiBS.",
+      "pub_date": "Mon, 08 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "DiBS：扩散模型引导的数独分支选择",
+        "summary": "提出DiBS方法，将扩散模型作为分支排序指南，结合符号求解器的完备性与学习型引导，显著降低数独求解的搜索成本，尤其在困难实例上效果突出。",
+        "summary_en": "Proposes DiBS, a diffusion model-guided branch selection approach that combines symbolic solver completeness with learned guidance, significantly reducing search cost on Sudoku, especially on hard instances.",
+        "tags": [
+          "research",
+          "application",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.6,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-08-rss-010",
+        "title": "DiBS：扩散模型引导的数独分支选择",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.06518",
+        "language": "en",
+        "summary": "提出DiBS方法，将扩散模型作为分支排序指南，结合符号求解器的完备性与学习型引导，显著降低数独求解的搜索成本，尤其在困难实例上效果突出。",
+        "summary_en": "Proposes DiBS, a diffusion model-guided branch selection approach that combines symbolic solver completeness with learned guidance, significantly reducing search cost on Sudoku, especially on hard instances.",
+        "tags": [
+          "research",
+          "application",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.6,
+        "status": "published",
+        "created_at": "2026-06-08T20:27:36.281466+08:00",
+        "updated_at": "2026-06-08T20:27:36.281468+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "SafeGene: Reusable Adapters for Transferable Safety Alignment",
+      "url": "https://arxiv.org/abs/2606.06519",
+      "description": "arXiv:2606.06519v1 Announce Type: new \nAbstract: Open-weight LLMs are increasingly fine-tuned into customized assistants, but downstream fine-tuning can weaken safety alignment and make models more vulnerable to malicious prompts, even when the training data is not intentionally harmful. This creates a recurring safety recovery problem as target models are repeatedly updated with new task data or user interactions. We propose SafeGene, a reusable safety-adapter module designed for cross-task reuse within each architecture-compatible model family. Rather than treating safety recovery as a model-specific repair step, SafeGene treats safety capability as an independent, reusable adapter representation decoupled from task-specific updates. This representation is obtained from aligned--degraded model discrepancies, refined into task-transferable safety vectors through data-aware layer selection, and expressed in each downstream task-adapted model via few-shot layer-wise coefficient recalibration. Experiments across multiple model families, downstream tasks, and safety judges show that SafeGene-enhanced models reduce harmful response rates while maintaining downstream performance, outperforming representative safe adaptation methods in safety--utility trade-off.",
+      "pub_date": "Mon, 08 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "SafeGene：可复用适配器实现可迁移的安全对齐",
+        "summary": "SafeGene提出一种可复用的安全适配器模块，将安全能力解耦为独立于任务更新的可复用表示，通过数据感知的层选择和少量样本的层系数重校准，在多个模型族和下游任务中有效降低有害响应率，同时保持下游性能。",
+        "summary_en": null,
+        "tags": [
+          "llm",
+          "fine-tuning",
+          "security",
+          "research"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-08-rss-001",
+        "title": "SafeGene：可复用适配器实现可迁移的安全对齐",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.06519",
+        "language": "en",
+        "summary": "SafeGene提出一种可复用的安全适配器模块，将安全能力解耦为独立于任务更新的可复用表示，通过数据感知的层选择和少量样本的层系数重校准，在多个模型族和下游任务中有效降低有害响应率，同时保持下游性能。",
+        "summary_en": null,
+        "tags": [
+          "llm",
+          "fine-tuning",
+          "security",
+          "research"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-08T20:27:36.281397+08:00",
+        "updated_at": "2026-06-08T20:27:36.281403+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Lean4Agent: Formal Modeling and Verification for Agent Workflow and Trajectory",
+      "url": "https://arxiv.org/abs/2606.06523",
+      "description": "arXiv:2606.06523v1 Announce Type: new \nAbstract: Equipping Large Language Models (LLMs) to execute reliable multi-step workflows has become a central challenge in artificial intelligence. Despite recent advances in LLMs' agentic capabilities, most agent systems still lack formal methods for specifying, verifying, and debugging their workflow and execution trajectories. This challenge mirrors a long-standing problem in mathematics, where the ambiguity of natural languages (NLs) motivates the development of formal languages (FLs). Inspired by this paradigm, we propose **Lean4Agent**, to the best of our knowledge, the first framework that uses Lean4, a dependent-type FL to model and verify agent behavior. **Lean4Agent** launches **FormalAgentLib**, an extensible Lean4 library for formally modeling and verifying agent workflows' semantic consistency under explicit assumptions, and enabling localization of execution-time failures revealed by trajectories. Building on **FormalAgentLib**, we further develop **LeanEvolve**, which applies results in **FormalAgentLib** to revise workflows to enhance its capability. Extensive experiments on a hard problem subset of SWE-Bench-Verified and a subset of ELAIP-Bench across 5 leading LLMs indicate that the verification-passing workflows outperform the failing ones by an average of **11.94%**, and **LeanEvolve** further improves SWE performance by **7.47%** on average. Furthermore, **Lean4Agent** establishes a foundation for a new field of using expressive dependent-type FL to formally model and verify agent behavior.",
+      "pub_date": "Mon, 08 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "Lean4Agent：基于形式化建模与验证的智能体工作流与轨迹框架",
+        "summary": "Lean4Agent 是首个利用依赖类型形式语言 Lean4 对智能体工作流与执行轨迹进行形式化建模与验证的框架。它包含 FormalAgentLib 库和 LeanEvolve 优化工具，实验表明验证通过的工作流性能平均提升 11.94%，LeanEvolve 进一步改善 SWE 性能 7.47%。",
+        "summary_en": "Lean4Agent is the first framework using Lean4, a dependent-type formal language, to model and verify agent workflows and execution trajectories. It includes FormalAgentLib for semantic consistency verification and LeanEvolve for workflow revision, achieving 11.94% average improvement for verified workflows and 7.47% further SWE performance gain.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "formal-verification"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-08-rss-002",
+        "title": "Lean4Agent：基于形式化建模与验证的智能体工作流与轨迹框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.06523",
+        "language": "en",
+        "summary": "Lean4Agent 是首个利用依赖类型形式语言 Lean4 对智能体工作流与执行轨迹进行形式化建模与验证的框架。它包含 FormalAgentLib 库和 LeanEvolve 优化工具，实验表明验证通过的工作流性能平均提升 11.94%，LeanEvolve 进一步改善 SWE 性能 7.47%。",
+        "summary_en": "Lean4Agent is the first framework using Lean4, a dependent-type formal language, to model and verify agent workflows and execution trajectories. It includes FormalAgentLib for semantic consistency verification and LeanEvolve for workflow revision, achieving 11.94% average improvement for verified workflows and 7.47% further SWE performance gain.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "formal-verification"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-08T20:27:36.281410+08:00",
+        "updated_at": "2026-06-08T20:27:36.281412+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "CrowdMath: A Dataset of Crowdsourced Mathematical Research Discussions",
+      "url": "https://arxiv.org/abs/2606.06526",
+      "description": "arXiv:2606.06526v1 Announce Type: new \nAbstract: Large language models have made substantial progress on mathematical reasoning, but existing benchmarks typically evaluate well-specified problems with final answers, step-by-step solutions, or complete proofs. They do not capture collaborative open-problem solving: a setting in which participants propose partial arguments, identify gaps or errors in prior steps, repair flawed reasoning, and gradually synthesize incremental contributions into a proof. We introduce CrowdMath, a dataset of 164 expert-annotated progress chains from the MIT PRIMES--Art of Problem Solving (AoPS) CrowdMath program (2016-2025), a collaborative research initiative whose discussions have led to peer-reviewed publications. Each chain traces a multi-participant forum discussion from an open-problem statement to a completed proof. Posts are labeled by their functional roles in the evolving solution process, including partial progress, proof completion, erroneous reasoning, and error identification. We define evaluation tasks and benchmark six frontier models. Models achieve 83-88% accuracy on next-post prediction, suggesting that they can follow the local flow of mathematical discussion. However, they struggle to identify the functional significance of individual contributions with the best model achieving only 0.42 macro-F1 on post-role classification. CrowdMath exposes a gap between solving well-specified mathematical problems and understanding collaborative mathematical progress as it unfolds.",
+      "pub_date": "Mon, 08 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "CrowdMath：众包数学研究讨论数据集",
+        "summary": "CrowdMath 数据集包含 164 条专家标注的进展链，来自 MIT PRIMES-AoPS 众包数学项目（2016-2025）。每条链追踪从开放问题到完整证明的多参与者论坛讨论，帖子按功能角色（如部分进展、证明完成、错误推理等）标注。基准测试显示，模型在下一帖预测上准确率 83-88%，但在帖子角色分类上 macro-F1 仅 0.42，揭示了模型在理解协作式数学进展方面的差距。",
+        "summary_en": "CrowdMath dataset contains 164 expert-annotated progress chains from the MIT PRIMES-AoPS CrowdMath program (2016-2025). Each chain traces multi-participant forum discussions from open problem to completed proof, with posts labeled by functional roles. Models achieve 83-88% accuracy on next-post prediction but only 0.42 macro-F1 on post-role classification, exposing a gap in understanding collaborative mathematical progress.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "evaluation"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-08-rss-007",
+        "title": "CrowdMath：众包数学研究讨论数据集",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.06526",
+        "language": "en",
+        "summary": "CrowdMath 数据集包含 164 条专家标注的进展链，来自 MIT PRIMES-AoPS 众包数学项目（2016-2025）。每条链追踪从开放问题到完整证明的多参与者论坛讨论，帖子按功能角色（如部分进展、证明完成、错误推理等）标注。基准测试显示，模型在下一帖预测上准确率 83-88%，但在帖子角色分类上 macro-F1 仅 0.42，揭示了模型在理解协作式数学进展方面的差距。",
+        "summary_en": "CrowdMath dataset contains 164 expert-annotated progress chains from the MIT PRIMES-AoPS CrowdMath program (2016-2025). Each chain traces multi-participant forum discussions from open problem to completed proof, with posts labeled by functional roles. Models achieve 83-88% accuracy on next-post prediction but only 0.42 macro-F1 on post-role classification, exposing a gap in understanding collaborative mathematical progress.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "evaluation"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-06-08T20:27:36.281447+08:00",
+        "updated_at": "2026-06-08T20:27:36.281449+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Improving Cross-Lingual Factual Recall via Consistency-Driven Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2606.06586",
+      "description": "arXiv:2606.06586v1 Announce Type: new \nAbstract: Large language models (LLMs) trained predominantly on English data encode substantial world knowledge, yet often fail to express it reliably in other languages, a phenomenon known as cross-lingual factual inconsistency. To study and address this, we introduce PolyFact, a large-scale parallel multilingual factual QA dataset containing 100K Wikidata-grounded facts across 12 typologically diverse languages. Using PolyFact, we compare light continual pretraining (CPT), supervised fine-tuning (SFT), and reinforcement learning via Group Relative Policy Optimization (GRPO) for improving cross-lingual factual recall in Qwen-2.5-7B and OLMo-2-1124-7B. We find that GRPO consistently outperforms SFT, improving both cross-lingual consistency and generalization to unseen languages, while CPT on parallel data yields limited additional gains. Mechanistic analyses further show that GRPO reorganizes multilingual routing by reducing language specialization in MLP layers and attention heads, thereby promoting more shared cross-lingual representations. We release our code, models, and dataset.",
+      "pub_date": "Mon, 08 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "通过一致性驱动强化学习提升跨语言事实召回能力",
+        "summary": "提出PolyFact多语言事实QA数据集（100K条，12种语言），对比CPT、SFT和GRPO三种方法，发现GRPO在跨语言一致性和泛化上优于SFT，并能重组多语言路由，减少语言专化。",
+        "summary_en": "Introduces PolyFact, a multilingual factual QA dataset (100K facts, 12 languages). Compares CPT, SFT, and GRPO; GRPO outperforms SFT in cross-lingual consistency and generalization, reorganizing multilingual routing by reducing language specialization.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "fine-tuning",
+          "multimodal"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-08-rss-003",
+        "title": "通过一致性驱动强化学习提升跨语言事实召回能力",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.06586",
+        "language": "en",
+        "summary": "提出PolyFact多语言事实QA数据集（100K条，12种语言），对比CPT、SFT和GRPO三种方法，发现GRPO在跨语言一致性和泛化上优于SFT，并能重组多语言路由，减少语言专化。",
+        "summary_en": "Introduces PolyFact, a multilingual factual QA dataset (100K facts, 12 languages). Compares CPT, SFT, and GRPO; GRPO outperforms SFT in cross-lingual consistency and generalization, reorganizing multilingual routing by reducing language specialization.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "fine-tuning",
+          "multimodal"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-08T20:27:36.281417+08:00",
+        "updated_at": "2026-06-08T20:27:36.281419+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Re-Centering Humans in LLM Personalization",
+      "url": "https://arxiv.org/abs/2606.06614",
+      "description": "arXiv:2606.06614v1 Announce Type: new \nAbstract: Despite growing interest, most evaluations of large language models' (LLMs') personalization abilities have relied on synthetic data. It remains unclear how well current personalization systems work for real users. In this paper, we study the gap in LLM personalization performance when using synthetic versus human data. We collect human conversations (550 conversations) and judgments across three stages of personalization: extracting user attributes from conversations (5,949 judgments), pairing relevant attributes with new prompts (11,919), and incorporating relevant attributes into a personalized response (1,101). Incorporating human data reveals system limitations at each stage. Models struggle to extract attributes from human conversations, disagree with human judgments on relevant attributes, and generate personalized responses that humans judge no better than generic responses (though that LLM judges widely rate as better). We introduce two lightweight training-based interventions that shift automated personalization evaluation closer to human data in our first two stages. However, in our third stage we find that learned reward models achieve only modest correlation with human ratings, suggesting that human-aligned personalization quality judgments are difficult to model directly. Our collected data provides a foundation for studying how models should extract, select, and incorporate user information in ways that humans find useful.",
+      "pub_date": "Mon, 08 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "重新聚焦人类在LLM个性化中的中心地位",
+        "summary": "本文研究了LLM个性化在使用合成数据与人类数据时的性能差距。通过收集550个人类对话和大量判断，发现模型在提取用户属性、匹配相关属性及生成个性化回复方面存在局限。引入两种轻量级训练干预可改善前两个阶段，但第三阶段中奖励模型与人类评分的相关性仍较低。",
+        "summary_en": "This paper studies the gap in LLM personalization performance between synthetic and human data. By collecting 550 human conversations and numerous judgments, it reveals model limitations in extracting attributes, matching relevant attributes, and generating personalized responses. Two lightweight training interventions improve the first two stages, but reward models show only modest correlation with human ratings in the third stage.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-08-rss-004",
+        "title": "重新聚焦人类在LLM个性化中的中心地位",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.06614",
+        "language": "en",
+        "summary": "本文研究了LLM个性化在使用合成数据与人类数据时的性能差距。通过收集550个人类对话和大量判断，发现模型在提取用户属性、匹配相关属性及生成个性化回复方面存在局限。引入两种轻量级训练干预可改善前两个阶段，但第三阶段中奖励模型与人类评分的相关性仍较低。",
+        "summary_en": "This paper studies the gap in LLM personalization performance between synthetic and human data. By collecting 550 human conversations and numerous judgments, it reveals model limitations in extracting attributes, matching relevant attributes, and generating personalized responses. Two lightweight training interventions improve the first two stages, but reward models show only modest correlation with human ratings in the third stage.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-08T20:27:36.281424+08:00",
+        "updated_at": "2026-06-08T20:27:36.281426+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "UnpredictaBench: A Benchmark for Evaluating Distributional Randomness in LLMs",
+      "url": "https://arxiv.org/abs/2606.06622",
+      "description": "arXiv:2606.06622v1 Announce Type: new \nAbstract: We introduce UnpredictaBench, an evaluation that tests the ability of large language models (LLMs) to capture true underlying distributions. As LLMs are increasingly used as substitutes for other entities (e.g., for humans in economic simulations), the tendency of many models to collapse towards a single plausible answer means a failure to capture the unpredictability of real systems. Recent work on improving output diversity is insufficient for this setting: simulation requires samples that are calibrated to a target distribution, not merely varied outputs. UnpredictaBench isolates a simplified but fundamental version of this problem: sampling outcomes from individual target distributions, including canonical statistical distributions, distributions induced by stochastic programs, and natural-language scenarios that describe random processes. We introduce 448 such problems together with KS@N, a general-purpose evaluation metric that quantifies how well a model outputs approximate black-box target distributions via the Kolmogorov-Smirnov statistical test. This is the rate at which we fail to reject model samples of size N against ground-truth samples, with larger N indicating greater difficulty. Tested across open and proprietary models, we find a large spread in distributional capabilities. For instance, when models generate samples of size 100 (KS@100, our standard metric), scores range from near 0 to over 20%. No model is able to achieve over 40% at KS@100, showing significant headroom in distributional sampling as a capability. Although adding reasoning can somewhat increase scores, we find no immediate solution for this issue. UnpredictaBench shows that even simple distributional simulation remains challenging, making it a necessary first step toward using LLMs as stand-ins for complex systems.",
+      "pub_date": "Mon, 08 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "UnpredictaBench：评估大语言模型分布随机性的基准",
+        "summary": "UnpredictaBench是一个评估LLM捕捉真实分布能力的基准，包含448个问题，使用KS@N指标衡量模型输出与目标分布的匹配程度。测试发现模型在分布采样上表现差异大，最高仅40%以上，表明该能力仍有显著提升空间。",
+        "summary_en": "UnpredictaBench is a benchmark evaluating LLMs' ability to capture true underlying distributions, with 448 problems and KS@N metric. Results show large spread in distributional capabilities, with no model exceeding 40% at KS@100, indicating significant headroom.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "evaluation",
+          "research"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-08-rss-005",
+        "title": "UnpredictaBench：评估大语言模型分布随机性的基准",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.06622",
+        "language": "en",
+        "summary": "UnpredictaBench是一个评估LLM捕捉真实分布能力的基准，包含448个问题，使用KS@N指标衡量模型输出与目标分布的匹配程度。测试发现模型在分布采样上表现差异大，最高仅40%以上，表明该能力仍有显著提升空间。",
+        "summary_en": "UnpredictaBench is a benchmark evaluating LLMs' ability to capture true underlying distributions, with 448 problems and KS@N metric. Results show large spread in distributional capabilities, with no model exceeding 40% at KS@100, indicating significant headroom.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "evaluation",
+          "research"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-08T20:27:36.281430+08:00",
+        "updated_at": "2026-06-08T20:27:36.281433+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "How Language Models Fail: Token-Level Signatures of Committed and Persistent Reasoning Failures",
+      "url": "https://arxiv.org/abs/2606.06635",
+      "description": "arXiv:2606.06635v1 Announce Type: new \nAbstract: Failures in language model reasoning emerge through distinct processes that leave identifiable signatures in the reasoning trace. We characterize these failures using token-level uncertainty signals, finding they arise through two empirically distinguishable processes. The first is committed failure, in which a model locks onto an incorrect reasoning path early in its trace. A central diagnostic signature is the commitment point, beyond which considering additional tokens hurt rather than help failure detection. In the second, persistent uncertainty, uncertainty instead accumulates throughout, and the full trace is needed to best distinguish failing from successful completions. These signatures reproduce across 23 model-dataset configurations, with the framework's falsifiable predictions holding in 20 of 23 cases, well above chance across both failure modes. Finally, we demonstrate our failure mode framework has direct implications for self-consistency, identifying when uncertainty signals complement it and when it can be selectively skipped. These results offer a foundation for understanding when LLM reasoning failures become detectable and for adapting detection strategies accordingly.",
+      "pub_date": "Mon, 08 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "语言模型推理失败的类型：基于token级信号的承诺失败与持续不确定性",
+        "summary": "本文通过token级不确定性信号，将语言模型推理失败分为两种可区分的类型：承诺失败（模型早期锁定错误路径）和持续不确定性（不确定性在整个推理过程中累积）。在23个模型-数据集配置中验证了该框架，并展示了其对自我一致性策略的启示。",
+        "summary_en": "This paper characterizes LLM reasoning failures into two types using token-level uncertainty signals: committed failure (early lock-in on wrong path) and persistent uncertainty (accumulating uncertainty). Validated across 23 model-dataset configurations, with implications for self-consistency strategies.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-08-rss-006",
+        "title": "语言模型推理失败的类型：基于token级信号的承诺失败与持续不确定性",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.06635",
+        "language": "en",
+        "summary": "本文通过token级不确定性信号，将语言模型推理失败分为两种可区分的类型：承诺失败（模型早期锁定错误路径）和持续不确定性（不确定性在整个推理过程中累积）。在23个模型-数据集配置中验证了该框架，并展示了其对自我一致性策略的启示。",
+        "summary_en": "This paper characterizes LLM reasoning failures into two types using token-level uncertainty signals: committed failure (early lock-in on wrong path) and persistent uncertainty (accumulating uncertainty). Validated across 23 model-dataset configurations, with implications for self-consistency strategies.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-08T20:27:36.281441+08:00",
+        "updated_at": "2026-06-08T20:27:36.281443+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "CAF-Gen: A Multi-Agent System for Enriching Argumentation Structures",
+      "url": "https://arxiv.org/abs/2606.06646",
+      "description": "arXiv:2606.06646v1 Announce Type: new \nAbstract: Formalizing complex reasoning from natural text is one of the central challenges in computational linguistics. It requires systems to understand not just keywords but also the context and complex reasoning embedded in a text. Current Argument Mining (AM) techniques identify basic claims and premises, yet they often struggle to capture the richer structural information required by advanced schemas such as the Carneades Argumentation Framework (CAF), which incorporates features such as premise types, proof standards, and argument schemes. We address this limitation by introducing CAF-Gen, an automated multi-agent framework designed to enrich shallow argument structures into CAF-compliant argument models. By employing an iterative Creator-Reviewer pipeline, a creator agent's output is validated by a critical agent to ensure structural integrity. This multi-agent collaboration is crucial for mitigating the structural instability typical of single-pass generative models. Our experiments demonstrate that the iterative feedback loop improves the quality of the resulting data and achieves strong alignment with the original annotations, while producing structurally richer models. Our findings show that the multi-agent system can overcome the limitations of single-pass generation, providing a robust methodology for the automated modeling of formal argumentation.",
+      "pub_date": "Mon, 08 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "CAF-Gen：一种用于丰富论证结构的多智能体系统",
+        "summary": "CAF-Gen是一个自动化多智能体框架，通过迭代的创建者-审查者流程，将浅层论证结构丰富为符合Carneades论证框架（CAF）的模型。实验表明，该多智能体协作能克服单次生成模型的局限性，提高数据质量并与原始标注高度对齐。",
+        "summary_en": "CAF-Gen is an automated multi-agent framework that enriches shallow argument structures into CAF-compliant models via an iterative Creator-Reviewer pipeline. Experiments show that this multi-agent collaboration overcomes limitations of single-pass generation, improving data quality and achieving strong alignment with original annotations.",
+        "tags": [
+          "agent-framework",
+          "research",
+          "llm"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-08-rss-008",
+        "title": "CAF-Gen：一种用于丰富论证结构的多智能体系统",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.06646",
+        "language": "en",
+        "summary": "CAF-Gen是一个自动化多智能体框架，通过迭代的创建者-审查者流程，将浅层论证结构丰富为符合Carneades论证框架（CAF）的模型。实验表明，该多智能体协作能克服单次生成模型的局限性，提高数据质量并与原始标注高度对齐。",
+        "summary_en": "CAF-Gen is an automated multi-agent framework that enriches shallow argument structures into CAF-compliant models via an iterative Creator-Reviewer pipeline. Experiments show that this multi-agent collaboration overcomes limitations of single-pass generation, improving data quality and achieving strong alignment with original annotations.",
+        "tags": [
+          "agent-framework",
+          "research",
+          "llm"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-06-08T20:27:36.281453+08:00",
+        "updated_at": "2026-06-08T20:27:36.281455+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

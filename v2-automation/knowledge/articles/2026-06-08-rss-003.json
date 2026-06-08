@@ -1,0 +1,26 @@
+{
+  "id": "2026-06-08-rss-003",
+  "title": "通过一致性驱动强化学习提升跨语言事实召回能力",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.06586",
+  "language": "en",
+  "summary": "提出PolyFact多语言事实QA数据集（100K条，12种语言），对比CPT、SFT和GRPO三种方法，发现GRPO在跨语言一致性和泛化上优于SFT，并能重组多语言路由，减少语言专化。",
+  "summary_en": "Introduces PolyFact, a multilingual factual QA dataset (100K facts, 12 languages). Compares CPT, SFT, and GRPO; GRPO outperforms SFT in cross-lingual consistency and generalization, reorganizing multilingual routing by reducing language specialization.",
+  "tags": [
+    "llm",
+    "research",
+    "benchmark",
+    "fine-tuning",
+    "multimodal"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-08T20:27:36.281417+08:00",
+  "updated_at": "2026-06-08T20:27:36.281419+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

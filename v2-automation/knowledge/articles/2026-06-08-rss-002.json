@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-08-rss-002",
+  "title": "Lean4Agent：基于形式化建模与验证的智能体工作流与轨迹框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.06523",
+  "language": "en",
+  "summary": "Lean4Agent 是首个利用依赖类型形式语言 Lean4 对智能体工作流与执行轨迹进行形式化建模与验证的框架。它包含 FormalAgentLib 库和 LeanEvolve 优化工具，实验表明验证通过的工作流性能平均提升 11.94%，LeanEvolve 进一步改善 SWE 性能 7.47%。",
+  "summary_en": "Lean4Agent is the first framework using Lean4, a dependent-type formal language, to model and verify agent workflows and execution trajectories. It includes FormalAgentLib for semantic consistency verification and LeanEvolve for workflow revision, achieving 11.94% average improvement for verified workflows and 7.47% further SWE performance gain.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "research",
+    "formal-verification"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-08T20:27:36.281410+08:00",
+  "updated_at": "2026-06-08T20:27:36.281412+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
