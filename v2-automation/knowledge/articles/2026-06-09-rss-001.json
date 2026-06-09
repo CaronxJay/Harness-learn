@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-09-rss-001",
+  "title": "OmniMem：面向流式音视频大模型的扰动感知内存压缩",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.07577",
+  "language": "en",
+  "summary": "OmniMem 是一种针对音视频大模型（LLM）的高效流式内存压缩框架。它通过模态感知的内存分配策略分别管理视觉和音频上下文，并利用扰动感知的内存选择保留信息丰富且非冗余的键值状态，从而在不牺牲长程理解能力的前提下实现紧凑内存。实验表明，在相同内存预算下，OmniMem 比强训练无关压缩基线绝对准确率提升 2-4%，微调后额外提升 1-2%。",
+  "summary_en": null,
+  "tags": [
+    "llm",
+    "multimodal",
+    "research",
+    "compression"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-09T19:14:05.340052+08:00",
+  "updated_at": "2026-06-09T19:14:05.340056+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

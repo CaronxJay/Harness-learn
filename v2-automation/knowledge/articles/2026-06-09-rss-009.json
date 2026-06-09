@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-09-rss-009",
+  "title": "AGCLR：通过门控概念流解决连续潜在推理中的概念瓶颈",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.07720",
+  "language": "en",
+  "summary": "针对CoCoNuT在连续潜在推理中因中间状态被覆盖导致性能下降的问题，提出AGCLR方法。通过引入持久残差记忆和三个学习门（写、读、遗忘），在GSM8K、HotpotQA和ProsQA上取得一致改进，直接解决了概念瓶颈。",
+  "summary_en": "To address the concept bottleneck in CoCoNuT where intermediate states are overwritten, AGCLR introduces persistent residual memory with three learned gates (write, read, forget), achieving consistent improvements on GSM8K, HotpotQA, and ProsQA.",
+  "tags": [
+    "research",
+    "llm",
+    "reasoning",
+    "fine-tuning"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-06-09T19:14:05.340090+08:00",
+  "updated_at": "2026-06-09T19:14:05.340091+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

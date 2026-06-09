@@ -1,0 +1,24 @@
+{
+  "id": "2026-06-09-rss-010",
+  "title": "CAF-Gen：用于丰富论证结构的多智能体系统",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.06646",
+  "language": "en",
+  "summary": "CAF-Gen是一个自动化的多智能体框架，通过迭代的创建者-审阅者流程，将浅层论证结构丰富为符合Carneades论证框架的模型。实验表明，迭代反馈循环提高了数据质量，并与原始注释实现了强对齐，克服了单次生成模型的局限性。",
+  "summary_en": "CAF-Gen is an automated multi-agent framework that enriches shallow argument structures into CAF-compliant models via an iterative Creator-Reviewer pipeline. Experiments show the feedback loop improves data quality and alignment, overcoming single-pass generation limitations.",
+  "tags": [
+    "research",
+    "agent-framework",
+    "llm"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-06-09T19:14:05.340094+08:00",
+  "updated_at": "2026-06-09T19:14:05.340095+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

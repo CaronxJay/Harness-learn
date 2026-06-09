@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-09-rss-002",
+  "title": "Syll：开源个人自动化框架，支持跨界面执行",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.07594",
+  "language": "en",
+  "summary": "Syll 是一个开源、自托管的个人AI代理框架，统一了MCP/API工具、CLI执行和视觉GUI控制。其核心是双向用户-代理交互层：用户通过演示教学，Syll将其编译为可复用技能；代理执行转化为多模态证据供审查。支持Photoshop等桌面应用，可作为可教学、可审计、可扩展的个人自动化基础。",
+  "summary_en": "Syll is an open-source, self-hosted personal AI agent framework unifying MCP/API tools, CLI, and visual GUI control. Its core is a bidirectional user-agent interaction layer: users teach via demonstration, compiled into reusable skills; agent execution is translated into multimodal evidence for inspection. Validated on desktop apps like Photoshop, it serves as a teachable, auditable, extensible foundation for personal automation.",
+  "tags": [
+    "agent-framework",
+    "multimodal",
+    "open-source",
+    "tool"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-09T19:14:05.340062+08:00",
+  "updated_at": "2026-06-09T19:14:05.340064+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

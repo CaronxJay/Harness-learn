@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-09-rss-005",
+  "title": "UnpredictaBench：评估大语言模型分布随机性的基准测试",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.06622",
+  "language": "en",
+  "summary": "UnpredictaBench 是一个评估 LLM 捕捉真实分布能力的基准，包含 448 个问题，涵盖统计分布、随机程序及自然语言场景。使用 KS@N 指标衡量模型输出与目标分布的拟合度。测试发现，即使简单分布采样对当前模型仍具挑战，得分普遍较低，表明分布采样能力存在显著提升空间。",
+  "summary_en": "UnpredictaBench evaluates LLMs' ability to capture true underlying distributions with 448 problems including statistical distributions, stochastic programs, and natural-language scenarios. Using KS@N metric, it finds that even simple distributional sampling remains challenging for current models, with scores showing significant headroom.",
+  "tags": [
+    "llm",
+    "benchmark",
+    "evaluation",
+    "research"
+  ],
+  "category": "benchmark",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-09T19:14:05.340074+08:00",
+  "updated_at": "2026-06-09T19:14:05.340075+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

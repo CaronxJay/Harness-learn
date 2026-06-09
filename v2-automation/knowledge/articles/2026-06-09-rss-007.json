@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-09-rss-007",
+  "title": "PathoSage：基于经验感知的病理学多源证据裁决智能工作流",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.07549",
+  "language": "en",
+  "summary": "PathoSage是一个三阶段框架，通过结构化证据审议和Beta-Bernoulli经验系统，独立评估工具证据、进行冲突分析并生成最终判断，有效缓解病理学多模态大模型的幻觉和分类器分歧问题。",
+  "summary_en": "PathoSage is a three-stage framework that uses structured evidence deliberation and a Beta-Bernoulli experience system to independently evaluate tool evidence, perform conflict analysis, and generate final judgments, effectively mitigating hallucinations and classifier disagreements in pathology MLLMs.",
+  "tags": [
+    "multimodal",
+    "research",
+    "agent-framework",
+    "llm"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-06-09T19:14:05.340084+08:00",
+  "updated_at": "2026-06-09T19:14:05.340085+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

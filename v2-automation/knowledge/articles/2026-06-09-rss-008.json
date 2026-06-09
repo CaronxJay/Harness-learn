@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-09-rss-008",
+  "title": "AI智能体在神经科学数据到发现流程中的评估案例研究",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.07718",
+  "language": "en",
+  "summary": "本文对通用编程智能体在果蝇光遗传学数据到发现流程中的表现进行实证研究。智能体可解决部分阶段，但在需要科学判断、视觉自评估及端到端流程整合时面临挑战，并揭示了计算资源管理等现有基准缺失的问题。",
+  "summary_en": "An empirical study of general-purpose coding agents on a fly optogenetics data-to-discovery pipeline. Agents can solve individual stages but struggle with scientific judgment, visual self-evaluation, and end-to-end integration, highlighting challenges absent from existing benchmarks.",
+  "tags": [
+    "research",
+    "benchmark",
+    "agent-framework",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-06-09T19:14:05.340087+08:00",
+  "updated_at": "2026-06-09T19:14:05.340088+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

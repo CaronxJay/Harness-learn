@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-09-rss-006",
+  "title": "语言模型推理失败的类型：基于token级信号的承诺失败与持续不确定性",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.06635",
+  "language": "en",
+  "summary": "本文通过token级不确定性信号，将语言模型推理失败分为两类：承诺失败（模型早期锁定错误路径，后续token反而干扰检测）和持续不确定性（不确定性持续累积，需完整轨迹才能区分）。该框架在23个模型-数据集配置中验证，20个案例通过检验，并展示了其对自一致性策略的指导意义。",
+  "summary_en": "This paper characterizes LLM reasoning failures into two types using token-level uncertainty: committed failure (early lock-in, later tokens hinder detection) and persistent uncertainty (uncertainty accumulates, full trace needed). Validated across 23 model-dataset configurations (20/23 pass), with implications for self-consistency.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-09T19:14:05.340081+08:00",
+  "updated_at": "2026-06-09T19:14:05.340082+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

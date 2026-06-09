@@ -1,0 +1,26 @@
+{
+  "id": "2026-06-09-github-001",
+  "title": "人工智能学习路线图",
+  "source": "github_trending",
+  "source_url": "https://github.com/LucPinheiro/artificial-intelligence-roadmap",
+  "language": "en",
+  "summary": "一个涵盖人工智能、机器学习、深度学习、计算机视觉、生成式AI、大语言模型、RAG和AI Agent的完整学习路线图。",
+  "summary_en": "A comprehensive roadmap covering AI, ML, DL, computer vision, generative AI, LLMs, RAG, and AI agents.",
+  "tags": [
+    "llm",
+    "rag",
+    "application",
+    "research",
+    "agent-framework"
+  ],
+  "category": "application",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-09T19:14:05.339464+08:00",
+  "updated_at": "2026-06-09T19:14:05.339470+08:00",
+  "metadata": {
+    "stars": 0,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

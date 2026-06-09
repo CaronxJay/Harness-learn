@@ -1,0 +1,26 @@
+{
+  "id": "2026-06-09-rss-003",
+  "title": "通过一致性驱动强化学习提升跨语言事实回忆能力",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.06586",
+  "language": "en",
+  "summary": "提出PolyFact数据集（100K Wikidata事实，12种语言），对比CPT、SFT和GRPO三种方法提升LLM跨语言事实回忆。GRPO优于SFT，能提高跨语言一致性和对未见语言的泛化能力，机制分析表明GRPO通过减少MLP层和注意力头的语言专门化来重组多语言路由。",
+  "summary_en": "Introduces PolyFact, a 100K Wikidata-grounded multilingual QA dataset across 12 languages. Compares CPT, SFT, and GRPO for improving cross-lingual factual recall. GRPO outperforms SFT, enhancing consistency and generalization to unseen languages. Mechanistic analysis shows GRPO reorganizes multilingual routing by reducing language specialization.",
+  "tags": [
+    "llm",
+    "research",
+    "benchmark",
+    "fine-tuning",
+    "multimodal"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-09T19:14:05.340067+08:00",
+  "updated_at": "2026-06-09T19:14:05.340068+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

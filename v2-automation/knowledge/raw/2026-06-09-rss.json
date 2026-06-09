@@ -1,0 +1,479 @@
+{
+  "collected_at": "2026-06-09T19:14:05.340833+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "PathoSage: Towards Multi-Source Evidence Adjudication in Pathology via Experience-Aware Agentic Workflow",
+      "url": "https://arxiv.org/abs/2606.07549",
+      "description": "arXiv:2606.07549v1 Announce Type: new \nAbstract: Recent advances in Multimodal Large Language Models (MLLMs) and agent workflows have shown strong promise for computational pathology, yet reliable patch-level reasoning remains challenging. End-to-end pathology MLLMs often hallucinate morphological features, while recent agentic systems usually merge tool outputs and retrieved knowledge into a shared context, making decisions vulnerable to conflicting evidence and context contamination. We propose PathoSage, a three-stage framework that explicitly separates knowledge retrieval, evidence collection, and evidence adjudication for patch-level pathology multimodal reasoning. Its core component, Structured Evidence Deliberation, independently evaluates heterogeneous evidence from tools, performs conflict analysis, and generates the final judgment in a fresh context to reduce anchoring bias. We further introduce a training-free Beta-Bernoulli experience system with continuous credit assignment to model long-term tool reliability and construct similarity-weighted priors for future tool use. Experiments show that PathoSage effectively mitigates VQA hallucinations and classifier disagreement, outperforming strong pathology MLLM and agentic baselines. Our results highlight explicit evidence adjudication and reliability-aware tool modeling as key ingredients for robust pathology agents.",
+      "pub_date": "Tue, 09 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "PathoSage：基于经验感知的病理学多源证据裁决智能工作流",
+        "summary": "PathoSage是一个三阶段框架，通过结构化证据审议和Beta-Bernoulli经验系统，独立评估工具证据、进行冲突分析并生成最终判断，有效缓解病理学多模态大模型的幻觉和分类器分歧问题。",
+        "summary_en": "PathoSage is a three-stage framework that uses structured evidence deliberation and a Beta-Bernoulli experience system to independently evaluate tool evidence, perform conflict analysis, and generate final judgments, effectively mitigating hallucinations and classifier disagreements in pathology MLLMs.",
+        "tags": [
+          "multimodal",
+          "research",
+          "agent-framework",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-09-rss-007",
+        "title": "PathoSage：基于经验感知的病理学多源证据裁决智能工作流",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.07549",
+        "language": "en",
+        "summary": "PathoSage是一个三阶段框架，通过结构化证据审议和Beta-Bernoulli经验系统，独立评估工具证据、进行冲突分析并生成最终判断，有效缓解病理学多模态大模型的幻觉和分类器分歧问题。",
+        "summary_en": "PathoSage is a three-stage framework that uses structured evidence deliberation and a Beta-Bernoulli experience system to independently evaluate tool evidence, perform conflict analysis, and generate final judgments, effectively mitigating hallucinations and classifier disagreements in pathology MLLMs.",
+        "tags": [
+          "multimodal",
+          "research",
+          "agent-framework",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-06-09T19:14:05.340084+08:00",
+        "updated_at": "2026-06-09T19:14:05.340085+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "OmniMem: Perturbation-aware Memory Compression for Streaming Audio-Visual LLMs",
+      "url": "https://arxiv.org/abs/2606.07577",
+      "description": "arXiv:2606.07577v1 Announce Type: new \nAbstract: Audio-visual large language models (LLMs) hold strong promise for long-form video understanding, yet their long-video inference is fundamentally limited by the linear growth of video tokens and key-value (KV) caches. We present OmniMem, a memory-efficient streaming framework designed specifically for audio-visual LLMs. Unlike existing compression methods that treat all tokens uniformly, OmniMem introduces a modality-aware memory allocation strategy that separately manages visual and audio contexts, addressing the severe token imbalance between the two modalities. OmniMem further preserves informative and non-redundant KV states through perturbation-aware memory selection, enabling compact memory without sacrificing long-range understanding. To strengthen compression under realistic deployment constraints, we also explore budget-aware fine-tuning, which encourages the model to consolidate useful information into retained memory. Experiments on VideoMME Long, LVBench, and LVOmniBench with video-SALMONN 2+ and Qwen-2.5-Omni show that OmniMem consistently improves over strong training-free compression baselines by 2-4% absolute accuracy under the same memory budgets, with an additional 1-2% gain after fine-tuning.",
+      "pub_date": "Tue, 09 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "OmniMem：面向流式音视频大模型的扰动感知内存压缩",
+        "summary": "OmniMem 是一种针对音视频大模型（LLM）的高效流式内存压缩框架。它通过模态感知的内存分配策略分别管理视觉和音频上下文，并利用扰动感知的内存选择保留信息丰富且非冗余的键值状态，从而在不牺牲长程理解能力的前提下实现紧凑内存。实验表明，在相同内存预算下，OmniMem 比强训练无关压缩基线绝对准确率提升 2-4%，微调后额外提升 1-2%。",
+        "summary_en": null,
+        "tags": [
+          "llm",
+          "multimodal",
+          "research",
+          "compression"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-09-rss-001",
+        "title": "OmniMem：面向流式音视频大模型的扰动感知内存压缩",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.07577",
+        "language": "en",
+        "summary": "OmniMem 是一种针对音视频大模型（LLM）的高效流式内存压缩框架。它通过模态感知的内存分配策略分别管理视觉和音频上下文，并利用扰动感知的内存选择保留信息丰富且非冗余的键值状态，从而在不牺牲长程理解能力的前提下实现紧凑内存。实验表明，在相同内存预算下，OmniMem 比强训练无关压缩基线绝对准确率提升 2-4%，微调后额外提升 1-2%。",
+        "summary_en": null,
+        "tags": [
+          "llm",
+          "multimodal",
+          "research",
+          "compression"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-09T19:14:05.340052+08:00",
+        "updated_at": "2026-06-09T19:14:05.340056+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Syll: Open-Source Personal Automation with Cross-Surface Execution",
+      "url": "https://arxiv.org/abs/2606.07594",
+      "description": "arXiv:2606.07594v1 Announce Type: new \nAbstract: Personal AI agents must increasingly operate across APIs, shells, web surfaces, and desktop GUIs, yet many systems remain tuned to a single interface and offer limited support for user teaching and auditability. We present Syll, an open-source, self-hosted multimodal agent harness that unifies MCP/API tools, CLI execution, and visual GUI control in a modular runtime, enabling agents to coordinate computer use across heterogeneous interfaces while streamlining how users and agents exchange information. At the core of Syll is a bidirectional user-agent interaction layer: users teach procedures through direct demonstration, which Syll compiles into reusable skills; agent execution is translated back into multimodal evidence -- logs, keyframes, and approval checkpoints -- for inspection and control. Syll further externalizes memory, skills, routines, and governance as editable local artifacts, supporting straightforward inspection, extension, and downstream development. Our implementation has been validated on production desktop applications including Adobe Photoshop, Adobe Audition, Stardew Valley, macOS Finder and others. We report mechanism-oriented studies that validate multimodal routing, teachable GUI replay, and persistent local artifacts. We hope Syll can serve as a practical open-source foundation for personal automation that users can teach, inspect, and continuously extend.",
+      "pub_date": "Tue, 09 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "Syll：开源个人自动化框架，支持跨界面执行",
+        "summary": "Syll 是一个开源、自托管的个人AI代理框架，统一了MCP/API工具、CLI执行和视觉GUI控制。其核心是双向用户-代理交互层：用户通过演示教学，Syll将其编译为可复用技能；代理执行转化为多模态证据供审查。支持Photoshop等桌面应用，可作为可教学、可审计、可扩展的个人自动化基础。",
+        "summary_en": "Syll is an open-source, self-hosted personal AI agent framework unifying MCP/API tools, CLI, and visual GUI control. Its core is a bidirectional user-agent interaction layer: users teach via demonstration, compiled into reusable skills; agent execution is translated into multimodal evidence for inspection. Validated on desktop apps like Photoshop, it serves as a teachable, auditable, extensible foundation for personal automation.",
+        "tags": [
+          "agent-framework",
+          "multimodal",
+          "open-source",
+          "tool"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-09-rss-002",
+        "title": "Syll：开源个人自动化框架，支持跨界面执行",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.07594",
+        "language": "en",
+        "summary": "Syll 是一个开源、自托管的个人AI代理框架，统一了MCP/API工具、CLI执行和视觉GUI控制。其核心是双向用户-代理交互层：用户通过演示教学，Syll将其编译为可复用技能；代理执行转化为多模态证据供审查。支持Photoshop等桌面应用，可作为可教学、可审计、可扩展的个人自动化基础。",
+        "summary_en": "Syll is an open-source, self-hosted personal AI agent framework unifying MCP/API tools, CLI, and visual GUI control. Its core is a bidirectional user-agent interaction layer: users teach via demonstration, compiled into reusable skills; agent execution is translated into multimodal evidence for inspection. Validated on desktop apps like Photoshop, it serves as a teachable, auditable, extensible foundation for personal automation.",
+        "tags": [
+          "agent-framework",
+          "multimodal",
+          "open-source",
+          "tool"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-09T19:14:05.340062+08:00",
+        "updated_at": "2026-06-09T19:14:05.340064+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "A case study of evaluating AI agents on a neuroscience data-to-discovery pipeline",
+      "url": "https://arxiv.org/abs/2606.07718",
+      "description": "arXiv:2606.07718v1 Announce Type: new \nAbstract: Agentic AI tools offer a promising path to automating software development bottlenecks in scientific research pipelines, particularly for stages that take domain experts days to months to build, where scientists care about correctness and robustness, not implementation details. We present an empirical study of general-purpose coding agents on a fly optogenetics data-to-discovery pipeline. We assess agents on tasks substantially larger than existing benchmarks, datasets orders of magnitude bigger, and evaluation criteria grounded in domain expert standards. We show that agents can solve several individual pipeline stages, suggesting stage-level automation is tractable. By analyzing agents' code iterations, we show that they struggle most when there is not a pre-defined criterion to iterate on, and they must instead use their scientific judgment to assess their current solution, a key open challenge. Mirroring scientific practice, they sometimes attempt visual inspection of intermediate outputs for self-evaluation, but largely fail to interpret what they see or act on it appropriately. Solving the end-to-end pipeline correctly requires stringing together successes across all pipeline stages, and this is beyond agents' current abilities. We identify challenges largely absent from existing benchmarks, including computational resource management and generalization to large held-out data collections. Finally, we distill principles for constructing scientific tasks and rigorous evaluation criteria for open-ended problems.",
+      "pub_date": "Tue, 09 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "AI智能体在神经科学数据到发现流程中的评估案例研究",
+        "summary": "本文对通用编程智能体在果蝇光遗传学数据到发现流程中的表现进行实证研究。智能体可解决部分阶段，但在需要科学判断、视觉自评估及端到端流程整合时面临挑战，并揭示了计算资源管理等现有基准缺失的问题。",
+        "summary_en": "An empirical study of general-purpose coding agents on a fly optogenetics data-to-discovery pipeline. Agents can solve individual stages but struggle with scientific judgment, visual self-evaluation, and end-to-end integration, highlighting challenges absent from existing benchmarks.",
+        "tags": [
+          "research",
+          "benchmark",
+          "agent-framework",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-09-rss-008",
+        "title": "AI智能体在神经科学数据到发现流程中的评估案例研究",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.07718",
+        "language": "en",
+        "summary": "本文对通用编程智能体在果蝇光遗传学数据到发现流程中的表现进行实证研究。智能体可解决部分阶段，但在需要科学判断、视觉自评估及端到端流程整合时面临挑战，并揭示了计算资源管理等现有基准缺失的问题。",
+        "summary_en": "An empirical study of general-purpose coding agents on a fly optogenetics data-to-discovery pipeline. Agents can solve individual stages but struggle with scientific judgment, visual self-evaluation, and end-to-end integration, highlighting challenges absent from existing benchmarks.",
+        "tags": [
+          "research",
+          "benchmark",
+          "agent-framework",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-06-09T19:14:05.340087+08:00",
+        "updated_at": "2026-06-09T19:14:05.340088+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Why Limit the Residual Stream to Layers and Not Tokens? Persistent Memory for Continuous Latent Reasoning",
+      "url": "https://arxiv.org/abs/2606.07720",
+      "description": "arXiv:2606.07720v1 Announce Type: new \nAbstract: Large language models (LLMs) have demonstrated remarkable reasoning abilities on mathematical and multi-hop planning tasks. The CoCoNuT (Chain of Continuous Thought) paradigm~\\cite{hao2024coconut} extends this by enabling models to reason in latent space, exploring multiple reasoning paths simultaneously rather than committing to a single chain early on. However, we identify a limitation we term the \\textbf{concept bottleneck}. At each reasoning pass, intermediate hidden states are overwritten, causing the model to lose critical facts computed in earlier steps as reasoning depth increases. We observe this empirically. On HotpotQA, vanilla CoCoNuT (10.4\\% EM) fails to improve over the CoT baseline (11.0\\% EM), and performance degrades with curriculum depth on GSM8K. To address this, we propose \\textbf{AGCLR} (Adaptive Gated Continuous Latent Reasoning), which augments CoCoNuT with a \\textit{Gated Concept Stream}. A persistent residual memory maintained across all reasoning passes, controlled by three learned gates: a \\textit{write} gate that commits intermediate facts to memory, a \\textit{read} gate that retrieves relevant prior states, and a \\textit{forget} gate that prunes irrelevant context. Evaluated on GSM8K, HotpotQA, and ProsQA using GPT-2 as our base model, AGCLR achieves consistent improvements across all types of datasets. With the performance gap compounding as curriculum depth increases, directly resolving the concept bottleneck. Code available at https://anonymous.4open.science/r/JJJJ/README.md",
+      "pub_date": "Tue, 09 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "AGCLR：通过门控概念流解决连续潜在推理中的概念瓶颈",
+        "summary": "针对CoCoNuT在连续潜在推理中因中间状态被覆盖导致性能下降的问题，提出AGCLR方法。通过引入持久残差记忆和三个学习门（写、读、遗忘），在GSM8K、HotpotQA和ProsQA上取得一致改进，直接解决了概念瓶颈。",
+        "summary_en": "To address the concept bottleneck in CoCoNuT where intermediate states are overwritten, AGCLR introduces persistent residual memory with three learned gates (write, read, forget), achieving consistent improvements on GSM8K, HotpotQA, and ProsQA.",
+        "tags": [
+          "research",
+          "llm",
+          "reasoning",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-09-rss-009",
+        "title": "AGCLR：通过门控概念流解决连续潜在推理中的概念瓶颈",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.07720",
+        "language": "en",
+        "summary": "针对CoCoNuT在连续潜在推理中因中间状态被覆盖导致性能下降的问题，提出AGCLR方法。通过引入持久残差记忆和三个学习门（写、读、遗忘），在GSM8K、HotpotQA和ProsQA上取得一致改进，直接解决了概念瓶颈。",
+        "summary_en": "To address the concept bottleneck in CoCoNuT where intermediate states are overwritten, AGCLR introduces persistent residual memory with three learned gates (write, read, forget), achieving consistent improvements on GSM8K, HotpotQA, and ProsQA.",
+        "tags": [
+          "research",
+          "llm",
+          "reasoning",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-06-09T19:14:05.340090+08:00",
+        "updated_at": "2026-06-09T19:14:05.340091+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Improving Cross-Lingual Factual Recall via Consistency-Driven Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2606.06586",
+      "description": "arXiv:2606.06586v1 Announce Type: new \nAbstract: Large language models (LLMs) trained predominantly on English data encode substantial world knowledge, yet often fail to express it reliably in other languages, a phenomenon known as cross-lingual factual inconsistency. To study and address this, we introduce PolyFact, a large-scale parallel multilingual factual QA dataset containing 100K Wikidata-grounded facts across 12 typologically diverse languages. Using PolyFact, we compare light continual pretraining (CPT), supervised fine-tuning (SFT), and reinforcement learning via Group Relative Policy Optimization (GRPO) for improving cross-lingual factual recall in Qwen-2.5-7B and OLMo-2-1124-7B. We find that GRPO consistently outperforms SFT, improving both cross-lingual consistency and generalization to unseen languages, while CPT on parallel data yields limited additional gains. Mechanistic analyses further show that GRPO reorganizes multilingual routing by reducing language specialization in MLP layers and attention heads, thereby promoting more shared cross-lingual representations. We release our code, models, and dataset.",
+      "pub_date": "Tue, 09 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "通过一致性驱动强化学习提升跨语言事实回忆能力",
+        "summary": "提出PolyFact数据集（100K Wikidata事实，12种语言），对比CPT、SFT和GRPO三种方法提升LLM跨语言事实回忆。GRPO优于SFT，能提高跨语言一致性和对未见语言的泛化能力，机制分析表明GRPO通过减少MLP层和注意力头的语言专门化来重组多语言路由。",
+        "summary_en": "Introduces PolyFact, a 100K Wikidata-grounded multilingual QA dataset across 12 languages. Compares CPT, SFT, and GRPO for improving cross-lingual factual recall. GRPO outperforms SFT, enhancing consistency and generalization to unseen languages. Mechanistic analysis shows GRPO reorganizes multilingual routing by reducing language specialization.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "fine-tuning",
+          "multimodal"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-09-rss-003",
+        "title": "通过一致性驱动强化学习提升跨语言事实回忆能力",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.06586",
+        "language": "en",
+        "summary": "提出PolyFact数据集（100K Wikidata事实，12种语言），对比CPT、SFT和GRPO三种方法提升LLM跨语言事实回忆。GRPO优于SFT，能提高跨语言一致性和对未见语言的泛化能力，机制分析表明GRPO通过减少MLP层和注意力头的语言专门化来重组多语言路由。",
+        "summary_en": "Introduces PolyFact, a 100K Wikidata-grounded multilingual QA dataset across 12 languages. Compares CPT, SFT, and GRPO for improving cross-lingual factual recall. GRPO outperforms SFT, enhancing consistency and generalization to unseen languages. Mechanistic analysis shows GRPO reorganizes multilingual routing by reducing language specialization.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "fine-tuning",
+          "multimodal"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-09T19:14:05.340067+08:00",
+        "updated_at": "2026-06-09T19:14:05.340068+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Re-Centering Humans in LLM Personalization",
+      "url": "https://arxiv.org/abs/2606.06614",
+      "description": "arXiv:2606.06614v1 Announce Type: new \nAbstract: Despite growing interest, most evaluations of large language models' (LLMs') personalization abilities have relied on synthetic data. It remains unclear how well current personalization systems work for real users. In this paper, we study the gap in LLM personalization performance when using synthetic versus human data. We collect human conversations (550 conversations) and judgments across three stages of personalization: extracting user attributes from conversations (5,949 judgments), pairing relevant attributes with new prompts (11,919), and incorporating relevant attributes into a personalized response (1,101). Incorporating human data reveals system limitations at each stage. Models struggle to extract attributes from human conversations, disagree with human judgments on relevant attributes, and generate personalized responses that humans judge no better than generic responses (though that LLM judges widely rate as better). We introduce two lightweight training-based interventions that shift automated personalization evaluation closer to human data in our first two stages. However, in our third stage we find that learned reward models achieve only modest correlation with human ratings, suggesting that human-aligned personalization quality judgments are difficult to model directly. Our collected data provides a foundation for studying how models should extract, select, and incorporate user information in ways that humans find useful.",
+      "pub_date": "Tue, 09 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "在LLM个性化中重新聚焦人类",
+        "summary": "研究揭示LLM个性化在使用合成数据与真实人类数据时存在显著性能差距。通过收集550个人类对话和大量判断，发现模型在提取用户属性、匹配相关属性及生成个性化响应方面存在局限。引入两种轻量级训练干预措施以缩小差距，但发现学习奖励模型与人类评分相关性有限。",
+        "summary_en": "Study reveals significant performance gaps in LLM personalization between synthetic and human data. Collecting 550 human conversations and extensive judgments, it finds models struggle with attribute extraction, relevance matching, and generating responses humans prefer. Two lightweight training interventions help, but learned reward models show limited correlation with human ratings.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "evaluation",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-09-rss-004",
+        "title": "在LLM个性化中重新聚焦人类",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.06614",
+        "language": "en",
+        "summary": "研究揭示LLM个性化在使用合成数据与真实人类数据时存在显著性能差距。通过收集550个人类对话和大量判断，发现模型在提取用户属性、匹配相关属性及生成个性化响应方面存在局限。引入两种轻量级训练干预措施以缩小差距，但发现学习奖励模型与人类评分相关性有限。",
+        "summary_en": "Study reveals significant performance gaps in LLM personalization between synthetic and human data. Collecting 550 human conversations and extensive judgments, it finds models struggle with attribute extraction, relevance matching, and generating responses humans prefer. Two lightweight training interventions help, but learned reward models show limited correlation with human ratings.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "evaluation",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-09T19:14:05.340071+08:00",
+        "updated_at": "2026-06-09T19:14:05.340072+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "UnpredictaBench: A Benchmark for Evaluating Distributional Randomness in LLMs",
+      "url": "https://arxiv.org/abs/2606.06622",
+      "description": "arXiv:2606.06622v1 Announce Type: new \nAbstract: We introduce UnpredictaBench, an evaluation that tests the ability of large language models (LLMs) to capture true underlying distributions. As LLMs are increasingly used as substitutes for other entities (e.g., for humans in economic simulations), the tendency of many models to collapse towards a single plausible answer means a failure to capture the unpredictability of real systems. Recent work on improving output diversity is insufficient for this setting: simulation requires samples that are calibrated to a target distribution, not merely varied outputs. UnpredictaBench isolates a simplified but fundamental version of this problem: sampling outcomes from individual target distributions, including canonical statistical distributions, distributions induced by stochastic programs, and natural-language scenarios that describe random processes. We introduce 448 such problems together with KS@N, a general-purpose evaluation metric that quantifies how well a model outputs approximate black-box target distributions via the Kolmogorov-Smirnov statistical test. This is the rate at which we fail to reject model samples of size N against ground-truth samples, with larger N indicating greater difficulty. Tested across open and proprietary models, we find a large spread in distributional capabilities. For instance, when models generate samples of size 100 (KS@100, our standard metric), scores range from near 0 to over 20%. No model is able to achieve over 40% at KS@100, showing significant headroom in distributional sampling as a capability. Although adding reasoning can somewhat increase scores, we find no immediate solution for this issue. UnpredictaBench shows that even simple distributional simulation remains challenging, making it a necessary first step toward using LLMs as stand-ins for complex systems.",
+      "pub_date": "Tue, 09 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "UnpredictaBench：评估大语言模型分布随机性的基准测试",
+        "summary": "UnpredictaBench 是一个评估 LLM 捕捉真实分布能力的基准，包含 448 个问题，涵盖统计分布、随机程序及自然语言场景。使用 KS@N 指标衡量模型输出与目标分布的拟合度。测试发现，即使简单分布采样对当前模型仍具挑战，得分普遍较低，表明分布采样能力存在显著提升空间。",
+        "summary_en": "UnpredictaBench evaluates LLMs' ability to capture true underlying distributions with 448 problems including statistical distributions, stochastic programs, and natural-language scenarios. Using KS@N metric, it finds that even simple distributional sampling remains challenging for current models, with scores showing significant headroom.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "evaluation",
+          "research"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-09-rss-005",
+        "title": "UnpredictaBench：评估大语言模型分布随机性的基准测试",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.06622",
+        "language": "en",
+        "summary": "UnpredictaBench 是一个评估 LLM 捕捉真实分布能力的基准，包含 448 个问题，涵盖统计分布、随机程序及自然语言场景。使用 KS@N 指标衡量模型输出与目标分布的拟合度。测试发现，即使简单分布采样对当前模型仍具挑战，得分普遍较低，表明分布采样能力存在显著提升空间。",
+        "summary_en": "UnpredictaBench evaluates LLMs' ability to capture true underlying distributions with 448 problems including statistical distributions, stochastic programs, and natural-language scenarios. Using KS@N metric, it finds that even simple distributional sampling remains challenging for current models, with scores showing significant headroom.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "evaluation",
+          "research"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-09T19:14:05.340074+08:00",
+        "updated_at": "2026-06-09T19:14:05.340075+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "How Language Models Fail: Token-Level Signatures of Committed and Persistent Reasoning Failures",
+      "url": "https://arxiv.org/abs/2606.06635",
+      "description": "arXiv:2606.06635v1 Announce Type: new \nAbstract: Failures in language model reasoning emerge through distinct processes that leave identifiable signatures in the reasoning trace. We characterize these failures using token-level uncertainty signals, finding they arise through two empirically distinguishable processes. The first is committed failure, in which a model locks onto an incorrect reasoning path early in its trace. A central diagnostic signature is the commitment point, beyond which considering additional tokens hurt rather than help failure detection. In the second, persistent uncertainty, uncertainty instead accumulates throughout, and the full trace is needed to best distinguish failing from successful completions. These signatures reproduce across 23 model-dataset configurations, with the framework's falsifiable predictions holding in 20 of 23 cases, well above chance across both failure modes. Finally, we demonstrate our failure mode framework has direct implications for self-consistency, identifying when uncertainty signals complement it and when it can be selectively skipped. These results offer a foundation for understanding when LLM reasoning failures become detectable and for adapting detection strategies accordingly.",
+      "pub_date": "Tue, 09 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "语言模型推理失败的类型：基于token级信号的承诺失败与持续不确定性",
+        "summary": "本文通过token级不确定性信号，将语言模型推理失败分为两类：承诺失败（模型早期锁定错误路径，后续token反而干扰检测）和持续不确定性（不确定性持续累积，需完整轨迹才能区分）。该框架在23个模型-数据集配置中验证，20个案例通过检验，并展示了其对自一致性策略的指导意义。",
+        "summary_en": "This paper characterizes LLM reasoning failures into two types using token-level uncertainty: committed failure (early lock-in, later tokens hinder detection) and persistent uncertainty (uncertainty accumulates, full trace needed). Validated across 23 model-dataset configurations (20/23 pass), with implications for self-consistency.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-09-rss-006",
+        "title": "语言模型推理失败的类型：基于token级信号的承诺失败与持续不确定性",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.06635",
+        "language": "en",
+        "summary": "本文通过token级不确定性信号，将语言模型推理失败分为两类：承诺失败（模型早期锁定错误路径，后续token反而干扰检测）和持续不确定性（不确定性持续累积，需完整轨迹才能区分）。该框架在23个模型-数据集配置中验证，20个案例通过检验，并展示了其对自一致性策略的指导意义。",
+        "summary_en": "This paper characterizes LLM reasoning failures into two types using token-level uncertainty: committed failure (early lock-in, later tokens hinder detection) and persistent uncertainty (uncertainty accumulates, full trace needed). Validated across 23 model-dataset configurations (20/23 pass), with implications for self-consistency.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-09T19:14:05.340081+08:00",
+        "updated_at": "2026-06-09T19:14:05.340082+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "CAF-Gen: A Multi-Agent System for Enriching Argumentation Structures",
+      "url": "https://arxiv.org/abs/2606.06646",
+      "description": "arXiv:2606.06646v1 Announce Type: new \nAbstract: Formalizing complex reasoning from natural text is one of the central challenges in computational linguistics. It requires systems to understand not just keywords but also the context and complex reasoning embedded in a text. Current Argument Mining (AM) techniques identify basic claims and premises, yet they often struggle to capture the richer structural information required by advanced schemas such as the Carneades Argumentation Framework (CAF), which incorporates features such as premise types, proof standards, and argument schemes. We address this limitation by introducing CAF-Gen, an automated multi-agent framework designed to enrich shallow argument structures into CAF-compliant argument models. By employing an iterative Creator-Reviewer pipeline, a creator agent's output is validated by a critical agent to ensure structural integrity. This multi-agent collaboration is crucial for mitigating the structural instability typical of single-pass generative models. Our experiments demonstrate that the iterative feedback loop improves the quality of the resulting data and achieves strong alignment with the original annotations, while producing structurally richer models. Our findings show that the multi-agent system can overcome the limitations of single-pass generation, providing a robust methodology for the automated modeling of formal argumentation.",
+      "pub_date": "Tue, 09 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "CAF-Gen：用于丰富论证结构的多智能体系统",
+        "summary": "CAF-Gen是一个自动化的多智能体框架，通过迭代的创建者-审阅者流程，将浅层论证结构丰富为符合Carneades论证框架的模型。实验表明，迭代反馈循环提高了数据质量，并与原始注释实现了强对齐，克服了单次生成模型的局限性。",
+        "summary_en": "CAF-Gen is an automated multi-agent framework that enriches shallow argument structures into CAF-compliant models via an iterative Creator-Reviewer pipeline. Experiments show the feedback loop improves data quality and alignment, overcoming single-pass generation limitations.",
+        "tags": [
+          "research",
+          "agent-framework",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-09-rss-010",
+        "title": "CAF-Gen：用于丰富论证结构的多智能体系统",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.06646",
+        "language": "en",
+        "summary": "CAF-Gen是一个自动化的多智能体框架，通过迭代的创建者-审阅者流程，将浅层论证结构丰富为符合Carneades论证框架的模型。实验表明，迭代反馈循环提高了数据质量，并与原始注释实现了强对齐，克服了单次生成模型的局限性。",
+        "summary_en": "CAF-Gen is an automated multi-agent framework that enriches shallow argument structures into CAF-compliant models via an iterative Creator-Reviewer pipeline. Experiments show the feedback loop improves data quality and alignment, overcoming single-pass generation limitations.",
+        "tags": [
+          "research",
+          "agent-framework",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-06-09T19:14:05.340094+08:00",
+        "updated_at": "2026-06-09T19:14:05.340095+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}
