@@ -1,0 +1,26 @@
+{
+  "id": "2026-06-10-rss-003",
+  "title": "Engram：面向LLM代理的双时间记忆引擎，精简检索上下文超越完整历史",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.09900",
+  "language": "en",
+  "summary": "Engram是一个开源的双进程记忆引擎，采用双时间数据模型。快速写入路径无LLM介入，异步路径提取原子事实并构建双时间知识图谱，通过混合读取路径融合多种信号。在LongMemEval_S上，精简配置（约9.6k token）以83.6%准确率超越完整上下文（79k token）的73.2%，token减少约8倍。",
+  "summary_en": "Engram is an open-source dual-process memory engine with a bi-temporal data model. It achieves 83.6% accuracy on LongMemEval_S using a lean ~9.6k-token retrieved context, outperforming the full 79k-token baseline (73.2%) with ~8x fewer tokens.",
+  "tags": [
+    "llm",
+    "research",
+    "agent-framework",
+    "rag",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-10T19:38:21.643036+08:00",
+  "updated_at": "2026-06-10T19:38:21.643038+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

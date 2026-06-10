@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-10-rss-005",
+  "title": "商业世界模型",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.10044",
+  "language": "en",
+  "summary": "提出商业世界模型（BWM）概念与架构，将世界模型思想应用于商业环境，通过编码业务状态、动态、约束、目标和可行动作空间，支持自主决策与规划。",
+  "summary_en": "Introduces the Business World Model (BWM), a world model specialized for business environments, encoding states, dynamics, constraints, objectives, and action space to enable autonomous planning and decision-making.",
+  "tags": [
+    "research",
+    "llm",
+    "application",
+    "agent-framework"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-06-10T19:38:21.643055+08:00",
+  "updated_at": "2026-06-10T19:38:21.643058+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

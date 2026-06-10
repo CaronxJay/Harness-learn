@@ -1,0 +1,24 @@
+{
+  "id": "2026-06-10-rss-007",
+  "title": "预测辅助与探索性压缩的时间动态",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.10094",
+  "language": "en",
+  "summary": "本文提出一个几何动力学框架，研究预测性AI系统如何通过外源性探索压缩稳定决策轨迹，从而改变人类探索性认知的时间动态。主要发现：持续预测稳定会降低探索响应性；曲率不对称累积导致滞后和恢复延迟；早期干预会限制未来的探索广度。",
+  "summary_en": "This paper proposes a geometric dynamical framework to study how predictive AI systems reshape exploratory cognition through exogenous exploratory compression. Key findings: sustained predictive stabilization reduces exploratory responsiveness; asymmetric curvature accumulation causes hysteresis and delayed recovery; early intervention narrows future exploratory traversal.",
+  "tags": [
+    "research",
+    "llm",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-06-10T19:38:21.643069+08:00",
+  "updated_at": "2026-06-10T19:38:21.643072+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

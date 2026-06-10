@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-10-rss-002",
+  "title": "基于概率程序的后训练方法提升大语言模型归纳推理能力",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.09856",
+  "language": "en",
+  "summary": "提出PPT方法，利用LLM生成概率程序场景，通过概率推理产生分布化软标签进行微调，显著提升LLM在归纳推理任务上的估计精度、与人类判断的一致性，并改善校准能力。",
+  "summary_en": "Proposes PPT, using LLMs to generate probabilistic program scenarios, performing probabilistic inference to produce distributional soft labels for fine-tuning, substantially improving estimation accuracy, alignment with human judgments, and calibration on inductive reasoning tasks.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "reasoning"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-10T19:38:21.643028+08:00",
+  "updated_at": "2026-06-10T19:38:21.643031+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

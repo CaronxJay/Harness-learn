@@ -1,0 +1,26 @@
+{
+  "id": "2026-06-10-rss-004",
+  "title": "多智能体LLM能否识别同类？角色约束政治分析中的笔迹指纹识别",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.09854",
+  "language": "en",
+  "summary": "研究多智能体LLM在政治声明分析中是否可通过笔迹指纹识别模型家族。发现提示级匿名化无法消除模型身份信号，T5模型在五类归属任务中达到Macro F1=0.991，证明笔迹特征可泛化。对欧盟AI法案合规及多智能体部署有直接影响。",
+  "summary_en": "Investigates whether multi-agent LLMs can identify model families via stylometric fingerprints in political analysis. Finds prompt-level anonymization insufficient; T5 achieves Macro F1=0.991 in five-class attribution. Implications for EU AI Act compliance and multi-agent deployments.",
+  "tags": [
+    "llm",
+    "research",
+    "security",
+    "fine-tuning",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-06-10T19:38:21.643048+08:00",
+  "updated_at": "2026-06-10T19:38:21.643051+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

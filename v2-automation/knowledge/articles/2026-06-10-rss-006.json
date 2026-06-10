@@ -1,0 +1,24 @@
+{
+  "id": "2026-06-10-rss-006",
+  "title": "AI辅助优化下的探索性响应与适应性僵化",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.10086",
+  "language": "en",
+  "summary": "本文提出了一种在AI辅助优化下的探索性适应理论。核心论点是AI系统的长期适应效果取决于预测性辅助如何与探索性响应相互作用。通过动态框架形式化该机制，指出在收敛性预测机制下，AI会替代探索性参与，降低适应性响应，导致系统局部高效但全局僵化。同时，也识别了探索增强机制。长期效果取决于制度结构、发展背景和人机交互架构。",
+  "summary_en": "This paper develops a theory of exploratory adaptation under AI-assisted optimization, arguing that AI's long-run adaptive effects depend on how predictive assistance interacts with exploratory responsiveness. It formalizes a dynamical framework showing that convergent predictive regimes can reduce adaptive responsiveness, causing metastable trapping and exploration-collapse, while also identifying exploration-enhancing regimes.",
+  "tags": [
+    "research",
+    "llm",
+    "infrastructure"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-06-10T19:38:21.643062+08:00",
+  "updated_at": "2026-06-10T19:38:21.643065+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

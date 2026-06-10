@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-10-rss-009",
+  "title": "BenSyc：孟加拉语对话谄媚与人类对齐基准测试",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.10061",
+  "language": "en",
+  "summary": "BenSyc是首个针对孟加拉语社交语境下对话谄媚行为的基准测试。基于Reddit数据构建了包含二元标签和五级分类的验证集，评估了15+个LLM。结果显示，即使最先进的指令微调模型在区分共情支持与强化型认可时仍面临挑战，最佳系统在二元检测上仅达61.8 Macro-F1。",
+  "summary_en": null,
+  "tags": [
+    "benchmark",
+    "llm",
+    "evaluation",
+    "multimodal"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-06-10T19:38:21.643083+08:00",
+  "updated_at": "2026-06-10T19:38:21.643085+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

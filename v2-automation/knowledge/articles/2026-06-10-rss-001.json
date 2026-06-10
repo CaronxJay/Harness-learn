@@ -1,0 +1,26 @@
+{
+  "id": "2026-06-10-rss-001",
+  "title": "基础模型代理的部署时记忆化研究",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.10062",
+  "language": "en",
+  "summary": "本文研究基础模型代理在部署时的记忆化问题，提出隐私-效用前沿，通过个性化召回和对抗提取率评估记忆设计选择（摘要攻击性、检索广度、删除模式），并引入遗忘残留分数衡量删除信息的可恢复性。实验表明关键事实摘要可大幅降低提取风险，但原始删除无法完全清除派生摘要副本。",
+  "summary_en": "This paper studies deployment-time memorization in foundation-model agents, formulating a privacy-utility frontier measured by Personalization Recall and Adversarial Extraction Rate, and introducing the Forgetting Residue Score. Experiments show key-fact summarization reduces extraction risk but raw deletion leaves derived copies recoverable.",
+  "tags": [
+    "research",
+    "security",
+    "llm",
+    "agent-framework",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-10T19:38:21.643017+08:00",
+  "updated_at": "2026-06-10T19:38:21.643022+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

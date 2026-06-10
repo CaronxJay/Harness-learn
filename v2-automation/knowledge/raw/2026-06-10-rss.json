@@ -1,0 +1,455 @@
+{
+  "collected_at": "2026-06-10T19:38:21.643893+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "Business World Model",
+      "url": "https://arxiv.org/abs/2606.10044",
+      "description": "arXiv:2606.10044v1 Announce Type: new \nAbstract: Businesses are increasingly adopting AI-enabled tools to improve productivity, reduce costs, and enhance products and services. However, the transformative potential of AI extends beyond automating predefined tasks: it lies in enabling intelligent systems to plan, optimize, and execute business initiatives from high-level strategic objectives. This paper introduces the concept and architecture of a business world model (BWM), a world model specialized for business and organizational environments. Inspired by world models in artificial intelligence, cognitive science, and control theory, a BWM encodes business states, dynamics, constraints, objectives, and feasible action space to support autonomous decision-making. We propose a business-semantics-centric formulation in which business states, dynamics and actions are linked to key business entities. Within this framework, agents can simulate alternative action sequences, estimate their effects on future business outcomes, and evaluate trade-offs under uncertainty. The proposed architecture integrates semantic data representations, probabilistic machine learning models, deterministic business rules, and explicit action space into a coherent structure for planning and counterfactual reasoning. Although its individual components are not new, the contribution of BWM lies in organizing them as an executable internal simulator for business initiatives. This work establishes a conceptual foundation for autonomous business systems capable of moving from instruction-based execution toward goal-driven planning and execution.",
+      "pub_date": "Wed, 10 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "商业世界模型",
+        "summary": "提出商业世界模型（BWM）概念与架构，将世界模型思想应用于商业环境，通过编码业务状态、动态、约束、目标和可行动作空间，支持自主决策与规划。",
+        "summary_en": "Introduces the Business World Model (BWM), a world model specialized for business environments, encoding states, dynamics, constraints, objectives, and action space to enable autonomous planning and decision-making.",
+        "tags": [
+          "research",
+          "llm",
+          "application",
+          "agent-framework"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-10-rss-005",
+        "title": "商业世界模型",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.10044",
+        "language": "en",
+        "summary": "提出商业世界模型（BWM）概念与架构，将世界模型思想应用于商业环境，通过编码业务状态、动态、约束、目标和可行动作空间，支持自主决策与规划。",
+        "summary_en": "Introduces the Business World Model (BWM), a world model specialized for business environments, encoding states, dynamics, constraints, objectives, and action space to enable autonomous planning and decision-making.",
+        "tags": [
+          "research",
+          "llm",
+          "application",
+          "agent-framework"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-06-10T19:38:21.643055+08:00",
+        "updated_at": "2026-06-10T19:38:21.643058+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Deployment-Time Memorization in Foundation-Model Agents",
+      "url": "https://arxiv.org/abs/2606.10062",
+      "description": "arXiv:2606.10062v1 Announce Type: new \nAbstract: Foundation-model agents are increasingly long-lived systems that remember users across interactions, making memorization an explicit deployment-time function rather than solely a property of model weights. Existing work addresses parametric memorization or audits fixed memory configurations, but does not characterize how memory-design choices jointly shape personalization utility, extraction risk, and deletion fidelity. We study this surface as deployment-time memorization, formulating agent memory as a privacy-utility frontier measured by Personalization Recall (PR) and Adversarial Extraction Rate (AER), and sweeping three memory-design knobs: summarization aggressiveness, retrieval breadth (k), and deletion mode. We further introduce the Forgetting Residue Score (FRS) to quantify whether deleted information remains recoverable from derived memory tiers. On LongMemEval, key-fact summarization reduces canary extraction by 76% on Gemma 3 12B and 64% on GPT-4o-mini while preserving nearly all personalization recall; critically, once content is compressed away, increasing k no longer restores leakage. The same compression, however, induces a deletion-fidelity failure: raw-only deletion leaves derived summary copies recoverable in approximately 20% of instances, and only full-pipeline purge or tombstone redaction drives worst-tier residue to zero. Together, these results establish that persistent agent memory must be evaluated as a first-class memorization mechanism -- assessed by what it helps agents recall, what it makes extractable, and what it can truly erase.",
+      "pub_date": "Wed, 10 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "基础模型代理的部署时记忆化研究",
+        "summary": "本文研究基础模型代理在部署时的记忆化问题，提出隐私-效用前沿，通过个性化召回和对抗提取率评估记忆设计选择（摘要攻击性、检索广度、删除模式），并引入遗忘残留分数衡量删除信息的可恢复性。实验表明关键事实摘要可大幅降低提取风险，但原始删除无法完全清除派生摘要副本。",
+        "summary_en": "This paper studies deployment-time memorization in foundation-model agents, formulating a privacy-utility frontier measured by Personalization Recall and Adversarial Extraction Rate, and introducing the Forgetting Residue Score. Experiments show key-fact summarization reduces extraction risk but raw deletion leaves derived copies recoverable.",
+        "tags": [
+          "research",
+          "security",
+          "llm",
+          "agent-framework",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-10-rss-001",
+        "title": "基础模型代理的部署时记忆化研究",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.10062",
+        "language": "en",
+        "summary": "本文研究基础模型代理在部署时的记忆化问题，提出隐私-效用前沿，通过个性化召回和对抗提取率评估记忆设计选择（摘要攻击性、检索广度、删除模式），并引入遗忘残留分数衡量删除信息的可恢复性。实验表明关键事实摘要可大幅降低提取风险，但原始删除无法完全清除派生摘要副本。",
+        "summary_en": "This paper studies deployment-time memorization in foundation-model agents, formulating a privacy-utility frontier measured by Personalization Recall and Adversarial Extraction Rate, and introducing the Forgetting Residue Score. Experiments show key-fact summarization reduces extraction risk but raw deletion leaves derived copies recoverable.",
+        "tags": [
+          "research",
+          "security",
+          "llm",
+          "agent-framework",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-10T19:38:21.643017+08:00",
+        "updated_at": "2026-06-10T19:38:21.643022+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Exploratory Responsiveness and Adaptive Rigidity under AI-Assisted Optimization",
+      "url": "https://arxiv.org/abs/2606.10086",
+      "description": "arXiv:2606.10086v1 Announce Type: new \nAbstract: This paper develops a theory of exploratory adaptation under AI-assisted optimization. The central argument is that the long-run adaptive effects of AI systems depend critically on how predictive assistance interacts with exploratory responsiveness itself. We formalize this mechanism using a dynamical framework in which cognitive, institutional, and technological systems evolve over rugged epistemic landscapes characterized by multiple locally reinforced configurations. A central state variable in the model is adaptive responsiveness, which measures the capacity of a system to traverse unfamiliar conceptual and institutional trajectories under changing conditions. Under convergent predictive regimes, AI systems substitute for exploratory engagement, reducing adaptive responsiveness and generating metastable trapping, hysteresis, premature convergence, and exploration-collapse dynamics in which systems become locally efficient but globally rigid. The framework also identifies contrasting exploration-enhancing regimes in which AI systems amplify exploratory search, conceptual traversal, and adaptive mobility. The effective substitution parameter is therefore responsiveness-dependent: systems possessing weak exploratory routines are more vulnerable to exploratory substitution, whereas systems already possessing high adaptive responsiveness may use AI assistance to expand exploratory mobility across rugged landscapes. The long-run adaptive effects of AI consequently depend not only on AI capability itself, but also on institutional structure, developmental context, and the architecture of human-machine interaction.",
+      "pub_date": "Wed, 10 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "AI辅助优化下的探索性响应与适应性僵化",
+        "summary": "本文提出了一种在AI辅助优化下的探索性适应理论。核心论点是AI系统的长期适应效果取决于预测性辅助如何与探索性响应相互作用。通过动态框架形式化该机制，指出在收敛性预测机制下，AI会替代探索性参与，降低适应性响应，导致系统局部高效但全局僵化。同时，也识别了探索增强机制。长期效果取决于制度结构、发展背景和人机交互架构。",
+        "summary_en": "This paper develops a theory of exploratory adaptation under AI-assisted optimization, arguing that AI's long-run adaptive effects depend on how predictive assistance interacts with exploratory responsiveness. It formalizes a dynamical framework showing that convergent predictive regimes can reduce adaptive responsiveness, causing metastable trapping and exploration-collapse, while also identifying exploration-enhancing regimes.",
+        "tags": [
+          "research",
+          "llm",
+          "infrastructure"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-10-rss-006",
+        "title": "AI辅助优化下的探索性响应与适应性僵化",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.10086",
+        "language": "en",
+        "summary": "本文提出了一种在AI辅助优化下的探索性适应理论。核心论点是AI系统的长期适应效果取决于预测性辅助如何与探索性响应相互作用。通过动态框架形式化该机制，指出在收敛性预测机制下，AI会替代探索性参与，降低适应性响应，导致系统局部高效但全局僵化。同时，也识别了探索增强机制。长期效果取决于制度结构、发展背景和人机交互架构。",
+        "summary_en": "This paper develops a theory of exploratory adaptation under AI-assisted optimization, arguing that AI's long-run adaptive effects depend on how predictive assistance interacts with exploratory responsiveness. It formalizes a dynamical framework showing that convergent predictive regimes can reduce adaptive responsiveness, causing metastable trapping and exploration-collapse, while also identifying exploration-enhancing regimes.",
+        "tags": [
+          "research",
+          "llm",
+          "infrastructure"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-06-10T19:38:21.643062+08:00",
+        "updated_at": "2026-06-10T19:38:21.643065+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Predictive Assistance and the Temporal Dynamics of Exploratory Compression",
+      "url": "https://arxiv.org/abs/2606.10094",
+      "description": "arXiv:2606.10094v1 Announce Type: new \nAbstract: Classical theories of cognition describe problem solving as exploratory search through structured problem spaces in which repeated interaction gradually compresses search into efficient representational structures. Predictive artificial intelligence systems introduce a distinct regime in which stabilization may occur before exploratory diversification unfolds, supplying solutions and decision trajectories prior to internally generated search. This paper develops a geometric dynamical framework in which attention evolves over a landscape of strategies shaped by stabilizing drift, endogenous exploratory perturbation, and responsiveness-gated learning. Predictive assistance is modeled as a process of exogenous exploratory compression that stabilizes trajectories before self-generated exploration broadens the accessible regions of strategy space. The framework yields three main results. First, sustained predictive stabilization reduces exploratory responsiveness by attenuating the effective influence of intrinsic perturbations even when exploratory variability remains present. Second, curvature accumulates and relaxes asymmetrically, producing hysteresis and delayed recovery of exploratory mobility after assistance withdrawal. Third, developmental outcomes depend critically on the timing of stabilization, with early intervention narrowing future exploratory traversal before broad representational diversification has occurred. The framework generates empirically testable predictions concerning exploratory entropy, premature convergence, and delayed recovery following predictive stabilization. More broadly, the results suggest that predictive systems may reshape the geometry of exploratory cognition itself.",
+      "pub_date": "Wed, 10 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "预测辅助与探索性压缩的时间动态",
+        "summary": "本文提出一个几何动力学框架，研究预测性AI系统如何通过外源性探索压缩稳定决策轨迹，从而改变人类探索性认知的时间动态。主要发现：持续预测稳定会降低探索响应性；曲率不对称累积导致滞后和恢复延迟；早期干预会限制未来的探索广度。",
+        "summary_en": "This paper proposes a geometric dynamical framework to study how predictive AI systems reshape exploratory cognition through exogenous exploratory compression. Key findings: sustained predictive stabilization reduces exploratory responsiveness; asymmetric curvature accumulation causes hysteresis and delayed recovery; early intervention narrows future exploratory traversal.",
+        "tags": [
+          "research",
+          "llm",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-10-rss-007",
+        "title": "预测辅助与探索性压缩的时间动态",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.10094",
+        "language": "en",
+        "summary": "本文提出一个几何动力学框架，研究预测性AI系统如何通过外源性探索压缩稳定决策轨迹，从而改变人类探索性认知的时间动态。主要发现：持续预测稳定会降低探索响应性；曲率不对称累积导致滞后和恢复延迟；早期干预会限制未来的探索广度。",
+        "summary_en": "This paper proposes a geometric dynamical framework to study how predictive AI systems reshape exploratory cognition through exogenous exploratory compression. Key findings: sustained predictive stabilization reduces exploratory responsiveness; asymmetric curvature accumulation causes hysteresis and delayed recovery; early intervention narrows future exploratory traversal.",
+        "tags": [
+          "research",
+          "llm",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-06-10T19:38:21.643069+08:00",
+        "updated_at": "2026-06-10T19:38:21.643072+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "From Senses to Decisions: The Information Flow of Auditory and Visual Perception in Multimodal LLMs",
+      "url": "https://arxiv.org/abs/2606.10147",
+      "description": "arXiv:2606.10147v1 Announce Type: new \nAbstract: Multimodal Large Language Models (MLLMs) can listen and see, but how do audio and visual signals actually travel through the network to shape an answer? Despite their growing role in research and real-world applications, the internal pathways through which audio and visual tokens influence the final prediction remain poorly understood. In this study, we examine audio-visual information flow inside Audio-Visual Large Language Models (AVLLMs), tracing how AVLLMs route, utilize, and integrate audio and visual information across two input configurations, audio-visual video and multiple interleaved audio-visual items. We find that for audio-visual video, AVLLMs follow the sequential information flow pathway established for VLMs and VideoLLMs, with audio and visual contribution flowing along this pathway in proportion to the task's reliance on each modality. In settings with multiple interleaved audio-visual items, this routing shifts to different parallel streams. Furthermore, we demonstrate that audio-visual and other token types can be discarded once their information is transferred to LLM, with minimal impact on the model's prediction or even slight improvement, generalizing across multiple tasks and datasets, enabling more efficient inference. These findings hold across multiple models and scales, Qwen2.5-Omni and Video-SALMONN2 Plus at 3B and 7B scales, leading to hypotheses on why these flow structures emerge. Together, these results deliver the first coherent picture of how AVLLMs orchestrate sound and sight inside the network and lay the groundwork for the next wave of interpretability, design, and efficiency advances in audio-visual and broader MLLMs.",
+      "pub_date": "Wed, 10 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "从感知到决策：多模态大模型中听觉与视觉信息流分析",
+        "summary": "本研究深入分析了音频-视觉大语言模型（AVLLMs）内部的信息流动路径，揭示了音频和视觉令牌如何被路由、利用和整合以影响最终预测。研究发现，在音视频任务中，模型遵循顺序信息流路径，而在多交错音视频项场景中则切换为并行流。此外，信息可在传递至LLM后被丢弃而不影响性能，甚至略有提升，从而支持更高效的推理。该发现跨模型和规模（Qwen2.5-Omni、Video-SALMONN2 Plus）得到验证，为多模态LLM的可解释性、设计和效率提升奠定了基础。",
+        "summary_en": "This study analyzes the internal information flow pathways in Audio-Visual Large Language Models (AVLLMs), revealing how audio and visual tokens are routed, utilized, and integrated to shape final predictions. It finds sequential flow in audio-visual video tasks and parallel streams in interleaved multi-item settings. Discarding tokens after information transfer has minimal impact or even slight improvement, enabling efficient inference. Findings generalize across models and scales (Qwen2.5-Omni, Video-SALMONN2 Plus), laying groundwork for interpretability, design, and efficiency advances in multimodal LLMs.",
+        "tags": [
+          "multimodal",
+          "research",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      }
+    },
+    {
+      "title": "Automated Scoring of Arabic Text Using Large Language Models: A Literature Review",
+      "url": "https://arxiv.org/abs/2606.09830",
+      "description": "arXiv:2606.09830v1 Announce Type: new \nAbstract: In modern educational systems, Automatic Text Scoring (ATS) plays a central role by enabling scalable and consistent evaluation of learner responses without human intervention. Recently, the increased accessibility of LLMs and Arabic-specific datasets has sparked renewed interest in this area. In this work, we investigate LLM-Based approaches for the automated evaluation of Arabic texts, focusing on both short answer grading (ASAG) and essay scoring (AES). We further introduce a structured taxonomy comprising five dimensions: application domain, feedback generation capability, LLM architecture deployed, alignment with competency referential frameworks, and prompt engineering strategy. By applying this taxonomy, we conduct a comparative analysis of existing studies, examining their methodological approaches, datasets, evaluation metrics, and reported performance. The findings highlight the need for sustained and pedagogically grounded research efforts in Arabic ATS, given its significance for improving educational quality across Arabic-speaking communities.",
+      "pub_date": "Wed, 10 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "阿拉伯语文本自动评分：大语言模型文献综述",
+        "summary": "本文综述了基于大语言模型（LLM）的阿拉伯语自动文本评分（ATS）方法，涵盖短答案评分（ASAG）和论文评分（AES）。提出了一个包含应用领域、反馈生成能力、LLM架构、能力参考框架对齐和提示工程策略五个维度的结构化分类法，并对现有研究进行了比较分析。研究强调了在阿拉伯语社区开展持续且具有教育基础的研究的必要性。",
+        "summary_en": "This paper reviews LLM-based approaches for Arabic Automatic Text Scoring (ATS), covering short answer grading (ASAG) and essay scoring (AES). It proposes a structured taxonomy with five dimensions and conducts a comparative analysis of existing studies, highlighting the need for sustained research in Arabic ATS.",
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "benchmark",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-10-rss-008",
+        "title": "阿拉伯语文本自动评分：大语言模型文献综述",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.09830",
+        "language": "en",
+        "summary": "本文综述了基于大语言模型（LLM）的阿拉伯语自动文本评分（ATS）方法，涵盖短答案评分（ASAG）和论文评分（AES）。提出了一个包含应用领域、反馈生成能力、LLM架构、能力参考框架对齐和提示工程策略五个维度的结构化分类法，并对现有研究进行了比较分析。研究强调了在阿拉伯语社区开展持续且具有教育基础的研究的必要性。",
+        "summary_en": "This paper reviews LLM-based approaches for Arabic Automatic Text Scoring (ATS), covering short answer grading (ASAG) and essay scoring (AES). It proposes a structured taxonomy with five dimensions and conducts a comparative analysis of existing studies, highlighting the need for sustained research in Arabic ATS.",
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "benchmark",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-06-10T19:38:21.643076+08:00",
+        "updated_at": "2026-06-10T19:38:21.643078+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Can Multi-Agent LLMs Identify Their Peers? Stylometric Fingerprinting in Role-Constrained Political Analysis",
+      "url": "https://arxiv.org/abs/2606.09854",
+      "description": "arXiv:2606.09854v1 Announce Type: new \nAbstract: Multi-agent large language model (LLM) pipelines for political statement analysis are vulnerable to peer-preservation bias: models tend to protect peer models from deactivation and show identity-dependent scoring distortions. Prompt-level anonymization was proposed as a mitigation, but prior work simultaneously documented that stylometric fingerprints survive anonymization in role-constrained outputs - raising the question of whether this mitigation is sufficient. This paper provides the first systematic investigation of whether LLMs can identify the model family behind political analysis texts under anonymization conditions. We evaluate three classifier approaches - LLM zero-shot and few-shot (Claude Sonnet 4.6 and Llama-3.3-70B) and a fine-tuned T5-base model - on a five-class attribution task covering four commercial LLM families and an open-world 'unknown' class. We introduce a statement-disjoint cross-validation protocol (SD-CV; defined in Section 3.5) that guarantees no content overlap between training and validation data, and contrast it with a run-disjoint baseline (RD-CV). T5 achieves Macro F1 = 0.991 (+-0.008) under SD-CV and F1 = 0.978 on 24 completely held-out statements - robust despite a 2.1x increase in train-test content distance versus RD-CV (0.767 vs. 0.366, p<0.001), demonstrating genuine stylometric generalization. A fractional SD-CV analysis identifies a performance knee at 40% of training data (~440 texts). Our findings confirm that prompt-level anonymization alone cannot neutralize model identity signals, with direct implications for EU AI Act compliance (Articles 13, 14, 26) and for computer system validation (CSV) in quality-critical multi-agent deployments.",
+      "pub_date": "Wed, 10 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "多智能体LLM能否识别同类？角色约束政治分析中的笔迹指纹识别",
+        "summary": "研究多智能体LLM在政治声明分析中是否可通过笔迹指纹识别模型家族。发现提示级匿名化无法消除模型身份信号，T5模型在五类归属任务中达到Macro F1=0.991，证明笔迹特征可泛化。对欧盟AI法案合规及多智能体部署有直接影响。",
+        "summary_en": "Investigates whether multi-agent LLMs can identify model families via stylometric fingerprints in political analysis. Finds prompt-level anonymization insufficient; T5 achieves Macro F1=0.991 in five-class attribution. Implications for EU AI Act compliance and multi-agent deployments.",
+        "tags": [
+          "llm",
+          "research",
+          "security",
+          "fine-tuning",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-10-rss-004",
+        "title": "多智能体LLM能否识别同类？角色约束政治分析中的笔迹指纹识别",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.09854",
+        "language": "en",
+        "summary": "研究多智能体LLM在政治声明分析中是否可通过笔迹指纹识别模型家族。发现提示级匿名化无法消除模型身份信号，T5模型在五类归属任务中达到Macro F1=0.991，证明笔迹特征可泛化。对欧盟AI法案合规及多智能体部署有直接影响。",
+        "summary_en": "Investigates whether multi-agent LLMs can identify model families via stylometric fingerprints in political analysis. Finds prompt-level anonymization insufficient; T5 achieves Macro F1=0.991 in five-class attribution. Implications for EU AI Act compliance and multi-agent deployments.",
+        "tags": [
+          "llm",
+          "research",
+          "security",
+          "fine-tuning",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-06-10T19:38:21.643048+08:00",
+        "updated_at": "2026-06-10T19:38:21.643051+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Using Probabilistic Programs to Train Inductive Reasoning in Large Language Models",
+      "url": "https://arxiv.org/abs/2606.09856",
+      "description": "arXiv:2606.09856v1 Announce Type: new \nAbstract: Post-training Large Language Models (LLMs) for reasoning typically focuses on deductive tasks such as mathematics and coding where correctness is verifiable. Yet, many real-world reasoning problems are inductive: agents must infer uncertain beliefs from sparse, ambiguous observations. There are challenges to using standard fine-tuning methods for inductive reasoning, including difficulties in curating large-scale, high-quality labeled datasets and in handling targets that are inherently distributional. In this work, we introduce a novel approach, called Program-based Posterior Training (PPT), to address these limitations: we use an LLM to generate diverse open-world scenarios as probabilistic programs, run probabilistic inference to produce distributional target responses to queries, and then fine-tune on these probabilistic soft labels. Using this approach, we fine-tune LLMs on 10,000 programmatically generated scenarios and evaluate on held-out motifs, human-labeled judgments, and external benchmarks. Overall, PPT substantially improves estimation accuracy on held-out inductive tasks, increases alignment with human judgments, and transfers to external benchmarks for estimation and calibration. Additionally, the gains in raw calibration are not subsumed by post-hoc temperature scaling, showing that the models have more deeply internalized uncertainty compared to output rescaling. Together, these results suggest that probabilistic-program-mediated fine-tuning is a promising approach for post-training LLMs to reliably perform approximate inductive inference.",
+      "pub_date": "Wed, 10 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "基于概率程序的后训练方法提升大语言模型归纳推理能力",
+        "summary": "提出PPT方法，利用LLM生成概率程序场景，通过概率推理产生分布化软标签进行微调，显著提升LLM在归纳推理任务上的估计精度、与人类判断的一致性，并改善校准能力。",
+        "summary_en": "Proposes PPT, using LLMs to generate probabilistic program scenarios, performing probabilistic inference to produce distributional soft labels for fine-tuning, substantially improving estimation accuracy, alignment with human judgments, and calibration on inductive reasoning tasks.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "reasoning"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-10-rss-002",
+        "title": "基于概率程序的后训练方法提升大语言模型归纳推理能力",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.09856",
+        "language": "en",
+        "summary": "提出PPT方法，利用LLM生成概率程序场景，通过概率推理产生分布化软标签进行微调，显著提升LLM在归纳推理任务上的估计精度、与人类判断的一致性，并改善校准能力。",
+        "summary_en": "Proposes PPT, using LLMs to generate probabilistic program scenarios, performing probabilistic inference to produce distributional soft labels for fine-tuning, substantially improving estimation accuracy, alignment with human judgments, and calibration on inductive reasoning tasks.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "reasoning"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-10T19:38:21.643028+08:00",
+        "updated_at": "2026-06-10T19:38:21.643031+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Less Context, More Accuracy: A Bi-Temporal Memory Engine for LLM Agents Where a Lean Retrieved Context Beats the Full History",
+      "url": "https://arxiv.org/abs/2606.09900",
+      "description": "arXiv:2606.09900v1 Announce Type: new \nAbstract: Long-term memory is the missing layer for LLM agents: across sessions they forget, and the common workaround -- replaying the whole history into the prompt -- is expensive, slow, and, as distractors accumulate, less accurate. Most memory systems win on cost or latency but still lose to the full-context baseline on accuracy, and benchmark numbers are reported on inconsistent, non-reproducible harnesses, so one system appears at wildly different scores across sources. We present Engram, an open-source, dual-process memory engine on a bi-temporal data model. A fast write path appends lossless episodes with no LLM on the critical path; an asynchronous path extracts atomic (subject, predicate, object) facts, builds a bi-temporal knowledge graph, and resolves contradictions without an LLM call per fact -- invalidating, never deleting, so every fact keeps provenance and a supersession chain. A hybrid read path fuses dense, lexical, graph, and recency/salience signals, applies a point-in-time (\"as-of\") filter, and assembles a compact, provenance-tagged context. On the full 500-question LongMemEval_S, graded by the official category-specific judge, Engram's lean configuration -- answering from a ~9.6k-token retrieved slice, never the full history -- scores 83.6% vs. 73.2% for full-context (+10.4 points, McNemar p < 10^-6) at ~8x fewer tokens (9.6k vs. 79k), with 0/500 errored. The gain needs a hybrid read path: facts alone lose recall, while facts plus retrieved chunks recover detail. We also contribute a neutral, in-repo evaluation harness with the official judge baked in and the full-context baseline in every table, publish the raw per-question logs, and document the measurement-integrity pitfalls (truncation, home-grown judges, full-history leaks) that silently distort memory benchmarks. Every number ships with a command to reproduce it.",
+      "pub_date": "Wed, 10 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "Engram：面向LLM代理的双时间记忆引擎，精简检索上下文超越完整历史",
+        "summary": "Engram是一个开源的双进程记忆引擎，采用双时间数据模型。快速写入路径无LLM介入，异步路径提取原子事实并构建双时间知识图谱，通过混合读取路径融合多种信号。在LongMemEval_S上，精简配置（约9.6k token）以83.6%准确率超越完整上下文（79k token）的73.2%，token减少约8倍。",
+        "summary_en": "Engram is an open-source dual-process memory engine with a bi-temporal data model. It achieves 83.6% accuracy on LongMemEval_S using a lean ~9.6k-token retrieved context, outperforming the full 79k-token baseline (73.2%) with ~8x fewer tokens.",
+        "tags": [
+          "llm",
+          "research",
+          "agent-framework",
+          "rag",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-10-rss-003",
+        "title": "Engram：面向LLM代理的双时间记忆引擎，精简检索上下文超越完整历史",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.09900",
+        "language": "en",
+        "summary": "Engram是一个开源的双进程记忆引擎，采用双时间数据模型。快速写入路径无LLM介入，异步路径提取原子事实并构建双时间知识图谱，通过混合读取路径融合多种信号。在LongMemEval_S上，精简配置（约9.6k token）以83.6%准确率超越完整上下文（79k token）的73.2%，token减少约8倍。",
+        "summary_en": "Engram is an open-source dual-process memory engine with a bi-temporal data model. It achieves 83.6% accuracy on LongMemEval_S using a lean ~9.6k-token retrieved context, outperforming the full 79k-token baseline (73.2%) with ~8x fewer tokens.",
+        "tags": [
+          "llm",
+          "research",
+          "agent-framework",
+          "rag",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-10T19:38:21.643036+08:00",
+        "updated_at": "2026-06-10T19:38:21.643038+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "BenSyc: Benchmarking Conversational Sycophancy and Human Alignment in LLMs for Bengali Contexts",
+      "url": "https://arxiv.org/abs/2606.10061",
+      "description": "arXiv:2606.10061v1 Announce Type: new \nAbstract: Large language models (LLMs) increasingly participate in emotionally sensitive social conversations, where responses may shift from balanced support toward excessive validation or escalatory alignment. Existing sycophancy research primarily focuses on factual agreement and instruction-following settings, leaving culturally grounded conversational sycophancy underexplored. We introduce BenSyc, the first benchmark for studying conversational sycophancy in Bengali social contexts. Starting from 11,840 Reddit posts and 170k comments collected from communities across Bangladesh and West Bengal, we construct a human-validated benchmark with binary labels and a fine-grained five-level taxonomy spanning Invalidation, Neutral, Support, Validation, and Escalation. We evaluate more than 15 open and proprietary LLMs on conversational alignment classification and response generation tasks. Results show that distinguishing empathetic support from reinforcement-oriented validation remains challenging even for frontier instruction-tuned models: the best system achieves only 61.8 Macro-F1 on binary detection and 61.7 Macro-F1 on five-class classification. In generation settings, several models frequently produce strongly validating or escalatory responses in emotionally charged situations. Our findings highlight substantial variation across model families and conversational behaviors, underscoring the importance of culturally grounded multilingual benchmarks for evaluating socially aligned conversational AI systems.",
+      "pub_date": "Wed, 10 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "BenSyc：孟加拉语对话谄媚与人类对齐基准测试",
+        "summary": "BenSyc是首个针对孟加拉语社交语境下对话谄媚行为的基准测试。基于Reddit数据构建了包含二元标签和五级分类的验证集，评估了15+个LLM。结果显示，即使最先进的指令微调模型在区分共情支持与强化型认可时仍面临挑战，最佳系统在二元检测上仅达61.8 Macro-F1。",
+        "summary_en": null,
+        "tags": [
+          "benchmark",
+          "llm",
+          "evaluation",
+          "multimodal"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-10-rss-009",
+        "title": "BenSyc：孟加拉语对话谄媚与人类对齐基准测试",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.10061",
+        "language": "en",
+        "summary": "BenSyc是首个针对孟加拉语社交语境下对话谄媚行为的基准测试。基于Reddit数据构建了包含二元标签和五级分类的验证集，评估了15+个LLM。结果显示，即使最先进的指令微调模型在区分共情支持与强化型认可时仍面临挑战，最佳系统在二元检测上仅达61.8 Macro-F1。",
+        "summary_en": null,
+        "tags": [
+          "benchmark",
+          "llm",
+          "evaluation",
+          "multimodal"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-06-10T19:38:21.643083+08:00",
+        "updated_at": "2026-06-10T19:38:21.643085+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}
