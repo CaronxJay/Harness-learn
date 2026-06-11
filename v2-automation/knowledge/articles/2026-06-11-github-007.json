@@ -1,0 +1,26 @@
+{
+  "id": "2026-06-11-github-007",
+  "title": "AI学习资源汇总",
+  "source": "github_trending",
+  "source_url": "https://github.com/taype/AI-Learn",
+  "language": "en",
+  "summary": "一个综合性的AI学习资源库，涵盖Python、数学、机器学习、深度学习、神经网络、LLM、RAG、提示工程、智能体、AIOS及论文等主题。",
+  "summary_en": "A comprehensive AI learning repository covering Python, mathematics, machine learning, deep learning, neural networks, LLM, RAG, prompts, agents, AIOS, and papers.",
+  "tags": [
+    "llm",
+    "rag",
+    "agent-framework",
+    "prompt-engineering",
+    "application"
+  ],
+  "category": "application",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-06-11T20:09:21.646614+08:00",
+  "updated_at": "2026-06-11T20:09:21.646616+08:00",
+  "metadata": {
+    "stars": 1,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

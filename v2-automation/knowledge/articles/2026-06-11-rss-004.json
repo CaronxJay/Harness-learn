@@ -1,0 +1,26 @@
+{
+  "id": "2026-06-11-rss-004",
+  "title": "NightFeats: 面向文本生成赛道的情境优化多智能体RAG系统",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.11199",
+  "language": "en",
+  "summary": "NightFeats 是一个结构化多智能体检索增强生成（RAG）系统，在 NeurIPS 2025 MMU-RAGent 竞赛中获得最佳动态评估奖。该系统将知识合成分解为检索、策展和组合三个阶段，引入时间语义重排序、有界矛盾协调和保留引用的组合等核心架构原语，在 LLM-as-a-Judge 和人类 Likert 评估中超越 Claude-SonnetV2 和 Nova-Pro 等专有基线。",
+  "summary_en": "NightFeats is a structured multi-agent RAG system that won Best Dynamic Evaluation at NeurIPS 2025 MMU-RAGent. It decomposes knowledge synthesis into retrieval, curation, and composition phases, introducing temporal-semantic reranking, bounded contradiction reconciliation, and citation-preserving composition, outperforming proprietary baselines like Claude-SonnetV2 and Nova-Pro.",
+  "tags": [
+    "rag",
+    "agent-framework",
+    "research",
+    "benchmark",
+    "multimodal"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-11T20:09:21.647351+08:00",
+  "updated_at": "2026-06-11T20:09:21.647353+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

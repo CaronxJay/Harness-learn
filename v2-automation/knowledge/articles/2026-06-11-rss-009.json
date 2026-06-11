@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-11-rss-009",
+  "title": "从显式元素到隐式意图：用于可审计行为推理的预定义库",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.11207",
+  "language": "en",
+  "summary": "提出SemantiClean模块化框架，从电商会话数据中提取结构化语义信号，驱动购买意图、客户细分等推理目标。该框架优先可审计性和可复现性，通过四层架构和三种反通胀机制确保信号质量，并引入LLM集成推理引擎。",
+  "summary_en": null,
+  "tags": [
+    "llm",
+    "research",
+    "application",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-06-11T20:09:21.647380+08:00",
+  "updated_at": "2026-06-11T20:09:21.647382+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

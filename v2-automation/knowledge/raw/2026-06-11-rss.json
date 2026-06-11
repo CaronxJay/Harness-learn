@@ -1,0 +1,483 @@
+{
+  "collected_at": "2026-06-11T20:09:21.648239+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "From Explicit Elements to Implicit Intent: A Predefined Library for Auditable Behavioral Inference",
+      "url": "https://arxiv.org/abs/2606.11207",
+      "description": "arXiv:2606.11207v1 Announce Type: new \nAbstract: We present SemantiClean, a modular framework for extracting structured semantic signals from e-commerce session data and driving pluggable inference targets including purchase intent, customer segmentation, and product affinity through a shared element library. Unlike conventional end-to-end predictors that optimise solely for accuracy, SemantiClean prioritises auditability, structural governance, and sigma=0 reproducibility, explicitly trading marginal predictive gains for element-level transparency and defensible decision trails. Built upon the Online Shoppers Purchasing Intention (OSPI) dataset, the framework organises twenty-four behavioural elements into a four-layer architecture (Functional, Interaction, Systemic, Contextual) and enforces signal quality through three anti-inflation mechanisms: RedundancyGroup contribution caps, TieredPenaltyCalculator bias penalties, and AdaptiveConstraintMode cold-start protection.This report introduces the LLM-Integrated Semantic Inference Engine, a fully implemented two-phase LLM-driven inference architecture that leverages complete element metadata at inference time. All quantitative results reported herein are produced by this engine. Deterministic engine outputs remain fully reproducible (sigma=0); LLM-dependent results (E8, E10) are subject to controlled output variability under fixed provider/model/temperature settings. The gender inference target remains non-functional in the current implementation and is excluded from all quantitative results.",
+      "pub_date": "Thu, 11 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "从显式元素到隐式意图：用于可审计行为推理的预定义库",
+        "summary": "提出SemantiClean模块化框架，从电商会话数据中提取结构化语义信号，驱动购买意图、客户细分等推理目标。该框架优先可审计性和可复现性，通过四层架构和三种反通胀机制确保信号质量，并引入LLM集成推理引擎。",
+        "summary_en": null,
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-11-rss-009",
+        "title": "从显式元素到隐式意图：用于可审计行为推理的预定义库",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.11207",
+        "language": "en",
+        "summary": "提出SemantiClean模块化框架，从电商会话数据中提取结构化语义信号，驱动购买意图、客户细分等推理目标。该框架优先可审计性和可复现性，通过四层架构和三种反通胀机制确保信号质量，并引入LLM集成推理引擎。",
+        "summary_en": null,
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-06-11T20:09:21.647380+08:00",
+        "updated_at": "2026-06-11T20:09:21.647382+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Position: Hippocampal Explicit Memory Is the Cornerstone for AGI",
+      "url": "https://arxiv.org/abs/2606.11245",
+      "description": "arXiv:2606.11245v1 Announce Type: new \nAbstract: Large Language Models (LLMs) have demonstrated remarkable capabilities across various tasks, raising expectations for Artificial General Intelligence (AGI). This position paper argues that integrating explicit memory is the cornerstone for advancing LLMs toward AGI. The key reason is that the underlying learning mechanism of LLMs is highly analogous to human implicit memory. However, higher-order cognitive functions necessary for AGI, such as long-term strategic planning, metacognition, and symbolic reasoning, heavily rely on hippocampal explicit memory and cannot arise solely from implicit statistical learning. Drawing on findings from neuroscience, I advance this perspective and complement it with computational requirements for artificial explicit memory systems, hoping to foster further research and lay the groundwork for explicit memory integration.",
+      "pub_date": "Thu, 11 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "海马体显式记忆：迈向通用人工智能的基石",
+        "summary": "本文提出，将显式记忆整合到大语言模型中是迈向通用人工智能的关键。作者认为LLM的学习机制类似于人类内隐记忆，但高阶认知功能（如长期战略规划、元认知和符号推理）依赖于海马体显式记忆，无法仅从内隐统计学习中产生。文章结合神经科学发现和计算需求，为显式记忆整合奠定基础。",
+        "summary_en": "This position paper argues that integrating explicit memory is the cornerstone for advancing LLMs toward AGI. It posits that while LLMs learn via implicit memory, higher-order cognitive functions require hippocampal explicit memory, drawing on neuroscience and computational requirements.",
+        "tags": [
+          "llm",
+          "research",
+          "infrastructure"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-11-rss-006",
+        "title": "海马体显式记忆：迈向通用人工智能的基石",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.11245",
+        "language": "en",
+        "summary": "本文提出，将显式记忆整合到大语言模型中是迈向通用人工智能的关键。作者认为LLM的学习机制类似于人类内隐记忆，但高阶认知功能（如长期战略规划、元认知和符号推理）依赖于海马体显式记忆，无法仅从内隐统计学习中产生。文章结合神经科学发现和计算需求，为显式记忆整合奠定基础。",
+        "summary_en": "This position paper argues that integrating explicit memory is the cornerstone for advancing LLMs toward AGI. It posits that while LLMs learn via implicit memory, higher-order cognitive functions require hippocampal explicit memory, drawing on neuroscience and computational requirements.",
+        "tags": [
+          "llm",
+          "research",
+          "infrastructure"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-06-11T20:09:21.647362+08:00",
+        "updated_at": "2026-06-11T20:09:21.647364+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Can AI Agents Synthesize Scientific Conclusions?",
+      "url": "https://arxiv.org/abs/2606.11337",
+      "description": "arXiv:2606.11337v1 Announce Type: new \nAbstract: Scientific AI agents increasingly retrieve evidence, reason across sources, and synthesize conclusions used in consequential decisions. Yet, their ability to do so in high-stakes domains such as health remains unclear. We introduce SciConBench, a large-scale live benchmark of 9.11K questions and expert-written conclusions from systematic reviews to evaluate open-domain scientific conclusion synthesis. The benchmark draws on an expert-validated automated evaluation pipeline that decomposes conclusions into atomic facts and measures correctness and comprehensiveness via factual precision and recall. To mitigate data leakage, we further introduce SciConHarness, a clean-room evaluation harness that equips agents with controlled web interaction to ensure valid measurement. Evaluating 8 frontier models and deep research agents, we find that factual quality remains low: under clean-room settings, the best agent achieves only a factual F1 of 0.337. Our clean-room setting consistently reduces performance relative to unconstrained evaluation, suggesting that leakage inflates estimates of models' true synthesis capabilities. Finally, we audit consumer-facing agents (e.g., Google AI Overview, OpenEvidence) and find they frequently generate incomplete and sometimes contradictory conclusions, even when the ground-truth answer is available. Overall, our results show that reliable synthesis of scientific conclusions remains an open challenge, and that clean-room evaluation is essential for assessing open-domain AI agents.",
+      "pub_date": "Thu, 11 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "AI代理能否综合科学结论？",
+        "summary": "引入SciConBench基准测试，评估AI代理综合科学结论的能力。发现最佳代理在受控环境下F1分数仅0.337，且无约束评估会高估能力。消费者代理常生成不完整或矛盾结论，表明可靠综合仍是挑战。",
+        "summary_en": "Introduces SciConBench, a benchmark for evaluating AI agents' ability to synthesize scientific conclusions. Finds best agent achieves only 0.337 F1 in clean-room settings; unconstrained evaluation inflates capabilities. Consumer agents often produce incomplete or contradictory conclusions, showing reliable synthesis remains an open challenge.",
+        "tags": [
+          "benchmark",
+          "research",
+          "evaluation",
+          "llm",
+          "agent-framework"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-11-rss-001",
+        "title": "AI代理能否综合科学结论？",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.11337",
+        "language": "en",
+        "summary": "引入SciConBench基准测试，评估AI代理综合科学结论的能力。发现最佳代理在受控环境下F1分数仅0.337，且无约束评估会高估能力。消费者代理常生成不完整或矛盾结论，表明可靠综合仍是挑战。",
+        "summary_en": "Introduces SciConBench, a benchmark for evaluating AI agents' ability to synthesize scientific conclusions. Finds best agent achieves only 0.337 F1 in clean-room settings; unconstrained evaluation inflates capabilities. Consumer agents often produce incomplete or contradictory conclusions, showing reliable synthesis remains an open challenge.",
+        "tags": [
+          "benchmark",
+          "research",
+          "evaluation",
+          "llm",
+          "agent-framework"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-11T20:09:21.647331+08:00",
+        "updated_at": "2026-06-11T20:09:21.647334+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Knowing When to Ask: Self-Gated Clarification for Hierarchical Language Agents",
+      "url": "https://arxiv.org/abs/2606.11349",
+      "description": "arXiv:2606.11349v1 Announce Type: new \nAbstract: In hierarchical reasoning, failures often originate at intermediate decision points where the agent commits to a wrong branch without recognizing that it lacks critical information. Rather than treating clarification as an external uncertainty trigger, we propose ACTION-RATING, a formulation that places it inside the agent's action space on a shared ordinal scale with navigation, so that asking competes directly with acting at every decision point and help-seeking becomes observable at intermediate states. Two structurally distinct information-seeking modes emerge from the agent's own ratings: mandatory (no viable branch) and opportunistic (residual uncertainty despite a leading candidate). On Harmonized Tariff Schedule classification (30,000-node taxonomy, three benchmarks, 9~LLMs across 4 families), we observe a regime shift from mandatory to opportunistic clarification, with Information-Seeking Effectiveness (ISE), a local diagnostic defined as the fraction of help interactions followed by a correct next navigation step (not a final-task metric), rising from 50% to 74%. Three diagnostic contrasts fail to reproduce this structure. A separability test shows that the information-seeking pattern (mode split, ISE ranking) persists when answer quality is degraded (-18.8% accuracy), supporting an empirical separation between where an agent seeks help and the quality of the help it receives. Under the controlled answer channel, accuracy gains reach +16.2% at 10-digit; we read this as an upper bound on what better localization could unlock, not a deployment estimate.",
+      "pub_date": "Thu, 11 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "自门控澄清：分层语言代理的智能求助机制",
+        "summary": "提出ACTION-RATING框架，将澄清行为嵌入代理的动作空间，与导航动作在同一序数尺度上竞争。在3万个节点的关税分类任务中，代理展现出强制性和机会性两种信息寻求模式，信息寻求有效性从50%提升至74%，准确率提升16.2%。",
+        "summary_en": "Proposes ACTION-RATING, embedding clarification into the agent's action space on a shared ordinal scale with navigation. On a 30,000-node taxonomy task, agents exhibit mandatory and opportunistic information-seeking modes, with ISE rising from 50% to 74% and accuracy gains up to 16.2%.",
+        "tags": [
+          "agent-framework",
+          "research",
+          "llm",
+          "tool"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-11-rss-007",
+        "title": "自门控澄清：分层语言代理的智能求助机制",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.11349",
+        "language": "en",
+        "summary": "提出ACTION-RATING框架，将澄清行为嵌入代理的动作空间，与导航动作在同一序数尺度上竞争。在3万个节点的关税分类任务中，代理展现出强制性和机会性两种信息寻求模式，信息寻求有效性从50%提升至74%，准确率提升16.2%。",
+        "summary_en": "Proposes ACTION-RATING, embedding clarification into the agent's action space on a shared ordinal scale with navigation. On a 30,000-node taxonomy task, agents exhibit mandatory and opportunistic information-seeking modes, with ISE rising from 50% to 74% and accuracy gains up to 16.2%.",
+        "tags": [
+          "agent-framework",
+          "research",
+          "llm",
+          "tool"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-06-11T20:09:21.647369+08:00",
+        "updated_at": "2026-06-11T20:09:21.647371+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Automated Mediator for Human Negotiation: Pre-Mediation via a Structured LLM Pipeline",
+      "url": "https://arxiv.org/abs/2606.11379",
+      "description": "arXiv:2606.11379v1 Announce Type: new \nAbstract: Pre-mediation, the preparatory phase preceding direct human negotiation, plays a critical role in achieving mutually beneficial agreements, yet is often omitted due to cost, time, and limited access to trained mediators. We introduce an automated mediator for human negotiation, implemented as a structured pipeline of LLM modules, that supports pre-mediation in integrative negotiation settings. The pipeline decomposes preparation into specialized modules for dialogue, preference prediction, response-level critique, and structured summarization, separating inference, generation, and evaluation to address limitations of monolithic single-prompt approaches. We use the term \"agent\" for each module following common LLM-systems terminology, but the components are not autonomous and do not interact peer-to-peer; outputs are passed forward in a fixed sequence. We evaluate the system in two controlled human-subject experiments comparing AI-based pre-mediation with professional human mediators in a multi-issue negotiation scenario. On short-term self-reported measures, the automated mediator achieves preparation outcomes broadly comparable to human mediators, including trust in the mediator and confidence in reaching mutually beneficial agreements, while achieving substantially lower error on the preference-inference task under our scenario and prompts (36% lower RMSE). A second study shows that targeted prompt refinements reduce excessive affirmation patterns from 36.6% to 16.8%, matching human mediator baselines. Our findings suggest that structured LLM pipelines can provide scalable, low-effort pre-mediation support broadly comparable to human mediators on short-term self-reported preparation outcomes. The pipeline's single-party design mirrors how human mediators run pre-mediation today and enables parallel deployment across all parties to a dispute, supporting scalability.",
+      "pub_date": "Thu, 11 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "基于结构化LLM流水线的自动化人类谈判调解器",
+        "summary": "提出一种自动化谈判调解器，通过结构化LLM流水线（包括对话、偏好预测、批评和总结模块）实现人类谈判前的准备阶段。实验表明，在短期自我报告指标上，其效果与专业人类调解员相当，且在偏好推理任务上误差降低36%。",
+        "summary_en": "Introduces an automated mediator for human negotiation using a structured LLM pipeline (dialogue, preference prediction, critique, summarization). Experiments show comparable short-term outcomes to human mediators with 36% lower RMSE on preference inference.",
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "tool"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-11-rss-010",
+        "title": "基于结构化LLM流水线的自动化人类谈判调解器",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.11379",
+        "language": "en",
+        "summary": "提出一种自动化谈判调解器，通过结构化LLM流水线（包括对话、偏好预测、批评和总结模块）实现人类谈判前的准备阶段。实验表明，在短期自我报告指标上，其效果与专业人类调解员相当，且在偏好推理任务上误差降低36%。",
+        "summary_en": "Introduces an automated mediator for human negotiation using a structured LLM pipeline (dialogue, preference prediction, critique, summarization). Experiments show comparable short-term outcomes to human mediators with 36% lower RMSE on preference inference.",
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "tool"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-06-11T20:09:21.647388+08:00",
+        "updated_at": "2026-06-11T20:09:21.647390+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "PoQ-Judge: A Multi-Architecture Evaluation Framework for Cost-Aware Proof-of-Quality in Decentralized LLM Inference",
+      "url": "https://arxiv.org/abs/2606.11196",
+      "description": "arXiv:2606.11196v1 Announce Type: new \nAbstract: Decentralized LLM inference networks need lightweight, reference-free quality evaluation for Proof of Quality (PoQ). We present PoQ-Judge, a framework that trains dedicated judge models to score query-output pairs without ground-truth references. We study three architectures across the quality-cost tradeoff: a TextCNN judge, a MiniLM cross-encoder, and a DeBERTa judge. Using two-stage training on UltraFeedback plus GPT-labeled in-domain data, the best model reaches 0.747 Pearson correlation with the ground-truth proxy on a held-out test set, outperforming reference-based evaluators from prior work. As a reference-free component in composite scoring, it achieves 0.645 Pearson correlation, matching the best single reference-based evaluator while removing the need for reference answers. We also show that online calibration identifies semantic quality as the dominant dimension and that cascade evaluation reduces cost by 72.7 percent with only modest quality loss. Results are much stronger on QA than summarization, pointing to proxy quality as the main remaining limitation.",
+      "pub_date": "Thu, 11 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "PoQ-Judge：面向去中心化LLM推理的轻量级质量评估框架",
+        "summary": "PoQ-Judge是一个用于去中心化LLM推理网络的轻量级、无参考质量评估框架。它训练专用评判模型对查询-输出对进行评分，无需真实参考答案。研究了TextCNN、MiniLM和DeBERTa三种架构，最佳模型与真实代理的皮尔逊相关系数达0.747，且作为无参考组件时匹配最佳单参考评估器。级联评估可降低72.7%成本，仅轻微质量损失。",
+        "summary_en": "PoQ-Judge is a lightweight, reference-free quality evaluation framework for decentralized LLM inference networks. It trains dedicated judge models to score query-output pairs without ground-truth references. The best model achieves 0.747 Pearson correlation with ground-truth proxy, and as a reference-free component matches the best single reference-based evaluator. Cascade evaluation reduces cost by 72.7% with modest quality loss.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "infrastructure"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-11-rss-002",
+        "title": "PoQ-Judge：面向去中心化LLM推理的轻量级质量评估框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.11196",
+        "language": "en",
+        "summary": "PoQ-Judge是一个用于去中心化LLM推理网络的轻量级、无参考质量评估框架。它训练专用评判模型对查询-输出对进行评分，无需真实参考答案。研究了TextCNN、MiniLM和DeBERTa三种架构，最佳模型与真实代理的皮尔逊相关系数达0.747，且作为无参考组件时匹配最佳单参考评估器。级联评估可降低72.7%成本，仅轻微质量损失。",
+        "summary_en": "PoQ-Judge is a lightweight, reference-free quality evaluation framework for decentralized LLM inference networks. It trains dedicated judge models to score query-output pairs without ground-truth references. The best model achieves 0.747 Pearson correlation with ground-truth proxy, and as a reference-free component matches the best single reference-based evaluator. Cascade evaluation reduces cost by 72.7% with modest quality loss.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "infrastructure"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-11T20:09:21.647339+08:00",
+        "updated_at": "2026-06-11T20:09:21.647341+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "The Structural Attention Tax: How Retrieval Format Hijacks In-Context Learning Independent of Content",
+      "url": "https://arxiv.org/abs/2606.11198",
+      "description": "arXiv:2606.11198v1 Announce Type: new \nAbstract: Retrieval-augmented generation (RAG) systems inject external knowledge to improve LLM outputs, yet the format of injected content -- distinct from its semantic relevance -- can independently distort the model's attention distribution. We identify and formalise a phenomenon we term the structural attention tax: knowledge graph (KG) triples, due to their relational delimiters and repeated slot patterns, capture 2-3x more attention per token than semantically equivalent natural-language text ($\\hat{o}$(KG) $\\approx$ 0.70 vs. $\\hat{o}$(neutral) $\\approx$ 0.25), compressing demonstration attention by up to 42% -- regardless of whether the triples are relevant or noise. We develop a formal framework decomposing attention scores into semantic and structural components (Eq. 2), derive a compression bound (Proposition 1) connecting token-level format bias to demonstration attention loss, and show that the structural term governs how much attention is diverted while the semantic term governs whether this helps or hurts. This decoupling reveals two orthogonal axes for improving retrieval-augmented ICL: optimising retrieval quality (semantic axis) and reducing format-driven attention capture (structural axis). Empirically, across two model families (Mistral-7B, LLaMA-3-8B) and three QA benchmarks, we observe that source-task alignment dominates: task-matched BM25 retrieval achieves 58-62% on HotpotQA vs. ConceptNet's 25-27%, a >30 pp gap that dwarfs all gating strategies ($\\leq$2 pp). We derive five structure-aware mitigation strategies from the framework, ranging from zero-cost prompt modifications to training-time regularisation; format flattening (S3) is validated by both accuracy and attention-level evidence from a verbalized-triple control, while structural dispersal (S1) yields mixed results that illuminate the challenges of format-level intervention.",
+      "pub_date": "Thu, 11 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "结构注意力税：检索格式如何劫持上下文学习",
+        "summary": "研究发现RAG系统中知识图谱三元组的结构格式会独立于语义内容吸引2-3倍注意力，压缩演示注意力达42%。提出正式框架分解注意力为语义和结构成分，推导压缩界限，并验证源任务对齐比门控策略更重要。提出五种结构感知缓解策略。",
+        "summary_en": "Identifies 'structural attention tax' where KG triples capture 2-3x more attention than equivalent text, compressing demonstration attention by 42%. Formal framework decomposes attention into semantic and structural components; source-task alignment dominates over gating strategies. Proposes five mitigation strategies.",
+        "tags": [
+          "rag",
+          "research",
+          "llm",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-11-rss-003",
+        "title": "结构注意力税：检索格式如何劫持上下文学习",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.11198",
+        "language": "en",
+        "summary": "研究发现RAG系统中知识图谱三元组的结构格式会独立于语义内容吸引2-3倍注意力，压缩演示注意力达42%。提出正式框架分解注意力为语义和结构成分，推导压缩界限，并验证源任务对齐比门控策略更重要。提出五种结构感知缓解策略。",
+        "summary_en": "Identifies 'structural attention tax' where KG triples capture 2-3x more attention than equivalent text, compressing demonstration attention by 42%. Formal framework decomposes attention into semantic and structural components; source-task alignment dominates over gating strategies. Proposes five mitigation strategies.",
+        "tags": [
+          "rag",
+          "research",
+          "llm",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-11T20:09:21.647346+08:00",
+        "updated_at": "2026-06-11T20:09:21.647347+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "NightFeats @ MMU-RAGent NeurIPS 2025: A Context-Optimized Multi-Agent RAG System for the Text-to-Text Track",
+      "url": "https://arxiv.org/abs/2606.11199",
+      "description": "arXiv:2606.11199v1 Announce Type: new \nAbstract: We present NightFeats, a structured multi-agent retrieval-augmented generation (RAG) system submitted to the MMU-RAGent competition at NeurIPS 2025, where it was awarded Best Dynamic Evaluation in the text-to-text track. Rather than targeting benchmark maximization, this work proposes a principled pipeline that decomposes knowledge synthesis into three coordinated phases: retrieval, curation, and composition, each governed by explicit intermediate representations and handoff contracts. Inspired by Agentic Context Engineering (ACE), the system introduces temporal-semantic reranking, bounded contradiction reconciliation, and citation-preserving composition as core architectural primitives. Competition results show that NightFeats surpasses proprietary baselines including Claude-SonnetV2 and Nova-Pro on LLM-as-a-Judge and Human Likert evaluations, confirming that architectural transparency and verifiable evidence grounding are better aligned with human preferences than systems optimizing narrowly for automatic similarity metrics.",
+      "pub_date": "Thu, 11 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "NightFeats: 面向文本生成赛道的情境优化多智能体RAG系统",
+        "summary": "NightFeats 是一个结构化多智能体检索增强生成（RAG）系统，在 NeurIPS 2025 MMU-RAGent 竞赛中获得最佳动态评估奖。该系统将知识合成分解为检索、策展和组合三个阶段，引入时间语义重排序、有界矛盾协调和保留引用的组合等核心架构原语，在 LLM-as-a-Judge 和人类 Likert 评估中超越 Claude-SonnetV2 和 Nova-Pro 等专有基线。",
+        "summary_en": "NightFeats is a structured multi-agent RAG system that won Best Dynamic Evaluation at NeurIPS 2025 MMU-RAGent. It decomposes knowledge synthesis into retrieval, curation, and composition phases, introducing temporal-semantic reranking, bounded contradiction reconciliation, and citation-preserving composition, outperforming proprietary baselines like Claude-SonnetV2 and Nova-Pro.",
+        "tags": [
+          "rag",
+          "agent-framework",
+          "research",
+          "benchmark",
+          "multimodal"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-11-rss-004",
+        "title": "NightFeats: 面向文本生成赛道的情境优化多智能体RAG系统",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.11199",
+        "language": "en",
+        "summary": "NightFeats 是一个结构化多智能体检索增强生成（RAG）系统，在 NeurIPS 2025 MMU-RAGent 竞赛中获得最佳动态评估奖。该系统将知识合成分解为检索、策展和组合三个阶段，引入时间语义重排序、有界矛盾协调和保留引用的组合等核心架构原语，在 LLM-as-a-Judge 和人类 Likert 评估中超越 Claude-SonnetV2 和 Nova-Pro 等专有基线。",
+        "summary_en": "NightFeats is a structured multi-agent RAG system that won Best Dynamic Evaluation at NeurIPS 2025 MMU-RAGent. It decomposes knowledge synthesis into retrieval, curation, and composition phases, introducing temporal-semantic reranking, bounded contradiction reconciliation, and citation-preserving composition, outperforming proprietary baselines like Claude-SonnetV2 and Nova-Pro.",
+        "tags": [
+          "rag",
+          "agent-framework",
+          "research",
+          "benchmark",
+          "multimodal"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-11T20:09:21.647351+08:00",
+        "updated_at": "2026-06-11T20:09:21.647353+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Detecting AI-Generated Content on Social Media with Multi-modal Language Models",
+      "url": "https://arxiv.org/abs/2606.11200",
+      "description": "arXiv:2606.11200v1 Announce Type: new \nAbstract: Generative AI has enabled the creation of photorealistic images and videos that are increasingly disseminated on social media, often used for spam, misinformation, manipulation, and fraud. Existing AI-generated content (AIGC) detection methods face challenges including poor generalization to new generation models, reliance on single modalities, and lack of interpretable explanations. We present our pipeline that mitigates these issues by continuously curating diverse multi-modal social media data and training a compact vision-language model for detection and explanation. Our model achieves state-of-the-art detection performance on public benchmarks and demonstrates robust detection and explanation capabilities on internal social media datasets across multiple platforms. We deployed our model for post recommendation on social media platforms and observed positive downstream impacts on user engagement, demonstrating that it is feasible to perform effective AIGC detection in dynamic, real-world social media environments.",
+      "pub_date": "Thu, 11 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "基于多模态语言模型的社交媒体AI生成内容检测",
+        "summary": "提出一种持续收集多模态社交媒体数据并训练紧凑视觉语言模型的管线，用于检测和解释AI生成内容。在公开基准上达到SOTA性能，并在多平台内部数据集上展现出鲁棒检测和解释能力。部署后对用户参与度产生积极影响，证明在动态真实社交环境中进行有效AIGC检测是可行的。",
+        "summary_en": "We present a pipeline that continuously curates diverse multi-modal social media data and trains a compact vision-language model for detecting and explaining AI-generated content. It achieves state-of-the-art performance on public benchmarks and robust detection on internal datasets across platforms. Deployment for post recommendation shows positive downstream impacts on user engagement, demonstrating feasibility in dynamic real-world environments.",
+        "tags": [
+          "multimodal",
+          "research",
+          "application",
+          "security",
+          "benchmark"
+        ],
+        "category": "multimodal",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-11-rss-008",
+        "title": "基于多模态语言模型的社交媒体AI生成内容检测",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.11200",
+        "language": "en",
+        "summary": "提出一种持续收集多模态社交媒体数据并训练紧凑视觉语言模型的管线，用于检测和解释AI生成内容。在公开基准上达到SOTA性能，并在多平台内部数据集上展现出鲁棒检测和解释能力。部署后对用户参与度产生积极影响，证明在动态真实社交环境中进行有效AIGC检测是可行的。",
+        "summary_en": "We present a pipeline that continuously curates diverse multi-modal social media data and trains a compact vision-language model for detecting and explaining AI-generated content. It achieves state-of-the-art performance on public benchmarks and robust detection on internal datasets across platforms. Deployment for post recommendation shows positive downstream impacts on user engagement, demonstrating feasibility in dynamic real-world environments.",
+        "tags": [
+          "multimodal",
+          "research",
+          "application",
+          "security",
+          "benchmark"
+        ],
+        "category": "multimodal",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-06-11T20:09:21.647375+08:00",
+        "updated_at": "2026-06-11T20:09:21.647377+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "One Jailbreak, Many Tongues: Learning Language-Insensitive Intention Representations for Multilingual Jailbreak Detection",
+      "url": "https://arxiv.org/abs/2606.11202",
+      "description": "arXiv:2606.11202v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly deployed in applications for global multilingual users, yet safety training remains concentrated in dominant languages and has not progressed in parallel with multilingual capability, creating exploitable gaps for jailbreak attacks. Current jailbreak defenses are largely developed and evaluated in dominant languages, and their effectiveness is limited by the scarcity of aligned multilingual supervision and representations dispersion caused by language variation. To address this issue, we propose MLJailDe, a multilingual jailbreak detection framework designed to improve both multilingual robustness and cross-lingual generalization. MLJailDe first introduces a multilingual back-translation data augmentation algorithm to construct a semantically consistent and functionally effective dataset spanning 11 languages, consisting of 2,232 benign and 1,239 jailbreak samples. On this basis, MLJailDe employs relative-distance constraints to reduce cross-lingual representation dispersion and encourage jailbreak prompts with similar intent to form consistent clusters across languages, while an imbalance-aware classification objective is further used to alleviate class imbalance and learn more reliable multilingual decision boundaries. Experimental results show that MLJailDe outperforms state-of-the-art baselines across multiple languages, achieving an F1 score of 98.5\\%, and obtains an average F1 score of 97.1\\% on unseen languages, demonstrating strong effectiveness and cross-lingual generalization.",
+      "pub_date": "Thu, 11 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "多语言越狱检测框架MLJailDe",
+        "summary": "提出MLJailDe多语言越狱检测框架，通过多语言回译数据增强和相对距离约束，减少跨语言表示分散，实现跨语言泛化。在11种语言上F1达98.5%，未见语言平均F1为97.1%。",
+        "summary_en": null,
+        "tags": [
+          "llm",
+          "security",
+          "multilingual",
+          "research",
+          "benchmark"
+        ],
+        "category": "security",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-11-rss-005",
+        "title": "多语言越狱检测框架MLJailDe",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.11202",
+        "language": "en",
+        "summary": "提出MLJailDe多语言越狱检测框架，通过多语言回译数据增强和相对距离约束，减少跨语言表示分散，实现跨语言泛化。在11种语言上F1达98.5%，未见语言平均F1为97.1%。",
+        "summary_en": null,
+        "tags": [
+          "llm",
+          "security",
+          "multilingual",
+          "research",
+          "benchmark"
+        ],
+        "category": "security",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-11T20:09:21.647356+08:00",
+        "updated_at": "2026-06-11T20:09:21.647359+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

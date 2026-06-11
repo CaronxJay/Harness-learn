@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-11-rss-007",
+  "title": "自门控澄清：分层语言代理的智能求助机制",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.11349",
+  "language": "en",
+  "summary": "提出ACTION-RATING框架，将澄清行为嵌入代理的动作空间，与导航动作在同一序数尺度上竞争。在3万个节点的关税分类任务中，代理展现出强制性和机会性两种信息寻求模式，信息寻求有效性从50%提升至74%，准确率提升16.2%。",
+  "summary_en": "Proposes ACTION-RATING, embedding clarification into the agent's action space on a shared ordinal scale with navigation. On a 30,000-node taxonomy task, agents exhibit mandatory and opportunistic information-seeking modes, with ISE rising from 50% to 74% and accuracy gains up to 16.2%.",
+  "tags": [
+    "agent-framework",
+    "research",
+    "llm",
+    "tool"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-06-11T20:09:21.647369+08:00",
+  "updated_at": "2026-06-11T20:09:21.647371+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

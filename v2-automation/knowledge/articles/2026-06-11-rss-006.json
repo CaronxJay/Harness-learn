@@ -1,0 +1,24 @@
+{
+  "id": "2026-06-11-rss-006",
+  "title": "海马体显式记忆：迈向通用人工智能的基石",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.11245",
+  "language": "en",
+  "summary": "本文提出，将显式记忆整合到大语言模型中是迈向通用人工智能的关键。作者认为LLM的学习机制类似于人类内隐记忆，但高阶认知功能（如长期战略规划、元认知和符号推理）依赖于海马体显式记忆，无法仅从内隐统计学习中产生。文章结合神经科学发现和计算需求，为显式记忆整合奠定基础。",
+  "summary_en": "This position paper argues that integrating explicit memory is the cornerstone for advancing LLMs toward AGI. It posits that while LLMs learn via implicit memory, higher-order cognitive functions require hippocampal explicit memory, drawing on neuroscience and computational requirements.",
+  "tags": [
+    "llm",
+    "research",
+    "infrastructure"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-06-11T20:09:21.647362+08:00",
+  "updated_at": "2026-06-11T20:09:21.647364+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

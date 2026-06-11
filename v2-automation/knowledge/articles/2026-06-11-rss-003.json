@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-11-rss-003",
+  "title": "结构注意力税：检索格式如何劫持上下文学习",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.11198",
+  "language": "en",
+  "summary": "研究发现RAG系统中知识图谱三元组的结构格式会独立于语义内容吸引2-3倍注意力，压缩演示注意力达42%。提出正式框架分解注意力为语义和结构成分，推导压缩界限，并验证源任务对齐比门控策略更重要。提出五种结构感知缓解策略。",
+  "summary_en": "Identifies 'structural attention tax' where KG triples capture 2-3x more attention than equivalent text, compressing demonstration attention by 42%. Formal framework decomposes attention into semantic and structural components; source-task alignment dominates over gating strategies. Proposes five mitigation strategies.",
+  "tags": [
+    "rag",
+    "research",
+    "llm",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-11T20:09:21.647346+08:00",
+  "updated_at": "2026-06-11T20:09:21.647347+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

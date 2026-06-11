@@ -1,0 +1,26 @@
+{
+  "id": "2026-06-11-rss-005",
+  "title": "多语言越狱检测框架MLJailDe",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.11202",
+  "language": "en",
+  "summary": "提出MLJailDe多语言越狱检测框架，通过多语言回译数据增强和相对距离约束，减少跨语言表示分散，实现跨语言泛化。在11种语言上F1达98.5%，未见语言平均F1为97.1%。",
+  "summary_en": null,
+  "tags": [
+    "llm",
+    "security",
+    "multilingual",
+    "research",
+    "benchmark"
+  ],
+  "category": "security",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-11T20:09:21.647356+08:00",
+  "updated_at": "2026-06-11T20:09:21.647359+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

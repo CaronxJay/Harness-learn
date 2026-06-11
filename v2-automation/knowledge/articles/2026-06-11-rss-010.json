@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-11-rss-010",
+  "title": "基于结构化LLM流水线的自动化人类谈判调解器",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.11379",
+  "language": "en",
+  "summary": "提出一种自动化谈判调解器，通过结构化LLM流水线（包括对话、偏好预测、批评和总结模块）实现人类谈判前的准备阶段。实验表明，在短期自我报告指标上，其效果与专业人类调解员相当，且在偏好推理任务上误差降低36%。",
+  "summary_en": "Introduces an automated mediator for human negotiation using a structured LLM pipeline (dialogue, preference prediction, critique, summarization). Experiments show comparable short-term outcomes to human mediators with 36% lower RMSE on preference inference.",
+  "tags": [
+    "llm",
+    "research",
+    "application",
+    "tool"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-06-11T20:09:21.647388+08:00",
+  "updated_at": "2026-06-11T20:09:21.647390+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

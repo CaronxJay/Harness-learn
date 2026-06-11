@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-11-rss-002",
+  "title": "PoQ-Judge：面向去中心化LLM推理的轻量级质量评估框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.11196",
+  "language": "en",
+  "summary": "PoQ-Judge是一个用于去中心化LLM推理网络的轻量级、无参考质量评估框架。它训练专用评判模型对查询-输出对进行评分，无需真实参考答案。研究了TextCNN、MiniLM和DeBERTa三种架构，最佳模型与真实代理的皮尔逊相关系数达0.747，且作为无参考组件时匹配最佳单参考评估器。级联评估可降低72.7%成本，仅轻微质量损失。",
+  "summary_en": "PoQ-Judge is a lightweight, reference-free quality evaluation framework for decentralized LLM inference networks. It trains dedicated judge models to score query-output pairs without ground-truth references. The best model achieves 0.747 Pearson correlation with ground-truth proxy, and as a reference-free component matches the best single reference-based evaluator. Cascade evaluation reduces cost by 72.7% with modest quality loss.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "infrastructure"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-11T20:09:21.647339+08:00",
+  "updated_at": "2026-06-11T20:09:21.647341+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

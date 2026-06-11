@@ -1,0 +1,26 @@
+{
+  "id": "2026-06-11-rss-001",
+  "title": "AI代理能否综合科学结论？",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.11337",
+  "language": "en",
+  "summary": "引入SciConBench基准测试，评估AI代理综合科学结论的能力。发现最佳代理在受控环境下F1分数仅0.337，且无约束评估会高估能力。消费者代理常生成不完整或矛盾结论，表明可靠综合仍是挑战。",
+  "summary_en": "Introduces SciConBench, a benchmark for evaluating AI agents' ability to synthesize scientific conclusions. Finds best agent achieves only 0.337 F1 in clean-room settings; unconstrained evaluation inflates capabilities. Consumer agents often produce incomplete or contradictory conclusions, showing reliable synthesis remains an open challenge.",
+  "tags": [
+    "benchmark",
+    "research",
+    "evaluation",
+    "llm",
+    "agent-framework"
+  ],
+  "category": "benchmark",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-11T20:09:21.647331+08:00",
+  "updated_at": "2026-06-11T20:09:21.647334+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
