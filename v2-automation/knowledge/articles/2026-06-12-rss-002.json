@@ -1,0 +1,26 @@
+{
+  "id": "2026-06-12-rss-002",
+  "title": "Arbor：面向自主智能体的树搜索认知层框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.12563",
+  "language": "en",
+  "summary": "Arbor是一个多智能体框架，通过结构化树搜索作为认知层，使自主智能体能在大型有状态动作空间中运行。它维护一个显式搜索树作为共享工作记忆，将失败视为诊断信号重塑探索。在LLM推理优化中，Arbor实现了高达193%的吞吐量-延迟帕累托改进，远超供应商优化基线。",
+  "summary_en": "Arbor is a multi-agent framework that introduces structured tree search as a cognition layer for autonomous agents in large, stateful action spaces. It maintains an explicit search tree as shared working memory, treating failures as diagnostic signals. On LLM inference optimization, Arbor achieves up to 193% throughput-latency Pareto improvement over vendor-optimized baselines.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "research",
+    "infrastructure",
+    "optimization"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-12T19:42:45.989325+08:00",
+  "updated_at": "2026-06-12T19:42:45.989327+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

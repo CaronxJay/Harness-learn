@@ -1,0 +1,26 @@
+{
+  "id": "2026-06-12-rss-001",
+  "title": "ToolSense：LLM参数化工具知识审计诊断框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.12451",
+  "language": "en",
+  "summary": "ToolSense是一个开源诊断框架，用于审计LLM中的参数化工具知识。它自动生成三个基准测试：现实检索基准（RRB）、MCQ探测基准和QA探测基准。在ToolBench上评估发现知识-检索分离现象：RRB上性能下降50-64个百分点，且部分模型在事实探测上接近随机。",
+  "summary_en": "ToolSense is an open-source diagnostic framework for auditing parametric tool knowledge in LLMs. It auto-generates three benchmarks: Realistic Retrieval Benchmark (RRB), MCQ probing, and QA probing. Evaluation on ToolBench reveals a knowledge-retrieval dissociation: performance drops 50-64 points on RRB, and some models score near-random on factual probes.",
+  "tags": [
+    "llm",
+    "benchmark",
+    "tool",
+    "evaluation",
+    "research"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-12T19:42:45.989317+08:00",
+  "updated_at": "2026-06-12T19:42:45.989321+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

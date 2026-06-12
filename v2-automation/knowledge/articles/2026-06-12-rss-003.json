@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-12-rss-003",
+  "title": "Pythagoras-Prover：通过增强的Lean形式化推进高效形式化证明",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.12594",
+  "language": "en",
+  "summary": "Pythagoras-Prover是一个计算高效的Lean定理证明器开源系列，包含4B和32B自回归模型以及首个基于扩散的证明器（4B）。通过课程式SFT、动态证明推理过滤和增强的Lean形式化（ALF）技术，在MiniF2F-Test上，4B模型以167倍更少的参数超越DeepSeek-Prover-V2-671B（86.1% vs 82.4%），32B模型达到93.0%的开放源码最高水平。",
+  "summary_en": null,
+  "tags": [
+    "research",
+    "open-source",
+    "llm",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-12T19:42:45.989330+08:00",
+  "updated_at": "2026-06-12T19:42:45.989331+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

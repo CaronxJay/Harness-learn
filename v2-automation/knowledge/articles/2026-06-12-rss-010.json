@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-12-rss-010",
+  "title": "波斯谚语约束下的LLM语义解压缩研究",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.12599",
+  "language": "en",
+  "summary": "本文提出“约束语义解压缩”任务，以波斯谚语为条件生成故事，评估LLM将抽象文化知识转化为忠实叙事的能力。构建了PAND数据集，通过混合评估框架发现LLM存在“解压缩差距”：表面流畅但未能忠实体现谚语的道德因果结构。显式推理和迭代改进可部分缓解此问题。",
+  "summary_en": null,
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "fine-tuning"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-06-12T19:42:45.989359+08:00",
+  "updated_at": "2026-06-12T19:42:45.989360+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

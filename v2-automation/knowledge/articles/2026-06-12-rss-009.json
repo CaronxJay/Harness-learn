@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-12-rss-009",
+  "title": "MARD：镜像增强推理蒸馏用于机制级药物相互作用预测",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.12578",
+  "language": "en",
+  "summary": "提出MARD-7B模型，通过镜像增强推理蒸馏实现机制级药物相互作用预测，在32系统对比中准确率超越最佳基线13.9个百分点、GPT-4o 6.7个百分点，成本仅为前沿API的1%。",
+  "summary_en": null,
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-06-12T19:42:45.989355+08:00",
+  "updated_at": "2026-06-12T19:42:45.989357+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-12-rss-008",
+  "title": "让科学图表讲述故事：基于论文的图表视频生成",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.12576",
+  "language": "en",
+  "summary": "提出MINARD管线，从科学图表和论文生成带旁白、区域定位的讲解视频。发布FigTalk基准，包含新评估指标。MINARD在自动和人工评估中优于现有方法。",
+  "summary_en": "Proposes MINARD pipeline to generate narrated, region-grounded walkthrough videos from scientific figures and their papers. Releases FigTalk benchmark with new grounding metrics. Outperforms existing approaches in automatic and human evaluations.",
+  "tags": [
+    "multimodal",
+    "research",
+    "benchmark",
+    "application"
+  ],
+  "category": "multimodal",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-06-12T19:42:45.989352+08:00",
+  "updated_at": "2026-06-12T19:42:45.989353+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

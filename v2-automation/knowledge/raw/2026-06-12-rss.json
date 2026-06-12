@@ -1,0 +1,483 @@
+{
+  "collected_at": "2026-06-12T19:42:45.990129+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "ToolSense: A Diagnostic Framework for Auditing Parametric Tool Knowledge in LLMs",
+      "url": "https://arxiv.org/abs/2606.12451",
+      "description": "arXiv:2606.12451v1 Announce Type: new \nAbstract: Large language models deployed as agents over large tool catalogs face a critical tool-retrieval bottleneck. As embedding-based retrieval approaches rely on compact encoders that may under-capture specialized tool semantics, parametric tool retrieval addresses this by encoding each tool as a virtual token appended to the LLM vocabulary, fine-tuned in two stages (memorization then retrieval SFT) to use the LLM as a retriever, achieving strong performance on standard ToolBench retrieval benchmarks. Yet these benchmarks use verbose, fully-specified queries, and their evaluation applies constrained decoding that restricts outputs to valid token paths, neither reveals whether the model actually understands its tools. We introduce \\textbf{ToolSense}, an open-source LLM-powered diagnostic framework that takes any tool catalog as input and automatically generates three benchmarks: a Realistic Retrieval Benchmark (RRB) with queries at three ambiguity tiers, an MCQ probing benchmark, and a QA probing benchmark. Applying ToolSense to ToolBench (~47k tools) and evaluating five parametric model training configurations reveals a knowledge-retrieval dissociation: on RRB queries, several configurations collapse by ~50-64 percentage points compared to fully-specified ToolBench benchmarks, falling below the embedding-model baseline. Additionally, despite strong retrieval performance, some models score near-random on factual probes, suggesting a knowledge-retrieval dissociation. We open-source the ToolSense framework and the ToolBench diagnostic benchmarks at https://github.com/SAP/toolsense.",
+      "pub_date": "Fri, 12 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "ToolSense：LLM参数化工具知识审计诊断框架",
+        "summary": "ToolSense是一个开源诊断框架，用于审计LLM中的参数化工具知识。它自动生成三个基准测试：现实检索基准（RRB）、MCQ探测基准和QA探测基准。在ToolBench上评估发现知识-检索分离现象：RRB上性能下降50-64个百分点，且部分模型在事实探测上接近随机。",
+        "summary_en": "ToolSense is an open-source diagnostic framework for auditing parametric tool knowledge in LLMs. It auto-generates three benchmarks: Realistic Retrieval Benchmark (RRB), MCQ probing, and QA probing. Evaluation on ToolBench reveals a knowledge-retrieval dissociation: performance drops 50-64 points on RRB, and some models score near-random on factual probes.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "tool",
+          "evaluation",
+          "research"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-12-rss-001",
+        "title": "ToolSense：LLM参数化工具知识审计诊断框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.12451",
+        "language": "en",
+        "summary": "ToolSense是一个开源诊断框架，用于审计LLM中的参数化工具知识。它自动生成三个基准测试：现实检索基准（RRB）、MCQ探测基准和QA探测基准。在ToolBench上评估发现知识-检索分离现象：RRB上性能下降50-64个百分点，且部分模型在事实探测上接近随机。",
+        "summary_en": "ToolSense is an open-source diagnostic framework for auditing parametric tool knowledge in LLMs. It auto-generates three benchmarks: Realistic Retrieval Benchmark (RRB), MCQ probing, and QA probing. Evaluation on ToolBench reveals a knowledge-retrieval dissociation: performance drops 50-64 points on RRB, and some models score near-random on factual probes.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "tool",
+          "evaluation",
+          "research"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-12T19:42:45.989317+08:00",
+        "updated_at": "2026-06-12T19:42:45.989321+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Arbor: Tree Search as a Cognition Layer for Autonomous Agents",
+      "url": "https://arxiv.org/abs/2606.12563",
+      "description": "arXiv:2606.12563v1 Announce Type: new \nAbstract: Arbor is a multi-agent framework that introduces structured tree search as a cognition layer for autonomous agents operating in large, stateful action spaces. Prior autonomous optimization systems operate on isolated targets with stateless evaluation. Arbor instead maintains an explicit search tree of scored hypotheses that serves as the shared working memory across agents, evolving with every measurement, treating failures as diagnostic signal that reshapes subsequent exploration, and expanding as prior successes shift the bottleneck distribution.\n  We validate Arbor on full-stack LLM inference optimization, a domain where achieving peak performance has historically required coordinated effort from engineering teams across the application, framework, compiler, kernel, and hardware stack. Arbor pairs an Orchestrator agent, which drives optimization by delegating to Domain Specialists across the inference stack, with a Critic agent that safeguards stability through root-cause analysis, introspection, and measurement validation -- a checks-and-balances architecture where neither agent can unilaterally drive the system. Agent capabilities are decomposed into hard skills (domain expertise) and soft skills (coordination protocols that determine how contributions compose), enabling fully autonomous multi-day campaigns. Arbor achieves up to 193% inference throughput-latency Pareto improvement over vendor-optimized baselines, while a single agent without the harness plateaus at +33% throughput improvement and crashes irrecoverably within hours. Arbor generalizes to multiple generations of hardware platform, and run-to-run variance is within 2 percentage points demonstrating that the method is hardware-agnostic and reproducible.",
+      "pub_date": "Fri, 12 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "Arbor：面向自主智能体的树搜索认知层框架",
+        "summary": "Arbor是一个多智能体框架，通过结构化树搜索作为认知层，使自主智能体能在大型有状态动作空间中运行。它维护一个显式搜索树作为共享工作记忆，将失败视为诊断信号重塑探索。在LLM推理优化中，Arbor实现了高达193%的吞吐量-延迟帕累托改进，远超供应商优化基线。",
+        "summary_en": "Arbor is a multi-agent framework that introduces structured tree search as a cognition layer for autonomous agents in large, stateful action spaces. It maintains an explicit search tree as shared working memory, treating failures as diagnostic signals. On LLM inference optimization, Arbor achieves up to 193% throughput-latency Pareto improvement over vendor-optimized baselines.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "infrastructure",
+          "optimization"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-12-rss-002",
+        "title": "Arbor：面向自主智能体的树搜索认知层框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.12563",
+        "language": "en",
+        "summary": "Arbor是一个多智能体框架，通过结构化树搜索作为认知层，使自主智能体能在大型有状态动作空间中运行。它维护一个显式搜索树作为共享工作记忆，将失败视为诊断信号重塑探索。在LLM推理优化中，Arbor实现了高达193%的吞吐量-延迟帕累托改进，远超供应商优化基线。",
+        "summary_en": "Arbor is a multi-agent framework that introduces structured tree search as a cognition layer for autonomous agents in large, stateful action spaces. It maintains an explicit search tree as shared working memory, treating failures as diagnostic signals. On LLM inference optimization, Arbor achieves up to 193% throughput-latency Pareto improvement over vendor-optimized baselines.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "infrastructure",
+          "optimization"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-12T19:42:45.989325+08:00",
+        "updated_at": "2026-06-12T19:42:45.989327+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Strategic Decision Support for AI Agents",
+      "url": "https://arxiv.org/abs/2606.12587",
+      "description": "arXiv:2606.12587v1 Announce Type: new \nAbstract: Traditionally, decision support studies how humans use machine learning models to make better decisions. In modern agentic systems, this division of roles is increasingly reversed: AI agents act on behalf of users, while humans and tools becomes support mechanisms around them. This role reversal brings reliability concerns to the forefront, since agentic errors can be consequential and agent behavior must remain aligned with human goals and constraints. Departing from the classical view of decision support, we revisit its two basic principles, the cost--value tradeoff of seeking support and the role of uncertainty quantification, in a setting where AI agents are the central actors. We propose a framework for strategic decision support for AI agents through an optimization problem that minimizes support usage subject to controlling a counterfactual missed-support error: the probability that the agent acts alone on instances where support would have materially improved its output. At the population level, we show that the optimal policy is a threshold rule on the value of support. Building on this structure, we develop an online algorithm that adaptively thresholds such a score and uses randomized exploration to control missed-support error without distributional assumptions. We further introduce a calibration-on-the-fly method that reduces unnecessary support calls online. We instantiate this framework across diverse scenarios, including information gathering, human--AI collaboration, and tool use, showing how each can be modeled through the same strategic decision-support lens. Experiments across these settings show that our method reliably controls the target error while substantially reducing support usage in practice.",
+      "pub_date": "Fri, 12 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "AI智能体的战略决策支持框架",
+        "summary": "本文提出一个针对AI智能体的战略决策支持框架，通过优化问题最小化支持使用，同时控制反事实遗漏支持错误（即智能体在需要支持时独自行动的概率）。该框架基于支持价值的阈值规则，开发了在线自适应算法和即时校准方法，在信息收集、人机协作和工具使用等场景中有效降低支持调用次数。",
+        "summary_en": "This paper proposes a strategic decision support framework for AI agents, minimizing support usage while controlling counterfactual missed-support error via a threshold rule on support value. It develops an online adaptive algorithm and calibration-on-the-fly method, reducing support calls across information gathering, human-AI collaboration, and tool use scenarios.",
+        "tags": [
+          "agent-framework",
+          "research",
+          "application",
+          "tool"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-12-rss-005",
+        "title": "AI智能体的战略决策支持框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.12587",
+        "language": "en",
+        "summary": "本文提出一个针对AI智能体的战略决策支持框架，通过优化问题最小化支持使用，同时控制反事实遗漏支持错误（即智能体在需要支持时独自行动的概率）。该框架基于支持价值的阈值规则，开发了在线自适应算法和即时校准方法，在信息收集、人机协作和工具使用等场景中有效降低支持调用次数。",
+        "summary_en": "This paper proposes a strategic decision support framework for AI agents, minimizing support usage while controlling counterfactual missed-support error via a threshold rule on support value. It develops an online adaptive algorithm and calibration-on-the-fly method, reducing support calls across information gathering, human-AI collaboration, and tool use scenarios.",
+        "tags": [
+          "agent-framework",
+          "research",
+          "application",
+          "tool"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-06-12T19:42:45.989338+08:00",
+        "updated_at": "2026-06-12T19:42:45.989339+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Pythagoras-Prover: Advancing Efficient Formal Proving via Augmented Lean Formalisation",
+      "url": "https://arxiv.org/abs/2606.12594",
+      "description": "arXiv:2606.12594v1 Announce Type: new \nAbstract: Modern Lean theorem provers achieve strong performance only with substantial training and inference compute, driven in part by scarce verified proof data and the long reasoning traces of formal proof search, making both supervised fine-tuning (SFT) and sampling expensive. We introduce Pythagoras-Prover, a compute-efficient open-source family of Lean theorem provers built for practical compute budgets. The family spans two generation paradigms: autoregressive models at 4B and 32B parameters, and a first proof-of-concept diffusion-based prover (4B) that iteratively refines Lean proofs at inference time. For training efficiency, we build a Lean-verified corpus stratified into easy, medium, and hard problems for curriculum SFT, so models acquire proof skills progressively from shorter, simpler proofs to longer, harder ones. During SFT, a dynamic proof-reasoning filtering scheme preserves informative proof traces while keeping each instance within an 8k-token context budget. We also introduce Augmented Lean Formalisation (ALF), which expands scarce verified corpora into variants of formal statements, populated via self-distillation for extra training signal without formally verifying every mutated instance. By perturbing known problems while preserving their formal character, ALF reduces reliance on any statement's surface form. Empirically, Pythagoras-Prover-4B surpasses DeepSeek-Prover-V2-671B at pass@32 on MiniF2F-Test (86.1% vs 82.4%) with ~167x fewer parameters, while Pythagoras-Prover-32B sets the open-source state of the art at 93.0% on MiniF2F-Test and solves 93 of 672 PutnamBench problems. We release MiniF2F-ALF, an ALF-mutated contamination-sensitive benchmark on which every evaluated model loses accuracy; here our 32B remains strongest and our 4B matches the prior state of the art, Goedel-Prover-V2-32B.",
+      "pub_date": "Fri, 12 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "Pythagoras-Prover：通过增强的Lean形式化推进高效形式化证明",
+        "summary": "Pythagoras-Prover是一个计算高效的Lean定理证明器开源系列，包含4B和32B自回归模型以及首个基于扩散的证明器（4B）。通过课程式SFT、动态证明推理过滤和增强的Lean形式化（ALF）技术，在MiniF2F-Test上，4B模型以167倍更少的参数超越DeepSeek-Prover-V2-671B（86.1% vs 82.4%），32B模型达到93.0%的开放源码最高水平。",
+        "summary_en": null,
+        "tags": [
+          "research",
+          "open-source",
+          "llm",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-12-rss-003",
+        "title": "Pythagoras-Prover：通过增强的Lean形式化推进高效形式化证明",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.12594",
+        "language": "en",
+        "summary": "Pythagoras-Prover是一个计算高效的Lean定理证明器开源系列，包含4B和32B自回归模型以及首个基于扩散的证明器（4B）。通过课程式SFT、动态证明推理过滤和增强的Lean形式化（ALF）技术，在MiniF2F-Test上，4B模型以167倍更少的参数超越DeepSeek-Prover-V2-671B（86.1% vs 82.4%），32B模型达到93.0%的开放源码最高水平。",
+        "summary_en": null,
+        "tags": [
+          "research",
+          "open-source",
+          "llm",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-12T19:42:45.989330+08:00",
+        "updated_at": "2026-06-12T19:42:45.989331+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "PersonaDrive: Human-Style Retrieval-Augmented VLA Agents for Closed-Loop Driving Simulation",
+      "url": "https://arxiv.org/abs/2606.12616",
+      "description": "arXiv:2606.12616v1 Announce Type: new \nAbstract: Closed-loop driving simulators typically populate their environments with non-ego traffic agents that behave largely the same way, produced either by rule-based traffic managers or by learned models trained toward a single behavioral mode. Recent work introduces style variation through post-hoc labels on observational data or LLM-inferred reward weights, but these signals act as proxies for what a style should reward rather than demonstrations of humans explicitly asked to drive in that style. We introduce PersonaDrive, a pipeline that conditions a vision-language-action (VLA) driving agent on retrieved demonstrations from a style-instructed human driving dataset, in which participants drive CARLA leaderboard routes under aggressive, neutral, and conservative instructions on a driver-in-the-loop rig. The pipeline has three stages: (i) offline triplet mining over per-style human driving data using a combined image-text similarity score; (ii) training a lightweight retrieval head that fuses frozen visual features with a small control encoder over per-style databases; and (iii) fine-tuning a single VLA backbone to treat retrieved context points as in-context behavioral demonstrations during waypoint prediction. At inference, the same backbone is conditioned on any style by swapping which per-style database the retrieval head queries, so selecting a style requires no per-style retraining while enabling human-style, style-diverse non-ego agents for closed-loop simulation. On Bench2Drive, PersonaDrive (no style) improves the driving score by 4.6% over SimLingo and 2.5% over HiP-AD, and under style conditioning attains the highest driving score in every style within a roughly 2% band (its weakest style surpassing the strongest baseline, DMW, by 5.4%), while average speed and acceleration rise by 18% and 25% from the conservative to the aggressive instruction.",
+      "pub_date": "Fri, 12 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "PersonaDrive：面向闭环驾驶模拟的人类风格检索增强VLA智能体",
+        "summary": "PersonaDrive提出一种流水线，通过检索风格指令下的人类驾驶演示，条件化视觉-语言-动作（VLA）驾驶智能体，实现闭环模拟中非自车智能体的风格多样化。无需为每种风格重新训练，在Bench2Drive上驾驶评分提升4.6%，风格间速度与加速度差异显著。",
+        "summary_en": "PersonaDrive proposes a pipeline that conditions a VLA driving agent on retrieved demonstrations from a style-instructed human driving dataset, enabling style-diverse non-ego agents for closed-loop simulation without per-style retraining. It improves driving score by 4.6% on Bench2Drive and shows significant speed/acceleration variation across styles.",
+        "tags": [
+          "llm",
+          "research",
+          "multimodal",
+          "rag",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-12-rss-006",
+        "title": "PersonaDrive：面向闭环驾驶模拟的人类风格检索增强VLA智能体",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.12616",
+        "language": "en",
+        "summary": "PersonaDrive提出一种流水线，通过检索风格指令下的人类驾驶演示，条件化视觉-语言-动作（VLA）驾驶智能体，实现闭环模拟中非自车智能体的风格多样化。无需为每种风格重新训练，在Bench2Drive上驾驶评分提升4.6%，风格间速度与加速度差异显著。",
+        "summary_en": "PersonaDrive proposes a pipeline that conditions a VLA driving agent on retrieved demonstrations from a style-instructed human driving dataset, enabling style-diverse non-ego agents for closed-loop simulation without per-style retraining. It improves driving score by 4.6% on Bench2Drive and shows significant speed/acceleration variation across styles.",
+        "tags": [
+          "llm",
+          "research",
+          "multimodal",
+          "rag",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-06-12T19:42:45.989341+08:00",
+        "updated_at": "2026-06-12T19:42:45.989343+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "EDEN: A Large-Scale Corpus of Clinical Notes for Italian",
+      "url": "https://arxiv.org/abs/2606.12569",
+      "description": "arXiv:2606.12569v1 Announce Type: new \nAbstract: We present EDEN (Emergency Department Electronic Notes), a new and unique large-scale corpus of clinical notes produced in Emergency Departments of Italian hospitals. The corpus, in its current version, is composed of approximately 4 million clinical notes fully anonymized, covering diverse phases of patient care during the stay in the emergency department. In addition, a subset of about six thousand notes has been manually annotated by clinical experts through a structured Case Report Form (CRF) containing 132 items relevant for two patient situations in emergency departments, dyspnea and loss of consciousness. Items may assume numerical values (e.g., for blood saturation), categorical (e.g., for level of consciousness ), binary (e.g., for presence of traumas), and mixed value types. The annotation process involved multiple clinicians and underwent iterative revision to resolve ambiguities in item formulation, resulting in a richly structured (although high imbalanced) resource. The dataset aims to fill a relevant gap of data able to support both the development and the use of Large Language Models in concrete medical applications. We describe the data collection protocol, the on-site anonymisation pipeline, corpus statistics, and the annotation scheme. Finally, we propose CRF-filling as a novel structured information extraction benchmark, and provide zero-shot baseline resulting from Gemma-27B and MedGemma-27B. To the best of our knowledge, the EDEN dataset is the largest freely available corpus of clinical notes existing for the Italian language.",
+      "pub_date": "Fri, 12 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "EDEN：意大利语临床笔记大规模语料库",
+        "summary": "EDEN是意大利医院急诊科临床笔记的大规模语料库，包含约400万份匿名笔记及约6000份专家标注的子集，用于支持大型语言模型在医疗领域的应用。",
+        "summary_en": null,
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-12-rss-007",
+        "title": "EDEN：意大利语临床笔记大规模语料库",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.12569",
+        "language": "en",
+        "summary": "EDEN是意大利医院急诊科临床笔记的大规模语料库，包含约400万份匿名笔记及约6000份专家标注的子集，用于支持大型语言模型在医疗领域的应用。",
+        "summary_en": null,
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-06-12T19:42:45.989345+08:00",
+        "updated_at": "2026-06-12T19:42:45.989347+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Helping Figures Tell their Story! Paper-Grounded Video Generation Explaining Complex Scientific Figures",
+      "url": "https://arxiv.org/abs/2606.12576",
+      "description": "arXiv:2606.12576v1 Announce Type: new \nAbstract: Scientific figures compress complex pipelines into a single canvas, yet understanding them requires paper-grounded, step-by-step narration aligned with visual highlights a capability missing from current video generation systems and benchmarks. To address this, we introduce paper-grounded figure-to-video generation: generating narrated, region-grounded walkthrough videos from a figure and its paper. We propose MINARD (Multimodal Interpretation of Narrated Architecture via Region Decomposition), a pipeline that generates paper-grounded narrations and sequentially grounds them to figure regions. We also release FigTalk, a benchmark with new sequential and component-level grounding metrics derived. On FigTalk, MINARD generates humanlike, paper-faithful narrations and outperforms narration-conditioned figure spatial grounding compared to existing approaches in both automatic and human evaluation",
+      "pub_date": "Fri, 12 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "让科学图表讲述故事：基于论文的图表视频生成",
+        "summary": "提出MINARD管线，从科学图表和论文生成带旁白、区域定位的讲解视频。发布FigTalk基准，包含新评估指标。MINARD在自动和人工评估中优于现有方法。",
+        "summary_en": "Proposes MINARD pipeline to generate narrated, region-grounded walkthrough videos from scientific figures and their papers. Releases FigTalk benchmark with new grounding metrics. Outperforms existing approaches in automatic and human evaluations.",
+        "tags": [
+          "multimodal",
+          "research",
+          "benchmark",
+          "application"
+        ],
+        "category": "multimodal",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-12-rss-008",
+        "title": "让科学图表讲述故事：基于论文的图表视频生成",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.12576",
+        "language": "en",
+        "summary": "提出MINARD管线，从科学图表和论文生成带旁白、区域定位的讲解视频。发布FigTalk基准，包含新评估指标。MINARD在自动和人工评估中优于现有方法。",
+        "summary_en": "Proposes MINARD pipeline to generate narrated, region-grounded walkthrough videos from scientific figures and their papers. Releases FigTalk benchmark with new grounding metrics. Outperforms existing approaches in automatic and human evaluations.",
+        "tags": [
+          "multimodal",
+          "research",
+          "benchmark",
+          "application"
+        ],
+        "category": "multimodal",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-06-12T19:42:45.989352+08:00",
+        "updated_at": "2026-06-12T19:42:45.989353+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "MARD: Mirror-Augmented Reasoning Distillation for Mechanism-Level Drug-Drug Interaction Prediction",
+      "url": "https://arxiv.org/abs/2606.12578",
+      "description": "arXiv:2606.12578v1 Announce Type: new \nAbstract: Mechanism-level drug-drug interaction (DDI) prediction requires identifying which enzyme or pharmacodynamic axis is implicated, in which direction, and with which evidence -- not merely whether two drugs interact. We introduce a reproducible mechanism-level DDI labelling and evaluation protocol with a structured 7-family/147-subtype taxonomy, leakage-safe cold-split protocols, and auditable reasoning metrics for evaluating pharmacological prediction beyond flat interaction classification. We propose a pipeline that produces a 7B reasoning MARD (Mirror-Augmented Reasoning Distillation), combining three training innovations: a single-token KL divergence on direction tag that ties the model's prediction, per-loss PRM-weighted DPO with programmatic hard negatives, and a leakage-safe mechanism-aware retrieval channel. Process-reward step labels are automatically verifiable against DrugBank-structured fields, requiring no human or LLM judges. On the April-2026 DrugBank release, our MARD-7B is the only system in a 32-system comparison whose accuracy survives drug-pair novelty, beating the best baseline by +13.9 pp and GPT-4o by +6.7 pp at ~1% of frontier API cost. Further analysis reveals an anti-memorisation signature where accuracy improves on rarely seen drugs, suggesting that gain comes from structured pharmacological reasoning rather than drug-frequency memorisation. We release corpus, DDI-PRM, retrieval index, and training code.",
+      "pub_date": "Fri, 12 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "MARD：镜像增强推理蒸馏用于机制级药物相互作用预测",
+        "summary": "提出MARD-7B模型，通过镜像增强推理蒸馏实现机制级药物相互作用预测，在32系统对比中准确率超越最佳基线13.9个百分点、GPT-4o 6.7个百分点，成本仅为前沿API的1%。",
+        "summary_en": null,
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-12-rss-009",
+        "title": "MARD：镜像增强推理蒸馏用于机制级药物相互作用预测",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.12578",
+        "language": "en",
+        "summary": "提出MARD-7B模型，通过镜像增强推理蒸馏实现机制级药物相互作用预测，在32系统对比中准确率超越最佳基线13.9个百分点、GPT-4o 6.7个百分点，成本仅为前沿API的1%。",
+        "summary_en": null,
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-06-12T19:42:45.989355+08:00",
+        "updated_at": "2026-06-12T19:42:45.989357+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Constrained Semantic Decompression in LLMs through Persian Proverb-Conditioned Story Generation",
+      "url": "https://arxiv.org/abs/2606.12599",
+      "description": "arXiv:2606.12599v1 Announce Type: new \nAbstract: Transforming a dense, abstract proverb into an engaging and morally faithful narrative requires deep cultural understanding and robust semantic grounding. We frame this problem as a \\emph{constrained semantic decompression} task and study proverb-conditioned story generation as a testbed for abstraction-to-realization in large language models (LLMs). Focusing on Persian, we introduce the Proverb Aligned Narrative Dataset (PAND), pairing proverbs with human-written stories and explicit meanings. By a hybrid evaluation framework that combines human-calibrated LLM-as-a-Judge with structural metrics, we analyze model behavior across multiple prompting regimes. Our findings reveal a persistent \\emph{decompression gap}: current LLMs often achieve strong surface-level fluency while failing to faithfully instantiate the underlying moral and causal structure encoded in proverbs. We further show that explicit reasoning and iterative refinement can partially mitigate these failures, suggesting that many decompression errors arise from difficulties in translating abstract meaning into narrative form rather than a complete lack of relevant knowledge. Our proposed task naturally extends to other forms of compressed cultural knowledge.",
+      "pub_date": "Fri, 12 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "波斯谚语约束下的LLM语义解压缩研究",
+        "summary": "本文提出“约束语义解压缩”任务，以波斯谚语为条件生成故事，评估LLM将抽象文化知识转化为忠实叙事的能力。构建了PAND数据集，通过混合评估框架发现LLM存在“解压缩差距”：表面流畅但未能忠实体现谚语的道德因果结构。显式推理和迭代改进可部分缓解此问题。",
+        "summary_en": null,
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-12-rss-010",
+        "title": "波斯谚语约束下的LLM语义解压缩研究",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.12599",
+        "language": "en",
+        "summary": "本文提出“约束语义解压缩”任务，以波斯谚语为条件生成故事，评估LLM将抽象文化知识转化为忠实叙事的能力。构建了PAND数据集，通过混合评估框架发现LLM存在“解压缩差距”：表面流畅但未能忠实体现谚语的道德因果结构。显式推理和迭代改进可部分缓解此问题。",
+        "summary_en": null,
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-06-12T19:42:45.989359+08:00",
+        "updated_at": "2026-06-12T19:42:45.989360+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Shopping Reasoning Bench: An Expert-Authored Benchmark for Multi-Turn Conversational Shopping Assistants",
+      "url": "https://arxiv.org/abs/2606.12608",
+      "description": "arXiv:2606.12608v1 Announce Type: new \nAbstract: Conversational shopping assistants now serve hundreds of millions of customers, yet no existing benchmark jointly evaluates the open-ended multi-turn reasoning, domain expertise, and criterion-level quality that real shopping conversations demand. Shopping reasoning is unique among language model applications. Unlike factual question answering or verifiable code generation, it requires balancing subjective preferences, budget constraints, and cross-product trade-offs across multi-turn dialogue, capabilities absent from previous e-commerce and general-purpose benchmarks. We introduce the Shopping Reasoning Bench, an expert-authored benchmark of 525 missions (232 single-turn, 293 multi-turn) with 10863 importance-weighted binary rubrics authored by retail domain experts. These criteria are organized under a taxonomy of five reasoning categories and fifteen subcategories covering diverse demands such as preference refinement, trade-off analysis, and compatibility assessment. An evaluation of nine models across three families (GPT, Claude, Gemini) shows that pass rates reach only 57--77% overall. On multi-turn missions, all models score 13--29 points lower on optional above-and-beyond criteria than on required ones, and performance degrades 4--18 points as conversations progress. These gaps show that current models handle basic shopping assistance but fall short of expert-level advice, making Shopping Reasoning Bench a challenging testbed for future shopping assistant development.",
+      "pub_date": "Fri, 12 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "购物推理基准：专家构建的多轮对话购物助手评测集",
+        "summary": "提出Shopping Reasoning Bench，一个由零售专家构建的基准测试，包含525个任务和10863个加权二元评分标准，覆盖五类推理和十五个子类别。评估GPT、Claude、Gemini等9个模型，总体通过率仅57-77%，多轮任务表现更差，揭示了当前模型在专家级购物建议方面的不足。",
+        "summary_en": "Introduces Shopping Reasoning Bench, an expert-authored benchmark of 525 missions with 10,863 weighted binary rubrics across five reasoning categories. Evaluation of nine models shows pass rates of only 57-77%, with multi-turn performance degrading 4-18 points, highlighting gaps in expert-level shopping assistance.",
+        "tags": [
+          "benchmark",
+          "llm",
+          "evaluation",
+          "application"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-12-rss-004",
+        "title": "购物推理基准：专家构建的多轮对话购物助手评测集",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.12608",
+        "language": "en",
+        "summary": "提出Shopping Reasoning Bench，一个由零售专家构建的基准测试，包含525个任务和10863个加权二元评分标准，覆盖五类推理和十五个子类别。评估GPT、Claude、Gemini等9个模型，总体通过率仅57-77%，多轮任务表现更差，揭示了当前模型在专家级购物建议方面的不足。",
+        "summary_en": "Introduces Shopping Reasoning Bench, an expert-authored benchmark of 525 missions with 10,863 weighted binary rubrics across five reasoning categories. Evaluation of nine models shows pass rates of only 57-77%, with multi-turn performance degrading 4-18 points, highlighting gaps in expert-level shopping assistance.",
+        "tags": [
+          "benchmark",
+          "llm",
+          "evaluation",
+          "application"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-12T19:42:45.989334+08:00",
+        "updated_at": "2026-06-12T19:42:45.989335+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

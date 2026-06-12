@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-12-rss-005",
+  "title": "AI智能体的战略决策支持框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.12587",
+  "language": "en",
+  "summary": "本文提出一个针对AI智能体的战略决策支持框架，通过优化问题最小化支持使用，同时控制反事实遗漏支持错误（即智能体在需要支持时独自行动的概率）。该框架基于支持价值的阈值规则，开发了在线自适应算法和即时校准方法，在信息收集、人机协作和工具使用等场景中有效降低支持调用次数。",
+  "summary_en": "This paper proposes a strategic decision support framework for AI agents, minimizing support usage while controlling counterfactual missed-support error via a threshold rule on support value. It develops an online adaptive algorithm and calibration-on-the-fly method, reducing support calls across information gathering, human-AI collaboration, and tool use scenarios.",
+  "tags": [
+    "agent-framework",
+    "research",
+    "application",
+    "tool"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-06-12T19:42:45.989338+08:00",
+  "updated_at": "2026-06-12T19:42:45.989339+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

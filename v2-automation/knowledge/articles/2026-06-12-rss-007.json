@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-12-rss-007",
+  "title": "EDEN：意大利语临床笔记大规模语料库",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.12569",
+  "language": "en",
+  "summary": "EDEN是意大利医院急诊科临床笔记的大规模语料库，包含约400万份匿名笔记及约6000份专家标注的子集，用于支持大型语言模型在医疗领域的应用。",
+  "summary_en": null,
+  "tags": [
+    "llm",
+    "research",
+    "benchmark",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-06-12T19:42:45.989345+08:00",
+  "updated_at": "2026-06-12T19:42:45.989347+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

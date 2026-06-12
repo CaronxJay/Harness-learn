@@ -1,0 +1,26 @@
+{
+  "id": "2026-06-12-rss-006",
+  "title": "PersonaDrive：面向闭环驾驶模拟的人类风格检索增强VLA智能体",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.12616",
+  "language": "en",
+  "summary": "PersonaDrive提出一种流水线，通过检索风格指令下的人类驾驶演示，条件化视觉-语言-动作（VLA）驾驶智能体，实现闭环模拟中非自车智能体的风格多样化。无需为每种风格重新训练，在Bench2Drive上驾驶评分提升4.6%，风格间速度与加速度差异显著。",
+  "summary_en": "PersonaDrive proposes a pipeline that conditions a VLA driving agent on retrieved demonstrations from a style-instructed human driving dataset, enabling style-diverse non-ego agents for closed-loop simulation without per-style retraining. It improves driving score by 4.6% on Bench2Drive and shows significant speed/acceleration variation across styles.",
+  "tags": [
+    "llm",
+    "research",
+    "multimodal",
+    "rag",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-06-12T19:42:45.989341+08:00",
+  "updated_at": "2026-06-12T19:42:45.989343+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-12-rss-004",
+  "title": "购物推理基准：专家构建的多轮对话购物助手评测集",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.12608",
+  "language": "en",
+  "summary": "提出Shopping Reasoning Bench，一个由零售专家构建的基准测试，包含525个任务和10863个加权二元评分标准，覆盖五类推理和十五个子类别。评估GPT、Claude、Gemini等9个模型，总体通过率仅57-77%，多轮任务表现更差，揭示了当前模型在专家级购物建议方面的不足。",
+  "summary_en": "Introduces Shopping Reasoning Bench, an expert-authored benchmark of 525 missions with 10,863 weighted binary rubrics across five reasoning categories. Evaluation of nine models shows pass rates of only 57-77%, with multi-turn performance degrading 4-18 points, highlighting gaps in expert-level shopping assistance.",
+  "tags": [
+    "benchmark",
+    "llm",
+    "evaluation",
+    "application"
+  ],
+  "category": "benchmark",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-12T19:42:45.989334+08:00",
+  "updated_at": "2026-06-12T19:42:45.989335+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
