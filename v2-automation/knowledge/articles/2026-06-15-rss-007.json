@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-15-rss-007",
+  "title": "继承推理中哪些模型表现更好？",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.13751",
+  "language": "en",
+  "summary": "本文比较了商业和开源大语言模型在阿拉伯伊斯兰继承推理任务中的表现。结果显示商业模型在识别合法继承人、应用排除规则和保持推理一致性方面更强，而开源模型稳定性较差。Gemini 2.5 Flash 表现最佳，MRE 为0.989。",
+  "summary_en": "This paper compares commercial and open-source LLMs on Arabic Islamic inheritance reasoning. Commercial models outperform in identifying heirs, applying exclusion rules, and maintaining consistency, while open-source models show instability. Gemini 2.5 Flash achieves the best performance with an MRE of 0.989.",
+  "tags": [
+    "llm",
+    "research",
+    "benchmark",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-06-15T21:54:45.576309+08:00",
+  "updated_at": "2026-06-15T21:54:45.576311+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "2026-06-15-rss-006",
+  "title": "文化漏斗：数据中缺失的文化无法对齐",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.13808",
+  "language": "en",
+  "summary": "本文提出LLM存在“文化数据漏斗”问题：预训练后文化信号急剧下降，地理集中、任务专精的数据占主导。多语言虽增强文化多样性但未保证平衡。发布含560万样本的文化标记数据集，可提升下游文化基准性能。",
+  "summary_en": "This paper identifies a 'cultural data funnel' in LLM pipelines where cultural signals decline sharply after pretraining. Multilinguality helps geographic diversity but not balanced representation. A 5.6M culturally tagged dataset is released to improve downstream cultural benchmarks.",
+  "tags": [
+    "llm",
+    "research",
+    "benchmark",
+    "fine-tuning",
+    "multimodal"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-06-15T21:54:45.576305+08:00",
+  "updated_at": "2026-06-15T21:54:45.576307+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

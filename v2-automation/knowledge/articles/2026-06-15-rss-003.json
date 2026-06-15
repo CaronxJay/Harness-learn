@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-15-rss-003",
+  "title": "LLM作为评判者的可靠性与偏见研究",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.13685",
+  "language": "en",
+  "summary": "系统评估LLM作为评判者的可靠性，发现单次评判平均13.6%的偏好翻转率，存在首位偏见，跨评判一致性仅76%。建议采用多轮聚合、位置随机化和不确定性报告。",
+  "summary_en": "Systematic evaluation of LLM-as-a-Judge reliability reveals 13.6% average preference flip rate, first-position bias, and only 76% cross-judge agreement. Recommends multi-trial aggregation, position randomization, and uncertainty reporting.",
+  "tags": [
+    "llm",
+    "evaluation",
+    "benchmark",
+    "research"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-15T21:54:45.576291+08:00",
+  "updated_at": "2026-06-15T21:54:45.576293+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

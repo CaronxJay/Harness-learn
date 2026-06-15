@@ -1,0 +1,24 @@
+{
+  "id": "2026-06-15-rss-009",
+  "title": "基于深度强化学习的Transformer方法求解开放车间调度问题",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.13682",
+  "language": "en",
+  "summary": "提出一种基于Transformer编码器-解码器架构的调度策略，仅以加工时间矩阵为输入，在Taillard小规模基准上训练后可直接泛化至40x40至100x100的大规模实例，平均makespan与下界差距为12.89%-15.12%，优于SPT和LPT，与EST相当。",
+  "summary_en": "A Transformer-based scheduling policy for the open shop scheduling problem, trained on small Taillard instances, generalizes to large instances (40x40 to 100x100) with makespan gaps of 12.89-15.12% vs. lower bound, outperforming SPT and LPT while remaining competitive with EST.",
+  "tags": [
+    "research",
+    "llm",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.7,
+  "status": "published",
+  "created_at": "2026-06-15T21:54:45.576322+08:00",
+  "updated_at": "2026-06-15T21:54:45.576323+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

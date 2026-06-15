@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-15-rss-001",
+  "title": "Orchestra-o1：全模态智能体编排框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.13707",
+  "language": "en",
+  "summary": "提出Orchestra-o1全模态智能体编排框架，支持文本、图像、音频、视频等多种模态的统一理解与协调。引入模态感知任务分解、在线子智能体特化和并行子任务执行机制，在OmniGAIA基准上准确率超越第二名10.3%。同时提出DA-GRPO强化学习方法，训练出的8B模型达到开源全模态智能体最优性能。",
+  "summary_en": "Proposes Orchestra-o1, an omnimodal agent orchestration framework supporting unified understanding and coordination of text, image, audio, and video. Introduces modality-aware task decomposition, online sub-agent specialization, and parallel sub-task execution, surpassing the second-best approach by 10.3% accuracy on OmniGAIA. Also presents DA-GRPO, an efficient RL method, achieving SOTA among open-source omnimodal agents.",
+  "tags": [
+    "agent-framework",
+    "multimodal",
+    "research",
+    "llm"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-15T21:54:45.576269+08:00",
+  "updated_at": "2026-06-15T21:54:45.576274+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

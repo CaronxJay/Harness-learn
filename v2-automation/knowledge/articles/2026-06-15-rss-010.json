@@ -1,0 +1,23 @@
+{
+  "id": "2026-06-15-rss-010",
+  "title": "泥孩子谜题的历史",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.13703",
+  "language": "en",
+  "summary": "本文追溯了泥孩子谜题在过去两个世纪中的起源，该谜题对认知逻辑的发展具有启发意义。文章还介绍了其众多变体，并提出了一个涉及自指的新型帽子谜题。",
+  "summary_en": "This paper traces the origin of the Muddy Children Puzzle over the past two centuries, which has inspired the development of epistemic logic. It also presents numerous variations and a novel hats puzzle involving self-reference.",
+  "tags": [
+    "research",
+    "llm"
+  ],
+  "category": "research",
+  "relevance_score": 0.3,
+  "status": "published",
+  "created_at": "2026-06-15T21:54:45.576326+08:00",
+  "updated_at": "2026-06-15T21:54:45.576328+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

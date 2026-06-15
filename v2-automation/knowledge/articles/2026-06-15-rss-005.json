@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-15-rss-005",
+  "title": "电商欺骗性界面下的Web智能体安全基准测试",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.13686",
+  "language": "en",
+  "summary": "提出了WebDecept框架，用于在电商环境中注入七种常见欺骗性界面模式，评估多模态Web智能体的安全性。结果表明当前智能体极易受骗，基于提示的约束不足以缓解风险，揭示了实际部署中的安全挑战。",
+  "summary_en": "Introduces WebDecept, a plugin framework for injecting deceptive interface patterns into e-commerce environments to evaluate web agent safety. Results show current agents are highly susceptible and prompt-based constraints are insufficient, highlighting safety challenges for real-world deployment.",
+  "tags": [
+    "benchmark",
+    "security",
+    "agent-framework",
+    "evaluation"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-06-15T21:54:45.576301+08:00",
+  "updated_at": "2026-06-15T21:54:45.576302+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

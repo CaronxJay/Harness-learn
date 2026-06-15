@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-15-rss-004",
+  "title": "基于用户画像的嵌套展开策略自适应方法：面向目标导向对话系统的LLM规划",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.13683",
+  "language": "en",
+  "summary": "提出UP-NRPA在线框架，利用大语言模型和实时用户反馈动态定制对话策略，无需离线强化学习。在协作与非协作对话基准测试中实现100%成功率，谈判任务销售列表比提升56.41%。",
+  "summary_en": "Proposes UP-NRPA, an online framework using LLMs and real-time user feedback to dynamically customize dialogue strategies without offline RL. Achieves 100% success rate on collaborative and non-collaborative benchmarks, with 56.41% improvement in sale-to-list ratio for negotiation tasks.",
+  "tags": [
+    "llm",
+    "research",
+    "application",
+    "fine-tuning"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-06-15T21:54:45.576297+08:00",
+  "updated_at": "2026-06-15T21:54:45.576298+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

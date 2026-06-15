@@ -1,0 +1,475 @@
+{
+  "collected_at": "2026-06-15T21:54:45.577209+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "A Deep Reinforcement Learning (DRL)-Based Transformer Method for Solving the Open Shop Scheduling Problem",
+      "url": "https://arxiv.org/abs/2606.13682",
+      "description": "arXiv:2606.13682v1 Announce Type: new \nAbstract: The open shop scheduling problem (OSSP) arises in many industrial and service settings but remains computationally challenging as the number of jobs and machines increases. While exact methods quickly become intractable, classical dispatching rules and metaheuristics may require substantial tuning to maintain solution quality at large scales. This study develops a Transformer-based scheduling policy for OSSP using an encoder-decoder architecture with multi-head attention. The model is trained on Taillard benchmark instances (4x4, 5x5, 7x7, and 10x10) using only the processing-time matrix as input and produces feasible schedules with makespans typically within 15-30% of best-known values. To evaluate scalability, the trained policy is applied without retraining to randomly generated instances from 40x40 to 100x100 and compared against classical dispatching heuristics, including SPT, LPT, MWKR, and EST. Across these large instances, the Transformer achieved average gaps of 12.89-15.12% relative to a standard lower bound. Compared with EST, the Transformer remained competitive, typically within a modest margin, while substantially outperforming SPT and LPT. These results indicate that a Transformer policy trained on small OSSP instances can generalize to substantially larger problems and provide a feature-light, learning-based alternative to classical dispatching rules.",
+      "pub_date": "Mon, 15 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "基于深度强化学习的Transformer方法求解开放车间调度问题",
+        "summary": "提出一种基于Transformer编码器-解码器架构的调度策略，仅以加工时间矩阵为输入，在Taillard小规模基准上训练后可直接泛化至40x40至100x100的大规模实例，平均makespan与下界差距为12.89%-15.12%，优于SPT和LPT，与EST相当。",
+        "summary_en": "A Transformer-based scheduling policy for the open shop scheduling problem, trained on small Taillard instances, generalizes to large instances (40x40 to 100x100) with makespan gaps of 12.89-15.12% vs. lower bound, outperforming SPT and LPT while remaining competitive with EST.",
+        "tags": [
+          "research",
+          "llm",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.7,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-15-rss-009",
+        "title": "基于深度强化学习的Transformer方法求解开放车间调度问题",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.13682",
+        "language": "en",
+        "summary": "提出一种基于Transformer编码器-解码器架构的调度策略，仅以加工时间矩阵为输入，在Taillard小规模基准上训练后可直接泛化至40x40至100x100的大规模实例，平均makespan与下界差距为12.89%-15.12%，优于SPT和LPT，与EST相当。",
+        "summary_en": "A Transformer-based scheduling policy for the open shop scheduling problem, trained on small Taillard instances, generalizes to large instances (40x40 to 100x100) with makespan gaps of 12.89-15.12% vs. lower bound, outperforming SPT and LPT while remaining competitive with EST.",
+        "tags": [
+          "research",
+          "llm",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.7,
+        "status": "published",
+        "created_at": "2026-06-15T21:54:45.576322+08:00",
+        "updated_at": "2026-06-15T21:54:45.576323+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "UP-NRPA: User Portrait based Nested Rollout Policy Adaptation for Planning with Large Language Models in Goal-oriented Dialogue Systems",
+      "url": "https://arxiv.org/abs/2606.13683",
+      "description": "arXiv:2606.13683v1 Announce Type: new \nAbstract: To address the challenge that current dialogue policy planning methods struggle to dynamically adapt to diverse user characteristics, this paper proposes a User Portrait based Nested Rollout Policy Adaptation (UP-NRPA) online framework with Large Language Models. In contrast to conventional approaches dependent on model training and require offline reinforcement learning policy models for user groups, UP-NRPA enables dynamic customization of dialogue strategies through an adaptive mechanism. This is achieved by leveraging real-time user feedback alongside personality, preferences, and objectives mapped from the current user portrait, thereby adapting to user characteristics without offline reinforcement learning. In collaborative and non-collaborative dialogue benchmarks, UP-NRPA demonstrated considerable benefits, achieving an impressive 100% success rate in multiple dialogue tasks. Particularly in negotiation tasks, the sale-to-list ratio (SL) increased by 56.41%. This demonstrates that UP-NRPA can adapt to diverse user needs without requiring a training mechanism, enabling the dialogue system to adapt to user characteristics.",
+      "pub_date": "Mon, 15 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "基于用户画像的嵌套展开策略自适应方法：面向目标导向对话系统的LLM规划",
+        "summary": "提出UP-NRPA在线框架，利用大语言模型和实时用户反馈动态定制对话策略，无需离线强化学习。在协作与非协作对话基准测试中实现100%成功率，谈判任务销售列表比提升56.41%。",
+        "summary_en": "Proposes UP-NRPA, an online framework using LLMs and real-time user feedback to dynamically customize dialogue strategies without offline RL. Achieves 100% success rate on collaborative and non-collaborative benchmarks, with 56.41% improvement in sale-to-list ratio for negotiation tasks.",
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-15-rss-004",
+        "title": "基于用户画像的嵌套展开策略自适应方法：面向目标导向对话系统的LLM规划",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.13683",
+        "language": "en",
+        "summary": "提出UP-NRPA在线框架，利用大语言模型和实时用户反馈动态定制对话策略，无需离线强化学习。在协作与非协作对话基准测试中实现100%成功率，谈判任务销售列表比提升56.41%。",
+        "summary_en": "Proposes UP-NRPA, an online framework using LLMs and real-time user feedback to dynamically customize dialogue strategies without offline RL. Achieves 100% success rate on collaborative and non-collaborative benchmarks, with 56.41% improvement in sale-to-list ratio for negotiation tasks.",
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-06-15T21:54:45.576297+08:00",
+        "updated_at": "2026-06-15T21:54:45.576298+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "History of the Muddy Children Puzzle",
+      "url": "https://arxiv.org/abs/2606.13703",
+      "description": "arXiv:2606.13703v1 Announce Type: new \nAbstract: The Muddy Children Puzzle is a puzzle about knowledge and ignorance that has been inspiring for the development of epistemic logic. Who came up with it first? This is unclear. We trace the origin of the Muddy Children Puzzle through logical and literary publications over the past two centuries. The puzzle inspired a numerous variations such as involving numbers or coloured hats. We also present a novel hats puzzle involving self-reference.",
+      "pub_date": "Mon, 15 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "泥孩子谜题的历史",
+        "summary": "本文追溯了泥孩子谜题在过去两个世纪中的起源，该谜题对认知逻辑的发展具有启发意义。文章还介绍了其众多变体，并提出了一个涉及自指的新型帽子谜题。",
+        "summary_en": "This paper traces the origin of the Muddy Children Puzzle over the past two centuries, which has inspired the development of epistemic logic. It also presents numerous variations and a novel hats puzzle involving self-reference.",
+        "tags": [
+          "research",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.3,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-15-rss-010",
+        "title": "泥孩子谜题的历史",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.13703",
+        "language": "en",
+        "summary": "本文追溯了泥孩子谜题在过去两个世纪中的起源，该谜题对认知逻辑的发展具有启发意义。文章还介绍了其众多变体，并提出了一个涉及自指的新型帽子谜题。",
+        "summary_en": "This paper traces the origin of the Muddy Children Puzzle over the past two centuries, which has inspired the development of epistemic logic. It also presents numerous variations and a novel hats puzzle involving self-reference.",
+        "tags": [
+          "research",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.3,
+        "status": "published",
+        "created_at": "2026-06-15T21:54:45.576326+08:00",
+        "updated_at": "2026-06-15T21:54:45.576328+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Orchestra-o1: Omnimodal Agent Orchestration",
+      "url": "https://arxiv.org/abs/2606.13707",
+      "description": "arXiv:2606.13707v1 Announce Type: new \nAbstract: The recent success of agent swarms has shifted the paradigm of large language model (LLM)-based agents from single-agent workflows to multi-agent systems, highlighting the importance of agent orchestration for task decomposition and collaboration. However, existing orchestration frameworks are limited to a narrow set of modalities and struggle to generalize to more complex settings where heterogeneous modalities coexist and interact. This limitation becomes particularly pronounced in omnimodal scenarios, where tasks require the unified understanding and coordination of diverse inputs such as text, image, audio, and video. In this work, we propose Orchestra-o1, an omnimodal agent orchestration framework designed to support efficient agent collaboration across multiple modalities. Orchestra-o1 introduces a unified orchestration mechanism that enables modality-aware task decomposition, online sub-agent specialization, and parallel sub-task execution. This scalable design allows agent systems to effectively tackle complex real-world tasks involving heterogeneous information sources, surpassing the second-best approach by 10.3% accuracy on the OmniGAIA benchmark. Furthermore, we introduce decision-aligned group relative policy optimization (DA-GRPO), an efficient agentic reinforcement learning approach for training Orchestra-o1-8B, which also achieves state-of-the-art performance against all existing open-source omnimodal agents.",
+      "pub_date": "Mon, 15 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "Orchestra-o1：全模态智能体编排框架",
+        "summary": "提出Orchestra-o1全模态智能体编排框架，支持文本、图像、音频、视频等多种模态的统一理解与协调。引入模态感知任务分解、在线子智能体特化和并行子任务执行机制，在OmniGAIA基准上准确率超越第二名10.3%。同时提出DA-GRPO强化学习方法，训练出的8B模型达到开源全模态智能体最优性能。",
+        "summary_en": "Proposes Orchestra-o1, an omnimodal agent orchestration framework supporting unified understanding and coordination of text, image, audio, and video. Introduces modality-aware task decomposition, online sub-agent specialization, and parallel sub-task execution, surpassing the second-best approach by 10.3% accuracy on OmniGAIA. Also presents DA-GRPO, an efficient RL method, achieving SOTA among open-source omnimodal agents.",
+        "tags": [
+          "agent-framework",
+          "multimodal",
+          "research",
+          "llm"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-15-rss-001",
+        "title": "Orchestra-o1：全模态智能体编排框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.13707",
+        "language": "en",
+        "summary": "提出Orchestra-o1全模态智能体编排框架，支持文本、图像、音频、视频等多种模态的统一理解与协调。引入模态感知任务分解、在线子智能体特化和并行子任务执行机制，在OmniGAIA基准上准确率超越第二名10.3%。同时提出DA-GRPO强化学习方法，训练出的8B模型达到开源全模态智能体最优性能。",
+        "summary_en": "Proposes Orchestra-o1, an omnimodal agent orchestration framework supporting unified understanding and coordination of text, image, audio, and video. Introduces modality-aware task decomposition, online sub-agent specialization, and parallel sub-task execution, surpassing the second-best approach by 10.3% accuracy on OmniGAIA. Also presents DA-GRPO, an efficient RL method, achieving SOTA among open-source omnimodal agents.",
+        "tags": [
+          "agent-framework",
+          "multimodal",
+          "research",
+          "llm"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-15T21:54:45.576269+08:00",
+        "updated_at": "2026-06-15T21:54:45.576274+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Hybrid Open-Ended Tri-Evolution Makes Better Deep Researcher",
+      "url": "https://arxiv.org/abs/2606.13710",
+      "description": "arXiv:2606.13710v1 Announce Type: new \nAbstract: Deep research and agent evolution serve as de-facto tasks for AI agents in real-world applications toward artificial general intelligence. The former enables autonomous retrieval and integration of information in open-ended environments to tackle open-ended research tasks, yet it is constrained by the static parametric deep research capabilities of agent systems. The latter allows agents to autonomously interact with the environment to gain experiences that evolve model capabilities. However, its effectiveness has been widely validated only on verifiable tasks with standard answers, leaving a gap with open-ended research tasks. To bridge these two critical tasks, we propose the Hybrid Open-Ended Tri-Evolution (HOTE) framework, which leverages hybrid-mode reinforcement learning to facilitate the collaborative evolution of a proposer, solver and judge based on web-scale knowledge, moving toward autonomous evolving agents in open-ended tasks and environments. Extensive experiments on three long-form deep research benchmarks demonstrate that the 8B model trained via HOTE surpasses the strongest static open 8-32B models as well as those trained by state-of-the-art deep research training methods with less time overhead, and further verify that the evolution of all three modules in HOTE is indispensable.",
+      "pub_date": "Mon, 15 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "混合开放式三进化框架打造更优深度研究者",
+        "summary": "提出混合开放式三进化（HOTE）框架，通过混合模式强化学习促进提议者、求解者和评判者的协同进化，以弥合深度研究与智能体进化之间的差距。在8B模型上超越静态开源8-32B模型及最先进训练方法，验证了三模块进化不可或缺。",
+        "summary_en": "Proposes the Hybrid Open-Ended Tri-Evolution (HOTE) framework, which uses hybrid-mode reinforcement learning to facilitate the collaborative evolution of a proposer, solver, and judge, bridging deep research and agent evolution. An 8B model surpasses static open 8-32B models and state-of-the-art training methods, confirming the indispensability of all three modules.",
+        "tags": [
+          "research",
+          "agent-framework",
+          "reinforcement-learning",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-15-rss-002",
+        "title": "混合开放式三进化框架打造更优深度研究者",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.13710",
+        "language": "en",
+        "summary": "提出混合开放式三进化（HOTE）框架，通过混合模式强化学习促进提议者、求解者和评判者的协同进化，以弥合深度研究与智能体进化之间的差距。在8B模型上超越静态开源8-32B模型及最先进训练方法，验证了三模块进化不可或缺。",
+        "summary_en": "Proposes the Hybrid Open-Ended Tri-Evolution (HOTE) framework, which uses hybrid-mode reinforcement learning to facilitate the collaborative evolution of a proposer, solver, and judge, bridging deep research and agent evolution. An 8B model surpasses static open 8-32B models and state-of-the-art training methods, confirming the indispensability of all three modules.",
+        "tags": [
+          "research",
+          "agent-framework",
+          "reinforcement-learning",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-15T21:54:45.576282+08:00",
+        "updated_at": "2026-06-15T21:54:45.576285+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "The Coin Flip Judge? Reliability and Bias in LLM-as-a-Judge Evaluation",
+      "url": "https://arxiv.org/abs/2606.13685",
+      "description": "arXiv:2606.13685v1 Announce Type: new \nAbstract: LLM-as-a-Judge is now widely used to rank model outputs, train reward models, and populate public leaderboards, but its run-to-run reliability remains under-characterized. We study repeated identical evaluations on 29 tasks spanning 10 categories using two OpenAI judge models (GPT-4o-mini and GPT-4.1-mini), with 50 pairwise trials and 50 pointwise trials per question, supplemented by temperature and prompt-sensitivity ablations. Across judges, pairwise preferences flip on average 13.6% of the time, with 28% of questions exceeding a 20% flip rate and one question reaching 56%. GPT-4o-mini also exhibits a significant first-position bias (72% A-majority, p = 0.024). At the same time, mean pointwise score gaps are small (0.19--0.36 on a 10-point scale) and not statistically significant in aggregate, producing a pairwise--pointwise gap: judges frequently choose a winner even when their own scalar scores provide little evidence of a meaningful quality difference. Beyond within-judge instability, cross-judge agreement is only 76% ($\\kappa = 0.51$), semantically equivalent prompt templates change majority outcomes in 25% of tested cases, and deterministic decoding reduces but does not eliminate inconsistency. A reliability curve analysis shows that, in our dataset, 11 repeated trials are needed for a majority vote to recover the 50-trial reference verdict with 95% probability on average, rising to 15 for high-variance questions. These findings suggest that single-trial LLM judging is often too noisy for high-stakes evaluation, and that multi-trial aggregation, position randomization, and explicit uncertainty reporting should be standard practice. Because both judges are from a single provider, cross-provider replication remains an important next step.",
+      "pub_date": "Mon, 15 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "LLM作为评判者的可靠性与偏见研究",
+        "summary": "系统评估LLM作为评判者的可靠性，发现单次评判平均13.6%的偏好翻转率，存在首位偏见，跨评判一致性仅76%。建议采用多轮聚合、位置随机化和不确定性报告。",
+        "summary_en": "Systematic evaluation of LLM-as-a-Judge reliability reveals 13.6% average preference flip rate, first-position bias, and only 76% cross-judge agreement. Recommends multi-trial aggregation, position randomization, and uncertainty reporting.",
+        "tags": [
+          "llm",
+          "evaluation",
+          "benchmark",
+          "research"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-15-rss-003",
+        "title": "LLM作为评判者的可靠性与偏见研究",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.13685",
+        "language": "en",
+        "summary": "系统评估LLM作为评判者的可靠性，发现单次评判平均13.6%的偏好翻转率，存在首位偏见，跨评判一致性仅76%。建议采用多轮聚合、位置随机化和不确定性报告。",
+        "summary_en": "Systematic evaluation of LLM-as-a-Judge reliability reveals 13.6% average preference flip rate, first-position bias, and only 76% cross-judge agreement. Recommends multi-trial aggregation, position randomization, and uncertainty reporting.",
+        "tags": [
+          "llm",
+          "evaluation",
+          "benchmark",
+          "research"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-15T21:54:45.576291+08:00",
+        "updated_at": "2026-06-15T21:54:45.576293+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Benchmarking Web Agent Safety under E-commerce Deceptive Interfaces",
+      "url": "https://arxiv.org/abs/2606.13686",
+      "description": "arXiv:2606.13686v1 Announce Type: new \nAbstract: As autonomous web agents are increasingly deployed to perform real-world tasks, ensuring their safety has become a critical concern. In this work, we study web agent behavior under realistic deceptive interfaces in the e-commerce domain. We introduce WebDecept, a lightweight and configurable plugin framework that enables controlled injection of deceptive interface patterns into existing web environments. Using WebDecept, we instantiate seven deceptive patterns commonly observed on the open web, including targeted advertisements, domain redirection, and shopping manipulation. By injecting these patterns into the frontend during task execution, we perform controlled evaluation of multiple multimodal web agents. Our results show that current web agents are highly susceptible to multiple classes of deceptive interfaces, and that prompt-based constraints are often insufficient to mitigate these failures. We further analyze how the design choices of deceptive patterns influence the success of such manipulations. These findings highlight safety challenges that should be addressed as web agents are scaled toward real-world deployment.",
+      "pub_date": "Mon, 15 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "电商欺骗性界面下的Web智能体安全基准测试",
+        "summary": "提出了WebDecept框架，用于在电商环境中注入七种常见欺骗性界面模式，评估多模态Web智能体的安全性。结果表明当前智能体极易受骗，基于提示的约束不足以缓解风险，揭示了实际部署中的安全挑战。",
+        "summary_en": "Introduces WebDecept, a plugin framework for injecting deceptive interface patterns into e-commerce environments to evaluate web agent safety. Results show current agents are highly susceptible and prompt-based constraints are insufficient, highlighting safety challenges for real-world deployment.",
+        "tags": [
+          "benchmark",
+          "security",
+          "agent-framework",
+          "evaluation"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-15-rss-005",
+        "title": "电商欺骗性界面下的Web智能体安全基准测试",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.13686",
+        "language": "en",
+        "summary": "提出了WebDecept框架，用于在电商环境中注入七种常见欺骗性界面模式，评估多模态Web智能体的安全性。结果表明当前智能体极易受骗，基于提示的约束不足以缓解风险，揭示了实际部署中的安全挑战。",
+        "summary_en": "Introduces WebDecept, a plugin framework for injecting deceptive interface patterns into e-commerce environments to evaluate web agent safety. Results show current agents are highly susceptible and prompt-based constraints are insufficient, highlighting safety challenges for real-world deployment.",
+        "tags": [
+          "benchmark",
+          "security",
+          "agent-framework",
+          "evaluation"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-06-15T21:54:45.576301+08:00",
+        "updated_at": "2026-06-15T21:54:45.576302+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Which Models Perform Better in Inheritance Reasoning?",
+      "url": "https://arxiv.org/abs/2606.13751",
+      "description": "arXiv:2606.13751v1 Announce Type: new \nAbstract: This paper presents the participation of team PSL in the QIAS 2026 Shared Task on Arabic Islamic inheritance reasoning. The task evaluates the ability of large language models to solve inheritance cases that require legal interpretation, multi-step reasoning, and precise numerical computation. We compare \\textit{commercial} and \\textit{open-source} models under a unified prompting strategy to assess their effectiveness in structured legal reasoning with minimal task-specific adaptation. \\\\ Our results show a clear gap in reliability between the two model families. Commercial models demonstrate stronger performance in identifying eligible heirs, applying exclusion rules, and maintaining consistency across reasoning steps. In contrast, open-source models exhibit greater instability, particularly in cases involving dependent legal decisions and fractional share adjustments. The best performance is achieved by \\textit{Gemini 2.5 Flash}, with an MRE of $0.989$.",
+      "pub_date": "Mon, 15 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "继承推理中哪些模型表现更好？",
+        "summary": "本文比较了商业和开源大语言模型在阿拉伯伊斯兰继承推理任务中的表现。结果显示商业模型在识别合法继承人、应用排除规则和保持推理一致性方面更强，而开源模型稳定性较差。Gemini 2.5 Flash 表现最佳，MRE 为0.989。",
+        "summary_en": "This paper compares commercial and open-source LLMs on Arabic Islamic inheritance reasoning. Commercial models outperform in identifying heirs, applying exclusion rules, and maintaining consistency, while open-source models show instability. Gemini 2.5 Flash achieves the best performance with an MRE of 0.989.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-15-rss-007",
+        "title": "继承推理中哪些模型表现更好？",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.13751",
+        "language": "en",
+        "summary": "本文比较了商业和开源大语言模型在阿拉伯伊斯兰继承推理任务中的表现。结果显示商业模型在识别合法继承人、应用排除规则和保持推理一致性方面更强，而开源模型稳定性较差。Gemini 2.5 Flash 表现最佳，MRE 为0.989。",
+        "summary_en": "This paper compares commercial and open-source LLMs on Arabic Islamic inheritance reasoning. Commercial models outperform in identifying heirs, applying exclusion rules, and maintaining consistency, while open-source models show instability. Gemini 2.5 Flash achieves the best performance with an MRE of 0.989.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-06-15T21:54:45.576309+08:00",
+        "updated_at": "2026-06-15T21:54:45.576311+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "QIAS 2026: Overview of the Shared Task on Islamic Inheritance Reasoning",
+      "url": "https://arxiv.org/abs/2606.13756",
+      "description": "arXiv:2606.13756v1 Announce Type: new \nAbstract: This paper presents a comprehensive overview of the QIAS 2026 shared task, organized as part of the OSACT7 Workshop and co-located with LREC 2026. The shared task was designed to evaluate the ability of large language models to perform complex reasoning in the religious and legal domain of Islamic inheritance. Unlike conventional question-answering benchmarks, QIAS 2026 focuses on end-to-end reasoning from natural language cases, requiring systems to perform the full inheritance calculation process, from identifying the eligible heirs to assigning the correct share to each beneficiary. To support this evaluation, the task was based on the MAWARITH benchmark, a dataset of $12{,}500$ Arabic inheritance cases annotated with intermediate reasoning steps and final answers. System submissions were evaluated using MIR-E, a multi-step metric that measures performance across the main stages of inheritance reasoning. A total of $16$ teams participated in the shared task, investigating a range of approaches, including prompting-based methods, retrieval-augmented generation, and fine-tuning strategies. The results show that Islamic inheritance remains a highly challenging benchmark for current language models, especially in stages that require precise legal interpretation and structured numerical reasoning. This overview summarizes the task design, dataset, evaluation framework, participating systems, and main results.",
+      "pub_date": "Mon, 15 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "伊斯兰继承推理共享任务QIAS 2026综述",
+        "summary": "本文介绍了QIAS 2026共享任务，旨在评估大语言模型在伊斯兰继承法领域的复杂推理能力。任务基于MAWARITH基准数据集（12500个阿拉伯语继承案例），要求系统完成从自然语言案例到最终份额分配的端到端推理。16个团队参与了任务，探索了提示工程、检索增强生成和微调等方法。结果表明，伊斯兰继承推理对当前语言模型仍极具挑战性。",
+        "summary_en": "This paper presents the QIAS 2026 shared task evaluating LLMs on complex reasoning in Islamic inheritance law. Based on the MAWARITH benchmark (12,500 Arabic cases), it requires end-to-end reasoning from natural language to final share distribution. 16 teams explored prompting, RAG, and fine-tuning. Results show Islamic inheritance reasoning remains highly challenging for current models.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "research",
+          "rag",
+          "fine-tuning"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-15-rss-008",
+        "title": "伊斯兰继承推理共享任务QIAS 2026综述",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.13756",
+        "language": "en",
+        "summary": "本文介绍了QIAS 2026共享任务，旨在评估大语言模型在伊斯兰继承法领域的复杂推理能力。任务基于MAWARITH基准数据集（12500个阿拉伯语继承案例），要求系统完成从自然语言案例到最终份额分配的端到端推理。16个团队参与了任务，探索了提示工程、检索增强生成和微调等方法。结果表明，伊斯兰继承推理对当前语言模型仍极具挑战性。",
+        "summary_en": "This paper presents the QIAS 2026 shared task evaluating LLMs on complex reasoning in Islamic inheritance law. Based on the MAWARITH benchmark (12,500 Arabic cases), it requires end-to-end reasoning from natural language to final share distribution. 16 teams explored prompting, RAG, and fine-tuning. Results show Islamic inheritance reasoning remains highly challenging for current models.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "research",
+          "rag",
+          "fine-tuning"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-06-15T21:54:45.576317+08:00",
+        "updated_at": "2026-06-15T21:54:45.576319+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "The Culture Funnel: You Can't Align What isn't in the Data",
+      "url": "https://arxiv.org/abs/2606.13808",
+      "description": "arXiv:2606.13808v1 Announce Type: new \nAbstract: Current cultural alignment approaches focus on inference-time interventions, assuming models already contain sufficient cultural knowledge. We argue modern LLM pipelines suffer from a cultural data funnel. Using a multidimensional tagging framework across pretraining, fine-tuning, alignment, and reasoning datasets, we show explicit cultural signals decline sharply during post-training, while geographically concentrated, task-specialized data dominates. Multilinguality enhances geographic diversity of cultural knowledge but does not ensure balanced representation. Our tags improve downstream cultural benchmark performance, demonstrating that advances require shifting focus in training data pipelines. To facilitate future research, we release our culturally tagged dataset with 5.6M samples at https://huggingface.co/datasets/CohereLabs/CultureMarkers.",
+      "pub_date": "Mon, 15 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "文化漏斗：数据中缺失的文化无法对齐",
+        "summary": "本文提出LLM存在“文化数据漏斗”问题：预训练后文化信号急剧下降，地理集中、任务专精的数据占主导。多语言虽增强文化多样性但未保证平衡。发布含560万样本的文化标记数据集，可提升下游文化基准性能。",
+        "summary_en": "This paper identifies a 'cultural data funnel' in LLM pipelines where cultural signals decline sharply after pretraining. Multilinguality helps geographic diversity but not balanced representation. A 5.6M culturally tagged dataset is released to improve downstream cultural benchmarks.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "fine-tuning",
+          "multimodal"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-15-rss-006",
+        "title": "文化漏斗：数据中缺失的文化无法对齐",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.13808",
+        "language": "en",
+        "summary": "本文提出LLM存在“文化数据漏斗”问题：预训练后文化信号急剧下降，地理集中、任务专精的数据占主导。多语言虽增强文化多样性但未保证平衡。发布含560万样本的文化标记数据集，可提升下游文化基准性能。",
+        "summary_en": "This paper identifies a 'cultural data funnel' in LLM pipelines where cultural signals decline sharply after pretraining. Multilinguality helps geographic diversity but not balanced representation. A 5.6M culturally tagged dataset is released to improve downstream cultural benchmarks.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "fine-tuning",
+          "multimodal"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-06-15T21:54:45.576305+08:00",
+        "updated_at": "2026-06-15T21:54:45.576307+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

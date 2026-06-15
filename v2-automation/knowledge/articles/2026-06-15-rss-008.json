@@ -1,0 +1,26 @@
+{
+  "id": "2026-06-15-rss-008",
+  "title": "伊斯兰继承推理共享任务QIAS 2026综述",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.13756",
+  "language": "en",
+  "summary": "本文介绍了QIAS 2026共享任务，旨在评估大语言模型在伊斯兰继承法领域的复杂推理能力。任务基于MAWARITH基准数据集（12500个阿拉伯语继承案例），要求系统完成从自然语言案例到最终份额分配的端到端推理。16个团队参与了任务，探索了提示工程、检索增强生成和微调等方法。结果表明，伊斯兰继承推理对当前语言模型仍极具挑战性。",
+  "summary_en": "This paper presents the QIAS 2026 shared task evaluating LLMs on complex reasoning in Islamic inheritance law. Based on the MAWARITH benchmark (12,500 Arabic cases), it requires end-to-end reasoning from natural language to final share distribution. 16 teams explored prompting, RAG, and fine-tuning. Results show Islamic inheritance reasoning remains highly challenging for current models.",
+  "tags": [
+    "llm",
+    "benchmark",
+    "research",
+    "rag",
+    "fine-tuning"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-06-15T21:54:45.576317+08:00",
+  "updated_at": "2026-06-15T21:54:45.576319+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

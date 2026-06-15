@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-15-rss-002",
+  "title": "混合开放式三进化框架打造更优深度研究者",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.13710",
+  "language": "en",
+  "summary": "提出混合开放式三进化（HOTE）框架，通过混合模式强化学习促进提议者、求解者和评判者的协同进化，以弥合深度研究与智能体进化之间的差距。在8B模型上超越静态开源8-32B模型及最先进训练方法，验证了三模块进化不可或缺。",
+  "summary_en": "Proposes the Hybrid Open-Ended Tri-Evolution (HOTE) framework, which uses hybrid-mode reinforcement learning to facilitate the collaborative evolution of a proposer, solver, and judge, bridging deep research and agent evolution. An 8B model surpasses static open 8-32B models and state-of-the-art training methods, confirming the indispensability of all three modules.",
+  "tags": [
+    "research",
+    "agent-framework",
+    "reinforcement-learning",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-15T21:54:45.576282+08:00",
+  "updated_at": "2026-06-15T21:54:45.576285+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
