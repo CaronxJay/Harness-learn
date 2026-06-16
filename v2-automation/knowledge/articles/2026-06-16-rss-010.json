@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-16-rss-010",
+  "title": "证明自动形式化在Lean 4中的鲁棒性评估",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.14867",
+  "language": "en",
+  "summary": "首次研究证明自动形式化模型的鲁棒性。提出全局扰动（改写风格）和局部扰动（改变值、符号或证明步骤）两类扰动，构建基于miniF2F和MATH-500的基准，评估七个最新模型。结果表明所有模型对全局扰动敏感，且大多无法忠实反映局部扰动。",
+  "summary_en": "First study on robustness of proof autoformalization models. Proposes global (paraphrasing style) and local (altering values/symbols/steps) perturbations, builds benchmark on miniF2F and MATH-500, evaluates seven recent models. All models are sensitive to global perturbations and mostly fail to faithfully reflect local perturbations.",
+  "tags": [
+    "llm",
+    "research",
+    "benchmark",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-06-16T20:52:27.993446+08:00",
+  "updated_at": "2026-06-16T20:52:27.993447+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

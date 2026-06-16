@@ -1,0 +1,24 @@
+{
+  "id": "2026-06-16-rss-009",
+  "title": "关系结构因果模型",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.14892",
+  "language": "en",
+  "summary": "本文正式研究了如何学习支持干预和反事实推理且能泛化到未见对象组合的因果模型。提出了关系结构因果模型，扩展了结构因果模型以处理对象及其关系变化。定义了关系因果图并推导了符号识别标准，提出了关系神经因果模型，在模拟交通场景中优于非关系基线。",
+  "summary_en": null,
+  "tags": [
+    "research",
+    "llm",
+    "infrastructure"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-06-16T20:52:27.993441+08:00",
+  "updated_at": "2026-06-16T20:52:27.993443+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

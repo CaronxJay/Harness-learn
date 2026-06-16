@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-16-rss-005",
+  "title": "CoRA：面向可靠链式推理的置信度-理由对齐方法",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.14961",
+  "language": "en",
+  "summary": "提出CoRA方法，通过GRPO强化学习框架联合优化答案正确性、置信度与理由质量，减少置信度与理由之间的对齐误差，提升链式推理的可靠性。在MedQA、MathQA等数据集上，对齐误差降低最高26.51%，同时保持准确率与校准性能。",
+  "summary_en": null,
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-16T20:52:27.993423+08:00",
+  "updated_at": "2026-06-16T20:52:27.993424+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

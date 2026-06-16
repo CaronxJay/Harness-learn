@@ -1,0 +1,24 @@
+{
+  "id": "2026-06-16-rss-004",
+  "title": "简化自然语言中任意条件建模",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.14943",
+  "language": "en",
+  "summary": "提出AC-GPT，通过对标准因果Transformer进行简单修改，实现在单次前向传播中评估和采样任意条件（包括过去、未来和混合上下文），无需牺牲标准从左到右的性能，并支持现有LLM微调。",
+  "summary_en": "Proposes AC-GPT, a simple modification to standard causal Transformers that enables evaluating and sampling from arbitrary conditionals (past, future, mixed contexts) in a single forward pass without degrading standard left-to-right performance, and supports fine-tuning existing LLMs.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-16T20:52:27.993418+08:00",
+  "updated_at": "2026-06-16T20:52:27.993420+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

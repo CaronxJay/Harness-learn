@@ -1,0 +1,473 @@
+{
+  "collected_at": "2026-06-16T20:52:27.994289+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "A Definition of Good Explanations and the Challenges Explaining LLM Outputs",
+      "url": "https://arxiv.org/abs/2606.14838",
+      "description": "arXiv:2606.14838v1 Announce Type: new \nAbstract: How to define a good explanation is a long-standing philosophical debate which has found recent renewed interest in the context of AI outputs. Explainability is crucial for AI adoption in many contexts, but in order to produce good explanations of AI systems, we must first have an understanding of what good explanations are. In this paper we propose a definition inspired by the notion of counterfactual explanations, however we argue that one must also take into account the interlocutor's prior beliefs in each fact that could be offered in an explanation. We explore the ramifications of this definition for AI explainability and, in particular, why LLM outputs are difficult to produce good explanations for.",
+      "pub_date": "Tue, 16 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "良好解释的定义及解释LLM输出的挑战",
+        "summary": "本文提出了一种基于反事实解释的良好解释定义，强调必须考虑对话者对解释中每个事实的先验信念，并探讨了该定义对AI可解释性的影响，特别是为何难以对LLM输出提供良好解释。",
+        "summary_en": "This paper proposes a definition of good explanations based on counterfactual explanations, emphasizing the need to consider the interlocutor's prior beliefs, and explores its implications for AI explainability, especially the difficulty of explaining LLM outputs.",
+        "tags": [
+          "llm",
+          "research",
+          "explainability"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-16-rss-006",
+        "title": "良好解释的定义及解释LLM输出的挑战",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.14838",
+        "language": "en",
+        "summary": "本文提出了一种基于反事实解释的良好解释定义，强调必须考虑对话者对解释中每个事实的先验信念，并探讨了该定义对AI可解释性的影响，特别是为何难以对LLM输出提供良好解释。",
+        "summary_en": "This paper proposes a definition of good explanations based on counterfactual explanations, emphasizing the need to consider the interlocutor's prior beliefs, and explores its implications for AI explainability, especially the difficulty of explaining LLM outputs.",
+        "tags": [
+          "llm",
+          "research",
+          "explainability"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-06-16T20:52:27.993427+08:00",
+        "updated_at": "2026-06-16T20:52:27.993429+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Dr-DCI: Scaling Direct Corpus Interaction via Dynamic Workspace Expansion",
+      "url": "https://arxiv.org/abs/2606.14885",
+      "description": "arXiv:2606.14885v1 Announce Type: new \nAbstract: Agentic search over large corpora relies on retriever-mediated interfaces (e.g., BM25 or ColBERT) for scalable candidate discovery. While effective at ranking relevant documents, these interfaces expose evidence only as ranked results or bounded document views, limiting agents' ability to reorganize material and verify constraints across documents. Direct Corpus Interaction (DCI) addresses this limitation by exposing shell-executable corpus operations for flexible search, filtering, comparison, and verification. However, full-corpus terminal commands become slow and unstable as the corpus grows, degrading performance and efficiency. We introduce DR-DCI, a retriever-steered DCI framework that treats retrieval as an agent-callable action for expanding a local workspace. Rather than operating directly over the full corpus, the agent dynamically pulls relevant documents into an evolving workspace and conducts DCI operations within it. This design combines retriever-level recall with DCI-style precision: retrieval keeps exploration scalable, while DCI preserves the local operations needed for effective evidence resolution. Experiments show that DR-DCI is both effective and efficient across scales. On Browsecomp-Plus, DR-DCI reaches 71.2\\% accuracy, improving over raw DCI and ablated variants by up to 8.3 points while reducing tool usage, wall time, and estimated cost. With workspace-preserving context reset, accuracy further improves to 73.3\\%. In corpus-scaling experiments, DR-DCI remains effective from 100K to 10M documents, whereas raw DCI becomes unstable and BM25 performs substantially worse. DR-DCI also scales to a 20M-scale file-per-document Wiki-18 QA setting, achieving an average score of 63.0 across six benchmarks and outperforming retrieval-based and trained search-agent baselines. Ablation analysis further shows that ranked previews and inter-document DCI are key to performance.",
+      "pub_date": "Tue, 16 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "DR-DCI：通过动态工作空间扩展实现大规模语料库的直接交互",
+        "summary": "提出DR-DCI框架，将检索作为智能体可调用的动作来扩展本地工作空间，结合检索器的召回能力和DCI的精确操作，在保持可扩展性的同时提升证据解析效率。在Browsecomp-Plus上准确率达71.2%，并能在100K到10M文档规模下稳定工作。",
+        "summary_en": null,
+        "tags": [
+          "research",
+          "agent-framework",
+          "rag",
+          "infrastructure"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-16-rss-007",
+        "title": "DR-DCI：通过动态工作空间扩展实现大规模语料库的直接交互",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.14885",
+        "language": "en",
+        "summary": "提出DR-DCI框架，将检索作为智能体可调用的动作来扩展本地工作空间，结合检索器的召回能力和DCI的精确操作，在保持可扩展性的同时提升证据解析效率。在Browsecomp-Plus上准确率达71.2%，并能在100K到10M文档规模下稳定工作。",
+        "summary_en": null,
+        "tags": [
+          "research",
+          "agent-framework",
+          "rag",
+          "infrastructure"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-06-16T20:52:27.993432+08:00",
+        "updated_at": "2026-06-16T20:52:27.993434+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Relational Structural Causal Models",
+      "url": "https://arxiv.org/abs/2606.14892",
+      "description": "arXiv:2606.14892v1 Announce Type: new \nAbstract: An artificial intelligence must have a model of its environment that is causal, supporting reasoning about interventions and counterfactuals, and also combinatorial, supporting generalization to unseen combinations of objects. In this work, we formally study when and how such a model can be learned. We develop relational structural causal models, extending structural causal models (Pearl 2009) to settings where objects and their relations vary. First, we show how answers to not only causal but also observational queries about unseen combinations of objects can not be identified without further assumptions. To enable such identification--including in the presence of unobserved confounding--we define relational causal graphs and derive symbolic identification criteria. Finally, we propose relational neural causal models, a provably correct approach that outperforms non-relational baselines on simulated traffic scenes with varying cars, signals, and pedestrians.",
+      "pub_date": "Tue, 16 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "关系结构因果模型",
+        "summary": "本文正式研究了如何学习支持干预和反事实推理且能泛化到未见对象组合的因果模型。提出了关系结构因果模型，扩展了结构因果模型以处理对象及其关系变化。定义了关系因果图并推导了符号识别标准，提出了关系神经因果模型，在模拟交通场景中优于非关系基线。",
+        "summary_en": null,
+        "tags": [
+          "research",
+          "llm",
+          "infrastructure"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-16-rss-009",
+        "title": "关系结构因果模型",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.14892",
+        "language": "en",
+        "summary": "本文正式研究了如何学习支持干预和反事实推理且能泛化到未见对象组合的因果模型。提出了关系结构因果模型，扩展了结构因果模型以处理对象及其关系变化。定义了关系因果图并推导了符号识别标准，提出了关系神经因果模型，在模拟交通场景中优于非关系基线。",
+        "summary_en": null,
+        "tags": [
+          "research",
+          "llm",
+          "infrastructure"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-06-16T20:52:27.993441+08:00",
+        "updated_at": "2026-06-16T20:52:27.993443+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Trust Between AI Agents: Measuring Formation, Breakage, and Recovery, with Implications for Governing Multi-Agent Systems",
+      "url": "https://arxiv.org/abs/2606.14923",
+      "description": "arXiv:2606.14923v1 Announce Type: new \nAbstract: As language-model agents increasingly work in teams, each agent must decide how much to trust its teammates. Yet we lack a standard way to measure trust between AI agents. We propose a behavioral measure based on costly verification. In a cooperative survival game, checking a teammate's work consumes resources, while trusting a wrong answer can be fatal. Relative to a memoryless version of the same model, reduced verification provides an observable measure of trust. Using this framework, we study trust formation, breakage, and recovery across six frontier model snapshots. When paired with a consistently reliable teammate, four snapshots (Claude Opus 4.6, Claude Sonnet 4.6, GPT-5.1, and Gemini 3.1 Pro) reduce verification by roughly 60-85%, whereas two smaller snapshots show little or no such adjustment. Failures reverse this discount, but models differ in how they respond. Some concentrate renewed scrutiny on the culprit, while others become more cautious toward the entire team. Recovery is slower than formation, and clustered failures sustain suspicion far longer than the same number of failures spread apart. These differences have practical consequences. Models that form trust verify less, decide more quickly, and achieve higher payoffs in our environment. By contrast, persistent over-verification is associated with indecision rather than safety. Our results show that trust dispositions can be measured before deployment and suggest that calibration, rather than maximal suspicion, should be the central concern in the governance of multi-agent AI systems.",
+      "pub_date": "Tue, 16 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "AI智能体间的信任：形成、破裂与恢复的测量及其对多智能体系统治理的意义",
+        "summary": "提出基于代价验证的行为测量方法，研究AI智能体间信任的形成、破裂与恢复。实验发现，不同模型在信任建立和恢复上存在显著差异，信任校准而非最大怀疑应成为多智能体系统治理的核心关注点。",
+        "summary_en": "Proposes a behavioral measure based on costly verification to study trust formation, breakage, and recovery between AI agents. Experiments show significant differences across models, suggesting trust calibration, not maximal suspicion, should be the central governance concern for multi-agent systems.",
+        "tags": [
+          "research",
+          "agent-framework",
+          "benchmark",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-16-rss-001",
+        "title": "AI智能体间的信任：形成、破裂与恢复的测量及其对多智能体系统治理的意义",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.14923",
+        "language": "en",
+        "summary": "提出基于代价验证的行为测量方法，研究AI智能体间信任的形成、破裂与恢复。实验发现，不同模型在信任建立和恢复上存在显著差异，信任校准而非最大怀疑应成为多智能体系统治理的核心关注点。",
+        "summary_en": "Proposes a behavioral measure based on costly verification to study trust formation, breakage, and recovery between AI agents. Experiments show significant differences across models, suggesting trust calibration, not maximal suspicion, should be the central governance concern for multi-agent systems.",
+        "tags": [
+          "research",
+          "agent-framework",
+          "benchmark",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-16T20:52:27.993400+08:00",
+        "updated_at": "2026-06-16T20:52:27.993404+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "PrologMCP: A Standardized Prolog Tool Interface for LLM Agents",
+      "url": "https://arxiv.org/abs/2606.14935",
+      "description": "arXiv:2606.14935v1 Announce Type: new \nAbstract: Frontier reasoning-tuned language models still fail on deductive tasks at depth, and the cost of improved performance through extended internal reasoning scales poorly. Symbolic delegation offers a complementary route: a language model translates the problem, while a solver performs the inference. However, current autoformalization pipelines for logic programming are typically bespoke integrations tied to particular tasks or agents. We introduce PrologMCP, a task-agnostic, open-source server that exposes Prolog as a stateful tool through the Model Context Protocol (MCP). Its compact tool interface, structured error reporting, and per-session isolation make the translate-run-inspect-repair loop a reusable primitive for MCP-capable agents. We evaluate a formalizer agent enhanced with PrologMCP against standard and reasoning LLMs (Claude Sonnet 4.6, GPT-4.1, and o4-mini) on two subsets of PARARULE-Plus: a general-purpose sample and a more challenging one targeting a specific failure mode of natural-language reasoning. On the general sample, the formalizer matches or exceeds reasoning LLMs (accuracy 1.00 vs.\\ 1.00 / 0.998), with the largest gains over standard models (0.762 for GPT-4.1). On the challenging subset, the formalizer remains near-perfect (1.00 / 0.99) while reasoning LLMs drop to 0.95 / 0.94. These results suggest that delegating inference to Prolog via MCP is a robust and inspectable alternative to extended natural-language reasoning.",
+      "pub_date": "Tue, 16 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "PrologMCP：为LLM代理提供标准化的Prolog工具接口",
+        "summary": "PrologMCP是一个任务无关的开源服务器，通过模型上下文协议(MCP)将Prolog暴露为有状态工具，使LLM代理能够将推理任务委托给Prolog求解器。在PARARULE-Plus基准测试中，使用PrologMCP的形式化代理在通用样本上准确率达1.00，在挑战性子集上达0.99，优于标准LLM和推理LLM。",
+        "summary_en": "PrologMCP is a task-agnostic, open-source server that exposes Prolog as a stateful tool via the Model Context Protocol (MCP), enabling LLM agents to delegate inference to a Prolog solver. On PARARULE-Plus, a formalizer agent with PrologMCP achieves 1.00 accuracy on general samples and 0.99 on challenging subsets, outperforming standard and reasoning LLMs.",
+        "tags": [
+          "llm",
+          "research",
+          "tool",
+          "benchmark",
+          "open-source"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-16-rss-002",
+        "title": "PrologMCP：为LLM代理提供标准化的Prolog工具接口",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.14935",
+        "language": "en",
+        "summary": "PrologMCP是一个任务无关的开源服务器，通过模型上下文协议(MCP)将Prolog暴露为有状态工具，使LLM代理能够将推理任务委托给Prolog求解器。在PARARULE-Plus基准测试中，使用PrologMCP的形式化代理在通用样本上准确率达1.00，在挑战性子集上达0.99，优于标准LLM和推理LLM。",
+        "summary_en": "PrologMCP is a task-agnostic, open-source server that exposes Prolog as a stateful tool via the Model Context Protocol (MCP), enabling LLM agents to delegate inference to a Prolog solver. On PARARULE-Plus, a formalizer agent with PrologMCP achieves 1.00 accuracy on general samples and 0.99 on challenging subsets, outperforming standard and reasoning LLMs.",
+        "tags": [
+          "llm",
+          "research",
+          "tool",
+          "benchmark",
+          "open-source"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-16T20:52:27.993408+08:00",
+        "updated_at": "2026-06-16T20:52:27.993410+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "PhoneHarness: Harnessing Phone-Use Agents through Mixed GUI, CLI, and Tool Actions",
+      "url": "https://arxiv.org/abs/2606.14832",
+      "description": "arXiv:2606.14832v1 Announce Type: new \nAbstract: Phone agents are increasingly expected to complete real mobile workflows rather than merely predict the next screen action. However, much of the current mobile-agent literature still evaluates agents primarily as GUI controllers that observe a screen, emit taps and swipes, and are scored by target app state. Real phone-use tasks are broader: they require deciding when to use app GUIs, device-side commands, or structured tools, while leaving evidence that the intended side effect actually occurred. We introduce PhoneHarness, a mixed-action benchmark and execution harness for studying phone-use agents on verifiable mobile workflows. PhoneHarness runs a device-side agent loop over GUI, CLI, and host-side tool actions, combining deterministic action routing with bounded GUI delegation and auditable execution traces. Its benchmark, PhoneHarness Bench, evaluates whether agents complete tasks with observable side effects, not only whether they produce plausible final answers. On the annotated evaluation split, PhoneHarness reaches a 75.0% pass rate, outperforming the strongest non-PhoneHarness settings by 12.9 percentage points. PhoneHarness and PhoneHarness Bench therefore play distinct but mutually dependent roles: the harness makes mixed phone workflows executable, while the benchmark measures whether agents can use that harness reliably and safely. Our findings suggest that reliable phone automation depends on action-surface routing and verifiable execution, not only visual GUI control.",
+      "pub_date": "Tue, 16 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "PhoneHarness：通过混合GUI、CLI和工具操作实现手机使用代理",
+        "summary": "PhoneHarness是一个混合动作基准测试和执行框架，用于评估手机使用代理在可验证移动工作流上的表现。它结合了GUI、CLI和主机端工具动作，实现了75.0%的通过率，比最强基线高出12.9个百分点。研究表明，可靠的手机自动化依赖于动作表面路由和可验证执行，而不仅仅是视觉GUI控制。",
+        "summary_en": "PhoneHarness is a mixed-action benchmark and execution harness for evaluating phone-use agents on verifiable mobile workflows. It combines GUI, CLI, and host-side tool actions, achieving a 75.0% pass rate, outperforming the strongest baseline by 12.9 percentage points. Findings suggest reliable phone automation depends on action-surface routing and verifiable execution, not only visual GUI control.",
+        "tags": [
+          "agent-framework",
+          "benchmark",
+          "application",
+          "tool"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-16-rss-003",
+        "title": "PhoneHarness：通过混合GUI、CLI和工具操作实现手机使用代理",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.14832",
+        "language": "en",
+        "summary": "PhoneHarness是一个混合动作基准测试和执行框架，用于评估手机使用代理在可验证移动工作流上的表现。它结合了GUI、CLI和主机端工具动作，实现了75.0%的通过率，比最强基线高出12.9个百分点。研究表明，可靠的手机自动化依赖于动作表面路由和可验证执行，而不仅仅是视觉GUI控制。",
+        "summary_en": "PhoneHarness is a mixed-action benchmark and execution harness for evaluating phone-use agents on verifiable mobile workflows. It combines GUI, CLI, and host-side tool actions, achieving a 75.0% pass rate, outperforming the strongest baseline by 12.9 percentage points. Findings suggest reliable phone automation depends on action-surface routing and verifiable execution, not only visual GUI control.",
+        "tags": [
+          "agent-framework",
+          "benchmark",
+          "application",
+          "tool"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-16T20:52:27.993413+08:00",
+        "updated_at": "2026-06-16T20:52:27.993415+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Evaluating the Robustness of Proof Autoformalization in Lean 4",
+      "url": "https://arxiv.org/abs/2606.14867",
+      "description": "arXiv:2606.14867v1 Announce Type: new \nAbstract: Proof autoformalization aims to translate a mathematical informal proof written in natural language into a formal proof in a formal language such as Lean~4. Several works have developed LLM-based models for proof autoformalization. However, existing evaluations have typically focused on translating well-formed informal proofs from curated datasets. We argue that a robust proof autoformalizer must remain faithful even for informal proofs that diverge from these idealized ones, and we present the first study on the robustness of proof autoformalization models. We formulate two categories of perturbations and evaluate robustness under each: a global perturbation paraphrases the informal proof in a different style, under which the formalization should remain consistent; a local perturbation alters a value, symbol, or proof step, possibly in a counterfactual way, and a robust formalization should faithfully reflect the perturbation rather than reverting to the original one or inferring a different one on its own. We build a benchmark with both perturbations on miniF2F and MATH-500, and automatically measure how stable a proof autoformalization's correctness is under global perturbations and how faithfully its output reflects local perturbations. We evaluate seven recent models, all of which are sensitive to global perturbations and mostly fail to remain faithful under local perturbations. Code and data are available via https://github.com/ucr-rai/robust-proof-autoformalization.",
+      "pub_date": "Tue, 16 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "证明自动形式化在Lean 4中的鲁棒性评估",
+        "summary": "首次研究证明自动形式化模型的鲁棒性。提出全局扰动（改写风格）和局部扰动（改变值、符号或证明步骤）两类扰动，构建基于miniF2F和MATH-500的基准，评估七个最新模型。结果表明所有模型对全局扰动敏感，且大多无法忠实反映局部扰动。",
+        "summary_en": "First study on robustness of proof autoformalization models. Proposes global (paraphrasing style) and local (altering values/symbols/steps) perturbations, builds benchmark on miniF2F and MATH-500, evaluates seven recent models. All models are sensitive to global perturbations and mostly fail to faithfully reflect local perturbations.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-16-rss-010",
+        "title": "证明自动形式化在Lean 4中的鲁棒性评估",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.14867",
+        "language": "en",
+        "summary": "首次研究证明自动形式化模型的鲁棒性。提出全局扰动（改写风格）和局部扰动（改变值、符号或证明步骤）两类扰动，构建基于miniF2F和MATH-500的基准，评估七个最新模型。结果表明所有模型对全局扰动敏感，且大多无法忠实反映局部扰动。",
+        "summary_en": "First study on robustness of proof autoformalization models. Proposes global (paraphrasing style) and local (altering values/symbols/steps) perturbations, builds benchmark on miniF2F and MATH-500, evaluates seven recent models. All models are sensitive to global perturbations and mostly fail to faithfully reflect local perturbations.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-06-16T20:52:27.993446+08:00",
+        "updated_at": "2026-06-16T20:52:27.993447+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Context Compression Is Not One Thing: Readable Symbolic Re-expression vs. Coherent Summary at Matched Budget",
+      "url": "https://arxiv.org/abs/2606.14875",
+      "description": "arXiv:2606.14875v1 Announce Type: new \nAbstract: We study context compression for multi-hop question answering with small language models. We propose Telegraph English, a readable symbolic format that rewrites retrieved passages into structured entity-relation statements, preserving reasoning evidence at lower token cost. In controlled experiments on MuSiQue, TwoWiki, and HotpotQA, Telegraph English outperforms three matched-budget compression baselines (character-level deletion, truncation, and random sub-sampling) on every dataset, with gains of 13 to 20 F1 percentage point. It also outperforms a coherent prose summary produced by the same encoder on the hardest dataset. A pre-registered depth-interaction hypothesis is null: the advantage does not grow with reasoning depth within datasets. We interpret these results as evidence that readable symbolic re-expression preserves entity content more densely than either natural language or coherent summarization at matched token budget.",
+      "pub_date": "Tue, 16 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "上下文压缩并非单一任务：可读符号重表达与连贯摘要的预算匹配比较",
+        "summary": "提出Telegraph English，一种可读符号格式，将检索段落重写为结构化实体-关系陈述，在更低token成本下保留推理证据。在MuSiQue等数据集上，相比三种预算匹配基线，F1提升13-20个百分点。",
+        "summary_en": "Proposes Telegraph English, a readable symbolic format that rewrites retrieved passages into structured entity-relation statements, preserving reasoning evidence at lower token cost. Outperforms three matched-budget baselines by 13-20 F1 points on multi-hop QA datasets.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "rag"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-16-rss-008",
+        "title": "上下文压缩并非单一任务：可读符号重表达与连贯摘要的预算匹配比较",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.14875",
+        "language": "en",
+        "summary": "提出Telegraph English，一种可读符号格式，将检索段落重写为结构化实体-关系陈述，在更低token成本下保留推理证据。在MuSiQue等数据集上，相比三种预算匹配基线，F1提升13-20个百分点。",
+        "summary_en": "Proposes Telegraph English, a readable symbolic format that rewrites retrieved passages into structured entity-relation statements, preserving reasoning evidence at lower token cost. Outperforms three matched-budget baselines by 13-20 F1 points on multi-hop QA datasets.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "rag"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-06-16T20:52:27.993437+08:00",
+        "updated_at": "2026-06-16T20:52:27.993438+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Simplifying the Modeling of Arbitrary Conditionals in Natural Language",
+      "url": "https://arxiv.org/abs/2606.14943",
+      "description": "arXiv:2606.14943v1 Announce Type: new \nAbstract: Causal Transformers model sequences through an autoregressive factorization of the joint distribution, which enables efficient left-to-right decoding and conditional likelihood computation. However, they cannot tractably sample from or evaluate arbitrary conditionals -- e.g., a block of text conditioned on past and future tokens. Recent work aims to solve this problem through novel architectures, but they often lead to sub-optimal modeling of such conditionals and degraded generations. We propose Arbitrary Conditionals GPT (AC-GPT) which introduces a simple modification to standard causal Transformers to enable evaluating and sampling from arbitrary conditionals -- including past, future, and mixed contexts -- within a single forward pass. Unlike prior approaches, our method preserves the standard left-to-right ordering and next-token prediction objective essential for both strong performance and efficient training on natural language. Crucially, this compatibility allows existing LLMs to be fine-tuned for arbitrary conditioning. Our empirical results indicate that our method outperforms baselines on modeling arbitrary conditionals, without degrading standard left-to-right performance.",
+      "pub_date": "Tue, 16 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "简化自然语言中任意条件建模",
+        "summary": "提出AC-GPT，通过对标准因果Transformer进行简单修改，实现在单次前向传播中评估和采样任意条件（包括过去、未来和混合上下文），无需牺牲标准从左到右的性能，并支持现有LLM微调。",
+        "summary_en": "Proposes AC-GPT, a simple modification to standard causal Transformers that enables evaluating and sampling from arbitrary conditionals (past, future, mixed contexts) in a single forward pass without degrading standard left-to-right performance, and supports fine-tuning existing LLMs.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-16-rss-004",
+        "title": "简化自然语言中任意条件建模",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.14943",
+        "language": "en",
+        "summary": "提出AC-GPT，通过对标准因果Transformer进行简单修改，实现在单次前向传播中评估和采样任意条件（包括过去、未来和混合上下文），无需牺牲标准从左到右的性能，并支持现有LLM微调。",
+        "summary_en": "Proposes AC-GPT, a simple modification to standard causal Transformers that enables evaluating and sampling from arbitrary conditionals (past, future, mixed contexts) in a single forward pass without degrading standard left-to-right performance, and supports fine-tuning existing LLMs.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-16T20:52:27.993418+08:00",
+        "updated_at": "2026-06-16T20:52:27.993420+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "CoRA: Confidence-Rationale Alignment for Reliable Chain-of-Thought Reasoning",
+      "url": "https://arxiv.org/abs/2606.14961",
+      "description": "arXiv:2606.14961v1 Announce Type: new \nAbstract: Chain-of-thought (CoT) reasoning can improve LLM performance, but high answer confidence may be misleading when the accompanying CoT rationale is plausible yet incomplete or poorly supported. We study confidence--rationale alignment: whether a model's confidence in its committed answer is justified by its generated rationale. We introduce a GRPO-based reinforcement learning framework that jointly rewards answer correctness, committed-answer probability, and rubric-based rationale support, where the rubric assesses grounding, coherence, task match, and connection to the selected answer without revealing the gold answer to the judge. Across MedQA, MathQA, and OpenBookQA using three open-weight LLMs, our method reduces the confidence--rationale alignment error by up to 26.51% compared with untuned checkpoints, SFT, and correctness-only GRPO, while maintaining competitive accuracy and often improving calibration. These results show that reliable CoT reasoning requires not only confident answers, but rationales that substantively support them.",
+      "pub_date": "Tue, 16 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "CoRA：面向可靠链式推理的置信度-理由对齐方法",
+        "summary": "提出CoRA方法，通过GRPO强化学习框架联合优化答案正确性、置信度与理由质量，减少置信度与理由之间的对齐误差，提升链式推理的可靠性。在MedQA、MathQA等数据集上，对齐误差降低最高26.51%，同时保持准确率与校准性能。",
+        "summary_en": null,
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-16-rss-005",
+        "title": "CoRA：面向可靠链式推理的置信度-理由对齐方法",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.14961",
+        "language": "en",
+        "summary": "提出CoRA方法，通过GRPO强化学习框架联合优化答案正确性、置信度与理由质量，减少置信度与理由之间的对齐误差，提升链式推理的可靠性。在MedQA、MathQA等数据集上，对齐误差降低最高26.51%，同时保持准确率与校准性能。",
+        "summary_en": null,
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-16T20:52:27.993423+08:00",
+        "updated_at": "2026-06-16T20:52:27.993424+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

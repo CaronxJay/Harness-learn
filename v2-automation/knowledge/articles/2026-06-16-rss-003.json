@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-16-rss-003",
+  "title": "PhoneHarness：通过混合GUI、CLI和工具操作实现手机使用代理",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.14832",
+  "language": "en",
+  "summary": "PhoneHarness是一个混合动作基准测试和执行框架，用于评估手机使用代理在可验证移动工作流上的表现。它结合了GUI、CLI和主机端工具动作，实现了75.0%的通过率，比最强基线高出12.9个百分点。研究表明，可靠的手机自动化依赖于动作表面路由和可验证执行，而不仅仅是视觉GUI控制。",
+  "summary_en": "PhoneHarness is a mixed-action benchmark and execution harness for evaluating phone-use agents on verifiable mobile workflows. It combines GUI, CLI, and host-side tool actions, achieving a 75.0% pass rate, outperforming the strongest baseline by 12.9 percentage points. Findings suggest reliable phone automation depends on action-surface routing and verifiable execution, not only visual GUI control.",
+  "tags": [
+    "agent-framework",
+    "benchmark",
+    "application",
+    "tool"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-16T20:52:27.993413+08:00",
+  "updated_at": "2026-06-16T20:52:27.993415+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

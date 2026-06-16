@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-16-rss-008",
+  "title": "上下文压缩并非单一任务：可读符号重表达与连贯摘要的预算匹配比较",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.14875",
+  "language": "en",
+  "summary": "提出Telegraph English，一种可读符号格式，将检索段落重写为结构化实体-关系陈述，在更低token成本下保留推理证据。在MuSiQue等数据集上，相比三种预算匹配基线，F1提升13-20个百分点。",
+  "summary_en": "Proposes Telegraph English, a readable symbolic format that rewrites retrieved passages into structured entity-relation statements, preserving reasoning evidence at lower token cost. Outperforms three matched-budget baselines by 13-20 F1 points on multi-hop QA datasets.",
+  "tags": [
+    "llm",
+    "research",
+    "benchmark",
+    "rag"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-06-16T20:52:27.993437+08:00",
+  "updated_at": "2026-06-16T20:52:27.993438+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

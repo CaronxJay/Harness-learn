@@ -1,0 +1,24 @@
+{
+  "id": "2026-06-16-rss-006",
+  "title": "良好解释的定义及解释LLM输出的挑战",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.14838",
+  "language": "en",
+  "summary": "本文提出了一种基于反事实解释的良好解释定义，强调必须考虑对话者对解释中每个事实的先验信念，并探讨了该定义对AI可解释性的影响，特别是为何难以对LLM输出提供良好解释。",
+  "summary_en": "This paper proposes a definition of good explanations based on counterfactual explanations, emphasizing the need to consider the interlocutor's prior beliefs, and explores its implications for AI explainability, especially the difficulty of explaining LLM outputs.",
+  "tags": [
+    "llm",
+    "research",
+    "explainability"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-06-16T20:52:27.993427+08:00",
+  "updated_at": "2026-06-16T20:52:27.993429+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

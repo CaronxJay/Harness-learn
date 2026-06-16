@@ -1,0 +1,26 @@
+{
+  "id": "2026-06-16-rss-002",
+  "title": "PrologMCP：为LLM代理提供标准化的Prolog工具接口",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.14935",
+  "language": "en",
+  "summary": "PrologMCP是一个任务无关的开源服务器，通过模型上下文协议(MCP)将Prolog暴露为有状态工具，使LLM代理能够将推理任务委托给Prolog求解器。在PARARULE-Plus基准测试中，使用PrologMCP的形式化代理在通用样本上准确率达1.00，在挑战性子集上达0.99，优于标准LLM和推理LLM。",
+  "summary_en": "PrologMCP is a task-agnostic, open-source server that exposes Prolog as a stateful tool via the Model Context Protocol (MCP), enabling LLM agents to delegate inference to a Prolog solver. On PARARULE-Plus, a formalizer agent with PrologMCP achieves 1.00 accuracy on general samples and 0.99 on challenging subsets, outperforming standard and reasoning LLMs.",
+  "tags": [
+    "llm",
+    "research",
+    "tool",
+    "benchmark",
+    "open-source"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-16T20:52:27.993408+08:00",
+  "updated_at": "2026-06-16T20:52:27.993410+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
