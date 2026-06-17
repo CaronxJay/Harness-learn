@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-17-rss-002",
+  "title": "超越并行采样：面向智能体搜索的多样化查询初始化",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.17209",
+  "language": "en",
+  "summary": "针对智能体搜索中并行采样收益递减问题，提出训练无关的DivInit方法。通过从单次调用中抽取n个候选，选择k个多样化种子作为并行轨迹，有效缓解首轮查询冗余。在五个开源模型和八个基准测试中，平均提升5-7个点。",
+  "summary_en": "To address diminishing returns of parallel sampling in agentic search, proposes DivInit, a training-free method that selects k diverse first queries from n candidates, improving multi-hop QA by 5-7 points on average across five models and eight benchmarks.",
+  "tags": [
+    "research",
+    "agent-framework",
+    "llm",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-06-17T20:15:37.339323+08:00",
+  "updated_at": "2026-06-17T20:15:37.339324+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

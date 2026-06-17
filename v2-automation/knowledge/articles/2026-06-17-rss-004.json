@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-17-rss-004",
+  "title": "MemSlides：用于个性化幻灯片生成与多轮局部修订的分层记忆驱动智能体框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.17162",
+  "language": "en",
+  "summary": "提出MemSlides框架，通过分层记忆（长期用户画像、工作记忆、工具记忆）和局部修订机制，实现个性化演示文稿生成，支持多轮修订中偏好保持与精准局部编辑。",
+  "summary_en": "Proposes MemSlides, a hierarchical memory framework for personalized presentation agents that separates long-term user profile, working memory, and tool memory, enabling reliable multi-turn local revision and preference preservation.",
+  "tags": [
+    "agent-framework",
+    "research",
+    "llm",
+    "application"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-06-17T20:15:37.339332+08:00",
+  "updated_at": "2026-06-17T20:15:37.339334+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

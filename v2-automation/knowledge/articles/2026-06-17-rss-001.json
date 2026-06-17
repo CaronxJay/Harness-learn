@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-17-rss-001",
+  "title": "RepSelect：基于表示选择性的鲁棒LLM遗忘方法",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.17168",
+  "language": "en",
+  "summary": "RepSelect通过在每个更新前坍缩权重梯度的主成分，隔离遗忘集特有的表示，实现深层且鲁棒的LLM遗忘。相比基线方法，在重新学习后答案准确率降低4-50倍，且对少样本提示攻击近乎完美鲁棒。",
+  "summary_en": "RepSelect isolates forget-set-specific representations by collapsing top principal components of weight gradients before each update, achieving deep and robust LLM unlearning. It reduces post-relearning answer accuracy by 4-50x over baselines and is near-perfectly robust to few-shot prompting attacks.",
+  "tags": [
+    "llm",
+    "research",
+    "security",
+    "fine-tuning"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-17T20:15:37.339314+08:00",
+  "updated_at": "2026-06-17T20:15:37.339318+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

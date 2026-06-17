@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-17-rss-006",
+  "title": "扩散语言模型中的自生成错误训练用于令牌编辑",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.17175",
+  "language": "en",
+  "summary": "针对LLaDA2.1扩散语言模型中令牌编辑的训练-推理不匹配问题，提出自生成T2T方法：通过无梯度草稿传递生成自生成错误，并监督恢复过程。在LLaDA2.1-mini上使用LoRA持续预训练实现，在多个基准测试中提升了准确性，同时减少了编辑强度，缓解了最终数字转录错误和过度自我修正等失败模式。",
+  "summary_en": "Addresses the training-inference mismatch in token-to-token editing for LLaDA2.1 diffusion language models by proposing self-generated T2T, which uses a no-gradient draft pass to create self-generated corruptions and supervises recovery. Implemented via LoRA continued-pretraining on LLaDA2.1-mini, it improves accuracy and reduces edit intensity on benchmarks, mitigating failures like final-digit transcription errors and excessive self-correction.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "prompt-engineering"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-06-17T20:15:37.339341+08:00",
+  "updated_at": "2026-06-17T20:15:37.339342+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

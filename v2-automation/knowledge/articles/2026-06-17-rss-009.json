@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-17-rss-009",
+  "title": "SkillChain-Gym：面向中断下再技能感知生产库存控制的基准测试",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.17266",
+  "language": "en",
+  "summary": "SkillChain-Gym 是一个用于再技能感知生产库存控制的基准测试环境，它将工人技能状态、认证遗忘和培训行动整合到生产规划中。该基准测试包含中断场景、可行性模式和多种策略评估，揭示了培训策略在不同情境下的表现差异，为开发预测驱动型控制器提供了基础。",
+  "summary_en": null,
+  "tags": [
+    "benchmark",
+    "research",
+    "application",
+    "infrastructure"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.6,
+  "status": "published",
+  "created_at": "2026-06-17T20:15:37.339354+08:00",
+  "updated_at": "2026-06-17T20:15:37.339356+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

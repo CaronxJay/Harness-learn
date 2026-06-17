@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-17-rss-005",
+  "title": "PromptMN：伪提示领域特定语言",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.17164",
+  "language": "en",
+  "summary": "PromptMN 是一种伪提示领域特定语言，通过紧凑的 % 前缀类型化指令（角色、目标、约束等）注释自然语言，使提示更清晰、可检查、可复用。实验表明，前沿模型无需微调即可正确解析其指令，有望减少智能体因上下文歧义导致的失败。",
+  "summary_en": "PromptMN is a pseudo-prompting DSL that annotates natural language with compact %-prefixed typed directives (roles, goals, constraints, etc.), making prompts more inspectable and reusable. Frontier models correctly resolve its instructions without fine-tuning, reducing agent failures from context ambiguity.",
+  "tags": [
+    "prompt-engineering",
+    "llm",
+    "research",
+    "tool"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-06-17T20:15:37.339337+08:00",
+  "updated_at": "2026-06-17T20:15:37.339338+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

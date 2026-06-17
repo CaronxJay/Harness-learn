@@ -1,0 +1,24 @@
+{
+  "id": "2026-06-17-rss-007",
+  "title": "从无到有：语言模型能否发现“零”的概念？",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.17289",
+  "language": "en",
+  "summary": "本研究以简单算术为例，探讨现代AI模型能否独立发现“零”的概念。结果表明，GPT-2规模的语言模型在测试时无法完成此泛化，但通过少量示例训练后可显著提升，且语言预训练可将所需示例减少约50%。",
+  "summary_en": "This study uses simple arithmetic to examine whether modern AI models can independently discover the concept of 'zero'. Results show that GPT-2-sized language models fail at test-time generalization but improve substantially after few-shot training, with language pretraining reducing required examples by ~50%.",
+  "tags": [
+    "llm",
+    "research",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-06-17T20:15:37.339345+08:00",
+  "updated_at": "2026-06-17T20:15:37.339347+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

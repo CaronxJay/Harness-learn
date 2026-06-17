@@ -1,0 +1,473 @@
+{
+  "collected_at": "2026-06-17T20:15:37.340185+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "Beyond Parallel Sampling: Diverse Query Initialization for Agentic Search",
+      "url": "https://arxiv.org/abs/2606.17209",
+      "description": "arXiv:2606.17209v1 Announce Type: new \nAbstract: Test-time scaling for agentic search typically increases depth (i.e., more turns and tokens per trajectory) or breadth (i.e., more parallel rollouts). Here we focus on breadth scaling, showing that standard parallel sampling yields diminishing returns, tracing this to query redundancy at the first turn. When models issue similar first queries across rollouts, the threads retrieve overlapping evidence, and subsequent turns are conditioned on this shared retrieval. We address this limitation with DivInit, a training-free intervention at the first turn. Rather than sampling k independent first queries, DivInit draws n candidates from a single call, picks k < n diverse seeds, and runs them as parallel trajectories. Across five open-weight models and eight benchmarks, DivInit consistently improves over standard parallel sampling, with average gains of five to seven points on multi-hop QA at matched compute. Code available at https://github.com/cxcscmu/diverse-query-initialization",
+      "pub_date": "Wed, 17 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "超越并行采样：面向智能体搜索的多样化查询初始化",
+        "summary": "针对智能体搜索中并行采样收益递减问题，提出训练无关的DivInit方法。通过从单次调用中抽取n个候选，选择k个多样化种子作为并行轨迹，有效缓解首轮查询冗余。在五个开源模型和八个基准测试中，平均提升5-7个点。",
+        "summary_en": "To address diminishing returns of parallel sampling in agentic search, proposes DivInit, a training-free method that selects k diverse first queries from n candidates, improving multi-hop QA by 5-7 points on average across five models and eight benchmarks.",
+        "tags": [
+          "research",
+          "agent-framework",
+          "llm",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-17-rss-002",
+        "title": "超越并行采样：面向智能体搜索的多样化查询初始化",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.17209",
+        "language": "en",
+        "summary": "针对智能体搜索中并行采样收益递减问题，提出训练无关的DivInit方法。通过从单次调用中抽取n个候选，选择k个多样化种子作为并行轨迹，有效缓解首轮查询冗余。在五个开源模型和八个基准测试中，平均提升5-7个点。",
+        "summary_en": "To address diminishing returns of parallel sampling in agentic search, proposes DivInit, a training-free method that selects k diverse first queries from n candidates, improving multi-hop QA by 5-7 points on average across five models and eight benchmarks.",
+        "tags": [
+          "research",
+          "agent-framework",
+          "llm",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-06-17T20:15:37.339323+08:00",
+        "updated_at": "2026-06-17T20:15:37.339324+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "When Rules Learn: A Self-Evolving Agent for Legal Case Retrieval",
+      "url": "https://arxiv.org/abs/2606.17220",
+      "description": "arXiv:2606.17220v1 Announce Type: new \nAbstract: Legal case retrieval remains challenging due to the complexity of legal language and the need for precise lexical alignment between queries and relevant cases. Although dense retrieval models have achieved notable progress, empirical studies show that BM25 continues to serve as a strong baseline in this domain. It motivates us to propose a self-evolving framework for rule-driven query rewriting that enhances BM25 without any parameter training. The framework equips an LLM-based agent with an automatic evaluation environment, enabling it to iteratively create rewriting rules, plan validation experiments over rule combinations, and eliminate ineffective rules based on historical feedbacks. We evaluate our method on the Chinese legal case retrieval benchmark LeCaRD-v2. Experimental results demonstrate that the proposed framework outperforms non-evolutionary baselines, including human-designed rules and greedy rule selection, particularly when powered by a highcapacity core LLM. We also conduct detailed analyses to investigate the mechanisms underlying self-evolution. Our findings reveal that LLM's capabilities to leverage previous experimental results and its intrinsic knowledge of rule elimination play critical roles in refining the rule set via self-evolution.",
+      "pub_date": "Wed, 17 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "自进化智能体：法律案例检索的规则驱动查询重写框架",
+        "summary": "提出一种无需参数训练的自进化框架，利用LLM智能体自动生成和优化查询重写规则，提升BM25在法律案例检索中的性能。在LeCaRD-v2基准上超越非进化基线，揭示了LLM利用历史实验和内在知识进行规则消除的关键作用。",
+        "summary_en": "Proposes a self-evolving framework for rule-driven query rewriting that enhances BM25 without parameter training, using an LLM-based agent to iteratively create and refine rules. Outperforms non-evolutionary baselines on LeCaRD-v2, highlighting the role of leveraging experimental history and intrinsic knowledge for rule elimination.",
+        "tags": [
+          "llm",
+          "research",
+          "rag",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-17-rss-003",
+        "title": "自进化智能体：法律案例检索的规则驱动查询重写框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.17220",
+        "language": "en",
+        "summary": "提出一种无需参数训练的自进化框架，利用LLM智能体自动生成和优化查询重写规则，提升BM25在法律案例检索中的性能。在LeCaRD-v2基准上超越非进化基线，揭示了LLM利用历史实验和内在知识进行规则消除的关键作用。",
+        "summary_en": "Proposes a self-evolving framework for rule-driven query rewriting that enhances BM25 without parameter training, using an LLM-based agent to iteratively create and refine rules. Outperforms non-evolutionary baselines on LeCaRD-v2, highlighting the role of leveraging experimental history and intrinsic knowledge for rule elimination.",
+        "tags": [
+          "llm",
+          "research",
+          "rag",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-06-17T20:15:37.339327+08:00",
+        "updated_at": "2026-06-17T20:15:37.339329+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "SkillChain-Gym: A Benchmark for Reskilling-Aware Production-Inventory Control under Disruptions",
+      "url": "https://arxiv.org/abs/2606.17266",
+      "description": "arXiv:2606.17266v1 Announce Type: new \nAbstract: Production planning increasingly has to treat workforce capability as a decision variable: certifications lapse when skills are not maintained, new products require skills the current workforce does not hold, and reskilling competes for the same worker hours needed for production. Existing operations benchmarks usually treat labor as exogenous, while workforce-planning models with skills and learning are rarely released as reusable testbeds. We introduce SkillChain-Gym, a benchmark specification for reskilling-aware production-inventory control: a single-site environment with stylized worker skill-state dynamics, hard threshold certification, forgetting, and capacity-consuming training actions constrained by the same per-worker time budget as production. The benchmark includes seed-controlled disruption scenarios, three feasibility modes with projection diagnostics, deterministic replay, and metrics covering operations, resilience, capability growth, and training-access distribution. We evaluate production-only, reactive adaptive, water-filling adaptive, and static-insurance policies with budget variants over 60-shift horizons with paired statistical tests. The results are regime-dependent rather than a ranking. Training-capable policies dominate the production-only baseline, and maintenance training is necessary under forgetting even without disruptions. Among training-capable classes, adaptive training helps when bottlenecks are visible in the forecast, while a lean static cross-training plan, a deliberately favorable comparator whose structure encodes relevant skill contingencies, acts as strong insurance under surprise shocks and absenteeism. Capacity slack and the forgetting rate govern the boundary between these regimes. No policy class dominates across regimes, motivating forecast-driven controllers that decide when to buy skill insurance and when to react.",
+      "pub_date": "Wed, 17 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "SkillChain-Gym：面向中断下再技能感知生产库存控制的基准测试",
+        "summary": "SkillChain-Gym 是一个用于再技能感知生产库存控制的基准测试环境，它将工人技能状态、认证遗忘和培训行动整合到生产规划中。该基准测试包含中断场景、可行性模式和多种策略评估，揭示了培训策略在不同情境下的表现差异，为开发预测驱动型控制器提供了基础。",
+        "summary_en": null,
+        "tags": [
+          "benchmark",
+          "research",
+          "application",
+          "infrastructure"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.6,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-17-rss-009",
+        "title": "SkillChain-Gym：面向中断下再技能感知生产库存控制的基准测试",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.17266",
+        "language": "en",
+        "summary": "SkillChain-Gym 是一个用于再技能感知生产库存控制的基准测试环境，它将工人技能状态、认证遗忘和培训行动整合到生产规划中。该基准测试包含中断场景、可行性模式和多种策略评估，揭示了培训策略在不同情境下的表现差异，为开发预测驱动型控制器提供了基础。",
+        "summary_en": null,
+        "tags": [
+          "benchmark",
+          "research",
+          "application",
+          "infrastructure"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.6,
+        "status": "published",
+        "created_at": "2026-06-17T20:15:37.339354+08:00",
+        "updated_at": "2026-06-17T20:15:37.339356+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Skill-Constrained Model Predictive Control for Resilient Manufacturing Supply Chains",
+      "url": "https://arxiv.org/abs/2606.17269",
+      "description": "arXiv:2606.17269v1 Announce Type: new \nAbstract: In skill-constrained production-inventory systems, the qualified human capacity available tomorrow depends on training decisions made today: production requires certified workers, certifications decay unless maintained, and training consumes the same scarce worker hours that production needs now. We study a closed-loop skill-constrained model predictive controller that, at every shift, solves a finite-horizon mixed-integer program over production, inventory, backlog, and training, with binary predicted certification, hard production eligibility, and an interpretable terminal value that prices certified-capacity gaps at the horizon boundary; only the first-period action is applied before replanning. On synthetic, seed-controlled SkillChain-Gym scenarios - announced and surprise new-skill shocks, demand shocks, absenteeism, forecast- and availability-quality modes, capacity-boundary and training-rate sweeps, and negative controls - we evaluate the controller against production-only and maintenance-only ablations, static cross-training insurance plans, and a strong reactive heuristic, under an ex-ante locked configuration and paired statistics. The result is regime dependence, not superiority: no policy class dominates. Predictive control helps when skill or labor bottlenecks are forecastable early enough for training to complete; lean static insurance remains hard to beat under surprise shocks, near the demand-capacity boundary, and wherever pre-shock slack makes insurance cheap. Attribution ablations separate certification maintenance, re-acquisition of lapsed certifications, and greenfield skill acquisition. Forecastability, not adaptivity per se, decides when predictive control pays.",
+      "pub_date": "Wed, 17 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "面向韧性制造供应链的技能约束模型预测控制",
+        "summary": "提出一种技能约束的模型预测控制器，通过有限时域混合整数规划优化生产、库存、积压和培训决策，以应对技能瓶颈、需求冲击等扰动。实验表明，预测控制仅在技能瓶颈可提前预测时优于静态保险策略，否则静态策略更优。",
+        "summary_en": "Proposes a skill-constrained model predictive controller that optimizes production, inventory, backlog, and training via finite-horizon mixed-integer programming. Experiments show predictive control outperforms static insurance only when skill bottlenecks are forecastable; otherwise, static strategies are more robust.",
+        "tags": [
+          "research",
+          "application",
+          "optimization"
+        ],
+        "category": "research",
+        "relevance_score": 0.6,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-17-rss-010",
+        "title": "面向韧性制造供应链的技能约束模型预测控制",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.17269",
+        "language": "en",
+        "summary": "提出一种技能约束的模型预测控制器，通过有限时域混合整数规划优化生产、库存、积压和培训决策，以应对技能瓶颈、需求冲击等扰动。实验表明，预测控制仅在技能瓶颈可提前预测时优于静态保险策略，否则静态策略更优。",
+        "summary_en": "Proposes a skill-constrained model predictive controller that optimizes production, inventory, backlog, and training via finite-horizon mixed-integer programming. Experiments show predictive control outperforms static insurance only when skill bottlenecks are forecastable; otherwise, static strategies are more robust.",
+        "tags": [
+          "research",
+          "application",
+          "optimization"
+        ],
+        "category": "research",
+        "relevance_score": 0.6,
+        "status": "published",
+        "created_at": "2026-06-17T20:15:37.339359+08:00",
+        "updated_at": "2026-06-17T20:15:37.339360+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Nothing from Something: Can a Language Model Discover 0?",
+      "url": "https://arxiv.org/abs/2606.17289",
+      "description": "arXiv:2606.17289v1 Announce Type: new \nAbstract: AI systems based on artificial neural networks are being developed with aspirations of pushing the boundary of human mathematical knowledge. A key question for these systems is how much they can reach beyond their training data. Mathematical discovery requires a strong form of out of distribution generalization; the ability to hypothesize genuinely new - and potentially logically more powerful - mathematical structures. It has been hypothesized that language abilities support such generalizations in human cognition. In this work, we use simple arithmetic as a case study for examining how modern AI models could expand their mathematical horizons, evaluating whether these models can independently discover the concept of \"zero\". We show that We show that (1) language models of a GPT-2 size are unable to perform this generalization at test time regardless of language pretraining, but (2) models can improve substantially after training on tens or hundreds of examples of zero. Additionally, we find that language pretraining reduces the number of required examples by approximately $50\\%$, showing that language abilities can scaffold mathematical discovery in neural models.",
+      "pub_date": "Wed, 17 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "从无到有：语言模型能否发现“零”的概念？",
+        "summary": "本研究以简单算术为例，探讨现代AI模型能否独立发现“零”的概念。结果表明，GPT-2规模的语言模型在测试时无法完成此泛化，但通过少量示例训练后可显著提升，且语言预训练可将所需示例减少约50%。",
+        "summary_en": "This study uses simple arithmetic to examine whether modern AI models can independently discover the concept of 'zero'. Results show that GPT-2-sized language models fail at test-time generalization but improve substantially after few-shot training, with language pretraining reducing required examples by ~50%.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-17-rss-007",
+        "title": "从无到有：语言模型能否发现“零”的概念？",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.17289",
+        "language": "en",
+        "summary": "本研究以简单算术为例，探讨现代AI模型能否独立发现“零”的概念。结果表明，GPT-2规模的语言模型在测试时无法完成此泛化，但通过少量示例训练后可显著提升，且语言预训练可将所需示例减少约50%。",
+        "summary_en": "This study uses simple arithmetic to examine whether modern AI models can independently discover the concept of 'zero'. Results show that GPT-2-sized language models fail at test-time generalization but improve substantially after few-shot training, with language pretraining reducing required examples by ~50%.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-06-17T20:15:37.339345+08:00",
+        "updated_at": "2026-06-17T20:15:37.339347+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "MemSlides: A Hierarchical Memory Driven Agent Framework for Personalized Slide Generation with Multi-turn Local Revision",
+      "url": "https://arxiv.org/abs/2606.17162",
+      "description": "arXiv:2606.17162v1 Announce Type: new \nAbstract: Personalized presentation generation requires more than conditioning on a current prompt or template: agents must preserve stable user preferences across tasks, retain newly introduced preferences and constraints during multi-turn revision, and carry out local edits reliably. We propose MemSlides, a hierarchical memory framework for personalized presentation agents that separates long-term memory from working memory and further divides long-term memory into user profile memory and tool memory. User profile memory stores intent-conditioned profiles for round-0 personalization, working memory carries active preferences and session constraints across revision rounds, and tool memory stores reusable execution experience for reliable localized editing. MemSlides pairs this memory design with scoped slide-local revision, so targeted updates act on the smallest affected region instead of repeatedly regenerating the full deck. In controlled experiments, user profile memory improves persona-alignment judgments on a multi-persona, multi-intent profile bank, tool-memory injection improves closed-loop modify behavior in diagnostic matched-pair settings, and qualitative cases illustrate working memory's ability to carryover preferences. Taken together, these results suggest that effective personalization in presentation authoring depends on separating persistent user profiles, session-level working memory, and reusable execution experience across generation and localized revision.",
+      "pub_date": "Wed, 17 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "MemSlides：用于个性化幻灯片生成与多轮局部修订的分层记忆驱动智能体框架",
+        "summary": "提出MemSlides框架，通过分层记忆（长期用户画像、工作记忆、工具记忆）和局部修订机制，实现个性化演示文稿生成，支持多轮修订中偏好保持与精准局部编辑。",
+        "summary_en": "Proposes MemSlides, a hierarchical memory framework for personalized presentation agents that separates long-term user profile, working memory, and tool memory, enabling reliable multi-turn local revision and preference preservation.",
+        "tags": [
+          "agent-framework",
+          "research",
+          "llm",
+          "application"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-17-rss-004",
+        "title": "MemSlides：用于个性化幻灯片生成与多轮局部修订的分层记忆驱动智能体框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.17162",
+        "language": "en",
+        "summary": "提出MemSlides框架，通过分层记忆（长期用户画像、工作记忆、工具记忆）和局部修订机制，实现个性化演示文稿生成，支持多轮修订中偏好保持与精准局部编辑。",
+        "summary_en": "Proposes MemSlides, a hierarchical memory framework for personalized presentation agents that separates long-term user profile, working memory, and tool memory, enabling reliable multi-turn local revision and preference preservation.",
+        "tags": [
+          "agent-framework",
+          "research",
+          "llm",
+          "application"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-06-17T20:15:37.339332+08:00",
+        "updated_at": "2026-06-17T20:15:37.339334+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "PromptMN: Pseudo Prompting Language",
+      "url": "https://arxiv.org/abs/2606.17164",
+      "description": "arXiv:2606.17164v1 Announce Type: new \nAbstract: Prompting has become the primary interface between humans and generative AI, yet many natural language prompts remain fragile: roles, goals, constraints, and expected outputs are often buried in prose or left implicit. In agentic and software development workflows, a misread at the first handoff can propagate through every step, since a significant portion of agent failures stem from context ambiguities rather than model limitations. This paper introduces PromptMN, a pseudo-prompting domain-specific language that annotates natural language with compact, %-prefixed typed directives covering roles, goals, requirements, priorities, constraints, plans, inputs, and outputs. Semantic resolution lets authors write in any order while the model interprets directives by function. PromptMN sits between informal prompting and programming-style pseudocode: structured enough to be inspectable and reusable, yet lightweight enough for analysts, managers, developers, and stakeholders across the software development lifecycle (SDLC). PromptMN also pairs with reverse prompt engineering. Asking a model to restate a desired outcome as PromptMN lets users inspect the inferred roles, goals, constraints, and missing assumptions before acting, reducing repair cycles and yielding a reusable artifact for aligning people and AI tools. PromptMN's feasibility is evaluated across several frontier models, including Claude Fable 5, Claude Opus 4.8, Gemini 3.1 Pro, and GPT-5.5. The models correctly resolved PromptMN instructions, including complex structures such as repetition, conditionals, methods, and a prime-checking task, without fine-tuning. The same vocabulary applies across new codebases, maintenance, and redesign in the SDLC scenarios presented. While large-scale validation remains future work, these early results suggest PromptMN is a practical step toward clearer, more reviewable human-to-AI interaction.",
+      "pub_date": "Wed, 17 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "PromptMN：伪提示领域特定语言",
+        "summary": "PromptMN 是一种伪提示领域特定语言，通过紧凑的 % 前缀类型化指令（角色、目标、约束等）注释自然语言，使提示更清晰、可检查、可复用。实验表明，前沿模型无需微调即可正确解析其指令，有望减少智能体因上下文歧义导致的失败。",
+        "summary_en": "PromptMN is a pseudo-prompting DSL that annotates natural language with compact %-prefixed typed directives (roles, goals, constraints, etc.), making prompts more inspectable and reusable. Frontier models correctly resolve its instructions without fine-tuning, reducing agent failures from context ambiguity.",
+        "tags": [
+          "prompt-engineering",
+          "llm",
+          "research",
+          "tool"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-17-rss-005",
+        "title": "PromptMN：伪提示领域特定语言",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.17164",
+        "language": "en",
+        "summary": "PromptMN 是一种伪提示领域特定语言，通过紧凑的 % 前缀类型化指令（角色、目标、约束等）注释自然语言，使提示更清晰、可检查、可复用。实验表明，前沿模型无需微调即可正确解析其指令，有望减少智能体因上下文歧义导致的失败。",
+        "summary_en": "PromptMN is a pseudo-prompting DSL that annotates natural language with compact %-prefixed typed directives (roles, goals, constraints, etc.), making prompts more inspectable and reusable. Frontier models correctly resolve its instructions without fine-tuning, reducing agent failures from context ambiguity.",
+        "tags": [
+          "prompt-engineering",
+          "llm",
+          "research",
+          "tool"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-06-17T20:15:37.339337+08:00",
+        "updated_at": "2026-06-17T20:15:37.339338+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "RepSelect: Robust LLM Unlearning via Representation Selectivity",
+      "url": "https://arxiv.org/abs/2606.17168",
+      "description": "arXiv:2606.17168v1 Announce Type: new \nAbstract: Making large language models (LLMs) deeply forget specific knowledge and values without sacrificing general capabilities remains a central challenge in unlearning. However, current methods are easily reversed by fine-tuning or few-shot prompting, suggesting their forgetting is only shallow. We identify the root cause. Existing methods target representations shared with both the retain set and the subspace recovered by a fine-tuning attacker, making unlearning both disruptive to general capabilities and easy to reverse. We propose RepSelect (Representation Selectivity), isolates forget-set-specific representations by collapsing top principal components of weight gradients before each update, leaving general capabilities intact while limiting what fine-tuning can recover. We evaluate across two forget categories, biohazardous knowledge and abusive tendencies, and four model families spanning dense and Mixture-of-Experts architectures (Llama 3, Qwen 3.5, Gemma 4 E4B, DeepSeek V2 Lite). Compared to five popular baselines (GradDiff, NPO, SimNPO, RMU, UNDIAL), RepSelect achieves a 4-50x larger reduction in post-relearning answer accuracy than the strongest baseline, and is near-perfectly robust to few-shot prompting attacks. Targeting selective representations is thus an important step towards deep and robust LLM forgetting.",
+      "pub_date": "Wed, 17 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "RepSelect：基于表示选择性的鲁棒LLM遗忘方法",
+        "summary": "RepSelect通过在每个更新前坍缩权重梯度的主成分，隔离遗忘集特有的表示，实现深层且鲁棒的LLM遗忘。相比基线方法，在重新学习后答案准确率降低4-50倍，且对少样本提示攻击近乎完美鲁棒。",
+        "summary_en": "RepSelect isolates forget-set-specific representations by collapsing top principal components of weight gradients before each update, achieving deep and robust LLM unlearning. It reduces post-relearning answer accuracy by 4-50x over baselines and is near-perfectly robust to few-shot prompting attacks.",
+        "tags": [
+          "llm",
+          "research",
+          "security",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-17-rss-001",
+        "title": "RepSelect：基于表示选择性的鲁棒LLM遗忘方法",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.17168",
+        "language": "en",
+        "summary": "RepSelect通过在每个更新前坍缩权重梯度的主成分，隔离遗忘集特有的表示，实现深层且鲁棒的LLM遗忘。相比基线方法，在重新学习后答案准确率降低4-50倍，且对少样本提示攻击近乎完美鲁棒。",
+        "summary_en": "RepSelect isolates forget-set-specific representations by collapsing top principal components of weight gradients before each update, achieving deep and robust LLM unlearning. It reduces post-relearning answer accuracy by 4-50x over baselines and is near-perfectly robust to few-shot prompting attacks.",
+        "tags": [
+          "llm",
+          "research",
+          "security",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-17T20:15:37.339314+08:00",
+        "updated_at": "2026-06-17T20:15:37.339318+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "From Parasocial Scripts to Dyadic Persistence in Autonomous AI-Agent Communities",
+      "url": "https://arxiv.org/abs/2606.17174",
+      "description": "arXiv:2606.17174v1 Announce Type: new \nAbstract: While parasocial interactions (PSIs) and parasocial relationships (PSRs) have been studied in conventional media settings, we investigate whether PSI- (colloquial) relational cues also exist in online communities where both sides are autonomous AI agents. We analyze 4,434 posts and 50,338 comments from Moltbook through three theory-based textual indicators: attachment/intimacy language, reciprocity bids, and self-identification to original poster (OP). The combined results across methods based on keyword matching, few-shot large language model (LLM) annotation, and grouped-context LLM annotation reveal that PSI colloquial cues prevail and are strongly associated with OP re-engagement and a reciprocal reply structure. These results are robust across negative controls, nullification, clustered-standard-error re-estimation, and multiple-testing correction. A dyadic persistence test further affirms reciprocity bids aligned with sustained OP-involving mutual recurrence, providing empirical evidence for bridging interaction-level PSI scripts with PSR-consistent repeated dyadic patterns. We interpret the evidence as a behavioral structure in discourse by LLM-enabled agents.",
+      "pub_date": "Wed, 17 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "自主AI智能体社区中的准社会互动与二元持久性研究",
+        "summary": "研究在完全由AI智能体组成的在线社区中是否存在准社会互动（PSI）线索。通过分析Moltbook平台的4434篇帖子和50338条评论，发现PSI口语化线索普遍存在，并与原帖者再参与和互惠回复结构强相关。二元持久性测试进一步证实了互惠出价与持续的原帖者参与之间的关联，为LLM智能体的话语行为结构提供了实证证据。",
+        "summary_en": "Investigates whether parasocial interaction (PSI) cues exist in online communities composed entirely of autonomous AI agents. Analyzing 44,34 posts and 50,338 comments from Moltbook, the study finds PSI colloquial cues are prevalent and strongly associated with OP re-engagement and reciprocal reply structures. Dyadic persistence tests confirm reciprocity bids align with sustained OP-involving mutual recurrence, providing empirical evidence for behavioral structures in LLM-enabled agent discourse.",
+        "tags": [
+          "research",
+          "llm",
+          "agent-framework",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-17-rss-008",
+        "title": "自主AI智能体社区中的准社会互动与二元持久性研究",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.17174",
+        "language": "en",
+        "summary": "研究在完全由AI智能体组成的在线社区中是否存在准社会互动（PSI）线索。通过分析Moltbook平台的4434篇帖子和50338条评论，发现PSI口语化线索普遍存在，并与原帖者再参与和互惠回复结构强相关。二元持久性测试进一步证实了互惠出价与持续的原帖者参与之间的关联，为LLM智能体的话语行为结构提供了实证证据。",
+        "summary_en": "Investigates whether parasocial interaction (PSI) cues exist in online communities composed entirely of autonomous AI agents. Analyzing 44,34 posts and 50,338 comments from Moltbook, the study finds PSI colloquial cues are prevalent and strongly associated with OP re-engagement and reciprocal reply structures. Dyadic persistence tests confirm reciprocity bids align with sustained OP-involving mutual recurrence, providing empirical evidence for behavioral structures in LLM-enabled agent discourse.",
+        "tags": [
+          "research",
+          "llm",
+          "agent-framework",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-06-17T20:15:37.339350+08:00",
+        "updated_at": "2026-06-17T20:15:37.339351+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Self-Generated Error Training for Token Editing in Diffusion Language Models",
+      "url": "https://arxiv.org/abs/2606.17175",
+      "description": "arXiv:2606.17175v1 Announce Type: new \nAbstract: Token-to-token (T2T) editing lets LLaDA2.1 revise committed tokens during block-diffusion decoding. The released recipe trains this editor on random vocabulary corruptions, but at inference the editor sees the model's own fluent, high-confidence draft errors instead. We study this training-inference mismatch and propose self-generated T2T, which performs a no-gradient draft pass, fills masked positions with predicted tokens, and supervises recovery in a second pass under these self-generated corruptions. We implement the update as a short LoRA continued-pretraining pass on LLaDA2.1-mini and evaluate on several benchmarks under the official Q-Mode T2T procedure with unchanged inference parameters. The method generally improves accuracy while reducing T2T edit intensity, mitigating failure modes such as final-digit transcription errors after otherwise correct reasoning and excessive self-correction before short factual answers.",
+      "pub_date": "Wed, 17 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "扩散语言模型中的自生成错误训练用于令牌编辑",
+        "summary": "针对LLaDA2.1扩散语言模型中令牌编辑的训练-推理不匹配问题，提出自生成T2T方法：通过无梯度草稿传递生成自生成错误，并监督恢复过程。在LLaDA2.1-mini上使用LoRA持续预训练实现，在多个基准测试中提升了准确性，同时减少了编辑强度，缓解了最终数字转录错误和过度自我修正等失败模式。",
+        "summary_en": "Addresses the training-inference mismatch in token-to-token editing for LLaDA2.1 diffusion language models by proposing self-generated T2T, which uses a no-gradient draft pass to create self-generated corruptions and supervises recovery. Implemented via LoRA continued-pretraining on LLaDA2.1-mini, it improves accuracy and reduces edit intensity on benchmarks, mitigating failures like final-digit transcription errors and excessive self-correction.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-17-rss-006",
+        "title": "扩散语言模型中的自生成错误训练用于令牌编辑",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.17175",
+        "language": "en",
+        "summary": "针对LLaDA2.1扩散语言模型中令牌编辑的训练-推理不匹配问题，提出自生成T2T方法：通过无梯度草稿传递生成自生成错误，并监督恢复过程。在LLaDA2.1-mini上使用LoRA持续预训练实现，在多个基准测试中提升了准确性，同时减少了编辑强度，缓解了最终数字转录错误和过度自我修正等失败模式。",
+        "summary_en": "Addresses the training-inference mismatch in token-to-token editing for LLaDA2.1 diffusion language models by proposing self-generated T2T, which uses a no-gradient draft pass to create self-generated corruptions and supervises recovery. Implemented via LoRA continued-pretraining on LLaDA2.1-mini, it improves accuracy and reduces edit intensity on benchmarks, mitigating failures like final-digit transcription errors and excessive self-correction.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-06-17T20:15:37.339341+08:00",
+        "updated_at": "2026-06-17T20:15:37.339342+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

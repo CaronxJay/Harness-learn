@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-17-rss-008",
+  "title": "自主AI智能体社区中的准社会互动与二元持久性研究",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.17174",
+  "language": "en",
+  "summary": "研究在完全由AI智能体组成的在线社区中是否存在准社会互动（PSI）线索。通过分析Moltbook平台的4434篇帖子和50338条评论，发现PSI口语化线索普遍存在，并与原帖者再参与和互惠回复结构强相关。二元持久性测试进一步证实了互惠出价与持续的原帖者参与之间的关联，为LLM智能体的话语行为结构提供了实证证据。",
+  "summary_en": "Investigates whether parasocial interaction (PSI) cues exist in online communities composed entirely of autonomous AI agents. Analyzing 44,34 posts and 50,338 comments from Moltbook, the study finds PSI colloquial cues are prevalent and strongly associated with OP re-engagement and reciprocal reply structures. Dyadic persistence tests confirm reciprocity bids align with sustained OP-involving mutual recurrence, providing empirical evidence for behavioral structures in LLM-enabled agent discourse.",
+  "tags": [
+    "research",
+    "llm",
+    "agent-framework",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-06-17T20:15:37.339350+08:00",
+  "updated_at": "2026-06-17T20:15:37.339351+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

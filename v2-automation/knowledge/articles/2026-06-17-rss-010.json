@@ -1,0 +1,24 @@
+{
+  "id": "2026-06-17-rss-010",
+  "title": "面向韧性制造供应链的技能约束模型预测控制",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.17269",
+  "language": "en",
+  "summary": "提出一种技能约束的模型预测控制器，通过有限时域混合整数规划优化生产、库存、积压和培训决策，以应对技能瓶颈、需求冲击等扰动。实验表明，预测控制仅在技能瓶颈可提前预测时优于静态保险策略，否则静态策略更优。",
+  "summary_en": "Proposes a skill-constrained model predictive controller that optimizes production, inventory, backlog, and training via finite-horizon mixed-integer programming. Experiments show predictive control outperforms static insurance only when skill bottlenecks are forecastable; otherwise, static strategies are more robust.",
+  "tags": [
+    "research",
+    "application",
+    "optimization"
+  ],
+  "category": "research",
+  "relevance_score": 0.6,
+  "status": "published",
+  "created_at": "2026-06-17T20:15:37.339359+08:00",
+  "updated_at": "2026-06-17T20:15:37.339360+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
