@@ -1,0 +1,26 @@
+{
+  "id": "2026-06-18-rss-001",
+  "title": "CaVe-VLM-CoT：一种可解释的视觉语言模型框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.18385",
+  "language": "en",
+  "summary": "CaVe-VLM-CoT 是一个模块化的基于反思的智能体RAG框架，通过五阶段闭环流程（提取器、检索器、求解器、引用注入器、验证器）强制进行证据推理，检测到无依据声明时触发结构化反馈以进行针对性重新检索。提出23个组件级指标和复合指标CaVeScore，在ScienceQA和MMMU上分别达到87.1%和55.2%的准确率。",
+  "summary_en": "CaVe-VLM-CoT is a modular reflection-based agentic-RAG framework that enforces evidence-grounded reasoning through a five-stage closed-loop pipeline, achieving 87.1% accuracy on ScienceQA and 55.2% on MMMU with 23 component-wise metrics and a composite CaVeScore.",
+  "tags": [
+    "llm",
+    "research",
+    "multimodal",
+    "rag",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-18T19:50:16.899333+08:00",
+  "updated_at": "2026-06-18T19:50:16.899337+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

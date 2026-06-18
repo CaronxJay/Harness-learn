@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-18-rss-003",
+  "title": "DeFAb：基础模型可废止溯因的可验证基准",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.18557",
+  "language": "en",
+  "summary": "DeFAb是一个用于评估基础模型可废止溯因推理能力的基准，包含372,648+个实例和可验证的金标准。规则求解器100%准确，而最佳前沿语言模型仅达65%，在鲁棒评估下降至23.5%。同时发布了DeFAb-Hard和CONJURE变体，并支持作为偏好优化的精确奖励。",
+  "summary_en": null,
+  "tags": [
+    "benchmark",
+    "llm",
+    "research",
+    "evaluation"
+  ],
+  "category": "benchmark",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-18T19:50:16.899347+08:00",
+  "updated_at": "2026-06-18T19:50:16.899349+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

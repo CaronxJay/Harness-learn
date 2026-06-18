@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-18-rss-007",
+  "title": "共享工作空间中的人机协作协同效应研究",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.18413",
+  "language": "en",
+  "summary": "研究共享工作空间的人机团队协作，发现添加协作者可能因缺乏协调结构而降低性能。提出结合共享群组记忆与模拟人在环门的脚手架方法，在三人团队中显著提升性能，强调协调与专业整合的重要性。",
+  "summary_en": "Studies human-AI collaboration in shared workspaces, finding that adding collaborators can lower performance without coordination structure. Proposes scaffolding with shared memory and human-in-the-loop gates, improving performance especially in three-person teams, highlighting the importance of coordination and expertise integration.",
+  "tags": [
+    "research",
+    "agent-framework",
+    "evaluation",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-06-18T19:50:16.899365+08:00",
+  "updated_at": "2026-06-18T19:50:16.899366+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "2026-06-18-rss-010",
+  "title": "教育对话去标识化的全本地AI级联框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.18372",
+  "language": "en",
+  "summary": "提出一种全本地级联框架，用于教育对话的去标识化。该框架通过召回优先的联合提议器生成候选跨度，再由上下文感知的审查器做出保留/删除决策，在数学辅导数据集上达到0.958的宏F1分数，优于商业API和纯LLM基线，且完全在单台笔记本电脑上运行。",
+  "summary_en": "A fully local cascade framework for educational dialogue de-identification, using a recall-first union proposer and context-aware reviewer, achieves 0.958 macro F1 on math tutoring transcripts, outperforming commercial APIs and LLM-only baselines while running entirely on a single laptop.",
+  "tags": [
+    "llm",
+    "research",
+    "application",
+    "security",
+    "fine-tuning"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-06-18T19:50:16.899378+08:00",
+  "updated_at": "2026-06-18T19:50:16.899380+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

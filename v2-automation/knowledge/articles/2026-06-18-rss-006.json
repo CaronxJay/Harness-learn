@@ -1,0 +1,26 @@
+{
+  "id": "2026-06-18-rss-006",
+  "title": "NAVI-Orbital：首个在轨零样本视觉语言模型自主地球观测演示",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.18271",
+  "language": "en",
+  "summary": "NAVI-Orbital 在低地球轨道卫星上首次实现了视觉语言模型的在轨自主多模态推理。系统使用 Gemma 3 模型对捕获场景进行分类和描述，并通过自然语言与操作员交互。地面基准测试准确率达 88.16%，在轨演示验证了在卫星边缘计算机上运行基础模型的可行性，实现语义压缩以缓解带宽瓶颈。",
+  "summary_en": "NAVI-Orbital achieves the first in-orbit demonstration of a vision-language model for autonomous multi-modal inference on a LEO spacecraft. It uses Gemma 3 to classify scenes, generate text descriptions, and enable natural-language dialogue. Ground benchmarks show 88.16% accuracy; in-orbit results confirm feasibility of running foundation models on satellite edge computers for semantic compression.",
+  "tags": [
+    "multimodal",
+    "llm",
+    "application",
+    "research",
+    "benchmark"
+  ],
+  "category": "multimodal",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-06-18T19:50:16.899361+08:00",
+  "updated_at": "2026-06-18T19:50:16.899362+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

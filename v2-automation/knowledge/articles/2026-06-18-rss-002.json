@@ -1,0 +1,26 @@
+{
+  "id": "2026-06-18-rss-002",
+  "title": "CEO-Bench：智能体能否玩转长期游戏？",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.18543",
+  "language": "en",
+  "summary": "CEO-Bench通过模拟运营初创公司500天的任务，评估语言模型智能体在长期、不确定、动态环境中的综合能力，包括信息获取、策略制定和多任务协调。最强模型（Claude Opus 4.8和GPT-5.5）也仅能勉强维持初始资金，无法稳定盈利。",
+  "summary_en": "CEO-Bench evaluates language model agents on a 500-day startup simulation, testing long-horizon navigation, noisy information acquisition, adaptation, and multi-task orchestration. Top models barely break even, highlighting the gap in sustained adaptive intelligence.",
+  "tags": [
+    "benchmark",
+    "llm",
+    "agent-framework",
+    "research",
+    "evaluation"
+  ],
+  "category": "benchmark",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-18T19:50:16.899342+08:00",
+  "updated_at": "2026-06-18T19:50:16.899344+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

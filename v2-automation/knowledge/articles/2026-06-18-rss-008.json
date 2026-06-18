@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-18-rss-008",
+  "title": "连续音频思考：大型音频语言模型的新框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.18273",
+  "language": "en",
+  "summary": "CoAT框架为大型音频语言模型提供连续潜在工作空间，在生成响应前组织声学信息。通过专家蒸馏监督，模型能利用丰富声学信息，且无需额外自回归解码成本。在Qwen2-Audio等三个模型上，音频推理、理解、音乐分类、语音情感和转录任务均取得性能提升。",
+  "summary_en": "CoAT framework equips audio language models with a continuous latent workspace to organize acoustic information before response generation, leveraging expert distillation. It requires no extra autoregressive decoding cost. Gains on audio reasoning, understanding, music classification, speech emotion, and transcription across three LALMs.",
+  "tags": [
+    "llm",
+    "research",
+    "multimodal",
+    "fine-tuning"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-06-18T19:50:16.899369+08:00",
+  "updated_at": "2026-06-18T19:50:16.899371+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

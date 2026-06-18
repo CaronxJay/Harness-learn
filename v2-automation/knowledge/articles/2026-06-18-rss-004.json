@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-18-rss-004",
+  "title": "SproutRAG：面向长文档RAG的注意力引导树搜索与渐进嵌入",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.18381",
+  "language": "en",
+  "summary": "SproutRAG提出一种注意力引导的分层RAG框架，通过将句子级块组织成渐进式语义单元并构建二叉分块树，实现多粒度检索。无需额外LLM调用或压缩摘要，在科学、法律和开放域基准上平均信息效率提升6.1%。",
+  "summary_en": "SproutRAG presents an attention-guided hierarchical RAG framework that organizes sentence-level chunks into progressively larger semantic units via a binary chunking tree, enabling multi-granularity retrieval without extra LLM calls or lossy summarization, achieving 6.1% average information efficiency improvement.",
+  "tags": [
+    "rag",
+    "research",
+    "fine-tuning",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-18T19:50:16.899352+08:00",
+  "updated_at": "2026-06-18T19:50:16.899353+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,483 @@
+{
+  "collected_at": "2026-06-18T19:50:16.900256+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "NAVI-Orbital: First In-Orbit Demonstration of a Zero-Shot Vision-Language Model for Autonomous Earth Observation",
+      "url": "https://arxiv.org/abs/2606.18271",
+      "description": "arXiv:2606.18271v1 Announce Type: new \nAbstract: As Earth Observation data generation outpaces downlink bandwidth and human-in-the-loop processing, a widening gap has emerged between onboard collection and actionable ground intelligence. This paper presents NAVI-Orbital, a software system deployed on a Low Earth Orbit (LEO) spacecraft. On April 16, 2026, NAVI-Orbital achieved what is, to the authors' knowledge, the first in-orbit demonstration of a vision-language model performing autonomous multi-modal inference entirely onboard. NAVI-Orbital uses a local vision-language model (Gemma 3) to classify each captured scene, produce a text description of its content and the relationships between its features, and respond to operator follow-up via natural-language dialogue. The system is re-tasked through plain-English prompts in place of conventional command sequences, and is orchestrated by a graph-based state machine (LangGraph) coordinating dedicated agents for detection and dialogue. Results across ground benchmarking (88.16% accuracy on the 7,960-image curated AID benchmark), Flatsat validation, and live in-orbit captures of newly acquired, previously unseen Earth imagery (including uncorrected YAM-9 imagery, processed onboard with hardware-accelerated GPU inference and no fine-tuning for the flight instrument) demonstrate the feasibility of running foundation models on satellite-class edge computers to invert the conventional acquire-then-downlink-everything bandwidth profile through semantic compression of Earth observations in-orbit.",
+      "pub_date": "Thu, 18 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "NAVI-Orbital：首个在轨零样本视觉语言模型自主地球观测演示",
+        "summary": "NAVI-Orbital 在低地球轨道卫星上首次实现了视觉语言模型的在轨自主多模态推理。系统使用 Gemma 3 模型对捕获场景进行分类和描述，并通过自然语言与操作员交互。地面基准测试准确率达 88.16%，在轨演示验证了在卫星边缘计算机上运行基础模型的可行性，实现语义压缩以缓解带宽瓶颈。",
+        "summary_en": "NAVI-Orbital achieves the first in-orbit demonstration of a vision-language model for autonomous multi-modal inference on a LEO spacecraft. It uses Gemma 3 to classify scenes, generate text descriptions, and enable natural-language dialogue. Ground benchmarks show 88.16% accuracy; in-orbit results confirm feasibility of running foundation models on satellite edge computers for semantic compression.",
+        "tags": [
+          "multimodal",
+          "llm",
+          "application",
+          "research",
+          "benchmark"
+        ],
+        "category": "multimodal",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-18-rss-006",
+        "title": "NAVI-Orbital：首个在轨零样本视觉语言模型自主地球观测演示",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.18271",
+        "language": "en",
+        "summary": "NAVI-Orbital 在低地球轨道卫星上首次实现了视觉语言模型的在轨自主多模态推理。系统使用 Gemma 3 模型对捕获场景进行分类和描述，并通过自然语言与操作员交互。地面基准测试准确率达 88.16%，在轨演示验证了在卫星边缘计算机上运行基础模型的可行性，实现语义压缩以缓解带宽瓶颈。",
+        "summary_en": "NAVI-Orbital achieves the first in-orbit demonstration of a vision-language model for autonomous multi-modal inference on a LEO spacecraft. It uses Gemma 3 to classify scenes, generate text descriptions, and enable natural-language dialogue. Ground benchmarks show 88.16% accuracy; in-orbit results confirm feasibility of running foundation models on satellite edge computers for semantic compression.",
+        "tags": [
+          "multimodal",
+          "llm",
+          "application",
+          "research",
+          "benchmark"
+        ],
+        "category": "multimodal",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-06-18T19:50:16.899361+08:00",
+        "updated_at": "2026-06-18T19:50:16.899362+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "CaVe-VLM-CoT: An Interpretable Vision-Language Model Framework",
+      "url": "https://arxiv.org/abs/2606.18385",
+      "description": "arXiv:2606.18385v1 Announce Type: new \nAbstract: Vision-Language Models (VLMs) remain prone to hallucinations, producing fluent but visually unfaithful outputs. Existing chain-of-thought and retrieval-augmented methods only partially address this, as they neither enforce step-level citation grounding nor route verification failures back to retrieval for correction. We present CaVe-VLM-CoT, a modular reflection-based agentic-RAG framework that enforces evidence-grounded reasoning through a five-stage closed-loop pipeline: Extractor, Retriever, Solver, Citation Injector, and Verifier, in which detected ungrounded claims trigger structured feedback to the Extractor for targeted re-retrieval. Since no existing framework jointly measures retrieval quality, step-wise citation faithfulness, and cross-modal grounding, we propose a suite of 23 component-wise metrics across all stages, anchored by CaVeScore, a composite metric weighting accuracy, citation precision and recall, attribution, and evidence grounding. Without any architectural or prompt modifications, CaVe-VLM-CoT achieves 87.1\\% accuracy and 56.6\\% CaVeScore on ScienceQA , and 55.2\\% accuracy and 35.7\\% CaVeScore on MMMU (30 subjects).",
+      "pub_date": "Thu, 18 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "CaVe-VLM-CoT：一种可解释的视觉语言模型框架",
+        "summary": "CaVe-VLM-CoT 是一个模块化的基于反思的智能体RAG框架，通过五阶段闭环流程（提取器、检索器、求解器、引用注入器、验证器）强制进行证据推理，检测到无依据声明时触发结构化反馈以进行针对性重新检索。提出23个组件级指标和复合指标CaVeScore，在ScienceQA和MMMU上分别达到87.1%和55.2%的准确率。",
+        "summary_en": "CaVe-VLM-CoT is a modular reflection-based agentic-RAG framework that enforces evidence-grounded reasoning through a five-stage closed-loop pipeline, achieving 87.1% accuracy on ScienceQA and 55.2% on MMMU with 23 component-wise metrics and a composite CaVeScore.",
+        "tags": [
+          "llm",
+          "research",
+          "multimodal",
+          "rag",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-18-rss-001",
+        "title": "CaVe-VLM-CoT：一种可解释的视觉语言模型框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.18385",
+        "language": "en",
+        "summary": "CaVe-VLM-CoT 是一个模块化的基于反思的智能体RAG框架，通过五阶段闭环流程（提取器、检索器、求解器、引用注入器、验证器）强制进行证据推理，检测到无依据声明时触发结构化反馈以进行针对性重新检索。提出23个组件级指标和复合指标CaVeScore，在ScienceQA和MMMU上分别达到87.1%和55.2%的准确率。",
+        "summary_en": "CaVe-VLM-CoT is a modular reflection-based agentic-RAG framework that enforces evidence-grounded reasoning through a five-stage closed-loop pipeline, achieving 87.1% accuracy on ScienceQA and 55.2% on MMMU with 23 component-wise metrics and a composite CaVeScore.",
+        "tags": [
+          "llm",
+          "research",
+          "multimodal",
+          "rag",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-18T19:50:16.899333+08:00",
+        "updated_at": "2026-06-18T19:50:16.899337+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Searching for Synergy in Shared Workspace Human-AI Collaboration",
+      "url": "https://arxiv.org/abs/2606.18413",
+      "description": "arXiv:2606.18413v1 Announce Type: new \nAbstract: Automated AI agents are increasingly capable, yet many scientific and professional tasks require human judgment and contextual expertise. We study shared-workspace human-AI teams, where AI agents and human collaborators must coordinate responsibilities before submitting a final answer. Using the Collaborative Gym environment with DiscoveryBench tasks, we examine when adding simulated human collaborators improves performance and when process loss turns additional collaborators into coordination overhead. Across 1,482 sessions, adding relevant collaborators can lower performance when teams lack structure to coordinate their contributions. We then evaluate scaffolding that combines shared group memory with simulated human-in-the-loop (HITL) gates, where selected actions require approval from a designated simulated participant. This scaffolding yields higher mean performance, most clearly in three-person teams, with clearer responsibility signals and stronger routing of expertise to team actions. Overall, how human-AI teams coordinate and integrate expertise matters as much as the capability available to them.",
+      "pub_date": "Thu, 18 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "共享工作空间中的人机协作协同效应研究",
+        "summary": "研究共享工作空间的人机团队协作，发现添加协作者可能因缺乏协调结构而降低性能。提出结合共享群组记忆与模拟人在环门的脚手架方法，在三人团队中显著提升性能，强调协调与专业整合的重要性。",
+        "summary_en": "Studies human-AI collaboration in shared workspaces, finding that adding collaborators can lower performance without coordination structure. Proposes scaffolding with shared memory and human-in-the-loop gates, improving performance especially in three-person teams, highlighting the importance of coordination and expertise integration.",
+        "tags": [
+          "research",
+          "agent-framework",
+          "evaluation",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-18-rss-007",
+        "title": "共享工作空间中的人机协作协同效应研究",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.18413",
+        "language": "en",
+        "summary": "研究共享工作空间的人机团队协作，发现添加协作者可能因缺乏协调结构而降低性能。提出结合共享群组记忆与模拟人在环门的脚手架方法，在三人团队中显著提升性能，强调协调与专业整合的重要性。",
+        "summary_en": "Studies human-AI collaboration in shared workspaces, finding that adding collaborators can lower performance without coordination structure. Proposes scaffolding with shared memory and human-in-the-loop gates, improving performance especially in three-person teams, highlighting the importance of coordination and expertise integration.",
+        "tags": [
+          "research",
+          "agent-framework",
+          "evaluation",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-06-18T19:50:16.899365+08:00",
+        "updated_at": "2026-06-18T19:50:16.899366+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "CEO-Bench: Can Agents Play the Long Game?",
+      "url": "https://arxiv.org/abs/2606.18543",
+      "description": "arXiv:2606.18543v1 Announce Type: new \nAbstract: Language model agents are becoming proficient executors at isolated, short-horizon tasks such as software engineering and customer service. Yet real-world challenges require a combination of sophisticated skills that remain largely untested in agents: (1) navigating long horizons amid uncertainty; (2) acquiring information in noisy environments; (3) adapting to a changing world; (4) orchestrating multiple moving parts toward a coherent goal. We introduce CEO-Bench, which evaluates these capabilities together by simulating a representative real-world task: operating a startup for 500 days. An agent manages pricing, marketing, budgeting, and many other aspects of a fictional company through a programmable Python interface, operating in the same environment and facing the same challenges as a human CEO. Success demands analyzing noisy, interconnected business databases, translating signals into sound strategy, and coordinating many decisions with programming. The strongest agents write sophisticated code that simulates customer cohorts to forecast future cash and mines negotiation history to uncover hidden customer preferences. Even so, most state-of-the-art models struggle in this environment. Only Claude Opus 4.8 and GPT-5.5 finish above the $1M starting balance, and neither consistently turns a profit. CEO-Bench takes a first step toward measuring the intelligence required to drive sustained, adaptive progress over time.",
+      "pub_date": "Thu, 18 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "CEO-Bench：智能体能否玩转长期游戏？",
+        "summary": "CEO-Bench通过模拟运营初创公司500天的任务，评估语言模型智能体在长期、不确定、动态环境中的综合能力，包括信息获取、策略制定和多任务协调。最强模型（Claude Opus 4.8和GPT-5.5）也仅能勉强维持初始资金，无法稳定盈利。",
+        "summary_en": "CEO-Bench evaluates language model agents on a 500-day startup simulation, testing long-horizon navigation, noisy information acquisition, adaptation, and multi-task orchestration. Top models barely break even, highlighting the gap in sustained adaptive intelligence.",
+        "tags": [
+          "benchmark",
+          "llm",
+          "agent-framework",
+          "research",
+          "evaluation"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-18-rss-002",
+        "title": "CEO-Bench：智能体能否玩转长期游戏？",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.18543",
+        "language": "en",
+        "summary": "CEO-Bench通过模拟运营初创公司500天的任务，评估语言模型智能体在长期、不确定、动态环境中的综合能力，包括信息获取、策略制定和多任务协调。最强模型（Claude Opus 4.8和GPT-5.5）也仅能勉强维持初始资金，无法稳定盈利。",
+        "summary_en": "CEO-Bench evaluates language model agents on a 500-day startup simulation, testing long-horizon navigation, noisy information acquisition, adaptation, and multi-task orchestration. Top models barely break even, highlighting the gap in sustained adaptive intelligence.",
+        "tags": [
+          "benchmark",
+          "llm",
+          "agent-framework",
+          "research",
+          "evaluation"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-18T19:50:16.899342+08:00",
+        "updated_at": "2026-06-18T19:50:16.899344+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "DeFAb: A Verifiable Benchmark for Defeasible Abduction in Foundation Models",
+      "url": "https://arxiv.org/abs/2606.18557",
+      "description": "arXiv:2606.18557v1 Announce Type: new \nAbstract: A rule-based logic solver resolves every instance in our benchmark in under 50 microseconds with 100% accuracy; the best frontier language model reaches 65% at best and drops to 23.5% under rendering-robust evaluation (worst case over four surface renderings). We introduce DeFAb (Defeasible Abduction Benchmark), a dataset and generation pipeline that converts four decades of publicly funded knowledge bases into formally grounded instances for defeasible abduction: constructing hypotheses that explain anomalies by overriding defaults while preserving unrelated expectations. Because every hypothesis must pass polynomial-time checks for valid derivation, conservativity, and minimality, DeFAb makes logical rigor the instrument for measuring creativity and theoretical reasoning, scoring the disciplined construction of theory revisions rather than fluent but theory-destroying prose. The pipeline pairs taxonomic hierarchies (OpenCyc, YAGO, Wikidata) with behavioral property graphs (ConceptNet, UMLS) to produce 372,648+ instances across 33.75M materialized rules from 18 sources, in three levels with polynomial-time verifiable gold standards. Four frontier models do not reliably internalize defeasible reasoning: rendering-robust Level 2 accuracy is 7.8-23.5%; chain-of-thought variance (~36 pp) exceeds any inter-model gap; and a matched contamination control isolates a +19.4 pp Level 3 gap. We further release DeFAb-Hard (a 235-instance Level 3 difficulty variant; best model 53.3% vs 100% symbolic) and CONJURE (a kernel-verified transformative-creativity variant of 560 Lean 4/Mathlib instances whose gold answers are definitions the proof kernel did not previously contain, judge-free verifier; a pilot finds zero novel concepts). The same verifier doubles as an exact reward for preference optimization (DPO, RLVR/GRPO). Released under MIT at https://huggingface.co/datasets/PatrickAllenCooper/DeFAb.",
+      "pub_date": "Thu, 18 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "DeFAb：基础模型可废止溯因的可验证基准",
+        "summary": "DeFAb是一个用于评估基础模型可废止溯因推理能力的基准，包含372,648+个实例和可验证的金标准。规则求解器100%准确，而最佳前沿语言模型仅达65%，在鲁棒评估下降至23.5%。同时发布了DeFAb-Hard和CONJURE变体，并支持作为偏好优化的精确奖励。",
+        "summary_en": null,
+        "tags": [
+          "benchmark",
+          "llm",
+          "research",
+          "evaluation"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-18-rss-003",
+        "title": "DeFAb：基础模型可废止溯因的可验证基准",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.18557",
+        "language": "en",
+        "summary": "DeFAb是一个用于评估基础模型可废止溯因推理能力的基准，包含372,648+个实例和可验证的金标准。规则求解器100%准确，而最佳前沿语言模型仅达65%，在鲁棒评估下降至23.5%。同时发布了DeFAb-Hard和CONJURE变体，并支持作为偏好优化的精确奖励。",
+        "summary_en": null,
+        "tags": [
+          "benchmark",
+          "llm",
+          "research",
+          "evaluation"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-18T19:50:16.899347+08:00",
+        "updated_at": "2026-06-18T19:50:16.899349+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Continuous Audio Thinking for Large Audio Language Models",
+      "url": "https://arxiv.org/abs/2606.18273",
+      "description": "arXiv:2606.18273v1 Announce Type: new \nAbstract: Large audio language models (LALMs) have shown impressive capabilities on diverse audio understanding tasks, ranging from speech transcription to music analysis. However, because LALMs are typically trained to produce text-aligned responses, their hidden states are progressively shaped for text generation rather than for preserving acoustic information. As a result, the diverse acoustic content that audio carries, such as phonetic detail, prosody, sound events, affect, and pitch, is lost along the way and difficult to leverage in the response. We introduce Continuous Audio Thinking (CoAT), a framework that equips audio language models with a continuous latent workspace for organizing acoustic information prior to response generation, grounded by distillation from audio experts. Within the thinking space, the model can utilize the rich acoustic information provided by expert distillation when generating its response. Furthermore, the proposed continuous thinking block can be processed in a single prefill, so CoAT does not require additional autoregressive decoding cost over the baseline. Across three LALMs, Qwen2-Audio, Qwen2.5-Omni-7B, and Audio Flamingo~3, performance gains on a broad benchmark suite spanning audio reasoning, audio understanding, music classification, speech emotion, and speech transcription demonstrate the effectiveness of CoAT. Further analysis confirms that the auxiliary supervision propagates from the thinking positions to the model's textual responses.",
+      "pub_date": "Thu, 18 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "连续音频思考：大型音频语言模型的新框架",
+        "summary": "CoAT框架为大型音频语言模型提供连续潜在工作空间，在生成响应前组织声学信息。通过专家蒸馏监督，模型能利用丰富声学信息，且无需额外自回归解码成本。在Qwen2-Audio等三个模型上，音频推理、理解、音乐分类、语音情感和转录任务均取得性能提升。",
+        "summary_en": "CoAT framework equips audio language models with a continuous latent workspace to organize acoustic information before response generation, leveraging expert distillation. It requires no extra autoregressive decoding cost. Gains on audio reasoning, understanding, music classification, speech emotion, and transcription across three LALMs.",
+        "tags": [
+          "llm",
+          "research",
+          "multimodal",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-18-rss-008",
+        "title": "连续音频思考：大型音频语言模型的新框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.18273",
+        "language": "en",
+        "summary": "CoAT框架为大型音频语言模型提供连续潜在工作空间，在生成响应前组织声学信息。通过专家蒸馏监督，模型能利用丰富声学信息，且无需额外自回归解码成本。在Qwen2-Audio等三个模型上，音频推理、理解、音乐分类、语音情感和转录任务均取得性能提升。",
+        "summary_en": "CoAT framework equips audio language models with a continuous latent workspace to organize acoustic information before response generation, leveraging expert distillation. It requires no extra autoregressive decoding cost. Gains on audio reasoning, understanding, music classification, speech emotion, and transcription across three LALMs.",
+        "tags": [
+          "llm",
+          "research",
+          "multimodal",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-06-18T19:50:16.899369+08:00",
+        "updated_at": "2026-06-18T19:50:16.899371+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Redact or Keep? A Fully Local AI Cascade for Educational Dialogue De-Identification",
+      "url": "https://arxiv.org/abs/2606.18372",
+      "description": "arXiv:2606.18372v1 Announce Type: new \nAbstract: Educational dialogue is a valuable but sensitive resource for research: the same transcripts that capture authentic learning often capture personally identifiable information (PII) entangled with curricular content, where \"Riemann\" may refer to a real student or to a mathematical concept. Existing approaches force a tradeoff between governance and accuracy. Commercial Large Language Models (LLMs) can handle this ambiguity but require sending student data to third parties, while local named entity recognition (NER) systems preserve governance but over-redact curricular terms. We propose a fully local cascade framework that reframes de-identification from open-ended entity recognition to constrained privacy triage. A recall-first union proposer combines two lightweight encoders with deterministic rules to over-generate candidate spans; a context-aware reviewer then makes a binary Redact/Keep decision for each candidate using surrounding dialogue and speaker role. We evaluate three reviewer configurations against same-family LLM-only baselines and a commercial API on math tutoring transcripts from two large platforms. The strongest local configuration reaches 0.958 macro F1, compared with 0.767 for a same-family LLM-only baseline and 0.706 for the commercial API, while running entirely on a single laptop. On a targeted challenge set of curricular-personal name ambiguity, the same configuration degrades by only 0.03 F1 versus 0.19 to 0.25 for smaller reviewers. These results suggest that for educational de-identification, problem formulation matters more than model scale.",
+      "pub_date": "Thu, 18 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "教育对话去标识化的全本地AI级联框架",
+        "summary": "提出一种全本地级联框架，用于教育对话的去标识化。该框架通过召回优先的联合提议器生成候选跨度，再由上下文感知的审查器做出保留/删除决策，在数学辅导数据集上达到0.958的宏F1分数，优于商业API和纯LLM基线，且完全在单台笔记本电脑上运行。",
+        "summary_en": "A fully local cascade framework for educational dialogue de-identification, using a recall-first union proposer and context-aware reviewer, achieves 0.958 macro F1 on math tutoring transcripts, outperforming commercial APIs and LLM-only baselines while running entirely on a single laptop.",
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "security",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-18-rss-010",
+        "title": "教育对话去标识化的全本地AI级联框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.18372",
+        "language": "en",
+        "summary": "提出一种全本地级联框架，用于教育对话的去标识化。该框架通过召回优先的联合提议器生成候选跨度，再由上下文感知的审查器做出保留/删除决策，在数学辅导数据集上达到0.958的宏F1分数，优于商业API和纯LLM基线，且完全在单台笔记本电脑上运行。",
+        "summary_en": "A fully local cascade framework for educational dialogue de-identification, using a recall-first union proposer and context-aware reviewer, achieves 0.958 macro F1 on math tutoring transcripts, outperforming commercial APIs and LLM-only baselines while running entirely on a single laptop.",
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "security",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-06-18T19:50:16.899378+08:00",
+        "updated_at": "2026-06-18T19:50:16.899380+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "SproutRAG: Attention-Guided Tree Search with Progressive Embeddings for Long-Document RAG",
+      "url": "https://arxiv.org/abs/2606.18381",
+      "description": "arXiv:2606.18381v1 Announce Type: new \nAbstract: Retrieval-augmented generation (RAG) systems must balance retrieval granularity with contextual coherence, a challenge that existing methods address through LLM-guided chunking, single-level context expansion, or hierarchical summarization. These approaches variously depend on costly LLM calls during indexing or retrieval, limit context aggregation to a single granularity level, or introduce information loss through summarization. We present SproutRAG, an attention-guided hierarchical RAG framework that addresses this trade-off by organizing sentence-level chunks into progressively larger but semantically coherent units, using learned inter-sentence attention to construct a binary chunking tree. Unlike prior approaches that rely on external LLMs, fixed context expansion, or lossy summarization, SproutRAG learns which attention heads and layers best capture semantic document structure, enabling multi-granularity retrieval without additional LLM calls or compressed summaries. At retrieval time, SproutRAG uses hierarchical beam search to retrieve candidates at multiple granularities, capturing multi-sentence relevance beyond flat retrieval. The framework is trained end-to-end with a joint objective that improves both embeddings and tree structure. Experiments across four benchmarks spanning scientific, legal, and open-domain settings demonstrate that SproutRAG improves information efficiency (IE) by 6.1% on average over the strongest baseline. Code is available on https://github.com/AmirAbaskohi/SproutRAG.",
+      "pub_date": "Thu, 18 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "SproutRAG：面向长文档RAG的注意力引导树搜索与渐进嵌入",
+        "summary": "SproutRAG提出一种注意力引导的分层RAG框架，通过将句子级块组织成渐进式语义单元并构建二叉分块树，实现多粒度检索。无需额外LLM调用或压缩摘要，在科学、法律和开放域基准上平均信息效率提升6.1%。",
+        "summary_en": "SproutRAG presents an attention-guided hierarchical RAG framework that organizes sentence-level chunks into progressively larger semantic units via a binary chunking tree, enabling multi-granularity retrieval without extra LLM calls or lossy summarization, achieving 6.1% average information efficiency improvement.",
+        "tags": [
+          "rag",
+          "research",
+          "fine-tuning",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-18-rss-004",
+        "title": "SproutRAG：面向长文档RAG的注意力引导树搜索与渐进嵌入",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.18381",
+        "language": "en",
+        "summary": "SproutRAG提出一种注意力引导的分层RAG框架，通过将句子级块组织成渐进式语义单元并构建二叉分块树，实现多粒度检索。无需额外LLM调用或压缩摘要，在科学、法律和开放域基准上平均信息效率提升6.1%。",
+        "summary_en": "SproutRAG presents an attention-guided hierarchical RAG framework that organizes sentence-level chunks into progressively larger semantic units via a binary chunking tree, enabling multi-granularity retrieval without extra LLM calls or lossy summarization, achieving 6.1% average information efficiency improvement.",
+        "tags": [
+          "rag",
+          "research",
+          "fine-tuning",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-18T19:50:16.899352+08:00",
+        "updated_at": "2026-06-18T19:50:16.899353+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Want Better Synthetic Data? Steer It: Activation Steering for Low-Resource Language Generation",
+      "url": "https://arxiv.org/abs/2606.18389",
+      "description": "arXiv:2606.18389v1 Announce Type: new \nAbstract: Large language models (LLMs) have become an effective tool for synthetic data generation, including for low-resource languages, where generated data can improve downstream task performance. Current best-performing approaches typically rely on few-shot prompting with target-language examples, which increases inference costs and may reduce diversity through lexical anchoring. In this work, we investigate activation steering as an alternative for low-resource synthetic data generation. We study two steering strategies: Language Steering, which targets the linguistic identity of a language, and Quality Steering, which captures well-formedness by contrasting human-written and backtranslated text representations. We evaluate these methods across four open-source LLMs, multiple layers, and 11 typologically diverse languages by generating sentiment and topic classification data and finetuning smaller classifiers. Steering is applied in both zero-shot and few-shot prompting settings and compared against non-steered counterparts. Our results show that steering on early layers consistently improves the diversity of generated data while often yielding stronger downstream model performance, particularly for low-resource languages.",
+      "pub_date": "Thu, 18 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "通过激活引导提升低资源语言的合成数据生成",
+        "summary": "本文提出激活引导（Activation Steering）作为低资源语言合成数据生成的替代方法，包括语言引导和质量引导两种策略。在11种语言上的实验表明，早期层引导能持续提升生成数据的多样性，并增强下游模型性能。",
+        "summary_en": "This paper proposes activation steering as an alternative for low-resource synthetic data generation, including Language Steering and Quality Steering. Experiments on 11 languages show that early-layer steering consistently improves data diversity and downstream model performance.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-18-rss-009",
+        "title": "通过激活引导提升低资源语言的合成数据生成",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.18389",
+        "language": "en",
+        "summary": "本文提出激活引导（Activation Steering）作为低资源语言合成数据生成的替代方法，包括语言引导和质量引导两种策略。在11种语言上的实验表明，早期层引导能持续提升生成数据的多样性，并增强下游模型性能。",
+        "summary_en": "This paper proposes activation steering as an alternative for low-resource synthetic data generation, including Language Steering and Quality Steering. Experiments on 11 languages show that early-layer steering consistently improves data diversity and downstream model performance.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-06-18T19:50:16.899374+08:00",
+        "updated_at": "2026-06-18T19:50:16.899375+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "JetFlow: Breaking the Scaling Ceiling of Speculative Decoding with Parallel Tree Drafting",
+      "url": "https://arxiv.org/abs/2606.18394",
+      "description": "arXiv:2606.18394v1 Announce Type: new \nAbstract: Speculative decoding (SD) accelerates autoregressive Large Language Models (LLMs) by drafting multiple tokens and verifying them in parallel, but it faces a scaling limitation: increasing the draft budget improves speed only when acceptance remains high and drafting overhead stays low. This ceiling has been difficult to break because prior head-based SD methods face a causality-efficiency dilemma. Autoregressive drafters produce path-conditioned candidates that are effective for tree speculative decoding with higher acceptance length, but their drafting cost grows with tree depth. Bidirectional block-diffusion drafters generate all positions in one pass, but their branch-agnostic marginals can form individually plausible yet mutually inconsistent trees, wasting budget and reducing acceptance. We propose JetFlow, a head-based SD framework that combines one-forward drafting efficiency with branch-wise causal conditioning. JetFlow trains a causal parallel draft head over fused hidden states from the frozen target model, producing candidate trees whose scores align with the target model's autoregressive factorization. This enables JetFlow to convert larger draft budgets into longer accepted prefixes and higher end-to-end speedup. Across math, coding, and chat benchmarks on dense and MoE Qwen3 models, JetFlow consistently outperforms bidirectional-head and tree-based SD baselines. On H100 GPUs, JetFlow achieves up to 9.64x speedup on MATH-500 and 4.58x on open-ended conversational workloads, with further latency gains demonstrated through vLLM integration under realistic serving loads. Our code and models are available at https://github.com/hao-ai-lab/JetFlow.",
+      "pub_date": "Thu, 18 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "JetFlow：利用并行树草稿突破推测解码的扩展上限",
+        "summary": "JetFlow 是一种新的推测解码框架，通过训练一个因果并行草稿头，结合单次前向传播效率和分支级因果条件，突破了推测解码的扩展限制。在 Qwen3 模型上，JetFlow 在 MATH-500 上实现了高达 9.64 倍的加速，在开放式对话任务上实现了 4.58 倍加速，并通过 vLLM 集成在实际负载下进一步降低了延迟。",
+        "summary_en": "JetFlow is a new speculative decoding framework that breaks the scaling ceiling by training a causal parallel draft head, combining one-forward efficiency with branch-wise causal conditioning. It achieves up to 9.64x speedup on MATH-500 and 4.58x on open-ended conversational workloads with Qwen3 models, with further latency gains via vLLM integration.",
+        "tags": [
+          "llm",
+          "research",
+          "infrastructure"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-18-rss-005",
+        "title": "JetFlow：利用并行树草稿突破推测解码的扩展上限",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.18394",
+        "language": "en",
+        "summary": "JetFlow 是一种新的推测解码框架，通过训练一个因果并行草稿头，结合单次前向传播效率和分支级因果条件，突破了推测解码的扩展限制。在 Qwen3 模型上，JetFlow 在 MATH-500 上实现了高达 9.64 倍的加速，在开放式对话任务上实现了 4.58 倍加速，并通过 vLLM 集成在实际负载下进一步降低了延迟。",
+        "summary_en": "JetFlow is a new speculative decoding framework that breaks the scaling ceiling by training a causal parallel draft head, combining one-forward efficiency with branch-wise causal conditioning. It achieves up to 9.64x speedup on MATH-500 and 4.58x on open-ended conversational workloads with Qwen3 models, with further latency gains via vLLM integration.",
+        "tags": [
+          "llm",
+          "research",
+          "infrastructure"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-18T19:50:16.899356+08:00",
+        "updated_at": "2026-06-18T19:50:16.899358+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

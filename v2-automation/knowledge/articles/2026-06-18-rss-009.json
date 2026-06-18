@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-18-rss-009",
+  "title": "通过激活引导提升低资源语言的合成数据生成",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.18389",
+  "language": "en",
+  "summary": "本文提出激活引导（Activation Steering）作为低资源语言合成数据生成的替代方法，包括语言引导和质量引导两种策略。在11种语言上的实验表明，早期层引导能持续提升生成数据的多样性，并增强下游模型性能。",
+  "summary_en": "This paper proposes activation steering as an alternative for low-resource synthetic data generation, including Language Steering and Quality Steering. Experiments on 11 languages show that early-layer steering consistently improves data diversity and downstream model performance.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-06-18T19:50:16.899374+08:00",
+  "updated_at": "2026-06-18T19:50:16.899375+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2026-06-18-rss-005",
+  "title": "JetFlow：利用并行树草稿突破推测解码的扩展上限",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.18394",
+  "language": "en",
+  "summary": "JetFlow 是一种新的推测解码框架，通过训练一个因果并行草稿头，结合单次前向传播效率和分支级因果条件，突破了推测解码的扩展限制。在 Qwen3 模型上，JetFlow 在 MATH-500 上实现了高达 9.64 倍的加速，在开放式对话任务上实现了 4.58 倍加速，并通过 vLLM 集成在实际负载下进一步降低了延迟。",
+  "summary_en": "JetFlow is a new speculative decoding framework that breaks the scaling ceiling by training a causal parallel draft head, combining one-forward efficiency with branch-wise causal conditioning. It achieves up to 9.64x speedup on MATH-500 and 4.58x on open-ended conversational workloads with Qwen3 models, with further latency gains via vLLM integration.",
+  "tags": [
+    "llm",
+    "research",
+    "infrastructure"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-18T19:50:16.899356+08:00",
+  "updated_at": "2026-06-18T19:50:16.899358+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
