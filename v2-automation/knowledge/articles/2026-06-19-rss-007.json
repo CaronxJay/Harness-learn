@@ -1,0 +1,26 @@
+{
+  "id": "2026-06-19-rss-007",
+  "title": "DeXposure-Claw：面向DeFi风险监管的智能代理系统",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.19501",
+  "language": "en",
+  "summary": "DeXposure-Claw是一个基于预测的代理监管系统，通过结构化证据引导LLM决策：使用图时间序列基础模型预测风险网络，通过确定性监控和压力场景生成警报，并设置数据健康与置信度门控来约束升级，最终生成可审计的监管工单。配套的DeXposure-Bench评估框架从六个维度衡量系统性能。",
+  "summary_en": null,
+  "tags": [
+    "agent-framework",
+    "llm",
+    "research",
+    "application",
+    "security"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-06-19T20:05:27.780861+08:00",
+  "updated_at": "2026-06-19T20:05:27.780863+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

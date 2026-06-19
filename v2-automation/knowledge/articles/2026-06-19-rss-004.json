@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-19-rss-004",
+  "title": "DeepSeek-V4：面向百万Token上下文的高效智能模型",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.19348",
+  "language": "en",
+  "summary": "DeepSeek-V4系列包含两个MoE语言模型：DeepSeek-V4-Pro（1.6T参数，49B激活）和DeepSeek-V4-Flash（284B参数，13B激活），均支持百万Token上下文。通过混合注意力架构（CSA+HCA）、流形约束超连接（mHC）和Muon优化器，在长上下文场景中实现高效推理，仅需DeepSeek-V3.2的27% FLOPs和10% KV缓存。",
+  "summary_en": "DeepSeek-V4 series includes two MoE language models supporting million-token context, achieving high efficiency with hybrid attention, manifold-constrained hyper-connections, and Muon optimizer, requiring only 27% FLOPs and 10% KV cache of DeepSeek-V3.2.",
+  "tags": [
+    "llm",
+    "research",
+    "open-source",
+    "infrastructure"
+  ],
+  "category": "llm",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-19T20:05:27.780849+08:00",
+  "updated_at": "2026-06-19T20:05:27.780851+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

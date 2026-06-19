@@ -1,0 +1,24 @@
+{
+  "id": "2026-06-19-rss-001",
+  "title": "扩散语言模型实验分析",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.19475",
+  "language": "en",
+  "summary": "本文系统分析了八种现代扩散语言模型在八个基准上的表现，涵盖推理、编码、翻译等任务，并探讨了推理阶段关键因素（如去噪步数、上下文长度）对性能与效率的影响，揭示了扩散模型在不同任务和架构下的权衡。",
+  "summary_en": "This paper presents a systematic experimental analysis of eight state-of-the-art diffusion language models across eight benchmarks, covering reasoning, coding, translation, etc., and examines the impact of key inference-time factors on performance and efficiency, revealing trade-offs across tasks and architectures.",
+  "tags": [
+    "llm",
+    "research",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-19T20:05:27.780832+08:00",
+  "updated_at": "2026-06-19T20:05:27.780836+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

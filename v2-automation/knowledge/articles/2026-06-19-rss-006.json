@@ -1,0 +1,24 @@
+{
+  "id": "2026-06-19-rss-006",
+  "title": "课程对齐度测量：基于CS2013和CS2023的纵向框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.19469",
+  "language": "en",
+  "summary": "提出一种人机协同的流水线方法，通过语义检索和人工判断，测量计算机科学课程对国际课程指南（CS2013和CS2023）的覆盖度。实验表明，某项目对两个指南的知识单元覆盖度分别为49.7%和50.9%，且十年间基本不变。该方法还可评估能力表述和认知深度，并识别出持续存在的结构性缺口。",
+  "summary_en": null,
+  "tags": [
+    "research",
+    "benchmark",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-06-19T20:05:27.780857+08:00",
+  "updated_at": "2026-06-19T20:05:27.780859+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

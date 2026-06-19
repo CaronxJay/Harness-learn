@@ -1,0 +1,477 @@
+{
+  "collected_at": "2026-06-19T20:05:27.781719+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "Deontic Policies for Runtime Governance of Agentic AI Systems",
+      "url": "https://arxiv.org/abs/2606.19464",
+      "description": "arXiv:2606.19464v1 Announce Type: new \nAbstract: Autonomous agentic AI systems driven by Large Language Models (LLMs) introduce a new class of security, privacy, and compliance challenges: an agent that can invoke tools, manipulate data, install software, and coordinate with peer agents across organizational boundaries must be constrained not just by authentication and access control, but by the full structure of enterprise governance. This includes specifying what agents are permitted and prohibited from doing, what they areobliged to do after certain actions (e.g., notify the CISO), under what conditions a standing obligation may be waived, and which rules take precedence when policies conflict. This governance problem exceeds what current policy engines provide. Systems such as XACML, Rego, and Cedar address only the permit/prohibit subset of this governance structure. They do not provide obligation lifecycle management, meta-policy conflict resolution, dispensations that waive obligations in specific circumstances, and ontological reasoning over domain class hierarchies commonly found in applications such as healthcare, cybersecurity, or data privacy. We propose AgenticRei, which realizes key governance requirements such as obligations, dispensations, policy conflict resolutions, and reasoning over policies, as well as the basic permit/prohibit constraints. We use a deontic policy language built on the Rei framework, expressed as OWL (Web Ontology Language) and evaluated at runtime by a high-performance logic engine entirely outside the LLM. The same pipeline governs both tool invocations by the agent and agent-to-agent messages. We show through examples that deontic policies capture governance constraints around security and privacy that mostly cannot be expressed in current production engines. Our approach composes naturally with industry-standard frameworks like A2AS.",
+      "pub_date": "Fri, 19 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "基于道义策略的自主AI系统运行时治理",
+        "summary": "提出AgenticRei框架，利用基于OWL的道义策略语言和外部高性能逻辑引擎，在运行时对LLM驱动的自主AI系统进行治理，涵盖许可/禁止、义务、豁免、策略冲突解决等企业治理需求，弥补了XACML等现有策略引擎的不足。",
+        "summary_en": "Proposes AgenticRei, a framework using a deontic policy language based on OWL and an external high-performance logic engine for runtime governance of LLM-driven autonomous AI systems, covering permissions, prohibitions, obligations, dispensations, and conflict resolution, addressing gaps in current policy engines like XACML.",
+        "tags": [
+          "llm",
+          "security",
+          "research",
+          "infrastructure"
+        ],
+        "category": "security",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-19-rss-005",
+        "title": "基于道义策略的自主AI系统运行时治理",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.19464",
+        "language": "en",
+        "summary": "提出AgenticRei框架，利用基于OWL的道义策略语言和外部高性能逻辑引擎，在运行时对LLM驱动的自主AI系统进行治理，涵盖许可/禁止、义务、豁免、策略冲突解决等企业治理需求，弥补了XACML等现有策略引擎的不足。",
+        "summary_en": "Proposes AgenticRei, a framework using a deontic policy language based on OWL and an external high-performance logic engine for runtime governance of LLM-driven autonomous AI systems, covering permissions, prohibitions, obligations, dispensations, and conflict resolution, addressing gaps in current policy engines like XACML.",
+        "tags": [
+          "llm",
+          "security",
+          "research",
+          "infrastructure"
+        ],
+        "category": "security",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-06-19T20:05:27.780853+08:00",
+        "updated_at": "2026-06-19T20:05:27.780855+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Measuring Curriculum Alignment across Topical Coverage, Competency, and Cognitive Depth: A Longitudinal Framework Applied to CS2013 and CS2023",
+      "url": "https://arxiv.org/abs/2606.19469",
+      "description": "arXiv:2606.19469v1 Announce Type: new \nAbstract: Undergraduate computer science is governed by international curricular guidelines revised about once a decade, yet programs lack a reliable, reproducible way to measure how completely they cover the current guidelines and how that coverage shifts when the guidelines are restructured. We address this with a human-in-the-loop pipeline that measures a program's coverage of an external body of knowledge, applied longitudinally to one accredited BSc in Computer Science against Computer Science Curricula 2013 (CS2013) and 2023 (CS2023). The pipeline represents the program and each guideline as structured corpora, generates candidate course-to-knowledge-unit matches by semantic retrieval, and confirms them through human judgment under an explicit coverage definition. Of seven benchmarked retrievers, a reciprocal-rank-fusion ensemble was strongest, and a reputed long-context model underperformed a small sentence model, so retriever choice must be measured. Both maps were validated by an independent second rater (Cohen's kappa 0.64 for CS2023, 0.69 for CS2013). The program covers 49.7% of CS2023 and 50.9% of CS2013 knowledge units, near-constant across a decade. Extending the same retrieve-then-confirm design to competency articulation and cognitive depth shows that the program articulates the competency for ~88% of covered units under each guideline, yet delivers it at the recommended depth for 76% of present units under CS2023 against 95% under CS2013, a gap reflecting the newer guideline's raised expectations, not the program. The longitudinal comparison separates persistent structural gaps (parallel and distributed computing, foundations of programming languages, systems fundamentals), uncovered against both guidelines and ABET, from differences that reflect the standard's evolution. The instrument is reusable and available from the authors on request.",
+      "pub_date": "Fri, 19 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "课程对齐度测量：基于CS2013和CS2023的纵向框架",
+        "summary": "提出一种人机协同的流水线方法，通过语义检索和人工判断，测量计算机科学课程对国际课程指南（CS2013和CS2023）的覆盖度。实验表明，某项目对两个指南的知识单元覆盖度分别为49.7%和50.9%，且十年间基本不变。该方法还可评估能力表述和认知深度，并识别出持续存在的结构性缺口。",
+        "summary_en": null,
+        "tags": [
+          "research",
+          "benchmark",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-19-rss-006",
+        "title": "课程对齐度测量：基于CS2013和CS2023的纵向框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.19469",
+        "language": "en",
+        "summary": "提出一种人机协同的流水线方法，通过语义检索和人工判断，测量计算机科学课程对国际课程指南（CS2013和CS2023）的覆盖度。实验表明，某项目对两个指南的知识单元覆盖度分别为49.7%和50.9%，且十年间基本不变。该方法还可评估能力表述和认知深度，并识别出持续存在的结构性缺口。",
+        "summary_en": null,
+        "tags": [
+          "research",
+          "benchmark",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-06-19T20:05:27.780857+08:00",
+        "updated_at": "2026-06-19T20:05:27.780859+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Diffusion Language Models: An Experimental Analysis",
+      "url": "https://arxiv.org/abs/2606.19475",
+      "description": "arXiv:2606.19475v1 Announce Type: new \nAbstract: Large Language Models (LLMs) have revolutionized language modeling through autoregressive generation, enabling strong performance across a wide range of tasks. Recently, Diffusion Language Models (DLMs) have emerged as an alternative paradigm that generates text through iterative denoising rather than next-token prediction, allowing parallel refinement of entire sequences. While numerous diffusion-based architectures have been proposed, differences in evaluation protocols, datasets, inference budgets, and generation hyperparameters make it difficult to compare their capabilities and understand the trade-offs they offer. In this work, we present a systematic experimental analysis of modern DLMs. Specifically, we evaluate eight state-of-the-art DLMs across eight benchmarks spanning reasoning, coding, translation, knowledge, and structured problem solving, while explicitly considering both generation quality and computational efficiency. Beyond downstream evaluation, we analyze the impact of key inference-time factors, including denoising steps, context length, block size, and parallel unmasking strategies, and complement large-scale experiments with controlled comparisons of smaller models trained under identical conditions. Our analysis highlights the strengths and limitations of diffusion-based language modeling across different tasks, architectures, and inference budgets. We show that the behavior of DLMs is strongly influenced by generation-time design choices, leading to distinct trade-offs between performance and computational efficiency. Overall, our study provides practical insights into the capabilities and deployment characteristics of contemporary DLMs.",
+      "pub_date": "Fri, 19 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "扩散语言模型实验分析",
+        "summary": "本文系统分析了八种现代扩散语言模型在八个基准上的表现，涵盖推理、编码、翻译等任务，并探讨了推理阶段关键因素（如去噪步数、上下文长度）对性能与效率的影响，揭示了扩散模型在不同任务和架构下的权衡。",
+        "summary_en": "This paper presents a systematic experimental analysis of eight state-of-the-art diffusion language models across eight benchmarks, covering reasoning, coding, translation, etc., and examines the impact of key inference-time factors on performance and efficiency, revealing trade-offs across tasks and architectures.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-19-rss-001",
+        "title": "扩散语言模型实验分析",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.19475",
+        "language": "en",
+        "summary": "本文系统分析了八种现代扩散语言模型在八个基准上的表现，涵盖推理、编码、翻译等任务，并探讨了推理阶段关键因素（如去噪步数、上下文长度）对性能与效率的影响，揭示了扩散模型在不同任务和架构下的权衡。",
+        "summary_en": "This paper presents a systematic experimental analysis of eight state-of-the-art diffusion language models across eight benchmarks, covering reasoning, coding, translation, etc., and examines the impact of key inference-time factors on performance and efficiency, revealing trade-offs across tasks and architectures.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-19T20:05:27.780832+08:00",
+        "updated_at": "2026-06-19T20:05:27.780836+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Hidden Anchors in Multi-Agent LLM Deliberation",
+      "url": "https://arxiv.org/abs/2606.19494",
+      "description": "arXiv:2606.19494v1 Announce Type: new \nAbstract: Multi-agent LLM deliberation, where agents exchange and revise answers over several rounds, is increasingly used to improve reasoning and accuracy, yet how and why it works is rarely modelled. Such deliberation mirrors how humans reach decisions. As social animals we are pulled both by the group, the herd effect that classical opinion-dynamics models such as DeGroot and Friedkin--Johnsen capture, and by our own internal belief, which they do not. We model multi-agent deliberation as a closed-loop dynamical system in which each agent carries a hidden internal belief, its anchor, that continually pulls its opinion regardless of its neighbours. We show this anchor can be recovered from the deliberation alone, and that it explains a behaviour classical consensus rules forbid: an agent's confidence in the correct answer can climb past where any agent started, escaping the space (convexhull) formed by the initial beliefs. Checking whether the recovered anchor also predicts held-out runs (generalizes) gives a simple test for when a model is truly driven bysuch an anchor. Across three open-weight model families this is a spectrum, not all-or-nothing. All anchors' influence are about equally strongly, but they differ in where the anchor sits, and only when it sits far from the initial opinions does deliberation escape the hull and need the full closed-loop model.",
+      "pub_date": "Fri, 19 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "多智能体LLM协商中的隐藏锚点",
+        "summary": "本文建模多智能体LLM协商为闭环动力系统，每个智能体携带隐藏的内部信念（锚点），持续影响其观点。研究发现锚点可从协商中恢复，并解释为何智能体对正确答案的信心可能超越初始信念的凸包。通过检查恢复的锚点是否泛化到未参与运行的预测，可判断模型是否真正由锚点驱动。",
+        "summary_en": "This paper models multi-agent LLM deliberation as a closed-loop dynamical system where each agent has a hidden internal belief (anchor) that continuously pulls its opinion. The anchor can be recovered from deliberation and explains why confidence in correct answers can exceed the convex hull of initial beliefs. A generalization test determines if a model is truly anchor-driven.",
+        "tags": [
+          "llm",
+          "research",
+          "agent-framework",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-19-rss-002",
+        "title": "多智能体LLM协商中的隐藏锚点",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.19494",
+        "language": "en",
+        "summary": "本文建模多智能体LLM协商为闭环动力系统，每个智能体携带隐藏的内部信念（锚点），持续影响其观点。研究发现锚点可从协商中恢复，并解释为何智能体对正确答案的信心可能超越初始信念的凸包。通过检查恢复的锚点是否泛化到未参与运行的预测，可判断模型是否真正由锚点驱动。",
+        "summary_en": "This paper models multi-agent LLM deliberation as a closed-loop dynamical system where each agent has a hidden internal belief (anchor) that continuously pulls its opinion. The anchor can be recovered from deliberation and explains why confidence in correct answers can exceed the convex hull of initial beliefs. A generalization test determines if a model is truly anchor-driven.",
+        "tags": [
+          "llm",
+          "research",
+          "agent-framework",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-19T20:05:27.780841+08:00",
+        "updated_at": "2026-06-19T20:05:27.780842+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "DeXposure-Claw: An Agentic System for DeFi Risk Supervision",
+      "url": "https://arxiv.org/abs/2606.19501",
+      "description": "arXiv:2606.19501v1 Announce Type: new \nAbstract: Decentralized finance exposes supervisors to fast-moving, networked credit risks. General-purpose LLM agents fit this setting poorly: they over-read weak evidence and recommend high-stakes interventions, while existing evaluations offer no regulator-aligned way to measure the resulting false alarms. We introduce DeXposure-Claw, a forecast-grounded agentic supervision system that routes LLM decisions through structured evidence: (1) DeXposure-FM, a graph time-series foundation model, forecasts future exposure networks; (2) deterministic monitors and stress scenarios then turn those forecasts into typed alerts, attribution signals, and scenario evidence; and (3) data-health and confidence gates constrain escalation before DeXposure-Claw emits auditable supervisory tickets with rationales. We further develop DeXposure-Bench, a six-axis evaluation harness, whose decision axis scores tickets against a regulator-aligned absolute-loss ground truth and an explicit false-intervention rate. Experiments on five years of weekly real data fully support our system. Code is at https://github.com/EVIEHub/DeXposure-Claw.",
+      "pub_date": "Fri, 19 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "DeXposure-Claw：面向DeFi风险监管的智能代理系统",
+        "summary": "DeXposure-Claw是一个基于预测的代理监管系统，通过结构化证据引导LLM决策：使用图时间序列基础模型预测风险网络，通过确定性监控和压力场景生成警报，并设置数据健康与置信度门控来约束升级，最终生成可审计的监管工单。配套的DeXposure-Bench评估框架从六个维度衡量系统性能。",
+        "summary_en": null,
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "application",
+          "security"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-19-rss-007",
+        "title": "DeXposure-Claw：面向DeFi风险监管的智能代理系统",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.19501",
+        "language": "en",
+        "summary": "DeXposure-Claw是一个基于预测的代理监管系统，通过结构化证据引导LLM决策：使用图时间序列基础模型预测风险网络，通过确定性监控和压力场景生成警报，并设置数据健康与置信度门控来约束升级，最终生成可审计的监管工单。配套的DeXposure-Bench评估框架从六个维度衡量系统性能。",
+        "summary_en": null,
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "application",
+          "security"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-06-19T20:05:27.780861+08:00",
+        "updated_at": "2026-06-19T20:05:27.780863+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Exposing the Unsaid: Visualizing Hidden LLM Bias through Stochastic Path Aggregation",
+      "url": "https://arxiv.org/abs/2606.19344",
+      "description": "arXiv:2606.19344v1 Announce Type: new \nAbstract: Large Language Models (LLMs) exhibit representational and syntactic biases that are difficult to evaluate due to the stochastic nature of text generation. Standard auditing methods rely on a single output inspection or static automated metrics. These approaches obscure the underlying probability distributions and fail to capture biases hidden in lower-probability generation branches. This paper introduces TreeTracer, a visual analytics tool designed to evaluate LLM bias through aggregated comparison. Using a systematic perturbation analysis pipeline, the tool replaces ontology-defined terms in each input prompt, aggregates hundreds of stochastic generations into a syntax-aligned hierarchical structure, and then performs classification-aware node merging with an auxiliary language model. The resulting structure is visualized through a custom Sankey diagram. By juxtaposing two ontology-driven trees, the workspace enables direct comparison between semantic contexts and supports systematic bias detection. Because any visualization reflects only a subset of the model's learned behavior, the system further applies contrastive inference to compute and directly display counterfactual token probabilities across contexts, reducing the risk of misinterpreting the presence of bias. We validate the workspace through case studies comparing an unaligned baseline model GPT-2 XL against the constitutionally aligned Apertus models. The visual aggregation successfully exposes hidden representational harms, such as counterfactual pronoun suppression and conversational marginalization of individuals. A preliminary user study confirms that the aggregated comparative interface reduces cognitive load and effectively supports analysts in detecting systemic biases.",
+      "pub_date": "Fri, 19 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "揭示隐藏的LLM偏见：通过随机路径聚合的可视化方法",
+        "summary": "提出TreeTracer可视化分析工具，通过系统扰动分析、语法对齐层次结构和分类感知节点合并，以桑基图对比不同语义上下文下的模型输出，暴露低概率生成分支中的隐藏偏见。案例研究显示其能有效检测代词抑制等代表性伤害。",
+        "summary_en": null,
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "security"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-19-rss-003",
+        "title": "揭示隐藏的LLM偏见：通过随机路径聚合的可视化方法",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.19344",
+        "language": "en",
+        "summary": "提出TreeTracer可视化分析工具，通过系统扰动分析、语法对齐层次结构和分类感知节点合并，以桑基图对比不同语义上下文下的模型输出，暴露低概率生成分支中的隐藏偏见。案例研究显示其能有效检测代词抑制等代表性伤害。",
+        "summary_en": null,
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "security"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-19T20:05:27.780845+08:00",
+        "updated_at": "2026-06-19T20:05:27.780847+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Ensembles of Large Language Models for Identifying EQ-5D Studies in PubMed Based on Their Abstracts",
+      "url": "https://arxiv.org/abs/2606.19345",
+      "description": "arXiv:2606.19345v1 Announce Type: new \nAbstract: The rapid increase in scientific publications leads to the fact that manual study screening in systematic literature reviews (SLRs) is increasingly resource consuming, inefficient, and inconsistent. Classifying studies that clearly report health-related quality-of-life results, such as EQ-5D data, requires a high level of clinical interpretation and poses challenges for human reviewers. This study investigates the use of Google's Gemini and Gemma large language models (LLMs) in automating EQ-5D detection in the PubMed biomedical database based only on published abstracts. A multi-phase framework is proposed that integrates few-shot prompting, weight ensembling aggregation, and a soft stacking meta-classifier. Nine LLMs are evaluated on a dataset of PubMed studies manually labeled by two experts regarding EQ-5D reporting. The weighted ensemble of gemini-2.5-pro, gemma-3-12b, and gemma-3-27b obtained a 0.74 weighted F1-score and 0.74 accuracy, exceeding individually attained results. The ensembling of top-performing models improved the balance between precision and recall compared to individual models, while the soft stacking approach provided greater reliability and interpretability. Feature analysis shows that the probability results from the models are important in guiding the final predictions. The findings suggest that an ensemble-based LLM setup is a reliable and scalable approach for automating screening in biomedical research.",
+      "pub_date": "Fri, 19 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "利用大语言模型集成自动识别PubMed中EQ-5D研究",
+        "summary": "本研究提出一个多阶段框架，集成Google Gemini和Gemma等九个LLM，通过少样本提示、权重集成和软堆叠元分类器，自动从PubMed摘要中检测EQ-5D健康相关生活质量研究。加权集成模型（gemini-2.5-pro、gemma-3-12b、gemma-3-27b）取得0.74加权F1分数和准确率，优于单个模型，为生物医学文献系统综述的自动化筛选提供了可靠且可扩展的方法。",
+        "summary_en": null,
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "fine-tuning",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-19-rss-008",
+        "title": "利用大语言模型集成自动识别PubMed中EQ-5D研究",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.19345",
+        "language": "en",
+        "summary": "本研究提出一个多阶段框架，集成Google Gemini和Gemma等九个LLM，通过少样本提示、权重集成和软堆叠元分类器，自动从PubMed摘要中检测EQ-5D健康相关生活质量研究。加权集成模型（gemini-2.5-pro、gemma-3-12b、gemma-3-27b）取得0.74加权F1分数和准确率，优于单个模型，为生物医学文献系统综述的自动化筛选提供了可靠且可扩展的方法。",
+        "summary_en": null,
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "fine-tuning",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-06-19T20:05:27.780865+08:00",
+        "updated_at": "2026-06-19T20:05:27.780867+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Disentangling Linguistic Relatedness from Task Alignment in Cross-Lingual Transfer",
+      "url": "https://arxiv.org/abs/2606.19346",
+      "description": "arXiv:2606.19346v1 Announce Type: new \nAbstract: We study cross-lingual transfer by fine-tuning seven large language models (4B--671B parameters) on Arabic and evaluating zero-shot reading comprehension on Semitic languages and non-Semitic controls. Across dense and Mixture-of-Experts architectures, we find no evidence of Semitic-specific transfer: models with weak baselines improve dramatically across all languages, while strong-baseline models show only marginal gains regardless of language family. A chain-of-thought ablation reinforces this finding -- the same models that benefit most from fine-tuning benefit equally from inference-time reasoning, suggesting both mechanisms address task-format alignment rather than cross-lingual knowledge transfer.",
+      "pub_date": "Fri, 19 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "跨语言迁移中语言亲缘关系与任务对齐的解耦研究",
+        "summary": "通过微调7个大语言模型（4B-671B参数）进行阿拉伯语训练，并在闪语族和非闪语族语言上评估零样本阅读理解，发现模型性能提升主要来自任务格式对齐而非跨语言知识迁移，链式思维推理进一步验证了这一结论。",
+        "summary_en": "Fine-tuning seven LLMs on Arabic and evaluating zero-shot reading comprehension on Semitic and non-Semitic languages shows performance gains stem from task-format alignment rather than cross-lingual knowledge transfer, supported by chain-of-thought ablation.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-19-rss-009",
+        "title": "跨语言迁移中语言亲缘关系与任务对齐的解耦研究",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.19346",
+        "language": "en",
+        "summary": "通过微调7个大语言模型（4B-671B参数）进行阿拉伯语训练，并在闪语族和非闪语族语言上评估零样本阅读理解，发现模型性能提升主要来自任务格式对齐而非跨语言知识迁移，链式思维推理进一步验证了这一结论。",
+        "summary_en": "Fine-tuning seven LLMs on Arabic and evaluating zero-shot reading comprehension on Semitic and non-Semitic languages shows performance gains stem from task-format alignment rather than cross-lingual knowledge transfer, supported by chain-of-thought ablation.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-06-19T20:05:27.780869+08:00",
+        "updated_at": "2026-06-19T20:05:27.780871+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "How LLMs Fail and Generalize in RTL Coding for Hardware Design?",
+      "url": "https://arxiv.org/abs/2606.19347",
+      "description": "arXiv:2606.19347v1 Announce Type: new \nAbstract: Translating sequential programming priors into the parallel temporal logic of hardware design remains a crucial bottleneck for large language models(LLM). To investigate this, we introduce a new error taxonomy grounded in problem solvability, inspired by cognitive theory. Our taxonomy categorizes failures into syntactic, semantic, solvable functional, and unsolvable functional types. Evaluations reveal a strict empirical ceiling on the VerilogEval benchmark, as frontier models plateau at a 90.8% initial pass rate. These plateaus are defined by unsolvable functional errors, exposing persistent knowledge gaps immune to test time compute scaling. Furthermore, we expose a striking surface convergence gap: optimization readily eliminates syntax errors but concurrently exacerbates deeper functional failures. Our findings demonstrate that alignment techniques merely teach models to compile. While repeated sampling strategies can patch solvable errors, register-transfer level(RTL) coding capacity remains strictly bounded by pretraining knowledge. Addressing challenges in the current LLM based hardware generation pipeline requires more studies in model reasoning rather than alignment interventions.",
+      "pub_date": "Fri, 19 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "LLM在硬件设计RTL编码中的失败与泛化",
+        "summary": "本文提出一种基于问题可解性的错误分类法，将LLM在硬件设计RTL编码中的失败分为语法、语义、可解功能和不可解功能四类。评估显示前沿模型在VerilogEval基准上初始通过率上限为90.8%，由不可解功能错误定义。研究发现对齐技术仅教会模型编译，重复采样可修补可解错误，但RTL编码能力受限于预训练知识，需更多研究模型推理而非对齐干预。",
+        "summary_en": "This paper introduces an error taxonomy for LLM failures in hardware RTL coding, categorizing errors into syntactic, semantic, solvable functional, and unsolvable functional types. Evaluations show a 90.8% pass rate ceiling on VerilogEval, defined by unsolvable functional errors. Alignment only teaches compilation; RTL capacity is bounded by pretraining knowledge, requiring more reasoning research.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-19-rss-010",
+        "title": "LLM在硬件设计RTL编码中的失败与泛化",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.19347",
+        "language": "en",
+        "summary": "本文提出一种基于问题可解性的错误分类法，将LLM在硬件设计RTL编码中的失败分为语法、语义、可解功能和不可解功能四类。评估显示前沿模型在VerilogEval基准上初始通过率上限为90.8%，由不可解功能错误定义。研究发现对齐技术仅教会模型编译，重复采样可修补可解错误，但RTL编码能力受限于预训练知识，需更多研究模型推理而非对齐干预。",
+        "summary_en": "This paper introduces an error taxonomy for LLM failures in hardware RTL coding, categorizing errors into syntactic, semantic, solvable functional, and unsolvable functional types. Evaluations show a 90.8% pass rate ceiling on VerilogEval, defined by unsolvable functional errors. Alignment only teaches compilation; RTL capacity is bounded by pretraining knowledge, requiring more reasoning research.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-06-19T20:05:27.780873+08:00",
+        "updated_at": "2026-06-19T20:05:27.780875+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
+      "url": "https://arxiv.org/abs/2606.19348",
+      "description": "arXiv:2606.19348v1 Announce Type: new \nAbstract: We present a preview version of DeepSeek-V4 series, including two strong Mixture-of-Experts (MoE) language models -- DeepSeek-V4-Pro with 1.6T parameters (49B activated) and DeepSeek-V4-Flash with 284B parameters (13B activated) -- both supporting a context length of one million tokens. DeepSeek-V4 series incorporate several key upgrades in architecture and optimization: (1) a hybrid attention architecture that combines Compressed Sparse Attention (CSA) and Heavily Compressed Attention (HCA) to improve long-context efficiency; (2) Manifold-Constrained Hyper-Connections (mHC) that enhance conventional residual connections; (3) and the Muon optimizer for faster convergence and greater training stability. We pre-train both models on more than 32T diverse and high-quality tokens, followed by a comprehensive post-training pipeline that unlocks and further enhances their capabilities. DeepSeek-V4-Pro-Max, the maximum reasoning effort mode of DeepSeek-V4-Pro, redefines the state-of-the-art for open models, outperforming its predecessors in core tasks. Meanwhile, DeepSeek-V4 series are highly efficient in long-context scenarios. In the one-million-token context setting, DeepSeek-V4-Pro requires only 27% of single-token inference FLOPs and 10% of KV cache compared with DeepSeek-V3.2. This enables us to routinely support one-million-token contexts, thereby making long-horizon tasks and further test-time scaling more feasible. The model checkpoints are available at https://huggingface.co/collections/deepseek-ai/deepseek-v4.",
+      "pub_date": "Fri, 19 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "DeepSeek-V4：面向百万Token上下文的高效智能模型",
+        "summary": "DeepSeek-V4系列包含两个MoE语言模型：DeepSeek-V4-Pro（1.6T参数，49B激活）和DeepSeek-V4-Flash（284B参数，13B激活），均支持百万Token上下文。通过混合注意力架构（CSA+HCA）、流形约束超连接（mHC）和Muon优化器，在长上下文场景中实现高效推理，仅需DeepSeek-V3.2的27% FLOPs和10% KV缓存。",
+        "summary_en": "DeepSeek-V4 series includes two MoE language models supporting million-token context, achieving high efficiency with hybrid attention, manifold-constrained hyper-connections, and Muon optimizer, requiring only 27% FLOPs and 10% KV cache of DeepSeek-V3.2.",
+        "tags": [
+          "llm",
+          "research",
+          "open-source",
+          "infrastructure"
+        ],
+        "category": "llm",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-19-rss-004",
+        "title": "DeepSeek-V4：面向百万Token上下文的高效智能模型",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.19348",
+        "language": "en",
+        "summary": "DeepSeek-V4系列包含两个MoE语言模型：DeepSeek-V4-Pro（1.6T参数，49B激活）和DeepSeek-V4-Flash（284B参数，13B激活），均支持百万Token上下文。通过混合注意力架构（CSA+HCA）、流形约束超连接（mHC）和Muon优化器，在长上下文场景中实现高效推理，仅需DeepSeek-V3.2的27% FLOPs和10% KV缓存。",
+        "summary_en": "DeepSeek-V4 series includes two MoE language models supporting million-token context, achieving high efficiency with hybrid attention, manifold-constrained hyper-connections, and Muon optimizer, requiring only 27% FLOPs and 10% KV cache of DeepSeek-V3.2.",
+        "tags": [
+          "llm",
+          "research",
+          "open-source",
+          "infrastructure"
+        ],
+        "category": "llm",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-19T20:05:27.780849+08:00",
+        "updated_at": "2026-06-19T20:05:27.780851+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

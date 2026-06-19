@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-19-rss-010",
+  "title": "LLM在硬件设计RTL编码中的失败与泛化",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.19347",
+  "language": "en",
+  "summary": "本文提出一种基于问题可解性的错误分类法，将LLM在硬件设计RTL编码中的失败分为语法、语义、可解功能和不可解功能四类。评估显示前沿模型在VerilogEval基准上初始通过率上限为90.8%，由不可解功能错误定义。研究发现对齐技术仅教会模型编译，重复采样可修补可解错误，但RTL编码能力受限于预训练知识，需更多研究模型推理而非对齐干预。",
+  "summary_en": "This paper introduces an error taxonomy for LLM failures in hardware RTL coding, categorizing errors into syntactic, semantic, solvable functional, and unsolvable functional types. Evaluations show a 90.8% pass rate ceiling on VerilogEval, defined by unsolvable functional errors. Alignment only teaches compilation; RTL capacity is bounded by pretraining knowledge, requiring more reasoning research.",
+  "tags": [
+    "llm",
+    "research",
+    "benchmark",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-06-19T20:05:27.780873+08:00",
+  "updated_at": "2026-06-19T20:05:27.780875+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

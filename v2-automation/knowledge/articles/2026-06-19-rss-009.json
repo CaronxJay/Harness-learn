@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-19-rss-009",
+  "title": "跨语言迁移中语言亲缘关系与任务对齐的解耦研究",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.19346",
+  "language": "en",
+  "summary": "通过微调7个大语言模型（4B-671B参数）进行阿拉伯语训练，并在闪语族和非闪语族语言上评估零样本阅读理解，发现模型性能提升主要来自任务格式对齐而非跨语言知识迁移，链式思维推理进一步验证了这一结论。",
+  "summary_en": "Fine-tuning seven LLMs on Arabic and evaluating zero-shot reading comprehension on Semitic and non-Semitic languages shows performance gains stem from task-format alignment rather than cross-lingual knowledge transfer, supported by chain-of-thought ablation.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-06-19T20:05:27.780869+08:00",
+  "updated_at": "2026-06-19T20:05:27.780871+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

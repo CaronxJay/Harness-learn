@@ -1,0 +1,26 @@
+{
+  "id": "2026-06-19-rss-008",
+  "title": "利用大语言模型集成自动识别PubMed中EQ-5D研究",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.19345",
+  "language": "en",
+  "summary": "本研究提出一个多阶段框架，集成Google Gemini和Gemma等九个LLM，通过少样本提示、权重集成和软堆叠元分类器，自动从PubMed摘要中检测EQ-5D健康相关生活质量研究。加权集成模型（gemini-2.5-pro、gemma-3-12b、gemma-3-27b）取得0.74加权F1分数和准确率，优于单个模型，为生物医学文献系统综述的自动化筛选提供了可靠且可扩展的方法。",
+  "summary_en": null,
+  "tags": [
+    "llm",
+    "research",
+    "application",
+    "fine-tuning",
+    "prompt-engineering"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-06-19T20:05:27.780865+08:00",
+  "updated_at": "2026-06-19T20:05:27.780867+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
