@@ -1,0 +1,24 @@
+{
+  "id": "2026-06-20-rss-005",
+  "title": "课程对齐度测量：基于CS2013与CS2023的纵向框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.19469",
+  "language": "en",
+  "summary": "提出一种人机协作的管道，通过语义检索与人工判断，测量计算机科学课程对国际课程指南（CS2013/CS2023）的覆盖程度。实验表明，该程序覆盖约50%的知识单元，且十年间保持稳定。在能力表述和认知深度方面，新指南提高了期望值，导致深度覆盖出现差距。该工具可复用。",
+  "summary_en": "Proposes a human-in-the-loop pipeline using semantic retrieval and human judgment to measure a CS program's coverage of international curricular guidelines (CS2013/CS2023). The program covers ~50% of knowledge units, stable over a decade. A gap in cognitive depth reflects the new guideline's raised expectations, not program decline. The tool is reusable.",
+  "tags": [
+    "research",
+    "evaluation",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.6,
+  "status": "published",
+  "created_at": "2026-06-20T18:31:30.110238+08:00",
+  "updated_at": "2026-06-20T18:31:30.110240+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

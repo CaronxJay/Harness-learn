@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-20-github-008",
+  "title": "Udityamerit 个人技术旅程",
+  "source": "github_trending",
+  "source_url": "https://github.com/udityamerit/Udityamerit",
+  "language": "en",
+  "summary": "专注于机器学习、深度学习、自然语言处理、生成式AI、RAG、LLM、语义搜索和AI Agent，致力于构建解决现实问题的智能系统。",
+  "summary_en": null,
+  "tags": [
+    "llm",
+    "rag",
+    "application",
+    "research"
+  ],
+  "category": "application",
+  "relevance_score": 0.8,
+  "status": "published",
+  "created_at": "2026-06-20T18:31:30.109382+08:00",
+  "updated_at": "2026-06-20T18:31:30.109383+08:00",
+  "metadata": {
+    "stars": 5,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "collected_at": "2026-06-20T18:31:30.111137+08:00",
+  "source": "rss",
+  "count": 5,
+  "items": [
+    {
+      "title": "Deontic Policies for Runtime Governance of Agentic AI Systems",
+      "url": "https://arxiv.org/abs/2606.19464",
+      "description": "arXiv:2606.19464v1 Announce Type: new \nAbstract: Autonomous agentic AI systems driven by Large Language Models (LLMs) introduce a new class of security, privacy, and compliance challenges: an agent that can invoke tools, manipulate data, install software, and coordinate with peer agents across organizational boundaries must be constrained not just by authentication and access control, but by the full structure of enterprise governance. This includes specifying what agents are permitted and prohibited from doing, what they areobliged to do after certain actions (e.g., notify the CISO), under what conditions a standing obligation may be waived, and which rules take precedence when policies conflict. This governance problem exceeds what current policy engines provide. Systems such as XACML, Rego, and Cedar address only the permit/prohibit subset of this governance structure. They do not provide obligation lifecycle management, meta-policy conflict resolution, dispensations that waive obligations in specific circumstances, and ontological reasoning over domain class hierarchies commonly found in applications such as healthcare, cybersecurity, or data privacy. We propose AgenticRei, which realizes key governance requirements such as obligations, dispensations, policy conflict resolutions, and reasoning over policies, as well as the basic permit/prohibit constraints. We use a deontic policy language built on the Rei framework, expressed as OWL (Web Ontology Language) and evaluated at runtime by a high-performance logic engine entirely outside the LLM. The same pipeline governs both tool invocations by the agent and agent-to-agent messages. We show through examples that deontic policies capture governance constraints around security and privacy that mostly cannot be expressed in current production engines. Our approach composes naturally with industry-standard frameworks like A2AS.",
+      "pub_date": "Sat, 20 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "基于道义策略的自主AI系统运行时治理",
+        "summary": "提出AgenticRei框架，利用基于Rei的道义策略语言（OWL表示）在运行时约束LLM驱动的自主AI系统，支持许可/禁止、义务生命周期管理、冲突解决和豁免，弥补现有策略引擎（如XACML、Rego）的不足。",
+        "summary_en": "Proposes AgenticRei, a framework using deontic policies (OWL) for runtime governance of LLM-driven autonomous AI systems, supporting permissions, obligations, dispensations, and conflict resolution, addressing gaps in current policy engines like XACML and Rego.",
+        "tags": [
+          "llm",
+          "security",
+          "infrastructure",
+          "research"
+        ],
+        "category": "security",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-20-rss-002",
+        "title": "基于道义策略的自主AI系统运行时治理",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.19464",
+        "language": "en",
+        "summary": "提出AgenticRei框架，利用基于Rei的道义策略语言（OWL表示）在运行时约束LLM驱动的自主AI系统，支持许可/禁止、义务生命周期管理、冲突解决和豁免，弥补现有策略引擎（如XACML、Rego）的不足。",
+        "summary_en": "Proposes AgenticRei, a framework using deontic policies (OWL) for runtime governance of LLM-driven autonomous AI systems, supporting permissions, obligations, dispensations, and conflict resolution, addressing gaps in current policy engines like XACML and Rego.",
+        "tags": [
+          "llm",
+          "security",
+          "infrastructure",
+          "research"
+        ],
+        "category": "security",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-06-20T18:31:30.110222+08:00",
+        "updated_at": "2026-06-20T18:31:30.110224+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Measuring Curriculum Alignment across Topical Coverage, Competency, and Cognitive Depth: A Longitudinal Framework Applied to CS2013 and CS2023",
+      "url": "https://arxiv.org/abs/2606.19469",
+      "description": "arXiv:2606.19469v1 Announce Type: new \nAbstract: Undergraduate computer science is governed by international curricular guidelines revised about once a decade, yet programs lack a reliable, reproducible way to measure how completely they cover the current guidelines and how that coverage shifts when the guidelines are restructured. We address this with a human-in-the-loop pipeline that measures a program's coverage of an external body of knowledge, applied longitudinally to one accredited BSc in Computer Science against Computer Science Curricula 2013 (CS2013) and 2023 (CS2023). The pipeline represents the program and each guideline as structured corpora, generates candidate course-to-knowledge-unit matches by semantic retrieval, and confirms them through human judgment under an explicit coverage definition. Of seven benchmarked retrievers, a reciprocal-rank-fusion ensemble was strongest, and a reputed long-context model underperformed a small sentence model, so retriever choice must be measured. Both maps were validated by an independent second rater (Cohen's kappa 0.64 for CS2023, 0.69 for CS2013). The program covers 49.7% of CS2023 and 50.9% of CS2013 knowledge units, near-constant across a decade. Extending the same retrieve-then-confirm design to competency articulation and cognitive depth shows that the program articulates the competency for ~88% of covered units under each guideline, yet delivers it at the recommended depth for 76% of present units under CS2023 against 95% under CS2013, a gap reflecting the newer guideline's raised expectations, not the program. The longitudinal comparison separates persistent structural gaps (parallel and distributed computing, foundations of programming languages, systems fundamentals), uncovered against both guidelines and ABET, from differences that reflect the standard's evolution. The instrument is reusable and available from the authors on request.",
+      "pub_date": "Sat, 20 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "课程对齐度测量：基于CS2013与CS2023的纵向框架",
+        "summary": "提出一种人机协作的管道，通过语义检索与人工判断，测量计算机科学课程对国际课程指南（CS2013/CS2023）的覆盖程度。实验表明，该程序覆盖约50%的知识单元，且十年间保持稳定。在能力表述和认知深度方面，新指南提高了期望值，导致深度覆盖出现差距。该工具可复用。",
+        "summary_en": "Proposes a human-in-the-loop pipeline using semantic retrieval and human judgment to measure a CS program's coverage of international curricular guidelines (CS2013/CS2023). The program covers ~50% of knowledge units, stable over a decade. A gap in cognitive depth reflects the new guideline's raised expectations, not program decline. The tool is reusable.",
+        "tags": [
+          "research",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.6,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-20-rss-005",
+        "title": "课程对齐度测量：基于CS2013与CS2023的纵向框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.19469",
+        "language": "en",
+        "summary": "提出一种人机协作的管道，通过语义检索与人工判断，测量计算机科学课程对国际课程指南（CS2013/CS2023）的覆盖程度。实验表明，该程序覆盖约50%的知识单元，且十年间保持稳定。在能力表述和认知深度方面，新指南提高了期望值，导致深度覆盖出现差距。该工具可复用。",
+        "summary_en": "Proposes a human-in-the-loop pipeline using semantic retrieval and human judgment to measure a CS program's coverage of international curricular guidelines (CS2013/CS2023). The program covers ~50% of knowledge units, stable over a decade. A gap in cognitive depth reflects the new guideline's raised expectations, not program decline. The tool is reusable.",
+        "tags": [
+          "research",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.6,
+        "status": "published",
+        "created_at": "2026-06-20T18:31:30.110238+08:00",
+        "updated_at": "2026-06-20T18:31:30.110240+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Diffusion Language Models: An Experimental Analysis",
+      "url": "https://arxiv.org/abs/2606.19475",
+      "description": "arXiv:2606.19475v1 Announce Type: new \nAbstract: Large Language Models (LLMs) have revolutionized language modeling through autoregressive generation, enabling strong performance across a wide range of tasks. Recently, Diffusion Language Models (DLMs) have emerged as an alternative paradigm that generates text through iterative denoising rather than next-token prediction, allowing parallel refinement of entire sequences. While numerous diffusion-based architectures have been proposed, differences in evaluation protocols, datasets, inference budgets, and generation hyperparameters make it difficult to compare their capabilities and understand the trade-offs they offer. In this work, we present a systematic experimental analysis of modern DLMs. Specifically, we evaluate eight state-of-the-art DLMs across eight benchmarks spanning reasoning, coding, translation, knowledge, and structured problem solving, while explicitly considering both generation quality and computational efficiency. Beyond downstream evaluation, we analyze the impact of key inference-time factors, including denoising steps, context length, block size, and parallel unmasking strategies, and complement large-scale experiments with controlled comparisons of smaller models trained under identical conditions. Our analysis highlights the strengths and limitations of diffusion-based language modeling across different tasks, architectures, and inference budgets. We show that the behavior of DLMs is strongly influenced by generation-time design choices, leading to distinct trade-offs between performance and computational efficiency. Overall, our study provides practical insights into the capabilities and deployment characteristics of contemporary DLMs.",
+      "pub_date": "Sat, 20 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "扩散语言模型实验分析",
+        "summary": "对八种现代扩散语言模型（DLM）在推理、编码、翻译等八个基准上的系统实验分析，揭示了生成质量与计算效率之间的权衡，以及推理时设计选择（如去噪步数、上下文长度）对性能的显著影响。",
+        "summary_en": "A systematic experimental analysis of eight state-of-the-art diffusion language models across eight benchmarks, revealing trade-offs between generation quality and computational efficiency, and the strong influence of inference-time design choices.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-20-rss-001",
+        "title": "扩散语言模型实验分析",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.19475",
+        "language": "en",
+        "summary": "对八种现代扩散语言模型（DLM）在推理、编码、翻译等八个基准上的系统实验分析，揭示了生成质量与计算效率之间的权衡，以及推理时设计选择（如去噪步数、上下文长度）对性能的显著影响。",
+        "summary_en": "A systematic experimental analysis of eight state-of-the-art diffusion language models across eight benchmarks, revealing trade-offs between generation quality and computational efficiency, and the strong influence of inference-time design choices.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-20T18:31:30.110213+08:00",
+        "updated_at": "2026-06-20T18:31:30.110217+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Hidden Anchors in Multi-Agent LLM Deliberation",
+      "url": "https://arxiv.org/abs/2606.19494",
+      "description": "arXiv:2606.19494v1 Announce Type: new \nAbstract: Multi-agent LLM deliberation, where agents exchange and revise answers over several rounds, is increasingly used to improve reasoning and accuracy, yet how and why it works is rarely modelled. Such deliberation mirrors how humans reach decisions. As social animals we are pulled both by the group, the herd effect that classical opinion-dynamics models such as DeGroot and Friedkin--Johnsen capture, and by our own internal belief, which they do not. We model multi-agent deliberation as a closed-loop dynamical system in which each agent carries a hidden internal belief, its anchor, that continually pulls its opinion regardless of its neighbours. We show this anchor can be recovered from the deliberation alone, and that it explains a behaviour classical consensus rules forbid: an agent's confidence in the correct answer can climb past where any agent started, escaping the space (convexhull) formed by the initial beliefs. Checking whether the recovered anchor also predicts held-out runs (generalizes) gives a simple test for when a model is truly driven bysuch an anchor. Across three open-weight model families this is a spectrum, not all-or-nothing. All anchors' influence are about equally strongly, but they differ in where the anchor sits, and only when it sits far from the initial opinions does deliberation escape the hull and need the full closed-loop model.",
+      "pub_date": "Sat, 20 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "多智能体LLM讨论中的隐藏锚点",
+        "summary": "本文提出多智能体LLM讨论的闭环动力学模型，每个智能体携带隐藏的内部信念（锚点），该锚点持续影响其观点。锚点可从讨论中恢复，并解释为何智能体对正确答案的信心能超越初始信念的凸包。通过检查恢复的锚点能否预测未参与运行的泛化能力，可判断模型是否真正受锚点驱动。实验表明，不同模型家族中锚点影响强度相似，但位置不同，只有远离初始观点时讨论才需完整闭环模型。",
+        "summary_en": "This paper models multi-agent LLM deliberation as a closed-loop dynamical system where each agent has a hidden internal belief (anchor) that continually pulls its opinion. The anchor can be recovered from deliberation and explains why confidence in the correct answer can exceed the convex hull of initial beliefs. A generalization test based on the recovered anchor reveals a spectrum of anchor-driven behavior across model families.",
+        "tags": [
+          "llm",
+          "research",
+          "agent-framework"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-20-rss-003",
+        "title": "多智能体LLM讨论中的隐藏锚点",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.19494",
+        "language": "en",
+        "summary": "本文提出多智能体LLM讨论的闭环动力学模型，每个智能体携带隐藏的内部信念（锚点），该锚点持续影响其观点。锚点可从讨论中恢复，并解释为何智能体对正确答案的信心能超越初始信念的凸包。通过检查恢复的锚点能否预测未参与运行的泛化能力，可判断模型是否真正受锚点驱动。实验表明，不同模型家族中锚点影响强度相似，但位置不同，只有远离初始观点时讨论才需完整闭环模型。",
+        "summary_en": "This paper models multi-agent LLM deliberation as a closed-loop dynamical system where each agent has a hidden internal belief (anchor) that continually pulls its opinion. The anchor can be recovered from deliberation and explains why confidence in the correct answer can exceed the convex hull of initial beliefs. A generalization test based on the recovered anchor reveals a spectrum of anchor-driven behavior across model families.",
+        "tags": [
+          "llm",
+          "research",
+          "agent-framework"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-06-20T18:31:30.110228+08:00",
+        "updated_at": "2026-06-20T18:31:30.110230+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "DeXposure-Claw: An Agentic System for DeFi Risk Supervision",
+      "url": "https://arxiv.org/abs/2606.19501",
+      "description": "arXiv:2606.19501v1 Announce Type: new \nAbstract: Decentralized finance exposes supervisors to fast-moving, networked credit risks. General-purpose LLM agents fit this setting poorly: they over-read weak evidence and recommend high-stakes interventions, while existing evaluations offer no regulator-aligned way to measure the resulting false alarms. We introduce DeXposure-Claw, a forecast-grounded agentic supervision system that routes LLM decisions through structured evidence: (1) DeXposure-FM, a graph time-series foundation model, forecasts future exposure networks; (2) deterministic monitors and stress scenarios then turn those forecasts into typed alerts, attribution signals, and scenario evidence; and (3) data-health and confidence gates constrain escalation before DeXposure-Claw emits auditable supervisory tickets with rationales. We further develop DeXposure-Bench, a six-axis evaluation harness, whose decision axis scores tickets against a regulator-aligned absolute-loss ground truth and an explicit false-intervention rate. Experiments on five years of weekly real data fully support our system. Code is at https://github.com/EVIEHub/DeXposure-Claw.",
+      "pub_date": "Sat, 20 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "DeXposure-Claw：用于DeFi风险监管的智能代理系统",
+        "summary": "DeXposure-Claw 是一个基于预测的代理监管系统，通过结构化证据引导LLM决策，包括图时间序列基础模型、确定性监控和压力场景、数据健康与置信度门控，并开发了六轴评估基准DeXposure-Bench，在真实数据上验证了有效性。",
+        "summary_en": "DeXposure-Claw is a forecast-grounded agentic supervision system that routes LLM decisions through structured evidence, including a graph time-series foundation model, deterministic monitors and stress scenarios, data-health and confidence gates, and a six-axis evaluation benchmark DeXposure-Bench, validated on real data.",
+        "tags": [
+          "llm",
+          "application",
+          "security",
+          "research",
+          "benchmark"
+        ],
+        "category": "application",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-20-rss-004",
+        "title": "DeXposure-Claw：用于DeFi风险监管的智能代理系统",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.19501",
+        "language": "en",
+        "summary": "DeXposure-Claw 是一个基于预测的代理监管系统，通过结构化证据引导LLM决策，包括图时间序列基础模型、确定性监控和压力场景、数据健康与置信度门控，并开发了六轴评估基准DeXposure-Bench，在真实数据上验证了有效性。",
+        "summary_en": "DeXposure-Claw is a forecast-grounded agentic supervision system that routes LLM decisions through structured evidence, including a graph time-series foundation model, deterministic monitors and stress scenarios, data-health and confidence gates, and a six-axis evaluation benchmark DeXposure-Bench, validated on real data.",
+        "tags": [
+          "llm",
+          "application",
+          "security",
+          "research",
+          "benchmark"
+        ],
+        "category": "application",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-06-20T18:31:30.110233+08:00",
+        "updated_at": "2026-06-20T18:31:30.110235+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

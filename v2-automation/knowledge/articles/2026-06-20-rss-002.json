@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-20-rss-002",
+  "title": "基于道义策略的自主AI系统运行时治理",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.19464",
+  "language": "en",
+  "summary": "提出AgenticRei框架，利用基于Rei的道义策略语言（OWL表示）在运行时约束LLM驱动的自主AI系统，支持许可/禁止、义务生命周期管理、冲突解决和豁免，弥补现有策略引擎（如XACML、Rego）的不足。",
+  "summary_en": "Proposes AgenticRei, a framework using deontic policies (OWL) for runtime governance of LLM-driven autonomous AI systems, supporting permissions, obligations, dispensations, and conflict resolution, addressing gaps in current policy engines like XACML and Rego.",
+  "tags": [
+    "llm",
+    "security",
+    "infrastructure",
+    "research"
+  ],
+  "category": "security",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-06-20T18:31:30.110222+08:00",
+  "updated_at": "2026-06-20T18:31:30.110224+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

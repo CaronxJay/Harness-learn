@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-20-rss-001",
+  "title": "扩散语言模型实验分析",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.19475",
+  "language": "en",
+  "summary": "对八种现代扩散语言模型（DLM）在推理、编码、翻译等八个基准上的系统实验分析，揭示了生成质量与计算效率之间的权衡，以及推理时设计选择（如去噪步数、上下文长度）对性能的显著影响。",
+  "summary_en": "A systematic experimental analysis of eight state-of-the-art diffusion language models across eight benchmarks, revealing trade-offs between generation quality and computational efficiency, and the strong influence of inference-time design choices.",
+  "tags": [
+    "llm",
+    "research",
+    "benchmark",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-20T18:31:30.110213+08:00",
+  "updated_at": "2026-06-20T18:31:30.110217+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

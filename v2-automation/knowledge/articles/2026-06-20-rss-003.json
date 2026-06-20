@@ -1,0 +1,24 @@
+{
+  "id": "2026-06-20-rss-003",
+  "title": "多智能体LLM讨论中的隐藏锚点",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.19494",
+  "language": "en",
+  "summary": "本文提出多智能体LLM讨论的闭环动力学模型，每个智能体携带隐藏的内部信念（锚点），该锚点持续影响其观点。锚点可从讨论中恢复，并解释为何智能体对正确答案的信心能超越初始信念的凸包。通过检查恢复的锚点能否预测未参与运行的泛化能力，可判断模型是否真正受锚点驱动。实验表明，不同模型家族中锚点影响强度相似，但位置不同，只有远离初始观点时讨论才需完整闭环模型。",
+  "summary_en": "This paper models multi-agent LLM deliberation as a closed-loop dynamical system where each agent has a hidden internal belief (anchor) that continually pulls its opinion. The anchor can be recovered from deliberation and explains why confidence in the correct answer can exceed the convex hull of initial beliefs. A generalization test based on the recovered anchor reveals a spectrum of anchor-driven behavior across model families.",
+  "tags": [
+    "llm",
+    "research",
+    "agent-framework"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-06-20T18:31:30.110228+08:00",
+  "updated_at": "2026-06-20T18:31:30.110230+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
