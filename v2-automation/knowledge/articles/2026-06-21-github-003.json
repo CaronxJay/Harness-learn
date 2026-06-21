@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-21-github-003",
+  "title": "Udityamerit 技术旅程",
+  "source": "github_trending",
+  "source_url": "https://github.com/udityamerit/Udityamerit",
+  "language": "en",
+  "summary": "专注于机器学习、深度学习、自然语言处理、生成式AI、RAG、大语言模型、语义搜索和AI代理，致力于构建解决实际问题的智能系统。",
+  "summary_en": "Focuses on Machine Learning, Deep Learning, NLP, Generative AI, RAG, LLMs, Semantic Search, and AI Agents, aiming to build intelligent systems that solve real-world problems.",
+  "tags": [
+    "llm",
+    "rag",
+    "application",
+    "research"
+  ],
+  "category": "application",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-06-21T19:15:04.155081+08:00",
+  "updated_at": "2026-06-21T19:15:04.155083+08:00",
+  "metadata": {
+    "stars": 5,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
