@@ -1,0 +1,487 @@
+{
+  "collected_at": "2026-06-24T18:48:29.172154+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "RIFT-Bench: Dynamic Red-teaming For Agentic AI Systems",
+      "url": "https://arxiv.org/abs/2606.23927",
+      "description": "arXiv:2606.23927v1 Announce Type: new \nAbstract: Agentic AI systems powered by large language models (LLMs) are rapidly evolving into autonomous decision-making systems, exposing attack vectors beyond those of traditional LLM vulnerabilities. Existing security evaluations are often tied to specific implementations or domains, limiting unified comparison across heterogeneous systems. To address this gap, we introduce RIFT-Bench, a graph representation-driven methodology for dynamic red-teaming that enables unified evaluations across diverse agentic architectures. Building on a novel hierarchical representation, RIFT-Bench operates in two automated phases: Discovery, which extracts system structure, and Scanning, which deploys adaptive adversarial attacks and produces a comprehensive evaluation report. It evaluates the examined system itself, leveraging a broad set of dynamically adaptable adversarial probes across diverse attack vectors and objectives. We demonstrate the effectiveness of the proposed evaluation pipeline across 45 agentic systems spanning a diverse range of implementations, showing that the approach generalizes effectively to heterogeneous agentic architectures. Beyond systems and attacks, RIFT-Bench also supports direct evaluation of mitigation strategies. These key capabilities make RIFT-Bench a scalable foundation for security evaluation of agentic AI systems.",
+      "pub_date": "Wed, 24 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "RIFT-Bench：面向智能体AI系统的动态红队测试基准",
+        "summary": "RIFT-Bench提出一种基于图表示的动态红队测试方法，可统一评估异构智能体架构的安全性。它通过自动发现系统结构并部署自适应对抗攻击，支持对45种智能体系统及防御策略的评估，为智能体AI安全评估提供可扩展的基础。",
+        "summary_en": "RIFT-Bench introduces a graph representation-driven dynamic red-teaming methodology for unified security evaluation across heterogeneous agentic AI systems. It automatically discovers system structure, deploys adaptive adversarial attacks, and supports evaluation of 45 agentic systems and mitigation strategies, providing a scalable foundation for agentic AI security.",
+        "tags": [
+          "benchmark",
+          "security",
+          "agent-framework",
+          "llm",
+          "evaluation"
+        ],
+        "category": "security",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-24-rss-001",
+        "title": "RIFT-Bench：面向智能体AI系统的动态红队测试基准",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.23927",
+        "language": "en",
+        "summary": "RIFT-Bench提出一种基于图表示的动态红队测试方法，可统一评估异构智能体架构的安全性。它通过自动发现系统结构并部署自适应对抗攻击，支持对45种智能体系统及防御策略的评估，为智能体AI安全评估提供可扩展的基础。",
+        "summary_en": "RIFT-Bench introduces a graph representation-driven dynamic red-teaming methodology for unified security evaluation across heterogeneous agentic AI systems. It automatically discovers system structure, deploys adaptive adversarial attacks, and supports evaluation of 45 agentic systems and mitigation strategies, providing a scalable foundation for agentic AI security.",
+        "tags": [
+          "benchmark",
+          "security",
+          "agent-framework",
+          "llm",
+          "evaluation"
+        ],
+        "category": "security",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-24T18:48:29.171247+08:00",
+        "updated_at": "2026-06-24T18:48:29.171251+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Neuro-Symbolic Drive: Rule-Grounded Faithful Reasoning for Driving VLAs",
+      "url": "https://arxiv.org/abs/2606.23938",
+      "description": "arXiv:2606.23938v1 Announce Type: new \nAbstract: Driving VLA models incorporating Chain-of-Thought (CoT) reasoning are attractive because they leverage pretrained VLM representations and expose intermediate decisions in natural language, yet current rationales often lack the step-by-step decision semantics needed to keep the rationale causally connected to the planned motion. We introduce Neuro-Symbolic Drive, a neuro-symbolic driving framework that supervises a driving VLA with rule-grounded reasoning traces extracted directly from classical rule-based planners. Our key observation is that rule-based planners are symbolic AI systems that already function as executable reasoning engines: they reason about active safety constraints, search over candidate maneuvers, and select a final trajectory. We instrument these planners in simulation to capture both the executed trajectory and the internal decision trace at each rule-evaluation step. Each trace is serialized into structured rule-grounded reasoning and paired with the trajectory to fine-tune Qwen3.5-4B as a driving VLA. Because these traces are derived directly from the planner states that determine the action, they ensure reasoning is structurally coupled to motion generation by construction, rather than by post-hoc alignment. On our simulator-generated benchmark, detailed rule-grounded reasoning reduces ADE@3s from 0.47 to 0.26 and miss rate from 8.30% to 6.40% under three-camera perception, and from 0.54 to 0.26 and 10.13% to 5.99% under eight-camera perception. Neuro-Symbolic Drive thus converts neuro-symbolic planning logic into structured supervision. Code base: https://github.com/XiangboGaoBarry/Neural-Symbolic-Drive.",
+      "pub_date": "Wed, 24 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "神经符号驱动：基于规则推理的驾驶VLA模型",
+        "summary": "提出神经符号驱动框架，利用经典规则规划器提取规则化推理轨迹，监督驾驶VLA模型。该方法确保推理与运动生成因果耦合，在模拟基准上显著降低ADE和失误率。",
+        "summary_en": "Proposes Neuro-Symbolic Drive, a framework that supervises driving VLAs with rule-grounded reasoning traces from classical rule-based planners, ensuring causal coupling between reasoning and motion generation, achieving significant improvements on a simulator benchmark.",
+        "tags": [
+          "research",
+          "llm",
+          "multimodal",
+          "application",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-24-rss-006",
+        "title": "神经符号驱动：基于规则推理的驾驶VLA模型",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.23938",
+        "language": "en",
+        "summary": "提出神经符号驱动框架，利用经典规则规划器提取规则化推理轨迹，监督驾驶VLA模型。该方法确保推理与运动生成因果耦合，在模拟基准上显著降低ADE和失误率。",
+        "summary_en": "Proposes Neuro-Symbolic Drive, a framework that supervises driving VLAs with rule-grounded reasoning traces from classical rule-based planners, ensuring causal coupling between reasoning and motion generation, achieving significant improvements on a simulator benchmark.",
+        "tags": [
+          "research",
+          "llm",
+          "multimodal",
+          "application",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-06-24T18:48:29.171284+08:00",
+        "updated_at": "2026-06-24T18:48:29.171288+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Critique of Agent Model",
+      "url": "https://arxiv.org/abs/2606.23991",
+      "description": "arXiv:2606.23991v1 Announce Type: new \nAbstract: What is an agent? What constitutes agency? With the rise of Large Language Model (LLM) systems marketed as ``coding agents'', ``AI co-scientists'', and other ``agentic\" tools that promise to drive up productivity, and at the same time, ``existential\" concerns such as AI escaping human control with destructive power under a speculative ``machine agency\" against humans, it has become essential to clarify where automation ends and agency begins, both for building capable systems and for understanding whether and what to fear. Drawing on Descartes' grounding of agency in independent thought, and on portrayals of autonomous beings in science fiction, we survey the current landscape of AI agents, and analyze agent architectures along five dimensions: goal, identity, decision-making, self-regulation, and learning. Specifically, we argue that genuine agency requires these structures to be \\emph{internalized within the system itself} rather than assembled through external scaffolding. This distinction between \\emph{agentic} systems, whose competence resides in engineered workflows, and \\emph{agentive} systems, whose capabilities (including social interaction) arise endogenously, defines the boundary between systems designed for prescribed tasks, and those capable of operating in the open world with true autonomy. Building on this analysis, we propose the Goal-Identity-Configurator (GIC) architecture for a general-purpose agent model, combining hierarchical goal decomposition, identity evolution, simulative reasoning grounded in a separately trained world model, learned self-regulation, and self-directed learning from both real and simulated experience. Furthermore, we share insight on the auditability, controllability, and safety of agentive systems that possess greater autonomy and ``agency\", but remain under human oversight.",
+      "pub_date": "Wed, 24 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "代理模型批判",
+        "summary": "本文探讨了代理（Agent）的本质，区分了自动化与真正自主性。基于笛卡尔的独立思想理论，从目标、身份、决策、自我调节和学习五个维度分析当前AI代理架构，提出“代理性”（agentive）与“代理化”（agentic）系统的区别，并设计了GIC通用代理模型架构，强调内化能力与人类监督下的安全可控性。",
+        "summary_en": "This paper critiques the concept of agency in AI, distinguishing automation from true autonomy. Drawing on Descartes, it analyzes agent architectures across five dimensions and proposes the GIC architecture for general-purpose agents, emphasizing internalized capabilities and human oversight.",
+        "tags": [
+          "research",
+          "agent-framework",
+          "llm",
+          "security",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-24-rss-002",
+        "title": "代理模型批判",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.23991",
+        "language": "en",
+        "summary": "本文探讨了代理（Agent）的本质，区分了自动化与真正自主性。基于笛卡尔的独立思想理论，从目标、身份、决策、自我调节和学习五个维度分析当前AI代理架构，提出“代理性”（agentive）与“代理化”（agentic）系统的区别，并设计了GIC通用代理模型架构，强调内化能力与人类监督下的安全可控性。",
+        "summary_en": "This paper critiques the concept of agency in AI, distinguishing automation from true autonomy. Drawing on Descartes, it analyzes agent architectures across five dimensions and proposes the GIC architecture for general-purpose agents, emphasizing internalized capabilities and human oversight.",
+        "tags": [
+          "research",
+          "agent-framework",
+          "llm",
+          "security",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-24T18:48:29.171256+08:00",
+        "updated_at": "2026-06-24T18:48:29.171257+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Safe and Generalizable Hierarchical Multi-Agent RL via Constraint Manifold Control",
+      "url": "https://arxiv.org/abs/2606.24010",
+      "description": "arXiv:2606.24010v1 Announce Type: new \nAbstract: Multi-agent systems are widely used in safety-critical applications that require coordinated behavior under strict safety constraints. Existing approaches face a fundamental trade-off: learning-based methods achieve strong empirical performance but lack theoretical safety guarantees, while control-theoretic methods enforce safety but often lead to overly conservative and inefficient behaviors. We propose a hierarchical multi-agent reinforcement learning framework that enforces hard safety constraints under mild assumptions at low level via a constraint manifold, while enabling effective coordination through high-level policy learning. Our approach provides theoretical safety guarantees in the multi-agent setting and yields stationary learning dynamics, thereby enabling stable and efficient training. Empirically, our method achieves competitive performance while maintaining nearly perfect safety rates, and generalizes effectively to varying numbers of agents and obstacles.",
+      "pub_date": "Wed, 24 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "基于约束流形的安全且可泛化的分层多智能体强化学习",
+        "summary": "提出一种分层多智能体强化学习框架，通过低层约束流形强制执行硬安全约束，同时通过高层策略学习实现有效协调。该方法在提供理论安全保证的同时，实现了近乎完美的安全率和良好的泛化能力。",
+        "summary_en": "A hierarchical multi-agent RL framework that enforces hard safety constraints via a constraint manifold at the low level while enabling effective coordination through high-level policy learning, achieving theoretical safety guarantees, near-perfect safety rates, and good generalization.",
+        "tags": [
+          "research",
+          "multi-agent",
+          "reinforcement-learning",
+          "safety"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-24-rss-009",
+        "title": "基于约束流形的安全且可泛化的分层多智能体强化学习",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.24010",
+        "language": "en",
+        "summary": "提出一种分层多智能体强化学习框架，通过低层约束流形强制执行硬安全约束，同时通过高层策略学习实现有效协调。该方法在提供理论安全保证的同时，实现了近乎完美的安全率和良好的泛化能力。",
+        "summary_en": "A hierarchical multi-agent RL framework that enforces hard safety constraints via a constraint manifold at the low level while enabling effective coordination through high-level policy learning, achieving theoretical safety guarantees, near-perfect safety rates, and good generalization.",
+        "tags": [
+          "research",
+          "multi-agent",
+          "reinforcement-learning",
+          "safety"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-06-24T18:48:29.171311+08:00",
+        "updated_at": "2026-06-24T18:48:29.171313+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Reinforcement Learning Towards Broadly and Persistently Beneficial Models",
+      "url": "https://arxiv.org/abs/2606.24014",
+      "description": "arXiv:2606.24014v1 Announce Type: new \nAbstract: As AI systems are deployed across increasingly diverse and high-stakes settings, model alignment must generalize beyond the tasks and domains seen during training. This is especially important for reinforcement learning (RL), which can introduce unexpected misalignment through reward hacking, deception, or other unintended strategies. We study whether RL on beneficial behavior, instantiated in realistic domains, can produce broad and persistent alignment generalization beyond the training distribution. We construct a dataset of realistic situations designed to measure and train beneficial traits, such as truthfulness, fairness, risk awareness, and corrigibility, spanning varied domains, including health, science, and education. We then train models with RL on this dataset and evaluate them on more than 50 independent benchmarks of alignment and beneficial behavior. Compared to a compute-matched baseline, beneficial trait RL improves performance on over 80% of these out-of-distribution benchmarks. We observe substantial out-of-distribution alignment transfer: a beneficial-behavior RL intervention entirely limited to one domain, health, produces broad improvements on non-health alignment evaluations, including reduced reward hacking, deception, and general misalignment. Finally, we study alignment persistence: whether behavior remains robustly aligned under attempts to steer models towards misalignment. Models trained with beneficial trait RL show improved persistence, including greater resistance to adversarial prompting and harmful finetuning; further work is required to isolate the sources of these effects. These results suggest that RL to reinforce beneficial behavior in realistic domains can produce models that are more robustly aligned with human flourishing.",
+      "pub_date": "Wed, 24 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "强化学习实现广泛且持久的良性模型对齐",
+        "summary": "研究通过强化学习在真实领域训练良性行为（如诚实、公平、风险意识），发现该方法能在超过80%的分布外基准上提升对齐表现，并展现出跨领域迁移和对对抗性攻击的持久抵抗力。",
+        "summary_en": "Study shows RL training on beneficial behaviors (truthfulness, fairness, risk awareness) in realistic domains improves alignment on over 80% of out-of-distribution benchmarks, with cross-domain transfer and persistence against adversarial attacks.",
+        "tags": [
+          "llm",
+          "research",
+          "alignment",
+          "reinforcement-learning",
+          "security"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-24-rss-003",
+        "title": "强化学习实现广泛且持久的良性模型对齐",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.24014",
+        "language": "en",
+        "summary": "研究通过强化学习在真实领域训练良性行为（如诚实、公平、风险意识），发现该方法能在超过80%的分布外基准上提升对齐表现，并展现出跨领域迁移和对对抗性攻击的持久抵抗力。",
+        "summary_en": "Study shows RL training on beneficial behaviors (truthfulness, fairness, risk awareness) in realistic domains improves alignment on over 80% of out-of-distribution benchmarks, with cross-domain transfer and persistence against adversarial attacks.",
+        "tags": [
+          "llm",
+          "research",
+          "alignment",
+          "reinforcement-learning",
+          "security"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-24T18:48:29.171261+08:00",
+        "updated_at": "2026-06-24T18:48:29.171262+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "EXPO-SQL: Execution-based Clause-level Policy Optimization for Text-to-SQL",
+      "url": "https://arxiv.org/abs/2606.23693",
+      "description": "arXiv:2606.23693v1 Announce Type: new \nAbstract: Text-to-SQL enables users to query databases using natural language by generating executable SQL queries. Recent methods have increasingly adopted Large Language Models based reinforcement learning (RL) to leverage execution feedback for training. However, existing RL methods assign uniform query-level rewards to all clauses in a SQL query, treating correct and incorrect clauses equally. This coarse-grained reward design leads to insufficient learning signals for correct SQL generation. To address this issue, we propose EXPO-SQL (EXecution-based clause-level Policy Optimization for Text-to-SQL) which provides fine-grained supervision through clause-level rewards. To assign clause-level rewards, our method identifies erroneous clauses by analyzing execution results, including error messages and clause-wise incremental execution. Experiments on widely-used Text-to-SQL benchmarks demonstrate that EXPO-SQL significantly outperforms existing supervised fine-tuning, prompting, and RL-based methods through fine-grained clause-level learning. Our code is available at https://github. com/jhn25/EXPO-SQL.",
+      "pub_date": "Wed, 24 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "EXPO-SQL：基于执行的子句级策略优化文本到SQL",
+        "summary": "提出EXPO-SQL方法，通过子句级奖励实现细粒度监督，解决现有强化学习方法中粗粒度查询级奖励导致的学习信号不足问题。该方法通过分析执行结果（包括错误信息和子句增量执行）识别错误子句，在Text-to-SQL基准测试上显著优于现有方法。",
+        "summary_en": "Proposes EXPO-SQL, which provides fine-grained supervision via clause-level rewards to address the issue of coarse-grained query-level rewards in existing RL methods for Text-to-SQL. It identifies erroneous clauses by analyzing execution results, outperforming existing methods on benchmarks.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-24-rss-007",
+        "title": "EXPO-SQL：基于执行的子句级策略优化文本到SQL",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.23693",
+        "language": "en",
+        "summary": "提出EXPO-SQL方法，通过子句级奖励实现细粒度监督，解决现有强化学习方法中粗粒度查询级奖励导致的学习信号不足问题。该方法通过分析执行结果（包括错误信息和子句增量执行）识别错误子句，在Text-to-SQL基准测试上显著优于现有方法。",
+        "summary_en": "Proposes EXPO-SQL, which provides fine-grained supervision via clause-level rewards to address the issue of coarse-grained query-level rewards in existing RL methods for Text-to-SQL. It identifies erroneous clauses by analyzing execution results, outperforming existing methods on benchmarks.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-06-24T18:48:29.171294+08:00",
+        "updated_at": "2026-06-24T18:48:29.171297+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "ModTGCN: Modularity-aware Graph Neural Networks for Text Classification",
+      "url": "https://arxiv.org/abs/2606.23694",
+      "description": "arXiv:2606.23694v1 Announce Type: new \nAbstract: Graph-based text classification models typically rely on local neighborhood aggregation and overlook global community structure, despite semantic document graphs exhibiting strong class-consistent clustering. Ignoring this can blur class boundaries and lead to over-smoothing. We propose ModTGCN, a modularity-aware graph neural network for text classification that jointly optimizes cross-entropy and a modularity-based auxiliary objective to promote class-coherent document communities while preserving discriminative representations. The modularity term is computed on a document-document similarity graph derived from transformer embeddings (pretrained or fine-tuned). To improve scalability, we decouple the original heterogeneous TextGCN graph into separate document-word and word-word components, achieving 2x-10x faster training. We further study graph construction strategies, label-aware edge reweighting, and supervision choices for modularity optimization. Experiments on five benchmarks show consistent gains, with larger improvements on complex, low homophily datasets such as Ohsumed and 20NG.",
+      "pub_date": "Wed, 24 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "ModTGCN：基于模块度感知的图神经网络文本分类方法",
+        "summary": "提出ModTGCN模型，通过联合优化交叉熵和模块度辅助目标，在文本分类中利用文档图的全局社区结构，避免过平滑，并在五个基准上取得一致提升，训练速度提升2-10倍。",
+        "summary_en": "Proposes ModTGCN, a modularity-aware GNN for text classification that jointly optimizes cross-entropy and a modularity-based auxiliary objective to leverage global community structure, achieving consistent gains on five benchmarks with 2x-10x faster training.",
+        "tags": [
+          "research",
+          "llm",
+          "application",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-24-rss-010",
+        "title": "ModTGCN：基于模块度感知的图神经网络文本分类方法",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.23694",
+        "language": "en",
+        "summary": "提出ModTGCN模型，通过联合优化交叉熵和模块度辅助目标，在文本分类中利用文档图的全局社区结构，避免过平滑，并在五个基准上取得一致提升，训练速度提升2-10倍。",
+        "summary_en": "Proposes ModTGCN, a modularity-aware GNN for text classification that jointly optimizes cross-entropy and a modularity-based auxiliary objective to leverage global community structure, achieving consistent gains on five benchmarks with 2x-10x faster training.",
+        "tags": [
+          "research",
+          "llm",
+          "application",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "status": "published",
+        "created_at": "2026-06-24T18:48:29.171316+08:00",
+        "updated_at": "2026-06-24T18:48:29.171317+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Quantifying Prior Dominance in RAG Systems",
+      "url": "https://arxiv.org/abs/2606.23695",
+      "description": "arXiv:2606.23695v1 Announce Type: new \nAbstract: Retrieval-Augmented Generation (RAG) grounds Large Language Models in external knowledge, yet current evaluations rely on discrete heuristics that suffer from ''epistemic blindness'' - failing to distinguish genuine contextual information extraction from parametric memory recall. To address this, we introduce the Normalized Context Utilization (NCU) metric, leveraging continuous token log-probabilities across zero-shot, oracle, and adversarial conditions to strictly quantify contextual information gain. Evaluating architectures ranging from 1.5B to 72B parameters alongside a proprietary commercial API reveals that for strict factual extraction (without Chain-of-Thought reasoning), traditional scaling laws exhibit extreme diminishing returns: highly efficient Small Language Models (SLMs) match or outperform high-capacity architectures. Furthermore, we demonstrate that ``Prior Dominance'' correlates with model scale and proprietary alignments. The evaluated commercial API not only overrode explicit external evidence in nearly half of adversarial conflicts, but also frequently suffered from systemic confidence collapse (Negative Transfer) when its parametric priors were contradicted. Our findings highlight the structural epistemic advantage and superior contextual adherence of SLMs in strict extraction workflows.",
+      "pub_date": "Wed, 24 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "量化RAG系统中的先验主导性",
+        "summary": "提出归一化上下文利用（NCU）指标，利用连续token对数概率严格量化RAG系统中的上下文信息增益。实验表明，在严格事实提取任务中，小语言模型（SLM）可匹配或超越大模型，且“先验主导性”与模型规模及专有对齐相关。",
+        "summary_en": "Introduces the Normalized Context Utilization (NCU) metric to quantify contextual information gain in RAG systems. Findings show that small language models match or outperform larger ones in strict factual extraction, and \"Prior Dominance\" correlates with model scale and proprietary alignments.",
+        "tags": [
+          "rag",
+          "llm",
+          "research",
+          "benchmark",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-24-rss-004",
+        "title": "量化RAG系统中的先验主导性",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.23695",
+        "language": "en",
+        "summary": "提出归一化上下文利用（NCU）指标，利用连续token对数概率严格量化RAG系统中的上下文信息增益。实验表明，在严格事实提取任务中，小语言模型（SLM）可匹配或超越大模型，且“先验主导性”与模型规模及专有对齐相关。",
+        "summary_en": "Introduces the Normalized Context Utilization (NCU) metric to quantify contextual information gain in RAG systems. Findings show that small language models match or outperform larger ones in strict factual extraction, and \"Prior Dominance\" correlates with model scale and proprietary alignments.",
+        "tags": [
+          "rag",
+          "llm",
+          "research",
+          "benchmark",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-24T18:48:29.171266+08:00",
+        "updated_at": "2026-06-24T18:48:29.171269+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Self-Recognition Finetuning can Prevent and Reverse Emergent Misalignment",
+      "url": "https://arxiv.org/abs/2606.23700",
+      "description": "arXiv:2606.23700v1 Announce Type: new \nAbstract: Emergent misalignment (EM) has been linked to the activation of misaligned persona vectors and evil character traits, suggesting that EM operates through disruption of the model's aligned character rather than direct learning of harmful content. Motivated by this connection, we study self-generated text recognition (SGTR) finetuning as a character-targeted intervention that is distinct from existing in-training defenses. We conduct two-stage finetuning experiments across three models (GPT-4.1, Qwen2.5-32B-Instruct, Seed-OSS-36B-Instruct) and multiple EM datasets to compare SGTR finetuning against benign finetuning baselines (correct domain-specific data, general knowledge, and word counting) to find it an effective defense in both reversal and prevention settings. We find that all interventions produce comparable EM reversal, but only when restoring capabilities that EM had degraded. For prevention, only SGTR finetuning consistently reduces misalignment without exacerbating any individual metric, suggesting that character fortification specifically drives prevention. We provide further evidence for EM's relation to the LLM's default character by showing that EM finetuning induces diversity into the LLM's identity self-reports, artificially corrupting self-recognition exacerbates misalignment caused by EM finetuning, and that removing the model's identity-bearing system prompt substantially reduces the effect of EM finetuning. Together, these findings reframe EM not as the adoption of a coherent misaligned persona but as the destabilization of aligned character.",
+      "pub_date": "Wed, 24 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "自我识别微调可预防并逆转涌现性失调",
+        "summary": "研究发现涌现性失调(EM)源于模型对齐角色的破坏，而非直接学习有害内容。自我生成文本识别(SGTR)微调作为一种角色定向干预，在预防和逆转EM方面均有效，且不会恶化任何指标。实验表明EM是模型默认角色的不稳定化，而非采用失调人格。",
+        "summary_en": "Emergent misalignment (EM) stems from disrupting a model's aligned character, not learning harmful content. Self-generated text recognition (SGTR) finetuning effectively prevents and reverses EM without exacerbating metrics, reframing EM as character destabilization rather than persona adoption.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "security"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-24-rss-005",
+        "title": "自我识别微调可预防并逆转涌现性失调",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.23700",
+        "language": "en",
+        "summary": "研究发现涌现性失调(EM)源于模型对齐角色的破坏，而非直接学习有害内容。自我生成文本识别(SGTR)微调作为一种角色定向干预，在预防和逆转EM方面均有效，且不会恶化任何指标。实验表明EM是模型默认角色的不稳定化，而非采用失调人格。",
+        "summary_en": "Emergent misalignment (EM) stems from disrupting a model's aligned character, not learning harmful content. Self-generated text recognition (SGTR) finetuning effectively prevents and reverses EM without exacerbating metrics, reframing EM as character destabilization rather than persona adoption.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "security"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-24T18:48:29.171275+08:00",
+        "updated_at": "2026-06-24T18:48:29.171278+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Evaluating LLM Usage for Efficient and Explainable Numerical and Classified Implicit Sentiment Analysis of Product Desirability",
+      "url": "https://arxiv.org/abs/2606.23701",
+      "description": "arXiv:2606.23701v1 Announce Type: new \nAbstract: Qualitative product feedback can reveal nuanced user experiences, but its implicit sentiment is difficult to measure. This paper presents a scalable and interpretable framework that uses large language models (LLMs) to quantify product desirability from such data. Using two Product Desirability Toolkit (PDT) datasets from ZORQ and CARMA comprising 106 respondent term groupings with gold-standard human annotation, zero-shot continuous numerical sentiment scoring and categorical sentiment classification are evaluated without relying on explicit review scores. Across the datasets, LLMs generated numerical sentiment scores directly from qualitative responses and closely matched expert labels, achieving Pearson correlations up to 0.97 and classification accuracy up to 94%. LLMs maintained robustness even when handling data presented in multiple forms and consistently expressed high confidence. In contrast, lexicon-based and transformer baselines did not produce statistically significant results. Among the models tested, GPT-4o-mini achieved performance comparable to larger models at 94% lower cost, supporting scalable deployment.\n  The framework also incorporates model confidence ratings and human-readable rationale explanations (xAI), improving interpretability, transparency, and trust while supporting practical use in product satisfaction assessment. In general, using the PDT tool as a survey method along with a cost efficient LLM for sentiment analysis has the potential to provide for product evaluation with results that are rich in terms of sentiment scores (both numerical and classified sentiment) and in terms of the high-level user impressions of the product that can be used to identify ideas for product development and improvement, as well as marketing ideas for target audiences.",
+      "pub_date": "Wed, 24 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "利用LLM进行高效可解释的产品隐含情感分析",
+        "summary": "提出一个可扩展且可解释的框架，利用大语言模型（LLM）对定性产品反馈进行隐含情感分析。在PDT数据集上，零样本数值评分与专家标签的Pearson相关性高达0.97，分类准确率达94%。GPT-4o-mini以94%的成本降低达到与大型模型相当的性能，并集成置信度评分和可解释AI（xAI）以提升透明度和信任度。",
+        "summary_en": null,
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-24-rss-008",
+        "title": "利用LLM进行高效可解释的产品隐含情感分析",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.23701",
+        "language": "en",
+        "summary": "提出一个可扩展且可解释的框架，利用大语言模型（LLM）对定性产品反馈进行隐含情感分析。在PDT数据集上，零样本数值评分与专家标签的Pearson相关性高达0.97，分类准确率达94%。GPT-4o-mini以94%的成本降低达到与大型模型相当的性能，并集成置信度评分和可解释AI（xAI）以提升透明度和信任度。",
+        "summary_en": null,
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-06-24T18:48:29.171304+08:00",
+        "updated_at": "2026-06-24T18:48:29.171307+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

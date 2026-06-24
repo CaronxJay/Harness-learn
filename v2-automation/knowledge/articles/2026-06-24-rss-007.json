@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-24-rss-007",
+  "title": "EXPO-SQL：基于执行的子句级策略优化文本到SQL",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.23693",
+  "language": "en",
+  "summary": "提出EXPO-SQL方法，通过子句级奖励实现细粒度监督，解决现有强化学习方法中粗粒度查询级奖励导致的学习信号不足问题。该方法通过分析执行结果（包括错误信息和子句增量执行）识别错误子句，在Text-to-SQL基准测试上显著优于现有方法。",
+  "summary_en": "Proposes EXPO-SQL, which provides fine-grained supervision via clause-level rewards to address the issue of coarse-grained query-level rewards in existing RL methods for Text-to-SQL. It identifies erroneous clauses by analyzing execution results, outperforming existing methods on benchmarks.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-06-24T18:48:29.171294+08:00",
+  "updated_at": "2026-06-24T18:48:29.171297+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

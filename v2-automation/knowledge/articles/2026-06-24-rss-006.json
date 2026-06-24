@@ -1,0 +1,26 @@
+{
+  "id": "2026-06-24-rss-006",
+  "title": "神经符号驱动：基于规则推理的驾驶VLA模型",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.23938",
+  "language": "en",
+  "summary": "提出神经符号驱动框架，利用经典规则规划器提取规则化推理轨迹，监督驾驶VLA模型。该方法确保推理与运动生成因果耦合，在模拟基准上显著降低ADE和失误率。",
+  "summary_en": "Proposes Neuro-Symbolic Drive, a framework that supervises driving VLAs with rule-grounded reasoning traces from classical rule-based planners, ensuring causal coupling between reasoning and motion generation, achieving significant improvements on a simulator benchmark.",
+  "tags": [
+    "research",
+    "llm",
+    "multimodal",
+    "application",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-06-24T18:48:29.171284+08:00",
+  "updated_at": "2026-06-24T18:48:29.171288+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

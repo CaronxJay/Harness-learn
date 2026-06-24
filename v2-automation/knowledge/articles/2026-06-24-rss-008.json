@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-24-rss-008",
+  "title": "利用LLM进行高效可解释的产品隐含情感分析",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.23701",
+  "language": "en",
+  "summary": "提出一个可扩展且可解释的框架，利用大语言模型（LLM）对定性产品反馈进行隐含情感分析。在PDT数据集上，零样本数值评分与专家标签的Pearson相关性高达0.97，分类准确率达94%。GPT-4o-mini以94%的成本降低达到与大型模型相当的性能，并集成置信度评分和可解释AI（xAI）以提升透明度和信任度。",
+  "summary_en": null,
+  "tags": [
+    "llm",
+    "research",
+    "application",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-06-24T18:48:29.171304+08:00",
+  "updated_at": "2026-06-24T18:48:29.171307+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

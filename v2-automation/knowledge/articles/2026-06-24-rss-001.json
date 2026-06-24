@@ -1,0 +1,26 @@
+{
+  "id": "2026-06-24-rss-001",
+  "title": "RIFT-Bench：面向智能体AI系统的动态红队测试基准",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.23927",
+  "language": "en",
+  "summary": "RIFT-Bench提出一种基于图表示的动态红队测试方法，可统一评估异构智能体架构的安全性。它通过自动发现系统结构并部署自适应对抗攻击，支持对45种智能体系统及防御策略的评估，为智能体AI安全评估提供可扩展的基础。",
+  "summary_en": "RIFT-Bench introduces a graph representation-driven dynamic red-teaming methodology for unified security evaluation across heterogeneous agentic AI systems. It automatically discovers system structure, deploys adaptive adversarial attacks, and supports evaluation of 45 agentic systems and mitigation strategies, providing a scalable foundation for agentic AI security.",
+  "tags": [
+    "benchmark",
+    "security",
+    "agent-framework",
+    "llm",
+    "evaluation"
+  ],
+  "category": "security",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-24T18:48:29.171247+08:00",
+  "updated_at": "2026-06-24T18:48:29.171251+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

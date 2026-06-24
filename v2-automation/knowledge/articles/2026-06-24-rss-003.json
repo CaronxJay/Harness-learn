@@ -1,0 +1,26 @@
+{
+  "id": "2026-06-24-rss-003",
+  "title": "强化学习实现广泛且持久的良性模型对齐",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.24014",
+  "language": "en",
+  "summary": "研究通过强化学习在真实领域训练良性行为（如诚实、公平、风险意识），发现该方法能在超过80%的分布外基准上提升对齐表现，并展现出跨领域迁移和对对抗性攻击的持久抵抗力。",
+  "summary_en": "Study shows RL training on beneficial behaviors (truthfulness, fairness, risk awareness) in realistic domains improves alignment on over 80% of out-of-distribution benchmarks, with cross-domain transfer and persistence against adversarial attacks.",
+  "tags": [
+    "llm",
+    "research",
+    "alignment",
+    "reinforcement-learning",
+    "security"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-24T18:48:29.171261+08:00",
+  "updated_at": "2026-06-24T18:48:29.171262+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

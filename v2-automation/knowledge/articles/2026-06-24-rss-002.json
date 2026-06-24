@@ -1,0 +1,26 @@
+{
+  "id": "2026-06-24-rss-002",
+  "title": "代理模型批判",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.23991",
+  "language": "en",
+  "summary": "本文探讨了代理（Agent）的本质，区分了自动化与真正自主性。基于笛卡尔的独立思想理论，从目标、身份、决策、自我调节和学习五个维度分析当前AI代理架构，提出“代理性”（agentive）与“代理化”（agentic）系统的区别，并设计了GIC通用代理模型架构，强调内化能力与人类监督下的安全可控性。",
+  "summary_en": "This paper critiques the concept of agency in AI, distinguishing automation from true autonomy. Drawing on Descartes, it analyzes agent architectures across five dimensions and proposes the GIC architecture for general-purpose agents, emphasizing internalized capabilities and human oversight.",
+  "tags": [
+    "research",
+    "agent-framework",
+    "llm",
+    "security",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-24T18:48:29.171256+08:00",
+  "updated_at": "2026-06-24T18:48:29.171257+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

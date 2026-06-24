@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-24-rss-010",
+  "title": "ModTGCN：基于模块度感知的图神经网络文本分类方法",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.23694",
+  "language": "en",
+  "summary": "提出ModTGCN模型，通过联合优化交叉熵和模块度辅助目标，在文本分类中利用文档图的全局社区结构，避免过平滑，并在五个基准上取得一致提升，训练速度提升2-10倍。",
+  "summary_en": "Proposes ModTGCN, a modularity-aware GNN for text classification that jointly optimizes cross-entropy and a modularity-based auxiliary objective to leverage global community structure, achieving consistent gains on five benchmarks with 2x-10x faster training.",
+  "tags": [
+    "research",
+    "llm",
+    "application",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.8,
+  "status": "published",
+  "created_at": "2026-06-24T18:48:29.171316+08:00",
+  "updated_at": "2026-06-24T18:48:29.171317+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

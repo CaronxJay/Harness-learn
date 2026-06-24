@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-24-rss-005",
+  "title": "自我识别微调可预防并逆转涌现性失调",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.23700",
+  "language": "en",
+  "summary": "研究发现涌现性失调(EM)源于模型对齐角色的破坏，而非直接学习有害内容。自我生成文本识别(SGTR)微调作为一种角色定向干预，在预防和逆转EM方面均有效，且不会恶化任何指标。实验表明EM是模型默认角色的不稳定化，而非采用失调人格。",
+  "summary_en": "Emergent misalignment (EM) stems from disrupting a model's aligned character, not learning harmful content. Self-generated text recognition (SGTR) finetuning effectively prevents and reverses EM without exacerbating metrics, reframing EM as character destabilization rather than persona adoption.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "security"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-24T18:48:29.171275+08:00",
+  "updated_at": "2026-06-24T18:48:29.171278+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

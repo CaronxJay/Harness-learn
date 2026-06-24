@@ -1,0 +1,26 @@
+{
+  "id": "2026-06-24-rss-004",
+  "title": "量化RAG系统中的先验主导性",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.23695",
+  "language": "en",
+  "summary": "提出归一化上下文利用（NCU）指标，利用连续token对数概率严格量化RAG系统中的上下文信息增益。实验表明，在严格事实提取任务中，小语言模型（SLM）可匹配或超越大模型，且“先验主导性”与模型规模及专有对齐相关。",
+  "summary_en": "Introduces the Normalized Context Utilization (NCU) metric to quantify contextual information gain in RAG systems. Findings show that small language models match or outperform larger ones in strict factual extraction, and \"Prior Dominance\" correlates with model scale and proprietary alignments.",
+  "tags": [
+    "rag",
+    "llm",
+    "research",
+    "benchmark",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-24T18:48:29.171266+08:00",
+  "updated_at": "2026-06-24T18:48:29.171269+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
