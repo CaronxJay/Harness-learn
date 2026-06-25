@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-25-rss-002",
+  "title": "代理模型批判",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.23991",
+  "language": "en",
+  "summary": "本文探讨了AI代理的本质，区分了基于外部工程流程的“代理性”系统与具备内在能力的“代理体”系统。提出了GIC架构，结合层次化目标分解、身份演化、模拟推理、自我调节和自我导向学习，并讨论了高自主性代理系统的可审计性、可控性和安全性。",
+  "summary_en": "This paper explores the nature of AI agents, distinguishing between 'agentic' systems based on external engineering workflows and 'agentive' systems with intrinsic capabilities. It proposes the GIC architecture combining hierarchical goal decomposition, identity evolution, simulative reasoning, self-regulation, and self-directed learning, and discusses auditability, controllability, and safety of highly autonomous agentive systems.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "research",
+    "security"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-25T18:40:54.130292+08:00",
+  "updated_at": "2026-06-25T18:40:54.130293+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-25-rss-006",
+  "title": "检测与控制分离：语言模型中知识与操控的几何分析",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.24952",
+  "language": "en",
+  "summary": "本文通过几何方法检验语言模型中行为检测方向与行为控制方向是否一致。实验发现，输出格式（如JSON）检测与控制方向高度一致，但幻觉检测方向与拒绝生成方向夹角约83度（余弦0.12），且该差距在多个模型和规模中稳定存在，源于预训练。检测是高维类别，而非单一方向，余弦值不能预测可操控性。",
+  "summary_en": "This paper geometrically tests whether the direction that detects a behavior in LLMs is the same as the direction that controls it. While output format detection aligns with control, hallucination detection direction is at cos=0.12 from refusal direction, a gap stable across models and scales, originating from pretraining. Detection is high-dimensional, not a single direction, and cosine does not predict steerability.",
+  "tags": [
+    "research",
+    "llm",
+    "interpretability",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-25T18:40:54.130309+08:00",
+  "updated_at": "2026-06-25T18:40:54.130311+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

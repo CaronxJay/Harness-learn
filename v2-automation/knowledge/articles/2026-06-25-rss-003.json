@@ -1,0 +1,26 @@
+{
+  "id": "2026-06-25-rss-003",
+  "title": "强化学习实现广泛且持久的对齐泛化",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.24014",
+  "language": "en",
+  "summary": "研究通过强化学习在现实领域训练有益行为（如诚实、公平、风险意识），发现模型能在超过80%的分布外基准上提升对齐性能，并表现出跨领域对齐迁移和对抗性攻击的持久性。",
+  "summary_en": "This paper studies RL on beneficial behavior in realistic domains, showing improved alignment generalization on over 80% of out-of-distribution benchmarks, cross-domain transfer, and persistence against adversarial attacks.",
+  "tags": [
+    "llm",
+    "research",
+    "alignment",
+    "reinforcement-learning",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-25T18:40:54.130297+08:00",
+  "updated_at": "2026-06-25T18:40:54.130298+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

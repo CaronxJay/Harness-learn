@@ -1,0 +1,26 @@
+{
+  "id": "2026-06-25-rss-004",
+  "title": "小编辑，大模型：维基百科编辑如何塑造LLM价值观",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.24890",
+  "language": "en",
+  "summary": "研究表明，一个名为“亲动物维基百科人”（PAW）的小型志愿者团体通过编辑维基百科文章，能够显著影响大型语言模型（LLM）在动物福利话题上的行为。通过梯度归因等方法，发现PAW编辑的内容在模型对动物福利查询的响应中占据主导地位，表明维基百科编辑可有效塑造LLM价值观。",
+  "summary_en": "Research shows that a small group of volunteers, the Pro-Animal Wikipedians (PAW), can significantly influence how large language models (LLMs) discuss animal welfare by editing Wikipedia articles. Using gradient-based data attribution, PAW edits were found to dominate model responses on animal welfare queries, demonstrating that Wikipedia editing can effectively shape LLM values.",
+  "tags": [
+    "llm",
+    "research",
+    "security",
+    "fine-tuning",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-25T18:40:54.130301+08:00",
+  "updated_at": "2026-06-25T18:40:54.130302+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2026-06-25-rss-010",
+  "title": "基于图结构的语音识别错误校正框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.24889",
+  "language": "en",
+  "summary": "提出G-SPIN框架，结合图神经网络构建语音候选集，利用掩码语言模型评分和大语言模型重排序，在推理时轻量级校正ASR错误，解耦语音推理与语义选择。",
+  "summary_en": "Proposes G-SPIN, a framework combining graph neural networks for phonetic candidate construction, masked language model scoring, and LLM re-ranking to correct ASR errors at inference time, decoupling phonetic reasoning from semantic selection.",
+  "tags": [
+    "llm",
+    "research",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-06-25T18:40:54.130327+08:00",
+  "updated_at": "2026-06-25T18:40:54.130328+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

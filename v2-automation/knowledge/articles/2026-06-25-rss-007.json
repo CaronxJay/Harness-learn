@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-25-rss-007",
+  "title": "神经符号驱动：基于规则的可信推理用于驾驶VLA",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.23938",
+  "language": "en",
+  "summary": "提出神经符号驱动框架，利用经典规则规划器的规则基础推理轨迹监督驾驶VLA模型，确保推理与运动生成因果耦合。在模拟器基准上，三摄像头感知下ADE@3s从0.47降至0.26，失效率从8.30%降至6.40%。",
+  "summary_en": "Proposes Neuro-Symbolic Drive, a framework that supervises driving VLAs with rule-grounded reasoning traces from classical rule-based planners, ensuring reasoning is causally coupled to motion generation. On a simulator benchmark, ADE@3s drops from 0.47 to 0.26 and miss rate from 8.30% to 6.40% under three-camera perception.",
+  "tags": [
+    "research",
+    "llm",
+    "multimodal",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-06-25T18:40:54.130313+08:00",
+  "updated_at": "2026-06-25T18:40:54.130315+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

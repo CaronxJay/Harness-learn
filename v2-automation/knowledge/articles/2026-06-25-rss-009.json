@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-25-rss-009",
+  "title": "基于约束流形的安全且可泛化的分层多智能体强化学习",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.24010",
+  "language": "en",
+  "summary": "提出一种分层多智能体强化学习框架，通过低层约束流形强制执行硬安全约束，同时通过高层策略学习实现有效协调。该方法提供了理论安全保证，产生平稳的学习动态，实现稳定高效训练。实验表明在保持近乎完美的安全率的同时具有竞争力，并能有效泛化到不同数量的智能体和障碍物。",
+  "summary_en": "Proposes a hierarchical multi-agent RL framework that enforces hard safety constraints via a constraint manifold at the low level while enabling effective coordination through high-level policy learning. It provides theoretical safety guarantees, yields stationary learning dynamics, and generalizes effectively to varying numbers of agents and obstacles.",
+  "tags": [
+    "research",
+    "reinforcement-learning",
+    "multi-agent",
+    "safety"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-06-25T18:40:54.130322+08:00",
+  "updated_at": "2026-06-25T18:40:54.130324+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

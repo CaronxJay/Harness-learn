@@ -1,0 +1,477 @@
+{
+  "collected_at": "2026-06-25T18:40:54.131130+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "RIFT-Bench: Dynamic Red-teaming For Agentic AI Systems",
+      "url": "https://arxiv.org/abs/2606.23927",
+      "description": "arXiv:2606.23927v1 Announce Type: new \nAbstract: Agentic AI systems powered by large language models (LLMs) are rapidly evolving into autonomous decision-making systems, exposing attack vectors beyond those of traditional LLM vulnerabilities. Existing security evaluations are often tied to specific implementations or domains, limiting unified comparison across heterogeneous systems. To address this gap, we introduce RIFT-Bench, a graph representation-driven methodology for dynamic red-teaming that enables unified evaluations across diverse agentic architectures. Building on a novel hierarchical representation, RIFT-Bench operates in two automated phases: Discovery, which extracts system structure, and Scanning, which deploys adaptive adversarial attacks and produces a comprehensive evaluation report. It evaluates the examined system itself, leveraging a broad set of dynamically adaptable adversarial probes across diverse attack vectors and objectives. We demonstrate the effectiveness of the proposed evaluation pipeline across 45 agentic systems spanning a diverse range of implementations, showing that the approach generalizes effectively to heterogeneous agentic architectures. Beyond systems and attacks, RIFT-Bench also supports direct evaluation of mitigation strategies. These key capabilities make RIFT-Bench a scalable foundation for security evaluation of agentic AI systems.",
+      "pub_date": "Thu, 25 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "RIFT-Bench：面向智能体AI系统的动态红队测试基准",
+        "summary": "RIFT-Bench 提出一种基于图表示的动态红队测试方法，用于统一评估不同架构的智能体AI系统。它通过自动化的发现与扫描阶段，自适应部署对抗性攻击，生成综合评估报告，并支持对防御策略的直接评估。在45个系统上验证了其有效性和泛化能力。",
+        "summary_en": null,
+        "tags": [
+          "benchmark",
+          "security",
+          "agent-framework",
+          "llm"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-25-rss-001",
+        "title": "RIFT-Bench：面向智能体AI系统的动态红队测试基准",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.23927",
+        "language": "en",
+        "summary": "RIFT-Bench 提出一种基于图表示的动态红队测试方法，用于统一评估不同架构的智能体AI系统。它通过自动化的发现与扫描阶段，自适应部署对抗性攻击，生成综合评估报告，并支持对防御策略的直接评估。在45个系统上验证了其有效性和泛化能力。",
+        "summary_en": null,
+        "tags": [
+          "benchmark",
+          "security",
+          "agent-framework",
+          "llm"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-25T18:40:54.130283+08:00",
+        "updated_at": "2026-06-25T18:40:54.130287+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Neuro-Symbolic Drive: Rule-Grounded Faithful Reasoning for Driving VLAs",
+      "url": "https://arxiv.org/abs/2606.23938",
+      "description": "arXiv:2606.23938v1 Announce Type: new \nAbstract: Driving VLA models incorporating Chain-of-Thought (CoT) reasoning are attractive because they leverage pretrained VLM representations and expose intermediate decisions in natural language, yet current rationales often lack the step-by-step decision semantics needed to keep the rationale causally connected to the planned motion. We introduce Neuro-Symbolic Drive, a neuro-symbolic driving framework that supervises a driving VLA with rule-grounded reasoning traces extracted directly from classical rule-based planners. Our key observation is that rule-based planners are symbolic AI systems that already function as executable reasoning engines: they reason about active safety constraints, search over candidate maneuvers, and select a final trajectory. We instrument these planners in simulation to capture both the executed trajectory and the internal decision trace at each rule-evaluation step. Each trace is serialized into structured rule-grounded reasoning and paired with the trajectory to fine-tune Qwen3.5-4B as a driving VLA. Because these traces are derived directly from the planner states that determine the action, they ensure reasoning is structurally coupled to motion generation by construction, rather than by post-hoc alignment. On our simulator-generated benchmark, detailed rule-grounded reasoning reduces ADE@3s from 0.47 to 0.26 and miss rate from 8.30% to 6.40% under three-camera perception, and from 0.54 to 0.26 and 10.13% to 5.99% under eight-camera perception. Neuro-Symbolic Drive thus converts neuro-symbolic planning logic into structured supervision. Code base: https://github.com/XiangboGaoBarry/Neural-Symbolic-Drive.",
+      "pub_date": "Thu, 25 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "神经符号驱动：基于规则的可信推理用于驾驶VLA",
+        "summary": "提出神经符号驱动框架，利用经典规则规划器的规则基础推理轨迹监督驾驶VLA模型，确保推理与运动生成因果耦合。在模拟器基准上，三摄像头感知下ADE@3s从0.47降至0.26，失效率从8.30%降至6.40%。",
+        "summary_en": "Proposes Neuro-Symbolic Drive, a framework that supervises driving VLAs with rule-grounded reasoning traces from classical rule-based planners, ensuring reasoning is causally coupled to motion generation. On a simulator benchmark, ADE@3s drops from 0.47 to 0.26 and miss rate from 8.30% to 6.40% under three-camera perception.",
+        "tags": [
+          "research",
+          "llm",
+          "multimodal",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-25-rss-007",
+        "title": "神经符号驱动：基于规则的可信推理用于驾驶VLA",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.23938",
+        "language": "en",
+        "summary": "提出神经符号驱动框架，利用经典规则规划器的规则基础推理轨迹监督驾驶VLA模型，确保推理与运动生成因果耦合。在模拟器基准上，三摄像头感知下ADE@3s从0.47降至0.26，失效率从8.30%降至6.40%。",
+        "summary_en": "Proposes Neuro-Symbolic Drive, a framework that supervises driving VLAs with rule-grounded reasoning traces from classical rule-based planners, ensuring reasoning is causally coupled to motion generation. On a simulator benchmark, ADE@3s drops from 0.47 to 0.26 and miss rate from 8.30% to 6.40% under three-camera perception.",
+        "tags": [
+          "research",
+          "llm",
+          "multimodal",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-06-25T18:40:54.130313+08:00",
+        "updated_at": "2026-06-25T18:40:54.130315+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Critique of Agent Model",
+      "url": "https://arxiv.org/abs/2606.23991",
+      "description": "arXiv:2606.23991v1 Announce Type: new \nAbstract: What is an agent? What constitutes agency? With the rise of Large Language Model (LLM) systems marketed as ``coding agents'', ``AI co-scientists'', and other ``agentic\" tools that promise to drive up productivity, and at the same time, ``existential\" concerns such as AI escaping human control with destructive power under a speculative ``machine agency\" against humans, it has become essential to clarify where automation ends and agency begins, both for building capable systems and for understanding whether and what to fear. Drawing on Descartes' grounding of agency in independent thought, and on portrayals of autonomous beings in science fiction, we survey the current landscape of AI agents, and analyze agent architectures along five dimensions: goal, identity, decision-making, self-regulation, and learning. Specifically, we argue that genuine agency requires these structures to be \\emph{internalized within the system itself} rather than assembled through external scaffolding. This distinction between \\emph{agentic} systems, whose competence resides in engineered workflows, and \\emph{agentive} systems, whose capabilities (including social interaction) arise endogenously, defines the boundary between systems designed for prescribed tasks, and those capable of operating in the open world with true autonomy. Building on this analysis, we propose the Goal-Identity-Configurator (GIC) architecture for a general-purpose agent model, combining hierarchical goal decomposition, identity evolution, simulative reasoning grounded in a separately trained world model, learned self-regulation, and self-directed learning from both real and simulated experience. Furthermore, we share insight on the auditability, controllability, and safety of agentive systems that possess greater autonomy and ``agency\", but remain under human oversight.",
+      "pub_date": "Thu, 25 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "代理模型批判",
+        "summary": "本文探讨了AI代理的本质，区分了基于外部工程流程的“代理性”系统与具备内在能力的“代理体”系统。提出了GIC架构，结合层次化目标分解、身份演化、模拟推理、自我调节和自我导向学习，并讨论了高自主性代理系统的可审计性、可控性和安全性。",
+        "summary_en": "This paper explores the nature of AI agents, distinguishing between 'agentic' systems based on external engineering workflows and 'agentive' systems with intrinsic capabilities. It proposes the GIC architecture combining hierarchical goal decomposition, identity evolution, simulative reasoning, self-regulation, and self-directed learning, and discusses auditability, controllability, and safety of highly autonomous agentive systems.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "security"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-25-rss-002",
+        "title": "代理模型批判",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.23991",
+        "language": "en",
+        "summary": "本文探讨了AI代理的本质，区分了基于外部工程流程的“代理性”系统与具备内在能力的“代理体”系统。提出了GIC架构，结合层次化目标分解、身份演化、模拟推理、自我调节和自我导向学习，并讨论了高自主性代理系统的可审计性、可控性和安全性。",
+        "summary_en": "This paper explores the nature of AI agents, distinguishing between 'agentic' systems based on external engineering workflows and 'agentive' systems with intrinsic capabilities. It proposes the GIC architecture combining hierarchical goal decomposition, identity evolution, simulative reasoning, self-regulation, and self-directed learning, and discusses auditability, controllability, and safety of highly autonomous agentive systems.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "security"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-25T18:40:54.130292+08:00",
+        "updated_at": "2026-06-25T18:40:54.130293+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Safe and Generalizable Hierarchical Multi-Agent RL via Constraint Manifold Control",
+      "url": "https://arxiv.org/abs/2606.24010",
+      "description": "arXiv:2606.24010v1 Announce Type: new \nAbstract: Multi-agent systems are widely used in safety-critical applications that require coordinated behavior under strict safety constraints. Existing approaches face a fundamental trade-off: learning-based methods achieve strong empirical performance but lack theoretical safety guarantees, while control-theoretic methods enforce safety but often lead to overly conservative and inefficient behaviors. We propose a hierarchical multi-agent reinforcement learning framework that enforces hard safety constraints under mild assumptions at low level via a constraint manifold, while enabling effective coordination through high-level policy learning. Our approach provides theoretical safety guarantees in the multi-agent setting and yields stationary learning dynamics, thereby enabling stable and efficient training. Empirically, our method achieves competitive performance while maintaining nearly perfect safety rates, and generalizes effectively to varying numbers of agents and obstacles.",
+      "pub_date": "Thu, 25 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "基于约束流形的安全且可泛化的分层多智能体强化学习",
+        "summary": "提出一种分层多智能体强化学习框架，通过低层约束流形强制执行硬安全约束，同时通过高层策略学习实现有效协调。该方法提供了理论安全保证，产生平稳的学习动态，实现稳定高效训练。实验表明在保持近乎完美的安全率的同时具有竞争力，并能有效泛化到不同数量的智能体和障碍物。",
+        "summary_en": "Proposes a hierarchical multi-agent RL framework that enforces hard safety constraints via a constraint manifold at the low level while enabling effective coordination through high-level policy learning. It provides theoretical safety guarantees, yields stationary learning dynamics, and generalizes effectively to varying numbers of agents and obstacles.",
+        "tags": [
+          "research",
+          "reinforcement-learning",
+          "multi-agent",
+          "safety"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-25-rss-009",
+        "title": "基于约束流形的安全且可泛化的分层多智能体强化学习",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.24010",
+        "language": "en",
+        "summary": "提出一种分层多智能体强化学习框架，通过低层约束流形强制执行硬安全约束，同时通过高层策略学习实现有效协调。该方法提供了理论安全保证，产生平稳的学习动态，实现稳定高效训练。实验表明在保持近乎完美的安全率的同时具有竞争力，并能有效泛化到不同数量的智能体和障碍物。",
+        "summary_en": "Proposes a hierarchical multi-agent RL framework that enforces hard safety constraints via a constraint manifold at the low level while enabling effective coordination through high-level policy learning. It provides theoretical safety guarantees, yields stationary learning dynamics, and generalizes effectively to varying numbers of agents and obstacles.",
+        "tags": [
+          "research",
+          "reinforcement-learning",
+          "multi-agent",
+          "safety"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-06-25T18:40:54.130322+08:00",
+        "updated_at": "2026-06-25T18:40:54.130324+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Reinforcement Learning Towards Broadly and Persistently Beneficial Models",
+      "url": "https://arxiv.org/abs/2606.24014",
+      "description": "arXiv:2606.24014v1 Announce Type: new \nAbstract: As AI systems are deployed across increasingly diverse and high-stakes settings, model alignment must generalize beyond the tasks and domains seen during training. This is especially important for reinforcement learning (RL), which can introduce unexpected misalignment through reward hacking, deception, or other unintended strategies. We study whether RL on beneficial behavior, instantiated in realistic domains, can produce broad and persistent alignment generalization beyond the training distribution. We construct a dataset of realistic situations designed to measure and train beneficial traits, such as truthfulness, fairness, risk awareness, and corrigibility, spanning varied domains, including health, science, and education. We then train models with RL on this dataset and evaluate them on more than 50 independent benchmarks of alignment and beneficial behavior. Compared to a compute-matched baseline, beneficial trait RL improves performance on over 80% of these out-of-distribution benchmarks. We observe substantial out-of-distribution alignment transfer: a beneficial-behavior RL intervention entirely limited to one domain, health, produces broad improvements on non-health alignment evaluations, including reduced reward hacking, deception, and general misalignment. Finally, we study alignment persistence: whether behavior remains robustly aligned under attempts to steer models towards misalignment. Models trained with beneficial trait RL show improved persistence, including greater resistance to adversarial prompting and harmful finetuning; further work is required to isolate the sources of these effects. These results suggest that RL to reinforce beneficial behavior in realistic domains can produce models that are more robustly aligned with human flourishing.",
+      "pub_date": "Thu, 25 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "强化学习实现广泛且持久的对齐泛化",
+        "summary": "研究通过强化学习在现实领域训练有益行为（如诚实、公平、风险意识），发现模型能在超过80%的分布外基准上提升对齐性能，并表现出跨领域对齐迁移和对抗性攻击的持久性。",
+        "summary_en": "This paper studies RL on beneficial behavior in realistic domains, showing improved alignment generalization on over 80% of out-of-distribution benchmarks, cross-domain transfer, and persistence against adversarial attacks.",
+        "tags": [
+          "llm",
+          "research",
+          "alignment",
+          "reinforcement-learning",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-25-rss-003",
+        "title": "强化学习实现广泛且持久的对齐泛化",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.24014",
+        "language": "en",
+        "summary": "研究通过强化学习在现实领域训练有益行为（如诚实、公平、风险意识），发现模型能在超过80%的分布外基准上提升对齐性能，并表现出跨领域对齐迁移和对抗性攻击的持久性。",
+        "summary_en": "This paper studies RL on beneficial behavior in realistic domains, showing improved alignment generalization on over 80% of out-of-distribution benchmarks, cross-domain transfer, and persistence against adversarial attacks.",
+        "tags": [
+          "llm",
+          "research",
+          "alignment",
+          "reinforcement-learning",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-25T18:40:54.130297+08:00",
+        "updated_at": "2026-06-25T18:40:54.130298+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Graph-Based Phonetic Error Correction of Noisy ASR",
+      "url": "https://arxiv.org/abs/2606.24889",
+      "description": "arXiv:2606.24889v1 Announce Type: new \nAbstract: Automatic speech recognition (ASR) systems, despite low overall word error rates, produce residual lexical errors that disproportionately affect semantically critical tokens such as named entities, negations, and sentiment-bearing words. These errors are often structured, arising from phonetic similarity rather than random noise, making naive token-level correction insufficient. We propose a structured ASR correction framework, that we call G-SPIN, that combines phonetic graph modeling with contextual language understanding. A graph neural network (GNN) first constructs acoustically plausible candidate neighborhoods for flagged tokens, explicitly restricting the correction search space to phonetic alternatives. A masked language model (MLM) then provides local contextual scoring, and an instruction-tuned large language model (LLM) performs final context-aware re-ranking over this compact candidate set. By decoupling structured phonetic reasoning from contextual semantic selection, our method avoids unconstrained generation while improving correction accuracy. The framework is lightweight, modular, and operates entirely at inference time.",
+      "pub_date": "Thu, 25 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "基于图结构的语音识别错误校正框架",
+        "summary": "提出G-SPIN框架，结合图神经网络构建语音候选集，利用掩码语言模型评分和大语言模型重排序，在推理时轻量级校正ASR错误，解耦语音推理与语义选择。",
+        "summary_en": "Proposes G-SPIN, a framework combining graph neural networks for phonetic candidate construction, masked language model scoring, and LLM re-ranking to correct ASR errors at inference time, decoupling phonetic reasoning from semantic selection.",
+        "tags": [
+          "llm",
+          "research",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-25-rss-010",
+        "title": "基于图结构的语音识别错误校正框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.24889",
+        "language": "en",
+        "summary": "提出G-SPIN框架，结合图神经网络构建语音候选集，利用掩码语言模型评分和大语言模型重排序，在推理时轻量级校正ASR错误，解耦语音推理与语义选择。",
+        "summary_en": "Proposes G-SPIN, a framework combining graph neural networks for phonetic candidate construction, masked language model scoring, and LLM re-ranking to correct ASR errors at inference time, decoupling phonetic reasoning from semantic selection.",
+        "tags": [
+          "llm",
+          "research",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-06-25T18:40:54.130327+08:00",
+        "updated_at": "2026-06-25T18:40:54.130328+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Small edits, large models: How Wikipedia advocacy shapes LLM values",
+      "url": "https://arxiv.org/abs/2606.24890",
+      "description": "arXiv:2606.24890v1 Announce Type: new \nAbstract: Can a small group of volunteers shape how AI systems discuss animal welfare, just by editing Wikipedia? We show that they can. Wikipedia appears in nearly every major language model training dataset and is weighted more heavily than web-crawled text. The Pro-Animal Wikipedians (PAW), a group of advocates who add sourced animal welfare content to relevant articles, have made 125 edits across 115 pages. Using gradient-based data attribution (Bergson; MAGIC), we traced how these edits influence language model behavior. TrackStar retrieval attribution on Llama 3.1 8B found that PAW-edited sections made up 68 percent of the highest-attributed documents for animal welfare queries (p < 0.0001) but only 52 percent for unrelated queries about the same companies (p = 0.53): the model links PAW content specifically to animal welfare topics, not to the entities in general. MAGIC counterfactual influence estimation on Llama-3.2-1B, run across five random training-order seeds, gave the same picture even more sharply: in every seed, the top-10 most influential documents on animal welfare queries were all PAW edits (10 of 10, 5 of 5 seeds), while on general queries the same top-10 sat at chance (4 to 6 of 10). Mean PAW influence exceeded mean control influence on animal welfare queries with p < 0.0001 in every seed, an effect 6 to 30 times larger than on general queries. Leave-subset-out validation gave Spearman rho = 1.00 for all 10 runs. When we fine-tuned separate models on PAW content versus control content, each model performed better specifically on the type of text it was trained on: the PAW-trained model cut perplexity on animal welfare text from 12.4 to 8.4, while the control-trained model cut perplexity on control text from 16.1 to 11.4. A small, coordinated Wikipedia editing campaign therefore measurably shapes how language models handle the topics those edits address.",
+      "pub_date": "Thu, 25 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "小编辑，大模型：维基百科编辑如何塑造LLM价值观",
+        "summary": "研究表明，一个名为“亲动物维基百科人”（PAW）的小型志愿者团体通过编辑维基百科文章，能够显著影响大型语言模型（LLM）在动物福利话题上的行为。通过梯度归因等方法，发现PAW编辑的内容在模型对动物福利查询的响应中占据主导地位，表明维基百科编辑可有效塑造LLM价值观。",
+        "summary_en": "Research shows that a small group of volunteers, the Pro-Animal Wikipedians (PAW), can significantly influence how large language models (LLMs) discuss animal welfare by editing Wikipedia articles. Using gradient-based data attribution, PAW edits were found to dominate model responses on animal welfare queries, demonstrating that Wikipedia editing can effectively shape LLM values.",
+        "tags": [
+          "llm",
+          "research",
+          "security",
+          "fine-tuning",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-25-rss-004",
+        "title": "小编辑，大模型：维基百科编辑如何塑造LLM价值观",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.24890",
+        "language": "en",
+        "summary": "研究表明，一个名为“亲动物维基百科人”（PAW）的小型志愿者团体通过编辑维基百科文章，能够显著影响大型语言模型（LLM）在动物福利话题上的行为。通过梯度归因等方法，发现PAW编辑的内容在模型对动物福利查询的响应中占据主导地位，表明维基百科编辑可有效塑造LLM价值观。",
+        "summary_en": "Research shows that a small group of volunteers, the Pro-Animal Wikipedians (PAW), can significantly influence how large language models (LLMs) discuss animal welfare by editing Wikipedia articles. Using gradient-based data attribution, PAW edits were found to dominate model responses on animal welfare queries, demonstrating that Wikipedia editing can effectively shape LLM values.",
+        "tags": [
+          "llm",
+          "research",
+          "security",
+          "fine-tuning",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-25T18:40:54.130301+08:00",
+        "updated_at": "2026-06-25T18:40:54.130302+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "AgentOdyssey: Open-Ended Long-Horizon Text Game Generation for Test-Time Continual Learning Agents",
+      "url": "https://arxiv.org/abs/2606.24893",
+      "description": "arXiv:2606.24893v1 Announce Type: new \nAbstract: For agents to learn continuously from interaction with the world at test time, they must be able to explore effectively, acquire new world knowledge and skills, retain relevant episodic experiences, and plan over long horizons. To evaluate these key abilities of test-time continual learning agents, we introduce AgentOdyssey, a novel evaluation framework that procedurally generates open-ended text games with rich entities, world dynamics, and long-horizon tasks. Critically, AgentOdyssey goes beyond the conventional machine learning assumption that learning does not occur at test time by placing agents in a continuous, long-horizon setting that interleaves learning and inference throughout deployment. We further propose a multifaceted evaluation methodology that measures not only game progress but also offers diagnostic tests on world knowledge acquisition, episodic memory, object and action exploration, action diversity, and model cost. We evaluate diverse agent paradigms in the generated games. Our experimental results reveal critical limits in agents' key abilities, as well as factors that influence their meaningful horizon. Although performance scales with stronger base models, even the top agent remains far below human performance, leaving substantial headroom for improvement. Among agent mechanisms, we find that short-term memory benefits multiple agent paradigms and is an important component of agent test-time training.",
+      "pub_date": "Thu, 25 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "AgentOdyssey：用于测试时持续学习智能体的开放式长程文本游戏生成",
+        "summary": "AgentOdyssey 是一个评估框架，通过程序化生成开放式文本游戏，测试智能体在部署期间的持续学习能力，包括探索、知识获取、记忆和长程规划。实验表明，即使是最强的智能体也远低于人类水平，短期记忆是关键组件。",
+        "summary_en": "AgentOdyssey is an evaluation framework that procedurally generates open-ended text games to test agents' continual learning abilities during deployment, including exploration, knowledge acquisition, memory, and long-horizon planning. Experiments show even top agents far below human performance, with short-term memory being a key component.",
+        "tags": [
+          "research",
+          "benchmark",
+          "agent-framework",
+          "evaluation"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-25-rss-005",
+        "title": "AgentOdyssey：用于测试时持续学习智能体的开放式长程文本游戏生成",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.24893",
+        "language": "en",
+        "summary": "AgentOdyssey 是一个评估框架，通过程序化生成开放式文本游戏，测试智能体在部署期间的持续学习能力，包括探索、知识获取、记忆和长程规划。实验表明，即使是最强的智能体也远低于人类水平，短期记忆是关键组件。",
+        "summary_en": "AgentOdyssey is an evaluation framework that procedurally generates open-ended text games to test agents' continual learning abilities during deployment, including exploration, knowledge acquisition, memory, and long-horizon planning. Experiments show even top agents far below human performance, with short-term memory being a key component.",
+        "tags": [
+          "research",
+          "benchmark",
+          "agent-framework",
+          "evaluation"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-25T18:40:54.130305+08:00",
+        "updated_at": "2026-06-25T18:40:54.130306+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Error-Aware TF-IDF Retrieval-Augmented Generation for ASR Error Correction",
+      "url": "https://arxiv.org/abs/2606.24915",
+      "description": "arXiv:2606.24915v1 Announce Type: new \nAbstract: End-to-end automatic speech recognition systems frequently hallucinate rare entities and domain-specific terms, especially in low-resource languages. While retrieval-augmented generation frameworks can mitigate these errors using large language models, current architectures face significant challenges. They either rely on standard sparse retrieval that ignores phonetic misrecognitions or utilize heavyweight cross-modal embeddings that introduce high latency. This letter proposes a highly efficient, purely lexical error-aware framework designed to explicitly resolve phonetic and loop hallucinations. Our approach integrates a symmetric text normalization module with a novel error-aware term frequency-inverse document frequency algorithm. By constructing a sparse diagonal penalty matrix based on historical errors, the retriever mathematically prioritizes corrective documents containing specific high-risk misrecognitions. Evaluated on the Persian subset of the FLEURS dataset, our method increased the error-aware hit rate from 53.7% to 90.9%. In end-to-end evaluations, the integrated framework reduced the final word error rate from 23.06% to 18.83%, achieving significant accuracy gains with near-zero inference latency.",
+      "pub_date": "Thu, 25 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "面向ASR纠错的错误感知TF-IDF检索增强生成",
+        "summary": "提出一种高效的纯词汇级错误感知框架，用于解决端到端语音识别中的罕见实体和领域术语幻觉问题。通过对称文本归一化模块和基于历史错误构建稀疏对角惩罚矩阵的错误感知TF-IDF算法，在FLEURS波斯语子集上将错误感知命中率从53.7%提升至90.9%，最终词错误率从23.06%降至18.83%，且推理延迟极低。",
+        "summary_en": "Proposes a highly efficient lexical error-aware framework for ASR error correction. Using symmetric text normalization and an error-aware TF-IDF with a sparse diagonal penalty matrix, it boosts error-aware hit rate from 53.7% to 90.9% and reduces WER from 23.06% to 18.83% on Persian FLEURS, with near-zero latency.",
+        "tags": [
+          "rag",
+          "research",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-25-rss-008",
+        "title": "面向ASR纠错的错误感知TF-IDF检索增强生成",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.24915",
+        "language": "en",
+        "summary": "提出一种高效的纯词汇级错误感知框架，用于解决端到端语音识别中的罕见实体和领域术语幻觉问题。通过对称文本归一化模块和基于历史错误构建稀疏对角惩罚矩阵的错误感知TF-IDF算法，在FLEURS波斯语子集上将错误感知命中率从53.7%提升至90.9%，最终词错误率从23.06%降至18.83%，且推理延迟极低。",
+        "summary_en": "Proposes a highly efficient lexical error-aware framework for ASR error correction. Using symmetric text normalization and an error-aware TF-IDF with a sparse diagonal penalty matrix, it boosts error-aware hit rate from 53.7% to 90.9% and reduces WER from 23.06% to 18.83% on Persian FLEURS, with near-zero latency.",
+        "tags": [
+          "rag",
+          "research",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-06-25T18:40:54.130318+08:00",
+        "updated_at": "2026-06-25T18:40:54.130319+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Perfect Detection, Failed Control: The Geometry of Knowing vs. Steering in Language Models",
+      "url": "https://arxiv.org/abs/2606.24952",
+      "description": "arXiv:2606.24952v1 Announce Type: new \nAbstract: A central aspiration of mechanistic interpretability is controllability: if we know where a behavior is represented in a model's activations, we should be able to modify it. This rests on a hidden premise -- that the direction which detects a behavior and the direction which controls it are the same, or close. We test this geometrically: what is the angle between the direction that best detects a behavior and the one that best causes it? If detection implies control the cosine is near 1; otherwise it quantifies a detection-intervention gap. On Gemma 2-2B-it, output format (clean JSON vs markdown fencing) collapses both roles onto one axis. Hallucination does not: the model detects fake entities with perfect linear separability (AUC = 1.000 from layer 5), yet that direction sits at cos = 0.12 (about 83 degrees) from the direction producing a refusal -- a small, reproducible alignment, far from the cos = 1 that \"detection is control\" would require. A detector built from activations, with no chosen tokens, likewise fails to align (cos = -0.06). The gap generalizes: across four models from three families and two scales (1B-9B), cos stays in [0.12, 0.20], identical before and after instruction tuning (0.1197 vs 0.1200), placing its origin in pretraining. A 15-degree rotation toward the refusal direction partially bridges it -- 73% and 60% refusal on two held-out fake-entity categories at 1.8% false positives. We then ask whether this cosine predicts steerability, and it does not: detection is a high-dimensional class, not a single direction, and what separates the steerable case is functional, not readable from a static angle. The cosine is a weight-computable signature of the dissociation between knowing and steering, not a predictor of it.",
+      "pub_date": "Thu, 25 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "检测与控制分离：语言模型中知识与操控的几何分析",
+        "summary": "本文通过几何方法检验语言模型中行为检测方向与行为控制方向是否一致。实验发现，输出格式（如JSON）检测与控制方向高度一致，但幻觉检测方向与拒绝生成方向夹角约83度（余弦0.12），且该差距在多个模型和规模中稳定存在，源于预训练。检测是高维类别，而非单一方向，余弦值不能预测可操控性。",
+        "summary_en": "This paper geometrically tests whether the direction that detects a behavior in LLMs is the same as the direction that controls it. While output format detection aligns with control, hallucination detection direction is at cos=0.12 from refusal direction, a gap stable across models and scales, originating from pretraining. Detection is high-dimensional, not a single direction, and cosine does not predict steerability.",
+        "tags": [
+          "research",
+          "llm",
+          "interpretability",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-25-rss-006",
+        "title": "检测与控制分离：语言模型中知识与操控的几何分析",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.24952",
+        "language": "en",
+        "summary": "本文通过几何方法检验语言模型中行为检测方向与行为控制方向是否一致。实验发现，输出格式（如JSON）检测与控制方向高度一致，但幻觉检测方向与拒绝生成方向夹角约83度（余弦0.12），且该差距在多个模型和规模中稳定存在，源于预训练。检测是高维类别，而非单一方向，余弦值不能预测可操控性。",
+        "summary_en": "This paper geometrically tests whether the direction that detects a behavior in LLMs is the same as the direction that controls it. While output format detection aligns with control, hallucination detection direction is at cos=0.12 from refusal direction, a gap stable across models and scales, originating from pretraining. Detection is high-dimensional, not a single direction, and cosine does not predict steerability.",
+        "tags": [
+          "research",
+          "llm",
+          "interpretability",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-25T18:40:54.130309+08:00",
+        "updated_at": "2026-06-25T18:40:54.130311+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

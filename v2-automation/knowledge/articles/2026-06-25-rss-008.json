@@ -1,0 +1,24 @@
+{
+  "id": "2026-06-25-rss-008",
+  "title": "面向ASR纠错的错误感知TF-IDF检索增强生成",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.24915",
+  "language": "en",
+  "summary": "提出一种高效的纯词汇级错误感知框架，用于解决端到端语音识别中的罕见实体和领域术语幻觉问题。通过对称文本归一化模块和基于历史错误构建稀疏对角惩罚矩阵的错误感知TF-IDF算法，在FLEURS波斯语子集上将错误感知命中率从53.7%提升至90.9%，最终词错误率从23.06%降至18.83%，且推理延迟极低。",
+  "summary_en": "Proposes a highly efficient lexical error-aware framework for ASR error correction. Using symmetric text normalization and an error-aware TF-IDF with a sparse diagonal penalty matrix, it boosts error-aware hit rate from 53.7% to 90.9% and reduces WER from 23.06% to 18.83% on Persian FLEURS, with near-zero latency.",
+  "tags": [
+    "rag",
+    "research",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-06-25T18:40:54.130318+08:00",
+  "updated_at": "2026-06-25T18:40:54.130319+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
