@@ -1,0 +1,26 @@
+{
+  "id": "2026-06-26-rss-007",
+  "title": "AlgoEvolve：基于LLM的算法交易程序元进化框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.26173",
+  "language": "en",
+  "summary": "提出AlgoEvolve框架，利用大语言模型作为语义变异算子，通过进化算法生成、评估和迭代改进算法交易策略。引入元进化外层循环自动优化提示，在噪声、非平稳的金融环境中实现自适应策略逻辑，显著优于人工设计指令。",
+  "summary_en": "AlgoEvolve uses LLMs as semantic mutation operators in an evolutionary framework to generate and improve algorithmic trading strategies. A meta-evolutionary outer loop optimizes prompts, achieving adaptive strategy logic in noisy, non-stationary financial environments, outperforming human-designed instructions.",
+  "tags": [
+    "llm",
+    "research",
+    "application",
+    "fine-tuning",
+    "python"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-06-26T18:50:25.042562+08:00",
+  "updated_at": "2026-06-26T18:50:25.042563+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-26-rss-008",
+  "title": "探究大语言模型在静力学问题上的解题能力",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.26103",
+  "language": "en",
+  "summary": "本研究通过模型蒸馏方法评估LLM解决静力学问题的能力。实验表明，LLM在纯文本问题上表现良好，但引入图表和多步推理后准确率下降。性能下降主要源于多步推理困难，而非图像识别限制。",
+  "summary_en": "This study evaluates LLM capability on statics problems via model distillation. Results show good performance on text-only problems but accuracy drops with diagrams and multi-step reasoning, primarily due to reasoning difficulties rather than image recognition limits.",
+  "tags": [
+    "llm",
+    "research",
+    "benchmark",
+    "multimodal"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-06-26T18:50:25.042566+08:00",
+  "updated_at": "2026-06-26T18:50:25.042568+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

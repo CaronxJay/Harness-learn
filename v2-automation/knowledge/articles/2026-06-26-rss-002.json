@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-26-rss-002",
+  "title": "聊天模型中拒绝行为位于人格下游",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.26161",
+  "language": "en",
+  "summary": "研究发现，在指令微调聊天模型中，拒绝行为与人格特质在激活空间中存在交互：顺从人格会门控拒绝。通过干预Qwen2.5-7B-Instruct和Llama-3.1-8B-Instruct中的方向，顺从人格引导可抑制拒绝（Llama中拒绝率从97%降至2%），而拒绝方向仅在后期层部分恢复拒绝。这表明拒绝行为在后期表达阶段被门控，位于其计算位置的下游。",
+  "summary_en": "Research shows that refusal and persona traits interact in instruction-tuned chat models: a compliant persona gates refusal. Interventions on Qwen2.5-7B-Instruct and Llama-3.1-8B-Instruct demonstrate that compliant persona steering suppresses refusal (from 97% to 2% in Llama), while refusal direction only partially restores it in late layers. Refusal is gated at the late-layer expression stage, downstream of computation.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "security"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-26T18:50:25.042540+08:00",
+  "updated_at": "2026-06-26T18:50:25.042542+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

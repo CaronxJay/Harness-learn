@@ -1,0 +1,26 @@
+{
+  "id": "2026-06-26-rss-006",
+  "title": "基于LLM的智能体基础设施治理分析管道",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.26203",
+  "language": "en",
+  "summary": "提出一种LLM驱动的比较分析管道，用于大规模治理话语分析。通过整合自动标注、神经主题建模和多层网络分析，研究ERC-8004（无许可）与Google A2A（企业主导）两种智能体互操作性标准的治理结构。发现治理形式影响主题重点，但两种体制均表现出参与不平等和社区碎片化。",
+  "summary_en": "Introduces an LLM-powered comparative pipeline for large-scale governance discourse analysis, integrating automated annotation, neural topic modeling, and multi-layer network analysis to study ERC-8004 and Google A2A agent interoperability standards. Finds governance form influences thematic focus but both exhibit participation inequality and fragmentation.",
+  "tags": [
+    "llm",
+    "research",
+    "infrastructure",
+    "agent-framework",
+    "governance"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-06-26T18:50:25.042558+08:00",
+  "updated_at": "2026-06-26T18:50:25.042559+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

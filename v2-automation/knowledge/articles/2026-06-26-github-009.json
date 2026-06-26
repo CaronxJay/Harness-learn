@@ -1,0 +1,26 @@
+{
+  "id": "2026-06-26-github-009",
+  "title": "数据科学与机器学习项目集",
+  "source": "github_trending",
+  "source_url": "https://github.com/ahmadsanafarooq/Data-Science-Machine-Learning-Nodebook",
+  "language": "en",
+  "summary": "该项目包含使用Python、机器学习、深度学习及大语言模型完成的实际项目，涵盖生成式AI和AI Agent，具备构建智能系统的实践经验。",
+  "summary_en": null,
+  "tags": [
+    "machine-learning",
+    "deep-learning",
+    "llm",
+    "application",
+    "python"
+  ],
+  "category": "application",
+  "relevance_score": 0.8,
+  "status": "published",
+  "created_at": "2026-06-26T18:50:25.041638+08:00",
+  "updated_at": "2026-06-26T18:50:25.041639+08:00",
+  "metadata": {
+    "stars": 3,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

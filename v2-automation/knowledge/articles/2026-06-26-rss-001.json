@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-26-rss-001",
+  "title": "通过级联线性特征检测和控制谄媚行为",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.26155",
+  "language": "en",
+  "summary": "提出一种迭代数据生成管道，通过级联线性特征分离模型行为，有效检测和引导语言模型远离谄媚行为。该方法优于基线，计算需求更低，可解释性更强。",
+  "summary_en": "Presents an iterative data generation pipeline that isolates cascading linear features to detect and steer language models away from sycophancy, outperforming baselines with lower computational demand and better interpretability.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-26T18:50:25.042532+08:00",
+  "updated_at": "2026-06-26T18:50:25.042535+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

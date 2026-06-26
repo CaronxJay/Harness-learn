@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-26-rss-003",
+  "title": "Know2Guess：面向大语言模型知识边界评估的污染感知多区域基准",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.26101",
+  "language": "en",
+  "summary": "提出一个污染感知的多区域基准，用于评估大语言模型从可回答知识到预期未知的过渡。包含1200个条目、五个领域、明确的弃权预期和污染风险元数据。评估了FLAN-T5、Qwen2.5-Instruct和Llama-3-Instruct模型，发现强指令调优模型在选择性弃权方面表现更好，但整体校准仍较差。",
+  "summary_en": "A contamination-aware multi-zone benchmark for evaluating LLMs' transition from answerable knowledge to expected unknowns. Contains 1,200 items across five domains with explicit abstention expectations and contamination metadata. Evaluations show stronger instruction-tuned models exhibit selective but incomplete abstention, while calibration remains poor.",
+  "tags": [
+    "llm",
+    "benchmark",
+    "evaluation",
+    "research"
+  ],
+  "category": "benchmark",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-26T18:50:25.042545+08:00",
+  "updated_at": "2026-06-26T18:50:25.042547+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

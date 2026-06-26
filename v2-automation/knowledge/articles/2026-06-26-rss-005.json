@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-26-rss-005",
+  "title": "基准饱和后的评估：CORE-Bench案例研究",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.26158",
+  "language": "en",
+  "summary": "当基准准确率饱和后，通常会被淘汰。本文提出应研究六个关键维度：结构效度问题、分布外泛化、效率、可靠性、模型与脚手架的相对重要性、人机协作提升。以CORE-Bench Hard为例，展示了这些维度在准确率饱和后仍能提供有意义见解。",
+  "summary_en": "When benchmark accuracy saturates, it is often retired. This paper argues for studying six key dimensions: construct validity, out-of-distribution generalizability, efficiency, reliability, model vs. scaffold importance, and human-agent collaboration uplift. Using CORE-Bench Hard, it shows these dimensions yield insights even after accuracy saturation.",
+  "tags": [
+    "benchmark",
+    "research",
+    "evaluation",
+    "agent-framework"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-06-26T18:50:25.042554+08:00",
+  "updated_at": "2026-06-26T18:50:25.042555+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

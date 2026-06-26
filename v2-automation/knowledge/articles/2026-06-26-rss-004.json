@@ -1,0 +1,26 @@
+{
+  "id": "2026-06-26-rss-004",
+  "title": "帮助性损害：后训练中领域依赖的中期训练同情心价值退化",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.26102",
+  "language": "en",
+  "summary": "研究发现，标准后训练（SFT和GRPO）中的帮助性训练会显著降低语言模型在中期训练中习得的动物同情心价值，而编码领域训练则能更好地保留这些价值。帮助性训练在英文MORU基准上使通用道德推理下降25.5个百分点，但跨语言迁移时领域效应消失，而同情心价值效应则跨语言一致迁移。",
+  "summary_en": "Standard post-training (SFT and GRPO) with helpfulness data significantly degrades animal compassion values instilled during mid-training, while coding-domain training better preserves them. Helpfulness training reduces general moral reasoning by 25.5 points on English MORU, but the domain effect disappears cross-lingually, whereas compassion effects transfer consistently across languages.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "evaluation",
+    "security"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-26T18:50:25.042550+08:00",
+  "updated_at": "2026-06-26T18:50:25.042551+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
