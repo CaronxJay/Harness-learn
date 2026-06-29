@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-29-rss-002",
+  "title": "形式化潜在思维：LLM思维表示的四个公理",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.27378",
+  "language": "en",
+  "summary": "提出一个独立于下游基准的评估框架，通过四个功能公理（因果性、最小性、可分离性、稳定性）量化LLM中潜在思维表示的质量。实验发现，现有模型无法同时满足所有公理，且表示中编码的信息有限，表明存在结构性缺陷。",
+  "summary_en": "Introduces an axiomatic evaluation framework for latent thought representations in LLMs, comprising four functional axioms (Causality, Minimality, Separability, Stability). Experiments show no candidate satisfies all axioms, and representations encode little beyond input embeddings, indicating a structural gap.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-29T20:32:44.311576+08:00",
+  "updated_at": "2026-06-29T20:32:44.311579+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

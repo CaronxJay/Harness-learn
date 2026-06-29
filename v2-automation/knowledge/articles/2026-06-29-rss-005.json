@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-29-rss-005",
+  "title": "ODYSSEY：构建可验证的局部真值保持基础模型",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.27593",
+  "language": "en",
+  "summary": "提出一个名为ODYSSEY的范畴论框架，用于构建可验证的、保持局部真值的基础模型。该框架将模型构建为“foundries”（铸造厂）的组合，每个foundry是包含论证组件的知识层。通过通用铸造学习（UFL）和Foundry SQL（FSQL）实现形式化构建与查询，并在多种场景下验证。",
+  "summary_en": "Introduces ODYSSEY, a categorical framework for constructing verifiable, local truth-preserving foundation models as compositions of foundries. It formalizes construction via Universal Foundry Learning (UFL) and Foundry SQL (FSQL), validated across diverse domains.",
+  "tags": [
+    "research",
+    "llm",
+    "infrastructure",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-06-29T20:32:44.311600+08:00",
+  "updated_at": "2026-06-29T20:32:44.311603+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

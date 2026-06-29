@@ -1,0 +1,24 @@
+{
+  "id": "2026-06-29-rss-007",
+  "title": "发展方法揭示神经语言模型的统计学习：Transformer从最抽象的统计模式中泛化",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.27460",
+  "language": "en",
+  "summary": "本研究采用发展方法探究神经语言模型的统计学习与心理表征。通过在合成语法上训练一系列生成式Transformer模型，并分析其内部表征在训练过程中的变化，发现NLM在训练初期获取最抽象的全局统计知识，后期获取局部统计依赖。学习路径包含大量过度泛化，后期逐渐被约束。基于此提出解释NLM统计学习与语言认知的新框架。",
+  "summary_en": "This study uses a developmental approach to investigate statistical learning in neural language models. Training generative Transformers on synthetic grammar reveals that NLMs first acquire abstract global statistical knowledge, then local dependencies, with over-generalizations gradually constrained. A new framework for NLM statistical learning and language cognition is proposed.",
+  "tags": [
+    "llm",
+    "research",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-06-29T20:32:44.311615+08:00",
+  "updated_at": "2026-06-29T20:32:44.311618+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

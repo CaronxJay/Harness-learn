@@ -1,0 +1,455 @@
+{
+  "collected_at": "2026-06-29T20:32:44.312440+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "AI-Model Network: Concept, Current State and Future",
+      "url": "https://arxiv.org/abs/2606.27382",
+      "description": "arXiv:2606.27382v1 Announce Type: new \nAbstract: While the primary function of computers lies in computation and processing, the core value of the Internet is rooted in sharing and collaboration. Computers create the Internet, and the Internet empowers the value of computers. The rapid development of the Internet, cloud computing, and big data is pushing artificial intelligence into the era of large models (LMs). However, the practical application of LMs is currently hindered by high training costs and deployment complexities, driving a shift toward lightweight, private, and domain-specific models. With the rapid proliferation and wide distribution of heterogeneous models, enabling effective interaction and collaboration among them has emerged as a critical bottleneck that urgently needs to be addressed in LM development. Drawing inspiration from the development of the Internet, this paper proposes the concept, vision, and system architecture of world wide AI-model network (AI-ModelNet). It is a novel paradigm that achieves interconnection, capability sharing, and collaborative reasoning by establishing pathways between models. We first briefly review the current state of single-model and multi-model research. Subsequently, the systemic vision and hierarchical architecture of AI-ModelNet are articulated, followed by validation of the framework's feasibility through a prototype system and diverse application cases. Finally, key directions for future research are discussed preliminarily.",
+      "pub_date": "Mon, 29 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "AI模型网络：概念、现状与未来",
+        "summary": "本文提出“全球AI模型网络”（AI-ModelNet）概念，借鉴互联网发展，旨在实现异构大模型间的互联互通、能力共享与协同推理。文章回顾了单模型与多模型研究现状，阐述了系统愿景与分层架构，并通过原型系统和应用案例验证了可行性，最后讨论了未来研究方向。",
+        "summary_en": "This paper proposes the concept of a worldwide AI-model network (AI-ModelNet), inspired by the Internet, to enable interconnection, capability sharing, and collaborative reasoning among heterogeneous large models. It reviews current research, presents a hierarchical architecture, validates feasibility via a prototype, and discusses future directions.",
+        "tags": [
+          "research",
+          "infrastructure",
+          "llm",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-29-rss-003",
+        "title": "AI模型网络：概念、现状与未来",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.27382",
+        "language": "en",
+        "summary": "本文提出“全球AI模型网络”（AI-ModelNet）概念，借鉴互联网发展，旨在实现异构大模型间的互联互通、能力共享与协同推理。文章回顾了单模型与多模型研究现状，阐述了系统愿景与分层架构，并通过原型系统和应用案例验证了可行性，最后讨论了未来研究方向。",
+        "summary_en": "This paper proposes the concept of a worldwide AI-model network (AI-ModelNet), inspired by the Internet, to enable interconnection, capability sharing, and collaborative reasoning among heterogeneous large models. It reviews current research, presents a hierarchical architecture, validates feasibility via a prototype, and discusses future directions.",
+        "tags": [
+          "research",
+          "infrastructure",
+          "llm",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-06-29T20:32:44.311585+08:00",
+        "updated_at": "2026-06-29T20:32:44.311587+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "When Does Personality Composition Matter for Multi-Agent LLM Teams?",
+      "url": "https://arxiv.org/abs/2606.27443",
+      "description": "arXiv:2606.27443v1 Announce Type: new \nAbstract: Personality prompting shapes how large language models communicate, yet whether these behavioral shifts affect objective task outcomes remains under-explored. Prior work shows that agents prompted with low agreeableness produce adversarial language, while those prompted with high agreeableness become cooperative, but the relationship between communication style and task performance has not been systematically examined across multiple domains. In this work, we investigate whether personality composition matters for multi-agent team performance by manipulating personality traits across frontier LLMs on three task domains: structured coding, open-ended research collaboration, and competitive bargaining. We find that personality effects depend critically on task structure. In coding tasks, low agreeableness leads to large communication shifts that have little effect on milestone completion. In open-ended collaboration and bargaining, the same manipulation substantially degrades performance. We discuss implications for multi-agent system design and the limits of personality manipulation.",
+      "pub_date": "Mon, 29 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "人格构成何时影响多智能体LLM团队表现？",
+        "summary": "研究通过操控前沿LLM的人格特质（如宜人性），在编程、开放协作和竞争谈判三个任务领域考察人格构成对多智能体团队表现的影响。发现人格效应关键取决于任务结构：编程任务中低宜人性导致沟通变化但对里程碑完成影响小；开放协作和谈判中则显著降低表现。",
+        "summary_en": "This study manipulates personality traits (e.g., agreeableness) in frontier LLMs across coding, open-ended collaboration, and bargaining tasks to examine when personality composition matters for multi-agent team performance. Results show effects depend on task structure: low agreeableness shifts communication but barely affects coding milestones, while it degrades performance in collaboration and bargaining.",
+        "tags": [
+          "llm",
+          "research",
+          "agent-framework",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-29-rss-004",
+        "title": "人格构成何时影响多智能体LLM团队表现？",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.27443",
+        "language": "en",
+        "summary": "研究通过操控前沿LLM的人格特质（如宜人性），在编程、开放协作和竞争谈判三个任务领域考察人格构成对多智能体团队表现的影响。发现人格效应关键取决于任务结构：编程任务中低宜人性导致沟通变化但对里程碑完成影响小；开放协作和谈判中则显著降低表现。",
+        "summary_en": "This study manipulates personality traits (e.g., agreeableness) in frontier LLMs across coding, open-ended collaboration, and bargaining tasks to examine when personality composition matters for multi-agent team performance. Results show effects depend on task structure: low agreeableness shifts communication but barely affects coding milestones, while it degrades performance in collaboration and bargaining.",
+        "tags": [
+          "llm",
+          "research",
+          "agent-framework",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-06-29T20:32:44.311593+08:00",
+        "updated_at": "2026-06-29T20:32:44.311595+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Internalizing the Future: A Unified Agentic Training Paradigm for World Model Planning",
+      "url": "https://arxiv.org/abs/2606.27483",
+      "description": "arXiv:2606.27483v1 Announce Type: new \nAbstract: Large language model (LLM) agents have demonstrated strong capability in sequential decision-making, yet they remains fundamentally reactive in long-horizon tasks. Unlike humans who employ \"what-if\" reasoning to evaluate potential plans before commitment, standard agents lack an internal world model to simulate future outcomes. Therefore, we propose to internalize future-aware planning by training a single autoregressive model to verbalize both a prospective state rollout and a plan-conditioned success estimate-a textual analogue of the Q-value. Crucially, we identify a format-capability gap: simply fine-tuning agents on look-ahead traces during post-training leads to superficial mimicry of foresight without genuine predictive grounding. To bridge this gap, we introduce a three-stage training paradigm: (i) World Model Agentic Mid-Training (WM-AMT) to inject latent predictive capabilities into the policy; (ii) Format-Eliciting SFT (FE-SFT) to structure this injected capability; and (iii) Foresight-Conditioned Reinforcement Learning (FC-RL) to refine the calibration and utility of the generated simulations. Evaluated on search and mathematical reasoning tasks, our approach consistently outperforms other training baselines. Our results demonstrate that effective internal world modeling in LLM agents requires a capability-first training pipeline to achieve grounded and calibrated foresight.",
+      "pub_date": "Mon, 29 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "内化未来：一种统一的世界模型规划智能体训练范式",
+        "summary": "提出一种三阶段训练范式，使LLM智能体内化世界模型，实现前瞻性规划。通过世界模型智能体中训练、格式引导监督微调和前瞻条件强化学习，弥合格式-能力差距，在搜索和数学推理任务上优于基线方法。",
+        "summary_en": "Proposes a three-stage training paradigm to internalize world models in LLM agents for foresight planning. Bridges the format-capability gap via World Model Agentic Mid-Training, Format-Eliciting SFT, and Foresight-Conditioned RL, outperforming baselines on search and math reasoning tasks.",
+        "tags": [
+          "llm",
+          "research",
+          "agent-framework",
+          "fine-tuning",
+          "reinforcement-learning"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-29-rss-001",
+        "title": "内化未来：一种统一的世界模型规划智能体训练范式",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.27483",
+        "language": "en",
+        "summary": "提出一种三阶段训练范式，使LLM智能体内化世界模型，实现前瞻性规划。通过世界模型智能体中训练、格式引导监督微调和前瞻条件强化学习，弥合格式-能力差距，在搜索和数学推理任务上优于基线方法。",
+        "summary_en": "Proposes a three-stage training paradigm to internalize world models in LLM agents for foresight planning. Bridges the format-capability gap via World Model Agentic Mid-Training, Format-Eliciting SFT, and Foresight-Conditioned RL, outperforming baselines on search and math reasoning tasks.",
+        "tags": [
+          "llm",
+          "research",
+          "agent-framework",
+          "fine-tuning",
+          "reinforcement-learning"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-29T20:32:44.311564+08:00",
+        "updated_at": "2026-06-29T20:32:44.311570+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Odyssey: Constructing Verifiable Local Truth-Preserving Foundation Models",
+      "url": "https://arxiv.org/abs/2606.27593",
+      "description": "arXiv:2606.27593v1 Announce Type: new \nAbstract: We introduce a categorical framework called ODYSSEY for constructing verifiable, local truth-preserving foundation models as compositions of foundries: building-block architectural components that specify a cover of local contexts, local representation families, restriction maps, gluing rules, obstruction policies, update obligations, and human-facing views. A foundry is an organized sheaf of knowledge that carries within it an argumentation component. Concrete foundries are built from generic foundries such as evidence/argument, operational decision, institutional/financial, market meaning, scientific challenge, research-program, assistant-build, and evaluation-harness foundries. Universal Foundry Learning (UFL) formalizes foundry construction as a composition of left and right Kan extensions, with left Kan extension rolling local artifacts into candidate foundries and right Kan extension enforcing the restriction, gluing, obstruction, and argumentation conditions required for promotion. Foundry SQL (FSQL) is a small typed query surface for slicing maintained foundry artifacts that uses TICKET (Topos Integration using Causal Kan Extension Transformers) certification for admitting external or pre-built models into durable ODYSSEY state. ODYSSEY is fully implemented and tested across a wide spectrum of concrete foundries, showing that the same categorical machinery supports domain construction, artifact replay, sheaf diagnostics, grounded Toulmin/local-LLM scrutiny, residual-obstruction ledgers, and optimized TICKET-compatible causal-claim extraction across heterogeneous sources. This paper is to be presented as a 2.5 hour tutorial at ICML 2026. The tutorial home page is at https://bit.ly/4ajS0nA.",
+      "pub_date": "Mon, 29 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "ODYSSEY：构建可验证的局部真值保持基础模型",
+        "summary": "提出一个名为ODYSSEY的范畴论框架，用于构建可验证的、保持局部真值的基础模型。该框架将模型构建为“foundries”（铸造厂）的组合，每个foundry是包含论证组件的知识层。通过通用铸造学习（UFL）和Foundry SQL（FSQL）实现形式化构建与查询，并在多种场景下验证。",
+        "summary_en": "Introduces ODYSSEY, a categorical framework for constructing verifiable, local truth-preserving foundation models as compositions of foundries. It formalizes construction via Universal Foundry Learning (UFL) and Foundry SQL (FSQL), validated across diverse domains.",
+        "tags": [
+          "research",
+          "llm",
+          "infrastructure",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-29-rss-005",
+        "title": "ODYSSEY：构建可验证的局部真值保持基础模型",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.27593",
+        "language": "en",
+        "summary": "提出一个名为ODYSSEY的范畴论框架，用于构建可验证的、保持局部真值的基础模型。该框架将模型构建为“foundries”（铸造厂）的组合，每个foundry是包含论证组件的知识层。通过通用铸造学习（UFL）和Foundry SQL（FSQL）实现形式化构建与查询，并在多种场景下验证。",
+        "summary_en": "Introduces ODYSSEY, a categorical framework for constructing verifiable, local truth-preserving foundation models as compositions of foundries. It formalizes construction via Universal Foundry Learning (UFL) and Foundry SQL (FSQL), validated across diverse domains.",
+        "tags": [
+          "research",
+          "llm",
+          "infrastructure",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-06-29T20:32:44.311600+08:00",
+        "updated_at": "2026-06-29T20:32:44.311603+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "DysLexLens: A Low-Resource LLM Framework for Analysing Dyslexic Learners Insights from Online Forums",
+      "url": "https://arxiv.org/abs/2606.27619",
+      "description": "arXiv:2606.27619v1 Announce Type: new \nAbstract: Dyslexic learners increasingly use artificial intelligence (AI) tools to support reading, writing, organisation, and study-related tasks. However, their lived experiences with these tools remain largely underexamined. This paper proposes DysLexLens, a low-resource LLM framework, designed to analyse dyslexic learners experience with AI through online forum discussions. DysLexLens is designed as an end-to-end, evidence-traceable architecture which transforms noisy social media posts into a dictionary-driven corpora, provides knowledge-graph (KG)-based question reasoning, generates verifiable query responses, and enables response evaluation through quantitative and human-grounded assessment. DysLexLens has four key features. First, it employs a dictionary-driven filtering method to construct a more focused Reddit corpus on dyslexia and AI, filtering out noisy and weakly related posts to improve the relevance of data collected from low-resource forum contexts. Second, it integrates LLM-assisted semantic analysis with KG-based query reasoning to uncover meaningful patterns. Third, it has quantitative evaluation metrics (RAGAS and Query Robustness) to measure LLM-generated response performance. Fourth, it provides structured qualitative validation guidelines for assessing response quality, with a specific focus on hallucination and evidence alignment. We demonstrate the effectiveness of DysLexLens using dyslexia-related Reddit forum data and 30 questions. The results show its potential generalisability to other low-resource forum data contexts. DysLexLens, sample data, questions and evaluation results are available at Github to support reproducibility.",
+      "pub_date": "Mon, 29 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "DysLexLens：面向低资源场景的LLM框架，用于分析在线论坛中阅读障碍学习者的体验",
+        "summary": "DysLexLens是一个低资源LLM框架，通过分析Reddit等在线论坛数据，研究阅读障碍学习者使用AI工具的体验。它采用词典驱动过滤、知识图谱推理、定量评估（RAGAS）和定性验证，有效处理噪声数据并生成可验证的查询响应。",
+        "summary_en": "DysLexLens is a low-resource LLM framework that analyzes dyslexic learners' experiences with AI tools from online forums like Reddit. It uses dictionary-driven filtering, KG-based reasoning, quantitative metrics (RAGAS), and qualitative validation to handle noisy data and generate verifiable responses.",
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "rag",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-29-rss-008",
+        "title": "DysLexLens：面向低资源场景的LLM框架，用于分析在线论坛中阅读障碍学习者的体验",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.27619",
+        "language": "en",
+        "summary": "DysLexLens是一个低资源LLM框架，通过分析Reddit等在线论坛数据，研究阅读障碍学习者使用AI工具的体验。它采用词典驱动过滤、知识图谱推理、定量评估（RAGAS）和定性验证，有效处理噪声数据并生成可验证的查询响应。",
+        "summary_en": "DysLexLens is a low-resource LLM framework that analyzes dyslexic learners' experiences with AI tools from online forums like Reddit. It uses dictionary-driven filtering, KG-based reasoning, quantitative metrics (RAGAS), and qualitative validation to handle noisy data and generate verifiable responses.",
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "rag",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-06-29T20:32:44.311622+08:00",
+        "updated_at": "2026-06-29T20:32:44.311625+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Formalizing Latent Thoughts: Four Axioms of Thought Representation in LLMs",
+      "url": "https://arxiv.org/abs/2606.27378",
+      "description": "arXiv:2606.27378v1 Announce Type: new \nAbstract: We introduce an axiomatic evaluation framework for latent thought representations in LLMs, comprising metrics that are independent of downstream benchmark scores and reveal representational failures that benchmark accuracy masks. Existing evaluations conflate representation quality with model capacity. Therefore, failures cannot be attributed to the representation rather than to the model that processes it. We formalize four functional axioms (Causality, Minimality, Separability, and Stability) and define a quantitative measure for each, computed directly on the representation independently of downstream accuracy. We audit open-weight LLMs across 23 reasoning tasks (e.g., Spatial Reasoning, Factual QA). We find that no candidate satisfies all four axioms simultaneously, that the representations distinguish task type reliably but cannot distinguish between two questions within the same task, and that the representations encode little information beyond what is already present in the input embedding. The failure is consistent across dense, reasoning-distilled, and RL-trained model families, indicating that the gap is structural rather than a property of model size or training procedure.",
+      "pub_date": "Mon, 29 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "形式化潜在思维：LLM思维表示的四个公理",
+        "summary": "提出一个独立于下游基准的评估框架，通过四个功能公理（因果性、最小性、可分离性、稳定性）量化LLM中潜在思维表示的质量。实验发现，现有模型无法同时满足所有公理，且表示中编码的信息有限，表明存在结构性缺陷。",
+        "summary_en": "Introduces an axiomatic evaluation framework for latent thought representations in LLMs, comprising four functional axioms (Causality, Minimality, Separability, Stability). Experiments show no candidate satisfies all axioms, and representations encode little beyond input embeddings, indicating a structural gap.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-29-rss-002",
+        "title": "形式化潜在思维：LLM思维表示的四个公理",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.27378",
+        "language": "en",
+        "summary": "提出一个独立于下游基准的评估框架，通过四个功能公理（因果性、最小性、可分离性、稳定性）量化LLM中潜在思维表示的质量。实验发现，现有模型无法同时满足所有公理，且表示中编码的信息有限，表明存在结构性缺陷。",
+        "summary_en": "Introduces an axiomatic evaluation framework for latent thought representations in LLMs, comprising four functional axioms (Causality, Minimality, Separability, Stability). Experiments show no candidate satisfies all axioms, and representations encode little beyond input embeddings, indicating a structural gap.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-29T20:32:44.311576+08:00",
+        "updated_at": "2026-06-29T20:32:44.311579+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Position: The Term \"Machine Unlearning\" Is Overused in LLMs",
+      "url": "https://arxiv.org/abs/2606.27379",
+      "description": "arXiv:2606.27379v1 Announce Type: new \nAbstract: Large language models increasingly face demands to \"forget\" training data, knowledge, or behaviors due to regulatory deletion obligations, copyright/licensing disputes, and safety or product-policy requirements. This position paper argues that machine unlearning is overused as a term in LLM research and should be reserved for dataset-defined deletion: removing the training influence of a precisely specified forget set such that the resulting model is approximately indistinguishable from retraining without that data. We contend that many tasks currently labeled \"unlearning\" (e.g., refusal for harmful requests, entity/knowledge removal, or targeted suppression) pursue different, often policy-dependent objectives and therefore require different terminology and baselines (e.g., alignment, suppression, editing, obfuscation). We further argue that this confusion is not cosmetic: because papers make different implicit guarantees under the same label, metrics and benchmarks are frequently reused outside their intended scope, rewarding surface-level non-disclosure (e.g., low ROUGE/forget accuracy) even when retraining-equivalence is not tested and derived capabilities remain. We conclude by calling for stricter terminology tied to explicit guarantees and reference models, and for evaluations that match the claimed objective.",
+      "pub_date": "Mon, 29 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "LLM中“机器遗忘”术语被滥用",
+        "summary": "本文指出，LLM研究中“机器遗忘”一词被过度使用，应仅指数据集定义的删除（使模型与重新训练几乎不可区分）。许多被标记为“遗忘”的任务（如拒绝有害请求、实体/知识移除）追求不同的策略目标，需要不同的术语和基线。术语混淆导致指标和基准被误用，奖励表面非披露而非真正的重新训练等价性。呼吁更严格的术语和匹配的评估。",
+        "summary_en": "This position paper argues that 'machine unlearning' is overused in LLM research and should be reserved for dataset-defined deletion. Many tasks labeled as unlearning pursue different objectives and need distinct terminology. The confusion leads to misused metrics and benchmarks, rewarding surface-level non-disclosure. Calls for stricter terminology and evaluations matching the claimed objective.",
+        "tags": [
+          "llm",
+          "research",
+          "security",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-29-rss-006",
+        "title": "LLM中“机器遗忘”术语被滥用",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.27379",
+        "language": "en",
+        "summary": "本文指出，LLM研究中“机器遗忘”一词被过度使用，应仅指数据集定义的删除（使模型与重新训练几乎不可区分）。许多被标记为“遗忘”的任务（如拒绝有害请求、实体/知识移除）追求不同的策略目标，需要不同的术语和基线。术语混淆导致指标和基准被误用，奖励表面非披露而非真正的重新训练等价性。呼吁更严格的术语和匹配的评估。",
+        "summary_en": "This position paper argues that 'machine unlearning' is overused in LLM research and should be reserved for dataset-defined deletion. Many tasks labeled as unlearning pursue different objectives and need distinct terminology. The confusion leads to misused metrics and benchmarks, rewarding surface-level non-disclosure. Calls for stricter terminology and evaluations matching the claimed objective.",
+        "tags": [
+          "llm",
+          "research",
+          "security",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-06-29T20:32:44.311608+08:00",
+        "updated_at": "2026-06-29T20:32:44.311610+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "A Survey of Automated Presentation Coaching: Systems, Methods, and Open Challenges",
+      "url": "https://arxiv.org/abs/2606.27380",
+      "description": "arXiv:2606.27380v1 Announce Type: new \nAbstract: Automated coaching for oral presentations sits at the intersection of computer-assisted pronunciation training (CAPT), prosody modeling, and speech synthesis, yet no prior work has systematically surveyed and compared existing systems along these dimensions. This survey reviews and categorizes automated presentation coaching systems, spanning pronunciation tutors, fluency and prosody coaches, multimodal trainers, and conference Q&A practice tools. We introduce a five-dimensional task taxonomy - covering segmental pronunciation, lexical stress, suprasegmental prosody, pacing, and content faithfulness - and explicitly map surveyed systems onto it to reveal coverage gaps. We further review the core technical methods these systems employ: TTS-based exemplar generation and diagnostic methods for pronunciation, prosody, and fluency assessment. Key open challenges include the scarcity of annotated presentation corpora, achieving accent-fair feedback across diverse L1 backgrounds, and delivering low-latency diagnostics for real-time rehearsal.",
+      "pub_date": "Mon, 29 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "自动化演示辅导系统综述：系统、方法与开放挑战",
+        "summary": "本文首次系统综述了自动化演示辅导系统，涵盖发音、流利度、韵律、多模态训练及Q&A练习工具。提出了五维任务分类法，并映射现有系统以揭示覆盖缺口。核心方法包括TTS生成示例和诊断评估。开放挑战包括标注语料库稀缺、跨口音公平反馈及低延迟实时诊断。",
+        "summary_en": null,
+        "tags": [
+          "research",
+          "application",
+          "multimodal",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-29-rss-009",
+        "title": "自动化演示辅导系统综述：系统、方法与开放挑战",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.27380",
+        "language": "en",
+        "summary": "本文首次系统综述了自动化演示辅导系统，涵盖发音、流利度、韵律、多模态训练及Q&A练习工具。提出了五维任务分类法，并映射现有系统以揭示覆盖缺口。核心方法包括TTS生成示例和诊断评估。开放挑战包括标注语料库稀缺、跨口音公平反馈及低延迟实时诊断。",
+        "summary_en": null,
+        "tags": [
+          "research",
+          "application",
+          "multimodal",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-06-29T20:32:44.311629+08:00",
+        "updated_at": "2026-06-29T20:32:44.311632+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Causal Connections: Leveraging Multilingual Fine-Tuning for Financial QA@FinCausal 2026",
+      "url": "https://arxiv.org/abs/2606.27446",
+      "description": "arXiv:2606.27446v1 Announce Type: new \nAbstract: This paper describes team HSA_CORAL's submission to the FinCausal 2026 shared task on extracting cause-effect relations from financial narratives via extractive question answering in English and Spanish. We compare three modeling families: (i) encoder-only token tagging with multilingual BERT, (ii) encoder-decoder generation with multilingual BART, and (iii) decoder-only LLMs (Llama 3.1 and GPT variants) using prompt refinement, few-shot demonstrations, and supervised fine-tuning. Across settings, prompting and few-shot examples yield competitive performance, while supervised fine-tuning provides the largest gains. Our best system, GPT-4.1 Mini fine-tuned on combined English and Spanish training data, achieves a tied highest score on the English subtask (score 4.8140) and ranks third on Spanish (score 4.7753) under the shared task's LLM-as-a-judge metric. Overall, the results highlight the value of task-specific adaptation and multilingual fine-tuning for cross-lingual transfer in financial causality QA.",
+      "pub_date": "Mon, 29 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "因果连接：利用多语言微调进行金融问答",
+        "summary": "本文描述了HSA_CORAL团队在FinCausal 2026共享任务中的提交，该任务通过英语和西班牙语的抽取式问答从金融叙事中提取因果关系。比较了三种模型家族：编码器仅标记标记、编码器-解码器生成和解码器仅LLM。提示和少样本示例表现良好，监督微调收益最大。最佳系统GPT-4.1 Mini在英语子任务中取得最高分，在西班牙语中排名第三。结果强调了任务特定适应和多语言微调在跨语言金融因果QA中的价值。",
+        "summary_en": "This paper describes team HSA_CORAL's submission to the FinCausal 2026 shared task on extracting cause-effect relations from financial narratives via extractive question answering in English and Spanish. Three modeling families are compared: encoder-only token tagging, encoder-decoder generation, and decoder-only LLMs. Prompting and few-shot examples yield competitive performance, while supervised fine-tuning provides the largest gains. The best system, GPT-4.1 Mini, achieves the highest score on English and ranks third on Spanish. Results highlight the value of task-specific adaptation and multilingual fine-tuning for cross-lingual transfer in financial causality QA.",
+        "tags": [
+          "llm",
+          "fine-tuning",
+          "application",
+          "multilingual",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      }
+    },
+    {
+      "title": "Developmental approach reveals the statistical learning of Neural Language Models: Transformers generalize from the most abstract statistical patterns",
+      "url": "https://arxiv.org/abs/2606.27460",
+      "description": "arXiv:2606.27460v1 Announce Type: new \nAbstract: In this study, we use a developmental approach to investigate the statistical learning and mental representation of neural language models (NLM). A series of Generative Transformer models are trained on a synthetic grammar. The model states are saved at multiple stages in the course of training. Through analyzing how the internal representations of these models change in the developmental path, we found that NLMs acquire the most abstract global statistical knowledge at the beginning of learning and later acquire the relatively local statistical dependencies. This learning path contains many over-generalizations from the very beginning and these over-generalizations are gradually constrained in the later stage of learning. Based on this observation, we propose a new framework to explain the statistical learning and language cognition of NLMs.",
+      "pub_date": "Mon, 29 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "发展方法揭示神经语言模型的统计学习：Transformer从最抽象的统计模式中泛化",
+        "summary": "本研究采用发展方法探究神经语言模型的统计学习与心理表征。通过在合成语法上训练一系列生成式Transformer模型，并分析其内部表征在训练过程中的变化，发现NLM在训练初期获取最抽象的全局统计知识，后期获取局部统计依赖。学习路径包含大量过度泛化，后期逐渐被约束。基于此提出解释NLM统计学习与语言认知的新框架。",
+        "summary_en": "This study uses a developmental approach to investigate statistical learning in neural language models. Training generative Transformers on synthetic grammar reveals that NLMs first acquire abstract global statistical knowledge, then local dependencies, with over-generalizations gradually constrained. A new framework for NLM statistical learning and language cognition is proposed.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-29-rss-007",
+        "title": "发展方法揭示神经语言模型的统计学习：Transformer从最抽象的统计模式中泛化",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.27460",
+        "language": "en",
+        "summary": "本研究采用发展方法探究神经语言模型的统计学习与心理表征。通过在合成语法上训练一系列生成式Transformer模型，并分析其内部表征在训练过程中的变化，发现NLM在训练初期获取最抽象的全局统计知识，后期获取局部统计依赖。学习路径包含大量过度泛化，后期逐渐被约束。基于此提出解释NLM统计学习与语言认知的新框架。",
+        "summary_en": "This study uses a developmental approach to investigate statistical learning in neural language models. Training generative Transformers on synthetic grammar reveals that NLMs first acquire abstract global statistical knowledge, then local dependencies, with over-generalizations gradually constrained. A new framework for NLM statistical learning and language cognition is proposed.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-06-29T20:32:44.311615+08:00",
+        "updated_at": "2026-06-29T20:32:44.311618+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

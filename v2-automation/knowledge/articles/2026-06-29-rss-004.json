@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-29-rss-004",
+  "title": "人格构成何时影响多智能体LLM团队表现？",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.27443",
+  "language": "en",
+  "summary": "研究通过操控前沿LLM的人格特质（如宜人性），在编程、开放协作和竞争谈判三个任务领域考察人格构成对多智能体团队表现的影响。发现人格效应关键取决于任务结构：编程任务中低宜人性导致沟通变化但对里程碑完成影响小；开放协作和谈判中则显著降低表现。",
+  "summary_en": "This study manipulates personality traits (e.g., agreeableness) in frontier LLMs across coding, open-ended collaboration, and bargaining tasks to examine when personality composition matters for multi-agent team performance. Results show effects depend on task structure: low agreeableness shifts communication but barely affects coding milestones, while it degrades performance in collaboration and bargaining.",
+  "tags": [
+    "llm",
+    "research",
+    "agent-framework",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-06-29T20:32:44.311593+08:00",
+  "updated_at": "2026-06-29T20:32:44.311595+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
