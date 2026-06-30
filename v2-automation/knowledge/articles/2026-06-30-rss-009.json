@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-30-rss-009",
+  "title": "法语OSCE对话数据集与可控虚拟病人系统用于临床培训",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.28526",
+  "language": "en",
+  "summary": "针对医学生临床技能培训中标准化病人资源稀缺的问题，构建了包含240个医患互动对话的法语OSCE数据集，并开发了基于LLM的可控虚拟病人系统。该系统通过检索增强和反思循环模块确保患者真实性，同时提出多级评估框架，利用LLM作为裁判评估模拟质量、学生表现和语言质量。实验表明可控性模块提升了患者逼真度和评估一致性。",
+  "summary_en": null,
+  "tags": [
+    "llm",
+    "application",
+    "dataset",
+    "evaluation"
+  ],
+  "category": "application",
+  "relevance_score": 0.85,
+  "status": "published",
+  "created_at": "2026-06-30T18:56:03.151130+08:00",
+  "updated_at": "2026-06-30T18:56:03.151131+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-30-rss-001",
+  "title": "递归自进化智能体通过留出选择实现安全提升",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.28374",
+  "language": "en",
+  "summary": "提出RSEA（递归自进化智能体），通过维护三层自然语言状态（策略、技能、剧本）并利用留出验证门控机制，确保每次进化不退化。在ALFWorld、GAIA、τ-bench和WebShop四个基准测试中，RSEA在ALFWorld上达到69.3%（单次）和79.4%（重试），且不会显著低于基础智能体，解决了无门控上下文进化高方差和不安全的问题。",
+  "summary_en": "Introduces RSEA (Recursive Self-Evolving Agent) with a three-layer natural-language state (strategy, skills, playbook) and a held-out validation gate to ensure monotone-safe evolution. Across four benchmarks, RSEA achieves 69.3% (single-pass) and 79.4% (with retry) on ALFWorld, never significantly underperforming the base agent, addressing high-variance and unsafe context evolution.",
+  "tags": [
+    "research",
+    "agent-framework",
+    "benchmark",
+    "llm"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-30T18:56:03.151090+08:00",
+  "updated_at": "2026-06-30T18:56:03.151094+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

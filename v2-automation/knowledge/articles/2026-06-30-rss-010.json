@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-30-rss-010",
+  "title": "从阿拉伯语-英语机读词典中提取知识的信息抽取方法",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.28457",
+  "language": "en",
+  "summary": "提出一种从阿拉伯语-英语Al-Mawrid机读词典中自动提取词汇信息的方法，利用n-gram和关键词上下文分析发现词汇模式，再通过手工规则进行信息抽取。该方法在提取同义词方面召回率高，其他信息精度高但召回率低。",
+  "summary_en": null,
+  "tags": [
+    "llm",
+    "research",
+    "application",
+    "multilingual"
+  ],
+  "category": "research",
+  "relevance_score": 0.6,
+  "status": "published",
+  "created_at": "2026-06-30T18:56:03.151134+08:00",
+  "updated_at": "2026-06-30T18:56:03.151135+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

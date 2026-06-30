@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-30-rss-008",
+  "title": "法律领域现代BERT模型领域适配",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.28538",
+  "language": "en",
+  "summary": "研究对现代BERT模型在法律领域进行领域适配，通过在美国法院意见上进一步预训练ModernBERT，发现即使其训练数据量是原始BERT的500倍，领域适配仍能显著提升性能，尤其在处理长达8192个token的序列和生成法律文本嵌入方面。",
+  "summary_en": "We investigate domain adaptation of ModernBERT in the legal domain by further pre-training on US court opinions. Despite ModernBERT being trained on 500x more data than original BERT, domain adaptation still yields significant improvements on US court opinion datasets, enabling processing of up to 8192 tokens and meaningful legal embeddings.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-06-30T18:56:03.151125+08:00",
+  "updated_at": "2026-06-30T18:56:03.151127+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

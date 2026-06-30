@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-30-rss-003",
+  "title": "GPTNT：多模态智能体实时协作基准测试",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.28514",
+  "language": "en",
+  "summary": "GPTNT是基于合作游戏《Keep Talking and Nobody Explodes》构建的基准测试，要求两个智能体在实时、信息不对称和压力下协作拆弹。测试表明，当前最先进的闭源和开源模型均无法实时拆弹，而人类玩家可以。该基准揭示了模型在状态追踪、时间压力下高效行动、歧义处理和错误恢复方面的关键弱点。",
+  "summary_en": "GPTNT is a benchmark built on the cooperative game Keep Talking and Nobody Explodes, requiring two agents to collaborate in real-time under information asymmetry and time pressure. Current state-of-the-art models fail to defuse a single bomb in real time, while human players succeed. The benchmark reveals critical weaknesses in state tracking, efficient action under time pressure, ambiguity handling, and error recovery.",
+  "tags": [
+    "benchmark",
+    "multimodal",
+    "agent-framework",
+    "research"
+  ],
+  "category": "benchmark",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-30T18:56:03.151104+08:00",
+  "updated_at": "2026-06-30T18:56:03.151105+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

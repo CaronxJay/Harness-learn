@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-30-rss-006",
+  "title": "Transformer语言模型中情境建模与心理推理的发展轨迹",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.28524",
+  "language": "en",
+  "summary": "该研究采用发展视角，追踪Olmo2和Pythia模型在多个训练阶段的心理状态推理行为及其前提条件。发现错误信念任务（FBT）表现依赖于模型规模和训练量，在预训练后期出现，并通过后训练干预（SFT、DPO）提升。但FBT表现脆弱，非事实动词会干扰判断。情境建模能力通常先于并优于FBT，但情境表征在某些方面不一致。结果表明大型模型按发展顺序构建部分连贯的情境模型，但表现出惊人的脆弱性。",
+  "summary_en": "This study adopts a developmental perspective, tracing mental state reasoning behavior across training stages in Olmo2 and Pythia models. False belief task (FBT) performance depends on model size and training volume, emerges late in pretraining, and improves with post-training interventions. However, FBT is fragile; non-factive verbs increase false attributions. Situation modeling generally precedes and exceeds FBT, but representations are incoherent in some aspects. Results show models build partially coherent situation models in a developmental sequence but exhibit surprising fragility.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-30T18:56:03.151117+08:00",
+  "updated_at": "2026-06-30T18:56:03.151118+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

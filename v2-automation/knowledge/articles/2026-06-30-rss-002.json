@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-30-rss-002",
+  "title": "模型能力增强的数据与评估闭环",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.28471",
+  "language": "en",
+  "summary": "提出“能力切片”概念，将评估样本按背景条件、任务类型、求解操作和输出约束分组，构建评估分类法、非指令数据分类法和映射规则，形成闭环，将基准级失败转化为可测试的数据干预。两个案例验证：一个排除数据问题（恢复掩码损失），另一个定位数学推理弱点并针对性采样，显著提升AIME成绩。",
+  "summary_en": "Proposes the 'capability slice' concept to group evaluation samples by background condition, task type, solving operation, and output constraint, building a closed loop with evaluation taxonomy, non-instruction data taxonomy, and mapping rules to turn benchmark-level failures into targeted data interventions. Two case studies validate: one rules out data issues (restoring masked loss), the other localizes math reasoning weaknesses and improves AIME scores significantly.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "fine-tuning"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-30T18:56:03.151099+08:00",
+  "updated_at": "2026-06-30T18:56:03.151101+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

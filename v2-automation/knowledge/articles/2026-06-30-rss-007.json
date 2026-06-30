@@ -1,0 +1,24 @@
+{
+  "id": "2026-06-30-rss-007",
+  "title": "无限幻觉下的极限生成",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.28354",
+  "language": "en",
+  "summary": "本文在语言极限生成框架下，引入精度和召回率概念，分析枚举、新颖性和有效性约束下的生成问题。关键贡献是允许无限次错误但频率趋于零（精度保持为1），证明此松弛可在对手永久隐藏大部分目标语言时严格提高召回率。同时研究新颖性约束的连续松弛，要求固定比例输出新颖。结果向更现实的模型迈进，允许可控的错误和重复。",
+  "summary_en": "This paper introduces precision and recall into the language generation in the limit framework, analyzing generation under constraints on enumeration, novelty, and validity. A key contribution is allowing infinitely many mistakes with frequency tending to zero (precision remains 1), showing this relaxation strictly increases recall when the adversary permanently withholds a large portion of the target language. It also studies a continuous relaxation of the novelty constraint. Results move toward a more realistic model where occasional errors and repetitions are unavoidable but rates are controlled.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-06-30T18:56:03.151121+08:00",
+  "updated_at": "2026-06-30T18:56:03.151122+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

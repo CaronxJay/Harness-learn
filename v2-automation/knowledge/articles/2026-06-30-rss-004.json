@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-30-rss-004",
+  "title": "IMCBench：面向多模态大语言模型的图像驱动医疗对话基准",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.28556",
+  "language": "en",
+  "summary": "IMCBench是一个图像驱动的多轮医疗对话基准，结合真实临床图像与合成患者档案模拟医患互动，从安全性、准确性和不确定性使用三个维度评估模型。实验表明，Claude Opus 4.6总分最高（3.61），但所有模型在恶性及罕见疾病场景下安全性下降，且准确的临床描述并不保证安全的患者指导。",
+  "summary_en": null,
+  "tags": [
+    "benchmark",
+    "multimodal",
+    "llm",
+    "research"
+  ],
+  "category": "benchmark",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-06-30T18:56:03.151108+08:00",
+  "updated_at": "2026-06-30T18:56:03.151110+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

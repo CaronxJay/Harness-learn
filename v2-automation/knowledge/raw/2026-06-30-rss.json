@@ -1,0 +1,475 @@
+{
+  "collected_at": "2026-06-30T18:56:03.151901+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "Recursive Self-Evolving Agents via Held-Out Selection",
+      "url": "https://arxiv.org/abs/2606.28374",
+      "description": "arXiv:2606.28374v1 Announce Type: new \nAbstract: LLM agents are increasingly improved without weight updates by evolving a natural-language artifact, such as reflections, workflows, playbooks, cheatsheets, or optimized prompts, that conditions a frozen policy. Such methods are typically reported as wins on the single benchmark where they help. We study them apples-to-apples and surface a sharper picture. We introduce RSEA, a Recursive Self-Evolving Agent that carries a compact three-layer natural-language state: an imperative strategy, reusable skills, and a procedural playbook. Across generations, RSEA rewrites all three layers from its own trajectories and commits a candidate only if it does not regress on a disjoint held-out split, using a strict keep-better gate.\n  Across four diverse benchmarks, ALFWorld, GAIA, (\\tau)-bench, and WebShop, and six faithful baselines, ReAct, Reflexion, GEPA, AWM, ACE, and Dynamic Cheatsheet, all evaluated on one shared local backbone, we find three main results. First, no artifact universally wins. RSEA is the strongest single-pass method on ALFWorld, reaching 69.3% compared with 64.6% for ReAct (McNemar (p=0.015)), and reaches 79.4% with retry, the best overall result. However, concrete-workflow induction, represented by AWM, is best on the strong-backbone tool-use tasks. Second, unguarded context evolution is high-variance and unsafe. Dynamic Cheatsheet, which curates context online without a held-out gate, is near-best on ALFWorld at 70.7%, yet collapses on WebShop, with a score of 0.14 compared with 0.43 for ReAct. Third, RSEA's strict held-out selection is what makes recursive self-evolution monotone-safe: it never significantly underperforms the base agent on any benchmark and falls back to vanilla ReAct when evolved context would hurt.",
+      "pub_date": "Tue, 30 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "递归自进化智能体通过留出选择实现安全提升",
+        "summary": "提出RSEA（递归自进化智能体），通过维护三层自然语言状态（策略、技能、剧本）并利用留出验证门控机制，确保每次进化不退化。在ALFWorld、GAIA、τ-bench和WebShop四个基准测试中，RSEA在ALFWorld上达到69.3%（单次）和79.4%（重试），且不会显著低于基础智能体，解决了无门控上下文进化高方差和不安全的问题。",
+        "summary_en": "Introduces RSEA (Recursive Self-Evolving Agent) with a three-layer natural-language state (strategy, skills, playbook) and a held-out validation gate to ensure monotone-safe evolution. Across four benchmarks, RSEA achieves 69.3% (single-pass) and 79.4% (with retry) on ALFWorld, never significantly underperforming the base agent, addressing high-variance and unsafe context evolution.",
+        "tags": [
+          "research",
+          "agent-framework",
+          "benchmark",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-30-rss-001",
+        "title": "递归自进化智能体通过留出选择实现安全提升",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.28374",
+        "language": "en",
+        "summary": "提出RSEA（递归自进化智能体），通过维护三层自然语言状态（策略、技能、剧本）并利用留出验证门控机制，确保每次进化不退化。在ALFWorld、GAIA、τ-bench和WebShop四个基准测试中，RSEA在ALFWorld上达到69.3%（单次）和79.4%（重试），且不会显著低于基础智能体，解决了无门控上下文进化高方差和不安全的问题。",
+        "summary_en": "Introduces RSEA (Recursive Self-Evolving Agent) with a three-layer natural-language state (strategy, skills, playbook) and a held-out validation gate to ensure monotone-safe evolution. Across four benchmarks, RSEA achieves 69.3% (single-pass) and 79.4% (with retry) on ALFWorld, never significantly underperforming the base agent, addressing high-variance and unsafe context evolution.",
+        "tags": [
+          "research",
+          "agent-framework",
+          "benchmark",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-30T18:56:03.151090+08:00",
+        "updated_at": "2026-06-30T18:56:03.151094+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Data and Evaluation Closed-Loop for Model Capability Enhancement",
+      "url": "https://arxiv.org/abs/2606.28471",
+      "description": "arXiv:2606.28471v1 Announce Type: new \nAbstract: Model capability is the central variable in LLM pre-training, yet is never observed directly: data shapes it prospectively, while evaluation reveals it only retrospectively, compressing samples, prompts, decoding, and scoring rules into one noisy score. Practical optimization runs this backward: a failure is observed first, and the engineer must infer the corpus fix. The two sides speak incompatible vocabularies -- benchmark names and per-sample correctness versus data sources, domains, and quality labels -- so this inference is usually intuition, not method. We close this gap with the \\emph{capability slice}: a group of evaluation samples sharing background condition, task type, solving operation, and output constraint -- precise enough to localize a single weakness yet stable enough to survive aggregation, unlike a benchmark name, too coarse, or a single sample, too noisy. Built around this unit, an evaluation taxonomy, a non-instruction data taxonomy, and mapping rules form a closed loop turning a benchmark-level failure into a targeted, testable data intervention. We test this loop on two case studies pulling in opposite directions. First, the loop rules the data out: continued pre-training drives BBH down by $-46.82\\%$, but diagnosis traces this to a single masked \\texttt{\\textless EOS\\textgreater} loss rather than weakened reasoning; restoring it recovers BBH to $66.44$, above the original checkpoint, without changing the data. Second, the loop rules the data in: a persistent math-reasoning weakness is decomposed by solving operation into specific failing combinations, and a weakness-targeted sampling procedure built from it lifts AIME2025/AIME2026 Pass@128 from $6.67$/$0.00$ to $26.67$ each. The same unmodified loop reaches opposite, correct verdicts in both cases, showing the evaluation-to-data inference can be routine, auditable, and experimentally validated rather than intuitive.",
+      "pub_date": "Tue, 30 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "模型能力增强的数据与评估闭环",
+        "summary": "提出“能力切片”概念，将评估样本按背景条件、任务类型、求解操作和输出约束分组，构建评估分类法、非指令数据分类法和映射规则，形成闭环，将基准级失败转化为可测试的数据干预。两个案例验证：一个排除数据问题（恢复掩码损失），另一个定位数学推理弱点并针对性采样，显著提升AIME成绩。",
+        "summary_en": "Proposes the 'capability slice' concept to group evaluation samples by background condition, task type, solving operation, and output constraint, building a closed loop with evaluation taxonomy, non-instruction data taxonomy, and mapping rules to turn benchmark-level failures into targeted data interventions. Two case studies validate: one rules out data issues (restoring masked loss), the other localizes math reasoning weaknesses and improves AIME scores significantly.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-30-rss-002",
+        "title": "模型能力增强的数据与评估闭环",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.28471",
+        "language": "en",
+        "summary": "提出“能力切片”概念，将评估样本按背景条件、任务类型、求解操作和输出约束分组，构建评估分类法、非指令数据分类法和映射规则，形成闭环，将基准级失败转化为可测试的数据干预。两个案例验证：一个排除数据问题（恢复掩码损失），另一个定位数学推理弱点并针对性采样，显著提升AIME成绩。",
+        "summary_en": "Proposes the 'capability slice' concept to group evaluation samples by background condition, task type, solving operation, and output constraint, building a closed loop with evaluation taxonomy, non-instruction data taxonomy, and mapping rules to turn benchmark-level failures into targeted data interventions. Two case studies validate: one rules out data issues (restoring masked loss), the other localizes math reasoning weaknesses and improves AIME scores significantly.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-30T18:56:03.151099+08:00",
+        "updated_at": "2026-06-30T18:56:03.151101+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "GPTNT: Benchmarking Real-Time Collaboration Between Multimodal Agents on Keep Talking And Nobody Explodes",
+      "url": "https://arxiv.org/abs/2606.28514",
+      "description": "arXiv:2606.28514v1 Announce Type: new \nAbstract: Multimodal models are increasingly deployed to solve tasks collaboratively with humans or other artificial agents. Existing benchmarks show that these models possess many of the required component capabilities, but the conditions that coincide in collaboration, including time pressure, information asymmetry, and imperfect communication, are usually studied in isolation. We introduce GPTNT, a benchmark built on the cooperative video game Keep Talking and Nobody Explodes, in which two agents must coordinate to defuse procedurally generated bomb puzzles against a live countdown. One agent can see and manipulate the bomb but does not have the defusal instructions; the other has the instructions but cannot see or manipulate the bomb. Neither agent can succeed alone: success requires effective and efficient communication. Unlike turn-based proxies, GPTNT requires agents to act asynchronously and communicate in real time. GPTNT is designed to separate collaboration from reliance on memorized solutions: the instruction manual, the partner, or both can be withheld to isolate what a model derives in the moment from what it already knows. We show that GPTNT poses a substantial challenge for state-of-the-art systems: none of the closed- or open-source models we test defuses a single bomb in real time, a bar that human players clear. Through controlled experiments, we identify critical weaknesses in state tracking, efficient action under time pressure, ambiguity handling, and error recovery. We release GPTNT as a benchmark for collaborative performance that current evaluations leave unmeasured. Because it runs on the real game, GPTNT benefits from procedural generation and inherits a living modding community, allowing the benchmark to evolve as models improve rather than being solved once and retired.",
+      "pub_date": "Tue, 30 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "GPTNT：多模态智能体实时协作基准测试",
+        "summary": "GPTNT是基于合作游戏《Keep Talking and Nobody Explodes》构建的基准测试，要求两个智能体在实时、信息不对称和压力下协作拆弹。测试表明，当前最先进的闭源和开源模型均无法实时拆弹，而人类玩家可以。该基准揭示了模型在状态追踪、时间压力下高效行动、歧义处理和错误恢复方面的关键弱点。",
+        "summary_en": "GPTNT is a benchmark built on the cooperative game Keep Talking and Nobody Explodes, requiring two agents to collaborate in real-time under information asymmetry and time pressure. Current state-of-the-art models fail to defuse a single bomb in real time, while human players succeed. The benchmark reveals critical weaknesses in state tracking, efficient action under time pressure, ambiguity handling, and error recovery.",
+        "tags": [
+          "benchmark",
+          "multimodal",
+          "agent-framework",
+          "research"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-30-rss-003",
+        "title": "GPTNT：多模态智能体实时协作基准测试",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.28514",
+        "language": "en",
+        "summary": "GPTNT是基于合作游戏《Keep Talking and Nobody Explodes》构建的基准测试，要求两个智能体在实时、信息不对称和压力下协作拆弹。测试表明，当前最先进的闭源和开源模型均无法实时拆弹，而人类玩家可以。该基准揭示了模型在状态追踪、时间压力下高效行动、歧义处理和错误恢复方面的关键弱点。",
+        "summary_en": "GPTNT is a benchmark built on the cooperative game Keep Talking and Nobody Explodes, requiring two agents to collaborate in real-time under information asymmetry and time pressure. Current state-of-the-art models fail to defuse a single bomb in real time, while human players succeed. The benchmark reveals critical weaknesses in state tracking, efficient action under time pressure, ambiguity handling, and error recovery.",
+        "tags": [
+          "benchmark",
+          "multimodal",
+          "agent-framework",
+          "research"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-30T18:56:03.151104+08:00",
+        "updated_at": "2026-06-30T18:56:03.151105+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "IMCBench: A benchmark for multimodal LLMs in Image-grounded Medical Conversations",
+      "url": "https://arxiv.org/abs/2606.28556",
+      "description": "arXiv:2606.28556v1 Announce Type: new \nAbstract: Recent advances in large language models and vision-language models have enabled reasoning over multimodal data, offering opportunities for clinical applications such as decision support and triaging. However, existing medical AI benchmarks are fragmented: some support multi-turn dialogues but lack images, while others provide multimodal inputs but focus on single-turn QA tasks. To address this gap, we introduce IMCBench, an image-grounded, multi-turn medical conversation benchmark that pairs real, publicly available clinical images with synthetic patient profiles to simulate realistic patient-clinician interactions. Each conversation is evaluated across three clinical dimensions: safety, accuracy, and appropriate use of uncertainty in diagnosis. We benchmark eight multimodal frontier models across four model families (Claude, GPT, Nova, and Llama), scoring each on a 1-5 scale using LLM-as-Jury scoring calibrated against expert clinician annotations. Our results show that Claude Opus 4.6 achieves the highest overall score (3.61), followed by Claude Sonnet 4.6 (3.30) and GPT-5.2 (3.29), though no model dominates all dimensions and safety degrades for both malignant and rare conditions ($\\Delta$ = -0.27 each). Ablation studies further reveal that both visual input and EHR context contribute to safe guidance (safety drops of 0.18 and 0.23 on average when each is removed), with stronger models leveraging visual features more effectively. Together, these findings demonstrate that accurate clinical description does not guarantee safe patient guidance, motivating the need for multi-dimensional evaluation frameworks in medical AI.",
+      "pub_date": "Tue, 30 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "IMCBench：面向多模态大语言模型的图像驱动医疗对话基准",
+        "summary": "IMCBench是一个图像驱动的多轮医疗对话基准，结合真实临床图像与合成患者档案模拟医患互动，从安全性、准确性和不确定性使用三个维度评估模型。实验表明，Claude Opus 4.6总分最高（3.61），但所有模型在恶性及罕见疾病场景下安全性下降，且准确的临床描述并不保证安全的患者指导。",
+        "summary_en": null,
+        "tags": [
+          "benchmark",
+          "multimodal",
+          "llm",
+          "research"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-30-rss-004",
+        "title": "IMCBench：面向多模态大语言模型的图像驱动医疗对话基准",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.28556",
+        "language": "en",
+        "summary": "IMCBench是一个图像驱动的多轮医疗对话基准，结合真实临床图像与合成患者档案模拟医患互动，从安全性、准确性和不确定性使用三个维度评估模型。实验表明，Claude Opus 4.6总分最高（3.61），但所有模型在恶性及罕见疾病场景下安全性下降，且准确的临床描述并不保证安全的患者指导。",
+        "summary_en": null,
+        "tags": [
+          "benchmark",
+          "multimodal",
+          "llm",
+          "research"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-30T18:56:03.151108+08:00",
+        "updated_at": "2026-06-30T18:56:03.151110+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Search for Truth from Reasoning: A Dynamic Representation Editing Framework for Steering LLM Trajectories",
+      "url": "https://arxiv.org/abs/2606.28589",
+      "description": "arXiv:2606.28589v1 Announce Type: new \nAbstract: Current approaches to enhance Large Language Model (LLM) reasoning, such as Chain-of-Thought and \"Wait\" prompts, primarily encourage models to think more, yet often fail to guide them toward Truth. While Representation Editing (RepE) offers a intrinsic control, its application to dynamic reasoning trajectories remains underexplored. In this work, we bridge this gap by investigating the geometry of truth within unfolding reasoning chains. We uncover three critical insights: (1) Truth is encoded at the sentence level and is entangled with latent reasoning patterns; (2) Effective intervention follows an Uncertainty Principle and a Decay Effect, requiring localization to early, high-entropy forks; (3) Naive steering vectors suffer from noise, risking collateral damage to correct trajectories. Based on these findings, we propose DynaSteer, a dynamic RepE framework. DynaSteer employs pattern clustering to disentangle reasoning manifolds and utilizes Fisher-LDA to project purified truth. By dynamically monitoring lookahead entropy, it selectively steers and rolls back trajectories only when necessary. Comprehensive experimental results on several MATH benchmark verify the effectiveness of DynaSteer, and experiments on out-of-domain coding tasks further confirm its generalization ability. Our code is publicly available at https://github.com/tianlwang/DynaSteer.",
+      "pub_date": "Tue, 30 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "DynaSteer：基于推理搜索真相的动态表示编辑框架",
+        "summary": "本文提出DynaSteer，一种动态表示编辑框架，通过分析推理轨迹中的真值几何特性，利用模式聚类和Fisher-LDA进行干预，在MATH和编码任务上验证了有效性。",
+        "summary_en": "This paper proposes DynaSteer, a dynamic representation editing framework that analyzes truth geometry in reasoning trajectories, using pattern clustering and Fisher-LDA for intervention, validated on MATH and coding tasks.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-30-rss-005",
+        "title": "DynaSteer：基于推理搜索真相的动态表示编辑框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.28589",
+        "language": "en",
+        "summary": "本文提出DynaSteer，一种动态表示编辑框架，通过分析推理轨迹中的真值几何特性，利用模式聚类和Fisher-LDA进行干预，在MATH和编码任务上验证了有效性。",
+        "summary_en": "This paper proposes DynaSteer, a dynamic representation editing framework that analyzes truth geometry in reasoning trajectories, using pattern clustering and Fisher-LDA for intervention, validated on MATH and coding tasks.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-30T18:56:03.151112+08:00",
+        "updated_at": "2026-06-30T18:56:03.151114+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Generating in the Limit with Infinitely Many Hallucinations",
+      "url": "https://arxiv.org/abs/2606.28354",
+      "description": "arXiv:2606.28354v1 Announce Type: new \nAbstract: The classic paradigm of language identification in the limit models learning as a game between an adversary, who reveals strings from an unknown target language, and a learner tasked with identifying that language. The recently introduced framework of language generation in the limit shifted the objective to better reflect modern language modeling, requiring the learner to produce valid, unseen strings from the target language. Related work highlighted a fundamental tension: a broad coverage of the target often comes at the cost of validity. We introduce a new notion of precision and recast this problem as the classic recall-precision trade-off. We analyze generation in the limit under varying constraints on enumeration, novelty, and validity, aimed at reflecting settings closer to those encountered by large language models. A key contribution is our analysis of learners that are not eventually valid: we allow infinitely many mistakes, provided their frequency tends to zero so that precision remains one. We show that this relaxation can strictly increase recall when the adversary permanently withholds a large portion of the target language. We also study a continuous relaxation of the novelty constraint that requires only a fixed fraction of outputs to be novel. Taken together, our results move toward a more realistic model of language generation where occasional errors and repetitions are unavoidable, but their rates are controlled.",
+      "pub_date": "Tue, 30 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "无限幻觉下的极限生成",
+        "summary": "本文在语言极限生成框架下，引入精度和召回率概念，分析枚举、新颖性和有效性约束下的生成问题。关键贡献是允许无限次错误但频率趋于零（精度保持为1），证明此松弛可在对手永久隐藏大部分目标语言时严格提高召回率。同时研究新颖性约束的连续松弛，要求固定比例输出新颖。结果向更现实的模型迈进，允许可控的错误和重复。",
+        "summary_en": "This paper introduces precision and recall into the language generation in the limit framework, analyzing generation under constraints on enumeration, novelty, and validity. A key contribution is allowing infinitely many mistakes with frequency tending to zero (precision remains 1), showing this relaxation strictly increases recall when the adversary permanently withholds a large portion of the target language. It also studies a continuous relaxation of the novelty constraint. Results move toward a more realistic model where occasional errors and repetitions are unavoidable but rates are controlled.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-30-rss-007",
+        "title": "无限幻觉下的极限生成",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.28354",
+        "language": "en",
+        "summary": "本文在语言极限生成框架下，引入精度和召回率概念，分析枚举、新颖性和有效性约束下的生成问题。关键贡献是允许无限次错误但频率趋于零（精度保持为1），证明此松弛可在对手永久隐藏大部分目标语言时严格提高召回率。同时研究新颖性约束的连续松弛，要求固定比例输出新颖。结果向更现实的模型迈进，允许可控的错误和重复。",
+        "summary_en": "This paper introduces precision and recall into the language generation in the limit framework, analyzing generation under constraints on enumeration, novelty, and validity. A key contribution is allowing infinitely many mistakes with frequency tending to zero (precision remains 1), showing this relaxation strictly increases recall when the adversary permanently withholds a large portion of the target language. It also studies a continuous relaxation of the novelty constraint. Results move toward a more realistic model where occasional errors and repetitions are unavoidable but rates are controlled.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-06-30T18:56:03.151121+08:00",
+        "updated_at": "2026-06-30T18:56:03.151122+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Extracting Knowledge from an Arabic-English Machine-Readable Dictionary Using Information Extraction",
+      "url": "https://arxiv.org/abs/2606.28457",
+      "description": "arXiv:2606.28457v1 Announce Type: new \nAbstract: Natural language processing (NLP) applications need large and rich amount of linguistic knowledge. Furthermore, electronic language sources such as dictionaries, encyclopedia, and corpora became available. So, automatic methods are emerged to extract lexical information from those sources to overcome the knowledge acquisition bottleneck. We presented a method to automatically extract lexical information from a machine-readable version of the Arabic-English Al-Mawrid dictionary. We used n-gram analysis and key-word-in-context (KWIC) analysis to discover lexical patterns that manifest morphologic, syntactic, or semantic information. Then, we used hand-crafted rule-based information extraction to extract that information. Furthermore, we used punctuation marks and some heuristics to extract a set of synonyms in a subentry. This study registered high precision for all types of information, high recall for synonyms, and low recall for the other information. The study also showed that the Al-Mawrid has significant amount of derivations (morphologic information) and synonyms, domain labels, and hyponym/hypernym relations (semantic information).",
+      "pub_date": "Tue, 30 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "从阿拉伯语-英语机读词典中提取知识的信息抽取方法",
+        "summary": "提出一种从阿拉伯语-英语Al-Mawrid机读词典中自动提取词汇信息的方法，利用n-gram和关键词上下文分析发现词汇模式，再通过手工规则进行信息抽取。该方法在提取同义词方面召回率高，其他信息精度高但召回率低。",
+        "summary_en": null,
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "multilingual"
+        ],
+        "category": "research",
+        "relevance_score": 0.6,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-30-rss-010",
+        "title": "从阿拉伯语-英语机读词典中提取知识的信息抽取方法",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.28457",
+        "language": "en",
+        "summary": "提出一种从阿拉伯语-英语Al-Mawrid机读词典中自动提取词汇信息的方法，利用n-gram和关键词上下文分析发现词汇模式，再通过手工规则进行信息抽取。该方法在提取同义词方面召回率高，其他信息精度高但召回率低。",
+        "summary_en": null,
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "multilingual"
+        ],
+        "category": "research",
+        "relevance_score": 0.6,
+        "status": "published",
+        "created_at": "2026-06-30T18:56:03.151134+08:00",
+        "updated_at": "2026-06-30T18:56:03.151135+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Developmental Trajectories of Situation Modeling and Mentalizing in Transformer Language Models",
+      "url": "https://arxiv.org/abs/2606.28524",
+      "description": "arXiv:2606.28524v1 Announce Type: new \nAbstract: Recent work suggests that Large Language Models (LLMs) are sensitive to the belief states of agents described by text, as measured by the false belief task (FBT), yet persistent concerns of construct validity remain. We adopt a **developmental perspective**, tracing the pattern of mental state reasoning behavior -- and likely **preconditions** for this behavior -- across multiple training stages in the Olmo2 and Pythia language model suites. We find that above-chance FBT performance depends both on model size and sufficient training volume, emerges relatively late in pretraining, and is most improved by post-training interventions (SFT, DPO) in the condition most diagnostic of mentalizing (False Belief, Implicit). However, FBT performance is fragile: consistent with past work, the use of non-factive verbs (e.g., thinks) increases false belief attributions even in the True Belief condition. To contextualize these findings, we track the emergence of **situation modeling**: the ability to report on basic factual properties of a described scene. Situation modeling accuracy generally precedes and exceeds FBT accuracy, yet situational representations also prove surprisingly incoherent in certain respects: when asked about the knowledge states of the Antagonist agent -- who always knows the item's true location -- Olmo2 13b is consistently influenced both by the Target agent's knowledge state and the presence of non-factive verbs. Together, these results suggest that larger, sufficiently trained models build partially coherent situation models in a developmentally appropriate sequence, yet display surprising fragility -- highlighting the value of developmental and stress-testing approaches for evaluating LLM capabilities.",
+      "pub_date": "Tue, 30 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "Transformer语言模型中情境建模与心理推理的发展轨迹",
+        "summary": "该研究采用发展视角，追踪Olmo2和Pythia模型在多个训练阶段的心理状态推理行为及其前提条件。发现错误信念任务（FBT）表现依赖于模型规模和训练量，在预训练后期出现，并通过后训练干预（SFT、DPO）提升。但FBT表现脆弱，非事实动词会干扰判断。情境建模能力通常先于并优于FBT，但情境表征在某些方面不一致。结果表明大型模型按发展顺序构建部分连贯的情境模型，但表现出惊人的脆弱性。",
+        "summary_en": "This study adopts a developmental perspective, tracing mental state reasoning behavior across training stages in Olmo2 and Pythia models. False belief task (FBT) performance depends on model size and training volume, emerges late in pretraining, and improves with post-training interventions. However, FBT is fragile; non-factive verbs increase false attributions. Situation modeling generally precedes and exceeds FBT, but representations are incoherent in some aspects. Results show models build partially coherent situation models in a developmental sequence but exhibit surprising fragility.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-30-rss-006",
+        "title": "Transformer语言模型中情境建模与心理推理的发展轨迹",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.28524",
+        "language": "en",
+        "summary": "该研究采用发展视角，追踪Olmo2和Pythia模型在多个训练阶段的心理状态推理行为及其前提条件。发现错误信念任务（FBT）表现依赖于模型规模和训练量，在预训练后期出现，并通过后训练干预（SFT、DPO）提升。但FBT表现脆弱，非事实动词会干扰判断。情境建模能力通常先于并优于FBT，但情境表征在某些方面不一致。结果表明大型模型按发展顺序构建部分连贯的情境模型，但表现出惊人的脆弱性。",
+        "summary_en": "This study adopts a developmental perspective, tracing mental state reasoning behavior across training stages in Olmo2 and Pythia models. False belief task (FBT) performance depends on model size and training volume, emerges late in pretraining, and improves with post-training interventions. However, FBT is fragile; non-factive verbs increase false attributions. Situation modeling generally precedes and exceeds FBT, but representations are incoherent in some aspects. Results show models build partially coherent situation models in a developmental sequence but exhibit surprising fragility.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-06-30T18:56:03.151117+08:00",
+        "updated_at": "2026-06-30T18:56:03.151118+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "A French OSCE Dialogue Dataset and Controllable Virtual Patient System for Clinical Training",
+      "url": "https://arxiv.org/abs/2606.28526",
+      "description": "arXiv:2606.28526v1 Announce Type: new \nAbstract: The clinical and communication skills of medical students are commonly assessed through Objective Structured Clinical Examinations (OSCEs), which consist of brief scenario-driven simulations of doctor-patient interactions. However, training is often limited by the low availability of human standardized patients, motivating the development of realistic virtual patients (VPs). To address this gap, we introduce a French OSCE dialogue dataset comprising 240 student-patient training interactions. We build upon it a controllable LLM-based pipeline to generate synthetic OSCE dialogues. The pipeline integrates modular components, such as retrieval-based grounding and a reflection loop, to ensure patient fidelity, coherence, and realism. Additionally, we propose a multi-level evaluation framework assessing patient simulation quality, student performance, and linguistic quality, using an LLM-as-a-Judge approach. Experiments suggest that controllability modules generally improve patient fidelity and student evaluation consistency. Finally, we implement an interactive prototype in which students can practice with a VP and receive automatic feedback.",
+      "pub_date": "Tue, 30 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "法语OSCE对话数据集与可控虚拟病人系统用于临床培训",
+        "summary": "针对医学生临床技能培训中标准化病人资源稀缺的问题，构建了包含240个医患互动对话的法语OSCE数据集，并开发了基于LLM的可控虚拟病人系统。该系统通过检索增强和反思循环模块确保患者真实性，同时提出多级评估框架，利用LLM作为裁判评估模拟质量、学生表现和语言质量。实验表明可控性模块提升了患者逼真度和评估一致性。",
+        "summary_en": null,
+        "tags": [
+          "llm",
+          "application",
+          "dataset",
+          "evaluation"
+        ],
+        "category": "application",
+        "relevance_score": 0.85,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-30-rss-009",
+        "title": "法语OSCE对话数据集与可控虚拟病人系统用于临床培训",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.28526",
+        "language": "en",
+        "summary": "针对医学生临床技能培训中标准化病人资源稀缺的问题，构建了包含240个医患互动对话的法语OSCE数据集，并开发了基于LLM的可控虚拟病人系统。该系统通过检索增强和反思循环模块确保患者真实性，同时提出多级评估框架，利用LLM作为裁判评估模拟质量、学生表现和语言质量。实验表明可控性模块提升了患者逼真度和评估一致性。",
+        "summary_en": null,
+        "tags": [
+          "llm",
+          "application",
+          "dataset",
+          "evaluation"
+        ],
+        "category": "application",
+        "relevance_score": 0.85,
+        "status": "published",
+        "created_at": "2026-06-30T18:56:03.151130+08:00",
+        "updated_at": "2026-06-30T18:56:03.151131+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Legal Domain Adaptation of Modern BERT Models",
+      "url": "https://arxiv.org/abs/2606.28538",
+      "description": "arXiv:2606.28538v1 Announce Type: new \nAbstract: We investigate domain adaptation of modern BERT models in the legal domain. We further pre-train ModernBERT on all US court opinions using the masked language modeling objective. Although ModernBERT has been trained on roughly 500x more data than original BERT, we still find that this model benefits from further pre-training and domain adaptation in the legal domain: we report significant improvements compared to vanilla ModernBERT on all datasets connected to US court opinions. We find gains similar to those reported in early work on domain adaptation of BERT-like models. However, from scratch pre-training does not match the performance of further pre-training an existing ModernBERT checkpoint in our experiments. The resulting models are capable of processing sequences up to 8,192 tokens, and can be used to compute meaningful embeddings of legal passages, or could quickly rerank hundreds of legal passages for a given search query. We release all model checkpoints publicly.",
+      "pub_date": "Tue, 30 Jun 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "法律领域现代BERT模型领域适配",
+        "summary": "研究对现代BERT模型在法律领域进行领域适配，通过在美国法院意见上进一步预训练ModernBERT，发现即使其训练数据量是原始BERT的500倍，领域适配仍能显著提升性能，尤其在处理长达8192个token的序列和生成法律文本嵌入方面。",
+        "summary_en": "We investigate domain adaptation of ModernBERT in the legal domain by further pre-training on US court opinions. Despite ModernBERT being trained on 500x more data than original BERT, domain adaptation still yields significant improvements on US court opinion datasets, enabling processing of up to 8192 tokens and meaningful legal embeddings.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-06-30-rss-008",
+        "title": "法律领域现代BERT模型领域适配",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.28538",
+        "language": "en",
+        "summary": "研究对现代BERT模型在法律领域进行领域适配，通过在美国法院意见上进一步预训练ModernBERT，发现即使其训练数据量是原始BERT的500倍，领域适配仍能显著提升性能，尤其在处理长达8192个token的序列和生成法律文本嵌入方面。",
+        "summary_en": "We investigate domain adaptation of ModernBERT in the legal domain by further pre-training on US court opinions. Despite ModernBERT being trained on 500x more data than original BERT, domain adaptation still yields significant improvements on US court opinion datasets, enabling processing of up to 8192 tokens and meaningful legal embeddings.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-06-30T18:56:03.151125+08:00",
+        "updated_at": "2026-06-30T18:56:03.151127+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}
