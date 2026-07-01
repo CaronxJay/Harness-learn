@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-01-rss-004",
+  "title": "学习何时停止？推理模型中早期退出的成本感知研究",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.30852",
+  "language": "en",
+  "summary": "本文研究推理语言模型中的学习停止规则。提出LearnStop方法，利用在线特征（如置信度、熵、前缀投票份额等）在固定预算检查点预测前缀正确性。实验表明，在自由形式数学任务中，学习停止优于固定预算和标量退出，但在多项选择和极难设置中，标量规则更具竞争力。主要发现：当许多问题在预算前正确但缺乏可靠标量信号时，学习停止有用。",
+  "summary_en": "This paper investigates learned stopping rules for reasoning language models. It proposes LearnStop, which uses online features to predict prefix correctness at fixed budget checkpoints. Experiments show that learned stopping improves over fixed budgets and scalar exits on free-form math tasks, but scalar rules are competitive on multiple-choice and very hard settings. Key finding: learned stopping is useful when many questions become correct before full budget but lack a reliable scalar signal.",
+  "tags": [
+    "llm",
+    "research",
+    "benchmark",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-07-01T19:22:11.420238+08:00",
+  "updated_at": "2026-07-01T19:22:11.420239+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

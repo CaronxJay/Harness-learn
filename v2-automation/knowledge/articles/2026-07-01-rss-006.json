@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-01-rss-006",
+  "title": "校准排名反转：面向LLM公平比较的精度控制评估框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.30814",
+  "language": "en",
+  "summary": "论文指出全局校准指标（如ECE、Brier Score）在跨模型比较时受精度差异干扰，导致排名反转。提出ACE框架，通过实例对齐、分布对齐、候选对齐三种视角实现精度控制评估。实验表明，原始指标下的校准优势在控制精度后大幅减弱，公平比较需考虑精度因素。",
+  "summary_en": "This paper shows that global calibration metrics (ECE, Brier Score) are confounded by accuracy differences in cross-model LLM comparisons, leading to ranking reversals. It proposes ACE, an accuracy-controlled evaluation framework with three complementary views. Experiments reveal that many reported calibration advantages weaken after accuracy control, advocating for accuracy-aware evaluation.",
+  "tags": [
+    "llm",
+    "benchmark",
+    "evaluation",
+    "research"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-07-01T19:22:11.420244+08:00",
+  "updated_at": "2026-07-01T19:22:11.420245+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

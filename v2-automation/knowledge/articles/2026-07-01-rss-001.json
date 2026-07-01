@@ -1,0 +1,26 @@
+{
+  "id": "2026-07-01-rss-001",
+  "title": "反馈驱动的交互式改进：瓶颈在于利用而非生成",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.30774",
+  "language": "en",
+  "summary": "本研究通过受控的师生协议实验，分离了多轮语言智能体交互中反馈、重采样和格式修正对性能提升的影响。发现自我反馈增益有限，而外部教师反馈的有效性取决于学生利用反馈的能力，而非教师身份。建议评估反馈型智能体时应与重复尝试基线对比。",
+  "summary_en": "This study disentangles the effects of feedback, resampling, and format correction in multi-turn language agent interactions via a controlled student-teacher protocol. It finds that self-generated feedback adds little beyond unguided self-refinement, while effective external feedback gains depend more on the student's ability to use feedback than on the teacher's identity. It recommends evaluating feedback-based agents against repeated-attempt baselines.",
+  "tags": [
+    "research",
+    "llm",
+    "agent-framework",
+    "evaluation",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-07-01T19:22:11.420223+08:00",
+  "updated_at": "2026-07-01T19:22:11.420227+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

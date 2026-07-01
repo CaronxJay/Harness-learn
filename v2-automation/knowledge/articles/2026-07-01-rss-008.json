@@ -1,0 +1,26 @@
+{
+  "id": "2026-07-01-rss-008",
+  "title": "使用AI代理自动化大规模黑盒审计个性化算法",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.30801",
+  "language": "en",
+  "summary": "提出一种使用生成式AI代理作为行为引擎进行黑盒审计个性化算法的框架。代理具有固定人格，基于人口统计和政治调查数据，与平台内容交互。通过在X平台部署1120个代理进行案例研究，发现算法推送放大有毒、极化、政治和右倾内容，且放大程度因用户意识形态而异。反事实分析表明人口统计信号以人格依赖方式影响内容传递。",
+  "summary_en": "Proposes a framework using generative AI agents as behavioral engines for black-box auditing of personalization algorithms. Agents with fixed personas interact with platform content. A case study on X with 1,120 agents found algorithmic feeds amplify toxic, polarizing, political, and right-leaning content, with amplification varying by user ideology. Counterfactual analyses show demographic signals affect content delivery in persona-dependent ways.",
+  "tags": [
+    "research",
+    "application",
+    "llm",
+    "agent-framework",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-07-01T19:22:11.420251+08:00",
+  "updated_at": "2026-07-01T19:22:11.420252+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

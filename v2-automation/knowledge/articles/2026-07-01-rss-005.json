@@ -1,0 +1,26 @@
+{
+  "id": "2026-07-01-rss-005",
+  "title": "单次重写足矣：生产环境技能描述优化的实证经验",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.30775",
+  "language": "en",
+  "summary": "针对企业AI代理中技能描述重叠导致的路由错误（技能碰撞），提出自动化描述优化流水线。在生产系统（9个技能）上达到79.2% F1，与手动调优的79.4% F1相当，但工程耗时从120分钟降至3.8分钟。消融实验表明，仅需一次LLM重写即可获得大部分改进，其他设计选择影响小于0.5%。",
+  "summary_en": "Proposes an automated description optimization pipeline for enterprise AI agents to resolve skill collisions caused by overlapping descriptions. Achieves 79.2% F1 matching manual tuning (79.4% F1) while reducing engineering effort from 120 to 3.8 minutes per skill. Ablation shows a single LLM rewrite captures most improvement; other design choices affect F1 by <0.5%.",
+  "tags": [
+    "llm",
+    "application",
+    "agent-framework",
+    "fine-tuning",
+    "research"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-07-01T19:22:11.420241+08:00",
+  "updated_at": "2026-07-01T19:22:11.420242+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

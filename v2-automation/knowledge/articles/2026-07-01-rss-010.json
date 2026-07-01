@@ -1,0 +1,26 @@
+{
+  "id": "2026-07-01-rss-010",
+  "title": "AI如何找到我的模型？基于数据格式、嵌入和检索策略的模型发现实验研究",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.30846",
+  "language": "en",
+  "summary": "本文研究了AI在仿真模型发现中的应用，探讨了数据表示、Transformer嵌入模型和检索策略对自然语言查询发现模型的影响。实验表明数据表示重要，开源嵌入模型表现良好，重排序方法在复杂查询中关键。为AI驱动的模型发现提供了基线。",
+  "summary_en": null,
+  "tags": [
+    "llm",
+    "research",
+    "application",
+    "rag",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.8,
+  "status": "published",
+  "created_at": "2026-07-01T19:22:11.420257+08:00",
+  "updated_at": "2026-07-01T19:22:11.420258+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

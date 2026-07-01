@@ -1,0 +1,485 @@
+{
+  "collected_at": "2026-07-01T19:22:11.420916+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "What Drives Interactive Improvement from Feedback?",
+      "url": "https://arxiv.org/abs/2606.30774",
+      "description": "arXiv:2606.30774v1 Announce Type: new \nAbstract: We study when natural-language feedback produces improvement beyond the gains obtainable from repeated attempts alone. In multi-turn language agent setting, higher final accuracy can reflect useful feedback, but it can also arise from resampling, format correction, or additional test-time computation. To separate these effects, we introduce a controlled student-teacher protocol across Omni-MATH, Codeforces, BBEH Linguini, and ARC-AGI1, evaluating thirteen open-weight models in both student and teacher roles. We compare external feedback, self-feedback, and unguided self-refinement, while varying interaction history, task difficulty, and teacher access to privileged task information. Across settings, we find that multi-turn improvement is often not evidence of feedback use: self-generated feedback adds little beyond unguided self-refinement, whereas the strongest external teachers produce substantially larger feedback-specific gains, suggesting that useful feedback must provide guidance beyond generic retry. Dense student-teacher interaction matrices further show that interactive gains are driven more by the student's ability to use feedback than by the teacher's identity, although teacher choice remains important for a fixed student. These results suggest that feedback-based agents should be evaluated against repeated-attempt baselines, and that ability to act on feedback, not merely feedback availability, is a central bottleneck for interactive improvement. We release our controlled student-teacher evaluation framework at https://j-lojek.github.io/feedback-generation-is-a-bottleneck/.",
+      "pub_date": "Wed, 01 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "反馈驱动的交互式改进：瓶颈在于利用而非生成",
+        "summary": "本研究通过受控的师生协议实验，分离了多轮语言智能体交互中反馈、重采样和格式修正对性能提升的影响。发现自我反馈增益有限，而外部教师反馈的有效性取决于学生利用反馈的能力，而非教师身份。建议评估反馈型智能体时应与重复尝试基线对比。",
+        "summary_en": "This study disentangles the effects of feedback, resampling, and format correction in multi-turn language agent interactions via a controlled student-teacher protocol. It finds that self-generated feedback adds little beyond unguided self-refinement, while effective external feedback gains depend more on the student's ability to use feedback than on the teacher's identity. It recommends evaluating feedback-based agents against repeated-attempt baselines.",
+        "tags": [
+          "research",
+          "llm",
+          "agent-framework",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-01-rss-001",
+        "title": "反馈驱动的交互式改进：瓶颈在于利用而非生成",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.30774",
+        "language": "en",
+        "summary": "本研究通过受控的师生协议实验，分离了多轮语言智能体交互中反馈、重采样和格式修正对性能提升的影响。发现自我反馈增益有限，而外部教师反馈的有效性取决于学生利用反馈的能力，而非教师身份。建议评估反馈型智能体时应与重复尝试基线对比。",
+        "summary_en": "This study disentangles the effects of feedback, resampling, and format correction in multi-turn language agent interactions via a controlled student-teacher protocol. It finds that self-generated feedback adds little beyond unguided self-refinement, while effective external feedback gains depend more on the student's ability to use feedback than on the teacher's identity. It recommends evaluating feedback-based agents against repeated-attempt baselines.",
+        "tags": [
+          "research",
+          "llm",
+          "agent-framework",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-07-01T19:22:11.420223+08:00",
+        "updated_at": "2026-07-01T19:22:11.420227+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Contrastive Reflection for Iterative Prompt Optimization",
+      "url": "https://arxiv.org/abs/2606.30840",
+      "description": "arXiv:2606.30840v1 Announce Type: new \nAbstract: LLM agents are becoming central to information retrieval: they issue retrieval queries, synthesize answers, and increasingly serve as judges for IR evaluation. Improving the prompts that control these agents is an optimization problem, but in applied IR settings it often looks less like blind search and more like debugging. Engineers need to know which behavior failed, which nearby behavior still worked, what distinguishes the two, and whether a prompt edit improves held-out quality without introducing regressions.\n  We present Contrastive Reflection, an iterative prompt-optimization framework for agentic IR workflows. The framework starts from a task-centric quality definition: QA agents expose retrieval or reasoning traces, and grading agents expose dimension-level scores and rationales. These structured traces are used to identify error-anchored behavioral slices, add nearby successful examples from the same region, and ask a Teacher LLM to propose a targeted prompt edit. Candidate edits are accepted only when validation performance improves, optionally subject to regression checks. We instantiate the framework with a tree-based slice selector, but the contribution is the contrastive reflection loop rather than the tree itself.\n  On a public HotpotQA retrieval-augmented QA setup, one tree-selected contrastive repair improves held-out exact-match accuracy from 51.4% to 60.4%. Failure-only and random-evidence variants improve less and break more previously correct examples. A light instruction-only comparison places the method near modern prompt optimizers: MIPROv2 reaches 59.4% and GEPA 57.0%. The result is an interpretable optimization loop for IR agents, aimed at making prompt repair more inspectable and validation-driven.",
+      "pub_date": "Wed, 01 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "对比反思：迭代提示优化框架",
+        "summary": "提出对比反思框架，用于代理式信息检索工作流中的迭代提示优化。通过识别错误行为、对比成功案例，由教师LLM提出针对性编辑，仅在验证性能提升时接受。在HotpotQA上，精确匹配准确率从51.4%提升至60.4%，优于MIPROv2和GEPA。",
+        "summary_en": "Proposes Contrastive Reflection, an iterative prompt optimization framework for agentic IR workflows. It identifies error-anchored behavioral slices, contrasts with successful examples, and uses a Teacher LLM to propose targeted edits accepted only upon validation improvement. Achieves 60.4% exact-match accuracy on HotpotQA, outperforming MIPROv2 and GEPA.",
+        "tags": [
+          "llm",
+          "research",
+          "prompt-engineering",
+          "rag",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-01-rss-002",
+        "title": "对比反思：迭代提示优化框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.30840",
+        "language": "en",
+        "summary": "提出对比反思框架，用于代理式信息检索工作流中的迭代提示优化。通过识别错误行为、对比成功案例，由教师LLM提出针对性编辑，仅在验证性能提升时接受。在HotpotQA上，精确匹配准确率从51.4%提升至60.4%，优于MIPROv2和GEPA。",
+        "summary_en": "Proposes Contrastive Reflection, an iterative prompt optimization framework for agentic IR workflows. It identifies error-anchored behavioral slices, contrasts with successful examples, and uses a Teacher LLM to propose targeted edits accepted only upon validation improvement. Achieves 60.4% exact-match accuracy on HotpotQA, outperforming MIPROv2 and GEPA.",
+        "tags": [
+          "llm",
+          "research",
+          "prompt-engineering",
+          "rag",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-07-01T19:22:11.420230+08:00",
+        "updated_at": "2026-07-01T19:22:11.420231+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "How Can AI Find My Model? A Model-Finding Experimental Study Considering Data Formats, Embeddings, and Retrieval Strategies",
+      "url": "https://arxiv.org/abs/2606.30846",
+      "description": "arXiv:2606.30846v1 Announce Type: new \nAbstract: Discovering simulation models for reuse remains a fundamental challenge in Modeling and Simulation (M&S). When many models coexist, identifying those that align with a given modeling intent remains difficult. Recent advances in Artificial Intelligence (AI), particularly retrieval-based approaches, offer a promising pathway to operate at this semantic layer. In this paper, we present an experimental study investigating the impact of data representation, transformer-based embedding models, and retrieval strategies on the discovery of simulation models using natural language queries. We evaluated performance across multiple query types using standard information retrieval metrics, including recall@5 and nDCG@5. Results show that data representation matters, open-source embedding models can achieve high performance, and reranking methods are important, especially as query complexity increases. This work provides a baseline for AI-driven model discovery and discusses its role in advancing toward AI-driven composability and interoperability.",
+      "pub_date": "Wed, 01 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "AI如何找到我的模型？基于数据格式、嵌入和检索策略的模型发现实验研究",
+        "summary": "本文研究了AI在仿真模型发现中的应用，探讨了数据表示、Transformer嵌入模型和检索策略对自然语言查询发现模型的影响。实验表明数据表示重要，开源嵌入模型表现良好，重排序方法在复杂查询中关键。为AI驱动的模型发现提供了基线。",
+        "summary_en": null,
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "rag",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-01-rss-010",
+        "title": "AI如何找到我的模型？基于数据格式、嵌入和检索策略的模型发现实验研究",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.30846",
+        "language": "en",
+        "summary": "本文研究了AI在仿真模型发现中的应用，探讨了数据表示、Transformer嵌入模型和检索策略对自然语言查询发现模型的影响。实验表明数据表示重要，开源嵌入模型表现良好，重排序方法在复杂查询中关键。为AI驱动的模型发现提供了基线。",
+        "summary_en": null,
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "rag",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "status": "published",
+        "created_at": "2026-07-01T19:22:11.420257+08:00",
+        "updated_at": "2026-07-01T19:22:11.420258+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "BayesBench: Evaluating LLM Belief Trajectories Under Multi-Turn Evidence Accumulation",
+      "url": "https://arxiv.org/abs/2606.30850",
+      "description": "arXiv:2606.30850v1 Announce Type: new \nAbstract: Large language models (LLMs) are typically deployed in multi-turn conversations, where each turn provides new evidence that should reduce epistemic uncertainty about their environment. Acting rationally then requires inferring the unobserved quantities that govern it and updating beliefs about them as evidence accumulates. Yet most evaluations only score the model's final-turn answer in a single-turn format, leaving this process unexamined. We ask how closely LLMs' belief updates match those of a rational Bayesian reasoner in multi-turn settings, and introduce BayesBench, a suite of simulation environments that probe this across three progressively complex tasks: (i) Bayesian estimation, where the model infers an unknown parameter from sequential evidence; (ii) Bayesian prediction, where the model turns inferred beliefs about a latent variable into outcome forecasts; and (iii) latent-framed Bayesian prediction, where observations are filtered through a user-persona framing, requiring joint inference over the latent state and the persona. Across seven LLMs (3B--70B), scaling improves latent inference and evidence accumulation, with updates occasionally matching the Bayesian posterior. However, these gains do not reliably carry over to downstream prediction, exposing a gap between inferring latent structure and using it to rationally update beliefs about the target outcome.",
+      "pub_date": "Wed, 01 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "贝叶斯基准：多轮证据累积下LLM信念轨迹评估",
+        "summary": "提出BayesBench基准，通过三个渐进复杂任务评估LLM在多轮对话中信念更新是否接近贝叶斯理性推理。实验发现，模型规模提升有助于潜在变量推断和证据累积，但下游预测能力存在差距。",
+        "summary_en": "Introduces BayesBench, a benchmark evaluating how closely LLM belief updates match Bayesian reasoning in multi-turn settings across three tasks. Scaling improves latent inference but not downstream prediction.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "research",
+          "evaluation"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-01-rss-003",
+        "title": "贝叶斯基准：多轮证据累积下LLM信念轨迹评估",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.30850",
+        "language": "en",
+        "summary": "提出BayesBench基准，通过三个渐进复杂任务评估LLM在多轮对话中信念更新是否接近贝叶斯理性推理。实验发现，模型规模提升有助于潜在变量推断和证据累积，但下游预测能力存在差距。",
+        "summary_en": "Introduces BayesBench, a benchmark evaluating how closely LLM belief updates match Bayesian reasoning in multi-turn settings across three tasks. Scaling improves latent inference but not downstream prediction.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "research",
+          "evaluation"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-07-01T19:22:11.420234+08:00",
+        "updated_at": "2026-07-01T19:22:11.420235+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "When Does Learning to Stop Help? A Cost-Aware Study of Early Exits in Reasoning Models",
+      "url": "https://arxiv.org/abs/2606.30852",
+      "description": "arXiv:2606.30852v1 Announce Type: new \nAbstract: Reasoning models spend different amounts of useful computation across instances, but it remains unclear when a learned stopping rule improves over simple confidence or convergence thresholds. We study this question with LearnStop, a hidden-state-free checkpoint stopper for reasoning language models. At fixed budget checkpoints, LearnStop probes a short answer from the current reasoning prefix and predicts prefix correctness from online features such as answer confidence, entropy, prefix vote share, answer stability, and backtracking-marker density. Across 18 task-model settings spanning GSM8K, MATH-500, MMLU-Pro, AIME-90, GPQA, Qwen3, and DeepSeek-R1 distillations, the answer is task-dependent. On free-form math, learned multi-feature stopping improves the fixed-budget frontier and often beats scalar exits: on GSM8K with Qwen3-32B, the empirical frontier reaches a post-hoc peak adapt gain of +0.157, validation-selected operating points preserve positive gains, and the paired gain over the strongest scalar baseline is +0.028. On multiple-choice and very hard settings, scalar confidence, entropy, or stability rules are competitive or stronger. We therefore frame learned stopping not as a universal replacement for scalar exits, but as a tool whose value depends on trajectory structure. We further provide validation-selected operating points, paired bootstrap tests, finite-grid lost-correct risk calibration, cost accounting under KV-fork, prefix-cache, and black-box regimes, H100 serving profiles, checkpoint-schedule sweeps, transfer analyses, and robustness checks. The main practical finding is that learned stopping is useful when many questions become correct before full budget but do not exhibit a single reliable scalar stopping signal; its benefits largely disappear when confidence or answer convergence already solves the stopping problem.",
+      "pub_date": "Wed, 01 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "学习何时停止？推理模型中早期退出的成本感知研究",
+        "summary": "本文研究推理语言模型中的学习停止规则。提出LearnStop方法，利用在线特征（如置信度、熵、前缀投票份额等）在固定预算检查点预测前缀正确性。实验表明，在自由形式数学任务中，学习停止优于固定预算和标量退出，但在多项选择和极难设置中，标量规则更具竞争力。主要发现：当许多问题在预算前正确但缺乏可靠标量信号时，学习停止有用。",
+        "summary_en": "This paper investigates learned stopping rules for reasoning language models. It proposes LearnStop, which uses online features to predict prefix correctness at fixed budget checkpoints. Experiments show that learned stopping improves over fixed budgets and scalar exits on free-form math tasks, but scalar rules are competitive on multiple-choice and very hard settings. Key finding: learned stopping is useful when many questions become correct before full budget but lack a reliable scalar signal.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-01-rss-004",
+        "title": "学习何时停止？推理模型中早期退出的成本感知研究",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.30852",
+        "language": "en",
+        "summary": "本文研究推理语言模型中的学习停止规则。提出LearnStop方法，利用在线特征（如置信度、熵、前缀投票份额等）在固定预算检查点预测前缀正确性。实验表明，在自由形式数学任务中，学习停止优于固定预算和标量退出，但在多项选择和极难设置中，标量规则更具竞争力。主要发现：当许多问题在预算前正确但缺乏可靠标量信号时，学习停止有用。",
+        "summary_en": "This paper investigates learned stopping rules for reasoning language models. It proposes LearnStop, which uses online features to predict prefix correctness at fixed budget checkpoints. Experiments show that learned stopping improves over fixed budgets and scalar exits on free-form math tasks, but scalar rules are competitive on multiple-choice and very hard settings. Key finding: learned stopping is useful when many questions become correct before full budget but lack a reliable scalar signal.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-07-01T19:22:11.420238+08:00",
+        "updated_at": "2026-07-01T19:22:11.420239+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "A Single Rewrite Suffices: Empirical Lessons from Production Skill Description Optimization",
+      "url": "https://arxiv.org/abs/2606.30775",
+      "description": "arXiv:2606.30775v1 Announce Type: new \nAbstract: Enterprise AI agents route user queries to specialized skills by matching queries against natural language skill descriptions. When two skills share overlapping descriptions, the routing LLM misroutes queries, a failure we term skill collision. As agents scale to dozens of skills, manually tuning descriptions to maintain routing accuracy becomes a significant engineering bottleneck. We deploy an automated description optimization pipeline on a production enterprise group chat agent (9 skills, 372 regression cases). The pipeline produces descriptions averaging 79.2% F1, matching manually tuned descriptions at 79.4% F1 (average per-skill difference -0.20%, within the 0.78% multi-seed noise floor), while reducing per-skill engineering effort from 120 minutes to 3.8 minutes (32 times speedup). We then examine which pipeline components actually drive this match. Systematic ablation on both the production system and ToolBench (16k tools) reveals that a single LLM rewrite using any available false-positive and false-negative cases captures most of the available improvement. Other design choices we tested (iteration budget, feedback signal composition, dual editing of confused pairs, and training set size) each affect final F1 by less than 0.5%. Description optimization addresses skill collisions caused by overlapping descriptions but cannot resolve cases where two skills intended scopes genuinely overlap. We identify a diagnostic (a large train-validation F1 gap) that flags the latter cases for architectural rather than text-level intervention.",
+      "pub_date": "Wed, 01 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "单次重写足矣：生产环境技能描述优化的实证经验",
+        "summary": "针对企业AI代理中技能描述重叠导致的路由错误（技能碰撞），提出自动化描述优化流水线。在生产系统（9个技能）上达到79.2% F1，与手动调优的79.4% F1相当，但工程耗时从120分钟降至3.8分钟。消融实验表明，仅需一次LLM重写即可获得大部分改进，其他设计选择影响小于0.5%。",
+        "summary_en": "Proposes an automated description optimization pipeline for enterprise AI agents to resolve skill collisions caused by overlapping descriptions. Achieves 79.2% F1 matching manual tuning (79.4% F1) while reducing engineering effort from 120 to 3.8 minutes per skill. Ablation shows a single LLM rewrite captures most improvement; other design choices affect F1 by <0.5%.",
+        "tags": [
+          "llm",
+          "application",
+          "agent-framework",
+          "fine-tuning",
+          "research"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-01-rss-005",
+        "title": "单次重写足矣：生产环境技能描述优化的实证经验",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.30775",
+        "language": "en",
+        "summary": "针对企业AI代理中技能描述重叠导致的路由错误（技能碰撞），提出自动化描述优化流水线。在生产系统（9个技能）上达到79.2% F1，与手动调优的79.4% F1相当，但工程耗时从120分钟降至3.8分钟。消融实验表明，仅需一次LLM重写即可获得大部分改进，其他设计选择影响小于0.5%。",
+        "summary_en": "Proposes an automated description optimization pipeline for enterprise AI agents to resolve skill collisions caused by overlapping descriptions. Achieves 79.2% F1 matching manual tuning (79.4% F1) while reducing engineering effort from 120 to 3.8 minutes per skill. Ablation shows a single LLM rewrite captures most improvement; other design choices affect F1 by <0.5%.",
+        "tags": [
+          "llm",
+          "application",
+          "agent-framework",
+          "fine-tuning",
+          "research"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-07-01T19:22:11.420241+08:00",
+        "updated_at": "2026-07-01T19:22:11.420242+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Indi-RomCoM: Code-Mixed Benchmark for Evaluating LLMs on Romanized Indic-English Instructions",
+      "url": "https://arxiv.org/abs/2606.30790",
+      "description": "arXiv:2606.30790v1 Announce Type: new \nAbstract: Romanized Code Mixing (RCM), where bilingual speakers fluidly blend local languages with English in Roman script, has emerged as the dominant form of communication across multilingual communities. While Large Language Models (LLMs) perform strongly on monolingual and native-script benchmarks, their ability to follow instructions and reason over RCM-based content remains largely unexplored. To this end, we introduce the Indi-RomCoM benchmark for facilitating systematic evaluation on Indic Romanized Code-Mixed instructions. Our benchmark spans seven instruction-following tasks, four widely spoken Indic languages, and three controlled code-mixing intensity levels. We extensively evaluate a suite of LLMs covering proprietary, open-weight, and Indic-focused models under zero- and few-shot settings. LLMs consistently underperform on RCM instructions, with performance degrading as code-mixing density increases. Furthermore, reasoning tasks suffer less degradation than detection tasks (e.g., Toxicity) because the generated explanations offer necessary context. We believe Indi-RomCoM helps the community in developing inclusive multilingual systems.",
+      "pub_date": "Wed, 01 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "Indi-RomCoM：评估LLM在罗马化印度语-英语混合指令上的基准",
+        "summary": "Indi-RomCoM是一个用于系统评估LLM在罗马化代码混合（RCM）指令上表现的基准，涵盖4种印度语言、7种指令遵循任务和3种混合强度。实验发现LLM在RCM指令上表现不佳，且性能随混合密度增加而下降；推理任务比检测任务退化更少。",
+        "summary_en": "Indi-RomCoM is a benchmark for evaluating LLMs on Romanized Code-Mixed (RCM) instructions, covering 4 Indic languages, 7 tasks, and 3 mixing levels. LLMs underperform on RCM, with performance degrading as mixing density increases; reasoning tasks degrade less than detection tasks.",
+        "tags": [
+          "benchmark",
+          "llm",
+          "multimodal",
+          "evaluation"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-01-rss-007",
+        "title": "Indi-RomCoM：评估LLM在罗马化印度语-英语混合指令上的基准",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.30790",
+        "language": "en",
+        "summary": "Indi-RomCoM是一个用于系统评估LLM在罗马化代码混合（RCM）指令上表现的基准，涵盖4种印度语言、7种指令遵循任务和3种混合强度。实验发现LLM在RCM指令上表现不佳，且性能随混合密度增加而下降；推理任务比检测任务退化更少。",
+        "summary_en": "Indi-RomCoM is a benchmark for evaluating LLMs on Romanized Code-Mixed (RCM) instructions, covering 4 Indic languages, 7 tasks, and 3 mixing levels. LLMs underperform on RCM, with performance degrading as mixing density increases; reasoning tasks degrade less than detection tasks.",
+        "tags": [
+          "benchmark",
+          "llm",
+          "multimodal",
+          "evaluation"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-07-01T19:22:11.420247+08:00",
+        "updated_at": "2026-07-01T19:22:11.420248+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Using AI Agents to Automate Black-Box Audits of Personalization Algorithms at Scale",
+      "url": "https://arxiv.org/abs/2606.30801",
+      "description": "arXiv:2606.30801v1 Announce Type: new \nAbstract: Personalization algorithms determine what content users encounter on online platforms. Auditing these systems is difficult because independent auditors have only black-box access to the algorithms, while personalization depends on users' attributes, behavior, and evolving interaction histories. Existing auditing methods face a tradeoff: studies with real users capture realistic behavior but are costly and hard to control, whereas sock-puppet audits scale more easily but often rely on scripted behavior that limits realism. Beyond this, both approaches struggle to decouple user attributes from user behavior, limiting our ability to causally understand personalization. To address this gap, we introduce a framework for black-box audits of personalization algorithms using generative AI agents as behavioral engines for synthetic accounts. Each agent is instantiated with a fixed persona, grounded in demographic and political survey data, and interacts with a platform's content by reasoning about it and choosing actions. Because behavior is fixed within each persona while platform-visible signals such as age, gender, or location can be experimentally perturbed, our design enables counterfactual auditing of how platforms respond to user attributes. As a case study, we deploy 1,120 agents on X shortly after the 2024 U.S. election, spanning 14 personas and three counterfactual conditions, collecting over 200,000 content exposures. We find that X's algorithmic feed amplifies toxic, polarizing, political, and right-leaning content relative to the chronological feed, with amplification varying sharply by user ideology. Counterfactual analyses show that demographic signals affect content delivery in persona-dependent ways: pooled effects are largely null, while subgroup-level effects vary in direction and magnitude. Our work establishes GenAI-based agents as a new tool for algorithmic auditing.",
+      "pub_date": "Wed, 01 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "使用AI代理自动化大规模黑盒审计个性化算法",
+        "summary": "提出一种使用生成式AI代理作为行为引擎进行黑盒审计个性化算法的框架。代理具有固定人格，基于人口统计和政治调查数据，与平台内容交互。通过在X平台部署1120个代理进行案例研究，发现算法推送放大有毒、极化、政治和右倾内容，且放大程度因用户意识形态而异。反事实分析表明人口统计信号以人格依赖方式影响内容传递。",
+        "summary_en": "Proposes a framework using generative AI agents as behavioral engines for black-box auditing of personalization algorithms. Agents with fixed personas interact with platform content. A case study on X with 1,120 agents found algorithmic feeds amplify toxic, polarizing, political, and right-leaning content, with amplification varying by user ideology. Counterfactual analyses show demographic signals affect content delivery in persona-dependent ways.",
+        "tags": [
+          "research",
+          "application",
+          "llm",
+          "agent-framework",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-01-rss-008",
+        "title": "使用AI代理自动化大规模黑盒审计个性化算法",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.30801",
+        "language": "en",
+        "summary": "提出一种使用生成式AI代理作为行为引擎进行黑盒审计个性化算法的框架。代理具有固定人格，基于人口统计和政治调查数据，与平台内容交互。通过在X平台部署1120个代理进行案例研究，发现算法推送放大有毒、极化、政治和右倾内容，且放大程度因用户意识形态而异。反事实分析表明人口统计信号以人格依赖方式影响内容传递。",
+        "summary_en": "Proposes a framework using generative AI agents as behavioral engines for black-box auditing of personalization algorithms. Agents with fixed personas interact with platform content. A case study on X with 1,120 agents found algorithmic feeds amplify toxic, polarizing, political, and right-leaning content, with amplification varying by user ideology. Counterfactual analyses show demographic signals affect content delivery in persona-dependent ways.",
+        "tags": [
+          "research",
+          "application",
+          "llm",
+          "agent-framework",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-07-01T19:22:11.420251+08:00",
+        "updated_at": "2026-07-01T19:22:11.420252+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "When Calibration Rankings Reverse: Accuracy-Controlled Evaluation for Fair Comparison of LLMs",
+      "url": "https://arxiv.org/abs/2606.30814",
+      "description": "arXiv:2606.30814v1 Announce Type: new \nAbstract: Calibration evaluates whether a model confidence aligns with its empirical accuracy. Existing studies often compare the calibration of different large language models using global calibration metrics such as Expected Calibration Error and Brier Score. We begin by showing, both theoretically and empirically, that such comparisons are confounded by differences in model accuracy. For fairer cross-model comparison, we then propose ACE, an accuracy-controlled evaluation framework with three complementary views: Instance-Aligned, Distribution-Aligned, and Candidate-Aligned calibration. Across multiple benchmarks, model families, and confidence elicitation methods, we use ACE to study two practically important comparison axes, small versus large models and thinking versus non-thinking models. We find that many previously reported calibration advantages under raw global metrics weaken substantially after accuracy control. We also find that ranking reversal is frequent: models favored by raw metrics often cease to be favored once accuracy is controlled. Our results show that raw global calibration metrics are not robust for cross-model comparison, and that fair calibration comparison requires accuracy-aware evaluation.",
+      "pub_date": "Wed, 01 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "校准排名反转：面向LLM公平比较的精度控制评估框架",
+        "summary": "论文指出全局校准指标（如ECE、Brier Score）在跨模型比较时受精度差异干扰，导致排名反转。提出ACE框架，通过实例对齐、分布对齐、候选对齐三种视角实现精度控制评估。实验表明，原始指标下的校准优势在控制精度后大幅减弱，公平比较需考虑精度因素。",
+        "summary_en": "This paper shows that global calibration metrics (ECE, Brier Score) are confounded by accuracy differences in cross-model LLM comparisons, leading to ranking reversals. It proposes ACE, an accuracy-controlled evaluation framework with three complementary views. Experiments reveal that many reported calibration advantages weaken after accuracy control, advocating for accuracy-aware evaluation.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "evaluation",
+          "research"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-01-rss-006",
+        "title": "校准排名反转：面向LLM公平比较的精度控制评估框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.30814",
+        "language": "en",
+        "summary": "论文指出全局校准指标（如ECE、Brier Score）在跨模型比较时受精度差异干扰，导致排名反转。提出ACE框架，通过实例对齐、分布对齐、候选对齐三种视角实现精度控制评估。实验表明，原始指标下的校准优势在控制精度后大幅减弱，公平比较需考虑精度因素。",
+        "summary_en": "This paper shows that global calibration metrics (ECE, Brier Score) are confounded by accuracy differences in cross-model LLM comparisons, leading to ranking reversals. It proposes ACE, an accuracy-controlled evaluation framework with three complementary views. Experiments reveal that many reported calibration advantages weaken after accuracy control, advocating for accuracy-aware evaluation.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "evaluation",
+          "research"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-07-01T19:22:11.420244+08:00",
+        "updated_at": "2026-07-01T19:22:11.420245+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "When transformers learn \"impossible\" languages, what do they learn?",
+      "url": "https://arxiv.org/abs/2606.30815",
+      "description": "arXiv:2606.30815v1 Announce Type: new \nAbstract: Recent work suggests that transformer language models show a bias towards human languages over unnatural (\"impossible\") languages argued to be unacquirable by humans. However, this literature has largely based these claims on differences in sample efficiency and test-set perplexity, rather than on direct evaluations of the linguistic capacities that could plausibly explain non-attestation in human languages. We evaluate two theoretically motivated linking hypotheses: impossibility arising from deficiencies in grammatical sensitivity or generative production. Using GPT-2 style models trained on perturbed \"impossible\" variants of English, we measure sensitivity to grammaticality using BLiMP minimal pairs, finding that model performance exhibits only gradual degradation, mediated by the language's information locality. In contrast, these models exhibited pronounced failures in generation, producing substantially fewer high-quality sentences at longer lengths. Together, these results suggest generative deficiency and transmission failures as a plausible linking hypothesis between language model behaviour and non-attestation of impossible languages.",
+      "pub_date": "Wed, 01 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "当Transformer学习“不可能”语言时，它们学到了什么？",
+        "summary": "研究探讨Transformer语言模型对“不可能”语言（人类无法习得的语言）的偏向。通过训练GPT-2模型于英语的扰动变体，发现模型对语法敏感性仅逐渐退化，但生成能力显著下降，表现为长句质量低。提出生成缺陷和传播失败作为语言模型行为与不可能语言未证实之间的合理联系假设。",
+        "summary_en": "Investigates transformer language model bias towards 'impossible' languages. Training GPT-2 on perturbed English variants shows gradual degradation in grammatical sensitivity but pronounced generation failures, especially for long sentences. Proposes generative deficiency and transmission failures as a linking hypothesis for non-attestation.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-01-rss-009",
+        "title": "当Transformer学习“不可能”语言时，它们学到了什么？",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2606.30815",
+        "language": "en",
+        "summary": "研究探讨Transformer语言模型对“不可能”语言（人类无法习得的语言）的偏向。通过训练GPT-2模型于英语的扰动变体，发现模型对语法敏感性仅逐渐退化，但生成能力显著下降，表现为长句质量低。提出生成缺陷和传播失败作为语言模型行为与不可能语言未证实之间的合理联系假设。",
+        "summary_en": "Investigates transformer language model bias towards 'impossible' languages. Training GPT-2 on perturbed English variants shows gradual degradation in grammatical sensitivity but pronounced generation failures, especially for long sentences. Proposes generative deficiency and transmission failures as a linking hypothesis for non-attestation.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-07-01T19:22:11.420254+08:00",
+        "updated_at": "2026-07-01T19:22:11.420255+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

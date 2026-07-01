@@ -1,0 +1,24 @@
+{
+  "id": "2026-07-01-rss-009",
+  "title": "当Transformer学习“不可能”语言时，它们学到了什么？",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.30815",
+  "language": "en",
+  "summary": "研究探讨Transformer语言模型对“不可能”语言（人类无法习得的语言）的偏向。通过训练GPT-2模型于英语的扰动变体，发现模型对语法敏感性仅逐渐退化，但生成能力显著下降，表现为长句质量低。提出生成缺陷和传播失败作为语言模型行为与不可能语言未证实之间的合理联系假设。",
+  "summary_en": "Investigates transformer language model bias towards 'impossible' languages. Training GPT-2 on perturbed English variants shows gradual degradation in grammatical sensitivity but pronounced generation failures, especially for long sentences. Proposes generative deficiency and transmission failures as a linking hypothesis for non-attestation.",
+  "tags": [
+    "llm",
+    "research",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-07-01T19:22:11.420254+08:00",
+  "updated_at": "2026-07-01T19:22:11.420255+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

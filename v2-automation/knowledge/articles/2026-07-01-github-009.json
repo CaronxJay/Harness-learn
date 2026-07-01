@@ -1,0 +1,26 @@
+{
+  "id": "2026-07-01-github-009",
+  "title": "全栈与AI/ML/系统设计资源大全",
+  "source": "github_trending",
+  "source_url": "https://github.com/Ashfaque965/Awesome-Master-Resource-Guide-Web2-Web3-AIML-System-Design",
+  "language": "en",
+  "summary": "精心整理的资源合集，涵盖全栈开发、MERN、Web2/Web3、区块链、AI、ML、深度学习、神经网络、LLM、生成式AI、Agentic AI、RAG、LangChain、n8n、MLOps、系统设计、DevOps、云、DSA和软件工程，旨在帮助成为精英开发者和创业创始人。",
+  "summary_en": null,
+  "tags": [
+    "llm",
+    "application",
+    "infrastructure",
+    "agent-framework",
+    "rag"
+  ],
+  "category": "application",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-07-01T19:22:11.419458+08:00",
+  "updated_at": "2026-07-01T19:22:11.419460+08:00",
+  "metadata": {
+    "stars": 1,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

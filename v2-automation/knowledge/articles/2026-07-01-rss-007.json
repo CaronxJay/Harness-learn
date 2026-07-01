@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-01-rss-007",
+  "title": "Indi-RomCoM：评估LLM在罗马化印度语-英语混合指令上的基准",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.30790",
+  "language": "en",
+  "summary": "Indi-RomCoM是一个用于系统评估LLM在罗马化代码混合（RCM）指令上表现的基准，涵盖4种印度语言、7种指令遵循任务和3种混合强度。实验发现LLM在RCM指令上表现不佳，且性能随混合密度增加而下降；推理任务比检测任务退化更少。",
+  "summary_en": "Indi-RomCoM is a benchmark for evaluating LLMs on Romanized Code-Mixed (RCM) instructions, covering 4 Indic languages, 7 tasks, and 3 mixing levels. LLMs underperform on RCM, with performance degrading as mixing density increases; reasoning tasks degrade less than detection tasks.",
+  "tags": [
+    "benchmark",
+    "llm",
+    "multimodal",
+    "evaluation"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-07-01T19:22:11.420247+08:00",
+  "updated_at": "2026-07-01T19:22:11.420248+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

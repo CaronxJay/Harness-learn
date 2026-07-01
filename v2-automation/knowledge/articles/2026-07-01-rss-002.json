@@ -1,0 +1,26 @@
+{
+  "id": "2026-07-01-rss-002",
+  "title": "对比反思：迭代提示优化框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.30840",
+  "language": "en",
+  "summary": "提出对比反思框架，用于代理式信息检索工作流中的迭代提示优化。通过识别错误行为、对比成功案例，由教师LLM提出针对性编辑，仅在验证性能提升时接受。在HotpotQA上，精确匹配准确率从51.4%提升至60.4%，优于MIPROv2和GEPA。",
+  "summary_en": "Proposes Contrastive Reflection, an iterative prompt optimization framework for agentic IR workflows. It identifies error-anchored behavioral slices, contrasts with successful examples, and uses a Teacher LLM to propose targeted edits accepted only upon validation improvement. Achieves 60.4% exact-match accuracy on HotpotQA, outperforming MIPROv2 and GEPA.",
+  "tags": [
+    "llm",
+    "research",
+    "prompt-engineering",
+    "rag",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-07-01T19:22:11.420230+08:00",
+  "updated_at": "2026-07-01T19:22:11.420231+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

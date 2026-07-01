@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-01-rss-003",
+  "title": "贝叶斯基准：多轮证据累积下LLM信念轨迹评估",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2606.30850",
+  "language": "en",
+  "summary": "提出BayesBench基准，通过三个渐进复杂任务评估LLM在多轮对话中信念更新是否接近贝叶斯理性推理。实验发现，模型规模提升有助于潜在变量推断和证据累积，但下游预测能力存在差距。",
+  "summary_en": "Introduces BayesBench, a benchmark evaluating how closely LLM belief updates match Bayesian reasoning in multi-turn settings across three tasks. Scaling improves latent inference but not downstream prediction.",
+  "tags": [
+    "llm",
+    "benchmark",
+    "research",
+    "evaluation"
+  ],
+  "category": "benchmark",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-07-01T19:22:11.420234+08:00",
+  "updated_at": "2026-07-01T19:22:11.420235+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
