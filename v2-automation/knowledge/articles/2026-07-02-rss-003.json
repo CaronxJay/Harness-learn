@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-02-rss-003",
+  "title": "无基质的角色：LLM个体化问题的体制依赖性",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.00006",
+  "language": "en",
+  "summary": "本文通过实验揭示LLM中角色向量在不同干预方式（提示、微调、推理时引导）下不具有共指性，提出“体制索引个体化”框架，认为表征内容的身份单元是（载体，体制）对，而非单独载体。",
+  "summary_en": "This paper reveals through experiments that persona vectors in LLMs lack co-reference across different regimes (prompting, fine-tuning, inference-time steering), proposing a regime-indexed individuation framework where the identity unit is a (vehicle, regime) pair.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "prompt-engineering"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-07-02T18:37:51.800234+08:00",
+  "updated_at": "2026-07-02T18:37:51.800235+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

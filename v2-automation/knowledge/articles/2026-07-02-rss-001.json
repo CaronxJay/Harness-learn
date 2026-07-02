@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-02-rss-001",
+  "title": "建设性对齐：人机交互中的偏好动态治理",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.00001",
+  "language": "en",
+  "summary": "提出“建设性对齐”范式，将AI对齐重新定义为对人类偏好演化轨迹的控制问题，而非静态偏好满足。基于行为经济学和建构主义理论，形式化建模偏好为随交互演化的状态变量，强调对齐应治理长期价值形成，而非仅控制AI行为。",
+  "summary_en": "Introduces Constructive Alignment, a paradigm reframing AI alignment as controlling evolving human preference trajectories rather than static preference satisfaction. Formalizes preferences as layered state variables evolving under AI interaction, arguing alignment should govern long-term value formation.",
+  "tags": [
+    "research",
+    "llm",
+    "security",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-07-02T18:37:51.800220+08:00",
+  "updated_at": "2026-07-02T18:37:51.800224+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

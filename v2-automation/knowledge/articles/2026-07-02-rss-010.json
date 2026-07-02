@@ -1,0 +1,24 @@
+{
+  "id": "2026-07-02-rss-010",
+  "title": "基于解空间路径规划的航路空中交通管制支持算法",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.00064",
+  "language": "en",
+  "summary": "针对现有路径规划算法与空中交通管制员需求脱节的问题，提出一种冲突避免的路径规划算法。该算法结合解空间显示的可解释性和灵活性，集成三种基于意图的冲突检测方法，并提出了基于顶点和基于边的搜索节点变体。实验表明，基于顶点与区域冲突检测的组合在MUAC Delta扇区场景中平均计算时间为3.69毫秒，性能最优。",
+  "summary_en": null,
+  "tags": [
+    "research",
+    "application",
+    "algorithm"
+  ],
+  "category": "research",
+  "relevance_score": 0.3,
+  "status": "published",
+  "created_at": "2026-07-02T18:37:51.800265+08:00",
+  "updated_at": "2026-07-02T18:37:51.800266+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

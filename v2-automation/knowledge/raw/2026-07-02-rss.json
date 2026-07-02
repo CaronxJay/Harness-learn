@@ -1,0 +1,467 @@
+{
+  "collected_at": "2026-07-02T18:37:51.801069+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "Constructive Alignment: Governing Preference Dynamics in Human-AI Interaction",
+      "url": "https://arxiv.org/abs/2607.00001",
+      "description": "arXiv:2607.00001v1 Announce Type: new \nAbstract: Most approaches to AI alignment treat human preferences as fixed targets to be inferred and optimized. This assumption conflicts with extensive empirical evidence showing that preferences are layered, dynamic, and constructed through interaction--particularly with adaptive technologies. As AI systems become more persistent, personalized, and socially embedded, they increasingly participate in shaping what people attend to, value, and endorse over time. We introduce Constructive Alignment, a paradigm that reframes alignment as a control problem over evolving human preference trajectories rather than static preference satisfaction. Drawing on behavioral economics, psychology, and constructivist social theory, we model preferences as layered state variables that evolve under interaction with AI systems. We formalize this view using a control-theoretic framework in which system actions and interaction design jointly influence both world states and human evaluative states. We argue that alignment is not primarily about controlling AI behavior, but about regulating how AI systems influence the evolution of human preferences--ensuring that value trajectories remain coherent, reflectively endorsed, epistemically grounded, bounded against manipulation, and empowering under uncertainty. Alignment thus becomes a problem of governing long-term value formation rather than simply satisfying static preferences.",
+      "pub_date": "Thu, 02 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "建设性对齐：人机交互中的偏好动态治理",
+        "summary": "提出“建设性对齐”范式，将AI对齐重新定义为对人类偏好演化轨迹的控制问题，而非静态偏好满足。基于行为经济学和建构主义理论，形式化建模偏好为随交互演化的状态变量，强调对齐应治理长期价值形成，而非仅控制AI行为。",
+        "summary_en": "Introduces Constructive Alignment, a paradigm reframing AI alignment as controlling evolving human preference trajectories rather than static preference satisfaction. Formalizes preferences as layered state variables evolving under AI interaction, arguing alignment should govern long-term value formation.",
+        "tags": [
+          "research",
+          "llm",
+          "security",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-02-rss-001",
+        "title": "建设性对齐：人机交互中的偏好动态治理",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.00001",
+        "language": "en",
+        "summary": "提出“建设性对齐”范式，将AI对齐重新定义为对人类偏好演化轨迹的控制问题，而非静态偏好满足。基于行为经济学和建构主义理论，形式化建模偏好为随交互演化的状态变量，强调对齐应治理长期价值形成，而非仅控制AI行为。",
+        "summary_en": "Introduces Constructive Alignment, a paradigm reframing AI alignment as controlling evolving human preference trajectories rather than static preference satisfaction. Formalizes preferences as layered state variables evolving under AI interaction, arguing alignment should govern long-term value formation.",
+        "tags": [
+          "research",
+          "llm",
+          "security",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-07-02T18:37:51.800220+08:00",
+        "updated_at": "2026-07-02T18:37:51.800224+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Bounded Morality: Defining the Space of Moral Computation",
+      "url": "https://arxiv.org/abs/2607.00002",
+      "description": "arXiv:2607.00002v1 Announce Type: new \nAbstract: Moral cognition has traditionally been modeled as adherence to fixed ethical theories--deontology, consequentialism, virtue ethics--implemented as static rules or value functions. We propose Bounded Morality, a formal framework for analyzing the computational demands of moral problems faced by finite agents. Extending Herbert Simon's notion of bounded rationality, we formalize moral situations along two orthogonal dimensions: moral breadth, the scope of entities treated as morally relevant, and moral depth, the inferential integration required to evaluate their interactions. Limited resources impose an unavoidable tradeoff between these dimensions, defining a feasible space of moral computation. Within this space, ethical theories correspond to locally efficient strategies adapted to different demand regimes rather than competing accounts of moral truth. The framework yields a formal notion of moral regret and moral progress under constraint, and implies that moral alignment in artificial systems depends on the scaling and allocation of moral reasoning capacity rather than on direct imitation of human judgments.",
+      "pub_date": "Thu, 02 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "有限道德：界定道德计算的空间",
+        "summary": "提出“有限道德”框架，将道德问题沿道德广度与道德深度两个维度形式化，分析有限智能体面临的道德计算需求。借鉴西蒙的有限理性，指出资源限制迫使两者间存在不可回避的权衡，定义了可行的道德计算空间。该框架认为伦理理论是适应不同需求模式的局部高效策略，而非道德真理的竞争性解释。为人工系统的道德对齐提供了基于推理能力扩展与分配的新视角。",
+        "summary_en": null,
+        "tags": [
+          "research",
+          "llm",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-02-rss-007",
+        "title": "有限道德：界定道德计算的空间",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.00002",
+        "language": "en",
+        "summary": "提出“有限道德”框架，将道德问题沿道德广度与道德深度两个维度形式化，分析有限智能体面临的道德计算需求。借鉴西蒙的有限理性，指出资源限制迫使两者间存在不可回避的权衡，定义了可行的道德计算空间。该框架认为伦理理论是适应不同需求模式的局部高效策略，而非道德真理的竞争性解释。为人工系统的道德对齐提供了基于推理能力扩展与分配的新视角。",
+        "summary_en": null,
+        "tags": [
+          "research",
+          "llm",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "status": "published",
+        "created_at": "2026-07-02T18:37:51.800252+08:00",
+        "updated_at": "2026-07-02T18:37:51.800253+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "The MMM Data Model -- A Normative Specification for Knowledge Interoperability in a Decentralisable Knowledge Commons",
+      "url": "https://arxiv.org/abs/2607.00032",
+      "description": "arXiv:2607.00032v1 Announce Type: new \nAbstract: Many information systems are built around documents: self-contained units optimised for print production and linear reading. While effective for large-scale dissemination, the document-centric organisation constrains how knowledge can be structured, updated, shared, and reused. Formal approaches address some of these limitations but struggle to achieve widespread contribution and adoption due to their prioritisation of formal structure over other system properties such as human usability and scope. AI systems are reshaping document production, but without providing a unified portable alternative to traditional documents for humans' expression and exchange of knowledge. This paper presents MMM, a data model for knowledge documentation that emerged from the practical needs of interdisciplinary collaborative research, and positioned here within a comparative analysis of the design space of information systems. MMM combines a small set of normative constraints with the expressive freedom of free-text labels. It is designed for interoperability across disciplines, applications and deployments without requiring semantic convergence. A reference implementation and pilot deployment data demonstrate implementability and early usability.",
+      "pub_date": "Thu, 02 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "MMM数据模型：去中心化知识共享的规范规范",
+        "summary": "MMM是一种为知识文档设计的数据模型，结合少量规范约束与自由文本标签的灵活性，旨在跨学科、应用和部署实现互操作性，无需语义统一。参考实现和试点部署数据证明了其可实现性和早期可用性。",
+        "summary_en": "MMM is a data model for knowledge documentation that combines a small set of normative constraints with the expressive freedom of free-text labels, designed for interoperability across disciplines, applications, and deployments without requiring semantic convergence. A reference implementation and pilot deployment data demonstrate implementability and early usability.",
+        "tags": [
+          "research",
+          "infrastructure",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.6,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-02-rss-008",
+        "title": "MMM数据模型：去中心化知识共享的规范规范",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.00032",
+        "language": "en",
+        "summary": "MMM是一种为知识文档设计的数据模型，结合少量规范约束与自由文本标签的灵活性，旨在跨学科、应用和部署实现互操作性，无需语义统一。参考实现和试点部署数据证明了其可实现性和早期可用性。",
+        "summary_en": "MMM is a data model for knowledge documentation that combines a small set of normative constraints with the expressive freedom of free-text labels, designed for interoperability across disciplines, applications, and deployments without requiring semantic convergence. A reference implementation and pilot deployment data demonstrate implementability and early usability.",
+        "tags": [
+          "research",
+          "infrastructure",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.6,
+        "status": "published",
+        "created_at": "2026-07-02T18:37:51.800256+08:00",
+        "updated_at": "2026-07-02T18:37:51.800258+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Making Failure Safe: A Constrained, Verifiable Agent Framework for Open-Web Data Collection",
+      "url": "https://arxiv.org/abs/2607.00035",
+      "description": "arXiv:2607.00035v1 Announce Type: new \nAbstract: LLMs and agents can generate web scrapers from natural-language requirements, but direct generation remains unreliable because of dependency errors, broken selectors, schema mismatches, and heterogeneous page structures. We propose a constrained, verifiable agent framework that shifts LLM output from free-form code to typed JSON collector configurations, combining a six-type collector taxonomy, template and utility-function constraints, static Airflow DAG execution, rule-based quality checking, and structured feedback correction. Experiments on 138 tasks show that the taxonomy supports description-based requirement typing, while confirming that stable instantiation requires completing source, field, and execution constraints beyond the initial description. On 80 independently source-verified tasks, the framework runs with zero execution-stage LLM tokens and the lowest average wall-clock time, trading moderate one-shot quality for a reusable, deterministic, and verifiable execution path suited to repeated scheduled collection. These results position the framework as a reusable, low-cost, and verifiable execution path for repeated open-web data collection.",
+      "pub_date": "Thu, 02 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "安全失败：一种用于开放网络数据收集的约束可验证智能体框架",
+        "summary": "提出一种约束可验证的智能体框架，将LLM输出从自由形式代码转换为类型化JSON收集器配置，结合六类型收集器分类法、模板和效用函数约束、静态Airflow DAG执行、基于规则的质检和结构化反馈修正。实验表明该框架在80个独立源验证任务中以零执行阶段LLM令牌和最低平均耗时运行，为重复调度收集提供了可复用、低成本、可验证的执行路径。",
+        "summary_en": "Proposes a constrained, verifiable agent framework that shifts LLM output from free-form code to typed JSON collector configurations, combining a six-type collector taxonomy, template and utility-function constraints, static Airflow DAG execution, rule-based quality checking, and structured feedback correction. Experiments on 138 tasks show the framework runs with zero execution-stage LLM tokens and the lowest average wall-clock time on 80 independently source-verified tasks, offering a reusable, low-cost, verifiable execution path for repeated scheduled collection.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "application",
+          "tool"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-02-rss-002",
+        "title": "安全失败：一种用于开放网络数据收集的约束可验证智能体框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.00035",
+        "language": "en",
+        "summary": "提出一种约束可验证的智能体框架，将LLM输出从自由形式代码转换为类型化JSON收集器配置，结合六类型收集器分类法、模板和效用函数约束、静态Airflow DAG执行、基于规则的质检和结构化反馈修正。实验表明该框架在80个独立源验证任务中以零执行阶段LLM令牌和最低平均耗时运行，为重复调度收集提供了可复用、低成本、可验证的执行路径。",
+        "summary_en": "Proposes a constrained, verifiable agent framework that shifts LLM output from free-form code to typed JSON collector configurations, combining a six-type collector taxonomy, template and utility-function constraints, static Airflow DAG execution, rule-based quality checking, and structured feedback correction. Experiments on 138 tasks show the framework runs with zero execution-stage LLM tokens and the lowest average wall-clock time on 80 independently source-verified tasks, offering a reusable, low-cost, verifiable execution path for repeated scheduled collection.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "application",
+          "tool"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-07-02T18:37:51.800229+08:00",
+        "updated_at": "2026-07-02T18:37:51.800230+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Solution space path planning for supporting en-route air traffic control",
+      "url": "https://arxiv.org/abs/2607.00064",
+      "description": "arXiv:2607.00064v1 Announce Type: new \nAbstract: As technology advances, many path-planning algorithms have been proposed for Air Traffic Management, yet their operational adoption in tactical control remains limited, revealing a misalignment between algorithmic design priorities and air traffic controllers' needs. This underscores the need for decision-support solutions that are inherently interpretable, computationally efficient, and explicitly designed for human use. Focusing on this design challenge, this study develops a conflict-free path-planning algorithm for en-route Air Traffic Control (ATC) designed to be compatible with two guiding considerations: (1) the interpretability and flexibility offered by solution-space displays, which motivate constructing an algorithm that exposes all feasible safe actions and accommodates shifting optimization goals; and (2) the decision logic controllers naturally apply when enforcing operational constraints, such as separation standards, maneuverability limits, waypoint minimization, and routing practicality. Centered on these principles, the algorithm integrates three intent-based conflict detection methods -- distance-based, time-interval-based, and zone-based -- within a solution-space framework to identify conflict-free paths in computationally efficient ways. Additionally, vertex-based and edge-based search nodes are proposed for solution space path planning (SSPP), resulting in two variants -- SSPPV and SSPPE, respectively, which are evaluated in terms of computational speed and solution quality. Empirical results show that SSPPV paired with zone-based conflict detection achieves the best performance, computing paths in 3.69 ms on average in operational-relevant scenarios based on the Delta sector of the Maastricht Upper Area Control Centre (MUAC) using a 5 nmi grid.",
+      "pub_date": "Thu, 02 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "基于解空间路径规划的航路空中交通管制支持算法",
+        "summary": "针对现有路径规划算法与空中交通管制员需求脱节的问题，提出一种冲突避免的路径规划算法。该算法结合解空间显示的可解释性和灵活性，集成三种基于意图的冲突检测方法，并提出了基于顶点和基于边的搜索节点变体。实验表明，基于顶点与区域冲突检测的组合在MUAC Delta扇区场景中平均计算时间为3.69毫秒，性能最优。",
+        "summary_en": null,
+        "tags": [
+          "research",
+          "application",
+          "algorithm"
+        ],
+        "category": "research",
+        "relevance_score": 0.3,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-02-rss-010",
+        "title": "基于解空间路径规划的航路空中交通管制支持算法",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.00064",
+        "language": "en",
+        "summary": "针对现有路径规划算法与空中交通管制员需求脱节的问题，提出一种冲突避免的路径规划算法。该算法结合解空间显示的可解释性和灵活性，集成三种基于意图的冲突检测方法，并提出了基于顶点和基于边的搜索节点变体。实验表明，基于顶点与区域冲突检测的组合在MUAC Delta扇区场景中平均计算时间为3.69毫秒，性能最优。",
+        "summary_en": null,
+        "tags": [
+          "research",
+          "application",
+          "algorithm"
+        ],
+        "category": "research",
+        "relevance_score": 0.3,
+        "status": "published",
+        "created_at": "2026-07-02T18:37:51.800265+08:00",
+        "updated_at": "2026-07-02T18:37:51.800266+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Persona Without Substrate: Regime-Dependence and the LLM Individuation Problem",
+      "url": "https://arxiv.org/abs/2607.00006",
+      "description": "arXiv:2607.00006v1 Announce Type: new \nAbstract: Beckmann & Butlin's (2026) ontological framework for the LLM individuation problem inherits an unargued cross-regime co-reference assumption from the persona-vectors literature: that the same direction picks out the same content under prompt-conditioning, gradient-descent fine-tuning, and inference-time steering. We present four empirical wedges from persona-topology experiments on Qwen3-4B-Instruct and Mistral-7B-Instruct-v0.2 - non-collinearity of prompt-extracted vectors and fine-tune basins; fictional personas displacing the model along real-anchor directions more strongly than real anchors do; contradictory-valenced mixtures biased toward a training-history-determined attractor; and asymmetric compositional algebra under inference-time arithmetic versus fine-tune-time chimera training - that jointly undermine the assumption. We propose regime-indexed individuation: the identity unit for representational content is a (vehicle, regime) pair, not a vehicle alone. Under this framework, Beckmann & Butlin's three candidate positions describe three different regime-internal objects rather than competing for the same referent; the same diagnosis applies to Mollo & Milli\\`ere, Chalmers, and Cerullo.",
+      "pub_date": "Thu, 02 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "无基质的角色：LLM个体化问题的体制依赖性",
+        "summary": "本文通过实验揭示LLM中角色向量在不同干预方式（提示、微调、推理时引导）下不具有共指性，提出“体制索引个体化”框架，认为表征内容的身份单元是（载体，体制）对，而非单独载体。",
+        "summary_en": "This paper reveals through experiments that persona vectors in LLMs lack co-reference across different regimes (prompting, fine-tuning, inference-time steering), proposing a regime-indexed individuation framework where the identity unit is a (vehicle, regime) pair.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-02-rss-003",
+        "title": "无基质的角色：LLM个体化问题的体制依赖性",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.00006",
+        "language": "en",
+        "summary": "本文通过实验揭示LLM中角色向量在不同干预方式（提示、微调、推理时引导）下不具有共指性，提出“体制索引个体化”框架，认为表征内容的身份单元是（载体，体制）对，而非单独载体。",
+        "summary_en": "This paper reveals through experiments that persona vectors in LLMs lack co-reference across different regimes (prompting, fine-tuning, inference-time steering), proposing a regime-indexed individuation framework where the identity unit is a (vehicle, regime) pair.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-07-02T18:37:51.800234+08:00",
+        "updated_at": "2026-07-02T18:37:51.800235+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Controllable Narrative Rendering for Enhanced Assisted Writing",
+      "url": "https://arxiv.org/abs/2607.00009",
+      "description": "arXiv:2607.00009v1 Announce Type: new \nAbstract: Despite the remarkable proficiency of large language models (LLMs) in basic writing assistance, their utility in creative writing is fundamentally hindered by a persistent binary failure. This issue manifests as an oscillation between safe, surface-level editing, referred to as remedial polishing, and destructive, uncontrolled plot expansion. This dilemma defines a critical trade-off between narrative fidelity and descriptive intensity. We propose Loom, an assisted writing framework grounded in the narratological distinction between story and discourse. Loom employs a three-layer pipeline that operationalizes an intent-centered semiotic chain-of-thought to enforce precise control over narrative intent and rendering density. This architecture separates the generation of perceptual material from syntactic insertion, ensuring that enhancement occurs without violating the original event structure. Our comprehensive evaluation, which includes LLM-based metrics and human assessment, demonstrates that Loom successfully resolves this fundamental tension. Loom achieves the highest overall quality score, yielding substantial gains in factual integrity and descriptive intensity compared to state-of-the-art baselines.",
+      "pub_date": "Thu, 02 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "可控叙事渲染增强辅助写作",
+        "summary": "针对大语言模型在创意写作中面临的安全编辑与失控情节扩展的二元失败问题，提出Loom辅助写作框架。该框架基于故事与话语的叙事学区分，通过三层流水线和意图中心语义链实现叙事意图与渲染密度的精确控制，在保持事件结构完整的同时提升描述强度。评估表明Loom在事实完整性和描述强度上均优于基线。",
+        "summary_en": "To address the binary failure of LLMs in creative writing—oscillating between safe editing and uncontrolled plot expansion—this paper proposes Loom, an assisted writing framework grounded in narratology. It uses a three-layer pipeline and intent-centered chain-of-thought to precisely control narrative intent and rendering density, achieving gains in factual integrity and descriptive intensity over baselines.",
+        "tags": [
+          "llm",
+          "research",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-02-rss-004",
+        "title": "可控叙事渲染增强辅助写作",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.00009",
+        "language": "en",
+        "summary": "针对大语言模型在创意写作中面临的安全编辑与失控情节扩展的二元失败问题，提出Loom辅助写作框架。该框架基于故事与话语的叙事学区分，通过三层流水线和意图中心语义链实现叙事意图与渲染密度的精确控制，在保持事件结构完整的同时提升描述强度。评估表明Loom在事实完整性和描述强度上均优于基线。",
+        "summary_en": "To address the binary failure of LLMs in creative writing—oscillating between safe editing and uncontrolled plot expansion—this paper proposes Loom, an assisted writing framework grounded in narratology. It uses a three-layer pipeline and intent-centered chain-of-thought to precisely control narrative intent and rendering density, achieving gains in factual integrity and descriptive intensity over baselines.",
+        "tags": [
+          "llm",
+          "research",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-07-02T18:37:51.800238+08:00",
+        "updated_at": "2026-07-02T18:37:51.800240+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Harnessing the Latent Space: From Steering Vectors to Model Calibrators for Control and Trust",
+      "url": "https://arxiv.org/abs/2607.00083",
+      "description": "arXiv:2607.00083v1 Announce Type: new \nAbstract: Language models have changed from unreliable text generators to highly-capable large models with trillions of parameters. Capability increases come hand-in-hand with increases in scale, making understanding the internal representations of models more challenging. Since millions of users increasing rely on language models to interact with external tools or make decisions in medium or high-stakes scenarios, we need to establish control over model behavior and know when to trust model outputs. In this paper, we discuss our contributions on harnessing the latent spaces by proposing steering vectors for control and developing latent space-based model calibrators for trust. Together, our contributions help demystify the latent spaces of language models and offer new insights into how to harness model internals to build more trustworthy language technology.",
+      "pub_date": "Thu, 02 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "利用潜在空间：从引导向量到模型校准器以实现控制与信任",
+        "summary": "本文探讨了如何利用语言模型的潜在空间，通过提出引导向量来控制模型行为，并开发基于潜在空间的模型校准器来评估输出可信度，从而构建更值得信赖的语言技术。",
+        "summary_en": "This paper explores harnessing the latent spaces of language models by proposing steering vectors for control and developing latent space-based model calibrators for trust, aiming to build more trustworthy language technology.",
+        "tags": [
+          "llm",
+          "research",
+          "security"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-02-rss-005",
+        "title": "利用潜在空间：从引导向量到模型校准器以实现控制与信任",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.00083",
+        "language": "en",
+        "summary": "本文探讨了如何利用语言模型的潜在空间，通过提出引导向量来控制模型行为，并开发基于潜在空间的模型校准器来评估输出可信度，从而构建更值得信赖的语言技术。",
+        "summary_en": "This paper explores harnessing the latent spaces of language models by proposing steering vectors for control and developing latent space-based model calibrators for trust, aiming to build more trustworthy language technology.",
+        "tags": [
+          "llm",
+          "research",
+          "security"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-07-02T18:37:51.800243+08:00",
+        "updated_at": "2026-07-02T18:37:51.800245+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Benchmarking Frontier LLMs on Arabic Cultural and Sociolinguistic Knowledge: A Cross-Evaluation Framework with Human SME Ground Truth",
+      "url": "https://arxiv.org/abs/2607.00139",
+      "description": "arXiv:2607.00139v1 Announce Type: new \nAbstract: The cost of human expert evaluation is a principal bottleneck to deploying language models in specialized, high-stakes domains. This is particularly acute for Arabic sociolinguistic knowledge: credible grading requires not only linguistic fluency but deep cultural familiarity that cannot be approximated by surface-level metrics. We address this with a cross-evaluation framework instantiated on two underrepresented Arabic dialect communities: Egyptian and Iraqi Arabic. We contribute 103 validated prompt-rubric pairs (70 Egyptian, 33 Iraqi; 53 Cultural, 50 Linguistic), authored and graded by native-speaker SMEs using penalty-weighted rubrics distinguishing positive content requirements from answer-specific negative error criteria. Three frontier LLMs serve as target models (graded by human SMEs across 302 unique prompt-response pairs), while five frontier LLMs serve as automated judges enforcing a provider-level self-evaluation guard. A dual-metric scheme combining Mean Absolute Deviation (MAD) with Signed Mean Error separates directional grading bias from symmetric noise. Across 1,307 judge evaluations: GPT-5.4 is the most reliable judge (MADj = 10.21 pp, Signed Error = -1.12%); four of five judges show systematic leniency (+2.01% to +6.56%); Cultural tasks are harder to grade than Linguistic tasks for all judges (MAD gap 1.83-4.78 pp); and models substantially outperform on Egyptian prompts compared to Iraqi prompts. However, given leniency differences between Iraqi and Egyptian SMEs, we cannot solely attribute this gap to model knowledge. We therefore emphasize findings that do not assume identical leniency across human graders. Across all samples, implicit cultural reasoning -- requiring models to simulate native-speaker judgment rather than rely on lexical verification -- emerges as the primary failure mode for automated grading across all judge models.",
+      "pub_date": "Thu, 02 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "阿拉伯文化与社会语言学知识的前沿LLM基准测试：跨评估框架与人类专家真实数据",
+        "summary": "提出一个跨评估框架，用于测试前沿LLM在阿拉伯文化和社会语言学知识上的表现。包含103个经过验证的提示-评分标准对，由母语专家评分。结果表明GPT-5.4是最可靠的评判者，文化任务比语言任务更难评分，模型在埃及阿拉伯语提示上表现优于伊拉克阿拉伯语提示。",
+        "summary_en": "Proposes a cross-evaluation framework for benchmarking frontier LLMs on Arabic cultural and sociolinguistic knowledge, with 103 validated prompt-rubric pairs graded by native-speaker SMEs. GPT-5.4 is the most reliable judge; cultural tasks are harder to grade than linguistic tasks.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "evaluation",
+          "multimodal"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-02-rss-006",
+        "title": "阿拉伯文化与社会语言学知识的前沿LLM基准测试：跨评估框架与人类专家真实数据",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.00139",
+        "language": "en",
+        "summary": "提出一个跨评估框架，用于测试前沿LLM在阿拉伯文化和社会语言学知识上的表现。包含103个经过验证的提示-评分标准对，由母语专家评分。结果表明GPT-5.4是最可靠的评判者，文化任务比语言任务更难评分，模型在埃及阿拉伯语提示上表现优于伊拉克阿拉伯语提示。",
+        "summary_en": "Proposes a cross-evaluation framework for benchmarking frontier LLMs on Arabic cultural and sociolinguistic knowledge, with 103 validated prompt-rubric pairs graded by native-speaker SMEs. GPT-5.4 is the most reliable judge; cultural tasks are harder to grade than linguistic tasks.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "evaluation",
+          "multimodal"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-07-02T18:37:51.800248+08:00",
+        "updated_at": "2026-07-02T18:37:51.800249+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Hate Speech Detection in Turkish and Arabic Languages: A Comprehensive Study",
+      "url": "https://arxiv.org/abs/2607.00143",
+      "description": "arXiv:2607.00143v1 Announce Type: new \nAbstract: Online hate speech has been linked to a global rise in violence against minorities, including incidents such as mass shootings, lynchings, and ethnic cleansing. Societies grappling with this issue, particularly when hate speech targets specific groups based on religion, race, ethnicity, culture, nationality, or migration status, face the challenge of balancing freedom of expression with the need for effective content moderation on widely used online platforms. In response to this challenge, we introduce a comprehensive hate speech dataset covering five distinct topics in Turkish: refugees, the Israel-Palestine conflict, anti-Greek sentiment in Turkey, ethnic or religious communities (Alevis, Armenians, Arabs, Jews, and Kurds), and LGBTI+, alongside one topic in Arabic (refugees). In addition, we develop state-of-the-art BERT-based models to address multiple dimensions of hate speech analysis, including hate category classification, hate intensity prediction, target identification, and hate speech span detection, enabling a comprehensive understanding of hateful content in online discourse.",
+      "pub_date": "Thu, 02 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "土耳其语和阿拉伯语仇恨言论检测综合研究",
+        "summary": "该研究针对土耳其语和阿拉伯语中的仇恨言论，构建了涵盖五个土耳其语主题和一个阿拉伯语主题的综合数据集，并开发了基于BERT的最先进模型，用于仇恨类别分类、强度预测、目标识别和跨度检测。",
+        "summary_en": "This study introduces a comprehensive hate speech dataset for Turkish and Arabic, covering five Turkish topics and one Arabic topic, and develops state-of-the-art BERT-based models for hate category classification, intensity prediction, target identification, and span detection.",
+        "tags": [
+          "llm",
+          "research",
+          "multimodal"
+        ],
+        "category": "research",
+        "relevance_score": 0.6,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-02-rss-009",
+        "title": "土耳其语和阿拉伯语仇恨言论检测综合研究",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.00143",
+        "language": "en",
+        "summary": "该研究针对土耳其语和阿拉伯语中的仇恨言论，构建了涵盖五个土耳其语主题和一个阿拉伯语主题的综合数据集，并开发了基于BERT的最先进模型，用于仇恨类别分类、强度预测、目标识别和跨度检测。",
+        "summary_en": "This study introduces a comprehensive hate speech dataset for Turkish and Arabic, covering five Turkish topics and one Arabic topic, and develops state-of-the-art BERT-based models for hate category classification, intensity prediction, target identification, and span detection.",
+        "tags": [
+          "llm",
+          "research",
+          "multimodal"
+        ],
+        "category": "research",
+        "relevance_score": 0.6,
+        "status": "published",
+        "created_at": "2026-07-02T18:37:51.800260+08:00",
+        "updated_at": "2026-07-02T18:37:51.800262+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

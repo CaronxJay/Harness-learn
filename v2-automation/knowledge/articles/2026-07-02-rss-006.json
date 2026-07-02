@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-02-rss-006",
+  "title": "阿拉伯文化与社会语言学知识的前沿LLM基准测试：跨评估框架与人类专家真实数据",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.00139",
+  "language": "en",
+  "summary": "提出一个跨评估框架，用于测试前沿LLM在阿拉伯文化和社会语言学知识上的表现。包含103个经过验证的提示-评分标准对，由母语专家评分。结果表明GPT-5.4是最可靠的评判者，文化任务比语言任务更难评分，模型在埃及阿拉伯语提示上表现优于伊拉克阿拉伯语提示。",
+  "summary_en": "Proposes a cross-evaluation framework for benchmarking frontier LLMs on Arabic cultural and sociolinguistic knowledge, with 103 validated prompt-rubric pairs graded by native-speaker SMEs. GPT-5.4 is the most reliable judge; cultural tasks are harder to grade than linguistic tasks.",
+  "tags": [
+    "llm",
+    "benchmark",
+    "evaluation",
+    "multimodal"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-07-02T18:37:51.800248+08:00",
+  "updated_at": "2026-07-02T18:37:51.800249+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

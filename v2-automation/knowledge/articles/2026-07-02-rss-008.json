@@ -1,0 +1,24 @@
+{
+  "id": "2026-07-02-rss-008",
+  "title": "MMM数据模型：去中心化知识共享的规范规范",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.00032",
+  "language": "en",
+  "summary": "MMM是一种为知识文档设计的数据模型，结合少量规范约束与自由文本标签的灵活性，旨在跨学科、应用和部署实现互操作性，无需语义统一。参考实现和试点部署数据证明了其可实现性和早期可用性。",
+  "summary_en": "MMM is a data model for knowledge documentation that combines a small set of normative constraints with the expressive freedom of free-text labels, designed for interoperability across disciplines, applications, and deployments without requiring semantic convergence. A reference implementation and pilot deployment data demonstrate implementability and early usability.",
+  "tags": [
+    "research",
+    "infrastructure",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.6,
+  "status": "published",
+  "created_at": "2026-07-02T18:37:51.800256+08:00",
+  "updated_at": "2026-07-02T18:37:51.800258+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

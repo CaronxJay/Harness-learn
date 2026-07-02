@@ -1,0 +1,26 @@
+{
+  "id": "2026-07-02-rss-002",
+  "title": "安全失败：一种用于开放网络数据收集的约束可验证智能体框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.00035",
+  "language": "en",
+  "summary": "提出一种约束可验证的智能体框架，将LLM输出从自由形式代码转换为类型化JSON收集器配置，结合六类型收集器分类法、模板和效用函数约束、静态Airflow DAG执行、基于规则的质检和结构化反馈修正。实验表明该框架在80个独立源验证任务中以零执行阶段LLM令牌和最低平均耗时运行，为重复调度收集提供了可复用、低成本、可验证的执行路径。",
+  "summary_en": "Proposes a constrained, verifiable agent framework that shifts LLM output from free-form code to typed JSON collector configurations, combining a six-type collector taxonomy, template and utility-function constraints, static Airflow DAG execution, rule-based quality checking, and structured feedback correction. Experiments on 138 tasks show the framework runs with zero execution-stage LLM tokens and the lowest average wall-clock time on 80 independently source-verified tasks, offering a reusable, low-cost, verifiable execution path for repeated scheduled collection.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "research",
+    "application",
+    "tool"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-07-02T18:37:51.800229+08:00",
+  "updated_at": "2026-07-02T18:37:51.800230+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

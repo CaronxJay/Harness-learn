@@ -1,0 +1,24 @@
+{
+  "id": "2026-07-02-rss-004",
+  "title": "可控叙事渲染增强辅助写作",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.00009",
+  "language": "en",
+  "summary": "针对大语言模型在创意写作中面临的安全编辑与失控情节扩展的二元失败问题，提出Loom辅助写作框架。该框架基于故事与话语的叙事学区分，通过三层流水线和意图中心语义链实现叙事意图与渲染密度的精确控制，在保持事件结构完整的同时提升描述强度。评估表明Loom在事实完整性和描述强度上均优于基线。",
+  "summary_en": "To address the binary failure of LLMs in creative writing—oscillating between safe editing and uncontrolled plot expansion—this paper proposes Loom, an assisted writing framework grounded in narratology. It uses a three-layer pipeline and intent-centered chain-of-thought to precisely control narrative intent and rendering density, achieving gains in factual integrity and descriptive intensity over baselines.",
+  "tags": [
+    "llm",
+    "research",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-07-02T18:37:51.800238+08:00",
+  "updated_at": "2026-07-02T18:37:51.800240+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

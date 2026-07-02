@@ -1,0 +1,24 @@
+{
+  "id": "2026-07-02-rss-009",
+  "title": "土耳其语和阿拉伯语仇恨言论检测综合研究",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.00143",
+  "language": "en",
+  "summary": "该研究针对土耳其语和阿拉伯语中的仇恨言论，构建了涵盖五个土耳其语主题和一个阿拉伯语主题的综合数据集，并开发了基于BERT的最先进模型，用于仇恨类别分类、强度预测、目标识别和跨度检测。",
+  "summary_en": "This study introduces a comprehensive hate speech dataset for Turkish and Arabic, covering five Turkish topics and one Arabic topic, and develops state-of-the-art BERT-based models for hate category classification, intensity prediction, target identification, and span detection.",
+  "tags": [
+    "llm",
+    "research",
+    "multimodal"
+  ],
+  "category": "research",
+  "relevance_score": 0.6,
+  "status": "published",
+  "created_at": "2026-07-02T18:37:51.800260+08:00",
+  "updated_at": "2026-07-02T18:37:51.800262+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

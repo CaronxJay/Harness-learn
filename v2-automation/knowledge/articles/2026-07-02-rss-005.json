@@ -1,0 +1,24 @@
+{
+  "id": "2026-07-02-rss-005",
+  "title": "利用潜在空间：从引导向量到模型校准器以实现控制与信任",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.00083",
+  "language": "en",
+  "summary": "本文探讨了如何利用语言模型的潜在空间，通过提出引导向量来控制模型行为，并开发基于潜在空间的模型校准器来评估输出可信度，从而构建更值得信赖的语言技术。",
+  "summary_en": "This paper explores harnessing the latent spaces of language models by proposing steering vectors for control and developing latent space-based model calibrators for trust, aiming to build more trustworthy language technology.",
+  "tags": [
+    "llm",
+    "research",
+    "security"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-07-02T18:37:51.800243+08:00",
+  "updated_at": "2026-07-02T18:37:51.800245+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
