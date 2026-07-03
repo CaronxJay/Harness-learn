@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-03-rss-008",
+  "title": "Agent4cs：面向大型分层代码库的多智能体代码摘要系统",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.01425",
+  "language": "en",
+  "summary": "Agent4cs是一个多智能体框架，通过自底向上的方式对大型代码库进行摘要。它包含三个智能体：摘要生成、关键词提取和质量保证，分别负责生成摘要、识别关键信息和迭代优化输出。在7个前沿模型上评估，语义一致性平均提升8%，关键词覆盖率提升高达38%。",
+  "summary_en": "Agent4cs is a multi-agent framework for summarizing large codebases in a bottom-up manner. It consists of three agents: summarization, keyword extraction, and quality assurance. Evaluated on 7 frontier models, it achieves an average 8% improvement in semantic consistency and up to 38% gain in keyword coverage.",
+  "tags": [
+    "agent-framework",
+    "research",
+    "tool",
+    "llm"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-07-03T18:34:21.859637+08:00",
+  "updated_at": "2026-07-03T18:34:21.859639+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

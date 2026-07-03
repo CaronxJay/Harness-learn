@@ -1,0 +1,26 @@
+{
+  "id": "2026-07-03-github-009",
+  "title": "全栈与AI/ML/Agent资源大全",
+  "source": "github_trending",
+  "source_url": "https://github.com/Ashfaque965/Awesome-Master-Resource-Guide-Web2-Web3-AIML-System-Design",
+  "language": "en",
+  "summary": "精选全栈、MERN、Web2、Web3、区块链、AI、ML、深度学习、神经网络、LLM、生成式AI、Agentic AI、RAG、LangChain、n8n、MLOps、系统设计、DevOps、云、DSA及软件工程资源，助力成为精英开发者与创业创始人。",
+  "summary_en": "Curated collection of resources for Full Stack, MERN, Web2, Web3, Blockchain, AI, ML, Deep Learning, Neural Networks, LLMs, Generative AI, Agentic AI, RAG, LangChain, n8n, MLOps, System Design, DevOps, Cloud, DSA, and Software Engineering.",
+  "tags": [
+    "llm",
+    "application",
+    "agent-framework",
+    "rag",
+    "infrastructure"
+  ],
+  "category": "application",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-07-03T18:34:21.858647+08:00",
+  "updated_at": "2026-07-03T18:34:21.858648+08:00",
+  "metadata": {
+    "stars": 1,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

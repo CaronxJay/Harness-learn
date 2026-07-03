@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-03-rss-007",
+  "title": "Auto-FL-Research：面向联邦学习算法的智能搜索",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.01366",
+  "language": "en",
+  "summary": "提出Auto-FL-Research (AFR)，一个用于联邦学习算法配方搜索的约束编码智能体工作流。智能体可提议并实现候选训练算法，包括服务器聚合规则、客户端更新调度等。在五个医疗FLamby任务和六个LEAF配置上评估，部分任务取得性能提升，同时揭示了种子敏感性和搜索失败案例。",
+  "summary_en": null,
+  "tags": [
+    "research",
+    "application",
+    "agent-framework",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-07-03T18:34:21.859633+08:00",
+  "updated_at": "2026-07-03T18:34:21.859635+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

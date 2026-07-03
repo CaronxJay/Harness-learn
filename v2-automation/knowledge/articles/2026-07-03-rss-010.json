@@ -1,0 +1,24 @@
+{
+  "id": "2026-07-03-rss-010",
+  "title": "SPARCLE：通过对比语言嵌入实现说话者感知的对齐表示",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.01238",
+  "language": "en",
+  "summary": "SPARCLE是一种说话者感知的字素表示模型，通过对比学习将字素与Wav2Vec2声学表示对齐，并融入说话者身份信息。在低资源文本转语音任务中，相比标准字素模型，词错误率降低一半。",
+  "summary_en": "SPARCLE is a speaker-aware grapheme representation model that aligns graphemes with Wav2Vec2 acoustic representations via contrastive learning, conditioned on speaker identity. It halves word error rates in low-resource TTS compared to standard grapheme models.",
+  "tags": [
+    "research",
+    "multimodal",
+    "fine-tuning"
+  ],
+  "category": "research",
+  "relevance_score": 0.7,
+  "status": "published",
+  "created_at": "2026-07-03T18:34:21.859646+08:00",
+  "updated_at": "2026-07-03T18:34:21.859647+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

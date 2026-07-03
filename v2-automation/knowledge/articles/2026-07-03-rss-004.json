@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-03-rss-004",
+  "title": "BPE分词在LLM安全对齐中的可被利用的漏洞",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.01239",
+  "language": "en",
+  "summary": "研究发现BPE分词会将安全关键词拆分为子词片段，导致LLM安全对齐失效。在5个模型家族上测试，通过优化安全令牌碎片化，80-100%的拒绝提示被翻转，48%产生有害输出。防御实验表明DPO无法稳定关闭ASR，SFT虽能关闭但会导致全局崩溃。",
+  "summary_en": "BPE tokenization fragments safety-critical words, creating exploitable gaps in LLM alignment. Tested on 5 model families, 80-100% refusal flips achieved, 48% producing harmful outputs. DPO fails to close ASR stably; SFT closes it but causes global collapse.",
+  "tags": [
+    "llm",
+    "security",
+    "research",
+    "tokenization"
+  ],
+  "category": "security",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-07-03T18:34:21.859620+08:00",
+  "updated_at": "2026-07-03T18:34:21.859622+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

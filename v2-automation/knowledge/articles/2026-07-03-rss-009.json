@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-03-rss-009",
+  "title": "PACE：一种用于生成合理且可操作的反事实解释的神经符号框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.01306",
+  "language": "en",
+  "summary": "PACE是一个模块化的神经符号框架，通过将神经网络预测模型与符号推理层分离，在生成反事实解释时显式编码领域知识和干预约束，从而产生符合领域知识、可解释且可操作的解释。在Adult Income数据集上的案例研究表明，符号约束能生成更满足领域可行性要求的解释。",
+  "summary_en": "PACE is a modular neuro-symbolic framework that separates neural prediction from symbolic reasoning to enforce domain-specific constraints during counterfactual generation, producing explanations that are consistent with domain knowledge, interpretable, and actionable. A case study on the Adult Income dataset shows symbolic constraints yield explanations that better satisfy domain-specific feasibility requirements.",
+  "tags": [
+    "research",
+    "llm",
+    "explainability",
+    "neuro-symbolic"
+  ],
+  "category": "research",
+  "relevance_score": 0.8,
+  "status": "published",
+  "created_at": "2026-07-03T18:34:21.859641+08:00",
+  "updated_at": "2026-07-03T18:34:21.859643+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-03-rss-006",
+  "title": "TokenScope：面向代码任务的LLM令牌级可解释性工具",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.01235",
+  "language": "en",
+  "summary": "TokenScope是一个交互式可解释性分析工具，用于解码器型LLM，在代码生成过程中暴露令牌级指标、注意力模式和结构信息。支持交互式令牌替换、反事实分支及基于抽象语法树的代码感知聚合，统一解码信号与程序分析，系统研究LLM行为。",
+  "summary_en": "TokenScope is an interactive interpretability tool for decoder-based LLMs that exposes token-level metrics, attention patterns, and structural information during code generation. It supports interactive token replacement, counterfactual branching, and code-aware aggregation via abstract syntax trees, enabling systematic investigation of LLM behavior.",
+  "tags": [
+    "llm",
+    "research",
+    "tool",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-07-03T18:34:21.859629+08:00",
+  "updated_at": "2026-07-03T18:34:21.859631+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

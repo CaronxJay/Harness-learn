@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-03-rss-003",
+  "title": "Kara：基于滑动窗口KV缓存压缩的高效推理LLM服务",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.01237",
+  "language": "en",
+  "summary": "Kara是一种滑动窗口KV缓存压缩方法，通过仅在最近生成的上下文上操作，利用双向注意力评分和选择窗口中的KV对，并设计Token2Chunk模块将选中的KV对扩展为块，以保留灵活的语义信息。Kara适配PagedAttention并构建于vLLM之上，形成KvLLM推理框架，减少KV缓存内存使用并提高输出吞吐量。实验表明其性能一致提升。",
+  "summary_en": "Kara is a sliding-window KV cache compression method that operates only on recently generated context, uses bidirectional attention to score and select KV pairs, and employs a Token2Chunk module to expand selected pairs into chunks for flexible semantic preservation. Adapted to PagedAttention and built on vLLM, the KvLLM framework reduces KV cache memory and improves output throughput, with consistent performance gains.",
+  "tags": [
+    "llm",
+    "infrastructure",
+    "research",
+    "benchmark"
+  ],
+  "category": "infrastructure",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-07-03T18:34:21.859616+08:00",
+  "updated_at": "2026-07-03T18:34:21.859617+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

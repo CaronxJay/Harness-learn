@@ -1,0 +1,26 @@
+{
+  "id": "2026-07-03-rss-005",
+  "title": "客服代理何时应重新考虑？客户服务运营中的难度路由控制",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.01426",
+  "language": "en",
+  "summary": "提出一种难度路由的服务控制架构，通过轻量级路由器将常规会话保留在低成本基线路径上，将操作耦合的会话路由到升级工作流，在关键后端写入前集中进行审议和安全检查。在零售和航空任务上验证了该方法能提高可靠性，且不会导致交互或工具链的盲目扩展。",
+  "summary_en": "Proposes a difficulty-routed service-control architecture that keeps routine sessions on a low-cost baseline path and routes operationally coupled sessions to an escalated workflow, concentrating deliberation before consequential backend writes. Evaluated on retail and airline tasks, showing improved reliability without indiscriminate expansion of interactions or tool chains.",
+  "tags": [
+    "agent-framework",
+    "research",
+    "application",
+    "tool",
+    "benchmark"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-07-03T18:34:21.859625+08:00",
+  "updated_at": "2026-07-03T18:34:21.859626+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

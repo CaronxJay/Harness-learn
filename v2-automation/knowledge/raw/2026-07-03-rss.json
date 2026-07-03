@@ -1,0 +1,477 @@
+{
+  "collected_at": "2026-07-03T18:34:21.860427+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "PACE: A Neuro-Symbolic Framework for Plausible and Actionable Counterfactual Explanations",
+      "url": "https://arxiv.org/abs/2607.01306",
+      "description": "arXiv:2607.01306v1 Announce Type: new \nAbstract: Counterfactual explanations explain machine learning predictions by identifying minimal input changes that would alter a model's decision. Although many existing methods successfully generate prediction-changing alternatives, they often produce unrealistic or infeasible recommendations due to a lack of explicit mechanisms for incorporating domain knowledge and intervention constraints. Neuro-symbolic AI offers a promising direction by combining data-driven predictive models with symbolic reasoning capable of representing human-understandable rules and feasible actions. This paper presents PACE, a modular neuro-symbolic framework for generating feasibility-aware counterfactual explanations. The framework separates prediction and reasoning into two components: a neural predictive model for classification and a symbolic reasoning layer that enforces domain-specific constraints during counterfactual generation. By explicitly modeling feasible interventions, the framework produces explanations consistent with domain knowledge while remaining interpretable and actionable. The approach is model-agnostic and adaptable to domains requiring realistic decision support. A case study is conducted on the Adult Income dataset, combining a multilayer perceptron classifier with Answer Set Programming (ASP) rules encoding feasible modifications to education, occupation, and working hours while preserving immutable attributes. Results highlight the trade-off between counterfactual validity and plausibility and show that symbolic constraints yield explanations that better satisfy domain-specific feasibility requirements, illustrating the potential of neuro-symbolic methods for transparent, feasibility-aware counterfactual explanation in explainable AI.",
+      "pub_date": "Fri, 03 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "PACE：一种用于生成合理且可操作的反事实解释的神经符号框架",
+        "summary": "PACE是一个模块化的神经符号框架，通过将神经网络预测模型与符号推理层分离，在生成反事实解释时显式编码领域知识和干预约束，从而产生符合领域知识、可解释且可操作的解释。在Adult Income数据集上的案例研究表明，符号约束能生成更满足领域可行性要求的解释。",
+        "summary_en": "PACE is a modular neuro-symbolic framework that separates neural prediction from symbolic reasoning to enforce domain-specific constraints during counterfactual generation, producing explanations that are consistent with domain knowledge, interpretable, and actionable. A case study on the Adult Income dataset shows symbolic constraints yield explanations that better satisfy domain-specific feasibility requirements.",
+        "tags": [
+          "research",
+          "llm",
+          "explainability",
+          "neuro-symbolic"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-03-rss-009",
+        "title": "PACE：一种用于生成合理且可操作的反事实解释的神经符号框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.01306",
+        "language": "en",
+        "summary": "PACE是一个模块化的神经符号框架，通过将神经网络预测模型与符号推理层分离，在生成反事实解释时显式编码领域知识和干预约束，从而产生符合领域知识、可解释且可操作的解释。在Adult Income数据集上的案例研究表明，符号约束能生成更满足领域可行性要求的解释。",
+        "summary_en": "PACE is a modular neuro-symbolic framework that separates neural prediction from symbolic reasoning to enforce domain-specific constraints during counterfactual generation, producing explanations that are consistent with domain knowledge, interpretable, and actionable. A case study on the Adult Income dataset shows symbolic constraints yield explanations that better satisfy domain-specific feasibility requirements.",
+        "tags": [
+          "research",
+          "llm",
+          "explainability",
+          "neuro-symbolic"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "status": "published",
+        "created_at": "2026-07-03T18:34:21.859641+08:00",
+        "updated_at": "2026-07-03T18:34:21.859643+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Auto-FL-Research: Agentic Search for Federated Learning Algorithms",
+      "url": "https://arxiv.org/abs/2607.01366",
+      "description": "arXiv:2607.01366v1 Announce Type: new \nAbstract: Federated learning (FL) research often depends on many small but consequential algorithmic choices: optimizer variants, server aggregation rules, local training schedules, normalization, regularization, and model architecture. These choices are expensive to explore manually and difficult to compare fairly when candidate changes can also alter the FL training or evaluation path. In this work, we present Auto-FL-Research (AFR), a constrained coding-agent workflow for FL algorithmic recipe search. Agents may propose and implement candidate training algorithms, including server aggregation rules, client update schedules, local objectives, and registered model variants, while task profiles fix the mutation surface, compute budget, communication contract, and final model evaluation. Each campaign records candidate scores, runtime, edited files, artifacts, and failure status. We evaluate AFR on five healthcare cross-silo FLamby tasks and on grouped-client profiles for the five fixed LEAF datasets plus the LEAF synthetic task. Five-seed repeat evaluations support gains on four FLamby tasks and five of six LEAF profiles, while also exposing seed-sensitive and search-selected failure cases. Same-budget controls show that several gains correspond to FL-recipe changes, whereas other improvements are recovered by fixed-surface scalar controls or fail under repeat or held-out evaluation. These mixed outcomes are part of the contribution: they show how agent-generated candidates can be separated into repeated FL mechanisms, fixed-surface tuning effects, and selected single-run artifacts.",
+      "pub_date": "Fri, 03 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "Auto-FL-Research：面向联邦学习算法的智能搜索",
+        "summary": "提出Auto-FL-Research (AFR)，一个用于联邦学习算法配方搜索的约束编码智能体工作流。智能体可提议并实现候选训练算法，包括服务器聚合规则、客户端更新调度等。在五个医疗FLamby任务和六个LEAF配置上评估，部分任务取得性能提升，同时揭示了种子敏感性和搜索失败案例。",
+        "summary_en": null,
+        "tags": [
+          "research",
+          "application",
+          "agent-framework",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-03-rss-007",
+        "title": "Auto-FL-Research：面向联邦学习算法的智能搜索",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.01366",
+        "language": "en",
+        "summary": "提出Auto-FL-Research (AFR)，一个用于联邦学习算法配方搜索的约束编码智能体工作流。智能体可提议并实现候选训练算法，包括服务器聚合规则、客户端更新调度等。在五个医疗FLamby任务和六个LEAF配置上评估，部分任务取得性能提升，同时揭示了种子敏感性和搜索失败案例。",
+        "summary_en": null,
+        "tags": [
+          "research",
+          "application",
+          "agent-framework",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-07-03T18:34:21.859633+08:00",
+        "updated_at": "2026-07-03T18:34:21.859635+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "The Wiola Architecture for Efficient Small Language Models",
+      "url": "https://arxiv.org/abs/2607.01394",
+      "description": "arXiv:2607.01394v1 Announce Type: new \nAbstract: We present Wiola, a fully original Small Language Model (SLM) architecture built from first principles, sharing no structural lineage with any existing model family including GPT, LLaMA, Mistral, or Falcon. Wiola introduces five independently novel components: (i) Spiral Rotary Positional Encoding (SRPE), which embeds token positions on a three-dimensional helical manifold combining absolute, relative, and hierarchical positional signals; (ii) Gated Cross-Layer Attention (GCLA), providing each decoder layer with soft cross-attention access to compressed summaries of two preceding layers for inter-layer coherence; (iii) Adaptive Token Merging (ATM), which dynamically merges se mantically redundant adjacent tokens in middle network layers to reduce attention complexity without information loss; (iv) Dual Stream Feed-Forward (DSFF), replacing the conventional MLP with two parallel streams fused by a learned per-dimension gate; and (v) WiolaRMSNorm, a modified normalisation introducing a per-dimension learned offset vector that prevents representation collapse. We provide complete mathematical derivations, architectural block diagrams, complexity analyses, and systematic comparisons against GPT-2, LLaMA-2, and Mistral. Wiola is released in four sizes (120M, 360M, 700M, and 1.5B parameters) and is fully compatible with the HuggingFace Transformers ecosystem, with all 22 architectural unit tests passing.",
+      "pub_date": "Fri, 03 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "Wiola架构：高效小型语言模型",
+        "summary": "Wiola是一个从头构建的小型语言模型架构，包含五个原创组件：螺旋旋转位置编码、门控跨层注意力、自适应令牌合并、双流前馈网络和改进的归一化方法。提供四种规模（120M-1.5B参数），兼容HuggingFace生态。",
+        "summary_en": "Wiola is a fully original SLM architecture with five novel components: Spiral Rotary Positional Encoding, Gated Cross-Layer Attention, Adaptive Token Merging, Dual Stream Feed-Forward, and WiolaRMSNorm. Available in four sizes (120M-1.5B), compatible with HuggingFace.",
+        "tags": [
+          "llm",
+          "research",
+          "open-source",
+          "infrastructure"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-03-rss-001",
+        "title": "Wiola架构：高效小型语言模型",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.01394",
+        "language": "en",
+        "summary": "Wiola是一个从头构建的小型语言模型架构，包含五个原创组件：螺旋旋转位置编码、门控跨层注意力、自适应令牌合并、双流前馈网络和改进的归一化方法。提供四种规模（120M-1.5B参数），兼容HuggingFace生态。",
+        "summary_en": "Wiola is a fully original SLM architecture with five novel components: Spiral Rotary Positional Encoding, Gated Cross-Layer Attention, Adaptive Token Merging, Dual Stream Feed-Forward, and WiolaRMSNorm. Available in four sizes (120M-1.5B), compatible with HuggingFace.",
+        "tags": [
+          "llm",
+          "research",
+          "open-source",
+          "infrastructure"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-07-03T18:34:21.859603+08:00",
+        "updated_at": "2026-07-03T18:34:21.859607+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Agent4cs: A Multi-agent System for Code Summarization in Large Hierarchical Codebases",
+      "url": "https://arxiv.org/abs/2607.01425",
+      "description": "arXiv:2607.01425v1 Announce Type: new \nAbstract: Understanding large, complex codebases, especially those with obfuscated structures and incomplete documentation, remains a significant challenge. Existing code summarization solutions often rely on a single language model or coding assistant like Claude Code, and treat source code as flat text, underutilizing the rich interdependencies and hierarchical information within a repository. To address these shortcomings, we propose Agent4cs - a multi-agent framework that summarizes large codebases in a bottom-up fashion, where a summarization agent focuses on producing robust summaries; a keyword-extraction agent proactively identifies critical information from subfolders; and a quality-assurance agent iteratively refines the outputs for readability, coherence, and completeness. Evaluated on 7 frontier models, Agent4cs improves semantic consistency across all folder levels by average 8% compared to two structured prompting baselines with code segments. Furthermore, extensive evaluation on real-world datasets demonstrates up to 38% gains in normalized keyword coverage rate over the same baselines.",
+      "pub_date": "Fri, 03 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "Agent4cs：面向大型分层代码库的多智能体代码摘要系统",
+        "summary": "Agent4cs是一个多智能体框架，通过自底向上的方式对大型代码库进行摘要。它包含三个智能体：摘要生成、关键词提取和质量保证，分别负责生成摘要、识别关键信息和迭代优化输出。在7个前沿模型上评估，语义一致性平均提升8%，关键词覆盖率提升高达38%。",
+        "summary_en": "Agent4cs is a multi-agent framework for summarizing large codebases in a bottom-up manner. It consists of three agents: summarization, keyword extraction, and quality assurance. Evaluated on 7 frontier models, it achieves an average 8% improvement in semantic consistency and up to 38% gain in keyword coverage.",
+        "tags": [
+          "agent-framework",
+          "research",
+          "tool",
+          "llm"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-03-rss-008",
+        "title": "Agent4cs：面向大型分层代码库的多智能体代码摘要系统",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.01425",
+        "language": "en",
+        "summary": "Agent4cs是一个多智能体框架，通过自底向上的方式对大型代码库进行摘要。它包含三个智能体：摘要生成、关键词提取和质量保证，分别负责生成摘要、识别关键信息和迭代优化输出。在7个前沿模型上评估，语义一致性平均提升8%，关键词覆盖率提升高达38%。",
+        "summary_en": "Agent4cs is a multi-agent framework for summarizing large codebases in a bottom-up manner. It consists of three agents: summarization, keyword extraction, and quality assurance. Evaluated on 7 frontier models, it achieves an average 8% improvement in semantic consistency and up to 38% gain in keyword coverage.",
+        "tags": [
+          "agent-framework",
+          "research",
+          "tool",
+          "llm"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-07-03T18:34:21.859637+08:00",
+        "updated_at": "2026-07-03T18:34:21.859639+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "When Should Service Agents Reconsider? Difficulty-Routed Control in Customer-Service Operations",
+      "url": "https://arxiv.org/abs/2607.01426",
+      "description": "arXiv:2607.01426v1 Announce Type: new \nAbstract: Autonomous customer-service agents are shifting from conversational interfaces toward operational execution roles: they retrieve firm records, apply service policies, and execute backend writes such as refunds, cancellations, exchanges, order modifications, and reservation changes. This shift creates a service-control problem: firms must keep routine service fast and low-friction while preventing operational errors on requests where customer instructions, policy constraints, firm records, and backend writes interact. We propose a difficulty-routed service-control architecture that asks when service agents should reconsider before acting. A lightweight router keeps routine sessions on a low-cost baseline path and routes operationally coupled sessions to an escalated workflow. The escalated path uses conflict-aware communication and write-triggered reconsideration to concentrate deliberation and safeguards before consequential backend writes, rather than applying additional control uniformly across all service sessions. We evaluate the architecture on human-verified retail and airline tasks from $\\tau^{2}$-bench. In retail, the method improves reliability consistently on service requests with operational conflict. Routing evidence shows that stronger control is directed toward conflicted requests rather than broadly applied to routine ones. Dialogue and tool-use profiles suggest that gains do not come from indiscriminate interaction expansion or broader tool chains; instead, added turns and tool calls support evidence gathering, write separation, and pre-write reconsideration. Case-level evidence shows that the escalated workflow preserves fallback plans, binds retrieved records to the correct action, sequences writes, and decomposes multi-entity requests. Airline results extend the same service-control logic to reservation operations.",
+      "pub_date": "Fri, 03 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "客服代理何时应重新考虑？客户服务运营中的难度路由控制",
+        "summary": "提出一种难度路由的服务控制架构，通过轻量级路由器将常规会话保留在低成本基线路径上，将操作耦合的会话路由到升级工作流，在关键后端写入前集中进行审议和安全检查。在零售和航空任务上验证了该方法能提高可靠性，且不会导致交互或工具链的盲目扩展。",
+        "summary_en": "Proposes a difficulty-routed service-control architecture that keeps routine sessions on a low-cost baseline path and routes operationally coupled sessions to an escalated workflow, concentrating deliberation before consequential backend writes. Evaluated on retail and airline tasks, showing improved reliability without indiscriminate expansion of interactions or tool chains.",
+        "tags": [
+          "agent-framework",
+          "research",
+          "application",
+          "tool",
+          "benchmark"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-03-rss-005",
+        "title": "客服代理何时应重新考虑？客户服务运营中的难度路由控制",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.01426",
+        "language": "en",
+        "summary": "提出一种难度路由的服务控制架构，通过轻量级路由器将常规会话保留在低成本基线路径上，将操作耦合的会话路由到升级工作流，在关键后端写入前集中进行审议和安全检查。在零售和航空任务上验证了该方法能提高可靠性，且不会导致交互或工具链的盲目扩展。",
+        "summary_en": "Proposes a difficulty-routed service-control architecture that keeps routine sessions on a low-cost baseline path and routes operationally coupled sessions to an escalated workflow, concentrating deliberation before consequential backend writes. Evaluated on retail and airline tasks, showing improved reliability without indiscriminate expansion of interactions or tool chains.",
+        "tags": [
+          "agent-framework",
+          "research",
+          "application",
+          "tool",
+          "benchmark"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-07-03T18:34:21.859625+08:00",
+        "updated_at": "2026-07-03T18:34:21.859626+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "TokenScope: Token-Level Explainability and Interpretability for Code-Oriented Tasks in Large Language Models",
+      "url": "https://arxiv.org/abs/2607.01235",
+      "description": "arXiv:2607.01235v1 Announce Type: new \nAbstract: Understanding how Large Language Models (LLMs) make token-level decisions during code generation remains a major challenge for both researchers and practitioners. While recent tools provide insights into model internals or generation outcomes, they often lack decoding-time signals, fine-grained uncertainty measures, and interactive mechanisms for exploring alternative generation paths. We present TokenScope, an interactive interpretability and analysis tool for decoder-based LLMs that exposes token-level metrics, attention patterns, and structural information during generation. TokenScope supports interactive token replacement, counterfactual branching, and code-aware aggregation via abstract syntax trees. By unifying decoding-time signals with structural program analysis, TokenScope enables systematic investigation of LLM behaviour during code generation.",
+      "pub_date": "Fri, 03 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "TokenScope：面向代码任务的LLM令牌级可解释性工具",
+        "summary": "TokenScope是一个交互式可解释性分析工具，用于解码器型LLM，在代码生成过程中暴露令牌级指标、注意力模式和结构信息。支持交互式令牌替换、反事实分支及基于抽象语法树的代码感知聚合，统一解码信号与程序分析，系统研究LLM行为。",
+        "summary_en": "TokenScope is an interactive interpretability tool for decoder-based LLMs that exposes token-level metrics, attention patterns, and structural information during code generation. It supports interactive token replacement, counterfactual branching, and code-aware aggregation via abstract syntax trees, enabling systematic investigation of LLM behavior.",
+        "tags": [
+          "llm",
+          "research",
+          "tool",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-03-rss-006",
+        "title": "TokenScope：面向代码任务的LLM令牌级可解释性工具",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.01235",
+        "language": "en",
+        "summary": "TokenScope是一个交互式可解释性分析工具，用于解码器型LLM，在代码生成过程中暴露令牌级指标、注意力模式和结构信息。支持交互式令牌替换、反事实分支及基于抽象语法树的代码感知聚合，统一解码信号与程序分析，系统研究LLM行为。",
+        "summary_en": "TokenScope is an interactive interpretability tool for decoder-based LLMs that exposes token-level metrics, attention patterns, and structural information during code generation. It supports interactive token replacement, counterfactual branching, and code-aware aggregation via abstract syntax trees, enabling systematic investigation of LLM behavior.",
+        "tags": [
+          "llm",
+          "research",
+          "tool",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-07-03T18:34:21.859629+08:00",
+        "updated_at": "2026-07-03T18:34:21.859631+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Safeguarding LLM Agents from Misalignment through Provenance Analysis",
+      "url": "https://arxiv.org/abs/2607.01236",
+      "description": "arXiv:2607.01236v1 Announce Type: new \nAbstract: As LLM agents gain increasing access to powerful tools, ensuring that their actions are aligned with the user's intent becomes critical. When an agent's proposed tool invocation deviates from the user's intent -- a phenomenon called misalignment -- it may lead to harmful consequences that are difficult to undo. Existing runtime guardrails rely on an LLM-as-a-judge paradigm that lacks a systematic framework for reasoning about alignment, often producing judgments that are inconsistent or difficult to audit. Motivated by provenance analysis, we propose a provenance-based conceptual framework that formalizes misalignment detection as determining whether a proposed tool call is supported by traceable evidence in the agent's context. Building on this framework, we propose ProvenanceGuard, a multi-stage pipeline that analyzes the agent's action for three types of misalignment before the selected tool is executed and only allows the action to take place when it is considered aligned with the user's input query. We evaluated our proposed approach on two different benchmarks, Agent-SafetyBench and WorkBench, across 10 backbone LLMs. Compared to the LLM-as-a-judge baseline, ProvenanceGuard reduces error rate on misaligned traces from 42.9% to 1.8% on Agent-SafetyBench and from 32.1% to 17.3% on WorkBench, while reducing intervention burden on task-successful traces from 30.5% to 12.8% and introducing no statistically significant increase in unnecessary interventions on aligned traces. These results demonstrate that structured, provenance-based reasoning provides an effective and practical foundation for safeguarding LLM agents from misalignment.",
+      "pub_date": "Fri, 03 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "基于溯源分析的LLM智能体对齐保护",
+        "summary": "提出ProvenanceGuard，一种基于溯源分析的多阶段管道，在工具执行前检测LLM智能体的三种错位行为。在Agent-SafetyBench和WorkBench上，相比LLM-as-a-judge基线，错误率从42.9%降至1.8%，干预负担从30.5%降至12.8%。",
+        "summary_en": "Proposes ProvenanceGuard, a multi-stage pipeline based on provenance analysis to detect three types of misalignment in LLM agents before tool execution. On Agent-SafetyBench and WorkBench, error rate drops from 42.9% to 1.8% and intervention burden from 30.5% to 12.8% vs. LLM-as-a-judge baseline.",
+        "tags": [
+          "llm",
+          "security",
+          "research",
+          "agent-framework"
+        ],
+        "category": "security",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-03-rss-002",
+        "title": "基于溯源分析的LLM智能体对齐保护",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.01236",
+        "language": "en",
+        "summary": "提出ProvenanceGuard，一种基于溯源分析的多阶段管道，在工具执行前检测LLM智能体的三种错位行为。在Agent-SafetyBench和WorkBench上，相比LLM-as-a-judge基线，错误率从42.9%降至1.8%，干预负担从30.5%降至12.8%。",
+        "summary_en": "Proposes ProvenanceGuard, a multi-stage pipeline based on provenance analysis to detect three types of misalignment in LLM agents before tool execution. On Agent-SafetyBench and WorkBench, error rate drops from 42.9% to 1.8% and intervention burden from 30.5% to 12.8% vs. LLM-as-a-judge baseline.",
+        "tags": [
+          "llm",
+          "security",
+          "research",
+          "agent-framework"
+        ],
+        "category": "security",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-07-03T18:34:21.859611+08:00",
+        "updated_at": "2026-07-03T18:34:21.859613+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Kara: Efficient Reasoning LLM Serving via Sliding-Window KV Cache Compression",
+      "url": "https://arxiv.org/abs/2607.01237",
+      "description": "arXiv:2607.01237v1 Announce Type: new \nAbstract: Reasoning language models often generate long chain-of-thought (CoT), which accumulates a massive KV cache during the decoding phase and incurs high decoding latency and limited throughput. To address these issues, KV cache compression has emerged as a promising technique for reducing memory overhead by selectively removing unimportant KV pairs while preserving useful ones for subsequent decoding. Nevertheless, we identify two key limitations in existing KV cache compression methods: 1) their threshold-triggered compression policy may provide limited throughput improvement or even reduce throughput, and may fully eliminate KV pairs from certain blocks of the sequence, potentially worsening information loss. 2) they typically retain either isolated KV pairs or fixed-size chunks with rigid boundaries, failing to preserve important flexible-sized chunks at arbitrary token positions. To overcome these limitations, we propose Kara, a sliding-window KV cache compression method that performs decoding-time compression by operating only on the recently generated context. Kara leverages bidirectional attention to score and select informative KV pairs in the window. To enable flexible preservation of important semantic information, we design a Token2Chunk module to expand a subset of selected KV pairs into chunks. Furthermore, we adapt Kara to PagedAttention and develop KvLLM, an inference framework built upon vLLM, which reduces KV cache memory usage and effectively improves output throughput. Extensive experiments demonstrate consistent performance improvements of proposed Kara and KvLLM.",
+      "pub_date": "Fri, 03 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "Kara：基于滑动窗口KV缓存压缩的高效推理LLM服务",
+        "summary": "Kara是一种滑动窗口KV缓存压缩方法，通过仅在最近生成的上下文上操作，利用双向注意力评分和选择窗口中的KV对，并设计Token2Chunk模块将选中的KV对扩展为块，以保留灵活的语义信息。Kara适配PagedAttention并构建于vLLM之上，形成KvLLM推理框架，减少KV缓存内存使用并提高输出吞吐量。实验表明其性能一致提升。",
+        "summary_en": "Kara is a sliding-window KV cache compression method that operates only on recently generated context, uses bidirectional attention to score and select KV pairs, and employs a Token2Chunk module to expand selected pairs into chunks for flexible semantic preservation. Adapted to PagedAttention and built on vLLM, the KvLLM framework reduces KV cache memory and improves output throughput, with consistent performance gains.",
+        "tags": [
+          "llm",
+          "infrastructure",
+          "research",
+          "benchmark"
+        ],
+        "category": "infrastructure",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-03-rss-003",
+        "title": "Kara：基于滑动窗口KV缓存压缩的高效推理LLM服务",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.01237",
+        "language": "en",
+        "summary": "Kara是一种滑动窗口KV缓存压缩方法，通过仅在最近生成的上下文上操作，利用双向注意力评分和选择窗口中的KV对，并设计Token2Chunk模块将选中的KV对扩展为块，以保留灵活的语义信息。Kara适配PagedAttention并构建于vLLM之上，形成KvLLM推理框架，减少KV缓存内存使用并提高输出吞吐量。实验表明其性能一致提升。",
+        "summary_en": "Kara is a sliding-window KV cache compression method that operates only on recently generated context, uses bidirectional attention to score and select KV pairs, and employs a Token2Chunk module to expand selected pairs into chunks for flexible semantic preservation. Adapted to PagedAttention and built on vLLM, the KvLLM framework reduces KV cache memory and improves output throughput, with consistent performance gains.",
+        "tags": [
+          "llm",
+          "infrastructure",
+          "research",
+          "benchmark"
+        ],
+        "category": "infrastructure",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-07-03T18:34:21.859616+08:00",
+        "updated_at": "2026-07-03T18:34:21.859617+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "SPARCLE: SPeaker-aware Aligned Representations via Contrastive Language Embeddings",
+      "url": "https://arxiv.org/abs/2607.01238",
+      "description": "arXiv:2607.01238v1 Announce Type: new \nAbstract: Recent advances in speech synthesis have shifted from phoneme representations to direct grapheme modeling. While phonemes address the one-to-many mapping between text and acoustics, they rely on grapheme-to-phoneme (G2P) systems that fail to capture speaker-specific acoustic variation. Prior work demonstrates that grapheme-based models outperform phoneme-based systems at scale, but not in low-resource settings.\n  In this paper, we propose SPARCLE, a speaker-aware grapheme representation model that enriches characters with their precise acoustic realizations. SPARCLE is trained with a contrastive objective to align graphemes with corresponding Wav2Vec2 acoustic representations while conditioned on speaker identity. The resulting model serves as a replacement to G2P systems for downstream text-to-speech (TTS) tasks. We demonstrate that SPARCLE improves generation quality, reducing word error rates by half in extreme low-resource settings compared to standard grapheme-based models.",
+      "pub_date": "Fri, 03 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "SPARCLE：通过对比语言嵌入实现说话者感知的对齐表示",
+        "summary": "SPARCLE是一种说话者感知的字素表示模型，通过对比学习将字素与Wav2Vec2声学表示对齐，并融入说话者身份信息。在低资源文本转语音任务中，相比标准字素模型，词错误率降低一半。",
+        "summary_en": "SPARCLE is a speaker-aware grapheme representation model that aligns graphemes with Wav2Vec2 acoustic representations via contrastive learning, conditioned on speaker identity. It halves word error rates in low-resource TTS compared to standard grapheme models.",
+        "tags": [
+          "research",
+          "multimodal",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 0.7,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-03-rss-010",
+        "title": "SPARCLE：通过对比语言嵌入实现说话者感知的对齐表示",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.01238",
+        "language": "en",
+        "summary": "SPARCLE是一种说话者感知的字素表示模型，通过对比学习将字素与Wav2Vec2声学表示对齐，并融入说话者身份信息。在低资源文本转语音任务中，相比标准字素模型，词错误率降低一半。",
+        "summary_en": "SPARCLE is a speaker-aware grapheme representation model that aligns graphemes with Wav2Vec2 acoustic representations via contrastive learning, conditioned on speaker identity. It halves word error rates in low-resource TTS compared to standard grapheme models.",
+        "tags": [
+          "research",
+          "multimodal",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 0.7,
+        "status": "published",
+        "created_at": "2026-07-03T18:34:21.859646+08:00",
+        "updated_at": "2026-07-03T18:34:21.859647+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Breaking Safety at the Token Boundary: How BPE Tokenization Creates Exploitable Gaps in LLM Alignment",
+      "url": "https://arxiv.org/abs/2607.01239",
+      "description": "arXiv:2607.01239v1 Announce Type: new \nAbstract: Character-level perturbations bypass safety alignment in modern LLMs despite leaving prompts human-readable. We identify and test a central structural mechanism: BPE tokenization fragments safety-critical words into sub-word pieces, and the three public alignment datasets we surveyed contain no intentionally fragmented inputs. The mechanism is a chain, tested end-to-end on five model families (Qwen-3-4B, Qwen-2.5-7B, Gemma-3-4B, Llama-3.1-8B, Mistral-7B). An optimization targeting safety-token fragmentation flips the first-token refusal trigger on 80-100% of refused HarmBench prompts, with 48% of those flips producing genuinely harmful outputs (per-model 29-65%; gap-vs-behavior ROC-AUC 0.66-0.98, pooled 0.84). Activation patching localizes the disrupted signal to the last ${\\sim}30\\%$ of layers; an alignment-data scan finds zero fragmented prompts among 30,000 examples (positive-control recall $\\geq 99\\%$ at attack-relevant intensities); and targeted-mutation experiments isolate safety words as the disruption locus. On the defense side, a 68-cell grid (55 trained checkpoints) shows that no DPO configuration achieves seed- and pool-stable ASR closure on the three families with closed pool-size confounds. SFT trained on fragmented prompts closes ASR on 3/5 families but only via global collapse that raises refusal on benign prompts as well, indicating the missing distribution is necessary but not sufficient under the LoRA-16 recipe we tested. To distinguish selective repair from global collapse, we introduce Conv-Benign, a candidate paired diagnostic. All ASR claims are 3-judge-calibrated (cell rankings stable across judges; absolute levels $\\pm$18pp; see App.~B.13).",
+      "pub_date": "Fri, 03 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "BPE分词在LLM安全对齐中的可被利用的漏洞",
+        "summary": "研究发现BPE分词会将安全关键词拆分为子词片段，导致LLM安全对齐失效。在5个模型家族上测试，通过优化安全令牌碎片化，80-100%的拒绝提示被翻转，48%产生有害输出。防御实验表明DPO无法稳定关闭ASR，SFT虽能关闭但会导致全局崩溃。",
+        "summary_en": "BPE tokenization fragments safety-critical words, creating exploitable gaps in LLM alignment. Tested on 5 model families, 80-100% refusal flips achieved, 48% producing harmful outputs. DPO fails to close ASR stably; SFT closes it but causes global collapse.",
+        "tags": [
+          "llm",
+          "security",
+          "research",
+          "tokenization"
+        ],
+        "category": "security",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-03-rss-004",
+        "title": "BPE分词在LLM安全对齐中的可被利用的漏洞",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.01239",
+        "language": "en",
+        "summary": "研究发现BPE分词会将安全关键词拆分为子词片段，导致LLM安全对齐失效。在5个模型家族上测试，通过优化安全令牌碎片化，80-100%的拒绝提示被翻转，48%产生有害输出。防御实验表明DPO无法稳定关闭ASR，SFT虽能关闭但会导致全局崩溃。",
+        "summary_en": "BPE tokenization fragments safety-critical words, creating exploitable gaps in LLM alignment. Tested on 5 model families, 80-100% refusal flips achieved, 48% producing harmful outputs. DPO fails to close ASR stably; SFT closes it but causes global collapse.",
+        "tags": [
+          "llm",
+          "security",
+          "research",
+          "tokenization"
+        ],
+        "category": "security",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-07-03T18:34:21.859620+08:00",
+        "updated_at": "2026-07-03T18:34:21.859622+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

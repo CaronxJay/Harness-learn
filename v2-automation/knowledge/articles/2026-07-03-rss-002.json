@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-03-rss-002",
+  "title": "基于溯源分析的LLM智能体对齐保护",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.01236",
+  "language": "en",
+  "summary": "提出ProvenanceGuard，一种基于溯源分析的多阶段管道，在工具执行前检测LLM智能体的三种错位行为。在Agent-SafetyBench和WorkBench上，相比LLM-as-a-judge基线，错误率从42.9%降至1.8%，干预负担从30.5%降至12.8%。",
+  "summary_en": "Proposes ProvenanceGuard, a multi-stage pipeline based on provenance analysis to detect three types of misalignment in LLM agents before tool execution. On Agent-SafetyBench and WorkBench, error rate drops from 42.9% to 1.8% and intervention burden from 30.5% to 12.8% vs. LLM-as-a-judge baseline.",
+  "tags": [
+    "llm",
+    "security",
+    "research",
+    "agent-framework"
+  ],
+  "category": "security",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-07-03T18:34:21.859611+08:00",
+  "updated_at": "2026-07-03T18:34:21.859613+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
