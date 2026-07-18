@@ -169,7 +169,9 @@ python bot/knowledge_bot.py
 > *日消耗为估算值，包含：单篇分析 (~2000 in, ~500 out)、批量审核 (~4000 in, ~500 out)、修正 (~4000 in, ~500 out)，总计约 48K 输入 + 15K 输出 token/天。*
 
 **推荐配置：** DeepSeek，月度成本可控制在 **¥2.5 以内**。可配合 `BUDGET_YUAN` 环境变量设置熔断上限。
+
 **QQ BOT运行截图：**
+
 <img width="627" height="2948" alt="QQ Bot" src="https://github.com/user-attachments/assets/201451f3-4a3a-46cc-bf65-6fecd4bd010e" />
 
 ---
