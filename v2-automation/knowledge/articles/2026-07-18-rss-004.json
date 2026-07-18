@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-18-rss-004",
+  "title": "对话式视觉地点识别",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.14115",
+  "language": "en",
+  "summary": "提出将视觉地点识别从静态检索转向交互式对话推理的新范式。构建了首个大规模对话式地点识别基准DlgQuest-Cities，并设计了统一推理框架，包含跨模态检索器与智能提问器DQ-pilot。通过监督微调与强化学习训练，显著超越基线方法。",
+  "summary_en": "Proposes a paradigm shift from static retrieval to interactive dialogue-driven reasoning for visual place recognition. Introduces DlgQuest-Cities, the first large-scale dialogue-based benchmark, and a unified framework with a cross-modal retriever and intelligent questioner DQ-pilot, trained via supervised fine-tuning and reinforcement learning, outperforming baselines.",
+  "tags": [
+    "research",
+    "multimodal",
+    "benchmark",
+    "rag"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-07-18T17:22:31.392504+08:00",
+  "updated_at": "2026-07-18T17:22:31.392505+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

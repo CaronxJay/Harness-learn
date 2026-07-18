@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-18-rss-003",
+  "title": "RegNetAgents：癌症基因组学跨网络调控驱动因子识别的多智能体框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.14097",
+  "language": "en",
+  "summary": "RegNetAgents是一个面向AI的多智能体框架，用于跨异质基因调控网络的结构化查询驱动调控候选识别。它整合了TCGA和GREmLN网络，对给定焦点基因进行双网络分类、癌症基因过滤和作用模式分配，并通过LangGraph DAG工作流实现。在乳腺癌和结直肠癌焦点基因上，识别出的候选调控因子显著富集OncoKB注释的癌症基因，支持信号特异性。",
+  "summary_en": null,
+  "tags": [
+    "agent-framework",
+    "research",
+    "application",
+    "multimodal"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-07-18T17:22:31.392500+08:00",
+  "updated_at": "2026-07-18T17:22:31.392501+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

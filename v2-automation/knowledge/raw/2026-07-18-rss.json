@@ -1,0 +1,240 @@
+{
+  "collected_at": "2026-07-18T17:22:31.393290+08:00",
+  "source": "rss",
+  "count": 5,
+  "items": [
+    {
+      "title": "Intelligent Three Level Learning Architecture for Autonomous UAV Swarms in Search and Rescue",
+      "url": "https://arxiv.org/abs/2607.14093",
+      "description": "arXiv:2607.14093v1 Announce Type: new \nAbstract: This paper presents a novel three level hierarchical learning architecture for autonomous UAV swarms performing search and rescue operations. Unlike conventional approaches that apply a single learning paradigm across all hierarchy levels, the proposed architecture integrates three qualitatively different learning mechanisms corresponding to the biological hierarchy of reflexes, skills, and reasoning such as Hebbian neuroplasticity for individual agent adaptation, multi agent reinforcement learning with graph neural networks and behavior trees for tactical coordination, and model agnostic meta learning with BDI reasoning and a digital twin for strategic decision making.\n  The architecture is formalized through twenty two architectural contracts organized across six components such as BDI, Behavior Trees, GNN, MARL, Neuroplasticity, Meta Learning that collectively provide six classes of formal guarantees such as safety, budget correctness, optimality, liveness, starvation freedom, and inter level consistency.\n  We introduce Swarm Meta Cognition as a compositional property arising from the structured interaction of all three levels, enabling the swarm to monitor its own cognitive state and switch between cognitive strategies. Five constructive progress functions for SAR task types bridge the gap between abstract optimization theory and concrete operational scenarios.\n  The main integration theorem establishes that when all contracts are satisfied, the hybrid neuro-symbolic system preserves all six guarantee classes. For the dynamic case with active learning, five new contracts extend the framework with three additional guarantees such as cognitive resilience, graceful degradation, and monotonic meta improvement. Theoretical analysis demonstrates that the architecture addresses five fundamental limitations of existing hierarchical RL approaches.",
+      "pub_date": "Sat, 18 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "面向搜救任务的自主无人机蜂群智能三级学习架构",
+        "summary": "提出一种新颖的三级分层学习架构，集成Hebbian神经可塑性、多智能体强化学习与图神经网络、行为树以及元学习与BDI推理，通过22个架构契约提供六类形式化保证，并引入蜂群元认知能力，解决了现有分层强化学习的五个基本局限。",
+        "summary_en": null,
+        "tags": [
+          "research",
+          "multimodal",
+          "agent-framework",
+          "reinforcement-learning"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-18-rss-002",
+        "title": "面向搜救任务的自主无人机蜂群智能三级学习架构",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.14093",
+        "language": "en",
+        "summary": "提出一种新颖的三级分层学习架构，集成Hebbian神经可塑性、多智能体强化学习与图神经网络、行为树以及元学习与BDI推理，通过22个架构契约提供六类形式化保证，并引入蜂群元认知能力，解决了现有分层强化学习的五个基本局限。",
+        "summary_en": null,
+        "tags": [
+          "research",
+          "multimodal",
+          "agent-framework",
+          "reinforcement-learning"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-07-18T17:22:31.392495+08:00",
+        "updated_at": "2026-07-18T17:22:31.392497+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "HG-RAG: Hierarchy-Guided Retrieval-Augmented Generation for Structured Knowledge Graphs",
+      "url": "https://arxiv.org/abs/2607.14095",
+      "description": "arXiv:2607.14095v1 Announce Type: new \nAbstract: Retrieval Augmented Generation (RAG) has proven to be a widely successful process at improving the quality of outputs from a Large Language Model (LLM) for wider context. However, RAG systems typically retrieve context from flat document stores, which struggles when queries require hierarchical or relational reasoning across structured knowledge. I present HG-RAG (Hierarchy-Guided RAG), a framework that performs graph-traversal over a hierarchical knowledge graph to deliver structured context to a language model. My retrieval pipeline resolves a named entity anchor from the query, then expands context upward through parent nodes, laterally through relational neighbors, and downward through child nodes when needed. I evaluate HG-RAG against a dense retrieval baseline across three world scales (18-800 nodes) with four query types: local fact, hierarchical, neighborhood, and multi-hop. Results show HG-RAG consistently outperforms the flat baseline on hierarchical, relational, and multi-hop reasoning tasks, while reducing hallucination and maintaining locality coherence.",
+      "pub_date": "Sat, 18 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "HG-RAG：面向结构化知识图谱的层级引导检索增强生成",
+        "summary": "HG-RAG是一种层级引导的RAG框架，通过在层级知识图谱上进行图遍历，为语言模型提供结构化上下文。其检索流程先解析查询中的命名实体锚点，再向上、横向、向下扩展上下文。在三个规模（18-800节点）和四种查询类型上的评估表明，HG-RAG在层级、关系和多跳推理任务上持续优于平面基线，同时减少幻觉并保持局部连贯性。",
+        "summary_en": "HG-RAG is a hierarchy-guided RAG framework that performs graph traversal over a hierarchical knowledge graph to deliver structured context to an LLM. It resolves a named entity anchor from the query, then expands context upward, laterally, and downward. Evaluated across three world scales and four query types, HG-RAG consistently outperforms flat baselines on hierarchical, relational, and multi-hop reasoning tasks while reducing hallucination.",
+        "tags": [
+          "rag",
+          "research",
+          "knowledge-graph",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-18-rss-001",
+        "title": "HG-RAG：面向结构化知识图谱的层级引导检索增强生成",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.14095",
+        "language": "en",
+        "summary": "HG-RAG是一种层级引导的RAG框架，通过在层级知识图谱上进行图遍历，为语言模型提供结构化上下文。其检索流程先解析查询中的命名实体锚点，再向上、横向、向下扩展上下文。在三个规模（18-800节点）和四种查询类型上的评估表明，HG-RAG在层级、关系和多跳推理任务上持续优于平面基线，同时减少幻觉并保持局部连贯性。",
+        "summary_en": "HG-RAG is a hierarchy-guided RAG framework that performs graph traversal over a hierarchical knowledge graph to deliver structured context to an LLM. It resolves a named entity anchor from the query, then expands context upward, laterally, and downward. Evaluated across three world scales and four query types, HG-RAG consistently outperforms flat baselines on hierarchical, relational, and multi-hop reasoning tasks while reducing hallucination.",
+        "tags": [
+          "rag",
+          "research",
+          "knowledge-graph",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-07-18T17:22:31.392486+08:00",
+        "updated_at": "2026-07-18T17:22:31.392491+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "IMEX Interaction-Based Model Explanation",
+      "url": "https://arxiv.org/abs/2607.14096",
+      "description": "arXiv:2607.14096v1 Announce Type: new \nAbstract: In predictive modeling, the ability to explain why a model produces a given target prediction has become increasingly important [5, 10]. Black-box models do not provide a transparent description of the internal mechanisms that generate the prediction, making even accurate predictions difficult to interpret and validate. In critical contexts, predictive accuracy alone is not a sufficient validation metric if the reasons underlying model decisions remain unexplained. The IMEX (Interaction-Based Model Explanation) approach represents a methodological direction within explainable predictive modeling. IMEX is designed to identify which variables contribute most to the target prediction and which interactions among variables are significant in determining the target. The method does not impose limitations on higher-order interaction analysis, allowing the investigation of feature subsets with cardinality greater than two. Beyond the identification of feature importance, IMEX enables the exploration of interaction patterns that may be consistent with latent mechanisms influencing the outcome. Through the application of the IMEX algorithm, it is possible to construct an interpretability map of the predictions. The IMEX framework is built on two complementary metrics: Static Correlation Power (PCS), which quantifies the contribution of individual features, and Interaction Correlation Power (PCI), which captures non-additive effects among features. In the present work, the PCS component is experimentally validated through a comparison with INVASE [18] on three synthetic datasets with known structures. The results indicate that IMEX can recover relevant feature-level structures in the presence of non-linear, conditional, and multicollinear relationships between input features and prediction targets.",
+      "pub_date": "Sat, 18 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "IMEX：基于交互的模型解释方法",
+        "summary": "IMEX是一种可解释预测建模方法，通过静态相关功率(PCS)和交互相关功率(PCI)两个互补指标，识别对预测贡献最大的变量及变量间交互作用，支持高阶交互分析，构建预测的可解释性图谱。实验验证了PCS在非线性、条件性和多重共线性关系下恢复特征结构的能力。",
+        "summary_en": "IMEX is an explainable predictive modeling approach that uses two complementary metrics, Static Correlation Power (PCS) and Interaction Correlation Power (PCI), to identify important variables and interactions, supporting higher-order analysis. Experiments validate PCS's ability to recover feature structures under non-linear, conditional, and multicollinear relationships.",
+        "tags": [
+          "research",
+          "llm",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.7,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-18-rss-005",
+        "title": "IMEX：基于交互的模型解释方法",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.14096",
+        "language": "en",
+        "summary": "IMEX是一种可解释预测建模方法，通过静态相关功率(PCS)和交互相关功率(PCI)两个互补指标，识别对预测贡献最大的变量及变量间交互作用，支持高阶交互分析，构建预测的可解释性图谱。实验验证了PCS在非线性、条件性和多重共线性关系下恢复特征结构的能力。",
+        "summary_en": "IMEX is an explainable predictive modeling approach that uses two complementary metrics, Static Correlation Power (PCS) and Interaction Correlation Power (PCI), to identify important variables and interactions, supporting higher-order analysis. Experiments validate PCS's ability to recover feature structures under non-linear, conditional, and multicollinear relationships.",
+        "tags": [
+          "research",
+          "llm",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.7,
+        "status": "published",
+        "created_at": "2026-07-18T17:22:31.392508+08:00",
+        "updated_at": "2026-07-18T17:22:31.392509+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "RegNetAgents: A Multi-Agent Framework for Cross-Network Regulatory Driver Identification in Cancer Genomics",
+      "url": "https://arxiv.org/abs/2607.14097",
+      "description": "arXiv:2607.14097v1 Announce Type: new \nAbstract: We introduce RegNetAgents, an AI-oriented multi-agent framework for structured, query-driven regulatory candidate identification across heterogeneous gene regulatory networks. The system enables unified analysis of bulk tumor and single-cell-derived ARACNe networks by integrating TCGA-derived cancer networks with large-scale single-cell regulatory networks from the GREmLN project. For a given focal gene, the framework performs dual-network classification, cancer gene filtering using OncoKB annotations, and mode-of-action (MoA) assignment for tumor-derived regulatory relationships. Candidates are ranked by evidence consistency across networks (Both, TCGA-only, GREmLN-only). The system is implemented as a multi-agent LangGraph DAG workflow, accessible through a unified Python API and Model Context Protocol (MCP) client, operating as a downstream analytical layer over precomputed regulatory networks rather than a network inference method. Across eleven breast cancer (BRCA) and twelve colorectal cancer (COAD) focal genes, RegNetAgents identifies candidate regulators significantly enriched for OncoKB-annotated cancer genes. TCGA-derived candidates show strong enrichment (Stouffer Z = 6.69 for BRCA and 6.95 for COAD), while GREmLN-derived candidates also demonstrate significant enrichment (Z = 5.51 for BRCA and 7.06 for COAD; all p < 0.0001). No enrichment is observed in housekeeping or non-driver control gene sets, supporting signal specificity. An extended module enables structured evaluation of oncogenic potential, druggability, clinical relevance, and network vulnerability, supporting end-to-end interpretation from candidate identification to biological hypothesis generation. RegNetAgents establishes an interpretable AI framework for cross-network regulatory candidate identification in cancer genomics.",
+      "pub_date": "Sat, 18 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "RegNetAgents：癌症基因组学跨网络调控驱动因子识别的多智能体框架",
+        "summary": "RegNetAgents是一个面向AI的多智能体框架，用于跨异质基因调控网络的结构化查询驱动调控候选识别。它整合了TCGA和GREmLN网络，对给定焦点基因进行双网络分类、癌症基因过滤和作用模式分配，并通过LangGraph DAG工作流实现。在乳腺癌和结直肠癌焦点基因上，识别出的候选调控因子显著富集OncoKB注释的癌症基因，支持信号特异性。",
+        "summary_en": null,
+        "tags": [
+          "agent-framework",
+          "research",
+          "application",
+          "multimodal"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-18-rss-003",
+        "title": "RegNetAgents：癌症基因组学跨网络调控驱动因子识别的多智能体框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.14097",
+        "language": "en",
+        "summary": "RegNetAgents是一个面向AI的多智能体框架，用于跨异质基因调控网络的结构化查询驱动调控候选识别。它整合了TCGA和GREmLN网络，对给定焦点基因进行双网络分类、癌症基因过滤和作用模式分配，并通过LangGraph DAG工作流实现。在乳腺癌和结直肠癌焦点基因上，识别出的候选调控因子显著富集OncoKB注释的癌症基因，支持信号特异性。",
+        "summary_en": null,
+        "tags": [
+          "agent-framework",
+          "research",
+          "application",
+          "multimodal"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-07-18T17:22:31.392500+08:00",
+        "updated_at": "2026-07-18T17:22:31.392501+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "DialogueVPR: Towards Conversational Visual Place Recognition",
+      "url": "https://arxiv.org/abs/2607.14115",
+      "description": "arXiv:2607.14115v1 Announce Type: new \nAbstract: Inspired by how humans communicate spatial information, language-guided geo-localization has gained significant traction for its intuitive and practical value. Despite this progress, most methods still rely on a static, one-shot retrieval paradigm, which fails to handle the ambiguity and incompleteness inherent in real-world natural language descriptions. We propose a paradigm shift to reasoning retrieval and introduce Dialogue Place Recognition (DlgPR), which casts localization as an interactive, dialogue-driven reasoning process. To support this new task, we present DlgQuest-Cities, the first large-scale dialogue-based benchmark for place recognition, and a unified reasoning framework that couples a cross-modal multi-level retriever with an intelligent questioner, DQ-pilot. DQ-pilot is trained in a curriculum: supervised fine-tuning on a curated DQ-cities-20k subset followed by reinforcement refinement on a harder DQ-cities-10k split via GRPO. Two task-aligned metrics guide learning: a Discriminative Difficulty Index (DDI) for curriculum sampling and a Positional Retrieval Gain (PRG) reward that directly measures retrieval improvement induced by a question. Experiments show this reasoning-based approach significantly outperforms baselines. The code and model are available at https://github.com/Graysonggg/DlgPR.",
+      "pub_date": "Sat, 18 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "对话式视觉地点识别",
+        "summary": "提出将视觉地点识别从静态检索转向交互式对话推理的新范式。构建了首个大规模对话式地点识别基准DlgQuest-Cities，并设计了统一推理框架，包含跨模态检索器与智能提问器DQ-pilot。通过监督微调与强化学习训练，显著超越基线方法。",
+        "summary_en": "Proposes a paradigm shift from static retrieval to interactive dialogue-driven reasoning for visual place recognition. Introduces DlgQuest-Cities, the first large-scale dialogue-based benchmark, and a unified framework with a cross-modal retriever and intelligent questioner DQ-pilot, trained via supervised fine-tuning and reinforcement learning, outperforming baselines.",
+        "tags": [
+          "research",
+          "multimodal",
+          "benchmark",
+          "rag"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-18-rss-004",
+        "title": "对话式视觉地点识别",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.14115",
+        "language": "en",
+        "summary": "提出将视觉地点识别从静态检索转向交互式对话推理的新范式。构建了首个大规模对话式地点识别基准DlgQuest-Cities，并设计了统一推理框架，包含跨模态检索器与智能提问器DQ-pilot。通过监督微调与强化学习训练，显著超越基线方法。",
+        "summary_en": "Proposes a paradigm shift from static retrieval to interactive dialogue-driven reasoning for visual place recognition. Introduces DlgQuest-Cities, the first large-scale dialogue-based benchmark, and a unified framework with a cross-modal retriever and intelligent questioner DQ-pilot, trained via supervised fine-tuning and reinforcement learning, outperforming baselines.",
+        "tags": [
+          "research",
+          "multimodal",
+          "benchmark",
+          "rag"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-07-18T17:22:31.392504+08:00",
+        "updated_at": "2026-07-18T17:22:31.392505+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

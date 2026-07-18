@@ -1,0 +1,26 @@
+{
+  "id": "2026-07-18-github-008",
+  "title": "AI工程师完全指南",
+  "source": "github_trending",
+  "source_url": "https://github.com/bittush8789/AI-Engineer-Playbook",
+  "language": "en",
+  "summary": "一个全面的AI工程师学习路线图，包含Python、机器学习、深度学习、LLM、RAG、AI代理、MLOps、LLMOps、系统设计和面试准备等实践项目。",
+  "summary_en": "A comprehensive AI engineer roadmap with hands-on projects covering Python, ML, DL, LLMs, RAG, AI Agents, MLOps, LLMOps, system design, and interview prep.",
+  "tags": [
+    "llm",
+    "rag",
+    "application",
+    "infrastructure",
+    "open-source"
+  ],
+  "category": "application",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-07-18T17:22:31.391452+08:00",
+  "updated_at": "2026-07-18T17:22:31.391453+08:00",
+  "metadata": {
+    "stars": 1,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

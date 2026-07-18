@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-18-rss-002",
+  "title": "面向搜救任务的自主无人机蜂群智能三级学习架构",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.14093",
+  "language": "en",
+  "summary": "提出一种新颖的三级分层学习架构，集成Hebbian神经可塑性、多智能体强化学习与图神经网络、行为树以及元学习与BDI推理，通过22个架构契约提供六类形式化保证，并引入蜂群元认知能力，解决了现有分层强化学习的五个基本局限。",
+  "summary_en": null,
+  "tags": [
+    "research",
+    "multimodal",
+    "agent-framework",
+    "reinforcement-learning"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-07-18T17:22:31.392495+08:00",
+  "updated_at": "2026-07-18T17:22:31.392497+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

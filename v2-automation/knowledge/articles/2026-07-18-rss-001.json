@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-18-rss-001",
+  "title": "HG-RAG：面向结构化知识图谱的层级引导检索增强生成",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.14095",
+  "language": "en",
+  "summary": "HG-RAG是一种层级引导的RAG框架，通过在层级知识图谱上进行图遍历，为语言模型提供结构化上下文。其检索流程先解析查询中的命名实体锚点，再向上、横向、向下扩展上下文。在三个规模（18-800节点）和四种查询类型上的评估表明，HG-RAG在层级、关系和多跳推理任务上持续优于平面基线，同时减少幻觉并保持局部连贯性。",
+  "summary_en": "HG-RAG is a hierarchy-guided RAG framework that performs graph traversal over a hierarchical knowledge graph to deliver structured context to an LLM. It resolves a named entity anchor from the query, then expands context upward, laterally, and downward. Evaluated across three world scales and four query types, HG-RAG consistently outperforms flat baselines on hierarchical, relational, and multi-hop reasoning tasks while reducing hallucination.",
+  "tags": [
+    "rag",
+    "research",
+    "knowledge-graph",
+    "llm"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-07-18T17:22:31.392486+08:00",
+  "updated_at": "2026-07-18T17:22:31.392491+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "2026-07-18-github-005",
+  "title": "全栈AI与机器学习工程实验室",
+  "source": "github_trending",
+  "source_url": "https://github.com/ksbisht941/ai-engineer",
+  "language": "en",
+  "summary": "一个覆盖Python、统计学、NumPy、Pandas、Matplotlib、机器学习、深度学习（ANN、CNN）、计算机视觉（OpenCV、YOLO）、NLP、LangChain、LangGraph及生成式AI（RAG、LLMs、嵌入、智能体）的全栈AI与ML工程实验室。包含FastAPI和动手项目。",
+  "summary_en": null,
+  "tags": [
+    "llm",
+    "application",
+    "multimodal",
+    "rag",
+    "agent-framework"
+  ],
+  "category": "application",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-07-18T17:22:31.391439+08:00",
+  "updated_at": "2026-07-18T17:22:31.391441+08:00",
+  "metadata": {
+    "stars": 2,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

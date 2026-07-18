@@ -1,0 +1,24 @@
+{
+  "id": "2026-07-18-rss-005",
+  "title": "IMEX：基于交互的模型解释方法",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.14096",
+  "language": "en",
+  "summary": "IMEX是一种可解释预测建模方法，通过静态相关功率(PCS)和交互相关功率(PCI)两个互补指标，识别对预测贡献最大的变量及变量间交互作用，支持高阶交互分析，构建预测的可解释性图谱。实验验证了PCS在非线性、条件性和多重共线性关系下恢复特征结构的能力。",
+  "summary_en": "IMEX is an explainable predictive modeling approach that uses two complementary metrics, Static Correlation Power (PCS) and Interaction Correlation Power (PCI), to identify important variables and interactions, supporting higher-order analysis. Experiments validate PCS's ability to recover feature structures under non-linear, conditional, and multicollinear relationships.",
+  "tags": [
+    "research",
+    "llm",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.7,
+  "status": "published",
+  "created_at": "2026-07-18T17:22:31.392508+08:00",
+  "updated_at": "2026-07-18T17:22:31.392509+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
