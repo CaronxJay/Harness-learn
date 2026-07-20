@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-20-rss-003",
+  "title": "VarRate：免训练可变速率KV缓存压缩技术用于长上下文大语言模型",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.15498",
+  "language": "en",
+  "summary": "VarRate是一种免训练的可变低秩KV缓存压缩方法，通过按查询显著性分配每个token的秩预算，避免token丢弃，在20%预算下性能接近未压缩模型，优于现有方法。",
+  "summary_en": "VarRate is a training-free variable-rate KV cache compression method that allocates low-rank budgets per token based on query salience, avoiding token eviction. At 20% budget, it stays within 0.8 points of uncompressed model on LongBench, outperforming existing methods.",
+  "tags": [
+    "llm",
+    "research",
+    "infrastructure",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-07-20T18:49:53.030401+08:00",
+  "updated_at": "2026-07-20T18:49:53.030401+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

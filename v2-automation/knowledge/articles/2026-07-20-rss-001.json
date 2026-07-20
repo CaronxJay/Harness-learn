@@ -1,0 +1,26 @@
+{
+  "id": "2026-07-20-rss-001",
+  "title": "GraphDx：一种成本感知的知识增强多智能体顺序诊断框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.15280",
+  "language": "en",
+  "summary": "GraphDx提出一种知识增强的多智能体框架，通过自动化构建医学诊断知识图谱（MDKG）和三个协作智能体（感知、推理、决策），在顺序诊断中平衡诊断准确性与资源成本。实验表明，在MedQA和MIMIC-IV上，诊断成功率从50-68%提升至79-93%，测试成本降低20-54%。",
+  "summary_en": "GraphDx proposes a knowledge-enhanced multi-agent framework that automates the construction of Medical Diagnosis Knowledge Graphs (MDKGs) and uses three collaborative agents (Perception, Reasoning, Decision) to balance diagnostic accuracy and resource costs in sequential diagnosis. Experiments on MedQA and MIMIC-IV show diagnostic success rates improve from 50-68% to 79-93% while reducing test costs by 20-54%.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "research",
+    "multimodal",
+    "application"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-07-20T18:49:53.030392+08:00",
+  "updated_at": "2026-07-20T18:49:53.030394+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

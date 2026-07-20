@@ -1,0 +1,26 @@
+{
+  "id": "2026-07-20-github-009",
+  "title": "Java开发者转型AI工程师完整路线图",
+  "source": "github_trending",
+  "source_url": "https://github.com/Naveen-Bandi-Dev/AI-Engineer-Roadmap-Java-to-GenAI",
+  "language": "en",
+  "summary": "提供从Java开发者转型为AI工程师的逐步路线图，涵盖Python、机器学习、深度学习、生成式AI、RAG、智能体AI、LLM工程、微调、MLOps及生产级AI系统。",
+  "summary_en": "A complete step-by-step roadmap for transitioning from Java Developer to AI Engineer, covering Python, Machine Learning, Deep Learning, Generative AI, RAG, Agentic AI, LLM Engineering, Fine-Tuning, MLOps, and Production AI Systems.",
+  "tags": [
+    "llm",
+    "application",
+    "fine-tuning",
+    "rag",
+    "agent-framework"
+  ],
+  "category": "application",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-07-20T18:49:53.029590+08:00",
+  "updated_at": "2026-07-20T18:49:53.029591+08:00",
+  "metadata": {
+    "stars": 1,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

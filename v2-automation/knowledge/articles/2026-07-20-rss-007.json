@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-20-rss-007",
+  "title": "大语言模型作为统一多模态学习器用于临床预测",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.15380",
+  "language": "en",
+  "summary": "提出将电子健康记录中所有模态数据（文本、生命体征、实验室值等）转换为单一自然语言序列，直接微调预训练语言模型，无需特定融合架构。在三个临床预测任务上（MIMIC-III死亡率、移植失败、急诊分诊），该方法匹配或超越多模态基线，并优于临床部署的梯度提升模型，显著降低系统复杂度。",
+  "summary_en": "Proposes converting all patient data modalities into a single natural language sequence and fine-tuning a pretrained LLM end-to-end without task-specific fusion. Evaluated on three clinical prediction tasks, it matches or exceeds multimodal baselines and outperforms a clinically deployed gradient boosting model, reducing system complexity.",
+  "tags": [
+    "llm",
+    "multimodal",
+    "research",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-07-20T18:49:53.030413+08:00",
+  "updated_at": "2026-07-20T18:49:53.030414+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

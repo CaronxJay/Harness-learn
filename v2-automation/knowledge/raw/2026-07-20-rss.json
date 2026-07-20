@@ -1,0 +1,404 @@
+{
+  "collected_at": "2026-07-20T18:49:53.031048+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "GraphDx: A Cost-Aware Knowledge-Enhanced Multi-Agent Framework for Sequential Diagnosis",
+      "url": "https://arxiv.org/abs/2607.15280",
+      "description": "arXiv:2607.15280v1 Announce Type: new \nAbstract: Sequential diagnosis requires balancing diagnostic accuracy against resource costs through iterative information gathering. Existing Large Language Model (LLM) approaches exhibit a critical knowledge-reasoning gap: despite encoding extensive medical knowledge, they struggle to reason systematically under cost constraints, often resorting to excessive testing. We propose GraphDx, a knowledge-enhanced framework with two core innovations. First, we design an automated pipeline that leverages LLMs to construct Medical Diagnosis Knowledge Graphs (MDKGs) with quantized typicality, action-centric topology, and dual-objective attributes for both diagnostic relevance and cost-sensitivity. Second, we introduce three collaborative agents (Perception, Reasoning, and Decision) where the Perception and Decision Agents handle language understanding and generation, while the Reasoning Agent performs deterministic evidence scoring and cost-aware planning on the MDKG. Experiments on MedQA and MIMIC-IV across three LLM backbones (DeepSeek-V3, Kimi-k2, Llama-3.3) show that GraphDx improves diagnostic success rates from 50--68% to 79--93% while reducing test costs by 20--54%, providing a robust, economical, and interpretable solution for automated clinical diagnosis.",
+      "pub_date": "Mon, 20 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "GraphDx：一种成本感知的知识增强多智能体顺序诊断框架",
+        "summary": "GraphDx提出一种知识增强的多智能体框架，通过自动化构建医学诊断知识图谱（MDKG）和三个协作智能体（感知、推理、决策），在顺序诊断中平衡诊断准确性与资源成本。实验表明，在MedQA和MIMIC-IV上，诊断成功率从50-68%提升至79-93%，测试成本降低20-54%。",
+        "summary_en": "GraphDx proposes a knowledge-enhanced multi-agent framework that automates the construction of Medical Diagnosis Knowledge Graphs (MDKGs) and uses three collaborative agents (Perception, Reasoning, Decision) to balance diagnostic accuracy and resource costs in sequential diagnosis. Experiments on MedQA and MIMIC-IV show diagnostic success rates improve from 50-68% to 79-93% while reducing test costs by 20-54%.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "multimodal",
+          "application"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-20-rss-001",
+        "title": "GraphDx：一种成本感知的知识增强多智能体顺序诊断框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.15280",
+        "language": "en",
+        "summary": "GraphDx提出一种知识增强的多智能体框架，通过自动化构建医学诊断知识图谱（MDKG）和三个协作智能体（感知、推理、决策），在顺序诊断中平衡诊断准确性与资源成本。实验表明，在MedQA和MIMIC-IV上，诊断成功率从50-68%提升至79-93%，测试成本降低20-54%。",
+        "summary_en": "GraphDx proposes a knowledge-enhanced multi-agent framework that automates the construction of Medical Diagnosis Knowledge Graphs (MDKGs) and uses three collaborative agents (Perception, Reasoning, Decision) to balance diagnostic accuracy and resource costs in sequential diagnosis. Experiments on MedQA and MIMIC-IV show diagnostic success rates improve from 50-68% to 79-93% while reducing test costs by 20-54%.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "multimodal",
+          "application"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-07-20T18:49:53.030392+08:00",
+        "updated_at": "2026-07-20T18:49:53.030394+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Causal-Audit: Explicit and Auditable Graph-based Reasoning via Target-Aware Causal Chain Construction",
+      "url": "https://arxiv.org/abs/2607.15281",
+      "description": "arXiv:2607.15281v1 Announce Type: new \nAbstract: Causal and intervention-based question answering is fundamental to advancing large language models (LLMs) toward reasoning beyond surface-level correlations and understanding underlying causal mechanisms. However, existing LLM-based methods often rely on implicit language-level reasoning, resulting in opaque causal assumptions, unverifiable reasoning paths, and fragile predictions under complex interventions, particularly in context-free settings. In this paper, we propose an explicit and auditable causal reasoning framework for context-free intervention-based question answering. Our method formulates causal inference as structured reasoning over an explicit causal graph through four modular stages, rather than implicit end-to-end prediction. A key innovation is a target-aware causal graph construction strategy that treats the target variable as a core constraint during graph expansion, effectively suppressing irrelevant variables, spurious causal relations, and reasoning noise. We further introduce a path-level causal evidence aggregation mechanism that combines multiple causal paths while modeling both reinforcing and counteracting effects, enabling robust decision-making beyond single-chain reasoning. Extensive experiments on three benchmarks demonstrate that our framework consistently outperforms existing LLM-based methods while providing interpretable and auditable causal reasoning traces.",
+      "pub_date": "Mon, 20 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "因果审计：基于目标感知因果链构建的显式可审计图推理",
+        "summary": "提出一种显式可审计的因果推理框架，通过目标感知因果图构建和路径级因果证据聚合，实现超越表面相关性的因果推理，在三个基准上优于现有LLM方法。",
+        "summary_en": "Proposes an explicit and auditable causal reasoning framework that constructs target-aware causal graphs and aggregates path-level evidence, outperforming existing LLM methods on three benchmarks for intervention-based QA.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-20-rss-006",
+        "title": "因果审计：基于目标感知因果链构建的显式可审计图推理",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.15281",
+        "language": "en",
+        "summary": "提出一种显式可审计的因果推理框架，通过目标感知因果图构建和路径级因果证据聚合，实现超越表面相关性的因果推理，在三个基准上优于现有LLM方法。",
+        "summary_en": "Proposes an explicit and auditable causal reasoning framework that constructs target-aware causal graphs and aggregates path-level evidence, outperforming existing LLM methods on three benchmarks for intervention-based QA.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-07-20T18:49:53.030410+08:00",
+        "updated_at": "2026-07-20T18:49:53.030411+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Cura 1T: Specialized Model for Agentic Healthcare",
+      "url": "https://arxiv.org/abs/2607.15314",
+      "description": "arXiv:2607.15314v1 Announce Type: new \nAbstract: Healthcare spans high-stakes communication, expert reasoning, and workflow execution, yet specialized LLMs that cover these use cases together remain limited. A healthcare model must handle patient consultation, clinical reasoning over text and images, interactive diagnosis, and electronic health record (EHR) tool use. These capabilities fail in different ways, and a narrow update for one task can degrade another. We present Cura 1T, a healthcare-specialized LLM trained through a human-gated self-evolution loop. In each evolution round, a training agent plans a target capability, trains the model, evaluates benchmark trajectories, and refines the data mixture from observed failures. This data-centered loop improves the model through targeted synthetic and curated examples rather than a single generic medical-data update. Across the healthcare evaluation suite, Cura 1T ranks at or near the top among frontier baselines, while remaining competitive on out-of-domain reasoning and agentic benchmarks.",
+      "pub_date": "Mon, 20 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "Cura 1T：面向医疗代理的专业模型",
+        "summary": "Cura 1T 是一个医疗专用大语言模型，通过人工引导的自我进化循环进行训练。该循环包括训练代理规划目标、训练模型、评估基准轨迹并根据失败优化数据混合。模型在医疗评估套件中达到顶尖水平，同时在通用推理和代理基准上保持竞争力。",
+        "summary_en": "Cura 1T is a healthcare-specialized LLM trained via a human-gated self-evolution loop. A training agent plans capabilities, trains the model, evaluates benchmarks, and refines data mixture from failures. It achieves top performance on healthcare evaluations while remaining competitive on general reasoning and agentic benchmarks.",
+        "tags": [
+          "llm",
+          "fine-tuning",
+          "agent-framework",
+          "application"
+        ],
+        "category": "llm",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-20-rss-002",
+        "title": "Cura 1T：面向医疗代理的专业模型",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.15314",
+        "language": "en",
+        "summary": "Cura 1T 是一个医疗专用大语言模型，通过人工引导的自我进化循环进行训练。该循环包括训练代理规划目标、训练模型、评估基准轨迹并根据失败优化数据混合。模型在医疗评估套件中达到顶尖水平，同时在通用推理和代理基准上保持竞争力。",
+        "summary_en": "Cura 1T is a healthcare-specialized LLM trained via a human-gated self-evolution loop. A training agent plans capabilities, trains the model, evaluates benchmarks, and refines data mixture from failures. It achieves top performance on healthcare evaluations while remaining competitive on general reasoning and agentic benchmarks.",
+        "tags": [
+          "llm",
+          "fine-tuning",
+          "agent-framework",
+          "application"
+        ],
+        "category": "llm",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-07-20T18:49:53.030397+08:00",
+        "updated_at": "2026-07-20T18:49:53.030399+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "AnovaX: A Local, Multi-Agent Voice Assistant with LLM Planning, Typed Executors, and Adaptive Recovery",
+      "url": "https://arxiv.org/abs/2607.15367",
+      "description": "arXiv:2607.15367v1 Announce Type: new \nAbstract: Desktop voice assistants are still dominated by cloud pipelines that ship raw audio off the machine and expose a fixed set of skills. We describe AnovaX, a small local-first assistant that runs entirely on the user's computer and treats the desktop itself as its action surface. A single Python process wires together a wake-word gate, a speech pipeline, an LLM planner (Gemini) that emits a JSON plan of tool calls, a whitelist-and-denylist safety layer, a multi-agent orchestrator that translates each plan into typed child agents on a bounded thread pool, and an adaptive recovery loop that takes over whenever a core step fails. Every tool corresponds to a specialized agent class (AppAgent, TypingAgent, BrowserAgent and six others) with its own timeout, retry policy, and shared-resource locks. A recursive MetaAgent lets the planner delegate a sub-goal back to itself, capped at two levels of nesting. The recovery loop uses a compact ReAct-style prompt and hides Gemini's latency behind speculative execution of read-only tools. A companion Flask server exposes a phone-friendly remote over the local WiFi, mirrors every agent lifecycle event to the phone in real time, and streams the laptop's screen back over MJPEG so the user can watch remote commands land as they run. The point of the project is less to compete with Siri or Alexa than to show that a legible, few-thousand-line assistant is enough to open apps, type into them, run searches, coordinate concurrent actions, recover from single-step failures, and be driven entirely from a phone in another room -- without the LLM ever touching the keyboard.",
+      "pub_date": "Mon, 20 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "AnovaX：本地多智能体语音助手",
+        "summary": "AnovaX 是一个完全在用户电脑上运行的本地优先桌面语音助手。它通过单个 Python 进程集成了唤醒词、语音流水线、LLM 规划器（Gemini）、安全层、多智能体编排器（包括 AppAgent、TypingAgent 等）以及自适应恢复循环。其递归 MetaAgent 支持两级嵌套子目标，并通过 Flask 服务器提供远程手机控制。该项目展示了用几千行代码即可构建一个功能完整的本地智能体系统。",
+        "summary_en": "AnovaX is a local-first desktop voice assistant that runs entirely on the user's computer. It integrates a wake-word gate, speech pipeline, LLM planner (Gemini), safety layer, multi-agent orchestrator (including AppAgent, TypingAgent, etc.), and an adaptive recovery loop. A recursive MetaAgent supports two-level nested sub-goals, and a Flask server enables remote phone control. The project demonstrates that a few-thousand-line assistant can open apps, type, search, coordinate concurrent actions, and recover from failures without the LLM touching the keyboard.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "multimodal",
+          "application",
+          "python"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 1.0,
+        "language": "en"
+      }
+    },
+    {
+      "title": "Precise but Uncoupled: Reviewer Precision Does Not Guarantee Critique Uptake in Multi-Agent Math Reasoning",
+      "url": "https://arxiv.org/abs/2607.15388",
+      "description": "arXiv:2607.15388v1 Announce Type: new \nAbstract: Many math- and science-oriented agent systems use hierarchical designs with specialized reviewer roles, assuming that a dedicated review stage should help turn wrong candidates into correct ones. We test this assumption on 4,181 verifier-grounded Omni-MATH problems using matched gpt-oss-120b actors. Collaboration adds little on the easiest tiers, but from tier 4 onward the gains open sharply; in this harder regime, broadcast-style peer discussion reaches higher final accuracy than a planner-executor-reviewer pipeline (PER). We ask whether this gap is explained by reviewer quality or by whether critique changes the next answer the protocol carries forward. It is not explained by reviewer precision alone: PER's reviewer is more precise than broadcast's (0.861 vs. 0.644), yet evaluator-verified useful critique is much less likely to change the next candidate and produces lower reviewer-guided repair. These results show that reviewer detection quality and critique uptake are empirically separable. Within matched PER interventions, forcing explicit acknowledgment lowers final accuracy, while embedding reviewer guidance directly in the solver's working context partially improves follow-through without closing the gap. Overall, reviewer-centric evaluation can overstate system quality: a protocol may spot errors well yet still fail to solve more problems if it does not act on those critiques.",
+      "pub_date": "Mon, 20 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "精准但脱节：审稿人精度无法保证多智能体数学推理中的批评采纳",
+        "summary": "研究测试了多智能体数学推理系统中审稿人角色假设，发现广播式同行讨论在困难问题上优于规划-执行-审稿流水线（PER）。PER的审稿人更精确（0.861 vs 0.644），但其批评更难改变候选答案，导致修复效果差。结果表明审稿人检测质量与批评采纳可分离，仅靠审稿人评估会高估系统质量。",
+        "summary_en": "Tests the assumption that dedicated reviewer roles improve multi-agent math reasoning. Finds broadcast-style peer discussion outperforms planner-executor-reviewer pipeline on hard problems. PER's reviewer is more precise (0.861 vs 0.644) but its critiques are less likely to change the next candidate, showing reviewer quality and critique uptake are separable.",
+        "tags": [
+          "research",
+          "agent-framework",
+          "evaluation",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-20-rss-004",
+        "title": "精准但脱节：审稿人精度无法保证多智能体数学推理中的批评采纳",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.15388",
+        "language": "en",
+        "summary": "研究测试了多智能体数学推理系统中审稿人角色假设，发现广播式同行讨论在困难问题上优于规划-执行-审稿流水线（PER）。PER的审稿人更精确（0.861 vs 0.644），但其批评更难改变候选答案，导致修复效果差。结果表明审稿人检测质量与批评采纳可分离，仅靠审稿人评估会高估系统质量。",
+        "summary_en": "Tests the assumption that dedicated reviewer roles improve multi-agent math reasoning. Finds broadcast-style peer discussion outperforms planner-executor-reviewer pipeline on hard problems. PER's reviewer is more precise (0.861 vs 0.644) but its critiques are less likely to change the next candidate, showing reviewer quality and critique uptake are separable.",
+        "tags": [
+          "research",
+          "agent-framework",
+          "evaluation",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-07-20T18:49:53.030404+08:00",
+        "updated_at": "2026-07-20T18:49:53.030405+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Large Language Models as Unified Multimodal Learners for Clinical Prediction",
+      "url": "https://arxiv.org/abs/2607.15380",
+      "description": "arXiv:2607.15380v1 Announce Type: new \nAbstract: Electronic health records combine free-text clinical narratives with structured measurements such as vital signs, laboratory values, and comorbidities. Yet most clinical prediction systems still rely on task-specific fusion architectures, pairing dedicated encoders for each modality with learned combination mechanisms that must be re-engineered for every new task and clinical setting. We propose a simpler alternative: convert all patient data, regardless of modality, into a single natural language sequence and fine-tune a pretrained language model end-to-end, with no architectural modification for fusion. We evaluate this approach across three clinically distinct prediction tasks: in-hospital mortality on MIMIC-III, graft failure prediction using longitudinal data from a German transplant center, and emergency triage classification from ambulance records - comparing encoder-based (ModernBERT) and decoder-based (Llama 3.1, Gemma, DeepSeek-R1-Qwen, Qwen3) fine-tuning against established multimodal baselines and, for graft failure, a gradient boosting model currently used in clinical practice for post-transplant patient management. Across all three tasks, unified textual serialization matches or exceeds task-specific multimodal baselines, and outperforms the clinically deployed gradient boosting system on graft failure prediction. These results indicate that a single serialization-based paradigm, without bespoke fusion architectures, is sufficient for multimodal clinical prediction - substantially reducing system complexity while matching or exceeding specialized designs.",
+      "pub_date": "Mon, 20 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "大语言模型作为统一多模态学习器用于临床预测",
+        "summary": "提出将电子健康记录中所有模态数据（文本、生命体征、实验室值等）转换为单一自然语言序列，直接微调预训练语言模型，无需特定融合架构。在三个临床预测任务上（MIMIC-III死亡率、移植失败、急诊分诊），该方法匹配或超越多模态基线，并优于临床部署的梯度提升模型，显著降低系统复杂度。",
+        "summary_en": "Proposes converting all patient data modalities into a single natural language sequence and fine-tuning a pretrained LLM end-to-end without task-specific fusion. Evaluated on three clinical prediction tasks, it matches or exceeds multimodal baselines and outperforms a clinically deployed gradient boosting model, reducing system complexity.",
+        "tags": [
+          "llm",
+          "multimodal",
+          "research",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-20-rss-007",
+        "title": "大语言模型作为统一多模态学习器用于临床预测",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.15380",
+        "language": "en",
+        "summary": "提出将电子健康记录中所有模态数据（文本、生命体征、实验室值等）转换为单一自然语言序列，直接微调预训练语言模型，无需特定融合架构。在三个临床预测任务上（MIMIC-III死亡率、移植失败、急诊分诊），该方法匹配或超越多模态基线，并优于临床部署的梯度提升模型，显著降低系统复杂度。",
+        "summary_en": "Proposes converting all patient data modalities into a single natural language sequence and fine-tuning a pretrained LLM end-to-end without task-specific fusion. Evaluated on three clinical prediction tasks, it matches or exceeds multimodal baselines and outperforms a clinically deployed gradient boosting model, reducing system complexity.",
+        "tags": [
+          "llm",
+          "multimodal",
+          "research",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-07-20T18:49:53.030413+08:00",
+        "updated_at": "2026-07-20T18:49:53.030414+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Verbalizable Representations Form a Global Workspace in Language Models",
+      "url": "https://arxiv.org/abs/2607.15495",
+      "description": "arXiv:2607.15495v1 Announce Type: new \nAbstract: Out of everything the human brain processes, only a small fraction is consciously accessible, in the sense of being available for verbal report, deliberate control, and flexible reasoning. In this paper, we present evidence that an analogous functional distinction has emerged in large language models. Using a new interpretability technique, the Jacobian lens, we identify the representations a model is poised to verbalize at any point in its processing. These representations, which we collectively call the J-space, exhibit the functional properties characteristic of a global workspace: their contents can be reported, deliberately summoned and held, used to carry the intermediate steps of silent reasoning, and passed as arguments to arbitrary downstream computations, while automatic processing such as text parsing and routine inference proceeds without them. The J-space also has structural signatures that global workspace theory associates with conscious access: it carries coherent content only in an intermediate band of layers, holds on the order of tens of concepts at a time, and is broadcast by the model's weights more widely than other representations. These properties make it a practical window into a model's unspoken thinking. In alignment audits, it reveals strategic deliberation, evaluation awareness, and trained-in misaligned dispositions that never appear in the model's outputs. We find that post-training installs the Assistant's point of view in the workspace, and we introduce counterfactual reflection training, which improves behavior by training only what a model would say if interrupted and asked to reflect. These results indicate that language models maintain a small, privileged set of representations bearing some of the functional hallmarks of conscious access, and that decoding these representations sheds light on ongoing cognitive processes.",
+      "pub_date": "Mon, 20 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "语言模型中的可言语化表征构成全局工作空间",
+        "summary": "本文通过新可解释性技术“雅可比透镜”识别出大语言模型中可言语化的表征集合（J-space），该集合具有全局工作空间的功能特性：可报告、可主动调用、支持静默推理和任意下游计算，同时自动处理过程无需其参与。J-space还表现出与意识访问相关的结构特征，为模型内部思维提供了实用窗口，并在对齐审计中揭示了策略性思考、评估意识和训练内嵌的不对齐倾向。后训练将助手的观点安装到工作空间中，而反事实反思训练通过仅训练模型在被打断要求反思时的输出改善了行为。",
+        "summary_en": "Using a new interpretability technique (Jacobian lens), this paper identifies verbalizable representations (J-space) in LLMs that function as a global workspace: reportable, deliberately controllable, supporting silent reasoning and arbitrary downstream computations, while automatic processing proceeds without them. J-space exhibits structural signatures of conscious access and provides a window into unspoken thinking, revealing strategic deliberation and misaligned dispositions in alignment audits. Post-training installs the assistant's viewpoint in the workspace, and counterfactual reflection training improves behavior by training only on interrupted reflective outputs.",
+        "tags": [
+          "llm",
+          "research",
+          "interpretability",
+          "alignment"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      }
+    },
+    {
+      "title": "VarRate: Training-Free Variable-Rate KV Cache Compression for Long-Context LLMs",
+      "url": "https://arxiv.org/abs/2607.15498",
+      "description": "arXiv:2607.15498v1 Announce Type: new \nAbstract: The key-value (KV) cache is the main memory bottleneck in long-context large language model (LLM) inference. Two leading training-free families are both structurally limited: token-selection methods (SnapKV, Ada-KV) score importance from an observation window and evict low-scoring tokens, but eviction is irreversible -- so when the importance signal degrades under query-agnostic reuse, accuracy collapses by 11-15 points; uniform low-rank coding keeps every token but spends equal rank everywhere, wasting budget. We observe that both failures share one cure: rank should be allocated, not evicted. We present VarRate, a training-free KV codec that assigns each token a variable low-rank budget by its query salience, keeping every token at a nonzero rank. Comparable adaptive-rank codecs reach this allocation only through training; VarRate requires none. Because no token is dropped, it degrades by only 3.5-5.5 points where query-aware selection collapses. At a matched 20% budget on LongBench (16 tasks), VarRate stays within 0.8 points of the uncompressed model on both Llama-3.1-8B and Qwen2.5-7B. Averaged over the two, it is the strongest matched-memory compressor. It significantly beats its uniform-rank ablation on both models. Against KVzip, a method purpose-built for query-agnostic reuse, it is accuracy-equivalent in three of four settings and within a point overall, at about one-eighth the prefill overhead.",
+      "pub_date": "Mon, 20 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "VarRate：免训练可变速率KV缓存压缩技术用于长上下文大语言模型",
+        "summary": "VarRate是一种免训练的可变低秩KV缓存压缩方法，通过按查询显著性分配每个token的秩预算，避免token丢弃，在20%预算下性能接近未压缩模型，优于现有方法。",
+        "summary_en": "VarRate is a training-free variable-rate KV cache compression method that allocates low-rank budgets per token based on query salience, avoiding token eviction. At 20% budget, it stays within 0.8 points of uncompressed model on LongBench, outperforming existing methods.",
+        "tags": [
+          "llm",
+          "research",
+          "infrastructure",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-20-rss-003",
+        "title": "VarRate：免训练可变速率KV缓存压缩技术用于长上下文大语言模型",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.15498",
+        "language": "en",
+        "summary": "VarRate是一种免训练的可变低秩KV缓存压缩方法，通过按查询显著性分配每个token的秩预算，避免token丢弃，在20%预算下性能接近未压缩模型，优于现有方法。",
+        "summary_en": "VarRate is a training-free variable-rate KV cache compression method that allocates low-rank budgets per token based on query salience, avoiding token eviction. At 20% budget, it stays within 0.8 points of uncompressed model on LongBench, outperforming existing methods.",
+        "tags": [
+          "llm",
+          "research",
+          "infrastructure",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-07-20T18:49:53.030401+08:00",
+        "updated_at": "2026-07-20T18:49:53.030401+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "EpiNarrate: Agentic Generation of Grounded Narratives from Epidemiological Scenario Projections",
+      "url": "https://arxiv.org/abs/2607.15544",
+      "description": "arXiv:2607.15544v1 Announce Type: new \nAbstract: Generation of clear and accessible public health narratives is critical for communicating complex epidemiological projections to policymakers and the general public at large. Such narratives require more than simply reporting numbers: projections must be contextualized and quantitatively grounded across multiple dimensions. Further, projections are often derived from large ensemble datasets which combine intervention assumptions, geographic and demographic strata, outcomes, time horizons, and uncertainty quantiles. However, directly using large language models (LLMs) to summarize and contextualize such data often leads to inconsistencies, omissions, and fragile behavior. We introduce an agentic framework (EpiNarrate) for public health report generation that separates structured numerical reasoning from natural-language generation. The framework first extracts scenario axes and organizes them into a partial-order schema, enabling systematic traversal of the underlying multidimensional space. It then constructs an augmented dataset and derives valid quantitative statements through a comparison grammar that enforces semantic and arithmetic consistency. To balance coverage and non-redundancy, we introduce an interestingness-driven selection mechanism based on maximum-entropy principles. Experiments on the COVID-19 Scenario Modeling Hub demonstrate that our model produces narratives with improved factual grounding and broader coverage of salient epidemiological patterns, while preserving the style of expert-written reports.",
+      "pub_date": "Mon, 20 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "EpiNarrate：基于智能体的流行病学情景叙事生成框架",
+        "summary": "提出EpiNarrate智能体框架，将结构化数值推理与自然语言生成分离，通过偏序模式提取、比较语法约束和最大熵有趣性选择机制，从流行病学情景投影中生成事实准确、覆盖全面的公共健康叙事报告。在COVID-19情景建模中心数据上验证，相比直接使用LLM，显著提升了事实准确性和关键模式覆盖率。",
+        "summary_en": "Introduces EpiNarrate, an agentic framework that separates structured numerical reasoning from NLG to generate factually grounded public health narratives from epidemiological projections. It uses partial-order schema, comparison grammar, and maximum-entropy selection to improve accuracy and coverage over direct LLM use, validated on COVID-19 Scenario Modeling Hub data.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "application",
+          "research"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-20-rss-005",
+        "title": "EpiNarrate：基于智能体的流行病学情景叙事生成框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.15544",
+        "language": "en",
+        "summary": "提出EpiNarrate智能体框架，将结构化数值推理与自然语言生成分离，通过偏序模式提取、比较语法约束和最大熵有趣性选择机制，从流行病学情景投影中生成事实准确、覆盖全面的公共健康叙事报告。在COVID-19情景建模中心数据上验证，相比直接使用LLM，显著提升了事实准确性和关键模式覆盖率。",
+        "summary_en": "Introduces EpiNarrate, an agentic framework that separates structured numerical reasoning from NLG to generate factually grounded public health narratives from epidemiological projections. It uses partial-order schema, comparison grammar, and maximum-entropy selection to improve accuracy and coverage over direct LLM use, validated on COVID-19 Scenario Modeling Hub data.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "application",
+          "research"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-07-20T18:49:53.030407+08:00",
+        "updated_at": "2026-07-20T18:49:53.030408+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "SkillCorpus: Consolidating and Evaluating the Open Skill Ecosystem for Real-World LLM Agents",
+      "url": "https://arxiv.org/abs/2607.15557",
+      "description": "arXiv:2607.15557v1 Announce Type: new \nAbstract: Agent skills, SKILL.md files that package reusable procedural knowledge for an LLM agent, are a popular mechanism for extending agent capabilities. Public repositories now host them in large and growing numbers, yet these artifacts are fragmented, redundant, and uneven in quality, and their value in practice is unclear. A core question remains open, namely how to consolidate this open-source SKILL.md ecosystem into a single usable corpus, and what bounds its benefit on real-world agent tasks. We present SkillCorpus, a framework that aggregates, curates, matches, and evaluates the open skill ecosystem at scale. It filters ~821,000 crawled skills through a multi-stage pipeline into 96,401 skills organised by a 16-class taxonomy and three quality facets (utility, robustness, safety), and pairs them with a fine-tuned retrieval-and-selection stack that matches task-relevant skills. We evaluate end-to-end across three benchmarks (SkillsBench, GDPVal, QwenClawBench), two harnesses, and two open backbones with a frontier robustness check. Integrating SkillCorpus yields consistent gains across all three benchmarks, largest on SkillsBench (+7.5 pp). An operational analysis traces the gains to a coverage boundary and a harness boundary. SkillCorpus is, to our knowledge, the first end-to-end account of when a curated, retrieval-served community corpus improves real agent tasks, and where it does not. The dataset, models, and code will be released upon acceptance.",
+      "pub_date": "Mon, 20 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "SkillCorpus：整合与评估面向真实世界LLM智能体的开放技能生态系统",
+        "summary": "SkillCorpus是一个框架，用于大规模聚合、筛选、匹配和评估开源SKILL.md技能生态系统。它从约82.1万个爬取技能中筛选出96,401个技能，按16类分类法和三个质量维度（实用性、鲁棒性、安全性）组织，并搭配微调的检索-选择栈。在三个基准测试中集成SkillCorpus均带来一致提升，最大提升为SkillsBench上的+7.5个百分点。这是首个端到端评估社区技能语料库对真实智能体任务提升效果的研究。",
+        "summary_en": "SkillCorpus is a framework that aggregates, curates, matches, and evaluates the open SKILL.md ecosystem at scale. It filters ~821k crawled skills into 96,401 organized by a 16-class taxonomy and three quality facets, paired with a fine-tuned retrieval-and-selection stack. Integration yields consistent gains across three benchmarks (up to +7.5 pp on SkillsBench). This is the first end-to-end account of when a curated community skill corpus improves real agent tasks.",
+        "tags": [
+          "llm",
+          "agent-framework",
+          "benchmark",
+          "research",
+          "tool"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      }
+    }
+  ]
+}

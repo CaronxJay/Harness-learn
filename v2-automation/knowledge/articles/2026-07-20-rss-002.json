@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-20-rss-002",
+  "title": "Cura 1T：面向医疗代理的专业模型",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.15314",
+  "language": "en",
+  "summary": "Cura 1T 是一个医疗专用大语言模型，通过人工引导的自我进化循环进行训练。该循环包括训练代理规划目标、训练模型、评估基准轨迹并根据失败优化数据混合。模型在医疗评估套件中达到顶尖水平，同时在通用推理和代理基准上保持竞争力。",
+  "summary_en": "Cura 1T is a healthcare-specialized LLM trained via a human-gated self-evolution loop. A training agent plans capabilities, trains the model, evaluates benchmarks, and refines data mixture from failures. It achieves top performance on healthcare evaluations while remaining competitive on general reasoning and agentic benchmarks.",
+  "tags": [
+    "llm",
+    "fine-tuning",
+    "agent-framework",
+    "application"
+  ],
+  "category": "llm",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-07-20T18:49:53.030397+08:00",
+  "updated_at": "2026-07-20T18:49:53.030399+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

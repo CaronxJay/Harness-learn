@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-20-rss-005",
+  "title": "EpiNarrate：基于智能体的流行病学情景叙事生成框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.15544",
+  "language": "en",
+  "summary": "提出EpiNarrate智能体框架，将结构化数值推理与自然语言生成分离，通过偏序模式提取、比较语法约束和最大熵有趣性选择机制，从流行病学情景投影中生成事实准确、覆盖全面的公共健康叙事报告。在COVID-19情景建模中心数据上验证，相比直接使用LLM，显著提升了事实准确性和关键模式覆盖率。",
+  "summary_en": "Introduces EpiNarrate, an agentic framework that separates structured numerical reasoning from NLG to generate factually grounded public health narratives from epidemiological projections. It uses partial-order schema, comparison grammar, and maximum-entropy selection to improve accuracy and coverage over direct LLM use, validated on COVID-19 Scenario Modeling Hub data.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "application",
+    "research"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-07-20T18:49:53.030407+08:00",
+  "updated_at": "2026-07-20T18:49:53.030408+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

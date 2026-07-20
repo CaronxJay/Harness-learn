@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-20-rss-004",
+  "title": "精准但脱节：审稿人精度无法保证多智能体数学推理中的批评采纳",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.15388",
+  "language": "en",
+  "summary": "研究测试了多智能体数学推理系统中审稿人角色假设，发现广播式同行讨论在困难问题上优于规划-执行-审稿流水线（PER）。PER的审稿人更精确（0.861 vs 0.644），但其批评更难改变候选答案，导致修复效果差。结果表明审稿人检测质量与批评采纳可分离，仅靠审稿人评估会高估系统质量。",
+  "summary_en": "Tests the assumption that dedicated reviewer roles improve multi-agent math reasoning. Finds broadcast-style peer discussion outperforms planner-executor-reviewer pipeline on hard problems. PER's reviewer is more precise (0.861 vs 0.644) but its critiques are less likely to change the next candidate, showing reviewer quality and critique uptake are separable.",
+  "tags": [
+    "research",
+    "agent-framework",
+    "evaluation",
+    "llm"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-07-20T18:49:53.030404+08:00",
+  "updated_at": "2026-07-20T18:49:53.030405+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
