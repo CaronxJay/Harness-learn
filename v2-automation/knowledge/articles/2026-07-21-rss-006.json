@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-21-rss-006",
+  "title": "答案预承诺：开源LLM在推理前已确定答案的行为复现与激活级初步证据",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.16451",
+  "language": "en",
+  "summary": "研究通过简单问题（洗车应步行还是开车）发现，Qwen3-8B模型在85-100%的采样中错误推荐步行，即使只有开车合理。激活级探测显示，模型在输出答案前已偏向“步行”，即使最终回答“开车”的轨迹也如此。提示工程可缓解但无法根除。",
+  "summary_en": "A study using a simple car-wash question reveals that Qwen3-8B model commits to the wrong answer (walk) in 85-100% of rollouts, even when only drive is logical. Activation-level evidence shows answer pre-commitment before output. Prompt engineering can mitigate but not eliminate the issue.",
+  "tags": [
+    "llm",
+    "research",
+    "benchmark",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-07-21T18:23:30.688813+08:00",
+  "updated_at": "2026-07-21T18:23:30.688815+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

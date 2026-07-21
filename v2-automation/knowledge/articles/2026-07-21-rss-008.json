@@ -1,0 +1,26 @@
+{
+  "id": "2026-07-21-rss-008",
+  "title": "NOWJ团队在COLIEE 2026中的自适应法律检索与推理流水线",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.16603",
+  "language": "en",
+  "summary": "本文介绍了NOWJ团队在COLIEE 2026竞赛中所有五项任务的方法与结果。针对法律案例检索、法律案例蕴含、成文法检索与蕴含、法律文本蕴含以及法律判决预测，分别提出了多阶段流水线，包括候选过滤、密集检索、交叉编码器重排序、自适应查询截断预测、基于LLM的蕴含验证、检索增强生成、动态路由以及层次化变换器与CRF层结合等方法。",
+  "summary_en": null,
+  "tags": [
+    "research",
+    "rag",
+    "fine-tuning",
+    "llm",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-07-21T18:23:30.688829+08:00",
+  "updated_at": "2026-07-21T18:23:30.688831+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

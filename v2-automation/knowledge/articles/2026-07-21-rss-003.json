@@ -1,0 +1,26 @@
+{
+  "id": "2026-07-21-rss-003",
+  "title": "PlanFlip：针对多智能体LLM系统的规划阶段提示注入攻击",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.16199",
+  "language": "en",
+  "summary": "本文提出PlanFlip框架，包含四种针对多智能体LLM系统规划阶段的提示注入攻击方法。实验发现：更强的模型（如GPT-5）反而更脆弱；同质化流水线存在相关智能体盲点；推理增强模型（如DeepSeek-R1）能抵抗注入。提出两种检测方法，在15/16个测试单元中优于基线。核心见解：异构模型多样性是多智能体系统的安全前提。",
+  "summary_en": "Introduces PlanFlip, a framework of four planning-phase prompt injection attacks on multi-agent LLM systems. Key findings: stronger models (e.g., GPT-5) are more vulnerable; homogeneous pipelines have correlated-agent blind spots; reasoning-augmented models resist injections. Proposes two detection methods outperforming baselines in 15/16 cells. Core insight: heterogeneous model diversity is a security prerequisite.",
+  "tags": [
+    "llm",
+    "security",
+    "research",
+    "agent-framework",
+    "prompt-engineering"
+  ],
+  "category": "security",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-07-21T18:23:30.688788+08:00",
+  "updated_at": "2026-07-21T18:23:30.688792+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

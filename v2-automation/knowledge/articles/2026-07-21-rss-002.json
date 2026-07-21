@@ -1,0 +1,24 @@
+{
+  "id": "2026-07-21-rss-002",
+  "title": "大型语言模型表现出一致的风险态度",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.16197",
+  "language": "en",
+  "summary": "该研究通过跨领域框架（空间导航、临床分诊、财务分配）测试了六个代表性LLM和100名人类参与者，发现大多数LLM在任务内和跨任务中表现出稳定且一致的风险态度，且其风险态度分布比人类基线更受限。这揭示了风险态度是LLM行为中一个稳定且此前未被表征的维度。",
+  "summary_en": "This study tests six representative LLMs and 100 human participants across spatial navigation, clinical triage, and financial allocation tasks using a cross-domain framework. It finds that most LLMs exhibit stable and consistent risk attitudes within and across tasks, with a more restricted distribution than the human baseline, revealing risk attitude as a stable, previously uncharacterized dimension of LLM behavior.",
+  "tags": [
+    "llm",
+    "research",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-07-21T18:23:30.688753+08:00",
+  "updated_at": "2026-07-21T18:23:30.688756+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

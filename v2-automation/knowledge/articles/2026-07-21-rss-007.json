@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-21-rss-007",
+  "title": "编码EEG信号以检验语言模型类人下一词预测行为",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.16549",
+  "language": "en",
+  "summary": "本研究通过EEG记录的事件相关电位（ERP），比较人类与语言模型在下一词预测任务中的认知信号。发现仅surprisal指标与语言处理ERP相关，且扩大模型规模并不必然提升与人类语言处理的一致性。",
+  "summary_en": "This study compares cognitive signals between humans and language models in next-word prediction using EEG-recorded ERPs. It finds that only surprisal correlates with language-processing ERPs, and scaling models does not guarantee convergence with human-like linguistic processing.",
+  "tags": [
+    "llm",
+    "research",
+    "benchmark",
+    "multimodal"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-07-21T18:23:30.688821+08:00",
+  "updated_at": "2026-07-21T18:23:30.688824+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

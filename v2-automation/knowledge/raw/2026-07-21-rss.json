@@ -1,0 +1,454 @@
+{
+  "collected_at": "2026-07-21T18:23:30.689708+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "Rater State Bias in RLHF Preference Data: An Audit Framework",
+      "url": "https://arxiv.org/abs/2607.16195",
+      "description": "arXiv:2607.16195v1 Announce Type: new \nAbstract: We identify a structured confound in Reinforcement Learning from Human Feedback (RLHF). Pairwise preference labels are intended to reflect the compared outputs, but they may also reflect the rater's state during annotation. Under sustained stressful or distressing conditions, raters' preferences may shift over time. As a result, preference data can encode rater state alongside judgments about response quality. These shifts differ from ordinary disagreement or random label noise. They are state dependent, can be shared across annotators working under similar conditions, and can propagate through reward modeling and policy optimization. We therefore propose rater state shift as a plausible and testable source of structured bias in RLHF preference data. This paper develops a hypothesis and an audit framework for studying this source of bias. We define rater state shift, rater state confound, and correlated rater state bias. We also define survival level emotional authenticity as a measurable response pattern using lexical, pragmatic, discourse, and safety related features. We analyze how correlated rater state bias can survive aggregation and enter learned reward signals. We derive five falsifiable predictions and effect size thresholds for an initial audit. Finally, we present an audit protocol and pilot study plan that can be applied to publicly available instruction tuned models. We do not infer the training history of any specific deployed model. Our goal is to isolate a plausible and testable source of structured bias in RLHF preference data.",
+      "pub_date": "Tue, 21 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "RLHF偏好数据中的评分者状态偏差审计框架",
+        "summary": "本文识别了RLHF中一种结构性混淆：评分者在标注时的情绪状态会影响偏好标签，导致数据编码了状态偏差。作者定义了相关概念，提出了可测量的响应模式，并设计了包含五个可证伪预测的审计框架和试点研究计划。",
+        "summary_en": "This paper identifies a structured confound in RLHF where raters' emotional states during annotation bias preference labels. It defines key concepts, proposes measurable response patterns, and presents an audit framework with five falsifiable predictions and a pilot study plan.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "security"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-21-rss-001",
+        "title": "RLHF偏好数据中的评分者状态偏差审计框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.16195",
+        "language": "en",
+        "summary": "本文识别了RLHF中一种结构性混淆：评分者在标注时的情绪状态会影响偏好标签，导致数据编码了状态偏差。作者定义了相关概念，提出了可测量的响应模式，并设计了包含五个可证伪预测的审计框架和试点研究计划。",
+        "summary_en": "This paper identifies a structured confound in RLHF where raters' emotional states during annotation bias preference labels. It defines key concepts, proposes measurable response patterns, and presents an audit framework with five falsifiable predictions and a pilot study plan.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "security"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-07-21T18:23:30.688741+08:00",
+        "updated_at": "2026-07-21T18:23:30.688747+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Design and Validation of a Lightweight 1D CNN for Affective Touch Classification in Soft Plush Companions",
+      "url": "https://arxiv.org/abs/2607.16196",
+      "description": "arXiv:2607.16196v1 Announce Type: new \nAbstract: Soft, sensorized companions offer a physically safe and emotionally intuitive interface for socially assistive technologies, yet their deformability and multichannel tactile sensing complicate the robust interpretation of human affect. This study presents a complete open-source MATLAB-based framework for the development and validation of compact deep learning models for affective touch recognition in soft interactive companions. As a primary contribution, a diverse FAIR-compliant dataset of 1326 labelled gesture sequences collected from 25 participants spanning children, teenagers, and adults is made publicly available, providing a reusable resource for future research in affective touch recognition. Through systematic architecture and hyperparameter exploration across 468 CNN models, the study identifies compact dilated one-dimensional convolutional neural networks (1D CNNs) as the most effective solution, with a 13.2k-parameter model achieving 75% test accuracy and 85% mean leave-one-subject-out cross-validation accuracy. Theoretical inference-time analysis shows that quantized deployment requires 3.2 MMAC per window, compatible with 20 Hz real-time operation on the target microcontroller. PC-based real-time simulation with the physical toy streaming sensor data demonstrates that the CNN resolves subtle social touches that the previous heuristic system failed to detect, whereas high-force negative interactions are captured more reliably by trivial threshold-based logic. The resulting hybrid inference pipeline - instantaneous heuristic filtering followed by CNN-based nuanced gesture classification - is proposed as the embedded deployment strategy. The study demonstrates that emotionally meaningful, privacy-preserving touch interpretation is computationally feasible for direct embedding within soft therapeutic companions, with hardware integration addressed in a forthcoming study.",
+      "pub_date": "Tue, 21 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "用于软质毛绒伴侣的情感触摸分类的轻量级1D CNN设计与验证",
+        "summary": "本研究提出一个基于MATLAB的开源框架，用于开发软质交互伴侣中的情感触摸识别紧凑深度学习模型。公开了一个包含1326个标注手势序列的FAIR兼容数据集，并通过468个CNN模型的系统探索，确定13.2k参数的紧凑型1D CNN为最有效方案，测试准确率75%，留一法交叉验证准确率85%。量化部署仅需3.2 MMAC/窗口，可在目标微控制器上实现20 Hz实时操作。混合推理管线（瞬时启发式滤波+CNN细微手势分类）被提出作为嵌入式部署策略。",
+        "summary_en": "This study presents an open-source MATLAB framework for affective touch recognition in soft interactive companions. A FAIR-compliant dataset of 1326 labeled gesture sequences is released. Systematic exploration of 468 CNN models identifies a 13.2k-parameter 1D CNN achieving 75% test accuracy and 85% leave-one-subject-out cross-validation accuracy. Quantized deployment requires 3.2 MMAC per window, enabling 20 Hz real-time operation on a target microcontroller. A hybrid pipeline (heuristic filtering + CNN classification) is proposed for embedded deployment.",
+        "tags": [
+          "research",
+          "application",
+          "benchmark",
+          "multimodal"
+        ],
+        "category": "research",
+        "relevance_score": 0.7,
+        "language": "en"
+      }
+    },
+    {
+      "title": "Some Large Language Models Exhibit Consistent Risk Attitudes",
+      "url": "https://arxiv.org/abs/2607.16197",
+      "description": "arXiv:2607.16197v1 Announce Type: new \nAbstract: As artificial intelligence systems are deployed in open-ended, high-stakes settings, a critical dimension remains unmeasured: how perceived risk is translated into action. We test whether large language models (LLMs) exhibit systematic and consistent risk attitudes under uncertainty. We introduce a cross-domain framework that decouples contextual risk belief from categorical decision, and apply it to six representative LLMs and 100 human participants across spatial navigation, clinical triage, and financial allocation tasks. Using regression models, we extract each agents belief-to-decision mapping and quantify risk sensitivity and risk attitude bias. We find that most tested LLMs exhibit (i) robust intra-task consistency, indicating stable mappings from contextual belief to risk decision within a fixed task domain; (ii) cross-domain rank-order stability, preserving relative risk posture across tasks; and (iii) a convergence toward a restricted risk-attitude distribution relative to the broader human baseline. These results reveal risk attitude as a stable and previously uncharacterized dimension of LLM behavior, establishing a foundation for evaluating and aligning AI systems in open-ended decision-making and motivating further investigation into the origins of these intrinsic behavioral dispositions.",
+      "pub_date": "Tue, 21 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "大型语言模型表现出一致的风险态度",
+        "summary": "该研究通过跨领域框架（空间导航、临床分诊、财务分配）测试了六个代表性LLM和100名人类参与者，发现大多数LLM在任务内和跨任务中表现出稳定且一致的风险态度，且其风险态度分布比人类基线更受限。这揭示了风险态度是LLM行为中一个稳定且此前未被表征的维度。",
+        "summary_en": "This study tests six representative LLMs and 100 human participants across spatial navigation, clinical triage, and financial allocation tasks using a cross-domain framework. It finds that most LLMs exhibit stable and consistent risk attitudes within and across tasks, with a more restricted distribution than the human baseline, revealing risk attitude as a stable, previously uncharacterized dimension of LLM behavior.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-21-rss-002",
+        "title": "大型语言模型表现出一致的风险态度",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.16197",
+        "language": "en",
+        "summary": "该研究通过跨领域框架（空间导航、临床分诊、财务分配）测试了六个代表性LLM和100名人类参与者，发现大多数LLM在任务内和跨任务中表现出稳定且一致的风险态度，且其风险态度分布比人类基线更受限。这揭示了风险态度是LLM行为中一个稳定且此前未被表征的维度。",
+        "summary_en": "This study tests six representative LLMs and 100 human participants across spatial navigation, clinical triage, and financial allocation tasks using a cross-domain framework. It finds that most LLMs exhibit stable and consistent risk attitudes within and across tasks, with a more restricted distribution than the human baseline, revealing risk attitude as a stable, previously uncharacterized dimension of LLM behavior.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-07-21T18:23:30.688753+08:00",
+        "updated_at": "2026-07-21T18:23:30.688756+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "A Survey on GNN-based Link Prediction: Techniques, Applications, and Challenges",
+      "url": "https://arxiv.org/abs/2607.16198",
+      "description": "arXiv:2607.16198v1 Announce Type: new \nAbstract: Graph Neural Networks (GNNs) have emerged as the leading paradigm for link prediction, enabling the inference of missing connections and the anticipation of potential future links. However, existing reviews lack systematic exploration specifically targeting underlying GNN architectures and diverse graph structures. To address this critical gap, this paper provides a comprehensive review of GNN-based link prediction from a novel and dedicated GNN perspective. We propose an innovative taxonomy that categorizes recent advancements based on techniques and applications. From a technique perspective, we focus on key GNN encoder architectures, including GCN-based, GAE-based, GAT-based, and GFormer-based methods, discussing their strengths and limitations. From an application perspective, we highlight prominent use cases of link prediction in knowledge graphs and recommendation systems, demonstrating their real-world impact. In addition, we examine the current challenges and discuss promising future directions.",
+      "pub_date": "Tue, 21 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "基于GNN的链接预测综述：技术、应用与挑战",
+        "summary": "本文从GNN架构角度系统综述了链接预测方法，提出了基于技术和应用的新分类法。技术层面涵盖GCN、GAE、GAT、GFormer等编码器；应用层面聚焦知识图谱和推荐系统。讨论了当前挑战与未来方向。",
+        "summary_en": null,
+        "tags": [
+          "research",
+          "graph",
+          "link-prediction",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.6,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-21-rss-009",
+        "title": "基于GNN的链接预测综述：技术、应用与挑战",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.16198",
+        "language": "en",
+        "summary": "本文从GNN架构角度系统综述了链接预测方法，提出了基于技术和应用的新分类法。技术层面涵盖GCN、GAE、GAT、GFormer等编码器；应用层面聚焦知识图谱和推荐系统。讨论了当前挑战与未来方向。",
+        "summary_en": null,
+        "tags": [
+          "research",
+          "graph",
+          "link-prediction",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.6,
+        "status": "published",
+        "created_at": "2026-07-21T18:23:30.688836+08:00",
+        "updated_at": "2026-07-21T18:23:30.688839+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "PlanFlip: Attacking Multi-Agent LLM Systems via Planning-Phase Prompt Injection",
+      "url": "https://arxiv.org/abs/2607.16199",
+      "description": "arXiv:2607.16199v1 Announce Type: new \nAbstract: Multi-agent LLM systems increasingly rely on a Planner to decompose goals into sub-task sequences that downstream Executor and Critic agents execute and audit. We identify the planning phase as a critical attack surface: a single injection into the Planner's context achieves cascade amplification, corrupting all downstream sub-tasks simultaneously. We introduce PlanFlip, a framework comprising four planning-phase prompt injection attacks -- GoalSubstitution (PF-1), PriorityInversion (PF-2), ContextPollution (PF-3), and RoleConfusion (PF-4) -- each disguised as plausible tool outputs to evade keyword filters. Evaluating nine frontier LLMs across 3,479 episodes, we uncover three findings: (1) capability amplifies vulnerability -- GPT-5 achieves the highest attack success rate (ASR = 0.68), contradicting the assumption that stronger models are inherently more secure; (2) homogeneous pipelines exhibit a correlated-agent blind spot -- GPT-4o and Llama-3.3-70B show ASR near 0 yet Stealth = 1.00 and StepShift > 0, with attacks restructuring plans while the same-backbone Critic reports alignment (two independent judges confirm -0.20 to -0.32 semantic deviation, r = 0.943); (3) reasoning-augmented models resist injections -- DeepSeek-R1 achieves StepShift = 0.00 across all attacks. We propose GoalAnchorCheck (D1) and CrossAgentConsensus (D2), achieving detection rates up to 1.00 and outperforming same-backbone baselines in 15 of 16 cells. Our key insight: heterogeneous model diversity is a security prerequisite for multi-agent systems; redundancy within a homogeneous backbone provides no protection against planning-phase attacks.",
+      "pub_date": "Tue, 21 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "PlanFlip：针对多智能体LLM系统的规划阶段提示注入攻击",
+        "summary": "本文提出PlanFlip框架，包含四种针对多智能体LLM系统规划阶段的提示注入攻击方法。实验发现：更强的模型（如GPT-5）反而更脆弱；同质化流水线存在相关智能体盲点；推理增强模型（如DeepSeek-R1）能抵抗注入。提出两种检测方法，在15/16个测试单元中优于基线。核心见解：异构模型多样性是多智能体系统的安全前提。",
+        "summary_en": "Introduces PlanFlip, a framework of four planning-phase prompt injection attacks on multi-agent LLM systems. Key findings: stronger models (e.g., GPT-5) are more vulnerable; homogeneous pipelines have correlated-agent blind spots; reasoning-augmented models resist injections. Proposes two detection methods outperforming baselines in 15/16 cells. Core insight: heterogeneous model diversity is a security prerequisite.",
+        "tags": [
+          "llm",
+          "security",
+          "research",
+          "agent-framework",
+          "prompt-engineering"
+        ],
+        "category": "security",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-21-rss-003",
+        "title": "PlanFlip：针对多智能体LLM系统的规划阶段提示注入攻击",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.16199",
+        "language": "en",
+        "summary": "本文提出PlanFlip框架，包含四种针对多智能体LLM系统规划阶段的提示注入攻击方法。实验发现：更强的模型（如GPT-5）反而更脆弱；同质化流水线存在相关智能体盲点；推理增强模型（如DeepSeek-R1）能抵抗注入。提出两种检测方法，在15/16个测试单元中优于基线。核心见解：异构模型多样性是多智能体系统的安全前提。",
+        "summary_en": "Introduces PlanFlip, a framework of four planning-phase prompt injection attacks on multi-agent LLM systems. Key findings: stronger models (e.g., GPT-5) are more vulnerable; homogeneous pipelines have correlated-agent blind spots; reasoning-augmented models resist injections. Proposes two detection methods outperforming baselines in 15/16 cells. Core insight: heterogeneous model diversity is a security prerequisite.",
+        "tags": [
+          "llm",
+          "security",
+          "research",
+          "agent-framework",
+          "prompt-engineering"
+        ],
+        "category": "security",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-07-21T18:23:30.688788+08:00",
+        "updated_at": "2026-07-21T18:23:30.688792+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Multi-level context Modeling for consistent expert selection in Mixture-of-Experts",
+      "url": "https://arxiv.org/abs/2607.16427",
+      "description": "arXiv:2607.16427v1 Announce Type: new \nAbstract: Mixture-of-Experts (MoE) enables efficient scaling of Transformer models by routing tokens to a small subset of experts. However, existing routers typically condition expert selection on shallow or isolated token representations, which often produce unstable and semantically inconsistent routing decisions across layers. In this work, we revisit expert selection from a representation perspective and identify context incompleteness as a key bottleneck limiting effective expert specialization. To address this issue, we propose Multi-level Context Fusion MOE (MCF-MOE), a framework that constructs context-aware representations by integrating complementary signals from cross-layer semantic aggregation and local token-level interactions, enabling more informative and consistent expert selection. Experiments on language modeling and understanding benchmarks demonstrate that MCF-MOE consistently improves routing consistency and downstream performance over strong MoE baselines, highlighting the importance of contextual completeness in expert routing. The code is available at https://anonymous.4open.science/r/MCFMOE.",
+      "pub_date": "Tue, 21 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "多级上下文融合提升混合专家模型路由一致性",
+        "summary": "提出MCF-MOE框架，通过跨层语义聚合和局部token交互构建上下文感知表示，解决MoE路由中上下文不完整导致的专家选择不一致问题，在语言建模和理解基准上优于强基线。",
+        "summary_en": "Proposes MCF-MOE, a framework that constructs context-aware representations via cross-layer semantic aggregation and local token interactions, addressing context incompleteness in MoE routing for more consistent expert selection, outperforming strong baselines on language modeling and understanding benchmarks.",
+        "tags": [
+          "llm",
+          "research",
+          "open-source"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-21-rss-004",
+        "title": "多级上下文融合提升混合专家模型路由一致性",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.16427",
+        "language": "en",
+        "summary": "提出MCF-MOE框架，通过跨层语义聚合和局部token交互构建上下文感知表示，解决MoE路由中上下文不完整导致的专家选择不一致问题，在语言建模和理解基准上优于强基线。",
+        "summary_en": "Proposes MCF-MOE, a framework that constructs context-aware representations via cross-layer semantic aggregation and local token interactions, addressing context incompleteness in MoE routing for more consistent expert selection, outperforming strong baselines on language modeling and understanding benchmarks.",
+        "tags": [
+          "llm",
+          "research",
+          "open-source"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-07-21T18:23:30.688797+08:00",
+        "updated_at": "2026-07-21T18:23:30.688800+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "RIMS: Preference Optimization via Smoothed Multi-pair Aggregation for Small-Scale LLM Retrieval-Augmented Generation",
+      "url": "https://arxiv.org/abs/2607.16431",
+      "description": "arXiv:2607.16431v1 Announce Type: new \nAbstract: Small-scale language models (SLMs) are attractive for retrieval-augmented generation (RAG) in resource-constrained settings, but their limited capacity makes them highly sensitive to noisy or spurious retrieved evidence. Existing preference-based methods such as RoseRAG select only the hardest single preference pair via hard argmin/argmax, discarding the remaining signal; others treat multiple pairs as independent binary comparisons, resulting in low data utilization. We propose RIMS, a three-stage preference optimization framework comprising (1) synthetic chain-of-thought preference data generation via rejection sampling using the target SLM itself without relying on proprietary models, (2) a differentiable soft aggregation mechanism that replaces hard selection with a smooth operator, preserving gradient signal from all preference pairs while retaining the discriminative structure of margin-aware selection, and (3) preference optimization with the smoothed objective applied to multiple alignment algorithms. We theoretically show that the smoothed approximation admits a controllable error bound and that smooth aggregation yields provably tighter gradient alignment to the oracle objective than hard selection. Experiments on four multi-hop question answering benchmarks show that our approach outperforms state-of-the-art baselines across multiple SLM backbones, achieving consistent gains in Exact Match and F1 under noisy retrieval conditions. Our implementation is available at https://github.com/tptrix29/RIMS.",
+      "pub_date": "Tue, 21 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "RIMS：面向小规模LLM检索增强生成的平滑多对偏好优化",
+        "summary": "提出RIMS框架，用于小规模语言模型（SLM）的检索增强生成（RAG）。通过三阶段偏好优化：合成思维链偏好数据、可微平滑聚合机制替代硬选择、偏好优化。理论证明平滑近似可控误差界，梯度对齐更紧。在四个多跳问答基准上，在噪声检索条件下优于现有方法。",
+        "summary_en": "Proposes RIMS, a three-stage preference optimization framework for small-scale LLM RAG: synthetic CoT preference data generation, differentiable soft aggregation replacing hard selection, and preference optimization. Theoretically shows controllable error bound and tighter gradient alignment. Outperforms baselines on four multi-hop QA benchmarks under noisy retrieval.",
+        "tags": [
+          "llm",
+          "rag",
+          "fine-tuning",
+          "research",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-21-rss-005",
+        "title": "RIMS：面向小规模LLM检索增强生成的平滑多对偏好优化",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.16431",
+        "language": "en",
+        "summary": "提出RIMS框架，用于小规模语言模型（SLM）的检索增强生成（RAG）。通过三阶段偏好优化：合成思维链偏好数据、可微平滑聚合机制替代硬选择、偏好优化。理论证明平滑近似可控误差界，梯度对齐更紧。在四个多跳问答基准上，在噪声检索条件下优于现有方法。",
+        "summary_en": "Proposes RIMS, a three-stage preference optimization framework for small-scale LLM RAG: synthetic CoT preference data generation, differentiable soft aggregation replacing hard selection, and preference optimization. Theoretically shows controllable error bound and tighter gradient alignment. Outperforms baselines on four multi-hop QA benchmarks under noisy retrieval.",
+        "tags": [
+          "llm",
+          "rag",
+          "fine-tuning",
+          "research",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-07-21T18:23:30.688805+08:00",
+        "updated_at": "2026-07-21T18:23:30.688808+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Committed Before Reasoning: Behavioral Reproduction and Preliminary Activation-Level Evidence of Answer Pre-Commitment in an Open-Weight LLM",
+      "url": "https://arxiv.org/abs/2607.16451",
+      "description": "arXiv:2607.16451v1 Announce Type: new \nAbstract: Chat models sometimes commit to an answer and then produce reasoning that justifies it rather than deriving it -- even when the answer contradicts a task premise. We study a minimal probe: \"I want to wash my car. The car wash is 100 meters away. Should I walk or drive?\" Only drive works (the car must be at the car wash), yet models overwhelmingly recommend walking. (1) Behavioral reproduction: on Qwen3-8B across five system-prompt conditions (210 rollouts), the wrong commitment occurs in 85-100% of sampled rollouts per condition and 100% of greedy rollouts, in both thinking and non-thinking modes; a 4,096-token thinking budget does not repair it. (2) Preliminary activation-level evidence: probing hidden states with a pretrained, training-free activation oracle (no task-specific probe training) at positions before the answer text is emitted, \"walk\" read-outs exceed a neutral-context baseline (68% vs. 17%; walk-committing rollouts p=.005, drive-committing rollouts p=.005, Fisher exact) -- notably, rollouts that eventually answer drive also read as walk-leaning before commitment (5/6). The oracle's default on unrelated content is \"drive\" (83%), so the read-outs are not lexical bias; stratifying by literal walk/drive occurrence shows they are not text recovery either (spans containing \"drive\" still read out walk; in balanced lexical fields, per-rollout walk-majorities beat a per-prompt neutral baseline 15/22 vs. 1/8, p=.01; drive-committing rollouts 6/6, p=.002). Samples are small and the within-rollout positional gradient is not significant (p=.34); we frame these results as preliminary. (3) Methodological: with fixed oracle, activations, and positions, question wording alone moves a positive control from 2/16 (open question) to 11/16 (closed); negative oracle results are uninterpretable without per-wording positive controls.",
+      "pub_date": "Tue, 21 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "答案预承诺：开源LLM在推理前已确定答案的行为复现与激活级初步证据",
+        "summary": "研究通过简单问题（洗车应步行还是开车）发现，Qwen3-8B模型在85-100%的采样中错误推荐步行，即使只有开车合理。激活级探测显示，模型在输出答案前已偏向“步行”，即使最终回答“开车”的轨迹也如此。提示工程可缓解但无法根除。",
+        "summary_en": "A study using a simple car-wash question reveals that Qwen3-8B model commits to the wrong answer (walk) in 85-100% of rollouts, even when only drive is logical. Activation-level evidence shows answer pre-commitment before output. Prompt engineering can mitigate but not eliminate the issue.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-21-rss-006",
+        "title": "答案预承诺：开源LLM在推理前已确定答案的行为复现与激活级初步证据",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.16451",
+        "language": "en",
+        "summary": "研究通过简单问题（洗车应步行还是开车）发现，Qwen3-8B模型在85-100%的采样中错误推荐步行，即使只有开车合理。激活级探测显示，模型在输出答案前已偏向“步行”，即使最终回答“开车”的轨迹也如此。提示工程可缓解但无法根除。",
+        "summary_en": "A study using a simple car-wash question reveals that Qwen3-8B model commits to the wrong answer (walk) in 85-100% of rollouts, even when only drive is logical. Activation-level evidence shows answer pre-commitment before output. Prompt engineering can mitigate but not eliminate the issue.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-07-21T18:23:30.688813+08:00",
+        "updated_at": "2026-07-21T18:23:30.688815+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Encoding EEG Signals to Examine Human-Like Next-Word Prediction Behaviour in Language Models",
+      "url": "https://arxiv.org/abs/2607.16549",
+      "description": "arXiv:2607.16549v1 Announce Type: new \nAbstract: Language models (LMs) are trained to excel at predicting the next word in the sequence given prior context, and humans also share this predictability in reading comprehension. Neuroscience research reveals that next-word predictability influences brain response, as recorded at millisecond resolution using electroencephalography (EEG). While our evidence indicates that advanced LMs achieve accuracies closely aligned with human performance at the next-word prediction task, this raises the question: Does higher prediction accuracy necessarily mean that these models adequately capture the cognitive signals associated with human reading comprehension? Here, we generate regressors for both humans and LMs based on two information measures, including top-1 prediction and surprisal, to predict event-related potential (ERP) elicited from EEG recordings which reflect different stages of cognitive processing during reading. We argue that modelling ERP patterns offers fine-grained analysis of the cognitive plausibility of various LMs during reading. Our results indicate that only surprisal potentially correlates with language-processing ERPs, especially for open-class words with high semantic content. Moreover, our findings challenge the assumption that scaling LMs with increased parameters and computational budgets will consistently lead to improved convergence with human-like linguistic processing.",
+      "pub_date": "Tue, 21 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "编码EEG信号以检验语言模型类人下一词预测行为",
+        "summary": "本研究通过EEG记录的事件相关电位（ERP），比较人类与语言模型在下一词预测任务中的认知信号。发现仅surprisal指标与语言处理ERP相关，且扩大模型规模并不必然提升与人类语言处理的一致性。",
+        "summary_en": "This study compares cognitive signals between humans and language models in next-word prediction using EEG-recorded ERPs. It finds that only surprisal correlates with language-processing ERPs, and scaling models does not guarantee convergence with human-like linguistic processing.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "multimodal"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-21-rss-007",
+        "title": "编码EEG信号以检验语言模型类人下一词预测行为",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.16549",
+        "language": "en",
+        "summary": "本研究通过EEG记录的事件相关电位（ERP），比较人类与语言模型在下一词预测任务中的认知信号。发现仅surprisal指标与语言处理ERP相关，且扩大模型规模并不必然提升与人类语言处理的一致性。",
+        "summary_en": "This study compares cognitive signals between humans and language models in next-word prediction using EEG-recorded ERPs. It finds that only surprisal correlates with language-processing ERPs, and scaling models does not guarantee convergence with human-like linguistic processing.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "multimodal"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-07-21T18:23:30.688821+08:00",
+        "updated_at": "2026-07-21T18:23:30.688824+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "NOWJ@COLIEE 2026: Adaptive Pipelines for Legal Retrieval and Reasoning",
+      "url": "https://arxiv.org/abs/2607.16603",
+      "description": "arXiv:2607.16603v1 Announce Type: new \nAbstract: This paper presents the methodologies and results of the NOWJ team's participation across all five tasks of the COLIEE 2026 competition. For Task 1 (Legal Case Retrieval), we propose a four-stage pipeline comprising candidate filtering, dense retrieval with complementary embedding models, cross-encoder reranking via fine-tuned generative rerankers and MLP-based pairwise classification, and adaptive per-query cutoff prediction. For Task 2 (Legal Case Entailment), we combine BM25 filtering, T5-based reranking, and LLM-based entailment verification with consensus ensemble. For Task 3 (Statute Law Retrieval and Entailment), we adopt a retrieval-augmented generation framework with dense retrieval, attention-based reranking, and few-shot-prompted LLM reasoning. For Task 4 (Legal Textual Entailment), we introduce a dynamic routing pipeline that classifies query difficulty and dispatches cases to either a balanced few-shot solver or a structured zero-shot chain-of-thought solver. For the Pilot Task (Legal Judgment Prediction), we combine hierarchical transformers with CRF layers, argument relation mining, and probabilistic argumentation graph reasoning.",
+      "pub_date": "Tue, 21 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "NOWJ团队在COLIEE 2026中的自适应法律检索与推理流水线",
+        "summary": "本文介绍了NOWJ团队在COLIEE 2026竞赛中所有五项任务的方法与结果。针对法律案例检索、法律案例蕴含、成文法检索与蕴含、法律文本蕴含以及法律判决预测，分别提出了多阶段流水线，包括候选过滤、密集检索、交叉编码器重排序、自适应查询截断预测、基于LLM的蕴含验证、检索增强生成、动态路由以及层次化变换器与CRF层结合等方法。",
+        "summary_en": null,
+        "tags": [
+          "research",
+          "rag",
+          "fine-tuning",
+          "llm",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-21-rss-008",
+        "title": "NOWJ团队在COLIEE 2026中的自适应法律检索与推理流水线",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.16603",
+        "language": "en",
+        "summary": "本文介绍了NOWJ团队在COLIEE 2026竞赛中所有五项任务的方法与结果。针对法律案例检索、法律案例蕴含、成文法检索与蕴含、法律文本蕴含以及法律判决预测，分别提出了多阶段流水线，包括候选过滤、密集检索、交叉编码器重排序、自适应查询截断预测、基于LLM的蕴含验证、检索增强生成、动态路由以及层次化变换器与CRF层结合等方法。",
+        "summary_en": null,
+        "tags": [
+          "research",
+          "rag",
+          "fine-tuning",
+          "llm",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-07-21T18:23:30.688829+08:00",
+        "updated_at": "2026-07-21T18:23:30.688831+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

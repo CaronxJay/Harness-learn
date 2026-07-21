@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-21-rss-001",
+  "title": "RLHF偏好数据中的评分者状态偏差审计框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.16195",
+  "language": "en",
+  "summary": "本文识别了RLHF中一种结构性混淆：评分者在标注时的情绪状态会影响偏好标签，导致数据编码了状态偏差。作者定义了相关概念，提出了可测量的响应模式，并设计了包含五个可证伪预测的审计框架和试点研究计划。",
+  "summary_en": "This paper identifies a structured confound in RLHF where raters' emotional states during annotation bias preference labels. It defines key concepts, proposes measurable response patterns, and presents an audit framework with five falsifiable predictions and a pilot study plan.",
+  "tags": [
+    "llm",
+    "research",
+    "benchmark",
+    "security"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-07-21T18:23:30.688741+08:00",
+  "updated_at": "2026-07-21T18:23:30.688747+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

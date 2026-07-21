@@ -1,0 +1,26 @@
+{
+  "id": "2026-07-21-rss-005",
+  "title": "RIMS：面向小规模LLM检索增强生成的平滑多对偏好优化",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.16431",
+  "language": "en",
+  "summary": "提出RIMS框架，用于小规模语言模型（SLM）的检索增强生成（RAG）。通过三阶段偏好优化：合成思维链偏好数据、可微平滑聚合机制替代硬选择、偏好优化。理论证明平滑近似可控误差界，梯度对齐更紧。在四个多跳问答基准上，在噪声检索条件下优于现有方法。",
+  "summary_en": "Proposes RIMS, a three-stage preference optimization framework for small-scale LLM RAG: synthetic CoT preference data generation, differentiable soft aggregation replacing hard selection, and preference optimization. Theoretically shows controllable error bound and tighter gradient alignment. Outperforms baselines on four multi-hop QA benchmarks under noisy retrieval.",
+  "tags": [
+    "llm",
+    "rag",
+    "fine-tuning",
+    "research",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-07-21T18:23:30.688805+08:00",
+  "updated_at": "2026-07-21T18:23:30.688808+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

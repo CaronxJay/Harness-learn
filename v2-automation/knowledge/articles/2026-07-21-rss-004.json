@@ -1,0 +1,24 @@
+{
+  "id": "2026-07-21-rss-004",
+  "title": "多级上下文融合提升混合专家模型路由一致性",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.16427",
+  "language": "en",
+  "summary": "提出MCF-MOE框架，通过跨层语义聚合和局部token交互构建上下文感知表示，解决MoE路由中上下文不完整导致的专家选择不一致问题，在语言建模和理解基准上优于强基线。",
+  "summary_en": "Proposes MCF-MOE, a framework that constructs context-aware representations via cross-layer semantic aggregation and local token interactions, addressing context incompleteness in MoE routing for more consistent expert selection, outperforming strong baselines on language modeling and understanding benchmarks.",
+  "tags": [
+    "llm",
+    "research",
+    "open-source"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-07-21T18:23:30.688797+08:00",
+  "updated_at": "2026-07-21T18:23:30.688800+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
