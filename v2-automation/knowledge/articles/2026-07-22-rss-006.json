@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-22-rss-006",
+  "title": "从Agent故障路径到量化残余风险：韧性Agentic AI的组合框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.18243",
+  "language": "en",
+  "summary": "提出CPSAINT七层完整性分解与FRIESA-K残余风险函数，将故障路径映射为量化风险实例，通过受控吸收马尔可夫模型推导控制有效性，支持跨域推理与可组合信任。",
+  "summary_en": "Proposes CPSAINT seven-layer integrity decomposition and FRIESA-K residual-risk functional, mapping failure paths to quantified risk instances via controlled absorbing Markov models for cross-domain reasoning and composable trust.",
+  "tags": [
+    "research",
+    "security",
+    "agent-framework",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-07-22T18:23:30.850539+08:00",
+  "updated_at": "2026-07-22T18:23:30.850540+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "2026-07-22-rss-001",
+  "title": "BatchDAG：面向企业数据的LLM规划执行图系统",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.18241",
+  "language": "en",
+  "summary": "BatchDAG 是一个系统，LLM 生成类型化的有向无环图（DAG）操作（SQL查询、语义搜索、内存转换、并行扇出、单次分析），由确定性引擎以拓扑波并行和结构化JSON数据流执行。实体感知批处理将LLM调用减少高达47倍。在12个查询实验中，质量与专家设计流程相当，优于ReAct代理，且幻觉率降低27%。生产环境中可在60秒内处理5万+会议查询。",
+  "summary_en": "BatchDAG is a system where an LLM generates a typed DAG of operations (SQL queries, semantic searches, in-memory transforms, parallel fan-outs, single-shot analyses) evaluated by a deterministic engine with topological-wave parallelism and structured JSON data flow. Entity-aware batching reduces LLM calls by up to 47x. In experiments, quality matches expert-designed pipelines and outperforms ReAct agents, with 27% fewer hallucinations. Processes 50k+ meetings in under 60 seconds in production.",
+  "tags": [
+    "llm",
+    "application",
+    "infrastructure",
+    "rag",
+    "tool"
+  ],
+  "category": "application",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-07-22T18:23:30.850512+08:00",
+  "updated_at": "2026-07-22T18:23:30.850516+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

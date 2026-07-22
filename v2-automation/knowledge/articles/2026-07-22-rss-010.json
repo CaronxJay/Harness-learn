@@ -1,0 +1,24 @@
+{
+  "id": "2026-07-22-rss-010",
+  "title": "解码脑电信号探索人脑中的下一个词可预测性",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.18321",
+  "language": "en",
+  "summary": "本研究通过脑电图（EEG）记录，在毫秒级分辨率下探究了阅读过程中自下而上（高阶语言结构）和自上而下（下一个词可预测性）神经机制的相互作用。发现高/低完形概率在实词上的N400差异比虚词更显著，动词比名词表现出更大的N400差异，而名词携带更多关于其可预测性的独特信息。解码技术比传统事件相关电位（ERP）分析能更有效地捕捉认知过程随时间变化的详细和独特表征。",
+  "summary_en": null,
+  "tags": [
+    "research",
+    "llm",
+    "multimodal"
+  ],
+  "category": "research",
+  "relevance_score": 0.6,
+  "status": "published",
+  "created_at": "2026-07-22T18:23:30.850555+08:00",
+  "updated_at": "2026-07-22T18:23:30.850556+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

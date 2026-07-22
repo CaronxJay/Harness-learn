@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-22-rss-009",
+  "title": "欧洲多语言评估数据集：EMT网络内的MMLU本地化项目",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.18432",
+  "language": "en",
+  "summary": "本文报告了翻译总局与欧洲翻译硕士网络合作，将MMLU数据集本地化为11种欧洲语言的项目。该项目不仅创建了更包容的LLM评估基准，还为学生提供了翻译、修订、项目管理和多语言协调的真实专业培训，同时突出了关键的方法、行政和工作流程挑战。",
+  "summary_en": "This paper reports on a collaboration between the Directorate-General for Translation and the European Master's in Translation to localise the MMLU dataset into 11 European languages, creating a more inclusive benchmark for LLM evaluation and providing authentic professional training for students.",
+  "tags": [
+    "benchmark",
+    "llm",
+    "evaluation",
+    "multimodal"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-07-22T18:23:30.850550+08:00",
+  "updated_at": "2026-07-22T18:23:30.850552+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

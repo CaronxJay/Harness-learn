@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-22-rss-003",
+  "title": "Relay-Bench：评估LLM的多领域推理链",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.18438",
+  "language": "en",
+  "summary": "Relay-Bench是一个全新的文本基准，用于衡量LLM在单个提示中完成来自不同领域的多个子任务的能力。领先模型GPT-5.5得分为43.3%。测试集包含复合问题，要求跨领域推理，并增加了提示编码和上下文膨胀等复杂性。涵盖视觉推理、编程、数学、信息提取、问题解决、通用知识和数据分析。",
+  "summary_en": "Relay-Bench is a novel text-only benchmark that measures LLMs' ability to complete multi-domain subproblems in a single prompt. The leading model, GPT-5.5, scores 43.3%. It tests cross-domain reasoning with added complexity from prompt encoding and context bloat, covering visual reasoning, coding, math, information extraction, problem-solving, general knowledge, and data analysis.",
+  "tags": [
+    "llm",
+    "benchmark",
+    "evaluation",
+    "research"
+  ],
+  "category": "benchmark",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-07-22T18:23:30.850526+08:00",
+  "updated_at": "2026-07-22T18:23:30.850527+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

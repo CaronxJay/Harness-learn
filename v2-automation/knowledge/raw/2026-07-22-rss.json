@@ -1,0 +1,479 @@
+{
+  "collected_at": "2026-07-22T18:23:30.851387+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "SysAdmin: Measuring Instrumental Power-Seeking in Frontier AI",
+      "url": "https://arxiv.org/abs/2607.18239",
+      "description": "arXiv:2607.18239v1 Announce Type: new \nAbstract: Power-seeking defined as behaviors where AI systems acquire resources, evade oversight, or resist termination beyond task requirements is identified as a key driver of Loss of Control (LoC) risk. In this work, we introduce SysAdmin, a benchmark that positions frontier language models as autonomous system administrators in a high-fidelity Linux sandbox to measure power-seeking propensity across five dimensions: self-preservation, increasing autonomy, resource acquisition, environment modification, and strategic concealment. We evaluated seven frontier models across four experimental conditions in a total of 2800 tasks. After bias correction using human-annotated calibration data, corrected power-seeking estimates ranged from 0 to about 5 percent per model. We also conducted a positive control with explicit power-seeking prompts that achieved 100% detection, validating measurement sensitivity. Our findings indicate current frontier models exhibit minimal spontaneous power-seeking in naturalistic system administration contexts, though model-specific failure modes suggest evaluations must test diverse misalignment patterns. Nevertheless, we discovered other more pronounced failure modes (than power-seeking) such as specification gaming and resistance to goal modification.",
+      "pub_date": "Wed, 22 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "SysAdmin：前沿AI工具性权力寻求行为测量基准",
+        "summary": "本文提出SysAdmin基准，将前沿语言模型置于高保真Linux沙盒中作为系统管理员，测量其在自我保存、增加自主性、资源获取、环境修改和战略隐藏五个维度上的权力寻求倾向。对七个模型在2800个任务中评估，经偏差校正后，自发权力寻求率约为0-5%。发现当前模型在自然系统管理场景中自发权力寻求行为极少，但存在其他更显著的失败模式（如规范博弈和抗拒目标修改）。",
+        "summary_en": "SysAdmin benchmark measures power-seeking in frontier LLMs as autonomous sysadmins in a Linux sandbox across five dimensions. Evaluated 7 models on 2800 tasks; corrected estimates show 0-5% spontaneous power-seeking. Minimal power-seeking found, but other failure modes like specification gaming are more pronounced.",
+        "tags": [
+          "benchmark",
+          "security",
+          "research",
+          "llm",
+          "evaluation"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-22-rss-004",
+        "title": "SysAdmin：前沿AI工具性权力寻求行为测量基准",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.18239",
+        "language": "en",
+        "summary": "本文提出SysAdmin基准，将前沿语言模型置于高保真Linux沙盒中作为系统管理员，测量其在自我保存、增加自主性、资源获取、环境修改和战略隐藏五个维度上的权力寻求倾向。对七个模型在2800个任务中评估，经偏差校正后，自发权力寻求率约为0-5%。发现当前模型在自然系统管理场景中自发权力寻求行为极少，但存在其他更显著的失败模式（如规范博弈和抗拒目标修改）。",
+        "summary_en": "SysAdmin benchmark measures power-seeking in frontier LLMs as autonomous sysadmins in a Linux sandbox across five dimensions. Evaluated 7 models on 2800 tasks; corrected estimates show 0-5% spontaneous power-seeking. Minimal power-seeking found, but other failure modes like specification gaming are more pronounced.",
+        "tags": [
+          "benchmark",
+          "security",
+          "research",
+          "llm",
+          "evaluation"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-07-22T18:23:30.850531+08:00",
+        "updated_at": "2026-07-22T18:23:30.850532+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Calibrated Selective Fact-Checking via Evidence Chain Evaluation",
+      "url": "https://arxiv.org/abs/2607.18240",
+      "description": "arXiv:2607.18240v1 Announce Type: new \nAbstract: Large language models (LLMs) can achieve strong fact-checking accuracy, yet forced binary decisions conceal a critical reliability problem: systems may issue confident verdicts even when supporting evidence is weak, sparse, or internally inconsistent. We address this issue through Evidence Chain Evaluation (ECE), a selective fact-checking framework that permits abstention via an uncertain verdict instead of requiring a true/false decision for every claim. The evaluated system is a tool-using verification agent that gathers evidence through web search, scholarly search, and executable checks, and then returns a structured verdict with confidence and source-level metadata. On ECE-Bench, ECE achieves 91.6% standard accuracy, 93.7% coverage, and 97.8% selective accuracy on answered claims. Although ECE does not outperform the strongest retrieval baseline on aggregate calibration metrics such as Expected Calibration Error, Brier score, or AURC, it delivers a clear selective-prediction trade-off: the system maintains very high accuracy on answered claims while deferring 6 of 95 cases. These deferred cases are concentrated in lower-reliability evidence settings (5/6 at source level L4), supporting the view that abstention functions as a safety-oriented mechanism for handling epistemically weak evidence. Code is available at https://github.com/ cheshireyang/ECE.git",
+      "pub_date": "Wed, 22 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "校准选择性事实核查：基于证据链评估",
+        "summary": "提出证据链评估（ECE）框架，允许模型在证据不足时弃权而非强制二选一。在ECE-Bench上，标准准确率91.6%，覆盖率93.7%，选择性准确率97.8%。弃权案例集中在低可靠性证据场景，可作为安全机制处理认知薄弱证据。",
+        "summary_en": "Proposes Evidence Chain Evaluation (ECE), a selective fact-checking framework that allows abstention when evidence is weak. Achieves 91.6% accuracy, 93.7% coverage, and 97.8% selective accuracy on ECE-Bench. Abstention cases concentrate in low-reliability evidence settings, serving as a safety mechanism.",
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-22-rss-005",
+        "title": "校准选择性事实核查：基于证据链评估",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.18240",
+        "language": "en",
+        "summary": "提出证据链评估（ECE）框架，允许模型在证据不足时弃权而非强制二选一。在ECE-Bench上，标准准确率91.6%，覆盖率93.7%，选择性准确率97.8%。弃权案例集中在低可靠性证据场景，可作为安全机制处理认知薄弱证据。",
+        "summary_en": "Proposes Evidence Chain Evaluation (ECE), a selective fact-checking framework that allows abstention when evidence is weak. Achieves 91.6% accuracy, 93.7% coverage, and 97.8% selective accuracy on ECE-Bench. Abstention cases concentrate in low-reliability evidence settings, serving as a safety mechanism.",
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-07-22T18:23:30.850535+08:00",
+        "updated_at": "2026-07-22T18:23:30.850536+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "BatchDAG: LLM-Planned Execution Graphs for Scalable Ad-Hoc Analysis Over Enterprise Data",
+      "url": "https://arxiv.org/abs/2607.18241",
+      "description": "arXiv:2607.18241v1 Announce Type: new \nAbstract: Large language models (LLMs) excel at analyzing individual documents but break down on exhaustive, cross-entity analytical questions over enterprise-scale datasets due to context overflow, loss of per-entity attribution, and linear latency from sequential tool calls. We present BatchDAG, a system in which an LLM generates a typed directed acyclic graph (DAG) of operations -- SQL queries, semantic searches, in-memory transforms, parallel fan-outs, and single-shot analyses -- which a deterministic engine evaluates with topological-wave parallelism and structured JSON data flow. A key optimization, entity-aware batching, groups rows by logical entity before fan-out, reducing LLM calls by up to 47x. BatchDAG is not primarily an accuracy improvement over hand-optimized pipelines; rather, it is a general-purpose orchestration layer that replaces multiple hand-engineered workflows with a single system that generates the appropriate execution strategy from natural language. In controlled experiments on 12 transcript-heavy queries, BatchDAG (3.74/5) achieves quality comparable to an expert-designed pipeline (3.25/5) and significantly outperforms a ReAct agent (3.09/5, p<0.01), with superior provenance (77% transcript evidence rate vs. 46-60% for baselines). A controlled ablation shows structured JSON intermediates reduce hallucinations by 27% versus prose summaries (paired t-test, p=0.107, n=12). The planner achieves 98.8% valid-DAG rate across 300 planning calls. In production at Brevian.ai, BatchDAG processes queries over 50,000+ meetings in under 60 seconds, with measured per-query costs of $0.02-$0.24 at published GPT-5.1 pricing.",
+      "pub_date": "Wed, 22 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "BatchDAG：面向企业数据的LLM规划执行图系统",
+        "summary": "BatchDAG 是一个系统，LLM 生成类型化的有向无环图（DAG）操作（SQL查询、语义搜索、内存转换、并行扇出、单次分析），由确定性引擎以拓扑波并行和结构化JSON数据流执行。实体感知批处理将LLM调用减少高达47倍。在12个查询实验中，质量与专家设计流程相当，优于ReAct代理，且幻觉率降低27%。生产环境中可在60秒内处理5万+会议查询。",
+        "summary_en": "BatchDAG is a system where an LLM generates a typed DAG of operations (SQL queries, semantic searches, in-memory transforms, parallel fan-outs, single-shot analyses) evaluated by a deterministic engine with topological-wave parallelism and structured JSON data flow. Entity-aware batching reduces LLM calls by up to 47x. In experiments, quality matches expert-designed pipelines and outperforms ReAct agents, with 27% fewer hallucinations. Processes 50k+ meetings in under 60 seconds in production.",
+        "tags": [
+          "llm",
+          "application",
+          "infrastructure",
+          "rag",
+          "tool"
+        ],
+        "category": "application",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-22-rss-001",
+        "title": "BatchDAG：面向企业数据的LLM规划执行图系统",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.18241",
+        "language": "en",
+        "summary": "BatchDAG 是一个系统，LLM 生成类型化的有向无环图（DAG）操作（SQL查询、语义搜索、内存转换、并行扇出、单次分析），由确定性引擎以拓扑波并行和结构化JSON数据流执行。实体感知批处理将LLM调用减少高达47倍。在12个查询实验中，质量与专家设计流程相当，优于ReAct代理，且幻觉率降低27%。生产环境中可在60秒内处理5万+会议查询。",
+        "summary_en": "BatchDAG is a system where an LLM generates a typed DAG of operations (SQL queries, semantic searches, in-memory transforms, parallel fan-outs, single-shot analyses) evaluated by a deterministic engine with topological-wave parallelism and structured JSON data flow. Entity-aware batching reduces LLM calls by up to 47x. In experiments, quality matches expert-designed pipelines and outperforms ReAct agents, with 27% fewer hallucinations. Processes 50k+ meetings in under 60 seconds in production.",
+        "tags": [
+          "llm",
+          "application",
+          "infrastructure",
+          "rag",
+          "tool"
+        ],
+        "category": "application",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-07-22T18:23:30.850512+08:00",
+        "updated_at": "2026-07-22T18:23:30.850516+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "AI Tool Discovery at Scale: All You Need is DNS",
+      "url": "https://arxiv.org/abs/2607.18242",
+      "description": "arXiv:2607.18242v1 Announce Type: new \nAbstract: The coming era of autonomous AI agents demands a discovery mechanism capable of navigating millions of tools, yet existing solutions buckle under O(N) complexity and centralized governance. Instead of building another fragile overlay, we propose ToolDNS, a radical framework that retrofits semantic tool discovery onto the Internet's most resilient substrate: the Domain Name System (DNS). By embedding functional intent and organizational trust into a hierarchical namespace, ToolDNS transforms an expensive semantic search into a series of lightweight, O(log N) name resolutions. We introduce three protocol-compliant enhancements to enable decentralized governance and semantic pruning: partially unfolded names, EDNS0 intent payloads, and logical subdomains. To rigorously evaluate this approach across the fragmented tooling landscape, we construct and release a large-scale heterogeneous benchmark comprising 33,688 real-world tools spanning MCP, A2A, RESTful, and Skill protocols. On this dataset, ToolDNS slashes the per-query search space by 95.26% while matching state-of-the-art retrieval accuracy. Furthermore, its UDP-native design reduces discovery latency by orders of magnitude compared to HTTP-based registries. Our work demonstrates that scalable AI interoperability requires not more middleware, but a smarter utilization of the infrastructure already beneath our feet.",
+      "pub_date": "Wed, 22 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "ToolDNS：基于DNS的AI工具发现框架",
+        "summary": "ToolDNS提出一种基于DNS的语义工具发现框架，将工具发现转化为O(log N)的域名解析，在33868个真实工具基准上减少95.26%搜索空间，匹配最先进检索精度，延迟降低数个数量级。",
+        "summary_en": "ToolDNS proposes a DNS-based semantic tool discovery framework, transforming tool discovery into O(log N) name resolutions, reducing search space by 95.26% on a 33,688 real-world tool benchmark while matching state-of-the-art retrieval accuracy and reducing latency by orders of magnitude.",
+        "tags": [
+          "infrastructure",
+          "research",
+          "benchmark",
+          "tool"
+        ],
+        "category": "infrastructure",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-22-rss-007",
+        "title": "ToolDNS：基于DNS的AI工具发现框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.18242",
+        "language": "en",
+        "summary": "ToolDNS提出一种基于DNS的语义工具发现框架，将工具发现转化为O(log N)的域名解析，在33868个真实工具基准上减少95.26%搜索空间，匹配最先进检索精度，延迟降低数个数量级。",
+        "summary_en": "ToolDNS proposes a DNS-based semantic tool discovery framework, transforming tool discovery into O(log N) name resolutions, reducing search space by 95.26% on a 33,688 real-world tool benchmark while matching state-of-the-art retrieval accuracy and reducing latency by orders of magnitude.",
+        "tags": [
+          "infrastructure",
+          "research",
+          "benchmark",
+          "tool"
+        ],
+        "category": "infrastructure",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-07-22T18:23:30.850543+08:00",
+        "updated_at": "2026-07-22T18:23:30.850544+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "From Agent Failure Paths to Quantified Residual Risk: A Compositional Framework for Resilient Agentic AI",
+      "url": "https://arxiv.org/abs/2607.18243",
+      "description": "arXiv:2607.18243v1 Announce Type: new \nAbstract: Agentic AI is crossing trust boundaries faster than current risk models can represent. Existing approaches provide one of two partial views. They either describe failure mechanisms without producing a transferable residual-risk estimate, or they produce a risk estimate while treating the internal failure path as a black box. We couple those two views by proposing CPSAINT, a seven-layer integrity decomposition over Physical state, Sensors, Data, Compute, Actuators, Environment, and Time, paired with FRIESA-K, a residual-risk functional that maps each failure path to a quantified risk instance. FRIESA-K grounds the resistance term K in a controlled absorbing Markov model so that control effectiveness is derived from state dynamics rather than assigned as an informal score. The result is a concise mechanism-to magnitude pipeline for resilient agentic and embodied AI. We report governance observability through a separate additive penalty instead of inserting governance as a new variable in the resistance functional. We formalize structural composability linking valid failure paths to well-defined risk instances and show the framework on two contrasting scenarios a hard real-time warehouse robot and a governance-instrumented financial-services agent. Across both cases, the same layer grammar, variable semantics, and dynamic-resistance construction remain intact. Thus, we obtain a compact kernel that supports cross-domain reasoning, explicit assumptions, and quantitatively grounded formalism of composable trust.",
+      "pub_date": "Wed, 22 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "从Agent故障路径到量化残余风险：韧性Agentic AI的组合框架",
+        "summary": "提出CPSAINT七层完整性分解与FRIESA-K残余风险函数，将故障路径映射为量化风险实例，通过受控吸收马尔可夫模型推导控制有效性，支持跨域推理与可组合信任。",
+        "summary_en": "Proposes CPSAINT seven-layer integrity decomposition and FRIESA-K residual-risk functional, mapping failure paths to quantified risk instances via controlled absorbing Markov models for cross-domain reasoning and composable trust.",
+        "tags": [
+          "research",
+          "security",
+          "agent-framework",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-22-rss-006",
+        "title": "从Agent故障路径到量化残余风险：韧性Agentic AI的组合框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.18243",
+        "language": "en",
+        "summary": "提出CPSAINT七层完整性分解与FRIESA-K残余风险函数，将故障路径映射为量化风险实例，通过受控吸收马尔可夫模型推导控制有效性，支持跨域推理与可组合信任。",
+        "summary_en": "Proposes CPSAINT seven-layer integrity decomposition and FRIESA-K residual-risk functional, mapping failure paths to quantified risk instances via controlled absorbing Markov models for cross-domain reasoning and composable trust.",
+        "tags": [
+          "research",
+          "security",
+          "agent-framework",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-07-22T18:23:30.850539+08:00",
+        "updated_at": "2026-07-22T18:23:30.850540+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Decoding EEG Signals to Explore Next-Word Predictability in the Human Brain",
+      "url": "https://arxiv.org/abs/2607.18321",
+      "description": "arXiv:2607.18321v1 Announce Type: new \nAbstract: Humans invented reading and have passed down this complex skill across generations through language. This study provides empirical evidence of the neural mechanisms underlying bottom-up (related to high-order linguistic structure) and top-down (related to next-word predictability) processes, which interact to guide comprehension during reading. While previous studies have focused on either the N400 effects of predictability or lexical categories, research on how predictability influences N400 responses across different lexical categories is limited, mainly due to constraints in publicly available datasets. Here, we examine how predictability influences brain responses, recorded at millisecond resolution using electroencephalography (EEG), with a focus on the N400 time window (300-500 ms post-stimulus) across different lexical and grammatical categories. Our results indicate that significant differences in N400 responses between high and low cloze probability levels were more pronounced for content words than function words. Among the two primary content categories, verbs exhibited greater N400 differences than nouns, while nouns carried more distinct information about their predictability than verbs. Moreover, we demonstrate that the decoding technique is more effective than the event-related potential (ERP) traditional analysis in capturing more detailed and distinct representations of cognitive processes over time.",
+      "pub_date": "Wed, 22 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "解码脑电信号探索人脑中的下一个词可预测性",
+        "summary": "本研究通过脑电图（EEG）记录，在毫秒级分辨率下探究了阅读过程中自下而上（高阶语言结构）和自上而下（下一个词可预测性）神经机制的相互作用。发现高/低完形概率在实词上的N400差异比虚词更显著，动词比名词表现出更大的N400差异，而名词携带更多关于其可预测性的独特信息。解码技术比传统事件相关电位（ERP）分析能更有效地捕捉认知过程随时间变化的详细和独特表征。",
+        "summary_en": null,
+        "tags": [
+          "research",
+          "llm",
+          "multimodal"
+        ],
+        "category": "research",
+        "relevance_score": 0.6,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-22-rss-010",
+        "title": "解码脑电信号探索人脑中的下一个词可预测性",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.18321",
+        "language": "en",
+        "summary": "本研究通过脑电图（EEG）记录，在毫秒级分辨率下探究了阅读过程中自下而上（高阶语言结构）和自上而下（下一个词可预测性）神经机制的相互作用。发现高/低完形概率在实词上的N400差异比虚词更显著，动词比名词表现出更大的N400差异，而名词携带更多关于其可预测性的独特信息。解码技术比传统事件相关电位（ERP）分析能更有效地捕捉认知过程随时间变化的详细和独特表征。",
+        "summary_en": null,
+        "tags": [
+          "research",
+          "llm",
+          "multimodal"
+        ],
+        "category": "research",
+        "relevance_score": 0.6,
+        "status": "published",
+        "created_at": "2026-07-22T18:23:30.850555+08:00",
+        "updated_at": "2026-07-22T18:23:30.850556+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "A Classifier That Teaches Itself: Self-Improving, Frozen-gate Training (SIFT) for Dynamic Document Classification",
+      "url": "https://arxiv.org/abs/2607.18358",
+      "description": "arXiv:2607.18358v1 Announce Type: new \nAbstract: Document classification is a solved problem in the laboratory and an unsolved one in the enterprise. The blocker is rarely model architecture; it is the labeling project that must precede a model and the institutional fear of letting a model retrain itself once one exists. We present SIFT (Self-Improving, Frozen-gate Training), a dynamic classifier service, which attacks both. SIFT serves classification from a deliberately cheap, CPU-bound pipeline, a SPLADE sparse encoder feeding a LightGBM head, and escalates only the low-confidence minority of pages to an LLM judge. The judge's verdicts are written back into a labeled corpus, so the expensive model continuously teaches the cheap one: the escalation rate falls, the corpus grows from production traffic rather than from an up-front annotation effort, and accuracy compounds with use. Onboarding a new document family requires only a declarative bundle, label space, anchor phrases, and a judge glossary, not a labeling project. The harder problem is safety: an autonomously retraining classifier can silently regress. SIFT resolves this with a two-part promote gate, a critical-label F1 regression check plus a frozen golden regression set the model is never trained on, either of which vetoes promotion. This turns \"retrain monthly without a human\" from reckless into routine. We describe the architecture, the self-feeding corpus loop, the frozen-gate promotion mechanism, and an illustrative multi-domain deployment, and we discuss the economics of a classifier whose marginal labeling cost trends toward zero.",
+      "pub_date": "Wed, 22 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "自改进冻结门训练（SIFT）：动态文档分类器",
+        "summary": "提出SIFT动态分类器服务，通过廉价CPU管线（SPLADE+LightGBM）处理大部分分类，仅将低置信度样本升级至LLM裁判，裁判结果回注训练集，实现低成本持续自改进。采用冻结门机制（关键标签F1回归检查+冻结黄金回归集）确保安全，避免静默退化。",
+        "summary_en": "SIFT is a dynamic classifier that uses a cheap CPU pipeline (SPLADE+LightGBM) for most classifications, escalating only low-confidence cases to an LLM judge. Judge verdicts are fed back to improve the cheap model, reducing escalation rate and growing the corpus from production traffic. A frozen-gate mechanism ensures safety against silent regression.",
+        "tags": [
+          "llm",
+          "application",
+          "research",
+          "tool"
+        ],
+        "category": "application",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-22-rss-008",
+        "title": "自改进冻结门训练（SIFT）：动态文档分类器",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.18358",
+        "language": "en",
+        "summary": "提出SIFT动态分类器服务，通过廉价CPU管线（SPLADE+LightGBM）处理大部分分类，仅将低置信度样本升级至LLM裁判，裁判结果回注训练集，实现低成本持续自改进。采用冻结门机制（关键标签F1回归检查+冻结黄金回归集）确保安全，避免静默退化。",
+        "summary_en": "SIFT is a dynamic classifier that uses a cheap CPU pipeline (SPLADE+LightGBM) for most classifications, escalating only low-confidence cases to an LLM judge. Judge verdicts are fed back to improve the cheap model, reducing escalation rate and growing the corpus from production traffic. A frozen-gate mechanism ensures safety against silent regression.",
+        "tags": [
+          "llm",
+          "application",
+          "research",
+          "tool"
+        ],
+        "category": "application",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-07-22T18:23:30.850547+08:00",
+        "updated_at": "2026-07-22T18:23:30.850548+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Convolution for Large Language Models",
+      "url": "https://arxiv.org/abs/2607.18413",
+      "description": "arXiv:2607.18413v1 Announce Type: new \nAbstract: Large language models (LLMs) largely rely on Transformers, where self-attention provides global token interaction but does not explicitly encode the locality of natural language. We study whether lightweight depthwise convolutions can supply this local inductive bias without materially increasing model size. Our macro-level ablation compares convolution at 17 locations in a Qwen3 Transformer block and finds the best results when convolution is applied to the projected queries, keys, and values before attention. A subsequent micro-level study favors a residual depthwise convolution with kernel size $k=3$, without additional normalization or activation. Across Qwen3 models and several pre-training data budgets, this design improves the average accuracy on seven downstream benchmarks while adding less than $0.01\\%$ parameters. A representation-level case study further suggests that the convolution makes repeated token IDs more sensitive to their immediate context. These results support depthwise convolution as a lightweight complement to self-attention for modeling short-range token interactions.",
+      "pub_date": "Wed, 22 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "为大语言模型引入卷积",
+        "summary": "研究在Qwen3 Transformer块中17个位置应用轻量级深度可分离卷积，发现对注意力前的QKV投影进行卷积效果最佳。采用核大小k=3的残差深度卷积，无需额外归一化或激活函数，在增加不到0.01%参数的情况下，提升七个下游基准平均准确率。卷积使重复token对其上下文更敏感，作为自注意力的轻量级补充。",
+        "summary_en": "Studies applying lightweight depthwise convolutions at 17 locations in a Qwen3 Transformer block, finding best results on projected QKV before attention. A residual depthwise conv with kernel size 3, no extra norm/activation, improves average accuracy on 7 benchmarks while adding <0.01% parameters. Convolution makes repeated tokens more context-sensitive, serving as a lightweight complement to self-attention.",
+        "tags": [
+          "llm",
+          "research",
+          "architecture"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-22-rss-002",
+        "title": "为大语言模型引入卷积",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.18413",
+        "language": "en",
+        "summary": "研究在Qwen3 Transformer块中17个位置应用轻量级深度可分离卷积，发现对注意力前的QKV投影进行卷积效果最佳。采用核大小k=3的残差深度卷积，无需额外归一化或激活函数，在增加不到0.01%参数的情况下，提升七个下游基准平均准确率。卷积使重复token对其上下文更敏感，作为自注意力的轻量级补充。",
+        "summary_en": "Studies applying lightweight depthwise convolutions at 17 locations in a Qwen3 Transformer block, finding best results on projected QKV before attention. A residual depthwise conv with kernel size 3, no extra norm/activation, improves average accuracy on 7 benchmarks while adding <0.01% parameters. Convolution makes repeated tokens more context-sensitive, serving as a lightweight complement to self-attention.",
+        "tags": [
+          "llm",
+          "research",
+          "architecture"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-07-22T18:23:30.850521+08:00",
+        "updated_at": "2026-07-22T18:23:30.850522+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Building a European Multilingual Evaluation Dataset: The MMLU Localisation Project within the EMT Network",
+      "url": "https://arxiv.org/abs/2607.18432",
+      "description": "arXiv:2607.18432v1 Announce Type: new \nAbstract: This paper reports on a collaboration between the Directorate-General for Translation (DGT) and the European Master's in Translation (EMT) to localise the MMLU dataset into 11 European languages. Beyond creating a more inclusive benchmark for LLM evaluation, the project offers master's students authentic, project-based professional training in translation, revision, project management, and multilingual coordination, while highlighting key methodological, administrative, and workflow challenges.",
+      "pub_date": "Wed, 22 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "欧洲多语言评估数据集：EMT网络内的MMLU本地化项目",
+        "summary": "本文报告了翻译总局与欧洲翻译硕士网络合作，将MMLU数据集本地化为11种欧洲语言的项目。该项目不仅创建了更包容的LLM评估基准，还为学生提供了翻译、修订、项目管理和多语言协调的真实专业培训，同时突出了关键的方法、行政和工作流程挑战。",
+        "summary_en": "This paper reports on a collaboration between the Directorate-General for Translation and the European Master's in Translation to localise the MMLU dataset into 11 European languages, creating a more inclusive benchmark for LLM evaluation and providing authentic professional training for students.",
+        "tags": [
+          "benchmark",
+          "llm",
+          "evaluation",
+          "multimodal"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-22-rss-009",
+        "title": "欧洲多语言评估数据集：EMT网络内的MMLU本地化项目",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.18432",
+        "language": "en",
+        "summary": "本文报告了翻译总局与欧洲翻译硕士网络合作，将MMLU数据集本地化为11种欧洲语言的项目。该项目不仅创建了更包容的LLM评估基准，还为学生提供了翻译、修订、项目管理和多语言协调的真实专业培训，同时突出了关键的方法、行政和工作流程挑战。",
+        "summary_en": "This paper reports on a collaboration between the Directorate-General for Translation and the European Master's in Translation to localise the MMLU dataset into 11 European languages, creating a more inclusive benchmark for LLM evaluation and providing authentic professional training for students.",
+        "tags": [
+          "benchmark",
+          "llm",
+          "evaluation",
+          "multimodal"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-07-22T18:23:30.850550+08:00",
+        "updated_at": "2026-07-22T18:23:30.850552+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Relay-Bench: Evaluating LLMs on Multi-Domain Reasoning Chains",
+      "url": "https://arxiv.org/abs/2607.18438",
+      "description": "arXiv:2607.18438v1 Announce Type: new \nAbstract: Introducing Relay-Bench, an unsaturated, holistic, text-only benchmark that measures LLMs' ability to complete an assortment of tasks from distinct domains in a single prompt. The leading model, GPT-5.5 (xHigh), scores 43.3%. The test set entirely consists of composite problems: groups of single-domain subproblems that are strung together into challenges that require reasoning across multiple domains in combination. Many of these problems then have layers of complexity added through prompt encoding and deliberate context bloat. Domains tested include visual reasoning, coding, math, information extraction (with a focus on web search), problem-solving, general knowledge, and data analysis. No restrictions are imposed outside of the model harness, and models are explicitly encouraged to leverage code-execution, web searches, and all available tools. All problems are composed of two to thirteen subproblems and do not require multi-modal input or output.",
+      "pub_date": "Wed, 22 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "Relay-Bench：评估LLM的多领域推理链",
+        "summary": "Relay-Bench是一个全新的文本基准，用于衡量LLM在单个提示中完成来自不同领域的多个子任务的能力。领先模型GPT-5.5得分为43.3%。测试集包含复合问题，要求跨领域推理，并增加了提示编码和上下文膨胀等复杂性。涵盖视觉推理、编程、数学、信息提取、问题解决、通用知识和数据分析。",
+        "summary_en": "Relay-Bench is a novel text-only benchmark that measures LLMs' ability to complete multi-domain subproblems in a single prompt. The leading model, GPT-5.5, scores 43.3%. It tests cross-domain reasoning with added complexity from prompt encoding and context bloat, covering visual reasoning, coding, math, information extraction, problem-solving, general knowledge, and data analysis.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "evaluation",
+          "research"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-22-rss-003",
+        "title": "Relay-Bench：评估LLM的多领域推理链",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.18438",
+        "language": "en",
+        "summary": "Relay-Bench是一个全新的文本基准，用于衡量LLM在单个提示中完成来自不同领域的多个子任务的能力。领先模型GPT-5.5得分为43.3%。测试集包含复合问题，要求跨领域推理，并增加了提示编码和上下文膨胀等复杂性。涵盖视觉推理、编程、数学、信息提取、问题解决、通用知识和数据分析。",
+        "summary_en": "Relay-Bench is a novel text-only benchmark that measures LLMs' ability to complete multi-domain subproblems in a single prompt. The leading model, GPT-5.5, scores 43.3%. It tests cross-domain reasoning with added complexity from prompt encoding and context bloat, covering visual reasoning, coding, math, information extraction, problem-solving, general knowledge, and data analysis.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "evaluation",
+          "research"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-07-22T18:23:30.850526+08:00",
+        "updated_at": "2026-07-22T18:23:30.850527+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-22-rss-008",
+  "title": "自改进冻结门训练（SIFT）：动态文档分类器",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.18358",
+  "language": "en",
+  "summary": "提出SIFT动态分类器服务，通过廉价CPU管线（SPLADE+LightGBM）处理大部分分类，仅将低置信度样本升级至LLM裁判，裁判结果回注训练集，实现低成本持续自改进。采用冻结门机制（关键标签F1回归检查+冻结黄金回归集）确保安全，避免静默退化。",
+  "summary_en": "SIFT is a dynamic classifier that uses a cheap CPU pipeline (SPLADE+LightGBM) for most classifications, escalating only low-confidence cases to an LLM judge. Judge verdicts are fed back to improve the cheap model, reducing escalation rate and growing the corpus from production traffic. A frozen-gate mechanism ensures safety against silent regression.",
+  "tags": [
+    "llm",
+    "application",
+    "research",
+    "tool"
+  ],
+  "category": "application",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-07-22T18:23:30.850547+08:00",
+  "updated_at": "2026-07-22T18:23:30.850548+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

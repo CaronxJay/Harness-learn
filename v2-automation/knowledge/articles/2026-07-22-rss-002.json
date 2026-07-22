@@ -1,0 +1,24 @@
+{
+  "id": "2026-07-22-rss-002",
+  "title": "为大语言模型引入卷积",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.18413",
+  "language": "en",
+  "summary": "研究在Qwen3 Transformer块中17个位置应用轻量级深度可分离卷积，发现对注意力前的QKV投影进行卷积效果最佳。采用核大小k=3的残差深度卷积，无需额外归一化或激活函数，在增加不到0.01%参数的情况下，提升七个下游基准平均准确率。卷积使重复token对其上下文更敏感，作为自注意力的轻量级补充。",
+  "summary_en": "Studies applying lightweight depthwise convolutions at 17 locations in a Qwen3 Transformer block, finding best results on projected QKV before attention. A residual depthwise conv with kernel size 3, no extra norm/activation, improves average accuracy on 7 benchmarks while adding <0.01% parameters. Convolution makes repeated tokens more context-sensitive, serving as a lightweight complement to self-attention.",
+  "tags": [
+    "llm",
+    "research",
+    "architecture"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-07-22T18:23:30.850521+08:00",
+  "updated_at": "2026-07-22T18:23:30.850522+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

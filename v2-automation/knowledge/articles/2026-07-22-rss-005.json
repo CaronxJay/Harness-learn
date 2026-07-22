@@ -1,0 +1,26 @@
+{
+  "id": "2026-07-22-rss-005",
+  "title": "校准选择性事实核查：基于证据链评估",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.18240",
+  "language": "en",
+  "summary": "提出证据链评估（ECE）框架，允许模型在证据不足时弃权而非强制二选一。在ECE-Bench上，标准准确率91.6%，覆盖率93.7%，选择性准确率97.8%。弃权案例集中在低可靠性证据场景，可作为安全机制处理认知薄弱证据。",
+  "summary_en": "Proposes Evidence Chain Evaluation (ECE), a selective fact-checking framework that allows abstention when evidence is weak. Achieves 91.6% accuracy, 93.7% coverage, and 97.8% selective accuracy on ECE-Bench. Abstention cases concentrate in low-reliability evidence settings, serving as a safety mechanism.",
+  "tags": [
+    "llm",
+    "research",
+    "application",
+    "evaluation",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-07-22T18:23:30.850535+08:00",
+  "updated_at": "2026-07-22T18:23:30.850536+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

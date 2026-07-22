@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-22-rss-007",
+  "title": "ToolDNS：基于DNS的AI工具发现框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.18242",
+  "language": "en",
+  "summary": "ToolDNS提出一种基于DNS的语义工具发现框架，将工具发现转化为O(log N)的域名解析，在33868个真实工具基准上减少95.26%搜索空间，匹配最先进检索精度，延迟降低数个数量级。",
+  "summary_en": "ToolDNS proposes a DNS-based semantic tool discovery framework, transforming tool discovery into O(log N) name resolutions, reducing search space by 95.26% on a 33,688 real-world tool benchmark while matching state-of-the-art retrieval accuracy and reducing latency by orders of magnitude.",
+  "tags": [
+    "infrastructure",
+    "research",
+    "benchmark",
+    "tool"
+  ],
+  "category": "infrastructure",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-07-22T18:23:30.850543+08:00",
+  "updated_at": "2026-07-22T18:23:30.850544+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
