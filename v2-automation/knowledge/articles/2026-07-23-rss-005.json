@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-23-rss-005",
+  "title": "基于超网络的大语言模型知识注入缩放定律",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.19604",
+  "language": "en",
+  "summary": "本文研究了超网络在大语言模型训练时知识注入中的缩放行为。通过解耦超网络注入能力与目标模型通用能力，首次严格分析了超网络深度、宽度和目标网络大小对损失、推理准确率和OOD泛化的影响。构建了MegaWikiQA数据集，实验表明超网络注入在所有架构轴上呈现幂律缩放，且OOD泛化能力随规模提升，是LoRA微调和全微调的有前景替代方案。",
+  "summary_en": "This paper investigates the scaling behavior of hypernetworks for train-time knowledge injection in LLMs. By decoupling injection capacity from target model capability, it provides the first rigorous study of scaling laws for hypernetwork architectures, showing power-law scaling and improved OOD generalization, positioning hypernetworks as a scalable alternative to LoRA and full fine-tuning.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-07-23T18:20:33.942915+08:00",
+  "updated_at": "2026-07-23T18:20:33.942916+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

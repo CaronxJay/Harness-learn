@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-23-rss-007",
+  "title": "推理导致多样性崩溃：LLM在博弈中的行为趋同现象",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.19523",
+  "language": "en",
+  "summary": "研究发现监督微调（SFT）会降低大语言模型在序列决策中的行为多样性，尤其在推理模式下，动作多样性显著下降而准确性并未同步提升。标准SFT导致过早的多样性崩溃，而动作增强（训练所有最优动作而非单一示范）可部分缓解此问题。",
+  "summary_en": "Supervised fine-tuning reduces behavioral diversity in LLM sequential decision-making, especially in reasoning mode where action diversity collapses without accuracy improvement. Standard SFT induces premature diversity collapse; action augmentation (training on all optimal actions) partially mitigates this.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-07-23T18:20:33.942923+08:00",
+  "updated_at": "2026-07-23T18:20:33.942924+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

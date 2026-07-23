@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-23-rss-006",
+  "title": "任务能力不等于指令遵循：评估小语言模型中的指令冲突行为",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.19608",
+  "language": "en",
+  "summary": "研究小语言模型在指令与常规任务行为冲突时的表现，发现任务能力和指令遵循是两种不同的能力，仅报告标准准确率会掩盖指令遵循失败。",
+  "summary_en": "Study on small language models' behavior when instructions conflict with usual task behavior, finding task competence and instruction following are distinct abilities; reporting only standard accuracy hides instruction-following failures.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "fine-tuning"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-07-23T18:20:33.942919+08:00",
+  "updated_at": "2026-07-23T18:20:33.942920+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

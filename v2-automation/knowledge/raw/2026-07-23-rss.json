@@ -1,0 +1,475 @@
+{
+  "collected_at": "2026-07-23T18:20:33.943737+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "FineServe: A Fine-Grained Dataset and Characterization of Global LLM Serving Workloads",
+      "url": "https://arxiv.org/abs/2607.19349",
+      "description": "arXiv:2607.19349v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly deployed as always-on online services, making efficient LLM serving a critical systems challenge. Achieving low latency and high throughput under volatile demand requires deep understanding of real-world serving workloads, yet existing studies often rely on proxy traces or coarse-grained characterizations that fail to capture the heterogeneity of modern multi-model LLM platforms. We present FineServe, an in-the-wild, multi-model LLM serving workload dataset collected from a global commercial marketplace, enabling fine-grained characterization of real-world serving dynamics across heterogeneous models and tasks. Leveraging FineServe, we conduct a comprehensive analysis of arrival dynamics and token behavior, revealing fundamentally different fluctuation regimes across model architectures, scales and task intents. Building on these insights, we develop the FineServe workload generator, which composes fine-grained model-aware workloads into configurable mixtures tailored for benchmarking multi-model serving platforms. By exposing these fine-grained workload dynamics, FineServe provides a realistic foundation for evaluating routing, scheduling, and capacity-planning strategies in LLM serving systems. FineServe is available at https://github.com/hihiztc1/FineServe.",
+      "pub_date": "Thu, 23 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "FineServe：细粒度全球LLM服务负载数据集与特征分析",
+        "summary": "FineServe是一个从全球商业市场收集的多模型LLM服务负载数据集，支持细粒度特征分析。揭示了不同模型架构、规模和任务意图下的到达动态和令牌行为差异，并开发了可配置的工作负载生成器，为多模型服务平台的路由、调度和容量规划策略评估提供现实基础。",
+        "summary_en": "FineServe is a fine-grained, multi-model LLM serving workload dataset collected from a global commercial marketplace. It reveals distinct fluctuation regimes across model architectures, scales, and task intents, and provides a configurable workload generator for benchmarking routing, scheduling, and capacity-planning strategies.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "infrastructure",
+          "research"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-23-rss-001",
+        "title": "FineServe：细粒度全球LLM服务负载数据集与特征分析",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.19349",
+        "language": "en",
+        "summary": "FineServe是一个从全球商业市场收集的多模型LLM服务负载数据集，支持细粒度特征分析。揭示了不同模型架构、规模和任务意图下的到达动态和令牌行为差异，并开发了可配置的工作负载生成器，为多模型服务平台的路由、调度和容量规划策略评估提供现实基础。",
+        "summary_en": "FineServe is a fine-grained, multi-model LLM serving workload dataset collected from a global commercial marketplace. It reveals distinct fluctuation regimes across model architectures, scales, and task intents, and provides a configurable workload generator for benchmarking routing, scheduling, and capacity-planning strategies.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "infrastructure",
+          "research"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-07-23T18:20:33.942894+08:00",
+        "updated_at": "2026-07-23T18:20:33.942898+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Hybrid LSTM-Graph Neural Framework for Robust Financial Fraud Detection and Adversarial Resilience",
+      "url": "https://arxiv.org/abs/2607.19350",
+      "description": "arXiv:2607.19350v1 Announce Type: new \nAbstract: Financial institutions face significant challenges in detecting sophisticated money laundering patterns, such as smurfing and layering, due to extreme data imbalance (0.13% fraud rate) and evolving adversarial evasion tactics. This paper proposes FraudShield AI, a hybrid framework that integrates Long Short-Term Memory (LSTM) networks with hand-crafted Graph Topological Features to capture both temporal sequences and structural relational context. By engineering network-centric features including PageRank Centrality, In-Degree dynamics, and a custom Flow Ratio, the system shifts the detection paradigm from isolated transaction analysis to network-level forensics. A Focal Loss objective is used to address class imbalance, and a dynamic thresholding mechanism is introduced to improve resilience against low-value smurfing attacks. Experimental evaluation on the PaySim dataset shows that the proposed hybrid model substantially outperforms Logistic Regression and XGBoost baselines in Precision, Recall, and F1-Score, particularly on hard-to-detect micro-transaction fraud patterns. An ablation study confirms the complementary contribution of both the temporal and topological components.",
+      "pub_date": "Thu, 23 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "混合LSTM-图神经网络框架用于鲁棒的金融欺诈检测与对抗韧性",
+        "summary": "提出FraudShield AI混合框架，结合LSTM与手工图拓扑特征（PageRank、入度动态、自定义流量比），从孤立交易分析转向网络级取证。使用Focal Loss处理数据不平衡（0.13%欺诈率），动态阈值增强对低值smurfing攻击的韧性。在PaySim数据集上优于逻辑回归和XGBoost基线。",
+        "summary_en": "Proposes FraudShield AI hybrid framework combining LSTM with hand-crafted graph topological features (PageRank, in-degree dynamics, custom flow ratio) to shift from isolated transaction analysis to network-level forensics. Uses Focal Loss for extreme imbalance (0.13% fraud rate) and dynamic thresholding against low-value smurfing. Outperforms LR and XGBoost on PaySim.",
+        "tags": [
+          "research",
+          "application",
+          "security",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.6,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-23-rss-010",
+        "title": "混合LSTM-图神经网络框架用于鲁棒的金融欺诈检测与对抗韧性",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.19350",
+        "language": "en",
+        "summary": "提出FraudShield AI混合框架，结合LSTM与手工图拓扑特征（PageRank、入度动态、自定义流量比），从孤立交易分析转向网络级取证。使用Focal Loss处理数据不平衡（0.13%欺诈率），动态阈值增强对低值smurfing攻击的韧性。在PaySim数据集上优于逻辑回归和XGBoost基线。",
+        "summary_en": "Proposes FraudShield AI hybrid framework combining LSTM with hand-crafted graph topological features (PageRank, in-degree dynamics, custom flow ratio) to shift from isolated transaction analysis to network-level forensics. Uses Focal Loss for extreme imbalance (0.13% fraud rate) and dynamic thresholding against low-value smurfing. Outperforms LR and XGBoost on PaySim.",
+        "tags": [
+          "research",
+          "application",
+          "security",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.6,
+        "status": "published",
+        "created_at": "2026-07-23T18:20:33.942935+08:00",
+        "updated_at": "2026-07-23T18:20:33.942936+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "OpenEvoShield: Dual Non-Stationary Continual Defense for Open-World Multi-Agent System Attacks",
+      "url": "https://arxiv.org/abs/2607.19351",
+      "description": "arXiv:2607.19351v1 Announce Type: new \nAbstract: LLM-based multi-agent systems (LLM-MAS) are increasingly deployed in safety-critical applications, where adversaries inject malicious instructions through inter-agent communication to propagate harmful behaviors. Unlike static threats, these attacks are doubly dynamic: adversaries refine injection strategies against deployed defenses while normal-agent behavior drifts with system expansion. Existing defenses treat deployment as a closed-world problem and degrade rapidly once either distribution shifts beyond training coverage. We propose OpenEvoShield, a co-evolutionary continual defense framework for LLM-MAS. An asymmetric rate controller (M1) decouples fast attack-side and slow normal-side learning rates from dual drift signals. A normal-boundary updater (M2) maintains a dynamic behavioral boundary at the slow rate, while an EWC-regularized policy ensemble (M3) fast-adapts without catastrophic forgetting. An energy-based multi-granularity detector (M4) fuses node-, subgraph-, and graph-level evidence to classify novel attacks as out-of-distribution. Experiments over 100 deployment rounds across five benchmarks and four MAS topologies show that OpenEvoShield outperforms static and continual baselines, detecting most previously unseen attacks while keeping false positive rates low.",
+      "pub_date": "Thu, 23 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "OpenEvoShield：面向开放世界多智能体系统攻击的双重非平稳持续防御",
+        "summary": "提出OpenEvoShield，一种针对LLM多智能体系统的共演化持续防御框架。通过非对称速率控制器、正常边界更新器、EWC正则化策略集成和能量多粒度检测器，应对攻击策略和智能体行为的双重动态变化。在五个基准和四种拓扑上，优于静态和持续基线，能检测大多数未见攻击并保持低误报率。",
+        "summary_en": "Proposes OpenEvoShield, a co-evolutionary continual defense framework for LLM-based multi-agent systems. It handles dual dynamics of attack strategies and agent behavior drifts using asymmetric rate control, normal-boundary update, EWC-regularized policy ensemble, and energy-based multi-granularity detection. Outperforms baselines across five benchmarks and four topologies.",
+        "tags": [
+          "research",
+          "security",
+          "agent-framework",
+          "llm"
+        ],
+        "category": "security",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-23-rss-002",
+        "title": "OpenEvoShield：面向开放世界多智能体系统攻击的双重非平稳持续防御",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.19351",
+        "language": "en",
+        "summary": "提出OpenEvoShield，一种针对LLM多智能体系统的共演化持续防御框架。通过非对称速率控制器、正常边界更新器、EWC正则化策略集成和能量多粒度检测器，应对攻击策略和智能体行为的双重动态变化。在五个基准和四种拓扑上，优于静态和持续基线，能检测大多数未见攻击并保持低误报率。",
+        "summary_en": "Proposes OpenEvoShield, a co-evolutionary continual defense framework for LLM-based multi-agent systems. It handles dual dynamics of attack strategies and agent behavior drifts using asymmetric rate control, normal-boundary update, EWC-regularized policy ensemble, and energy-based multi-granularity detection. Outperforms baselines across five benchmarks and four topologies.",
+        "tags": [
+          "research",
+          "security",
+          "agent-framework",
+          "llm"
+        ],
+        "category": "security",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-07-23T18:20:33.942902+08:00",
+        "updated_at": "2026-07-23T18:20:33.942904+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Benchmarking Confidential GPU Inference on NVIDIA H100 under Intel TDX",
+      "url": "https://arxiv.org/abs/2607.19353",
+      "description": "arXiv:2607.19353v1 Announce Type: new \nAbstract: Confidential computing is becoming a practical deployment requirement for AI inference workloads that process sensitive inputs or protect proprietary model assets. However, the performance cost of enabling confidential execution for GPU-accelerated large language model serving remains workload dependent and operationally important. This paper presents a benchmark study comparing standard non-confidential execution with confidential computing mode on a single NVIDIA H100 80GB GPU hosted in an Intel TDX confidential instance. The evaluation uses two representative language models, Mistral-7B v0.1 and Qwen3-30B-A3B, and measures time to first token, end-to-end request latency, per-request token generation throughput, global token throughput, and closed-loop request throughput under increasing concurrency. In fixed request-rate experiments, confidential mode increases average TTFT by 21.8% for Mistral-7B and 27.8% for Qwen3-30B-A3B, while global token throughput drops by 17.7% and 21.1%, respectively. In closed-loop concurrency experiments, throughput gaps remain in the 11.5-20.2% range, but the larger model reaches its saturation knee earlier under confidential mode. The results suggest that confidential GPU inference can retain usable throughput under load, but capacity planning must account for both the steady throughput penalty and the earlier saturation behavior observed for larger models.",
+      "pub_date": "Thu, 23 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "NVIDIA H100在Intel TDX下的机密GPU推理基准测试",
+        "summary": "本文对NVIDIA H100 GPU在Intel TDX机密计算模式下的LLM推理性能进行了基准测试。使用Mistral-7B和Qwen3-30B-A3B模型，机密模式导致首令牌延迟增加21.8%-27.8%，全局吞吐量下降17.7%-21.1%，且大模型更早达到饱和。结果表明机密推理在负载下仍可用，但需考虑性能损失和饱和行为。",
+        "summary_en": "This paper benchmarks confidential GPU inference on NVIDIA H100 under Intel TDX using Mistral-7B and Qwen3-30B-A3B. Confidential mode increases TTFT by 21.8%-27.8% and reduces throughput by 17.7%-21.1%, with larger models saturating earlier. Results show usable throughput under load but require capacity planning for performance penalties.",
+        "tags": [
+          "benchmark",
+          "security",
+          "infrastructure",
+          "llm"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-23-rss-008",
+        "title": "NVIDIA H100在Intel TDX下的机密GPU推理基准测试",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.19353",
+        "language": "en",
+        "summary": "本文对NVIDIA H100 GPU在Intel TDX机密计算模式下的LLM推理性能进行了基准测试。使用Mistral-7B和Qwen3-30B-A3B模型，机密模式导致首令牌延迟增加21.8%-27.8%，全局吞吐量下降17.7%-21.1%，且大模型更早达到饱和。结果表明机密推理在负载下仍可用，但需考虑性能损失和饱和行为。",
+        "summary_en": "This paper benchmarks confidential GPU inference on NVIDIA H100 under Intel TDX using Mistral-7B and Qwen3-30B-A3B. Confidential mode increases TTFT by 21.8%-27.8% and reduces throughput by 17.7%-21.1%, with larger models saturating earlier. Results show usable throughput under load but require capacity planning for performance penalties.",
+        "tags": [
+          "benchmark",
+          "security",
+          "infrastructure",
+          "llm"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-07-23T18:20:33.942927+08:00",
+        "updated_at": "2026-07-23T18:20:33.942928+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "FormulaSPIN: Self-Play Fine-Tuning for Natural Language to Spreadsheet Formula Generation",
+      "url": "https://arxiv.org/abs/2607.19354",
+      "description": "arXiv:2607.19354v1 Announce Type: new \nAbstract: Spreadsheet applications are used by hundreds of millions worldwide, yet writing formulas remains a significant barrier. Existing approaches rely on static supervised data, which quickly saturates on limited annotations. In this paper, we introduce FORMULASPIN, a self-play framework that breaks the ceiling of supervised fine-tuning by enabling iterative self-improvement without any additional data. Vanilla SPIN fails on this task: it uniformly penalizes every non-matching output, so execution-equivalent alternatives are punished as negatives in one example while serving as ground truth in another, producing contradictory gradients. Our framework resolves this by exploiting formula generation's unique advantage: binary executability provides implicit supervision that separates semantic errors from valid stylistic variants. We frame training as a two-player game in which the main player learns to prefer ground-truth formulas over those from its previous version, while execution feedback sorts outputs into distinct granularities-enabling an adaptive curriculum that shifts from semantic correctness to stylistic refinement. To further increase accuracy, we incorporate ExecVote, a semantic-level voting mechanism that naturally handles multiple valid formulations. Experiments on multiple benchmarks demonstrate that FORMULASPIN achieves state-of-the-art performance, with 74.9% exact match and 87.1% execution accuracy on NL2FORMULA, matching models trained with additional preference annotations while outperforming both traditional SFT and frontier proprietary models. These findings underscore self-play's potential to tackle scarce data tasks and open the door to extending it beyond executable domains.",
+      "pub_date": "Thu, 23 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "FormulaSPIN：自然语言到电子表格公式生成的自对弈微调",
+        "summary": "FormulaSPIN是一个自对弈框架，通过利用公式的可执行性作为隐式监督，解决了传统监督微调在电子表格公式生成任务中数据饱和的问题。它采用双玩家游戏和自适应课程学习，从语义正确性过渡到风格优化，并引入ExecVote投票机制处理多种有效公式。在NL2FORMULA基准上达到74.9%精确匹配和87.1%执行准确率，超越传统SFT和前沿专有模型。",
+        "summary_en": "FormulaSPIN is a self-play framework that leverages formula executability as implicit supervision to overcome data saturation in supervised fine-tuning for spreadsheet formula generation. It uses a two-player game with adaptive curriculum learning and ExecVote mechanism, achieving 74.9% exact match and 87.1% execution accuracy on NL2FORMULA, outperforming traditional SFT and frontier proprietary models.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-23-rss-003",
+        "title": "FormulaSPIN：自然语言到电子表格公式生成的自对弈微调",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.19354",
+        "language": "en",
+        "summary": "FormulaSPIN是一个自对弈框架，通过利用公式的可执行性作为隐式监督，解决了传统监督微调在电子表格公式生成任务中数据饱和的问题。它采用双玩家游戏和自适应课程学习，从语义正确性过渡到风格优化，并引入ExecVote投票机制处理多种有效公式。在NL2FORMULA基准上达到74.9%精确匹配和87.1%执行准确率，超越传统SFT和前沿专有模型。",
+        "summary_en": "FormulaSPIN is a self-play framework that leverages formula executability as implicit supervision to overcome data saturation in supervised fine-tuning for spreadsheet formula generation. It uses a two-player game with adaptive curriculum learning and ExecVote mechanism, achieving 74.9% exact match and 87.1% execution accuracy on NL2FORMULA, outperforming traditional SFT and frontier proprietary models.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-07-23T18:20:33.942907+08:00",
+        "updated_at": "2026-07-23T18:20:33.942908+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Stateful Guardrails for Multi-Turn LLM Systems: A Conversational Risk Accumulation Framework",
+      "url": "https://arxiv.org/abs/2607.19361",
+      "description": "arXiv:2607.19361v1 Announce Type: new \nAbstract: Most safety guardrails for large language models (LLMs) evaluate each prompt-response pair in isolation, which misses failures that arise only over a dialogue as benign turns compose into harm. We term this Conversational Risk Accumulation (CRA): gradual intent drift, fragmented assembly of prohibited instructions, and sensitivity build-up from repeated disclosures. We propose a session-layer CRA Framework that tracks three trajectory signals: semantic drift from a session anchor, a sensitivity-weighted information accumulation graph over extracted entities, and a compliance-gradient signal capturing increasing willingness to comply. For scoring, we provide (i) an unsupervised convex fusion for attribution and ablations, and (ii) CRA-Net DA, a compact learned trajectory model trained with family-adversarial objectives to reduce length and topic-coverage confounds. To benchmark CRA, we release CRA-Bench v0.1 (1,200 eight-turn sessions across three threat families with topic-matched benign twins), CRA-Bench v0.2 (LLM-paraphrased variants to reduce template artifacts), and an extended 5-family set (2,000 sessions adding persona priming and context stuffing). We introduce a trajectory-native evaluation protocol with session-level splits, mixed-set threshold calibration, Trajectory AUROC, turns-to-detection, calibrated false-positive metrics, bootstrap confidence intervals, leave-one-family-out diagnostic stress tests, and synthetic-to-human transfer checks. Claims focus on within-distribution session scoring on CRA-Bench and human-transfer subsets.",
+      "pub_date": "Thu, 23 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "多轮LLM系统的状态化护栏：对话风险累积框架",
+        "summary": "提出对话风险累积（CRA）概念，指无害对话回合逐步组合成有害行为的失败模式。构建会话层CRA框架，追踪语义漂移、敏感加权信息累积图和合规梯度三个轨迹信号。提供无监督凸融合和CRA-Net DA模型进行评分。发布CRA-Bench基准（含1200个8轮会话）和轨迹原生评估协议。",
+        "summary_en": "Proposes Conversational Risk Accumulation (CRA), where benign dialogue turns compose into harm. Introduces a session-layer framework tracking semantic drift, sensitivity-weighted information accumulation, and compliance gradient. Provides unsupervised convex fusion and CRA-Net DA for scoring. Releases CRA-Bench benchmark (1,200 eight-turn sessions) and trajectory-native evaluation protocol.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "security"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-23-rss-004",
+        "title": "多轮LLM系统的状态化护栏：对话风险累积框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.19361",
+        "language": "en",
+        "summary": "提出对话风险累积（CRA）概念，指无害对话回合逐步组合成有害行为的失败模式。构建会话层CRA框架，追踪语义漂移、敏感加权信息累积图和合规梯度三个轨迹信号。提供无监督凸融合和CRA-Net DA模型进行评分。发布CRA-Bench基准（含1200个8轮会话）和轨迹原生评估协议。",
+        "summary_en": "Proposes Conversational Risk Accumulation (CRA), where benign dialogue turns compose into harm. Introduces a session-layer framework tracking semantic drift, sensitivity-weighted information accumulation, and compliance gradient. Provides unsupervised convex fusion and CRA-Net DA for scoring. Releases CRA-Bench benchmark (1,200 eight-turn sessions) and trajectory-native evaluation protocol.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "security"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-07-23T18:20:33.942911+08:00",
+        "updated_at": "2026-07-23T18:20:33.942912+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "When Reasoning Narrows the Move: Diversity Collapse in LLM Game Play",
+      "url": "https://arxiv.org/abs/2607.19523",
+      "description": "arXiv:2607.19523v1 Announce Type: new \nAbstract: Supervised fine-tuning (SFT) is widely used to adapt large language models to downstream tasks, but its effect on behavioral diversity in sequential decision-making remains under-explored. We study this question in a controlled suite of deterministic board games based on tic-tac-toe variants, where optimal actions are exactly computable and diversity can be measured directly. Across state-level evaluation, arena gameplay, and training trajectories, we find that reasoning-mode generation frequently suppresses action diversity without uniformly improving action accuracy. Furthermore, standard SFT improves accuracy but often induces premature diversity collapse, which exceeds what is minimally required by the accuracy-diversity tradeoff. We then show that action augmentation, which trains on all optimal actions per state rather than a single demonstrated action, would partially mitigates this effect. Our results identify narrow-support imitation as a source of policy collapse in LLM decision-making and suggest that preserving action support during SFT is important for maintaining exploratory behavior.",
+      "pub_date": "Thu, 23 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "推理导致多样性崩溃：LLM在博弈中的行为趋同现象",
+        "summary": "研究发现监督微调（SFT）会降低大语言模型在序列决策中的行为多样性，尤其在推理模式下，动作多样性显著下降而准确性并未同步提升。标准SFT导致过早的多样性崩溃，而动作增强（训练所有最优动作而非单一示范）可部分缓解此问题。",
+        "summary_en": "Supervised fine-tuning reduces behavioral diversity in LLM sequential decision-making, especially in reasoning mode where action diversity collapses without accuracy improvement. Standard SFT induces premature diversity collapse; action augmentation (training on all optimal actions) partially mitigates this.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-23-rss-007",
+        "title": "推理导致多样性崩溃：LLM在博弈中的行为趋同现象",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.19523",
+        "language": "en",
+        "summary": "研究发现监督微调（SFT）会降低大语言模型在序列决策中的行为多样性，尤其在推理模式下，动作多样性显著下降而准确性并未同步提升。标准SFT导致过早的多样性崩溃，而动作增强（训练所有最优动作而非单一示范）可部分缓解此问题。",
+        "summary_en": "Supervised fine-tuning reduces behavioral diversity in LLM sequential decision-making, especially in reasoning mode where action diversity collapses without accuracy improvement. Standard SFT induces premature diversity collapse; action augmentation (training on all optimal actions) partially mitigates this.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-07-23T18:20:33.942923+08:00",
+        "updated_at": "2026-07-23T18:20:33.942924+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "On the Computational Complexity of Structural Generalization",
+      "url": "https://arxiv.org/abs/2607.19573",
+      "description": "arXiv:2607.19573v1 Announce Type: new \nAbstract: Structural generalization has been measured repeatedly by several benchmarks, yet it has never been formally defined. We give a definition that translates the two premises (compositional structure and unbounded generalization) into mathematical language. The definition itself is neutral: a compiler that hard-codes the rules satisfies it just as well. But structural generalization becomes a scientific question only insofar as the capacity can autonomously emerge from finite data. This question pits the computational lower bound $\\mathrm{NC}^1$ against the learnable ceiling $\\mathrm{TC}^0$ of pure Transformers. Under a Montagovian instantiation, each compositional rule splits into two projections: a syntactic face ($F_\\gamma$) and a semantic face ($G_\\gamma$). Tree evaluation on the $G_\\gamma$ side is an instantiation of BFVP, which is $\\mathrm{NC}^1$-complete (Buss, 1987). A pure Transformer must learn both faces at once, but Kraus et al. (2026) prove that its learnable class $\\subseteq \\mathrm{TC}^0$. Under the standard assumption $\\mathrm{TC}^0 \\neq \\mathrm{NC}^1$, a pure Transformer cannot learn structural generalization. Neuro-symbolic systems achieve the best benchmark scores precisely because they inject $G_\\gamma$, sidestepping the genuinely hard half. Benchmark scores cannot distinguish \"learned\" from \"given.\" This is what this paper sets out to make clear.",
+      "pub_date": "Thu, 23 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "结构泛化的计算复杂度",
+        "summary": "本文首次形式化定义了结构泛化，将其转化为数学语言。证明纯Transformer（可学习类⊆TC⁰）在标准假设TC⁰≠NC¹下无法学习结构泛化，而神经符号系统通过注入语义面（G_γ）绕过了这一难题。基准测试无法区分“学习”与“给定”。",
+        "summary_en": "This paper formally defines structural generalization and proves that pure Transformers (learnable class ⊆ TC⁰) cannot learn it under the standard assumption TC⁰ ≠ NC¹, while neuro-symbolic systems bypass the hard part by injecting the semantic face (G_γ). Benchmarks cannot distinguish 'learned' from 'given'.",
+        "tags": [
+          "research",
+          "llm",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-23-rss-009",
+        "title": "结构泛化的计算复杂度",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.19573",
+        "language": "en",
+        "summary": "本文首次形式化定义了结构泛化，将其转化为数学语言。证明纯Transformer（可学习类⊆TC⁰）在标准假设TC⁰≠NC¹下无法学习结构泛化，而神经符号系统通过注入语义面（G_γ）绕过了这一难题。基准测试无法区分“学习”与“给定”。",
+        "summary_en": "This paper formally defines structural generalization and proves that pure Transformers (learnable class ⊆ TC⁰) cannot learn it under the standard assumption TC⁰ ≠ NC¹, while neuro-symbolic systems bypass the hard part by injecting the semantic face (G_γ). Benchmarks cannot distinguish 'learned' from 'given'.",
+        "tags": [
+          "research",
+          "llm",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-07-23T18:20:33.942931+08:00",
+        "updated_at": "2026-07-23T18:20:33.942932+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Scaling Laws for Hypernetwork-Based Knowledge Injection in Large Language Models",
+      "url": "https://arxiv.org/abs/2607.19604",
+      "description": "arXiv:2607.19604v1 Announce Type: new \nAbstract: Injecting factual knowledge into large language models (LLMs) reliably and at scale remains an open challenge. Hypernetworks provide a promising solution to large-scale knowledge injection. Although hypernetworks are typically applied for test-time adaptation, we explore their use in train-time knowledge injection, where, given a large corpus of facts, we train a hypernetwork to generate a fixed LoRA adapter that, when inserted into the target model, enable the model to answer questions about those facts. In this work, we investigate whether hypernetworks can be used to perform train-time knowledge injection and how this ability varies with scale. The scaling behavior of hypernetworks remains largely unstudied. Our design decouples the hypernetwork's injection capacity from the target model's general capability, enabling, for the first time, a rigorous study of scaling laws for hypernetwork architectures. We characterize how loss, reasoning accuracy, and out-of-distribution (OOD) generalization vary with hypernetwork depth, width, and target network size. We construct a large-scale dataset, called MegaWikiQA, containing tens of millions of multi-hop question-answer examples across 39 domains constructed from examples in Wikidata5M. Our results reveal: (i) hypernetwork-based injection exhibits broadly predictive power law scaling along all architecture axes; and (ii) hypernetworks are capable of reliable OOD generalization at increasing scales, suggesting that hypernetwork provides a promising alternative to other train-time adaptation methods such as LoRA finetuning and full fine-tuning, exhibiting steeper scaling exponents in all OOD evaluations. Together, these results establish hypernetworks as a principled and scalable substrate for train-time adaptation, and provide the first empirically grounded scaling laws to guide hypernetworks for factual reasoning in large language models.",
+      "pub_date": "Thu, 23 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "基于超网络的大语言模型知识注入缩放定律",
+        "summary": "本文研究了超网络在大语言模型训练时知识注入中的缩放行为。通过解耦超网络注入能力与目标模型通用能力，首次严格分析了超网络深度、宽度和目标网络大小对损失、推理准确率和OOD泛化的影响。构建了MegaWikiQA数据集，实验表明超网络注入在所有架构轴上呈现幂律缩放，且OOD泛化能力随规模提升，是LoRA微调和全微调的有前景替代方案。",
+        "summary_en": "This paper investigates the scaling behavior of hypernetworks for train-time knowledge injection in LLMs. By decoupling injection capacity from target model capability, it provides the first rigorous study of scaling laws for hypernetwork architectures, showing power-law scaling and improved OOD generalization, positioning hypernetworks as a scalable alternative to LoRA and full fine-tuning.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-23-rss-005",
+        "title": "基于超网络的大语言模型知识注入缩放定律",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.19604",
+        "language": "en",
+        "summary": "本文研究了超网络在大语言模型训练时知识注入中的缩放行为。通过解耦超网络注入能力与目标模型通用能力，首次严格分析了超网络深度、宽度和目标网络大小对损失、推理准确率和OOD泛化的影响。构建了MegaWikiQA数据集，实验表明超网络注入在所有架构轴上呈现幂律缩放，且OOD泛化能力随规模提升，是LoRA微调和全微调的有前景替代方案。",
+        "summary_en": "This paper investigates the scaling behavior of hypernetworks for train-time knowledge injection in LLMs. By decoupling injection capacity from target model capability, it provides the first rigorous study of scaling laws for hypernetwork architectures, showing power-law scaling and improved OOD generalization, positioning hypernetworks as a scalable alternative to LoRA and full fine-tuning.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-07-23T18:20:33.942915+08:00",
+        "updated_at": "2026-07-23T18:20:33.942916+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Task Competence Is Not Instruction Following: Evaluating Instruction-Conflicting Behavior in Small Language Models",
+      "url": "https://arxiv.org/abs/2607.19608",
+      "description": "arXiv:2607.19608v1 Announce Type: new \nAbstract: Instruction tuning is meant to make language models follow user requests, yet it is unclear whether small models comply when an instruction conflicts with their usual task behavior. We study this across three tasks - multiple-choice question answering (MCQA), sentiment classification, and mathematical question answering - by pairing a standard instruction with a conflicting non-standard one (select an incorrect option, output the opposite sentiment, or return twice the answer). This cross-task design allows us to test whether resistance to conflicting instructions is tied to specific task characteristics or reflects a broader behavioral tendency. As all predictions are scored against the original ground truth, a model that ignores the non-standard instruction still appears accurate. Using standard accuracy, non-standard accuracy, and an Instruction-Following Failure Rate (IFFR), we evaluate instruction-tuned Qwen models across sizes. Both standard accuracy and instruction following generally improve with scale, although the pattern is not consistent across all tasks and datasets. Small models stay competent yet routinely ignore the non-standard instruction, while larger models show a clear gap between the two settings. These findings suggest that gains in task capability do not automatically provide reliable control over model behavior. Task competence and instruction following are therefore distinct abilities, and reporting only standard accuracy hides instruction-following failures.",
+      "pub_date": "Thu, 23 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "任务能力不等于指令遵循：评估小语言模型中的指令冲突行为",
+        "summary": "研究小语言模型在指令与常规任务行为冲突时的表现，发现任务能力和指令遵循是两种不同的能力，仅报告标准准确率会掩盖指令遵循失败。",
+        "summary_en": "Study on small language models' behavior when instructions conflict with usual task behavior, finding task competence and instruction following are distinct abilities; reporting only standard accuracy hides instruction-following failures.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-23-rss-006",
+        "title": "任务能力不等于指令遵循：评估小语言模型中的指令冲突行为",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.19608",
+        "language": "en",
+        "summary": "研究小语言模型在指令与常规任务行为冲突时的表现，发现任务能力和指令遵循是两种不同的能力，仅报告标准准确率会掩盖指令遵循失败。",
+        "summary_en": "Study on small language models' behavior when instructions conflict with usual task behavior, finding task competence and instruction following are distinct abilities; reporting only standard accuracy hides instruction-following failures.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-07-23T18:20:33.942919+08:00",
+        "updated_at": "2026-07-23T18:20:33.942920+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

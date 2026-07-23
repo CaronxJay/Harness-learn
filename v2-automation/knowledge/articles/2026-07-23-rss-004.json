@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-23-rss-004",
+  "title": "多轮LLM系统的状态化护栏：对话风险累积框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.19361",
+  "language": "en",
+  "summary": "提出对话风险累积（CRA）概念，指无害对话回合逐步组合成有害行为的失败模式。构建会话层CRA框架，追踪语义漂移、敏感加权信息累积图和合规梯度三个轨迹信号。提供无监督凸融合和CRA-Net DA模型进行评分。发布CRA-Bench基准（含1200个8轮会话）和轨迹原生评估协议。",
+  "summary_en": "Proposes Conversational Risk Accumulation (CRA), where benign dialogue turns compose into harm. Introduces a session-layer framework tracking semantic drift, sensitivity-weighted information accumulation, and compliance gradient. Provides unsupervised convex fusion and CRA-Net DA for scoring. Releases CRA-Bench benchmark (1,200 eight-turn sessions) and trajectory-native evaluation protocol.",
+  "tags": [
+    "llm",
+    "research",
+    "benchmark",
+    "security"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-07-23T18:20:33.942911+08:00",
+  "updated_at": "2026-07-23T18:20:33.942912+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

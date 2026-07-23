@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-23-rss-003",
+  "title": "FormulaSPIN：自然语言到电子表格公式生成的自对弈微调",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.19354",
+  "language": "en",
+  "summary": "FormulaSPIN是一个自对弈框架，通过利用公式的可执行性作为隐式监督，解决了传统监督微调在电子表格公式生成任务中数据饱和的问题。它采用双玩家游戏和自适应课程学习，从语义正确性过渡到风格优化，并引入ExecVote投票机制处理多种有效公式。在NL2FORMULA基准上达到74.9%精确匹配和87.1%执行准确率，超越传统SFT和前沿专有模型。",
+  "summary_en": "FormulaSPIN is a self-play framework that leverages formula executability as implicit supervision to overcome data saturation in supervised fine-tuning for spreadsheet formula generation. It uses a two-player game with adaptive curriculum learning and ExecVote mechanism, achieving 74.9% exact match and 87.1% execution accuracy on NL2FORMULA, outperforming traditional SFT and frontier proprietary models.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-07-23T18:20:33.942907+08:00",
+  "updated_at": "2026-07-23T18:20:33.942908+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

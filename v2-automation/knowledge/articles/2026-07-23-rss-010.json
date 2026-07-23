@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-23-rss-010",
+  "title": "混合LSTM-图神经网络框架用于鲁棒的金融欺诈检测与对抗韧性",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.19350",
+  "language": "en",
+  "summary": "提出FraudShield AI混合框架，结合LSTM与手工图拓扑特征（PageRank、入度动态、自定义流量比），从孤立交易分析转向网络级取证。使用Focal Loss处理数据不平衡（0.13%欺诈率），动态阈值增强对低值smurfing攻击的韧性。在PaySim数据集上优于逻辑回归和XGBoost基线。",
+  "summary_en": "Proposes FraudShield AI hybrid framework combining LSTM with hand-crafted graph topological features (PageRank, in-degree dynamics, custom flow ratio) to shift from isolated transaction analysis to network-level forensics. Uses Focal Loss for extreme imbalance (0.13% fraud rate) and dynamic thresholding against low-value smurfing. Outperforms LR and XGBoost on PaySim.",
+  "tags": [
+    "research",
+    "application",
+    "security",
+    "llm"
+  ],
+  "category": "research",
+  "relevance_score": 0.6,
+  "status": "published",
+  "created_at": "2026-07-23T18:20:33.942935+08:00",
+  "updated_at": "2026-07-23T18:20:33.942936+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

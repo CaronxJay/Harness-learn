@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-23-rss-001",
+  "title": "FineServe：细粒度全球LLM服务负载数据集与特征分析",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.19349",
+  "language": "en",
+  "summary": "FineServe是一个从全球商业市场收集的多模型LLM服务负载数据集，支持细粒度特征分析。揭示了不同模型架构、规模和任务意图下的到达动态和令牌行为差异，并开发了可配置的工作负载生成器，为多模型服务平台的路由、调度和容量规划策略评估提供现实基础。",
+  "summary_en": "FineServe is a fine-grained, multi-model LLM serving workload dataset collected from a global commercial marketplace. It reveals distinct fluctuation regimes across model architectures, scales, and task intents, and provides a configurable workload generator for benchmarking routing, scheduling, and capacity-planning strategies.",
+  "tags": [
+    "llm",
+    "benchmark",
+    "infrastructure",
+    "research"
+  ],
+  "category": "benchmark",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-07-23T18:20:33.942894+08:00",
+  "updated_at": "2026-07-23T18:20:33.942898+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

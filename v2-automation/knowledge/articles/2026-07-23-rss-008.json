@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-23-rss-008",
+  "title": "NVIDIA H100在Intel TDX下的机密GPU推理基准测试",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.19353",
+  "language": "en",
+  "summary": "本文对NVIDIA H100 GPU在Intel TDX机密计算模式下的LLM推理性能进行了基准测试。使用Mistral-7B和Qwen3-30B-A3B模型，机密模式导致首令牌延迟增加21.8%-27.8%，全局吞吐量下降17.7%-21.1%，且大模型更早达到饱和。结果表明机密推理在负载下仍可用，但需考虑性能损失和饱和行为。",
+  "summary_en": "This paper benchmarks confidential GPU inference on NVIDIA H100 under Intel TDX using Mistral-7B and Qwen3-30B-A3B. Confidential mode increases TTFT by 21.8%-27.8% and reduces throughput by 17.7%-21.1%, with larger models saturating earlier. Results show usable throughput under load but require capacity planning for performance penalties.",
+  "tags": [
+    "benchmark",
+    "security",
+    "infrastructure",
+    "llm"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-07-23T18:20:33.942927+08:00",
+  "updated_at": "2026-07-23T18:20:33.942928+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
