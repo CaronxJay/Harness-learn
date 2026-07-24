@@ -1,0 +1,26 @@
+{
+  "id": "2026-07-24-rss-006",
+  "title": "评估LLM水印在医学文本中的影响",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.20462",
+  "language": "en",
+  "summary": "首次系统研究LLM水印对医学性能的影响，在11个LLM和7个VLM上基准测试5种水印方案。引入专家验证流程审计医学推理质量、术语准确性和幻觉。发现水印会导致词汇损坏、术语幻觉和图像发现误归因等严重退化，强调领域特定评估对安全部署的必要性。",
+  "summary_en": "First rigorous study of how LLM watermarks affect medical performance, benchmarking 5 schemes across 11 LLMs and 7 VLMs. Introduces expert-validated pipeline to audit reasoning quality, terminology, and hallucinations. Reveals watermark-induced degradation including lexical corruption, hallucinated terms, and misattribution, emphasizing need for domain-specific evaluation.",
+  "tags": [
+    "llm",
+    "research",
+    "benchmark",
+    "security",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-07-24T18:14:21.243460+08:00",
+  "updated_at": "2026-07-24T18:14:21.243462+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

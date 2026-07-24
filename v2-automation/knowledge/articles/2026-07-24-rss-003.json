@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-24-rss-003",
+  "title": "MoE中的知识注入？专家感知对比解码缓解LLM幻觉",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.20426",
+  "language": "en",
+  "summary": "针对LLM幻觉问题，提出EAACD方法，利用MoE模型高层专家的激活差异进行对比解码。将专家分为高可靠组和低可靠组，通过对比校准预测，并增强低可靠专家的幻觉信号作为负参考，在四个数据集上优于所有基线。",
+  "summary_en": "Proposes EAACD, an expert-aware adaptive contrast decoding method for mitigating LLM hallucinations in MoE models. It leverages expert activation differences in higher layers, contrasting high-reliability and low-reliability expert groups to calibrate predictions, outperforming baselines on four datasets.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-07-24T18:14:21.243438+08:00",
+  "updated_at": "2026-07-24T18:14:21.243440+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

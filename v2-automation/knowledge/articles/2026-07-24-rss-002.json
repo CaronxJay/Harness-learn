@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-24-rss-002",
+  "title": "随机采样在认知上是浅薄的：温度变化与模型多样性之间的维度差距",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.20464",
+  "language": "en",
+  "summary": "该研究对比了单个LLM多次随机采样（温度τ=1）与多个不同LLM集成（τ=0）在不确定性估计上的表现。通过Marchenko-Pastur随机矩阵检验发现，单模型随机采样最多只有一个维度高于噪声水平，而多模型集成则有四个特征值超过噪声阈值。这表明自一致性虽能提供准确的逐问题不确定性，但无法揭示跨问题的结构信息，只有多样化的模型集成才能揭示模型未知的知识。",
+  "summary_en": "This study compares repeated stochastic sampling of a single LLM (τ=1) with an ensemble of 24 diverse LLMs (τ=0) for uncertainty estimation. Using Marchenko-Pastur random matrix test, it finds that single-model sampling yields at most one dimension above noise, while the ensemble yields four eigenvalues above the noise threshold. Self-consistency provides accurate per-question uncertainty but no cross-question structure; only a diverse ensemble reveals what the model does not know.",
+  "tags": [
+    "llm",
+    "research",
+    "benchmark",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-07-24T18:14:21.243429+08:00",
+  "updated_at": "2026-07-24T18:14:21.243432+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

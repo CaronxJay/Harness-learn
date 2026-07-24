@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-24-rss-008",
+  "title": "什么是好作品？从LLM推理轨迹中提取和测试文学质量的隐含理论",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.20425",
+  "language": "en",
+  "summary": "通过两项研究，利用推理型LLM评估文学质量。研究一构建了涵盖六个质量等级的30篇文本基准，提取模型隐含理论，发现其重视意图性、工艺、深度和独特声音。研究二通过系统退化实验，揭示模型对结构特征比词汇特征更敏感。",
+  "summary_en": null,
+  "tags": [
+    "llm",
+    "research",
+    "benchmark",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-07-24T18:14:21.243475+08:00",
+  "updated_at": "2026-07-24T18:14:21.243477+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

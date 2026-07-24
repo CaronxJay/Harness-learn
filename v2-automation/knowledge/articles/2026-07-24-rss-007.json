@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-24-rss-007",
+  "title": "JAXBench：TPU内核自动优化基准测试",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.20466",
+  "language": "en",
+  "summary": "JAXBench是首个针对Google Cloud TPU的AI生成内核优化基准测试套件，包含50个JAX工作负载，涵盖生产级ML算子。评估表明，针对特定目标文档的上下文比模型规模更重要，结合搜索结构可达到1.36倍加速比。",
+  "summary_en": "JAXBench is the first benchmark suite for AI-generated kernel optimization on Google Cloud TPUs, comprising 50 JAX workloads. Evaluation shows target-specific context matters more than model scale, and search structure yields 1.36x geomean speedup.",
+  "tags": [
+    "benchmark",
+    "infrastructure",
+    "research",
+    "llm"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-07-24T18:14:21.243467+08:00",
+  "updated_at": "2026-07-24T18:14:21.243470+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

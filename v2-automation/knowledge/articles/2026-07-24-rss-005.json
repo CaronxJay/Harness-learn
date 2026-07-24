@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-24-rss-005",
+  "title": "LLM意见多样性：什么真正重要？",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.20429",
+  "language": "en",
+  "summary": "通过析因实验研究LLM输出多样性，发现：人物角色细节并非越多越好；不同交互架构探索不同意见区域，组合使用优于单一优化；常见低成本方法（如提高采样温度）效果甚微。",
+  "summary_en": "A factorial experiment on LLM opinion diversity reveals that more persona detail does not monotonically increase diversity, different interaction architectures explore non-overlapping opinion regions, and low-cost alternatives like raising temperature have negligible effects.",
+  "tags": [
+    "llm",
+    "research",
+    "benchmark",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-07-24T18:14:21.243452+08:00",
+  "updated_at": "2026-07-24T18:14:21.243455+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

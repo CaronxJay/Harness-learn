@@ -1,0 +1,26 @@
+{
+  "id": "2026-07-24-rss-001",
+  "title": "AINTMA：基于生成式智能与安全云通信的自主测试管理智能体架构",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.20452",
+  "language": "en",
+  "summary": "AINTMA是一个多智能体AI系统，通过六个专门智能体（测试发现、风险评估、强化学习优先级排序、执行编排、生成式质量智能和云安全监控）实现自主测试管理。在18个月12个项目中，测试优先级排序准确率达88.4%，测试周期缩短43%，缺陷逃逸率从8.3%降至2.1%，9个月投资回报率340%。",
+  "summary_en": "AINTMA is a multi-agent AI system for autonomous test management with six specialized agents. Over 18 months across 12 projects, it achieves 88.4% test prioritization accuracy, 43% cycle time reduction, defect escape rate drop from 8.3% to 2.1%, and 340% ROI at 9-month payback.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "application",
+    "security",
+    "research"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-07-24T18:14:21.243415+08:00",
+  "updated_at": "2026-07-24T18:14:21.243422+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

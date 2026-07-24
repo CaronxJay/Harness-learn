@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-24-rss-009",
+  "title": "ClickGuard：利用信息量度和大语言模型检测和破坏点击诱饵新闻",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.20463",
+  "language": "en",
+  "summary": "提出一个AI驱动的浏览器扩展，通过混合机器学习架构（结合Transformer嵌入、语言特征和自定义“诱饵”分数）检测点击诱饵。基于XGBoost的模型在开放数据集上达到91%的F1分数，可在用户访问前后发出警告，并提供百分比评分和摘要作为“剧透”。",
+  "summary_en": "Presents an AI-driven browser extension that detects clickbait using a hybrid ML architecture combining transformer embeddings, linguistic features, and a custom 'baitness' score. An XGBoost model achieves 91% F1-score, warns users before/after access, and provides a percentage score and spoiler summary.",
+  "tags": [
+    "llm",
+    "application",
+    "research",
+    "security"
+  ],
+  "category": "application",
+  "relevance_score": 0.8,
+  "status": "published",
+  "created_at": "2026-07-24T18:14:21.243482+08:00",
+  "updated_at": "2026-07-24T18:14:21.243485+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

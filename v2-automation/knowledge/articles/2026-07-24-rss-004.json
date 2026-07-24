@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-24-rss-004",
+  "title": "MoE路由是哈夫曼编码？发现思维链中的频率-多样性定律",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.20427",
+  "language": "en",
+  "summary": "本文发现MoE路由遵循哈夫曼编码原理，提出频率-多样性定律：模型为常见token分配稀疏专家，为复杂任务调用高多样性专家。识别了Qwen3.5中的冗余陷阱，并提出子集差异剪枝策略，消除功能冗余，释放潜在哈夫曼效率。建议下一代MoE应追求最小描述长度最优性。",
+  "summary_en": "This paper discovers that MoE routing follows Huffman coding principles, proposing the Frequency-Diversity Law: models allocate sparse experts for common tokens and high-diversity experts for complex tasks. It identifies a redundancy trap in Qwen3.5 and proposes Subset Difference Pruning to eliminate functional duplicates, suggesting future MoEs should pursue MDL optimality.",
+  "tags": [
+    "llm",
+    "research",
+    "infrastructure",
+    "fine-tuning"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-07-24T18:14:21.243445+08:00",
+  "updated_at": "2026-07-24T18:14:21.243448+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

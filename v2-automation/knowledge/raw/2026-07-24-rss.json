@@ -1,0 +1,457 @@
+{
+  "collected_at": "2026-07-24T18:14:21.244302+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "AINTMA: Agentic AI Architecture for Autonomous Test Management with Generative Intelligence, Secure Cloud Communication and Adaptive Quality Analytics",
+      "url": "https://arxiv.org/abs/2607.20452",
+      "description": "arXiv:2607.20452v1 Announce Type: new \nAbstract: Modern software quality assurance demands intelligent, autonomous systems capable of adaptive decision-making across distributed cloud environments. This paper presents AINTMA (Agentic Intelligent Test Management Architecture), a multi-agent agentic AI system that transforms traditional test management into an autonomous quality intelligence ecosystem. AINTMA deploys six specialized AI agents (Test Discovery, Risk Assessment, Reinforcement Learning Prioritization, Execution Orchestration, Generative Quality Intelligence, and Cloud Security Monitor) coordinated through a secure multi-agent communication framework over a cloud-native microservices infrastructure. The Generative Quality Intelligence agent employs large language models to produce plain language quality narratives, defect risk summaries, and data-augmented test recommendations. The RL Prioritization agent models test selection as a Markov Decision Process, learning contextual policies from large-scale historical test execution data (47 features, rolling 36-month window). Secure cloud communication is enforced through a zero-trust API gateway with OAuth2/JWT authentication, encrypted inter-agent messaging, and multi-tenant isolation. Evaluation across 12 heterogeneous software projects over 18 months demonstrates: 88.4% test prioritization accuracy (APFD, vs. 51.2% random, 82.1% best commercial baseline); 43% test cycle time reduction; defect escape rate reduced from 8.3% to 2.1%; 340% ROI at 9-month payback. The agentic architecture scales to 50,000+ test cases with sub-400ms response time, and the generative intelligence module achieves 4.3/5.0 developer usefulness rating. AINTMA demonstrates that agentic AI, combining autonomous multi-agent coordination, generative intelligence and secure smart connectivity, can fundamentally advance software quality management in cloud-scale enterprise environments.",
+      "pub_date": "Fri, 24 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "AINTMA：基于生成式智能与安全云通信的自主测试管理智能体架构",
+        "summary": "AINTMA是一个多智能体AI系统，通过六个专门智能体（测试发现、风险评估、强化学习优先级排序、执行编排、生成式质量智能和云安全监控）实现自主测试管理。在18个月12个项目中，测试优先级排序准确率达88.4%，测试周期缩短43%，缺陷逃逸率从8.3%降至2.1%，9个月投资回报率340%。",
+        "summary_en": "AINTMA is a multi-agent AI system for autonomous test management with six specialized agents. Over 18 months across 12 projects, it achieves 88.4% test prioritization accuracy, 43% cycle time reduction, defect escape rate drop from 8.3% to 2.1%, and 340% ROI at 9-month payback.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "application",
+          "security",
+          "research"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-24-rss-001",
+        "title": "AINTMA：基于生成式智能与安全云通信的自主测试管理智能体架构",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.20452",
+        "language": "en",
+        "summary": "AINTMA是一个多智能体AI系统，通过六个专门智能体（测试发现、风险评估、强化学习优先级排序、执行编排、生成式质量智能和云安全监控）实现自主测试管理。在18个月12个项目中，测试优先级排序准确率达88.4%，测试周期缩短43%，缺陷逃逸率从8.3%降至2.1%，9个月投资回报率340%。",
+        "summary_en": "AINTMA is a multi-agent AI system for autonomous test management with six specialized agents. Over 18 months across 12 projects, it achieves 88.4% test prioritization accuracy, 43% cycle time reduction, defect escape rate drop from 8.3% to 2.1%, and 340% ROI at 9-month payback.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "application",
+          "security",
+          "research"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-07-24T18:14:21.243415+08:00",
+        "updated_at": "2026-07-24T18:14:21.243422+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Marking the Wrong Symptoms: Evaluating LLM Watermarks in Medical Texts",
+      "url": "https://arxiv.org/abs/2607.20462",
+      "description": "arXiv:2607.20462v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly integrated into clinical workflows, stressing the need for reliable traceability of model-generated output with watermarking. Yet, most watermarks are evaluated on general-purpose benchmarks, leaving domains like medicine, where small token-level perturbations can result in significant semantic changes, underexplored. In this work, we present the first rigorous study of how LLM watermarks affect medical performance, benchmarking 5 watermarking schemes across 11 LLMs and 7 VLMs on various tasks spanning unimodal and multimodal clinical reasoning. Importantly, we complement existing evaluations by introducing a human-expert-validated pipeline for systematically auditing medical reasoning quality, terminological precision, and induced hallucinations. Our results reveal that watermarking can induce substantial degradation across multiple failure modes, including lexical corruption, hallucinated terminology, and amplified misattribution or omission of image findings. Notably, we find that the absence of domain-specific analyses, combined with aggregate metrics that miss failures inherent to clinical text, can systematically obscure practical watermark-induced degradations. Our findings establish domain-specific evaluation as a prerequisite for the safe deployment of watermarked models in medicine, where current benchmarks can otherwise mask clinically consequential failures.",
+      "pub_date": "Fri, 24 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "评估LLM水印在医学文本中的影响",
+        "summary": "首次系统研究LLM水印对医学性能的影响，在11个LLM和7个VLM上基准测试5种水印方案。引入专家验证流程审计医学推理质量、术语准确性和幻觉。发现水印会导致词汇损坏、术语幻觉和图像发现误归因等严重退化，强调领域特定评估对安全部署的必要性。",
+        "summary_en": "First rigorous study of how LLM watermarks affect medical performance, benchmarking 5 schemes across 11 LLMs and 7 VLMs. Introduces expert-validated pipeline to audit reasoning quality, terminology, and hallucinations. Reveals watermark-induced degradation including lexical corruption, hallucinated terms, and misattribution, emphasizing need for domain-specific evaluation.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "security",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-24-rss-006",
+        "title": "评估LLM水印在医学文本中的影响",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.20462",
+        "language": "en",
+        "summary": "首次系统研究LLM水印对医学性能的影响，在11个LLM和7个VLM上基准测试5种水印方案。引入专家验证流程审计医学推理质量、术语准确性和幻觉。发现水印会导致词汇损坏、术语幻觉和图像发现误归因等严重退化，强调领域特定评估对安全部署的必要性。",
+        "summary_en": "First rigorous study of how LLM watermarks affect medical performance, benchmarking 5 schemes across 11 LLMs and 7 VLMs. Introduces expert-validated pipeline to audit reasoning quality, terminology, and hallucinations. Reveals watermark-induced degradation including lexical corruption, hallucinated terms, and misattribution, emphasizing need for domain-specific evaluation.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "security",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-07-24T18:14:21.243460+08:00",
+        "updated_at": "2026-07-24T18:14:21.243462+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "ClickGuard: Detecting and Spoiling Clickbait News with Informativeness Measures and Large Language Models",
+      "url": "https://arxiv.org/abs/2607.20463",
+      "description": "arXiv:2607.20463v1 Announce Type: new \nAbstract: This paper presents an AI-driven browser extension that identifies clickbait to help users avoid misleading Internet articles. Moving beyond traditional detection, the application employs a hybrid machine learning architecture that combines transformer-based embeddings with linguistically motivated features and a custom \"baitness\" score. After evaluating various natural language processing techniques -- from classic vectorizers to large language model (LLM) embeddings -- an XGBoost-based model was developed that achieves an F1-score of 91% on the open combined dataset. Most importantly, the tool can warn users before and after they access a clickbait article. After opening an article, the user receives a percentage score indicating the likelihood that it is clickbait. The prediction is explained based on the analyzed metrics, including those specifically developed within the proposed system. The browser extension also provides a clickbait spoiler -- a one- to two-sentence summary of the entire article. Demo video:https://www.youtube.com/watch?v=IJ1gkQV82C4}{https://www.youtube.com/watch?v=IJ1gkQV82C4",
+      "pub_date": "Fri, 24 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "ClickGuard：利用信息量度和大语言模型检测和破坏点击诱饵新闻",
+        "summary": "提出一个AI驱动的浏览器扩展，通过混合机器学习架构（结合Transformer嵌入、语言特征和自定义“诱饵”分数）检测点击诱饵。基于XGBoost的模型在开放数据集上达到91%的F1分数，可在用户访问前后发出警告，并提供百分比评分和摘要作为“剧透”。",
+        "summary_en": "Presents an AI-driven browser extension that detects clickbait using a hybrid ML architecture combining transformer embeddings, linguistic features, and a custom 'baitness' score. An XGBoost model achieves 91% F1-score, warns users before/after access, and provides a percentage score and spoiler summary.",
+        "tags": [
+          "llm",
+          "application",
+          "research",
+          "security"
+        ],
+        "category": "application",
+        "relevance_score": 0.8,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-24-rss-009",
+        "title": "ClickGuard：利用信息量度和大语言模型检测和破坏点击诱饵新闻",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.20463",
+        "language": "en",
+        "summary": "提出一个AI驱动的浏览器扩展，通过混合机器学习架构（结合Transformer嵌入、语言特征和自定义“诱饵”分数）检测点击诱饵。基于XGBoost的模型在开放数据集上达到91%的F1分数，可在用户访问前后发出警告，并提供百分比评分和摘要作为“剧透”。",
+        "summary_en": "Presents an AI-driven browser extension that detects clickbait using a hybrid ML architecture combining transformer embeddings, linguistic features, and a custom 'baitness' score. An XGBoost model achieves 91% F1-score, warns users before/after access, and provides a percentage score and spoiler summary.",
+        "tags": [
+          "llm",
+          "application",
+          "research",
+          "security"
+        ],
+        "category": "application",
+        "relevance_score": 0.8,
+        "status": "published",
+        "created_at": "2026-07-24T18:14:21.243482+08:00",
+        "updated_at": "2026-07-24T18:14:21.243485+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Stochastic Sampling is Epistemically Shallow: The Dimensionality Gap Between Temperature Variation and Model Diversity in LLMs",
+      "url": "https://arxiv.org/abs/2607.20464",
+      "description": "arXiv:2607.20464v1 Announce Type: new \nAbstract: When a language model gives different answers on repeated runs, does that variation reveal what it does not know? Self-consistency turns the variation into a per-question uncertainty estimate via majority voting. But does the same variation reveal cross-question structure -- related questions flipping together, the way a diverse ensemble does? We compare two regimes on the same questions: one model run $100$ times at $\\tau=1$ versus an ensemble of $24$ LLMs run once each at $\\tau=0$. A Marchenko--Pastur random-matrix test separates signal from sampling noise on both sides. Within any single model, at most one dimension rises above noise across five families and three benchmarks (MMLU, HellaSwag, GSM8K). Across the ensemble, four eigenvalues clear the noise edge, while a matched-difficulty Bernoulli null produces at most one in $500$ Monte Carlo draws. Self-consistency gives accurate per-question uncertainty but no detectable cross-question structure; only a diverse ensemble surfaces what a model does not know.",
+      "pub_date": "Fri, 24 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "随机采样在认知上是浅薄的：温度变化与模型多样性之间的维度差距",
+        "summary": "该研究对比了单个LLM多次随机采样（温度τ=1）与多个不同LLM集成（τ=0）在不确定性估计上的表现。通过Marchenko-Pastur随机矩阵检验发现，单模型随机采样最多只有一个维度高于噪声水平，而多模型集成则有四个特征值超过噪声阈值。这表明自一致性虽能提供准确的逐问题不确定性，但无法揭示跨问题的结构信息，只有多样化的模型集成才能揭示模型未知的知识。",
+        "summary_en": "This study compares repeated stochastic sampling of a single LLM (τ=1) with an ensemble of 24 diverse LLMs (τ=0) for uncertainty estimation. Using Marchenko-Pastur random matrix test, it finds that single-model sampling yields at most one dimension above noise, while the ensemble yields four eigenvalues above the noise threshold. Self-consistency provides accurate per-question uncertainty but no cross-question structure; only a diverse ensemble reveals what the model does not know.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-24-rss-002",
+        "title": "随机采样在认知上是浅薄的：温度变化与模型多样性之间的维度差距",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.20464",
+        "language": "en",
+        "summary": "该研究对比了单个LLM多次随机采样（温度τ=1）与多个不同LLM集成（τ=0）在不确定性估计上的表现。通过Marchenko-Pastur随机矩阵检验发现，单模型随机采样最多只有一个维度高于噪声水平，而多模型集成则有四个特征值超过噪声阈值。这表明自一致性虽能提供准确的逐问题不确定性，但无法揭示跨问题的结构信息，只有多样化的模型集成才能揭示模型未知的知识。",
+        "summary_en": "This study compares repeated stochastic sampling of a single LLM (τ=1) with an ensemble of 24 diverse LLMs (τ=0) for uncertainty estimation. Using Marchenko-Pastur random matrix test, it finds that single-model sampling yields at most one dimension above noise, while the ensemble yields four eigenvalues above the noise threshold. Self-consistency provides accurate per-question uncertainty but no cross-question structure; only a diverse ensemble reveals what the model does not know.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-07-24T18:14:21.243429+08:00",
+        "updated_at": "2026-07-24T18:14:21.243432+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "JAXBench: Benchmarking Autonomous TPU Kernel Optimization",
+      "url": "https://arxiv.org/abs/2607.20466",
+      "description": "arXiv:2607.20466v1 Announce Type: new \nAbstract: Rigorous benchmarks have driven progress in autonomous GPU kernel performance optimization by establishing a shared target to hillclimb on, but no equivalent exists for TPUs. We present JAXBench, a TPU-native benchmark suite for AI-generated kernel optimization on Google Cloud TPUs. JAXBench comprises 50 JAX workloads that are both relevant and provide headroom for optimization. We extract 17 production ML operators from architectures in the public MaxText library such as Llama-3.1, DeepSeek-V3, Mixtral, Mamba-2, and AlphaFold2, and translate 33 operators from KernelBench that are validated for correctness and set with new problem sizes that achieve high TPU v6e MXU utilization. Eight of the 17 production operators ship with hand-optimized Pallas kernels from the public Tokamax library and block-size tuned to establish an expert upper-bound baseline. We evaluate four feedback-driven methods on generating candidate Pallas kernels for JAXBench. Across the full suite with Gemini 3 Flash, we find that target-specific context matters more than model scale on a sparsely-documented DSL like Pallas. Conditioning on curated TPU documentation raises per-sample correctness from 5.8% to 37.3% and solves 48 of 50 benchmarks at a 1.28x geomean speedup. Search structure yields significant gains once correctness is achieved, with Autocomp's beam-search pipeline reaching a 1.36x geomean speedup over XLA. On the 8 hand-tuned kernels, Autocomp reaches 1.60x geomean over XLA, recovering most of the 2.08x Tokamax upper bound but trailing on the specialized paged and ragged attention operators. High-quality TPU kernel optimization remains a challenging task, and we release the JAXBench benchmark, evaluation harness, and baseline results to support open source contributions.",
+      "pub_date": "Fri, 24 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "JAXBench：TPU内核自动优化基准测试",
+        "summary": "JAXBench是首个针对Google Cloud TPU的AI生成内核优化基准测试套件，包含50个JAX工作负载，涵盖生产级ML算子。评估表明，针对特定目标文档的上下文比模型规模更重要，结合搜索结构可达到1.36倍加速比。",
+        "summary_en": "JAXBench is the first benchmark suite for AI-generated kernel optimization on Google Cloud TPUs, comprising 50 JAX workloads. Evaluation shows target-specific context matters more than model scale, and search structure yields 1.36x geomean speedup.",
+        "tags": [
+          "benchmark",
+          "infrastructure",
+          "research",
+          "llm"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-24-rss-007",
+        "title": "JAXBench：TPU内核自动优化基准测试",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.20466",
+        "language": "en",
+        "summary": "JAXBench是首个针对Google Cloud TPU的AI生成内核优化基准测试套件，包含50个JAX工作负载，涵盖生产级ML算子。评估表明，针对特定目标文档的上下文比模型规模更重要，结合搜索结构可达到1.36倍加速比。",
+        "summary_en": "JAXBench is the first benchmark suite for AI-generated kernel optimization on Google Cloud TPUs, comprising 50 JAX workloads. Evaluation shows target-specific context matters more than model scale, and search structure yields 1.36x geomean speedup.",
+        "tags": [
+          "benchmark",
+          "infrastructure",
+          "research",
+          "llm"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-07-24T18:14:21.243467+08:00",
+        "updated_at": "2026-07-24T18:14:21.243470+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "What is Good? Extracting and Testing Implicit Theories of Literary Quality from LLM Reasoning Traces",
+      "url": "https://arxiv.org/abs/2607.20425",
+      "description": "arXiv:2607.20425v1 Announce Type: new \nAbstract: What makes writing \"good\" remains a persistent question in literary studies and computational linguistics. We present a two-study investigation of how reasoning-enabled LLMs evaluate literary quality.\n  In Study 1, we construct a benchmark of 30 real texts spanning six quality tiers, from canonical literature to anonymous forum posts, and extract the model's implicit theory of quality from its reasoning traces. Across five DeepSeek replications, the model achieves 79.3% mean tier-classification accuracy. The traces reveal a consistent stated theory: the model values intentionality over correctness, prioritizing craft, depth, and distinctive voice. A familiarity experiment with style-matched but unrecognizable passages suggests that source recognition may inflate scores, although this is confounded by genuine quality differences between canonical originals and researcher-written pastiches.\n  In Study 2, we probe this theory through systematic degradation of five canonical prose passages. We apply six manipulations - vocabulary simplification, rhythm flattening, imagery removal, voice genericization, structure simplification, and combined degradation - and reevaluate each version. Vocabulary simplification causes the smallest quality loss (0.41 +/- 0.46 points), far below structure (2.78) or voice (2.34) loss. Combined degradation is devastating (-5.64) but subadditive. An exploratory comparison with Qwen QwQ shows the same broad qualitative pattern.\n  Together, these studies suggest that LLM judgments of writing quality are holistic, author-specific, and more sensitive to structural than lexical features, with implications for automated writing feedback and computational aesthetics.",
+      "pub_date": "Fri, 24 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "什么是好作品？从LLM推理轨迹中提取和测试文学质量的隐含理论",
+        "summary": "通过两项研究，利用推理型LLM评估文学质量。研究一构建了涵盖六个质量等级的30篇文本基准，提取模型隐含理论，发现其重视意图性、工艺、深度和独特声音。研究二通过系统退化实验，揭示模型对结构特征比词汇特征更敏感。",
+        "summary_en": null,
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-24-rss-008",
+        "title": "什么是好作品？从LLM推理轨迹中提取和测试文学质量的隐含理论",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.20425",
+        "language": "en",
+        "summary": "通过两项研究，利用推理型LLM评估文学质量。研究一构建了涵盖六个质量等级的30篇文本基准，提取模型隐含理论，发现其重视意图性、工艺、深度和独特声音。研究二通过系统退化实验，揭示模型对结构特征比词汇特征更敏感。",
+        "summary_en": null,
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-07-24T18:14:21.243475+08:00",
+        "updated_at": "2026-07-24T18:14:21.243477+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Knowledge Injection Exists in MoE? Exploring Expert-Aware Contrast Decoding in MoE for Mitigating LLMs'Hallucinations",
+      "url": "https://arxiv.org/abs/2607.20426",
+      "description": "arXiv:2607.20426v1 Announce Type: new \nAbstract: Existing LLM hallucination mitigation methods, including prompt engineering and model optimization, either hardly alter models'internal knowledge or have poor cross-domain generalization. Contrastive decoding mitigates hallucinations by using layer-wise differences in LLMs. However, prior studies only explore transformer-based models (e.g., GPT), ignoring other effective frameworks like mixture-of-experts (MoE) models. Since MoE alters the traditional transformer architecture, we conduct empirical studies to investigate whether similar layer-wise differences exist in MoEs. Our results show that they do not exist in MoE with shared experts; nevertheless, across different MoEs, higher layers exhibit distinct expert activation patterns between factual and non-factual outputs. Building on these, we propose EAACD, an expert-aware adaptive contrast decoding that uses expert differences in MoE's higher layers to mitigate hallucinations on QA tasks. EAACD splits high-layer experts into a higher-reliability group and several lower-reliability groups based on their confidence and consistency. It contrasts the higher-reliability group's prediction with each lower-reliability group's prediction to calibrate the model's original predictions. To strengthen this contrast, EAACD amplifies hallucinations from lower-reliability experts via attention and masking to provide stronger negative references. EAACD outperforms all baselines on four datasets.",
+      "pub_date": "Fri, 24 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "MoE中的知识注入？专家感知对比解码缓解LLM幻觉",
+        "summary": "针对LLM幻觉问题，提出EAACD方法，利用MoE模型高层专家的激活差异进行对比解码。将专家分为高可靠组和低可靠组，通过对比校准预测，并增强低可靠专家的幻觉信号作为负参考，在四个数据集上优于所有基线。",
+        "summary_en": "Proposes EAACD, an expert-aware adaptive contrast decoding method for mitigating LLM hallucinations in MoE models. It leverages expert activation differences in higher layers, contrasting high-reliability and low-reliability expert groups to calibrate predictions, outperforming baselines on four datasets.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-24-rss-003",
+        "title": "MoE中的知识注入？专家感知对比解码缓解LLM幻觉",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.20426",
+        "language": "en",
+        "summary": "针对LLM幻觉问题，提出EAACD方法，利用MoE模型高层专家的激活差异进行对比解码。将专家分为高可靠组和低可靠组，通过对比校准预测，并增强低可靠专家的幻觉信号作为负参考，在四个数据集上优于所有基线。",
+        "summary_en": "Proposes EAACD, an expert-aware adaptive contrast decoding method for mitigating LLM hallucinations in MoE models. It leverages expert activation differences in higher layers, contrasting high-reliability and low-reliability expert groups to calibrate predictions, outperforming baselines on four datasets.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-07-24T18:14:21.243438+08:00",
+        "updated_at": "2026-07-24T18:14:21.243440+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Is MoE Routing a Huffman Code? Discovering the Frequency-Diversity Law in Chain-of-Thought",
+      "url": "https://arxiv.org/abs/2607.20427",
+      "description": "arXiv:2607.20427v1 Announce Type: new \nAbstract: Mixture-of-Experts architectures have revolutionized scaling, yet the underlying logic of their routing remains a black box. In this paper, we uncover a fundamental governing principle: MoE routing is not merely selection, but a manifestation of Huffman Coding. We introduce the Frequency-Diversity Law, revealing that state-of-the-art models, such as Phi-3.5-MoE and Gemma-4-27B-A4B, spontaneously act as information-theoretic engines. These models allocate sparse expert resources for common tokens while invoking high-diversity expert committees for rare, complex tasks found in chain-of-thought trajectories. However, we identify a critical redundancy trap in Qwen3.5-35B-A3B: when effective sparsity (k/E_eff) is sufficiently low, load-balancing inadvertently imposes functional redundancy, masking the underlying Huffman efficiency signal. To bridge this gap, we propose Subset Difference Pruning, a surgical strategy to eliminate functional duplicates. We demonstrate that pruning does not degrade reasoning; instead, it unleashes the model's latent Huffman efficiency, forcing the logic to collapse into streamlined, high-density paths. Our findings suggest that the next generation of MoEs should move beyond forced load-balancing toward Minimum Description Length (MDL) optimality, assigning shorter expert-routing codes to high-frequency information and longer, more diverse codes to low-frequency information, thereby transforming routing from a heuristic into a principled compression engine.",
+      "pub_date": "Fri, 24 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "MoE路由是哈夫曼编码？发现思维链中的频率-多样性定律",
+        "summary": "本文发现MoE路由遵循哈夫曼编码原理，提出频率-多样性定律：模型为常见token分配稀疏专家，为复杂任务调用高多样性专家。识别了Qwen3.5中的冗余陷阱，并提出子集差异剪枝策略，消除功能冗余，释放潜在哈夫曼效率。建议下一代MoE应追求最小描述长度最优性。",
+        "summary_en": "This paper discovers that MoE routing follows Huffman coding principles, proposing the Frequency-Diversity Law: models allocate sparse experts for common tokens and high-diversity experts for complex tasks. It identifies a redundancy trap in Qwen3.5 and proposes Subset Difference Pruning to eliminate functional duplicates, suggesting future MoEs should pursue MDL optimality.",
+        "tags": [
+          "llm",
+          "research",
+          "infrastructure",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-24-rss-004",
+        "title": "MoE路由是哈夫曼编码？发现思维链中的频率-多样性定律",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.20427",
+        "language": "en",
+        "summary": "本文发现MoE路由遵循哈夫曼编码原理，提出频率-多样性定律：模型为常见token分配稀疏专家，为复杂任务调用高多样性专家。识别了Qwen3.5中的冗余陷阱，并提出子集差异剪枝策略，消除功能冗余，释放潜在哈夫曼效率。建议下一代MoE应追求最小描述长度最优性。",
+        "summary_en": "This paper discovers that MoE routing follows Huffman coding principles, proposing the Frequency-Diversity Law: models allocate sparse experts for common tokens and high-diversity experts for complex tasks. It identifies a redundancy trap in Qwen3.5 and proposes Subset Difference Pruning to eliminate functional duplicates, suggesting future MoEs should pursue MDL optimality.",
+        "tags": [
+          "llm",
+          "research",
+          "infrastructure",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-07-24T18:14:21.243445+08:00",
+        "updated_at": "2026-07-24T18:14:21.243448+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Human-in-the-Loop Large Language Model Framework for Identification of Cutaneous Immune-Related Adverse Events",
+      "url": "https://arxiv.org/abs/2607.20428",
+      "description": "arXiv:2607.20428v1 Announce Type: new \nAbstract: This study evaluated a retrieval-augmented, multi-agent large language model (LLM)-driven, human-in-the-loop framework for detecting cutaneous immune-related adverse events (cirAEs) from clinical notes. Compared with unassisted manual review, the LLM-assisted workflow improved accuracy (F1 = 0.88 vs 0.77), inter-rater agreement measured by Cohen's kappa (kappa = 0.82 vs 0.50), and reduced average review time by approximately half. This framework pilots how LLMs can be applied to identify immune-related toxicities across organ systems and, more broadly, enable accurate, scalable, and transparent adverse event data extraction.",
+      "pub_date": "Fri, 24 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "人机协同的大语言模型框架用于识别皮肤免疫相关不良事件",
+        "summary": "本研究评估了一种基于检索增强的多智能体大语言模型（LLM）驱动的人机协同框架，用于从临床记录中检测皮肤免疫相关不良事件（cirAEs）。与未辅助的人工审查相比，LLM辅助工作流提高了准确性（F1=0.88 vs 0.77）、评估者间一致性（Cohen's kappa=0.82 vs 0.50），并将平均审查时间减少约一半。该框架展示了LLM在跨器官系统识别免疫相关毒性以及实现准确、可扩展和透明的不良事件数据提取方面的应用潜力。",
+        "summary_en": "This study evaluated a retrieval-augmented, multi-agent LLM-driven, human-in-the-loop framework for detecting cutaneous immune-related adverse events from clinical notes. The LLM-assisted workflow improved accuracy (F1=0.88 vs 0.77), inter-rater agreement (kappa=0.82 vs 0.50), and halved average review time, demonstrating scalable and transparent adverse event data extraction.",
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "rag",
+          "agent-framework"
+        ],
+        "category": "application",
+        "relevance_score": 0.9,
+        "language": "en"
+      }
+    },
+    {
+      "title": "More Is Not More: What Matters for Diversity in LLM Opinions?",
+      "url": "https://arxiv.org/abs/2607.20429",
+      "description": "arXiv:2607.20429v1 Announce Type: new \nAbstract: Large language models are increasingly used to simulate diverse human opinions in open-ended tasks such as synthetic surveys, focus group modeling, and public opinion prediction. However, LLM outputs exhibit systematic opinion homogenization. Practitioners have explored various interventions to increase diversity, but the landscape remains fragmented: different methods are evaluated in isolation with incomparable metrics, and in practice they are typically deployed and upgraded simultaneously, making it difficult to attribute gains to specific components. To advance a more scientific understanding of LLM output diversity, we design a factorial experiment that separates two primary intervention dimensions: input conditioning (operationalized through persona depth) and interaction architecture. We evaluate all conditions on 100 real-user open-ended questions across 7 models, measuring diversity with multiple complementary metrics. Our findings challenge several common assumptions. First, more persona detail does not monotonically increase diversity. The initial step of persona conditioning already captures the majority of the gain, while further elaboration with demographic detail does not consistently improve and can reduce diversity on some models. Second, rather than seeking a single best interaction architecture, we find that different architectures explore largely non-overlapping opinion regions. Combining multiple architectures yields broader coverage than optimizing any one. Third, commonly attempted low-cost alternatives such as raising sampling temperature and adding diversity instructions produce negligible effects compared to structured interventions. Overall, our work demonstrates that diversity is not a product of scaling along any single dimension, but is highly sensitive to the structural form and combination of interventions.",
+      "pub_date": "Fri, 24 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "LLM意见多样性：什么真正重要？",
+        "summary": "通过析因实验研究LLM输出多样性，发现：人物角色细节并非越多越好；不同交互架构探索不同意见区域，组合使用优于单一优化；常见低成本方法（如提高采样温度）效果甚微。",
+        "summary_en": "A factorial experiment on LLM opinion diversity reveals that more persona detail does not monotonically increase diversity, different interaction architectures explore non-overlapping opinion regions, and low-cost alternatives like raising temperature have negligible effects.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-24-rss-005",
+        "title": "LLM意见多样性：什么真正重要？",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.20429",
+        "language": "en",
+        "summary": "通过析因实验研究LLM输出多样性，发现：人物角色细节并非越多越好；不同交互架构探索不同意见区域，组合使用优于单一优化；常见低成本方法（如提高采样温度）效果甚微。",
+        "summary_en": "A factorial experiment on LLM opinion diversity reveals that more persona detail does not monotonically increase diversity, different interaction architectures explore non-overlapping opinion regions, and low-cost alternatives like raising temperature have negligible effects.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-07-24T18:14:21.243452+08:00",
+        "updated_at": "2026-07-24T18:14:21.243455+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}
