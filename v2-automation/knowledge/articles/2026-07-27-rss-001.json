@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-27-rss-001",
+  "title": "对抗性风格优化：基于GRPO的风格触发增强视觉语言模型越狱攻击",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.21619",
+  "language": "en",
+  "summary": "提出ASO模块，利用GRPO优化图像编辑模型叠加风格化修改，利用MLLMs理解能力与防御机制间的风格不一致性，显著提升现有视觉越狱攻击的成功率。",
+  "summary_en": "Proposes ASO, a plug-and-play module that fine-tunes an image-editing model via GRPO to superimpose stylistic modifications, exploiting stylistic inconsistency in MLLMs to enhance jailbreak attack success rates.",
+  "tags": [
+    "multimodal",
+    "security",
+    "research",
+    "llm"
+  ],
+  "category": "security",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-07-27T19:17:52.396140+08:00",
+  "updated_at": "2026-07-27T19:17:52.396145+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

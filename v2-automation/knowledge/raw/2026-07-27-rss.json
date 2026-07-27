@@ -1,0 +1,240 @@
+{
+  "collected_at": "2026-07-27T19:17:52.396951+08:00",
+  "source": "rss",
+  "count": 5,
+  "items": [
+    {
+      "title": "Adversarial Style Optimization: Enhancing VLM Jailbreaks by GRPO-based Stylistic Triggers Optimization",
+      "url": "https://arxiv.org/abs/2607.21619",
+      "description": "arXiv:2607.21619v1 Announce Type: new \nAbstract: Multimodal Large Language Models (MLLMs) have achieved impressive performance, but their safety alignment remains vulnerable to jailbreak attacks. Existing content-based jailbreaks are often inconsistent and show unsatisfying performance against the rapidly evolving MLLMs, failing to exploit non-content-based vulnerabilities. Unlike previous research, we empirically find that MLLMs exhibit a Stylistic Inconsistency between their comprehension ability and safety ability: MLLMs can robustly understand content regardless of visual style, yet their defense mechanisms can be easily bypassed by specific stylistic triggers. Based on this finding, we propose Adversarial Style Optimization (ASO), a plug-and-play enhancement module to amplify existing visual jailbreaks. ASO fine-tunes an image-editing model to superimpose an optimized stylistic modification onto a given adversarial image, using a Group Relative Policy Optimization (GRPO) agent guided by a Structurally-Tiered Reward Function that combines a logit-based signal for detecting explicit refusals with a high-fidelity semantic evaluation from a powerful judge model. Extensive experiments show that ASO significantly enhances the ASR of SOTA attacks, demonstrating that stylistic biases are a scalable vector for red-teaming MLLMs. Our code is available at https://github.com/bingjunluo/ASO.",
+      "pub_date": "Mon, 27 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "对抗性风格优化：基于GRPO的风格触发增强视觉语言模型越狱攻击",
+        "summary": "提出ASO模块，利用GRPO优化图像编辑模型叠加风格化修改，利用MLLMs理解能力与防御机制间的风格不一致性，显著提升现有视觉越狱攻击的成功率。",
+        "summary_en": "Proposes ASO, a plug-and-play module that fine-tunes an image-editing model via GRPO to superimpose stylistic modifications, exploiting stylistic inconsistency in MLLMs to enhance jailbreak attack success rates.",
+        "tags": [
+          "multimodal",
+          "security",
+          "research",
+          "llm"
+        ],
+        "category": "security",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-27-rss-001",
+        "title": "对抗性风格优化：基于GRPO的风格触发增强视觉语言模型越狱攻击",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.21619",
+        "language": "en",
+        "summary": "提出ASO模块，利用GRPO优化图像编辑模型叠加风格化修改，利用MLLMs理解能力与防御机制间的风格不一致性，显著提升现有视觉越狱攻击的成功率。",
+        "summary_en": "Proposes ASO, a plug-and-play module that fine-tunes an image-editing model via GRPO to superimpose stylistic modifications, exploiting stylistic inconsistency in MLLMs to enhance jailbreak attack success rates.",
+        "tags": [
+          "multimodal",
+          "security",
+          "research",
+          "llm"
+        ],
+        "category": "security",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-07-27T19:17:52.396140+08:00",
+        "updated_at": "2026-07-27T19:17:52.396145+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "A Consensus-Based Framework for Relative Preference Evaluation of Large Language Models",
+      "url": "https://arxiv.org/abs/2607.21632",
+      "description": "arXiv:2607.21632v1 Announce Type: new \nAbstract: Traditional benchmarks for LLMs primarily rely on static datasets and objective scoring metrics, which often fail to capture differences in response quality when multiple answers are acceptable. In such settings, correctness alone is insufficient to distinguish between responses that vary in clarity, completeness, and usefulness.\n  This paper introduces a consensus-based evaluation framework that measures relative preference among model-generated responses rather than absolute correctness. Instead of evaluating outputs against a fixed ground truth, we assess how a panel of diverse LLMs ranks anonymized candidate responses to the same prompt. This approach treats aggregate inter-model agreement as a proxy for perceived response quality under blind conditions.\n  We conduct a controlled study using five state-of-the-art LLMs across multiple domains, including programming, general knowledge, safety, logical reasoning, and mathematics. Each model generates responses and independently ranks peer outputs through a structured voting process. Scores are aggregated into a Relative Intelligence Index (RII), representing how frequently a model's responses are preferred by other models.\n  Our findings reveal consistent preference patterns across domains, with certain models more frequently ranked highly by their peers. However, we emphasize that these results reflect inter-model preference alignment rather than objective correctness or human judgment. This framework provides a scalable, model-driven method for comparative evaluation, offering an alternative perspective on response quality in scenarios where multiple valid answers exist. While not directly aligned with human evaluation, prior work suggests that aggregated model preferences can partially correlate with human judgments, motivating this as a proxy signal.",
+      "pub_date": "Mon, 27 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "基于共识的大语言模型相对偏好评估框架",
+        "summary": "提出一种基于共识的评估框架，通过多模型投票和相对偏好排序（RII指数）替代传统绝对正确性评估，适用于多有效答案场景。实验表明模型间偏好一致，可作为代理信号。",
+        "summary_en": "Introduces a consensus-based evaluation framework using multi-model voting and Relative Intelligence Index (RII) to replace absolute correctness, suitable for scenarios with multiple valid answers. Experiments show consistent inter-model preferences as a proxy signal.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "evaluation",
+          "research"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-27-rss-002",
+        "title": "基于共识的大语言模型相对偏好评估框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.21632",
+        "language": "en",
+        "summary": "提出一种基于共识的评估框架，通过多模型投票和相对偏好排序（RII指数）替代传统绝对正确性评估，适用于多有效答案场景。实验表明模型间偏好一致，可作为代理信号。",
+        "summary_en": "Introduces a consensus-based evaluation framework using multi-model voting and Relative Intelligence Index (RII) to replace absolute correctness, suitable for scenarios with multiple valid answers. Experiments show consistent inter-model preferences as a proxy signal.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "evaluation",
+          "research"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-07-27T19:17:52.396150+08:00",
+        "updated_at": "2026-07-27T19:17:52.396151+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Evaluation design conditions the expert-vs-auto MeSH gap: a controlled comparison of bag-of-words and BiomedBERT on the Cohen benchmark",
+      "url": "https://arxiv.org/abs/2607.21685",
+      "description": "arXiv:2607.21685v1 Announce Type: new \nAbstract: A systematic review begins with someone reading thousands of abstracts to identify the few that are relevant, and classifiers are used to prioritise that reading. Their inputs are often augmented with Medical Subject Headings (MeSH), assigned either by expert indexers weeks or months after publication or by automatic tools at once. To our knowledge the two have not been compared directly as classifier features, and no previous work has asked whether that comparison's outcome depends on how the classifier is evaluated. Using the Cohen et al. (2006) drug-class benchmark on three topics, we characterise a bag-of-words logistic regression classifier (seven reruns) and BiomedBERT (five seeds), then examine how the Statins result changes under alternative designs. Under the canonical 5-fold full-corpus design, the bag-of-words expert-vs-auto gap on Statins is +0.096 WSS@95%. Matching the corpus size to the smaller topics (n = 803) reduces it to +0.033 (95% bootstrap CI includes zero), and 10-fold cross-validation at full size to +0.021 (CI narrowly excludes zero). Under canonical evaluation BiomedBERT gives +0.020, within sampling noise of the bag-of-words 10-fold result. A power analysis indicates a Statins-sized effect would not have been detectable at the Opioids or ADHD variance, so those nulls are design-limited rather than informative. A representation asymmetry remains: 15.1% of Statins inputs exceed BiomedBERT's 512-token limit when expert MeSH terms are appended, so truncation may contribute to the smaller transformer gap, although this cannot be separated from training volume here. In screening pipelines using transformers or 10-fold bag-of-words, the gap on the topics tested is about 0.02 WSS@95%, with CIs spanning zero on at least one bound. More broadly, benchmark conclusions about feature sources can change substantially under reasonable changes to the evaluation design.",
+      "pub_date": "Mon, 27 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "评估设计影响专家与自动MeSH分类差距：基于Cohen基准的词袋模型与BiomedBERT对比研究",
+        "summary": "本研究系统比较了专家标注与自动生成的医学主题词（MeSH）作为分类器特征的效果差异，发现评估设计（如交叉验证折数、语料库大小）会显著影响结论。在Cohen基准上，词袋模型与BiomedBERT的差距在标准评估下约为0.02 WSS@95%，但改变评估设计后差距可能缩小或消失。研究揭示了评估设计对基准结论的关键影响。",
+        "summary_en": "This study systematically compares expert-assigned vs. auto-generated MeSH terms as classifier features, finding that evaluation design (e.g., cross-validation folds, corpus size) significantly alters conclusions. On the Cohen benchmark, the bag-of-words vs. BiomedBERT gap is ~0.02 WSS@95% under canonical evaluation but shrinks or vanishes under alternative designs, highlighting the critical impact of evaluation design on benchmark conclusions.",
+        "tags": [
+          "research",
+          "benchmark",
+          "llm",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-27-rss-003",
+        "title": "评估设计影响专家与自动MeSH分类差距：基于Cohen基准的词袋模型与BiomedBERT对比研究",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.21685",
+        "language": "en",
+        "summary": "本研究系统比较了专家标注与自动生成的医学主题词（MeSH）作为分类器特征的效果差异，发现评估设计（如交叉验证折数、语料库大小）会显著影响结论。在Cohen基准上，词袋模型与BiomedBERT的差距在标准评估下约为0.02 WSS@95%，但改变评估设计后差距可能缩小或消失。研究揭示了评估设计对基准结论的关键影响。",
+        "summary_en": "This study systematically compares expert-assigned vs. auto-generated MeSH terms as classifier features, finding that evaluation design (e.g., cross-validation folds, corpus size) significantly alters conclusions. On the Cohen benchmark, the bag-of-words vs. BiomedBERT gap is ~0.02 WSS@95% under canonical evaluation but shrinks or vanishes under alternative designs, highlighting the critical impact of evaluation design on benchmark conclusions.",
+        "tags": [
+          "research",
+          "benchmark",
+          "llm",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-07-27T19:17:52.396155+08:00",
+        "updated_at": "2026-07-27T19:17:52.396156+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Humanly: A Configurable and Traceable Environment for Human-AI Collaborative Writing",
+      "url": "https://arxiv.org/abs/2607.21758",
+      "description": "arXiv:2607.21758v1 Announce Type: new \nAbstract: Teachers, conference chairs, and public readers all judge writing from limited evidence, seeing only a finished document and not the process that produced it. Final text alone cannot reveal whether a document was produced through human typing, AI generation, or mixed human-AI collaboration. Existing process-tracking tools help, but many are tied to host-document histories, provide coarse activity records, and offer limited control over the writing environment. Humanly is a writing platform that makes the writing process itself the evidence. Users configure writing environments for personal documents or assigned tasks and draft in a workspace that records writing activity and in-platform AI assistance. Humanly can package a completed session into a sealed writing certificate with configuration-aware anomaly behavior review. It can support writing scenarios such as course assignments, peer review, and personal certification. Our user study shows that Humanly is helpful across roles, and a red-teaming study shows that the Humanly Typing Detector distinguishes human hand typing from automated typing.",
+      "pub_date": "Mon, 27 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "Humanly：可配置且可追溯的人机协作写作环境",
+        "summary": "Humanly是一个写作平台，通过记录写作过程和AI辅助活动，生成可验证的写作证书，支持课程作业、同行评审等场景。用户研究显示其跨角色有用性，红队测试表明其打字检测器能区分人工与自动输入。",
+        "summary_en": "Humanly is a writing platform that records the writing process and AI assistance to generate verifiable writing certificates, supporting scenarios like coursework and peer review. User studies show cross-role usefulness, and red-teaming tests confirm its typing detector distinguishes human from automated input.",
+        "tags": [
+          "application",
+          "tool",
+          "research"
+        ],
+        "category": "application",
+        "relevance_score": 0.7,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-27-rss-005",
+        "title": "Humanly：可配置且可追溯的人机协作写作环境",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.21758",
+        "language": "en",
+        "summary": "Humanly是一个写作平台，通过记录写作过程和AI辅助活动，生成可验证的写作证书，支持课程作业、同行评审等场景。用户研究显示其跨角色有用性，红队测试表明其打字检测器能区分人工与自动输入。",
+        "summary_en": "Humanly is a writing platform that records the writing process and AI assistance to generate verifiable writing certificates, supporting scenarios like coursework and peer review. User studies show cross-role usefulness, and red-teaming tests confirm its typing detector distinguishes human from automated input.",
+        "tags": [
+          "application",
+          "tool",
+          "research"
+        ],
+        "category": "application",
+        "relevance_score": 0.7,
+        "status": "published",
+        "created_at": "2026-07-27T19:17:52.396163+08:00",
+        "updated_at": "2026-07-27T19:17:52.396165+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Probing Latent Colombian Identity Inferences in Qwen2.5-7B with Natural Language Autoencoders",
+      "url": "https://arxiv.org/abs/2607.21774",
+      "description": "arXiv:2607.21774v1 Announce Type: new \nAbstract: Large language models may infer demographic attributes from subtle linguistic cues even when those attributes are not explicitly stated. This pilot study examines whether Qwen2.5-7B-Instruct internally represents Colombian identity, socioeconomic status, or stereotype-related information when processing Colombian-Spanish and English prompts. We use Natural Language Autoencoders (NLA) to verbalize residual-stream activations from layer 20 across four positional quartiles per prompt. Our dataset contains 30 prompts arranged as 15 matched Spanish-English pairs, spanning explicit Colombian cues, implicit Colombian cues, and neutral controls. We report descriptive rates and qualitative evidence rather than statistically powered effects, focusing on whether latent nationality or stereotype representations appear before they are verbalized in the model output. This work connects activation-level interpretability with bias evaluation for underrepresented Spanish varieties.",
+      "pub_date": "Mon, 27 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "探究Qwen2.5-7B中潜在哥伦比亚身份推断的自然语言自编码器方法",
+        "summary": "本研究使用自然语言自编码器（NLA）探测Qwen2.5-7B-Instruct模型在处理哥伦比亚西班牙语和英语提示时，是否在内部表示哥伦比亚身份、社会经济地位或刻板印象信息。通过30个提示（15对匹配的西班牙语-英语对）的实验，发现模型在输出前已存在潜在国籍或刻板印象表征，为模型偏见评估提供了激活层面的可解释性方法。",
+        "summary_en": "This pilot study uses Natural Language Autoencoders (NLA) to probe whether Qwen2.5-7B-Instruct internally represents Colombian identity, socioeconomic status, or stereotype-related information when processing Colombian-Spanish and English prompts. Results show latent nationality or stereotype representations appear before verbalization, connecting activation-level interpretability with bias evaluation for underrepresented Spanish varieties.",
+        "tags": [
+          "llm",
+          "research",
+          "security",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.85,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-27-rss-004",
+        "title": "探究Qwen2.5-7B中潜在哥伦比亚身份推断的自然语言自编码器方法",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.21774",
+        "language": "en",
+        "summary": "本研究使用自然语言自编码器（NLA）探测Qwen2.5-7B-Instruct模型在处理哥伦比亚西班牙语和英语提示时，是否在内部表示哥伦比亚身份、社会经济地位或刻板印象信息。通过30个提示（15对匹配的西班牙语-英语对）的实验，发现模型在输出前已存在潜在国籍或刻板印象表征，为模型偏见评估提供了激活层面的可解释性方法。",
+        "summary_en": "This pilot study uses Natural Language Autoencoders (NLA) to probe whether Qwen2.5-7B-Instruct internally represents Colombian identity, socioeconomic status, or stereotype-related information when processing Colombian-Spanish and English prompts. Results show latent nationality or stereotype representations appear before verbalization, connecting activation-level interpretability with bias evaluation for underrepresented Spanish varieties.",
+        "tags": [
+          "llm",
+          "research",
+          "security",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.85,
+        "status": "published",
+        "created_at": "2026-07-27T19:17:52.396159+08:00",
+        "updated_at": "2026-07-27T19:17:52.396160+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

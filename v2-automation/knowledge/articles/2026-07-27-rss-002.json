@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-27-rss-002",
+  "title": "基于共识的大语言模型相对偏好评估框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.21632",
+  "language": "en",
+  "summary": "提出一种基于共识的评估框架，通过多模型投票和相对偏好排序（RII指数）替代传统绝对正确性评估，适用于多有效答案场景。实验表明模型间偏好一致，可作为代理信号。",
+  "summary_en": "Introduces a consensus-based evaluation framework using multi-model voting and Relative Intelligence Index (RII) to replace absolute correctness, suitable for scenarios with multiple valid answers. Experiments show consistent inter-model preferences as a proxy signal.",
+  "tags": [
+    "llm",
+    "benchmark",
+    "evaluation",
+    "research"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-07-27T19:17:52.396150+08:00",
+  "updated_at": "2026-07-27T19:17:52.396151+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-27-rss-003",
+  "title": "评估设计影响专家与自动MeSH分类差距：基于Cohen基准的词袋模型与BiomedBERT对比研究",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.21685",
+  "language": "en",
+  "summary": "本研究系统比较了专家标注与自动生成的医学主题词（MeSH）作为分类器特征的效果差异，发现评估设计（如交叉验证折数、语料库大小）会显著影响结论。在Cohen基准上，词袋模型与BiomedBERT的差距在标准评估下约为0.02 WSS@95%，但改变评估设计后差距可能缩小或消失。研究揭示了评估设计对基准结论的关键影响。",
+  "summary_en": "This study systematically compares expert-assigned vs. auto-generated MeSH terms as classifier features, finding that evaluation design (e.g., cross-validation folds, corpus size) significantly alters conclusions. On the Cohen benchmark, the bag-of-words vs. BiomedBERT gap is ~0.02 WSS@95% under canonical evaluation but shrinks or vanishes under alternative designs, highlighting the critical impact of evaluation design on benchmark conclusions.",
+  "tags": [
+    "research",
+    "benchmark",
+    "llm",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-07-27T19:17:52.396155+08:00",
+  "updated_at": "2026-07-27T19:17:52.396156+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

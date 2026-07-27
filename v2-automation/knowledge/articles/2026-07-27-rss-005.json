@@ -1,0 +1,24 @@
+{
+  "id": "2026-07-27-rss-005",
+  "title": "Humanly：可配置且可追溯的人机协作写作环境",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.21758",
+  "language": "en",
+  "summary": "Humanly是一个写作平台，通过记录写作过程和AI辅助活动，生成可验证的写作证书，支持课程作业、同行评审等场景。用户研究显示其跨角色有用性，红队测试表明其打字检测器能区分人工与自动输入。",
+  "summary_en": "Humanly is a writing platform that records the writing process and AI assistance to generate verifiable writing certificates, supporting scenarios like coursework and peer review. User studies show cross-role usefulness, and red-teaming tests confirm its typing detector distinguishes human from automated input.",
+  "tags": [
+    "application",
+    "tool",
+    "research"
+  ],
+  "category": "application",
+  "relevance_score": 0.7,
+  "status": "published",
+  "created_at": "2026-07-27T19:17:52.396163+08:00",
+  "updated_at": "2026-07-27T19:17:52.396165+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

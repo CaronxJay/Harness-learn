@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-27-rss-004",
+  "title": "探究Qwen2.5-7B中潜在哥伦比亚身份推断的自然语言自编码器方法",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.21774",
+  "language": "en",
+  "summary": "本研究使用自然语言自编码器（NLA）探测Qwen2.5-7B-Instruct模型在处理哥伦比亚西班牙语和英语提示时，是否在内部表示哥伦比亚身份、社会经济地位或刻板印象信息。通过30个提示（15对匹配的西班牙语-英语对）的实验，发现模型在输出前已存在潜在国籍或刻板印象表征，为模型偏见评估提供了激活层面的可解释性方法。",
+  "summary_en": "This pilot study uses Natural Language Autoencoders (NLA) to probe whether Qwen2.5-7B-Instruct internally represents Colombian identity, socioeconomic status, or stereotype-related information when processing Colombian-Spanish and English prompts. Results show latent nationality or stereotype representations appear before verbalization, connecting activation-level interpretability with bias evaluation for underrepresented Spanish varieties.",
+  "tags": [
+    "llm",
+    "research",
+    "security",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.85,
+  "status": "published",
+  "created_at": "2026-07-27T19:17:52.396159+08:00",
+  "updated_at": "2026-07-27T19:17:52.396160+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
