@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-28-rss-008",
+  "title": "基于概念瓶颈的扩散模型视觉反事实解释",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.22544",
+  "language": "en",
+  "summary": "提出C-VCE框架，将分类器直接嵌入扩散模型的概念瓶颈层，通过可解释概念引导反事实生成，避免依赖外部噪声鲁棒分类器。支持语义概念开关、最小化图像修改，并保持特征相关性。在CelebA等基准上实现更高翻转率且失真更小。",
+  "summary_en": "Introduces C-VCE, a diffusion framework that embeds a classifier via a concept bottleneck layer, enabling counterfactual generation guided by human-interpretable concepts without relying on separate noise-robust classifiers. Achieves higher flip rates with less distortion on benchmarks like CelebA.",
+  "tags": [
+    "research",
+    "multimodal",
+    "explainability",
+    "diffusion"
+  ],
+  "category": "research",
+  "relevance_score": 0.85,
+  "status": "published",
+  "created_at": "2026-07-28T18:32:21.411207+08:00",
+  "updated_at": "2026-07-28T18:32:21.411208+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

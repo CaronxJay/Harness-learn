@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-28-rss-003",
+  "title": "AutoThinkSQL：面向Text-to-SQL的动态推理学习框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.22622",
+  "language": "en",
+  "summary": "提出AutoThinkSQL框架，通过SFT和DPO集成自动思考机制，使模型能根据查询复杂度动态选择是否进行深度推理。在Spider和BIRD基准上取得一致提升，同时减少24.6%和18.3%的输出token，降低17.1%和11.5%的延迟。",
+  "summary_en": "Proposes AutoThinkSQL, a framework integrating an auto-thinking mechanism into SFT and DPO for Text-to-SQL, enabling dynamic reasoning decisions based on query complexity. Achieves consistent gains on Spider and BIRD benchmarks while reducing output tokens by 24.6% and 18.3% and latency by 17.1% and 11.5% compared to CoT-only.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-07-28T18:32:21.411186+08:00",
+  "updated_at": "2026-07-28T18:32:21.411187+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

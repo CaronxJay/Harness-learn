@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-28-rss-007",
+  "title": "叙事遗忘评估：LENS协议",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.22657",
+  "language": "en",
+  "summary": "提出LENS评估协议，用于测试大语言模型在直接、归因、对比和抽象四个层面上的目标叙事复现能力。引入抑制-崩溃效率（SCE）评分，平衡目标叙事抑制与输出质量。实验表明，选定检查点可减少叙事复现，且抑制可能迁移至直接遗忘提示之外。",
+  "summary_en": "Introduces LENS, a contextualization-based evaluation protocol for testing target narrative reproduction across direct, attributed, contrastive, and abstract resistance levels. Proposes Suppression-Collapse Efficiency (SCE) score for checkpoint selection. Experiments show selected checkpoints reduce narrative reproduction and suppression may transfer beyond direct forget prompts.",
+  "tags": [
+    "llm",
+    "research",
+    "benchmark",
+    "security"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-07-28T18:32:21.411202+08:00",
+  "updated_at": "2026-07-28T18:32:21.411204+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

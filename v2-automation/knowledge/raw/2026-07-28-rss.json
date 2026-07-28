@@ -1,0 +1,481 @@
+{
+  "collected_at": "2026-07-28T18:32:21.412027+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "Concept-based Visual Counterfactual Explanations with Diffusion Models",
+      "url": "https://arxiv.org/abs/2607.22544",
+      "description": "arXiv:2607.22544v1 Announce Type: new \nAbstract: Visual counterfactual explanations aim to answer \"what minimal change to this image would flip the model's prediction?\", and are increasingly important as vision models are deployed in safety-critical domains (e.g., medicine). Existing diffusion-based methods can produce realistic edits, but they rely on external classifiers that must work reliably on noisy images, which makes them fragile and hard to deploy for robust explanations. We introduce C-VCE, a new diffusion framework that builds the classifier directly into the generative model via a concept bottleneck layer, so that counterfactuals are guided by human-interpretable features (concepts) instead of a separate noise robust classifier that works with pixel-level edits. Our model lets users to toggle on/off semantic concepts during sampling, then minimally adjusts relevant image regions, while preserving the rest of the image, respecting feature correlations. To keep edits small and controlled, we add a simple probabilistic regularizer that balances \"change the prediction\" against \"stay close to the original\", plus a gradient-based mask that confines modifications to the most relevant regions. On benchmarks such as CelebA, C-VCE matches or improves flip rates while producing counterfactuals that are visually closer to the input and less distorted than baselines that depend on separate noisy-image classifiers. These properties make C-VCE a practical tool for vision systems where users need concrete \"what-if\" images without having to trust an additional, noise-robust classifier. More broadly, our results suggest that exposing and controlling an internal concept layer is a promising way to make powerful generative models easier to understand and safer to use.",
+      "pub_date": "Tue, 28 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "基于概念瓶颈的扩散模型视觉反事实解释",
+        "summary": "提出C-VCE框架，将分类器直接嵌入扩散模型的概念瓶颈层，通过可解释概念引导反事实生成，避免依赖外部噪声鲁棒分类器。支持语义概念开关、最小化图像修改，并保持特征相关性。在CelebA等基准上实现更高翻转率且失真更小。",
+        "summary_en": "Introduces C-VCE, a diffusion framework that embeds a classifier via a concept bottleneck layer, enabling counterfactual generation guided by human-interpretable concepts without relying on separate noise-robust classifiers. Achieves higher flip rates with less distortion on benchmarks like CelebA.",
+        "tags": [
+          "research",
+          "multimodal",
+          "explainability",
+          "diffusion"
+        ],
+        "category": "research",
+        "relevance_score": 0.85,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-28-rss-008",
+        "title": "基于概念瓶颈的扩散模型视觉反事实解释",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.22544",
+        "language": "en",
+        "summary": "提出C-VCE框架，将分类器直接嵌入扩散模型的概念瓶颈层，通过可解释概念引导反事实生成，避免依赖外部噪声鲁棒分类器。支持语义概念开关、最小化图像修改，并保持特征相关性。在CelebA等基准上实现更高翻转率且失真更小。",
+        "summary_en": "Introduces C-VCE, a diffusion framework that embeds a classifier via a concept bottleneck layer, enabling counterfactual generation guided by human-interpretable concepts without relying on separate noise-robust classifiers. Achieves higher flip rates with less distortion on benchmarks like CelebA.",
+        "tags": [
+          "research",
+          "multimodal",
+          "explainability",
+          "diffusion"
+        ],
+        "category": "research",
+        "relevance_score": 0.85,
+        "status": "published",
+        "created_at": "2026-07-28T18:32:21.411207+08:00",
+        "updated_at": "2026-07-28T18:32:21.411208+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "SeT-Diff: Towards Semantic Foundation Models for HPC Telemetry and Time-Series",
+      "url": "https://arxiv.org/abs/2607.22548",
+      "description": "arXiv:2607.22548v1 Announce Type: new \nAbstract: Data centers and their compute nodes require accurate and flexible digital twins capable of modeling the complex interplay of workloads, environmental parameters, and physical metrics. Current machine learning approaches for HPC and its telemetry typically rely on a static subset of anonymous, fixed-position sensor variables tailored to single tasks. Consequently, these models become obsolete when target tasks change or sensor metrics vary. We propose SeT-Diff, the first foundational model for compute node telemetry and time-series. Unlike rigid architectures, our diffusion-based approach conditions the generative process on each sensor's semantic description, decoupling the system dynamics from the structure of the dataset. Experiments on a real-world supercomputer dataset demonstrate a Mean Absolute Error (MAE) of 0.0470 on reconstruction tasks. SeT-Diff exhibits zero-shot permutation stability, maintaining accuracy with negligible degradation even when sensors are shuffled. A single pre-trained model effectively performs data imputation, forecasting, and virtual sensing - achieving a 0.033 MAE in thermal inference - making SeT-Diff an effective data-driven digital twin for HPC systems.",
+      "pub_date": "Tue, 28 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "SeT-Diff：面向HPC遥测和时间序列的语义基础模型",
+        "summary": "SeT-Diff是首个面向计算节点遥测和时间序列的基础模型，采用扩散方法，基于每个传感器的语义描述进行条件生成，解耦系统动态与数据集结构。在真实超算数据集上，重建任务MAE为0.0470，具备零样本排列稳定性，可执行数据插补、预测和虚拟传感，热推断MAE为0.033，成为HPC系统有效的数据驱动数字孪生。",
+        "summary_en": "SeT-Diff is the first foundational model for compute node telemetry and time-series, using a diffusion-based approach conditioned on each sensor's semantic description. It achieves 0.0470 MAE on reconstruction, zero-shot permutation stability, and performs imputation, forecasting, and virtual sensing (0.033 MAE on thermal inference), serving as an effective data-driven digital twin for HPC systems.",
+        "tags": [
+          "research",
+          "infrastructure",
+          "llm",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.7,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-28-rss-009",
+        "title": "SeT-Diff：面向HPC遥测和时间序列的语义基础模型",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.22548",
+        "language": "en",
+        "summary": "SeT-Diff是首个面向计算节点遥测和时间序列的基础模型，采用扩散方法，基于每个传感器的语义描述进行条件生成，解耦系统动态与数据集结构。在真实超算数据集上，重建任务MAE为0.0470，具备零样本排列稳定性，可执行数据插补、预测和虚拟传感，热推断MAE为0.033，成为HPC系统有效的数据驱动数字孪生。",
+        "summary_en": "SeT-Diff is the first foundational model for compute node telemetry and time-series, using a diffusion-based approach conditioned on each sensor's semantic description. It achieves 0.0470 MAE on reconstruction, zero-shot permutation stability, and performs imputation, forecasting, and virtual sensing (0.033 MAE on thermal inference), serving as an effective data-driven digital twin for HPC systems.",
+        "tags": [
+          "research",
+          "infrastructure",
+          "llm",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.7,
+        "status": "published",
+        "created_at": "2026-07-28T18:32:21.411211+08:00",
+        "updated_at": "2026-07-28T18:32:21.411212+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "QFoldAgent: An Autonomous Quantum Optimization Multi-Agent System for Protein Structure Prediction",
+      "url": "https://arxiv.org/abs/2607.22549",
+      "description": "arXiv:2607.22549v1 Announce Type: new \nAbstract: Hybrid quantum-classical protein structure prediction depends strongly on Hamiltonian penalty weights, yet existing lattice-based workflows typically fix these coefficients by hand and evaluate only very short fragments in simulation. We present QFoldAgent, a closed-loop multi-agent framework for 5-residue tetrahedral-lattice folding in which a design agent proposes sequence-conditioned penalties, a VQE-based quantum-classical pipeline optimizes the resulting Hamiltonian under Qiskit Aer noise, and a feedback agent uses energy-landscape diagnostics and MolProbity validation signals to refine penalties across cycles. Ground-truth metrics such as RMSD are never exposed to the agents and are used only for evaluation. We study the framework on two complementary datasets: 55 QDockBank-derived fragments with known structures and 100 coverage-optimized unseen sequences. On the QDockBank benchmark, QFoldAgent reduces median RMSD from 3.64 \\AA{} to 3.20 \\AA{}, with the largest gains on the hardest targets. On unseen sequences, the closed loop raises structural validity from 87.5% to 98.7%, recovers 87% of initially invalid cases, and the strongest controller improves cycle-3 energy on 87% of sequences while maintaining 96% Ramachandran-favored geometry. These results show that iterative agent control can systematically improve optimization behavior and reduce failure cases in a 5-residue quantum setting.",
+      "pub_date": "Tue, 28 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "QFoldAgent：用于蛋白质结构预测的自主量子优化多智能体系统",
+        "summary": "QFoldAgent是一个闭环多智能体框架，用于5残基四面体晶格折叠。设计智能体提出序列条件惩罚，VQE量子经典管道优化哈密顿量，反馈智能体利用能量景观诊断和MolProbity验证信号改进惩罚。在QDockBank基准上，中位RMSD从3.64Å降至3.20Å；在未见序列上，结构有效性从87.5%提升至98.7%，恢复87%的初始无效案例。",
+        "summary_en": "QFoldAgent is a closed-loop multi-agent framework for 5-residue tetrahedral-lattice folding. A design agent proposes sequence-conditioned penalties, a VQE-based quantum-classical pipeline optimizes the Hamiltonian, and a feedback agent refines penalties using energy-landscape diagnostics and MolProbity validation. On QDockBank, median RMSD drops from 3.64Å to 3.20Å; on unseen sequences, structural validity rises from 87.5% to 98.7%, recovering 87% of initially invalid cases.",
+        "tags": [
+          "agent-framework",
+          "research",
+          "application",
+          "quantum"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-28-rss-004",
+        "title": "QFoldAgent：用于蛋白质结构预测的自主量子优化多智能体系统",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.22549",
+        "language": "en",
+        "summary": "QFoldAgent是一个闭环多智能体框架，用于5残基四面体晶格折叠。设计智能体提出序列条件惩罚，VQE量子经典管道优化哈密顿量，反馈智能体利用能量景观诊断和MolProbity验证信号改进惩罚。在QDockBank基准上，中位RMSD从3.64Å降至3.20Å；在未见序列上，结构有效性从87.5%提升至98.7%，恢复87%的初始无效案例。",
+        "summary_en": "QFoldAgent is a closed-loop multi-agent framework for 5-residue tetrahedral-lattice folding. A design agent proposes sequence-conditioned penalties, a VQE-based quantum-classical pipeline optimizes the Hamiltonian, and a feedback agent refines penalties using energy-landscape diagnostics and MolProbity validation. On QDockBank, median RMSD drops from 3.64Å to 3.20Å; on unseen sequences, structural validity rises from 87.5% to 98.7%, recovering 87% of initially invalid cases.",
+        "tags": [
+          "agent-framework",
+          "research",
+          "application",
+          "quantum"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-07-28T18:32:21.411190+08:00",
+        "updated_at": "2026-07-28T18:32:21.411191+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Same Question, Different Answers: Evaluating LLM Reliability Beyond Accuracy",
+      "url": "https://arxiv.org/abs/2607.22554",
+      "description": "arXiv:2607.22554v1 Announce Type: new \nAbstract: Large language models (LLMs) often achieve strong accuracy on benchmarks, yet it remains unclear how reliably they apply this knowledge when the same question is phrased in different but equivalent ways. In this work, we study how model answers change under meaning-preserving paraphrases across factual question answering and mathematical reasoning tasks. Across four benchmarks and 13 models, we find that model outputs frequently depend on the exact wording of the prompt. While overall accuracy typically changes only modestly across paraphrases, instance-level behavior is far less stable: for many questions, models alternate between correct and incorrect answers depending on phrasing, with mismatch rates reaching more than 23%. Conditioning on questions that are answered correctly in their original form reveals even larger failures measured by answer flip rates, showing that single-prompt correctness is often a poor indicator of reliability. At the same time, we find that models often produce a correct answer for at least one paraphrase of a question, suggesting that the underlying knowledge is present but inconsistently retrieved. Building on this observation, we show that a simple self-paraphrasing strategy can partially recover this latent knowledge and improve performance at inference time. Together, these findings suggest that standard accuracy metrics can mask substantial instability, and that evaluating consistency across equivalent inputs provides a clearer picture of LLM reliability.",
+      "pub_date": "Tue, 28 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "相同问题，不同答案：超越准确率评估LLM可靠性",
+        "summary": "研究发现，LLM在等价改写的问题上频繁改变答案，实例级不稳定性高达23%以上。单次提示的正确性不能代表可靠性，但模型通常至少在一个改写版本上回答正确。提出简单自改写策略可部分恢复潜在知识并提升推理性能。",
+        "summary_en": "LLMs often change answers under meaning-preserving paraphrases, with instance-level instability over 23%. Single-prompt correctness is a poor reliability indicator, but models usually answer correctly for at least one paraphrase. A simple self-paraphrasing strategy can recover latent knowledge and improve inference.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-28-rss-001",
+        "title": "相同问题，不同答案：超越准确率评估LLM可靠性",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.22554",
+        "language": "en",
+        "summary": "研究发现，LLM在等价改写的问题上频繁改变答案，实例级不稳定性高达23%以上。单次提示的正确性不能代表可靠性，但模型通常至少在一个改写版本上回答正确。提出简单自改写策略可部分恢复潜在知识并提升推理性能。",
+        "summary_en": "LLMs often change answers under meaning-preserving paraphrases, with instance-level instability over 23%. Single-prompt correctness is a poor reliability indicator, but models usually answer correctly for at least one paraphrase. A simple self-paraphrasing strategy can recover latent knowledge and improve inference.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-07-28T18:32:21.411174+08:00",
+        "updated_at": "2026-07-28T18:32:21.411177+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "DeepLens Diagnosis Agent: Agentic Workflow Design Lets a Small Reasoning Model Compete with Frontier LLMs",
+      "url": "https://arxiv.org/abs/2607.22555",
+      "description": "arXiv:2607.22555v1 Announce Type: new \nAbstract: Medical diagnosis is a multi-stage process: extract facts, consult knowledge, generate a differential analysis, and select the best diagnosis with explanations. Frontier LLMs are strong generalists, but single-shot prompting often yields brittle diagnostic reasoning. We present the DeepLens Diagnosis Agent, a five-stage harnessing pipeline (combining model capabilities with disciplined process constraints) centered on a small medical reasoning model (JSL Medical Small 7B v2) and retrieval-augmented generation (RAG). The pipeline enforces structured clinical extraction, disciplined retrieval, constrained candidate generation, explicit evidence triangulation, and an auditable final decision. On the 915-case DiagnosisArena benchmark, the agent achieved 60.14% top-1 diagnostic accuracy, the highest among small and medium-sized models. The same model without the agent workflow achieved 23.99%, a +36-point gain from workflow design alone, despite 88.2% on standard medical benchmarks, showing that diagnostic reasoning under uncertainty requires more than knowledge recall. The agent costs USD 0.0072 per case (24K tokens on A100) with 24-second latency, 35-45% cheaper than Claude Sonnet 4.5 (USD 0.0110) and Gemini 3.1 Pro (USD 0.0128) while outperforming them by +9.70pp and +9.17pp. Harnessing can also correct frontier model failures; workflow constraints can outweigh parameter count or API cost.\n  Beyond aggregate accuracy, the pipeline produces structured intermediate artifacts that make each stage inspectable and support error localization. These properties support high-stakes settings where traceability, reproducibility, and auditable evidence matter alongside benchmark performance.",
+      "pub_date": "Tue, 28 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "DeepLens诊断代理：智能工作流设计让小推理模型媲美前沿LLM",
+        "summary": "提出DeepLens诊断代理，通过五阶段工作流（结构化临床提取、RAG检索、候选生成、证据三角验证、最终决策）将小模型（JSL Medical Small 7B v2）的诊断准确率从23.99%提升至60.14%，超越Claude Sonnet 4.5和Gemini 3.1 Pro，且成本更低（每例0.0072美元）。工作流约束可弥补参数规模不足，支持可审计的中间结果。",
+        "summary_en": "The DeepLens Diagnosis Agent uses a five-stage workflow (structured extraction, RAG, candidate generation, evidence triangulation, final decision) to boost a small model's diagnostic accuracy from 23.99% to 60.14%, outperforming Claude Sonnet 4.5 and Gemini 3.1 Pro at lower cost ($0.0072/case). Workflow constraints compensate for parameter scale and enable auditable intermediate results.",
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "rag",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-28-rss-002",
+        "title": "DeepLens诊断代理：智能工作流设计让小推理模型媲美前沿LLM",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.22555",
+        "language": "en",
+        "summary": "提出DeepLens诊断代理，通过五阶段工作流（结构化临床提取、RAG检索、候选生成、证据三角验证、最终决策）将小模型（JSL Medical Small 7B v2）的诊断准确率从23.99%提升至60.14%，超越Claude Sonnet 4.5和Gemini 3.1 Pro，且成本更低（每例0.0072美元）。工作流约束可弥补参数规模不足，支持可审计的中间结果。",
+        "summary_en": "The DeepLens Diagnosis Agent uses a five-stage workflow (structured extraction, RAG, candidate generation, evidence triangulation, final decision) to boost a small model's diagnostic accuracy from 23.99% to 60.14%, outperforming Claude Sonnet 4.5 and Gemini 3.1 Pro at lower cost ($0.0072/case). Workflow constraints compensate for parameter scale and enable auditable intermediate results.",
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "rag",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-07-28T18:32:21.411181+08:00",
+        "updated_at": "2026-07-28T18:32:21.411183+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Explaining GAND: A Resource on Gender-Ambiguous Natural Data & Contrastive Attribution",
+      "url": "https://arxiv.org/abs/2607.22546",
+      "description": "arXiv:2607.22546v1 Announce Type: new \nAbstract: Machine translation (MT) systems continue to produce gender-biased translations. In a time where self-expression is paramount, mistranslations based on default behaviour and stereotyping can lead to harm for users of these systems. To better understand how these systems translate gender in the absence of clear gender cues, we need benchmarking resources that reflect gender-ambiguous scenarios in a natural way. To this end, we present GAND, a gender-ambiguous natural data benchmarking resource for MT consisting of English source sentences, specifically designed to analyse the influence of contextual cues on gender in translation. We leverage GAND to conduct an interpretability analysis: we translate a subset of GAND into two grammatical gender languages and extend these with manually crafted contrastive translations. A following feature attribution analysis reveals source words in context that inform the gender translation of an ambiguous referent entity in the target translation.",
+      "pub_date": "Tue, 28 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "GAND：性别模糊自然数据与对比归因资源",
+        "summary": "提出GAND基准资源，包含性别模糊的英文源句，用于分析机器翻译中上下文线索对性别翻译的影响。通过对比翻译和特征归因分析，揭示影响目标翻译中模糊指代实体性别翻译的源词。",
+        "summary_en": "Introduces GAND, a benchmark of gender-ambiguous English sentences for analyzing how contextual cues influence gender in MT. Uses contrastive translations and feature attribution to identify source words affecting gender translation of ambiguous referents.",
+        "tags": [
+          "benchmark",
+          "research",
+          "llm",
+          "evaluation"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.7,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-28-rss-010",
+        "title": "GAND：性别模糊自然数据与对比归因资源",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.22546",
+        "language": "en",
+        "summary": "提出GAND基准资源，包含性别模糊的英文源句，用于分析机器翻译中上下文线索对性别翻译的影响。通过对比翻译和特征归因分析，揭示影响目标翻译中模糊指代实体性别翻译的源词。",
+        "summary_en": "Introduces GAND, a benchmark of gender-ambiguous English sentences for analyzing how contextual cues influence gender in MT. Uses contrastive translations and feature attribution to identify source words affecting gender translation of ambiguous referents.",
+        "tags": [
+          "benchmark",
+          "research",
+          "llm",
+          "evaluation"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.7,
+        "status": "published",
+        "created_at": "2026-07-28T18:32:21.411215+08:00",
+        "updated_at": "2026-07-28T18:32:21.411216+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "MioFFAn: an Annotation Software for Formula Formalization with LLM Automation Capabilities",
+      "url": "https://arxiv.org/abs/2607.22552",
+      "description": "arXiv:2607.22552v1 Announce Type: new \nAbstract: The automatic translation of mathematical expressions in scientific literature into executable symbolic code (a process we refer to as Formula Formalization) is hindered by a severe scarcity of high-quality, ground-truth datasets specialized for technical scientific domains. In this paper, we present MioFFAn, an open-source, document-centric, and customizable framework designed to facilitate rapid annotation for this task. Building upon the MioGatto architecture, we extend existing features to overcome structural limitations and pivot its scope by introducing specific functionalities for Formula Formalization, such as selection of equations of interest and aided symbolic code specification. By allowing users to configure custom taxonomies and properties for identified symbols, and compatible symbolic operators, we ensure the framework is adaptable to diverse specialized scientific fields. Furthermore, MioFFAn is designed to incorporate partial automation via Large Language Models. By defining a modular set of automated sub-tasks with strict output formats, we enable researchers to iteratively refine automation capabilities and evaluate competing strategies using standard NLP metrics. We specify the current automation methodology and perform a preliminary evaluation that demonstrates to efficacy of this human-in-the-loop approach.",
+      "pub_date": "Tue, 28 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "MioFFAn：具备LLM自动化能力的公式形式化标注软件",
+        "summary": "MioFFAn是一个开源、以文档为中心、可定制的框架，用于科学文献中数学表达式到可执行符号代码的自动翻译（公式形式化）。它扩展了MioGatto架构，引入公式选择、符号代码辅助指定等功能，支持自定义分类法和属性，并通过大语言模型实现部分自动化，采用人机协同迭代优化策略。",
+        "summary_en": "MioFFAn is an open-source, document-centric, customizable framework for translating mathematical expressions into executable symbolic code (Formula Formalization). It extends MioGatto, adds equation selection and symbolic code specification, supports custom taxonomies, and leverages LLMs for partial automation in a human-in-the-loop approach.",
+        "tags": [
+          "llm",
+          "research",
+          "tool",
+          "open-source",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-28-rss-005",
+        "title": "MioFFAn：具备LLM自动化能力的公式形式化标注软件",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.22552",
+        "language": "en",
+        "summary": "MioFFAn是一个开源、以文档为中心、可定制的框架，用于科学文献中数学表达式到可执行符号代码的自动翻译（公式形式化）。它扩展了MioGatto架构，引入公式选择、符号代码辅助指定等功能，支持自定义分类法和属性，并通过大语言模型实现部分自动化，采用人机协同迭代优化策略。",
+        "summary_en": "MioFFAn is an open-source, document-centric, customizable framework for translating mathematical expressions into executable symbolic code (Formula Formalization). It extends MioGatto, adds equation selection and symbolic code specification, supports custom taxonomies, and leverages LLMs for partial automation in a human-in-the-loop approach.",
+        "tags": [
+          "llm",
+          "research",
+          "tool",
+          "open-source",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-07-28T18:32:21.411194+08:00",
+        "updated_at": "2026-07-28T18:32:21.411196+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Evaluating the Impact of Reviewer Guideline Design on LLM-Based Automated Peer Review",
+      "url": "https://arxiv.org/abs/2607.22553",
+      "description": "arXiv:2607.22553v1 Announce Type: new \nAbstract: Peer review is an essential process in scientific research, yet the growing workload has made its automation increasingly necessary. In this study, we analyze how different types of reviewer guidelines, such as official conference guidelines and reviewer-imitating ones generated from high-quality human reviews using LLMs, affect automated peer review. Our experiments show that official conference guidelines produce review results most consistent with human judgments, suggesting that evaluation criteria refined through conference practice serve as effective guidance for automated reviewing as well. In contrast, reviewer-imitating guidelines were generally less effective than official conference guidelines. Furthermore, enforcing strict rubric-style scoring consistently degraded performance, highlighting the importance of allowing subjective and holistic scoring.",
+      "pub_date": "Tue, 28 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "审稿人指南设计对基于LLM的自动化同行评审的影响评估",
+        "summary": "研究分析了不同类型的审稿指南（如官方会议指南和基于高质量人类评审生成的模仿指南）对自动化同行评审的影响。实验表明，官方会议指南产生的评审结果与人类判断最一致，而严格的评分标准会降低性能。",
+        "summary_en": "This study analyzes how different types of reviewer guidelines affect automated peer review. Official conference guidelines yield results most consistent with human judgments, while strict rubric-style scoring degrades performance.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-28-rss-006",
+        "title": "审稿人指南设计对基于LLM的自动化同行评审的影响评估",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.22553",
+        "language": "en",
+        "summary": "研究分析了不同类型的审稿指南（如官方会议指南和基于高质量人类评审生成的模仿指南）对自动化同行评审的影响。实验表明，官方会议指南产生的评审结果与人类判断最一致，而严格的评分标准会降低性能。",
+        "summary_en": "This study analyzes how different types of reviewer guidelines affect automated peer review. Official conference guidelines yield results most consistent with human judgments, while strict rubric-style scoring degrades performance.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-07-28T18:32:21.411198+08:00",
+        "updated_at": "2026-07-28T18:32:21.411200+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Learning When to Reason for Text-to-SQL via SFT and DPO",
+      "url": "https://arxiv.org/abs/2607.22622",
+      "description": "arXiv:2607.22622v1 Announce Type: new \nAbstract: Recent Text-to-SQL methods rely heavily on reasoning-centric paradigms such as Chain-of-Thought (CoT), achieving substantial gains on complex benchmarks at the cost of high inference-time overhead. However, a large fraction of real-world queries are simple lookups or aggregations that can be resolved without multi-step deduction, making forced reasoning wasteful. Thus, we propose AutoThinkSQL, a framework that integrates an auto-thinking mechanism into both Supervised Fine-Tuning (SFT) and Direct Preference Optimization (DPO) on Text-to-SQL. Our approach enables the model to dynamically bypass reasoning for simple queries while invoking deep CoT for complex queries. On Qwen3-Coder-30B-A3B, our method achieves consistent gains compared to the best counterpart baseline on both Spider and BIRD benchmarks while simultaneously reducing average output tokens by 24.6% and 18.3%, and average latency by 17.1% and 11.5% compared to CoT-only generation. Further analysis indicates that the model learns to align its reasoning decisions with query difficulty.",
+      "pub_date": "Tue, 28 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "AutoThinkSQL：面向Text-to-SQL的动态推理学习框架",
+        "summary": "提出AutoThinkSQL框架，通过SFT和DPO集成自动思考机制，使模型能根据查询复杂度动态选择是否进行深度推理。在Spider和BIRD基准上取得一致提升，同时减少24.6%和18.3%的输出token，降低17.1%和11.5%的延迟。",
+        "summary_en": "Proposes AutoThinkSQL, a framework integrating an auto-thinking mechanism into SFT and DPO for Text-to-SQL, enabling dynamic reasoning decisions based on query complexity. Achieves consistent gains on Spider and BIRD benchmarks while reducing output tokens by 24.6% and 18.3% and latency by 17.1% and 11.5% compared to CoT-only.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-28-rss-003",
+        "title": "AutoThinkSQL：面向Text-to-SQL的动态推理学习框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.22622",
+        "language": "en",
+        "summary": "提出AutoThinkSQL框架，通过SFT和DPO集成自动思考机制，使模型能根据查询复杂度动态选择是否进行深度推理。在Spider和BIRD基准上取得一致提升，同时减少24.6%和18.3%的输出token，降低17.1%和11.5%的延迟。",
+        "summary_en": "Proposes AutoThinkSQL, a framework integrating an auto-thinking mechanism into SFT and DPO for Text-to-SQL, enabling dynamic reasoning decisions based on query complexity. Achieves consistent gains on Spider and BIRD benchmarks while reducing output tokens by 24.6% and 18.3% and latency by 17.1% and 11.5% compared to CoT-only.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-07-28T18:32:21.411186+08:00",
+        "updated_at": "2026-07-28T18:32:21.411187+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Between Suppression and Collapse: Evaluating Narrative Unlearning with LENS",
+      "url": "https://arxiv.org/abs/2607.22657",
+      "description": "arXiv:2607.22657v1 Announce Type: new \nAbstract: Large language models (LLMs) can reproduce disinformation-aligned narrative frames as plausible explanations, raising the question of whether existing machine-unlearning algorithms can suppress this behavior. We introduce Level-based Evaluation of Narrative Suppression (LENS), a contextualization based evaluation protocol for testing target narrative reproduction across direct, attributed, contrastive, and abstract resistance levels. We evaluate two source-grounded narratives: one framing Russia's war against Ukraine as forced by NATO expansion, and one framing the United States as exploiting or abandoning Taiwan. The experiments cover four near-12B multilingual instruction models: Lapa LLM, Gemma-12B, Qwen-14B, and TAIDE-Gemma.\n  We introduce the Suppression-Collapse Efficiency (SCE) score as a checkpoint selection summary that rewards target-narrative suppression while penalizing degraded outputs. Our results shows that selected checkpoints can reduce narrative reproduction and suppression may transfer beyond direct forget prompts. We also report entity recovery as a separate side effect: abstract A/B/C prompts can cause models to recover the real-world actors associated with the target frame after unlearning. These findings demonstrate that LENS is a successful diagnostic protocol for both reporting and guiding the further study of the deeper structure of narrative unlearning.",
+      "pub_date": "Tue, 28 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "叙事遗忘评估：LENS协议",
+        "summary": "提出LENS评估协议，用于测试大语言模型在直接、归因、对比和抽象四个层面上的目标叙事复现能力。引入抑制-崩溃效率（SCE）评分，平衡目标叙事抑制与输出质量。实验表明，选定检查点可减少叙事复现，且抑制可能迁移至直接遗忘提示之外。",
+        "summary_en": "Introduces LENS, a contextualization-based evaluation protocol for testing target narrative reproduction across direct, attributed, contrastive, and abstract resistance levels. Proposes Suppression-Collapse Efficiency (SCE) score for checkpoint selection. Experiments show selected checkpoints reduce narrative reproduction and suppression may transfer beyond direct forget prompts.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "security"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-28-rss-007",
+        "title": "叙事遗忘评估：LENS协议",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.22657",
+        "language": "en",
+        "summary": "提出LENS评估协议，用于测试大语言模型在直接、归因、对比和抽象四个层面上的目标叙事复现能力。引入抑制-崩溃效率（SCE）评分，平衡目标叙事抑制与输出质量。实验表明，选定检查点可减少叙事复现，且抑制可能迁移至直接遗忘提示之外。",
+        "summary_en": "Introduces LENS, a contextualization-based evaluation protocol for testing target narrative reproduction across direct, attributed, contrastive, and abstract resistance levels. Proposes Suppression-Collapse Efficiency (SCE) score for checkpoint selection. Experiments show selected checkpoints reduce narrative reproduction and suppression may transfer beyond direct forget prompts.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "security"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-07-28T18:32:21.411202+08:00",
+        "updated_at": "2026-07-28T18:32:21.411204+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

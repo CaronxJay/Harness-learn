@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-28-rss-009",
+  "title": "SeT-Diff：面向HPC遥测和时间序列的语义基础模型",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.22548",
+  "language": "en",
+  "summary": "SeT-Diff是首个面向计算节点遥测和时间序列的基础模型，采用扩散方法，基于每个传感器的语义描述进行条件生成，解耦系统动态与数据集结构。在真实超算数据集上，重建任务MAE为0.0470，具备零样本排列稳定性，可执行数据插补、预测和虚拟传感，热推断MAE为0.033，成为HPC系统有效的数据驱动数字孪生。",
+  "summary_en": "SeT-Diff is the first foundational model for compute node telemetry and time-series, using a diffusion-based approach conditioned on each sensor's semantic description. It achieves 0.0470 MAE on reconstruction, zero-shot permutation stability, and performs imputation, forecasting, and virtual sensing (0.033 MAE on thermal inference), serving as an effective data-driven digital twin for HPC systems.",
+  "tags": [
+    "research",
+    "infrastructure",
+    "llm",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.7,
+  "status": "published",
+  "created_at": "2026-07-28T18:32:21.411211+08:00",
+  "updated_at": "2026-07-28T18:32:21.411212+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

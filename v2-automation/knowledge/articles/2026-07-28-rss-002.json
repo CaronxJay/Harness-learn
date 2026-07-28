@@ -1,0 +1,26 @@
+{
+  "id": "2026-07-28-rss-002",
+  "title": "DeepLens诊断代理：智能工作流设计让小推理模型媲美前沿LLM",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.22555",
+  "language": "en",
+  "summary": "提出DeepLens诊断代理，通过五阶段工作流（结构化临床提取、RAG检索、候选生成、证据三角验证、最终决策）将小模型（JSL Medical Small 7B v2）的诊断准确率从23.99%提升至60.14%，超越Claude Sonnet 4.5和Gemini 3.1 Pro，且成本更低（每例0.0072美元）。工作流约束可弥补参数规模不足，支持可审计的中间结果。",
+  "summary_en": "The DeepLens Diagnosis Agent uses a five-stage workflow (structured extraction, RAG, candidate generation, evidence triangulation, final decision) to boost a small model's diagnostic accuracy from 23.99% to 60.14%, outperforming Claude Sonnet 4.5 and Gemini 3.1 Pro at lower cost ($0.0072/case). Workflow constraints compensate for parameter scale and enable auditable intermediate results.",
+  "tags": [
+    "llm",
+    "research",
+    "application",
+    "rag",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-07-28T18:32:21.411181+08:00",
+  "updated_at": "2026-07-28T18:32:21.411183+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

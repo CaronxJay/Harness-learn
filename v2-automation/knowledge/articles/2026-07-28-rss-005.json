@@ -1,0 +1,26 @@
+{
+  "id": "2026-07-28-rss-005",
+  "title": "MioFFAn：具备LLM自动化能力的公式形式化标注软件",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.22552",
+  "language": "en",
+  "summary": "MioFFAn是一个开源、以文档为中心、可定制的框架，用于科学文献中数学表达式到可执行符号代码的自动翻译（公式形式化）。它扩展了MioGatto架构，引入公式选择、符号代码辅助指定等功能，支持自定义分类法和属性，并通过大语言模型实现部分自动化，采用人机协同迭代优化策略。",
+  "summary_en": "MioFFAn is an open-source, document-centric, customizable framework for translating mathematical expressions into executable symbolic code (Formula Formalization). It extends MioGatto, adds equation selection and symbolic code specification, supports custom taxonomies, and leverages LLMs for partial automation in a human-in-the-loop approach.",
+  "tags": [
+    "llm",
+    "research",
+    "tool",
+    "open-source",
+    "fine-tuning"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-07-28T18:32:21.411194+08:00",
+  "updated_at": "2026-07-28T18:32:21.411196+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

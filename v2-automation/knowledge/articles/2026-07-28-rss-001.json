@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-28-rss-001",
+  "title": "相同问题，不同答案：超越准确率评估LLM可靠性",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.22554",
+  "language": "en",
+  "summary": "研究发现，LLM在等价改写的问题上频繁改变答案，实例级不稳定性高达23%以上。单次提示的正确性不能代表可靠性，但模型通常至少在一个改写版本上回答正确。提出简单自改写策略可部分恢复潜在知识并提升推理性能。",
+  "summary_en": "LLMs often change answers under meaning-preserving paraphrases, with instance-level instability over 23%. Single-prompt correctness is a poor reliability indicator, but models usually answer correctly for at least one paraphrase. A simple self-paraphrasing strategy can recover latent knowledge and improve inference.",
+  "tags": [
+    "llm",
+    "research",
+    "benchmark",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-07-28T18:32:21.411174+08:00",
+  "updated_at": "2026-07-28T18:32:21.411177+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

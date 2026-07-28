@@ -1,0 +1,26 @@
+{
+  "id": "2026-07-28-github-003",
+  "title": "AI学习路线图",
+  "source": "github_trending",
+  "source_url": "https://github.com/udaysharmadev/Ai-Roadmap",
+  "language": "en",
+  "summary": "提供2026年完整的AI学习路线图，涵盖机器学习、深度学习、LLM、GenAI、RAG、Agent、项目部署及职业指南，并推荐免费YouTube课程。",
+  "summary_en": null,
+  "tags": [
+    "llm",
+    "application",
+    "rag",
+    "agent-framework",
+    "fine-tuning"
+  ],
+  "category": "application",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-07-28T18:32:21.410088+08:00",
+  "updated_at": "2026-07-28T18:32:21.410090+08:00",
+  "metadata": {
+    "stars": 5,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

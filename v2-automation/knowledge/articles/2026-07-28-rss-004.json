@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-28-rss-004",
+  "title": "QFoldAgent：用于蛋白质结构预测的自主量子优化多智能体系统",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.22549",
+  "language": "en",
+  "summary": "QFoldAgent是一个闭环多智能体框架，用于5残基四面体晶格折叠。设计智能体提出序列条件惩罚，VQE量子经典管道优化哈密顿量，反馈智能体利用能量景观诊断和MolProbity验证信号改进惩罚。在QDockBank基准上，中位RMSD从3.64Å降至3.20Å；在未见序列上，结构有效性从87.5%提升至98.7%，恢复87%的初始无效案例。",
+  "summary_en": "QFoldAgent is a closed-loop multi-agent framework for 5-residue tetrahedral-lattice folding. A design agent proposes sequence-conditioned penalties, a VQE-based quantum-classical pipeline optimizes the Hamiltonian, and a feedback agent refines penalties using energy-landscape diagnostics and MolProbity validation. On QDockBank, median RMSD drops from 3.64Å to 3.20Å; on unseen sequences, structural validity rises from 87.5% to 98.7%, recovering 87% of initially invalid cases.",
+  "tags": [
+    "agent-framework",
+    "research",
+    "application",
+    "quantum"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-07-28T18:32:21.411190+08:00",
+  "updated_at": "2026-07-28T18:32:21.411191+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

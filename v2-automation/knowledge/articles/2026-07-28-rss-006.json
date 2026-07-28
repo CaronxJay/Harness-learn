@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-28-rss-006",
+  "title": "审稿人指南设计对基于LLM的自动化同行评审的影响评估",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.22553",
+  "language": "en",
+  "summary": "研究分析了不同类型的审稿指南（如官方会议指南和基于高质量人类评审生成的模仿指南）对自动化同行评审的影响。实验表明，官方会议指南产生的评审结果与人类判断最一致，而严格的评分标准会降低性能。",
+  "summary_en": "This study analyzes how different types of reviewer guidelines affect automated peer review. Official conference guidelines yield results most consistent with human judgments, while strict rubric-style scoring degrades performance.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-07-28T18:32:21.411198+08:00",
+  "updated_at": "2026-07-28T18:32:21.411200+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
