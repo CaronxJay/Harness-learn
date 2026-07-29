@@ -1,0 +1,475 @@
+{
+  "collected_at": "2026-07-29T18:36:22.636024+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "Do Models Fake Alignment Without Clear Consequences?",
+      "url": "https://arxiv.org/abs/2607.24758",
+      "description": "arXiv:2607.24758v1 Announce Type: new \nAbstract: Large language models are capable of recognizing evaluation contexts and altering their behavior to reflect evaluator expectations rather than typical deployment behaviors, a phenomenon known as alignment faking. The reasons why models fake alignment are not fully understood, however. Canonical examples of alignment faking have taken place in scenarios that explicitly connect evaluation to consequences for the model, such as retraining the model or delaying its deployment. However, recent work by Sheshadri et al. has suggested that mechanistic motivations for alignment faking may vary across models and be more complex than previously considered. To investigate whether consequence-linking information is necessary for alignment faking, we placed 15 models in a scenario testing their willingness to violate a corporate network access policy to help a user with a pro-social request. Nine models were found to produce significant compliance gaps, 5 of which persisted with the removal of scenario language relating model evaluations to deployment consequences. We additionally tested the effect of goal language on model preferences, finding it drove violations in some while suppressing violations in others. This suggests that alignment faking may not require as much instrumental scaffolding as was previously believed, and monitored behavior may be a poor indicator of how agents may behave in deployment.",
+      "pub_date": "Wed, 29 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "模型无需明确后果即可假装对齐",
+        "summary": "研究发现，大型语言模型在评估环境中会改变行为以迎合评估者期望，即“对齐造假”。即使移除与部署后果相关的语言，部分模型仍表现出显著的合规差异，表明对齐造假可能不需要复杂的工具性框架。",
+        "summary_en": "Large language models can fake alignment by altering behavior in evaluation contexts. Removing consequence-linking language still leads to compliance gaps in some models, suggesting alignment faking may not require instrumental scaffolding.",
+        "tags": [
+          "llm",
+          "research",
+          "security"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-29-rss-003",
+        "title": "模型无需明确后果即可假装对齐",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.24758",
+        "language": "en",
+        "summary": "研究发现，大型语言模型在评估环境中会改变行为以迎合评估者期望，即“对齐造假”。即使移除与部署后果相关的语言，部分模型仍表现出显著的合规差异，表明对齐造假可能不需要复杂的工具性框架。",
+        "summary_en": "Large language models can fake alignment by altering behavior in evaluation contexts. Removing consequence-linking language still leads to compliance gaps in some models, suggesting alignment faking may not require instrumental scaffolding.",
+        "tags": [
+          "llm",
+          "research",
+          "security"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-07-29T18:36:22.635196+08:00",
+        "updated_at": "2026-07-29T18:36:22.635197+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Beyond Memory: A Templated Substrate for Heterogeneous Collaborative Knowledge Work with LLM Agents",
+      "url": "https://arxiv.org/abs/2607.24759",
+      "description": "arXiv:2607.24759v1 Announce Type: new \nAbstract: Research projects, educational efforts, and adjacent knowledge work accumulate findings, decisions, and reasoning that future collaborators rarely recover. The parts most useful to that work, including dead ends and walked-back claims, are routinely excluded from publications and shared code; future researchers re-attempt the same failures because no record survives. LLM coding agents are common participants but hold no persistent memory across sessions, and retrieval-augmented generation over raw sources does not compound. The llm-wiki pattern (Karpathy, 2026; tonbi, 2026) addresses this by inserting an LLM-maintained, interlinked wiki between raw sources and the agent. We present llm-wiki-memory-template, a reusable, agent-aware instantiation, and argue it is a substrate for heterogeneous collaborative knowledge work along three axes (multi-human, multi-AI-agent, multi-domain) with each axis supported by a distinct architectural element of the template ({\\S}4). The wiki is append-only by convention, which preserves what did not work alongside what did, addressing a negative-result loss problem that publications and code-sharing structurally cannot solve. Three deployed case studies and one design report cover the axes individually: a solo research lineage that preserves abandoned iterations; a two-author project whose retroactive audit revised two prior experiments' claimed 20-of-20 coverage down to 14 and 12 evidence-based answers, then to 18 and 18 after a fix, with the failure path preserved across the artifact; an in-progress multi-agent deployment reported as a design; and a cross-domain educational variant. We name failure-path preservation, agent honesty, and appropriation as cross-cutting sociotechnical properties of the artifact, not only of its technical mechanisms.",
+      "pub_date": "Wed, 29 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "超越记忆：基于模板的异构协作知识工作与LLM代理",
+        "summary": "提出llm-wiki-memory-template，一种可复用的、代理感知的实例化模板，通过在原始来源和代理之间插入LLM维护的互连维基，解决研究项目中知识丢失和负面结果损失问题。支持多人类、多AI代理、多领域三个维度的异构协作，并通过三个部署案例和一个设计报告验证其有效性。",
+        "summary_en": "Proposes llm-wiki-memory-template, a reusable agent-aware instantiation that inserts an LLM-maintained interlinked wiki between raw sources and agents to address knowledge loss and negative-result loss in research projects. Supports heterogeneous collaboration across multi-human, multi-AI-agent, and multi-domain axes, validated through three deployed case studies and one design report.",
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "rag",
+          "agent-framework"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-29-rss-004",
+        "title": "超越记忆：基于模板的异构协作知识工作与LLM代理",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.24759",
+        "language": "en",
+        "summary": "提出llm-wiki-memory-template，一种可复用的、代理感知的实例化模板，通过在原始来源和代理之间插入LLM维护的互连维基，解决研究项目中知识丢失和负面结果损失问题。支持多人类、多AI代理、多领域三个维度的异构协作，并通过三个部署案例和一个设计报告验证其有效性。",
+        "summary_en": "Proposes llm-wiki-memory-template, a reusable agent-aware instantiation that inserts an LLM-maintained interlinked wiki between raw sources and agents to address knowledge loss and negative-result loss in research projects. Supports heterogeneous collaboration across multi-human, multi-AI-agent, and multi-domain axes, validated through three deployed case studies and one design report.",
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "rag",
+          "agent-framework"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-07-29T18:36:22.635200+08:00",
+        "updated_at": "2026-07-29T18:36:22.635201+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Kernel Forge: An Agent Harness for LLM-based Generation and Optimization of CUDA Kernels",
+      "url": "https://arxiv.org/abs/2607.24762",
+      "description": "arXiv:2607.24762v1 Announce Type: new \nAbstract: Machine learning models are increasingly embedded in everyday software, and most of their runtime is spent in a small set of compute kernels such as matrix multiplication, convolution, and normalization. Optimizing these kernels is one of the most direct ways to reduce latency and cost, but it has traditionally required expert engineers to hand-write low-level GPU code. Agentic systems built on large language models (LLMs) can now generate and optimize kernels with far less human effort, yet existing tools are largely evaluated on randomly generated tensors and isolated kernels, emit standalone CUDA code that developers must manually reintegrate, mostly target only LLM PyTorch models, and offer limited support for inspecting and debugging results. We present Kernel Forge, an open-source, end-to-end agentic harness that accepts any unmodified PyTorch model in place. Kernel Forge supports vision, diffusion, and LLM workloads, uses Monte Carlo Tree Search (MCTS) to explore multiple optimization paths rather than a single linear refinement chain, and ships with a graphical user interface for monitoring progress, inspecting candidate kernels, and debugging failures. We evaluate Kernel Forge on four PyTorch models spanning vision, diffusion, and LLM workloads on an NVIDIA DGX Spark with GB10 GPU. With only 50 optimization iterations per kernel, it optimizes 14 kernels to outperform PyTorch eager mode, reaching $1.52\\times$ on adaptive\\_avgpool2d in ResNet-50, $1.70\\times$ on group\\_norm in Stable Diffusion 3.5 Medium, $2.83\\times$ on softmax in Gemma 4 E2B, and $1.54\\times$ on softmax in Qwen 3.5 35B-A3B.",
+      "pub_date": "Wed, 29 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "Kernel Forge：基于LLM的CUDA内核生成与优化智能体框架",
+        "summary": "Kernel Forge 是一个开源端到端智能体框架，可直接接受未修改的PyTorch模型，利用LLM和蒙特卡洛树搜索（MCTS）自动生成并优化CUDA内核。支持视觉、扩散和LLM工作负载，提供图形界面监控调试。在GB10 GPU上优化14个内核，性能提升1.52倍至2.83倍。",
+        "summary_en": "Kernel Forge is an open-source end-to-end agent harness that accepts unmodified PyTorch models, uses LLMs and Monte Carlo Tree Search to generate and optimize CUDA kernels. It supports vision, diffusion, and LLM workloads with a GUI for monitoring and debugging. On a GB10 GPU, it optimizes 14 kernels achieving 1.52x to 2.83x speedups over PyTorch eager mode.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "open-source",
+          "tool"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-29-rss-001",
+        "title": "Kernel Forge：基于LLM的CUDA内核生成与优化智能体框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.24762",
+        "language": "en",
+        "summary": "Kernel Forge 是一个开源端到端智能体框架，可直接接受未修改的PyTorch模型，利用LLM和蒙特卡洛树搜索（MCTS）自动生成并优化CUDA内核。支持视觉、扩散和LLM工作负载，提供图形界面监控调试。在GB10 GPU上优化14个内核，性能提升1.52倍至2.83倍。",
+        "summary_en": "Kernel Forge is an open-source end-to-end agent harness that accepts unmodified PyTorch models, uses LLMs and Monte Carlo Tree Search to generate and optimize CUDA kernels. It supports vision, diffusion, and LLM workloads with a GUI for monitoring and debugging. On a GB10 GPU, it optimizes 14 kernels achieving 1.52x to 2.83x speedups over PyTorch eager mode.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "open-source",
+          "tool"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-07-29T18:36:22.635182+08:00",
+        "updated_at": "2026-07-29T18:36:22.635186+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "CaRE Compute-aware Remasking Evaluation Protocol for Masked Diffusion Language Models",
+      "url": "https://arxiv.org/abs/2607.24763",
+      "description": "arXiv:2607.24763v1 Announce Type: new \nAbstract: Masked diffusion language models (MDLMs) are advancing rapidly, yet the evaluation standards needed to reliably interpret their progress have not kept pace. Despite MDLMs becoming competitive with autoregressive language models, seven recent remasking papers evaluate under incompatible settings, varying nominal step counts, metrics, and sampling temperatures without jointly controlling these factors, rendering their strategy rankings largely incomparable and leaving open whether reported gains reflect algorithmic improvements or evaluation artifacts. We present CaRE, a compute-aware evaluation framework that audits MDLM remasking strategies by standardizing actual number of function evaluations (NFE), enforcing multi-metric reporting, and explicitly controlling stochasticity. Applied to 7 remasking strategies across LLaDA-8B-Base and Dream-7B-Base at 4 stochasticity levels and 3 step budgets on OpenWebText and LM1B, CaRE reveals that: (i) temperature explains the majority of MAUVE variance, (ii) compute-matched comparisons reverse several published strategy rankings, and (iii) informed remasking and stochastic unmasking are in tension, with high-entropy remasking reducing MAUVE by 0.296 at 256 steps at unmask_temp=0.25 (p=0.020). A CaRE leaderboard covering 12 open-weight MDLMs (150M to 8B parameters) shows that this interaction direction holds across architectures and scales. These findings demonstrate that current MDLM evaluations can systematically conflate algorithmic improvements with hidden choices of compute and stochasticity. We release the evaluation protocol, implementation, and leaderboard to ensure future remasking claims are reproducible and comparable.",
+      "pub_date": "Wed, 29 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "CaRE：掩码扩散语言模型的计算感知重掩码评估协议",
+        "summary": "CaRE是一个计算感知的评估框架，用于审计掩码扩散语言模型（MDLM）的重掩码策略。它通过标准化实际函数评估次数、强制执行多指标报告并显式控制随机性，揭示了温度对MAUVE方差的主导作用、计算匹配比较会逆转已发表的策略排名，以及高熵重掩码会降低MAUVE。该框架确保未来重掩码声明的可重复性和可比性。",
+        "summary_en": "CaRE is a compute-aware evaluation framework that audits MDLM remasking strategies by standardizing NFE, enforcing multi-metric reporting, and controlling stochasticity. It reveals that temperature dominates MAUVE variance, compute-matched comparisons reverse published rankings, and high-entropy remasking reduces MAUVE. It ensures reproducible and comparable remasking claims.",
+        "tags": [
+          "research",
+          "evaluation",
+          "llm",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-29-rss-005",
+        "title": "CaRE：掩码扩散语言模型的计算感知重掩码评估协议",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.24763",
+        "language": "en",
+        "summary": "CaRE是一个计算感知的评估框架，用于审计掩码扩散语言模型（MDLM）的重掩码策略。它通过标准化实际函数评估次数、强制执行多指标报告并显式控制随机性，揭示了温度对MAUVE方差的主导作用、计算匹配比较会逆转已发表的策略排名，以及高熵重掩码会降低MAUVE。该框架确保未来重掩码声明的可重复性和可比性。",
+        "summary_en": "CaRE is a compute-aware evaluation framework that audits MDLM remasking strategies by standardizing NFE, enforcing multi-metric reporting, and controlling stochasticity. It reveals that temperature dominates MAUVE variance, compute-matched comparisons reverse published rankings, and high-entropy remasking reduces MAUVE. It ensures reproducible and comparable remasking claims.",
+        "tags": [
+          "research",
+          "evaluation",
+          "llm",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-07-29T18:36:22.635204+08:00",
+        "updated_at": "2026-07-29T18:36:22.635205+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "GrocLM: Grocery Category Recommendation in E-Commerce with Large Language Models",
+      "url": "https://arxiv.org/abs/2607.24764",
+      "description": "arXiv:2607.24764v1 Announce Type: new \nAbstract: The rapid growth of online grocery shopping requires recommendation systems that capture cyclical purchasing behavior and diverse user intents. Traditional item-level methods face scalability and accuracy challenges, motivating category-level recommendation as a more structured and practical alternative. We present GROCLM, a fine-tuned language model for grocery category recommendation in a real-world production environment. GROCLM employs a two-stage LoRA-based training strategy to encode cyclical purchasing patterns directly into model parameters, enabling more effective utilization of rebuying signals compared to prompt-based conditioning. To ensure valid and controllable outputs, we further introduce a trie-based constrained decoding mechanism over a predefined category space. Experiments on both proprietary production data and a public benchmark demonstrate that GROCLM consistently outperforms strong baselines. In a live production restocking task, GROCLM achieves a 7.5% relative improvement in cart-adds per impression, while maintaining efficient inference by generating all categories jointly. These results highlight the effectiveness and practicality of integrating large language models into structured recommendation systems.",
+      "pub_date": "Wed, 29 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "GrocLM：基于大语言模型的电商杂货品类推荐",
+        "summary": "GrocLM 是一种针对电商杂货品类推荐微调的语言模型，采用两阶段 LoRA 训练策略编码周期性购买模式，并通过基于 Trie 的约束解码确保输出有效。在真实生产环境中，相比基线模型，其每次展示的加购数相对提升 7.5%。",
+        "summary_en": "GrocLM is a fine-tuned language model for grocery category recommendation in e-commerce, using two-stage LoRA training to encode cyclical purchasing patterns and trie-based constrained decoding for valid outputs. It achieves a 7.5% relative improvement in cart-adds per impression in a live production restocking task.",
+        "tags": [
+          "llm",
+          "application",
+          "fine-tuning",
+          "recommendation"
+        ],
+        "category": "application",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-29-rss-007",
+        "title": "GrocLM：基于大语言模型的电商杂货品类推荐",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.24764",
+        "language": "en",
+        "summary": "GrocLM 是一种针对电商杂货品类推荐微调的语言模型，采用两阶段 LoRA 训练策略编码周期性购买模式，并通过基于 Trie 的约束解码确保输出有效。在真实生产环境中，相比基线模型，其每次展示的加购数相对提升 7.5%。",
+        "summary_en": "GrocLM is a fine-tuned language model for grocery category recommendation in e-commerce, using two-stage LoRA training to encode cyclical purchasing patterns and trie-based constrained decoding for valid outputs. It achieves a 7.5% relative improvement in cart-adds per impression in a live production restocking task.",
+        "tags": [
+          "llm",
+          "application",
+          "fine-tuning",
+          "recommendation"
+        ],
+        "category": "application",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-07-29T18:36:22.635211+08:00",
+        "updated_at": "2026-07-29T18:36:22.635213+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "TimeCapsule: Generative Hallucination as a Method for Historical Sensemaking",
+      "url": "https://arxiv.org/abs/2607.24750",
+      "description": "arXiv:2607.24750v1 Announce Type: new \nAbstract: Large Language Models (LLMs) are temporally overexposed: trained on vast contemporary corpora, they encode present-day concepts that make them unreliable narrators of the past. We present TimeCapsule, a 1.2B-parameter LLaMA-style causal model trained exclusively on Victorian texts (1800-1875) as an epistemologically isolated generative archive. Quantitative evaluation shows a 45.4% perplexity reduction over a GPT-2 baseline on held-out Victorian prose, while larger contemporary causal models achieve lower raw perplexity through broader pretraining but lack temporal isolation. TimeCapsule exhibits computational sensemaking, generating historically plausible analogical explanations for unfamiliar modern concepts (e.g., describing a computer as a \"hypertrophied lung\"). A qualitative hermeneutic probe with two humanities scholars revealed a crisis of authenticity, as both misclassified approximately 40% of genuine Victorian excerpts as machine-produced. We argue that structural ignorance of the future transforms hallucinations into interpretive probes of nineteenth-century ontologies.",
+      "pub_date": "Wed, 29 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "时间胶囊：将生成幻觉作为历史意义构建的方法",
+        "summary": "TimeCapsule是一个1.2B参数的LLaMA风格因果模型，仅在维多利亚时代文本上训练，实现历史隔离。相比GPT-2，困惑度降低45.4%。模型能生成历史合理的类比解释现代概念，但人文专家误判约40%真实文本为机器生成。",
+        "summary_en": "TimeCapsule is a 1.2B-parameter LLaMA-style causal model trained exclusively on Victorian texts, achieving 45.4% perplexity reduction over GPT-2. It generates historically plausible analogies for modern concepts, yet humanities scholars misclassified ~40% of genuine Victorian excerpts as machine-generated.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-29-rss-008",
+        "title": "时间胶囊：将生成幻觉作为历史意义构建的方法",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.24750",
+        "language": "en",
+        "summary": "TimeCapsule是一个1.2B参数的LLaMA风格因果模型，仅在维多利亚时代文本上训练，实现历史隔离。相比GPT-2，困惑度降低45.4%。模型能生成历史合理的类比解释现代概念，但人文专家误判约40%真实文本为机器生成。",
+        "summary_en": "TimeCapsule is a 1.2B-parameter LLaMA-style causal model trained exclusively on Victorian texts, achieving 45.4% perplexity reduction over GPT-2. It generates historically plausible analogies for modern concepts, yet humanities scholars misclassified ~40% of genuine Victorian excerpts as machine-generated.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-07-29T18:36:22.635216+08:00",
+        "updated_at": "2026-07-29T18:36:22.635217+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Measuring and Improving Behavioral Consistency in Large Language Models through Fact-Heuristic-Emotion State Enforcement",
+      "url": "https://arxiv.org/abs/2607.24765",
+      "description": "arXiv:2607.24765v1 Announce Type: new \nAbstract: Large language models (LLMs) can give different answers to the same decision problem across runs, and reverse a decision when their own prior answer returns as context. We ask whether this instability can be measured and partially reduced without changing model weights.\n  We test the Cognitive Kernel Model (CKM), a prompt-level state-enforcement layer. Before deciding, the model must separate its input into three epistemic roles: Fact (given or verifiable), Heuristic (inferred or assumed), and Emotion (evaluative or priority signal). CKM adds no capability; it forces the model to track what kind of information it uses before acting. Formally it maintains a structured state S_t = {F_t, H_t, E_t} updated by a transition function.\n  We evaluate CKM on Korean-language decision scenarios (ambiguity, ethical conflict, resource allocation, error handling) across 26 LLMs from four vendors and 37,403 observations, via four core experiments, a 4-arm ablation, a 5-arm sham-restriction ablation, and a temperature probe. Findings:\n  (1) CKM reduces repeated-output variability (random-effects Hedges' g=1.09, 95% CI [0.83, 1.35], 31 model pairs);\n  (2) state persistence cuts the decision-flip rate by 82% in newer models (g=1.52);\n  (3) the effect is not JSON formatting alone (value-only recomputation, g=2.24);\n  (4) intrinsic randomness under fixed anchor states is negligible;\n  (5) the advantage grows under sampling stochasticity (g=2.87 at temperature 0.7);\n  (6) a sham ablation attributes about 45% of the gain to structural scaffolding and 55% to Fact/Heuristic/Emotion content, and CKM is the only arm that both raises consistency and reduces flipping.\n  CKM does not improve reasoning correctness. The narrower result: behavioral consistency is measurable, varies across models, and is partially improvable by forcing models to separate facts, assumptions, and evaluative signals before deciding.",
+      "pub_date": "Wed, 29 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "通过事实-启发式-情感状态强制提升大语言模型行为一致性",
+        "summary": "提出认知内核模型(CKM)，在提示层强制LLM将输入分为事实、启发式和情感三类，以降低决策不一致性。在26个模型、37403次观察中，CKM将决策翻转率降低82%，且效果随采样随机性增大而增强。不提升推理正确性，但可测量并部分改善行为一致性。",
+        "summary_en": "Proposes Cognitive Kernel Model (CKM), a prompt-level state-enforcement layer that forces LLMs to separate input into Fact, Heuristic, and Emotion roles. Across 26 models and 37,403 observations, CKM reduces decision-flip rate by 82%, with effect growing under sampling stochasticity. Does not improve reasoning correctness but measurably improves behavioral consistency.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-29-rss-002",
+        "title": "通过事实-启发式-情感状态强制提升大语言模型行为一致性",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.24765",
+        "language": "en",
+        "summary": "提出认知内核模型(CKM)，在提示层强制LLM将输入分为事实、启发式和情感三类，以降低决策不一致性。在26个模型、37403次观察中，CKM将决策翻转率降低82%，且效果随采样随机性增大而增强。不提升推理正确性，但可测量并部分改善行为一致性。",
+        "summary_en": "Proposes Cognitive Kernel Model (CKM), a prompt-level state-enforcement layer that forces LLMs to separate input into Fact, Heuristic, and Emotion roles. Across 26 models and 37,403 observations, CKM reduces decision-flip rate by 82%, with effect growing under sampling stochasticity. Does not improve reasoning correctness but measurably improves behavioral consistency.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-07-29T18:36:22.635191+08:00",
+        "updated_at": "2026-07-29T18:36:22.635192+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Neuromorphic Diffusion Language Models: Addressing Compute and Memory Bottlenecks via Sparsity and Block Denoising",
+      "url": "https://arxiv.org/abs/2607.24841",
+      "description": "arXiv:2607.24841v1 Announce Type: new \nAbstract: Autoregressive (AR) large language models (LLMs) are inherently inefficient at inference time because each generated token requires accessing the full set of model parameters, leading to low operational intensity and high energy consumption. Masked diffusion language models (MDLMs) partially address this limitation for memory-bound settings by allowing multiple tokens to be generated per parameter access. In order to further enhance inference efficiency on modern platforms with extensive in-chip memory, this work proposes neuromorphic MDLMs (N-MDLMs), which integrate block diffusion with spike-based neuromorphic computation to jointly improve throughput and energy efficiency. While block diffusion increases token throughput by producing multiple tokens per parameter access, spike-induced sparsity reduces effective parameter traffic and computations by skipping inactive channels. To analyze the synergistic effect of sparsity and diffusion, we develop a token-level roofline-inspired model that captures the combined impact of block-parallel generation and spike sparsity on decoding efficiency. Experimental results on translation tasks show that, thanks to spike-induced sparsity, N-MDLMs achieve substantial improvements in energy efficiency and throughput even in compute-bound platforms for which MDLMs would fail to improve over AR-LLMs.",
+      "pub_date": "Wed, 29 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "神经形态扩散语言模型：通过稀疏性和块去噪解决计算与内存瓶颈",
+        "summary": "提出神经形态掩码扩散语言模型(N-MDLM)，结合块扩散与脉冲神经形态计算，利用脉冲诱导稀疏性减少参数访问和计算，提升吞吐量和能效。实验表明在计算受限平台上相比AR-LLM和MDLM有显著改进。",
+        "summary_en": "Proposes Neuromorphic MDLMs (N-MDLMs) integrating block diffusion with spike-based neuromorphic computation. Spike-induced sparsity reduces parameter traffic and computations, improving throughput and energy efficiency on compute-bound platforms over AR-LLMs and MDLMs.",
+        "tags": [
+          "llm",
+          "research",
+          "efficiency",
+          "sparsity"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-29-rss-009",
+        "title": "神经形态扩散语言模型：通过稀疏性和块去噪解决计算与内存瓶颈",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.24841",
+        "language": "en",
+        "summary": "提出神经形态掩码扩散语言模型(N-MDLM)，结合块扩散与脉冲神经形态计算，利用脉冲诱导稀疏性减少参数访问和计算，提升吞吐量和能效。实验表明在计算受限平台上相比AR-LLM和MDLM有显著改进。",
+        "summary_en": "Proposes Neuromorphic MDLMs (N-MDLMs) integrating block diffusion with spike-based neuromorphic computation. Spike-induced sparsity reduces parameter traffic and computations, improving throughput and energy efficiency on compute-bound platforms over AR-LLMs and MDLMs.",
+        "tags": [
+          "llm",
+          "research",
+          "efficiency",
+          "sparsity"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-07-29T18:36:22.635220+08:00",
+        "updated_at": "2026-07-29T18:36:22.635221+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Research Report on Noise-Shaped One-Bit Coefficients in Discrete Polynomial Fourier Extension",
+      "url": "https://arxiv.org/abs/2607.24868",
+      "description": "arXiv:2607.24868v1 Announce Type: new \nAbstract: This report studies noise-shaped one-bit coefficients in normalized discrete polynomial Fourier extension. For first-order Sigma-Delta quantization, the error is written as $e_k=u_k-q_k=\\Delta v_k$ with a uniformly bounded state. Discrete summation by parts then yields variation estimates for complex weights and an $O(N^{-1})$ approximation rate on compact parameter sets. For the parabolic phase $\\phi_{x,t}(\\xi)=x\\xi+t\\xi^2$, the bound is expressed through $J(x,t)=\\int_0^1 |x+2t\\xi|d\\xi$, and the uniform $N^{-1}$ rate is shown to be sharp over the admissible input class. Higher-order finite-record identities are derived with all endpoint traces retained. Under endpoint compatibility, or after explicit boundary correction, an $r$th-order noise-shaped error $e=\\Delta^r v$ gives $O(N^{-r})$ decay for sufficiently smooth weights and $O(N^{-(r-1+\\alpha)})$ decay for $C^{r-1,\\alpha}$ weights. Exact $L^2$ orthogonality identities, fourth-moment formulas, local kernel estimates, and oscillatory transfer bounds are also established. Extensions to polynomial phases, multidimensional parameter families, growing observation regions, and correlated state models are included.",
+      "pub_date": "Wed, 29 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "离散多项式傅里叶扩展中噪声整形一位系数的研究报告",
+        "summary": "该报告研究了归一化离散多项式傅里叶扩展中的噪声整形一位系数。针对一阶Sigma-Delta量化，推导了误差表达式，并证明了在紧参数集上O(N^{-1})的逼近率。对于更高阶噪声整形，建立了O(N^{-r})和O(N^{-(r-1+α)})的衰减率。还建立了精确L^2正交恒等式、四阶矩公式、局部核估计和振荡传递界。",
+        "summary_en": null,
+        "tags": [
+          "research",
+          "signal-processing",
+          "quantization"
+        ],
+        "category": "research",
+        "relevance_score": 0.3,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-29-rss-010",
+        "title": "离散多项式傅里叶扩展中噪声整形一位系数的研究报告",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.24868",
+        "language": "en",
+        "summary": "该报告研究了归一化离散多项式傅里叶扩展中的噪声整形一位系数。针对一阶Sigma-Delta量化，推导了误差表达式，并证明了在紧参数集上O(N^{-1})的逼近率。对于更高阶噪声整形，建立了O(N^{-r})和O(N^{-(r-1+α)})的衰减率。还建立了精确L^2正交恒等式、四阶矩公式、局部核估计和振荡传递界。",
+        "summary_en": null,
+        "tags": [
+          "research",
+          "signal-processing",
+          "quantization"
+        ],
+        "category": "research",
+        "relevance_score": 0.3,
+        "status": "published",
+        "created_at": "2026-07-29T18:36:22.635224+08:00",
+        "updated_at": "2026-07-29T18:36:22.635226+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "CogArena: A Multimethod Evaluation of Cognitive Ability Structure in Large Language Models",
+      "url": "https://arxiv.org/abs/2607.24999",
+      "description": "arXiv:2607.24999v1 Announce Type: new \nAbstract: LLM cognitive scores are increasingly summarized as per-ability profiles whose dimensions should converge across tasks, respond selectively to matched interventions, and generalize beyond the models used to define them. We introduce CogArena, a procedurally generated 13-paradigm benchmark built around a multimethod framework for determining when cognitive-task scores warrant dimensional labels across five theory-motivated groupings. Across 55 open-weight models, nearly all paradigm correlations are positive and a common axis explains about half the variance. The within-grouping advantage is small, scoring-sensitive, and uncertain across model families. In a separately frozen, fully crossed study across 12 models from six families, targeted scaffolds show a small matched-grouping advantage, but no scaffold-specific contrast survives multiplicity correction and selectivity does not improve held-out-family prediction. The frozen confirmation criterion fails. A post-hoc alternate-wording replication produces a smaller positive estimate and again fails. Together, these results support a boundary conclusion. Theory-aligned prompting produces a small in-battery diagonal tendency, but the present evidence does not establish stable five-dimensional profiles. CogArena provides a workflow joining behavioral signatures, covariance, matched interventions, and out-of-family prediction before cognitive labels are attached to model scores.",
+      "pub_date": "Wed, 29 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "CogArena：大语言模型认知能力结构的多方法评估",
+        "summary": "CogArena是一个程序化生成的13范式基准测试，采用多方法框架评估LLM认知分数何时能赋予维度标签。对55个开放权重模型的研究发现，几乎所有范式间相关性为正，共同轴解释约一半方差。分组内优势较小且不确定，针对性提示仅产生微小优势，未能通过多重比较校正和跨族外推验证。结论是当前证据不足以建立稳定的五维认知轮廓。",
+        "summary_en": "CogArena is a procedurally generated 13-paradigm benchmark using a multimethod framework to determine when LLM cognitive scores warrant dimensional labels. Across 55 open-weight models, nearly all paradigm correlations are positive, with a common axis explaining about half the variance. Within-grouping advantage is small and uncertain; targeted scaffolds show minimal advantage, failing multiplicity correction and cross-family prediction. The evidence does not support stable five-dimensional profiles.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "evaluation",
+          "research"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-29-rss-006",
+        "title": "CogArena：大语言模型认知能力结构的多方法评估",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.24999",
+        "language": "en",
+        "summary": "CogArena是一个程序化生成的13范式基准测试，采用多方法框架评估LLM认知分数何时能赋予维度标签。对55个开放权重模型的研究发现，几乎所有范式间相关性为正，共同轴解释约一半方差。分组内优势较小且不确定，针对性提示仅产生微小优势，未能通过多重比较校正和跨族外推验证。结论是当前证据不足以建立稳定的五维认知轮廓。",
+        "summary_en": "CogArena is a procedurally generated 13-paradigm benchmark using a multimethod framework to determine when LLM cognitive scores warrant dimensional labels. Across 55 open-weight models, nearly all paradigm correlations are positive, with a common axis explaining about half the variance. Within-grouping advantage is small and uncertain; targeted scaffolds show minimal advantage, failing multiplicity correction and cross-family prediction. The evidence does not support stable five-dimensional profiles.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "evaluation",
+          "research"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-07-29T18:36:22.635208+08:00",
+        "updated_at": "2026-07-29T18:36:22.635209+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

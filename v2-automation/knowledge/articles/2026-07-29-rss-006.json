@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-29-rss-006",
+  "title": "CogArena：大语言模型认知能力结构的多方法评估",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.24999",
+  "language": "en",
+  "summary": "CogArena是一个程序化生成的13范式基准测试，采用多方法框架评估LLM认知分数何时能赋予维度标签。对55个开放权重模型的研究发现，几乎所有范式间相关性为正，共同轴解释约一半方差。分组内优势较小且不确定，针对性提示仅产生微小优势，未能通过多重比较校正和跨族外推验证。结论是当前证据不足以建立稳定的五维认知轮廓。",
+  "summary_en": "CogArena is a procedurally generated 13-paradigm benchmark using a multimethod framework to determine when LLM cognitive scores warrant dimensional labels. Across 55 open-weight models, nearly all paradigm correlations are positive, with a common axis explaining about half the variance. Within-grouping advantage is small and uncertain; targeted scaffolds show minimal advantage, failing multiplicity correction and cross-family prediction. The evidence does not support stable five-dimensional profiles.",
+  "tags": [
+    "llm",
+    "benchmark",
+    "evaluation",
+    "research"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-07-29T18:36:22.635208+08:00",
+  "updated_at": "2026-07-29T18:36:22.635209+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

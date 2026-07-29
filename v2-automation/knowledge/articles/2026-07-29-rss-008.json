@@ -1,0 +1,24 @@
+{
+  "id": "2026-07-29-rss-008",
+  "title": "时间胶囊：将生成幻觉作为历史意义构建的方法",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.24750",
+  "language": "en",
+  "summary": "TimeCapsule是一个1.2B参数的LLaMA风格因果模型，仅在维多利亚时代文本上训练，实现历史隔离。相比GPT-2，困惑度降低45.4%。模型能生成历史合理的类比解释现代概念，但人文专家误判约40%真实文本为机器生成。",
+  "summary_en": "TimeCapsule is a 1.2B-parameter LLaMA-style causal model trained exclusively on Victorian texts, achieving 45.4% perplexity reduction over GPT-2. It generates historically plausible analogies for modern concepts, yet humanities scholars misclassified ~40% of genuine Victorian excerpts as machine-generated.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-07-29T18:36:22.635216+08:00",
+  "updated_at": "2026-07-29T18:36:22.635217+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

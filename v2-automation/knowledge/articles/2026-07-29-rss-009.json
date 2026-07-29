@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-29-rss-009",
+  "title": "神经形态扩散语言模型：通过稀疏性和块去噪解决计算与内存瓶颈",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.24841",
+  "language": "en",
+  "summary": "提出神经形态掩码扩散语言模型(N-MDLM)，结合块扩散与脉冲神经形态计算，利用脉冲诱导稀疏性减少参数访问和计算，提升吞吐量和能效。实验表明在计算受限平台上相比AR-LLM和MDLM有显著改进。",
+  "summary_en": "Proposes Neuromorphic MDLMs (N-MDLMs) integrating block diffusion with spike-based neuromorphic computation. Spike-induced sparsity reduces parameter traffic and computations, improving throughput and energy efficiency on compute-bound platforms over AR-LLMs and MDLMs.",
+  "tags": [
+    "llm",
+    "research",
+    "efficiency",
+    "sparsity"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-07-29T18:36:22.635220+08:00",
+  "updated_at": "2026-07-29T18:36:22.635221+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

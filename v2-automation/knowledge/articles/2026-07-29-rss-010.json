@@ -1,0 +1,24 @@
+{
+  "id": "2026-07-29-rss-010",
+  "title": "离散多项式傅里叶扩展中噪声整形一位系数的研究报告",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.24868",
+  "language": "en",
+  "summary": "该报告研究了归一化离散多项式傅里叶扩展中的噪声整形一位系数。针对一阶Sigma-Delta量化，推导了误差表达式，并证明了在紧参数集上O(N^{-1})的逼近率。对于更高阶噪声整形，建立了O(N^{-r})和O(N^{-(r-1+α)})的衰减率。还建立了精确L^2正交恒等式、四阶矩公式、局部核估计和振荡传递界。",
+  "summary_en": null,
+  "tags": [
+    "research",
+    "signal-processing",
+    "quantization"
+  ],
+  "category": "research",
+  "relevance_score": 0.3,
+  "status": "published",
+  "created_at": "2026-07-29T18:36:22.635224+08:00",
+  "updated_at": "2026-07-29T18:36:22.635226+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

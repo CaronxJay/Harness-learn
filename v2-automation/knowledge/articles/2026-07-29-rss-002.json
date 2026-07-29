@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-29-rss-002",
+  "title": "通过事实-启发式-情感状态强制提升大语言模型行为一致性",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.24765",
+  "language": "en",
+  "summary": "提出认知内核模型(CKM)，在提示层强制LLM将输入分为事实、启发式和情感三类，以降低决策不一致性。在26个模型、37403次观察中，CKM将决策翻转率降低82%，且效果随采样随机性增大而增强。不提升推理正确性，但可测量并部分改善行为一致性。",
+  "summary_en": "Proposes Cognitive Kernel Model (CKM), a prompt-level state-enforcement layer that forces LLMs to separate input into Fact, Heuristic, and Emotion roles. Across 26 models and 37,403 observations, CKM reduces decision-flip rate by 82%, with effect growing under sampling stochasticity. Does not improve reasoning correctness but measurably improves behavioral consistency.",
+  "tags": [
+    "llm",
+    "research",
+    "benchmark",
+    "prompt-engineering"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-07-29T18:36:22.635191+08:00",
+  "updated_at": "2026-07-29T18:36:22.635192+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
