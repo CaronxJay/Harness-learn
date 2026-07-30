@@ -1,0 +1,26 @@
+{
+  "id": "2026-07-30-rss-005",
+  "title": "基于客户数字孪生模拟的大规模聊天机器人验证",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.26060",
+  "language": "en",
+  "summary": "提出通过真实交易和对话数据创建高保真合成客户代理（SCA）作为数字孪生的方法，结合LLM-as-a-Judge评估、专家测试和对抗性探测，实现大规模聊天机器人验证。在英国领先银行的应用表明，该方法在语义对齐、低幻觉率和可控干预方面表现优异，为受监管领域的合规部署提供了可扩展路径。",
+  "summary_en": "Introduces a methodology for creating high-fidelity synthetic customer agents (SCAs) as digital twins grounded in real data, combined with LLM-as-a-Judge evaluation, expert testing, and adversarial probing for large-scale chatbot validation. Applied at a leading UK bank, it demonstrates strong semantic alignment, low hallucination, and controllable interventions, offering a scalable path to regulatory compliance.",
+  "tags": [
+    "llm",
+    "application",
+    "benchmark",
+    "evaluation",
+    "security"
+  ],
+  "category": "application",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-07-30T18:22:44.208096+08:00",
+  "updated_at": "2026-07-30T18:22:44.208098+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

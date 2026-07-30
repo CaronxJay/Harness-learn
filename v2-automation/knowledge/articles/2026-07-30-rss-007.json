@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-30-rss-007",
+  "title": "DuplexGen：自适应合成人机轮换对话",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.26178",
+  "language": "en",
+  "summary": "DuplexGen是一个通过校准LLM预测与少量人类偏好标注来生成场景自适应轮换对话的框架。在六项合作与竞争任务中，它比未校准提示或通用人类数据训练更符合人类偏好，证明人类校准是实现场景特定轮换合成的关键。",
+  "summary_en": "DuplexGen is a framework for generating scenario-adaptive turn-taking dialogues by calibrating LLM predictions against a small set of human preference annotations. In six cooperative and competitive tasks, it aligns more closely with human preferences than uncalibrated prompting or generic human-human data, showing that human calibration is key to scenario-specific turn-taking synthesis.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-07-30T18:22:44.208105+08:00",
+  "updated_at": "2026-07-30T18:22:44.208106+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-30-rss-009",
+  "title": "内容审核中的过滤位置与响应重写权衡",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.26200",
+  "language": "en",
+  "summary": "研究评估了内容审核中不同过滤位置（输入、输出、输入+输出）和响应重写的端到端效果。使用有用性和有害暴露两个客户结果指标，而非组件准确率。结果表明输出过滤在仅过滤场景下有用性最高，输入+输出有害暴露最低；重写可恢复大部分被阻断流量。探针路由相比LLM路由大幅降低延迟。",
+  "summary_en": "Evaluates end-to-end trade-offs in content moderation filter placement (input, response, input+response) and response rewriting using usefulness and harmful exposure metrics. Response-only achieves highest filter-only usefulness, input+response lowest harmful exposure. Rewriting recovers most blocked traffic. Probe routing reduces latency vs LLM routing.",
+  "tags": [
+    "application",
+    "security",
+    "benchmark",
+    "research"
+  ],
+  "category": "application",
+  "relevance_score": 0.8,
+  "status": "published",
+  "created_at": "2026-07-30T18:22:44.208113+08:00",
+  "updated_at": "2026-07-30T18:22:44.208115+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

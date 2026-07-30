@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-30-rss-010",
+  "title": "AI生成诗歌的人类相似度特征：零样本分类研究",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.26221",
+  "language": "en",
+  "summary": "该研究提出零样本检测流程，分析人类与AI诗歌的可区分性，提取关键属性以改进分类，减少训练需求，并增强现代检测管道。",
+  "summary_en": "This study proposes a zero-shot detection pipeline to analyze the distinguishability of human and AI poetry, extract key attributes for accurate classification, reduce training needs, and strengthen modern detection pipelines.",
+  "tags": [
+    "llm",
+    "research",
+    "benchmark",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.8,
+  "status": "published",
+  "created_at": "2026-07-30T18:22:44.208117+08:00",
+  "updated_at": "2026-07-30T18:22:44.208119+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

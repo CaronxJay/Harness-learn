@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-30-rss-004",
+  "title": "CaRE：掩码扩散语言模型的计算感知重掩码评估协议",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.24763",
+  "language": "en",
+  "summary": "CaRE是一个计算感知评估框架，通过标准化实际函数评估次数、强制多指标报告并显式控制随机性，审计掩码扩散语言模型的重掩码策略。应用于7种策略后发现：温度解释大部分MAUVE方差；计算匹配比较逆转了多个已发表策略排名；高熵重掩码在特定条件下显著降低MAUVE。该框架确保未来重掩码声明可复现和可比较。",
+  "summary_en": "CaRE is a compute-aware evaluation framework that audits MDLM remasking strategies by standardizing actual NFE, enforcing multi-metric reporting, and explicitly controlling stochasticity. Applied to 7 strategies, it reveals that temperature explains most MAUVE variance, compute-matched comparisons reverse several published rankings, and high-entropy remasking reduces MAUVE significantly. The framework ensures future remasking claims are reproducible and comparable.",
+  "tags": [
+    "research",
+    "evaluation",
+    "llm",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-07-30T18:22:44.208092+08:00",
+  "updated_at": "2026-07-30T18:22:44.208094+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

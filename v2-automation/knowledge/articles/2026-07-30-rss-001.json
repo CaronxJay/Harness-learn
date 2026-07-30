@@ -1,0 +1,26 @@
+{
+  "id": "2026-07-30-rss-001",
+  "title": "Kernel Forge：基于LLM的CUDA内核生成与优化智能体框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.24762",
+  "language": "en",
+  "summary": "Kernel Forge是一个开源端到端智能体框架，可直接接受未修改的PyTorch模型，利用蒙特卡洛树搜索探索多条优化路径，支持视觉、扩散和LLM工作负载，并提供图形界面监控和调试。在NVIDIA DGX Spark上对四个模型进行测试，优化14个内核，性能提升达1.52倍至2.83倍。",
+  "summary_en": "Kernel Forge is an open-source end-to-end agentic harness that accepts unmodified PyTorch models, uses Monte Carlo Tree Search to explore multiple optimization paths, supports vision, diffusion, and LLM workloads, and provides a GUI for monitoring and debugging. Evaluated on four PyTorch models, it optimizes 14 kernels achieving 1.52x to 2.83x speedups over PyTorch eager mode.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "research",
+    "open-source",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-07-30T18:22:44.208073+08:00",
+  "updated_at": "2026-07-30T18:22:44.208078+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

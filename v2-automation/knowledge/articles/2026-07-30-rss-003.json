@@ -1,0 +1,26 @@
+{
+  "id": "2026-07-30-rss-003",
+  "title": "超越记忆：基于模板的异构协作知识工作与LLM智能体",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.24759",
+  "language": "en",
+  "summary": "本文提出llm-wiki-memory-template，一种可复用的、智能体感知的模板，通过LLM维护的互连维基解决知识工作中失败路径丢失和负面结果缺失问题。支持多人类、多AI智能体、多领域协作，三个案例研究验证其有效性。",
+  "summary_en": "This paper presents llm-wiki-memory-template, a reusable agent-aware template that addresses failure-path loss and negative-result loss in knowledge work via an LLM-maintained interlinked wiki. It supports multi-human, multi-AI-agent, multi-domain collaboration, validated by three case studies.",
+  "tags": [
+    "llm",
+    "research",
+    "agent-framework",
+    "rag",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-07-30T18:22:44.208088+08:00",
+  "updated_at": "2026-07-30T18:22:44.208090+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

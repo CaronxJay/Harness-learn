@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-30-rss-008",
+  "title": "GrocLM：基于大语言模型的电商杂货品类推荐",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.24764",
+  "language": "en",
+  "summary": "GrocLM 是一个针对电商杂货品类推荐微调的语言模型。它采用两阶段 LoRA 训练策略编码周期性购买模式，并引入基于前缀树的约束解码机制以确保输出有效。在真实生产环境中，其购物车添加率相对提升 7.5%，展示了 LLM 在结构化推荐系统中的实用性和有效性。",
+  "summary_en": "GROCLM is a fine-tuned language model for grocery category recommendation. It uses a two-stage LoRA training strategy to encode cyclical purchasing patterns and a trie-based constrained decoding mechanism. In a live production restocking task, it achieves a 7.5% relative improvement in cart-adds per impression, demonstrating the effectiveness of LLMs in structured recommendation systems.",
+  "tags": [
+    "llm",
+    "application",
+    "fine-tuning",
+    "recommendation"
+  ],
+  "category": "application",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-07-30T18:22:44.208109+08:00",
+  "updated_at": "2026-07-30T18:22:44.208111+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
