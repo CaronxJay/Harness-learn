@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-31-rss-003",
+  "title": "ClinLens：面向纵向多模态临床数据科学的长期编码智能体基准",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.26155",
+  "language": "en",
+  "summary": "ClinLens是一个包含200个可执行任务的基准，覆盖结构化电子病历、笔记、心电图、胸片和超声心动图等五种MIMIC资源。采用4x5分类法，通过程序优先反向合成生成评估器私有参考工作流。最强配置在126个任务上达到56.3%的STRICTPASS，而现有生物医学系统仅达2.9%，揭示了可运行提交与正确临床分析之间的巨大差距。",
+  "summary_en": "ClinLens is a benchmark of 200 executable tasks over five linked MIMIC resources, using a 4x5 taxonomy and program-first reverse synthesis. The best configuration achieves 56.3% STRICTPASS on 126 tasks, while existing biomedical systems reach at most 2.9%, exposing a gap between runnable submissions and correct clinical analyses.",
+  "tags": [
+    "benchmark",
+    "agent-framework",
+    "multimodal",
+    "research"
+  ],
+  "category": "benchmark",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-07-31T18:36:35.158607+08:00",
+  "updated_at": "2026-07-31T18:36:35.158609+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

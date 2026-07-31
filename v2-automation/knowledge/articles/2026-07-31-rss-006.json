@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-31-rss-006",
+  "title": "BridgeAlign：面向人文社科领域的偏好对齐新方法",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.27366",
+  "language": "en",
+  "summary": "BridgeAlign是首个面向广泛人文社科（HSS）领域的偏好对齐流水线，包含种子策展、偏好数据合成和偏好优化三个阶段。通过基于质量评分标准的偏好对齐和过渡性响应生成，BridgeAlign使Qwen3-8B在17个基准测试中平均表现最佳，同时兼顾人类偏好和知识能力，无权衡取舍。",
+  "summary_en": "BridgeAlign is among the first preference-alignment pipelines for broad humanities and social sciences (HSS), featuring seed curation, preference data synthesis, and preference optimization. By grounding preferences in HSS quality rubrics and generating transitional responses, it enables Qwen3-8B to achieve the best average across 17 benchmarks against 11 baselines, leading on both human-preference and knowledge capabilities without trade-offs.",
+  "tags": [
+    "llm",
+    "fine-tuning",
+    "research",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-07-31T18:36:35.158629+08:00",
+  "updated_at": "2026-07-31T18:36:35.158632+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

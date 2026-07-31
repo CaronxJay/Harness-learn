@@ -1,0 +1,26 @@
+{
+  "id": "2026-07-31-github-003",
+  "title": "AI学习路线图：从零到精通",
+  "source": "github_trending",
+  "source_url": "https://github.com/emirkrgl/AI_Roadmap",
+  "language": "en",
+  "summary": "免费、结构化的AI/ML学习路线图，涵盖数学、机器学习、深度学习、LLM、RAG、智能体和AI安全，全部使用免费资源，注重概念解释。",
+  "summary_en": "A free, structured, explanation-first roadmap to learn AI/ML from zero, covering math, ML, DL, LLMs, RAG, agents, and AI security, using 100% free resources.",
+  "tags": [
+    "llm",
+    "rag",
+    "fine-tuning",
+    "research",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-07-31T18:36:35.157141+08:00",
+  "updated_at": "2026-07-31T18:36:35.157143+08:00",
+  "metadata": {
+    "stars": 2,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

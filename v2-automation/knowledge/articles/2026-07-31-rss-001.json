@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-31-rss-001",
+  "title": "探究推理性能的起源：RL与SFT微调模型在数学问题求解中的表征质量",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.26119",
+  "language": "en",
+  "summary": "该研究通过线性探针和均值消融实验，发现强化学习（RL）训练的推理模型比监督微调（SFT）模型具有更线性可分的隐藏状态表征，且深层网络结构更关键。RL训练从根本上重构了模型对推理问题的表征和处理方式。",
+  "summary_en": "This study reveals that RL-trained reasoning models exhibit more linearly separable hidden states and a hierarchical architecture with critical deeper layers compared to SFT models, fundamentally restructuring problem representation.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-07-31T18:36:35.158586+08:00",
+  "updated_at": "2026-07-31T18:36:35.158592+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

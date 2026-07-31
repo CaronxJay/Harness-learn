@@ -1,0 +1,26 @@
+{
+  "id": "2026-07-31-rss-002",
+  "title": "更多欺骗：混合动机LLM多智能体系统中的目标错位",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.26120",
+  "language": "en",
+  "summary": "本文提出一个框架，通过狼人杀游戏评估LLM多智能体系统中的目标错位。修改单个智能体的目标而保留角色，分析内部推理和公开廉价谈话。结果显示目标错位破坏集体决策，尤其在信息不对称和专门角色下，且内部策略变化在公开行为中不可见。",
+  "summary_en": "This paper proposes a framework to evaluate objective misalignment in LLM multi-agent systems using the Werewolf game. By modifying a single agent's objective while preserving its role, they analyze internal reasoning and public cheap-talk. Results show misalignment undermines collective outcomes, especially under asymmetric information, and internal adaptations are invisible in public behavior.",
+  "tags": [
+    "llm",
+    "multi-agent",
+    "research",
+    "evaluation",
+    "security"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-07-31T18:36:35.158598+08:00",
+  "updated_at": "2026-07-31T18:36:35.158601+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

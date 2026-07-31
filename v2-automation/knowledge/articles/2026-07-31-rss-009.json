@@ -1,0 +1,26 @@
+{
+  "id": "2026-07-31-rss-009",
+  "title": "AI辅助开源软件投稿预审：来自BOSC 2026的经验报告",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.27228",
+  "language": "en",
+  "summary": "本文报告了在BOSC 2026会议上使用生成式AI辅助预审开源软件投稿的经验。他们构建了bosc-pre-review智能体技能和Runabilly工具，在Docker容器中安全构建测试项目，为审稿人提供证据。调查显示多数审稿人认为有用，但更倾向于自行核实AI结论。",
+  "summary_en": "This paper reports an experience using generative AI to pre-review open-source software submissions at BOSC 2026. They built an agentic skill and a Docker-based tool to gather evidence for reviewers. Survey showed reviewers found it useful but preferred to verify AI conclusions themselves.",
+  "tags": [
+    "agent-framework",
+    "application",
+    "open-source",
+    "tool",
+    "evaluation"
+  ],
+  "category": "application",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-07-31T18:36:35.158652+08:00",
+  "updated_at": "2026-07-31T18:36:35.158654+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

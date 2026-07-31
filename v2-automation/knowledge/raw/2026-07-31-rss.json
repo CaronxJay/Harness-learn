@@ -1,0 +1,457 @@
+{
+  "collected_at": "2026-07-31T18:36:35.159492+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "Probing the Origins of Reasoning Performance: Representational Quality for Mathematical Problem-Solving in RL vs. SFT Fine-Tuned Models",
+      "url": "https://arxiv.org/abs/2607.26119",
+      "description": "arXiv:2607.26119v1 Announce Type: new \nAbstract: Large reasoning models trained via reinforcement learning (RL) have been increasingly shown to outperform their supervised fine-tuned (SFT) counterparts on mathematical reasoning tasks; Yet the mechanistic basis for this advantage remains unclear. We therefore ask, what internal representational differences enable RL models' superior performance? Our work presents two converging lines of evidence: First, linear probes trained on layer-wise hidden states reveal that RL models tend to achieve higher accuracy in predicting answer correctness compared to SFT models, indicating more linearly separable and structured representations. Second, mean ablation studies show that RL models develop a hierarchical architecture where deeper layers become progressively more critical, whereas SFT models distribute importance uniformly across layers. Together, these findings demonstrate that RL training fundamentally restructures how models represent and process reasoning problems. Finally, we analyze token-count variability under repeated sampling across problems to assess adaptive compute allocation. While we observe higher variability in some RL-tuned models than in their SFT counterparts, we see strong consistency in others, suggesting that token allocation may depend more on the overall training pipeline than on RL versus SFT alone. We believe this token-allocation variability reveals the spread of plausible on-policy reasoning, highlighting which models exhibit stable policies versus those that are under-determined, potentially non-identifiable solution behaviour.",
+      "pub_date": "Fri, 31 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "探究推理性能的起源：RL与SFT微调模型在数学问题求解中的表征质量",
+        "summary": "该研究通过线性探针和均值消融实验，发现强化学习（RL）训练的推理模型比监督微调（SFT）模型具有更线性可分的隐藏状态表征，且深层网络结构更关键。RL训练从根本上重构了模型对推理问题的表征和处理方式。",
+        "summary_en": "This study reveals that RL-trained reasoning models exhibit more linearly separable hidden states and a hierarchical architecture with critical deeper layers compared to SFT models, fundamentally restructuring problem representation.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-31-rss-001",
+        "title": "探究推理性能的起源：RL与SFT微调模型在数学问题求解中的表征质量",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.26119",
+        "language": "en",
+        "summary": "该研究通过线性探针和均值消融实验，发现强化学习（RL）训练的推理模型比监督微调（SFT）模型具有更线性可分的隐藏状态表征，且深层网络结构更关键。RL训练从根本上重构了模型对推理问题的表征和处理方式。",
+        "summary_en": "This study reveals that RL-trained reasoning models exhibit more linearly separable hidden states and a hierarchical architecture with critical deeper layers compared to SFT models, fundamentally restructuring problem representation.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-07-31T18:36:35.158586+08:00",
+        "updated_at": "2026-07-31T18:36:35.158592+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Even More Deception: Objective Misalignment in Mixed-Motive LLM Multi-Agent Systems",
+      "url": "https://arxiv.org/abs/2607.26120",
+      "description": "arXiv:2607.26120v1 Announce Type: new \nAbstract: Large Language Models (LLMs)-powered multi-agent systems are increasingly deployed in mixed-motive environments, where agents operate under asymmetric information and strategic deception due to conflicting or hidden objectives. In these settings, misalignment with collective goals becomes a central concern. We propose a novel framework for evaluating objective misalignment using the social deduction game Werewolf, modifying the objective of a single agent while preserving its assigned role. Across LLMs from four different model families and sizes, four player roles, and three objective formulations, we introduce a dual analysis of the agents' internal reasoning and their public cheap-talk behavior (i.e costless, non-binding communication that does not directly affect the agents' utilities), complemented by an analysis of game outcomes. Our results show that objective misalignment undermines outcomes in inherently adversarial environments, an effect exacerbated by asymmetric information and specialized roles. While compromised agents consistently develop distinct objective-dependent reasoning strategies, these adaptations remain largely invisible in their public behavior. More broadly, our findings suggest that even subtle objective misalignment can profoundly affect collective decision-making, highlighting the need for effective mitigation strategies for LLM-based multi-agent systems.",
+      "pub_date": "Fri, 31 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "更多欺骗：混合动机LLM多智能体系统中的目标错位",
+        "summary": "本文提出一个框架，通过狼人杀游戏评估LLM多智能体系统中的目标错位。修改单个智能体的目标而保留角色，分析内部推理和公开廉价谈话。结果显示目标错位破坏集体决策，尤其在信息不对称和专门角色下，且内部策略变化在公开行为中不可见。",
+        "summary_en": "This paper proposes a framework to evaluate objective misalignment in LLM multi-agent systems using the Werewolf game. By modifying a single agent's objective while preserving its role, they analyze internal reasoning and public cheap-talk. Results show misalignment undermines collective outcomes, especially under asymmetric information, and internal adaptations are invisible in public behavior.",
+        "tags": [
+          "llm",
+          "multi-agent",
+          "research",
+          "evaluation",
+          "security"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-31-rss-002",
+        "title": "更多欺骗：混合动机LLM多智能体系统中的目标错位",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.26120",
+        "language": "en",
+        "summary": "本文提出一个框架，通过狼人杀游戏评估LLM多智能体系统中的目标错位。修改单个智能体的目标而保留角色，分析内部推理和公开廉价谈话。结果显示目标错位破坏集体决策，尤其在信息不对称和专门角色下，且内部策略变化在公开行为中不可见。",
+        "summary_en": "This paper proposes a framework to evaluate objective misalignment in LLM multi-agent systems using the Werewolf game. By modifying a single agent's objective while preserving its role, they analyze internal reasoning and public cheap-talk. Results show misalignment undermines collective outcomes, especially under asymmetric information, and internal adaptations are invisible in public behavior.",
+        "tags": [
+          "llm",
+          "multi-agent",
+          "research",
+          "evaluation",
+          "security"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-07-31T18:36:35.158598+08:00",
+        "updated_at": "2026-07-31T18:36:35.158601+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "ClinLens: Towards Long-Horizon Coding Agents for Longitudinal Multimodal Clinical Data Science",
+      "url": "https://arxiv.org/abs/2607.26155",
+      "description": "arXiv:2607.26155v1 Announce Type: new \nAbstract: Clinical data-science agents must transform heterogeneous longitudinal records into auditable analyses, yet existing benchmarks largely isolate medical question answering, structured-table reasoning, or generic scientific repositories. We introduce CLINLENS, a benchmark of 200 executable tasks over five linked MIMIC resources spanning structured electronic health records, notes, electrocardiograms, chest radiographs, and echocardiograms. A 4 x 5 taxonomy crosses four patient-time scopes with five analysis capabilities. Program-first reverse synthesis pairs each bounded semi-raw package with an evaluator-private reference workflow and checks required artifacts, cohort and temporal semantics, and the final answer. On a fixed 126-task suite, the strongest of 24 standardized model-scaffold configurations achieves 56.3% scope-macro STRICTPASS despite 100% EXECSUCCESS. For reference, a separately configured coding agent solves 83 of 126 tasks, while five biomedical systems adapted to GPT-4o-mini reach at most 2.9% scope-macro STRICTPASS. These results expose a substantial gap between runnable submissions and correct clinical analyses.",
+      "pub_date": "Fri, 31 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "ClinLens：面向纵向多模态临床数据科学的长期编码智能体基准",
+        "summary": "ClinLens是一个包含200个可执行任务的基准，覆盖结构化电子病历、笔记、心电图、胸片和超声心动图等五种MIMIC资源。采用4x5分类法，通过程序优先反向合成生成评估器私有参考工作流。最强配置在126个任务上达到56.3%的STRICTPASS，而现有生物医学系统仅达2.9%，揭示了可运行提交与正确临床分析之间的巨大差距。",
+        "summary_en": "ClinLens is a benchmark of 200 executable tasks over five linked MIMIC resources, using a 4x5 taxonomy and program-first reverse synthesis. The best configuration achieves 56.3% STRICTPASS on 126 tasks, while existing biomedical systems reach at most 2.9%, exposing a gap between runnable submissions and correct clinical analyses.",
+        "tags": [
+          "benchmark",
+          "agent-framework",
+          "multimodal",
+          "research"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-31-rss-003",
+        "title": "ClinLens：面向纵向多模态临床数据科学的长期编码智能体基准",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.26155",
+        "language": "en",
+        "summary": "ClinLens是一个包含200个可执行任务的基准，覆盖结构化电子病历、笔记、心电图、胸片和超声心动图等五种MIMIC资源。采用4x5分类法，通过程序优先反向合成生成评估器私有参考工作流。最强配置在126个任务上达到56.3%的STRICTPASS，而现有生物医学系统仅达2.9%，揭示了可运行提交与正确临床分析之间的巨大差距。",
+        "summary_en": "ClinLens is a benchmark of 200 executable tasks over five linked MIMIC resources, using a 4x5 taxonomy and program-first reverse synthesis. The best configuration achieves 56.3% STRICTPASS on 126 tasks, while existing biomedical systems reach at most 2.9%, exposing a gap between runnable submissions and correct clinical analyses.",
+        "tags": [
+          "benchmark",
+          "agent-framework",
+          "multimodal",
+          "research"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-07-31T18:36:35.158607+08:00",
+        "updated_at": "2026-07-31T18:36:35.158609+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "When benchmark inferences do not compose: Projectibility in AI evaluation",
+      "url": "https://arxiv.org/abs/2607.26159",
+      "description": "arXiv:2607.26159v1 Announce Type: new \nAbstract: An AI benchmark result rarely reaches a consequential claim in one step. Evaluators generalize it to further cases, interpret it as evidence of capability, extrapolate it to new tasks, transport it to another system or site, and combine it with assumptions about human review and downstream consequences. Validity-centred approaches require evidence for each claim. This paper identifies a further epistemic problem: warranted links don't automatically make a warranted chain. The target of one study may not be the source of the next; system, population, outcome, or conditions may change at the interface; and shared data or model lineage may make apparently independent support dependent. Projectibility concerns whether a bounded extension from observed to unobserved cases is warranted. Goodman supplies the problem of rival extensions; argument-based validity supplies an architecture for testing them. The paper's distinctive claim is a non-composition principle: support for adjacent projections warrants their composition only when endpoints and assumptions align and dependence and uncertainty are carried through. A legal-research case shows how benchmark evidence and a deployment study can each be sound while remaining parallel. A reanalysis and simulation show why aggregate stability can erase distinctions a later projection requires. The resulting projectibility audit diagnoses unsupported joins in benchmark-to-use arguments.",
+      "pub_date": "Fri, 31 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "基准推断的组合性问题：AI评估中的可投射性",
+        "summary": "本文提出AI基准评估中的非组合原则：相邻推断的支持不能自动组合成链式结论，除非端点、假设对齐且依赖和不确定性被传递。通过法律研究案例和模拟，展示聚合稳定性可能掩盖后续投射所需的区分，并提出可投射性审计以诊断基准到应用论证中的无根据连接。",
+        "summary_en": "The paper identifies a non-composition principle in AI benchmark evaluation: support for adjacent projections does not warrant their composition unless endpoints and assumptions align and dependencies are carried through. It introduces a projectibility audit to diagnose unsupported joins in benchmark-to-use arguments.",
+        "tags": [
+          "benchmark",
+          "evaluation",
+          "research"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-31-rss-008",
+        "title": "基准推断的组合性问题：AI评估中的可投射性",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.26159",
+        "language": "en",
+        "summary": "本文提出AI基准评估中的非组合原则：相邻推断的支持不能自动组合成链式结论，除非端点、假设对齐且依赖和不确定性被传递。通过法律研究案例和模拟，展示聚合稳定性可能掩盖后续投射所需的区分，并提出可投射性审计以诊断基准到应用论证中的无根据连接。",
+        "summary_en": "The paper identifies a non-composition principle in AI benchmark evaluation: support for adjacent projections does not warrant their composition unless endpoints and assumptions align and dependencies are carried through. It introduces a projectibility audit to diagnose unsupported joins in benchmark-to-use arguments.",
+        "tags": [
+          "benchmark",
+          "evaluation",
+          "research"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-07-31T18:36:35.158644+08:00",
+        "updated_at": "2026-07-31T18:36:35.158647+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "GuideSkill: Evolving Executable LLM Agent Skills for Guideline-Grounded Clinical Reasoning",
+      "url": "https://arxiv.org/abs/2607.26160",
+      "description": "arXiv:2607.26160v1 Announce Type: new \nAbstract: Clinical practice guidelines (CPGs) encode diagnostic criteria, but LLM systems typically retrieve guideline text or absorb it through training rather than execute its rules. We introduce GuideSkill, an external reasoning layer that compiles disease-specific criteria into executable functions returning ordinal diagnostic-support scores. GuideSkill-Zero is initialized from guidelines, while GuideSkill-Evo uses case--diagnosis pairs to refine covered skills and add missing diagnoses. At inference, an LLM proposes a differential diagnosis, grounds the features required by each matched skill, and fuses its ranking with the executed skill scores. Across four benchmarks and four backbones, GuideSkill-Zero improves macro-average accuracy over guideline RAG by 13.45% on average. GuideSkill-Evo achieves the highest macro-average for every backbone, improves over direct inference by 18.49% relatively, and increases gold-label skill coverage from 56.5% to 99.5%. On Qwen3.5-9B, it also exceeds the strongest parameter-update baseline by 11.16% without updating the backbone. Expert evaluation further indicates that GuideSkill produces clinically sound and broadly acceptable skills, suggesting that its initialized and evolved rules are reliable and practically meaningful. These results support executable skills as a model-agnostic mechanism for combining guideline-derived procedures with case-derived diagnostic patterns.",
+      "pub_date": "Fri, 31 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "GuideSkill：面向指南临床推理的可执行LLM智能体技能演化",
+        "summary": "GuideSkill引入外部推理层，将疾病标准编译为可执行函数，输出序数诊断支持评分。GuideSkill-Zero从指南初始化，GuideSkill-Evo通过病例-诊断对细化技能并补充缺失诊断。推理时LLM提出鉴别诊断，融合技能评分。在四个基准和四个骨干模型上，相比指南RAG平均提升13.45%宏平均准确率，Evo版本相对直接推理提升18.49%，技能覆盖率从56.5%提升至99.5%，且无需更新骨干参数。",
+        "summary_en": "GuideSkill introduces an external reasoning layer that compiles disease criteria into executable functions returning ordinal diagnostic-support scores. GuideSkill-Zero initializes from guidelines, while GuideSkill-Evo refines skills using case-diagnosis pairs. At inference, an LLM proposes differential diagnoses and fuses its ranking with executed skill scores. Across four benchmarks and backbones, it improves macro-average accuracy by 13.45% over guideline RAG, and Evo achieves 18.49% relative improvement over direct inference, increasing skill coverage from 56.5% to 99.5% without updating the backbone.",
+        "tags": [
+          "llm",
+          "research",
+          "agent-framework",
+          "application",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      }
+    },
+    {
+      "title": "Prompt Chaining in Practice: A Case Study in Automated Scholarly Report Generation",
+      "url": "https://arxiv.org/abs/2607.27210",
+      "description": "arXiv:2607.27210v1 Announce Type: new \nAbstract: The exponential growth of scholarly publications requires automated tools for effective information synthesis. However, simple, single-shot prompting methods often lack the reliability and quality required for complex synthesis tasks. This paper introduces and empirically evaluates a multi-stage prompt chaining methodology as a more reliable architectural pattern for such tasks. This approach is implemented in our system, AI SciBrief, which automatically generates scholarly digests. We conducted a comparative experiment, measuring the performance of our prompt chaining method against a carefully optimized single-shot baseline. Both systems were evaluated against a human-authored \"gold standard\" report for the \"Education\" domain. The results demonstrate a significant difference in reliability: our prompt chaining method achieved a 100% success rate, whereas the optimized baseline failed in 50% of its runs. In terms of quality, the proposed method also demonstrated a clear advantage, achieving a superior ROUGE-L F1-score (0.507 vs. 0.486), driven primarily by higher precision. We conclude that prompt chaining is a more dependable and effective engineering approach for complex, multi-step generative tasks, significantly mitigating the risks of failure and inconsistency inherent in monolithic prompts.",
+      "pub_date": "Fri, 31 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "提示链实践：自动化学术报告生成的案例研究",
+        "summary": "本文提出并评估了多阶段提示链方法用于自动化学术摘要生成，系统AI SciBrief实现该方法。实验显示提示链成功率100%，优于单次提示的50%，ROUGE-L F1分数更高（0.507 vs 0.486），表明提示链是复杂生成任务更可靠有效的工程方法。",
+        "summary_en": "This paper introduces and evaluates a multi-stage prompt chaining method for automated scholarly digest generation, implemented in AI SciBrief. Experiments show 100% success rate vs 50% for single-shot, with higher ROUGE-L F1 (0.507 vs 0.486), demonstrating prompt chaining as a more reliable engineering approach.",
+        "tags": [
+          "prompt-engineering",
+          "llm",
+          "application",
+          "research"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-31-rss-004",
+        "title": "提示链实践：自动化学术报告生成的案例研究",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.27210",
+        "language": "en",
+        "summary": "本文提出并评估了多阶段提示链方法用于自动化学术摘要生成，系统AI SciBrief实现该方法。实验显示提示链成功率100%，优于单次提示的50%，ROUGE-L F1分数更高（0.507 vs 0.486），表明提示链是复杂生成任务更可靠有效的工程方法。",
+        "summary_en": "This paper introduces and evaluates a multi-stage prompt chaining method for automated scholarly digest generation, implemented in AI SciBrief. Experiments show 100% success rate vs 50% for single-shot, with higher ROUGE-L F1 (0.507 vs 0.486), demonstrating prompt chaining as a more reliable engineering approach.",
+        "tags": [
+          "prompt-engineering",
+          "llm",
+          "application",
+          "research"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-07-31T18:36:35.158614+08:00",
+        "updated_at": "2026-07-31T18:36:35.158617+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "AI-assisted pre-review of open-source software submissions: an experience report from BOSC 2026",
+      "url": "https://arxiv.org/abs/2607.27228",
+      "description": "arXiv:2607.27228v1 Announce Type: new \nAbstract: Most conferences rely on peer-review of submissions, but as generative AI makes it easier than ever to prepare submission materials, some conferences are seeing an overwhelming surge of submissions. We wanted to see if generative AI could help our conference's volunteer reviewers by pre-reviewing abstracts for certain criteria. The Bioinformatics Open Source Conference (BOSC) was well-positioned to experiment with this, as we already had a detailed rubric used by reviewers to evaluate submitted abstracts on multiple criteria, including openness (public availability of the code or other content associated with the project), valid open source license, and \"runnability\" (how easy it is to download, build, and run the project - an important measure of reusability). For BOSC 2026, we built bosc-pre-review, an agentic skill that assessed six review criteria, and Runabilly, which builds and tests each project in a disposable Docker container for safety. The AI only gathered evidence to present to the reviewers; humans made every decision regarding the acceptance of the abstracts. After the review period, we surveyed the reviewers to determine how useful they found the pre-review. Most of those who responded said they found it useful, but they preferred to check the AI's conclusions against their own, rather than accepting the AI results unquestioningly.",
+      "pub_date": "Fri, 31 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "AI辅助开源软件投稿预审：来自BOSC 2026的经验报告",
+        "summary": "本文报告了在BOSC 2026会议上使用生成式AI辅助预审开源软件投稿的经验。他们构建了bosc-pre-review智能体技能和Runabilly工具，在Docker容器中安全构建测试项目，为审稿人提供证据。调查显示多数审稿人认为有用，但更倾向于自行核实AI结论。",
+        "summary_en": "This paper reports an experience using generative AI to pre-review open-source software submissions at BOSC 2026. They built an agentic skill and a Docker-based tool to gather evidence for reviewers. Survey showed reviewers found it useful but preferred to verify AI conclusions themselves.",
+        "tags": [
+          "agent-framework",
+          "application",
+          "open-source",
+          "tool",
+          "evaluation"
+        ],
+        "category": "application",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-31-rss-009",
+        "title": "AI辅助开源软件投稿预审：来自BOSC 2026的经验报告",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.27228",
+        "language": "en",
+        "summary": "本文报告了在BOSC 2026会议上使用生成式AI辅助预审开源软件投稿的经验。他们构建了bosc-pre-review智能体技能和Runabilly工具，在Docker容器中安全构建测试项目，为审稿人提供证据。调查显示多数审稿人认为有用，但更倾向于自行核实AI结论。",
+        "summary_en": "This paper reports an experience using generative AI to pre-review open-source software submissions at BOSC 2026. They built an agentic skill and a Docker-based tool to gather evidence for reviewers. Survey showed reviewers found it useful but preferred to verify AI conclusions themselves.",
+        "tags": [
+          "agent-framework",
+          "application",
+          "open-source",
+          "tool",
+          "evaluation"
+        ],
+        "category": "application",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-07-31T18:36:35.158652+08:00",
+        "updated_at": "2026-07-31T18:36:35.158654+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Sympathetic Framing: Evaluating AI Alignment across Sociodemographic Groups",
+      "url": "https://arxiv.org/abs/2607.27232",
+      "description": "arXiv:2607.27232v1 Announce Type: new \nAbstract: Large Language Models (LLMs) are increasingly shaping how we consume information and form our worldview. This raises concerns beyond bias in AI: do LLMs grasp the emotional nuances conveyed via textual framing? In this work, we empirically evaluate how well an array of LLMs aligns with human emotional perception. Considering news headlines covering political and geopolitical conflicts, both human participants (n = 3011, a representative sample of the U.K. adult population, via a YouGov survey) and seven LLMs answered whether headlines evoked sympathy for a specified side in a conflict. We find that the correlation between AI and human evaluations varies across models, ranging from very high (0.789, GPT-5.2) to medium (0.4 ,Mistral Large 2512). Crucially, the leading models are broadly aligned with human judgments across all demographic subgroups, including age, gender, level of education, prior geopolitical knowledge, and participants' predispositions regarding the conflict, although there are statistically significant differences between groups. This research, with its robust design and large, demographically diverse dataset, offers the most comprehensive evaluation of LLMs' comprehension of news framing to date. Findings highlight an important, often-ignored aspect of differential alignment: even when aggregate performance is high, AI alignment is not universal -- it may correspond differently with demographic features and cultural norms. Considering or ignoring the need for differential alignment may therefore have significant implications for the development of ethical and useful AI systems.",
+      "pub_date": "Fri, 31 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "共情框架：评估AI在不同社会人口群体中的对齐性",
+        "summary": "该研究通过YouGov调查（n=3011）和七个LLM，评估模型对新闻标题中情感框架（同情）的理解。发现模型与人类判断的相关性从高（0.789）到中等（0.4）不等，领先模型在人口统计子群体中总体对齐，但存在显著差异，强调差异对齐的重要性。",
+        "summary_en": "This study evaluates LLMs' alignment with human emotional perception of news framing using a large UK sample and seven models. Correlations vary from high to medium, with leading models broadly aligned across demographics but significant group differences, highlighting differential alignment.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "alignment"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-31-rss-007",
+        "title": "共情框架：评估AI在不同社会人口群体中的对齐性",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.27232",
+        "language": "en",
+        "summary": "该研究通过YouGov调查（n=3011）和七个LLM，评估模型对新闻标题中情感框架（同情）的理解。发现模型与人类判断的相关性从高（0.789）到中等（0.4）不等，领先模型在人口统计子群体中总体对齐，但存在显著差异，强调差异对齐的重要性。",
+        "summary_en": "This study evaluates LLMs' alignment with human emotional perception of news framing using a large UK sample and seven models. Correlations vary from high to medium, with leading models broadly aligned across demographics but significant group differences, highlighting differential alignment.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "alignment"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-07-31T18:36:35.158637+08:00",
+        "updated_at": "2026-07-31T18:36:35.158639+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "LayerRAG-Bench: A Cross-Layer Reliability Benchmark for Agentic Retrieval-Augmented Generation",
+      "url": "https://arxiv.org/abs/2607.27353",
+      "description": "arXiv:2607.27353v1 Announce Type: new \nAbstract: Agentic retrieval-augmented generation systems can produce answers that appear grounded while failing at the evidence, tool-contract, authorization, or session-state layer. We introduce LayerRAG-Bench, a controlled cross-layer reliability benchmark with 8 enterprise domains, 240 tasks, 9 fault scenarios, 2 contract modes, and 38,880 live task-level records across nine models from OpenAI, Anthropic, and Gemini. Schema normalization raises schema-drift success from 0.000 to 0.913, but stale evidence, missing tool output, denied permissions, and wrong-session context are not recovered by schema normalization. Groundedness-only evaluation also produces substantial false positives under stale and wrong-session evidence. These results support a layer-specific evaluation principle: a reliability intervention should be credited for repairing its target layer without being mistaken for a universal fix.",
+      "pub_date": "Fri, 31 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "LayerRAG-Bench：面向Agentic检索增强生成的跨层可靠性基准",
+        "summary": "LayerRAG-Bench是一个跨层可靠性基准，覆盖8个企业领域、240个任务、9种故障场景和2种契约模式，包含38,880条记录，评估9个模型。研究发现模式规范化可提升schema漂移成功率，但无法修复陈旧证据、缺失工具输出、权限拒绝和错误会话上下文。支持按层评估原则，避免将特定修复误认为通用方案。",
+        "summary_en": "LayerRAG-Bench is a cross-layer reliability benchmark for agentic RAG, covering 8 enterprise domains, 240 tasks, 9 fault scenarios, and 38,880 records across 9 models. Schema normalization improves schema-drift success but fails on stale evidence, missing tool output, denied permissions, and wrong-session context, supporting layer-specific evaluation.",
+        "tags": [
+          "benchmark",
+          "rag",
+          "agent-framework",
+          "evaluation",
+          "research"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-31-rss-005",
+        "title": "LayerRAG-Bench：面向Agentic检索增强生成的跨层可靠性基准",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.27353",
+        "language": "en",
+        "summary": "LayerRAG-Bench是一个跨层可靠性基准，覆盖8个企业领域、240个任务、9种故障场景和2种契约模式，包含38,880条记录，评估9个模型。研究发现模式规范化可提升schema漂移成功率，但无法修复陈旧证据、缺失工具输出、权限拒绝和错误会话上下文。支持按层评估原则，避免将特定修复误认为通用方案。",
+        "summary_en": "LayerRAG-Bench is a cross-layer reliability benchmark for agentic RAG, covering 8 enterprise domains, 240 tasks, 9 fault scenarios, and 38,880 records across 9 models. Schema normalization improves schema-drift success but fails on stale evidence, missing tool output, denied permissions, and wrong-session context, supporting layer-specific evaluation.",
+        "tags": [
+          "benchmark",
+          "rag",
+          "agent-framework",
+          "evaluation",
+          "research"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-07-31T18:36:35.158621+08:00",
+        "updated_at": "2026-07-31T18:36:35.158624+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "BridgeAlign: Bridging Preference Alignment for Humanities and Social Sciences",
+      "url": "https://arxiv.org/abs/2607.27366",
+      "description": "arXiv:2607.27366v1 Announce Type: new \nAbstract: While data synthesis for large language models (LLMs) is prevalent, it primarily targets domains with verifiable answers, overlooking open-ended humanities and social sciences (HSS), where nuanced quality judgments matter more than objective correctness. This makes preference alignment a natural paradigm for broad HSS tasks. Yet existing methods are either costly or not tailored to broad HSS disciplines. We thus propose BridgeAlign, among the first preference-alignment pipelines for broad HSS disciplines, with three phases: i) Seed Curation: curating HSS seed documents from web corpora via heuristic/LLM-based filtering and text refinement; ii) Preference Data Synthesis: generating preference triplets via persona-based instruction inversion with Q&A consistency checks; iii) Preference Optimization: moving beyond naive human-vs-model heuristics by first grounding preferences in HSS quality rubric, then generating transitional responses via controlled quality degradation to form near-boundary preference pairs for finer-grained quality discrimination. Aligning over 210k synthetic preference samples, BridgeAlign enables Qwen3-8B to achieve the best average across 17 benchmarks against 11 strong baselines; importantly, leading on both human-preference and knowledge-based capabilities at once, with no trade-off between them, as supported by extensive experiments and contextualized by existing theories.",
+      "pub_date": "Fri, 31 Jul 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "BridgeAlign：面向人文社科领域的偏好对齐新方法",
+        "summary": "BridgeAlign是首个面向广泛人文社科（HSS）领域的偏好对齐流水线，包含种子策展、偏好数据合成和偏好优化三个阶段。通过基于质量评分标准的偏好对齐和过渡性响应生成，BridgeAlign使Qwen3-8B在17个基准测试中平均表现最佳，同时兼顾人类偏好和知识能力，无权衡取舍。",
+        "summary_en": "BridgeAlign is among the first preference-alignment pipelines for broad humanities and social sciences (HSS), featuring seed curation, preference data synthesis, and preference optimization. By grounding preferences in HSS quality rubrics and generating transitional responses, it enables Qwen3-8B to achieve the best average across 17 benchmarks against 11 baselines, leading on both human-preference and knowledge capabilities without trade-offs.",
+        "tags": [
+          "llm",
+          "fine-tuning",
+          "research",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-07-31-rss-006",
+        "title": "BridgeAlign：面向人文社科领域的偏好对齐新方法",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.27366",
+        "language": "en",
+        "summary": "BridgeAlign是首个面向广泛人文社科（HSS）领域的偏好对齐流水线，包含种子策展、偏好数据合成和偏好优化三个阶段。通过基于质量评分标准的偏好对齐和过渡性响应生成，BridgeAlign使Qwen3-8B在17个基准测试中平均表现最佳，同时兼顾人类偏好和知识能力，无权衡取舍。",
+        "summary_en": "BridgeAlign is among the first preference-alignment pipelines for broad humanities and social sciences (HSS), featuring seed curation, preference data synthesis, and preference optimization. By grounding preferences in HSS quality rubrics and generating transitional responses, it enables Qwen3-8B to achieve the best average across 17 benchmarks against 11 baselines, leading on both human-preference and knowledge capabilities without trade-offs.",
+        "tags": [
+          "llm",
+          "fine-tuning",
+          "research",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-07-31T18:36:35.158629+08:00",
+        "updated_at": "2026-07-31T18:36:35.158632+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

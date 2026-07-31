@@ -1,0 +1,24 @@
+{
+  "id": "2026-07-31-rss-008",
+  "title": "基准推断的组合性问题：AI评估中的可投射性",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.26159",
+  "language": "en",
+  "summary": "本文提出AI基准评估中的非组合原则：相邻推断的支持不能自动组合成链式结论，除非端点、假设对齐且依赖和不确定性被传递。通过法律研究案例和模拟，展示聚合稳定性可能掩盖后续投射所需的区分，并提出可投射性审计以诊断基准到应用论证中的无根据连接。",
+  "summary_en": "The paper identifies a non-composition principle in AI benchmark evaluation: support for adjacent projections does not warrant their composition unless endpoints and assumptions align and dependencies are carried through. It introduces a projectibility audit to diagnose unsupported joins in benchmark-to-use arguments.",
+  "tags": [
+    "benchmark",
+    "evaluation",
+    "research"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-07-31T18:36:35.158644+08:00",
+  "updated_at": "2026-07-31T18:36:35.158647+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "2026-07-31-rss-005",
+  "title": "LayerRAG-Bench：面向Agentic检索增强生成的跨层可靠性基准",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.27353",
+  "language": "en",
+  "summary": "LayerRAG-Bench是一个跨层可靠性基准，覆盖8个企业领域、240个任务、9种故障场景和2种契约模式，包含38,880条记录，评估9个模型。研究发现模式规范化可提升schema漂移成功率，但无法修复陈旧证据、缺失工具输出、权限拒绝和错误会话上下文。支持按层评估原则，避免将特定修复误认为通用方案。",
+  "summary_en": "LayerRAG-Bench is a cross-layer reliability benchmark for agentic RAG, covering 8 enterprise domains, 240 tasks, 9 fault scenarios, and 38,880 records across 9 models. Schema normalization improves schema-drift success but fails on stale evidence, missing tool output, denied permissions, and wrong-session context, supporting layer-specific evaluation.",
+  "tags": [
+    "benchmark",
+    "rag",
+    "agent-framework",
+    "evaluation",
+    "research"
+  ],
+  "category": "benchmark",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-07-31T18:36:35.158621+08:00",
+  "updated_at": "2026-07-31T18:36:35.158624+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

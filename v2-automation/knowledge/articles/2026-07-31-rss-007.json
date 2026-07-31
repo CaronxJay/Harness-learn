@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-31-rss-007",
+  "title": "共情框架：评估AI在不同社会人口群体中的对齐性",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.27232",
+  "language": "en",
+  "summary": "该研究通过YouGov调查（n=3011）和七个LLM，评估模型对新闻标题中情感框架（同情）的理解。发现模型与人类判断的相关性从高（0.789）到中等（0.4）不等，领先模型在人口统计子群体中总体对齐，但存在显著差异，强调差异对齐的重要性。",
+  "summary_en": "This study evaluates LLMs' alignment with human emotional perception of news framing using a large UK sample and seven models. Correlations vary from high to medium, with leading models broadly aligned across demographics but significant group differences, highlighting differential alignment.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "alignment"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-07-31T18:36:35.158637+08:00",
+  "updated_at": "2026-07-31T18:36:35.158639+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

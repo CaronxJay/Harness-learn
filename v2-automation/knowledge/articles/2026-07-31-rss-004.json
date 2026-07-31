@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-31-rss-004",
+  "title": "提示链实践：自动化学术报告生成的案例研究",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.27210",
+  "language": "en",
+  "summary": "本文提出并评估了多阶段提示链方法用于自动化学术摘要生成，系统AI SciBrief实现该方法。实验显示提示链成功率100%，优于单次提示的50%，ROUGE-L F1分数更高（0.507 vs 0.486），表明提示链是复杂生成任务更可靠有效的工程方法。",
+  "summary_en": "This paper introduces and evaluates a multi-stage prompt chaining method for automated scholarly digest generation, implemented in AI SciBrief. Experiments show 100% success rate vs 50% for single-shot, with higher ROUGE-L F1 (0.507 vs 0.486), demonstrating prompt chaining as a more reliable engineering approach.",
+  "tags": [
+    "prompt-engineering",
+    "llm",
+    "application",
+    "research"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-07-31T18:36:35.158614+08:00",
+  "updated_at": "2026-07-31T18:36:35.158617+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
