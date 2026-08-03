@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-03-rss-004",
+  "title": "TAPR：任务感知的提示重写器，提升LLM性能",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.28657",
+  "language": "en",
+  "summary": "提出TAPR模型，通过强化学习（GRPO）重写用户提示为任务优化提示，以提升下游LLM性能。在问答、摘要、算术推理等任务上取得一致提升，微调Phi-4-mini-instruct后，在Natural Questions和GSM8K上准确率更高。",
+  "summary_en": "Introduces TAPR, a model that rewrites user prompts into task-optimized prompts via reinforcement learning (GRPO) to improve downstream LLM performance. Achieves consistent gains on QA, summarization, and arithmetic reasoning, with higher accuracy on Natural Questions and GSM8K after fine-tuning Phi-4-mini-instruct.",
+  "tags": [
+    "llm",
+    "prompt-engineering",
+    "fine-tuning",
+    "research"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-03T19:20:17.994563+08:00",
+  "updated_at": "2026-08-03T19:20:17.994564+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

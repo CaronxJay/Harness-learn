@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-03-rss-001",
+  "title": "OpenClaw与Ollama在代理式AI中的应用：迈向完全自主且可扩展的AI代理系统",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.28629",
+  "language": "en",
+  "summary": "本文提出代理式AI的分层架构，区分推理、编排和执行层。通过OpenClaw与Ollama的全栈集成验证，证明持久记忆、工具使用和自适应决策等能力源于系统级集成，并探讨了可扩展性、安全、隐私及评估挑战，为构建自主代理系统提供路线图。",
+  "summary_en": "This paper proposes a layered architecture for Agentic AI, separating inference, orchestration, and execution. Validating with OpenClaw and Ollama, it shows capabilities emerge from system integration, and discusses scalability, security, and evaluation challenges.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "research",
+    "infrastructure",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-03T19:20:17.994545+08:00",
+  "updated_at": "2026-08-03T19:20:17.994549+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

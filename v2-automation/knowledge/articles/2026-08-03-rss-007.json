@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-03-rss-007",
+  "title": "ZeroR@CHiPSAL 2026：基于对比学习的尼泊尔模因分类两阶段视觉语言适配",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.28637",
+  "language": "en",
+  "summary": "本文介绍CHiPSAL 2026共享任务中尼泊尔模因多模态仇恨言论与情感分析系统。采用Qwen3-VL-8B-Instruct，两阶段训练：LoRA微调生成分类与对比骨干微调，集成推理，处理类别不平衡，获仇恨检测第二名（F1:0.797）和情感分析第四名（F1:0.518）。",
+  "summary_en": "This paper presents a system for CHiPSAL 2026 Nepali meme hate speech and sentiment analysis, using Qwen3-VL-8B-Instruct with two-stage training (LoRA and contrastive), achieving 2nd place in hate detection (F1:0.797) and 4th in sentiment (F1:0.518).",
+  "tags": [
+    "multimodal",
+    "fine-tuning",
+    "llm",
+    "research",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-08-03T19:20:17.994576+08:00",
+  "updated_at": "2026-08-03T19:20:17.994578+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

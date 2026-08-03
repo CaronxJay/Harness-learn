@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-03-rss-005",
+  "title": "模型链：用于偏见鲁棒LLM评判器的跨模型审计",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.28636",
+  "language": "en",
+  "summary": "提出Chain-of-Models（CoM）自动审计流程，用第二模型检查第一模型的推理轨迹以减少认知偏见。研究发现审计者身份影响效果，最佳审计者因偏见类型而异，并据此设计偏见特定审计者选择规则，在测试集上达到最高准确率0.884。",
+  "summary_en": "Proposes Chain-of-Models (CoM), an automated audit pipeline where a second model inspects the first model's reasoning trace to reduce cognitive biases. Finds auditor identity matters and is bias-specific, leading to a per-bias auditor selection rule achieving highest accuracy 0.884.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-03T19:20:17.994567+08:00",
+  "updated_at": "2026-08-03T19:20:17.994569+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

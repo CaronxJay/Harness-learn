@@ -1,0 +1,485 @@
+{
+  "collected_at": "2026-08-03T19:20:17.995467+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "OpenClaw and Ollama in Agentic AI: Toward Fully Autonomous and Scalable AI Agent Systems",
+      "url": "https://arxiv.org/abs/2607.28629",
+      "description": "arXiv:2607.28629v1 Announce Type: new \nAbstract: The rapid transition from reactive large language models (LLMs) to persistent, action-capable systems has exposed critical gaps in the architectural understanding of Agentic AI, particularly in separating inference, orchestration, and execution layers for autonomous AI agents. Despite recent advances, unified frameworks for designing and evaluating full-stack agentic systems remain limited. This paper presents a comprehensive, layered architecture for Agentic AI, outlining the evolution from reactive LLM interfaces to persistent, goal-driven autonomous AI agents with memory, planning, and continuous execution. We analyze OpenClaw and Ollama as a full-stack Agentic AI system, where Ollama serves as the LLM inference layer and OpenClaw enables agent runtime orchestration, integrating reasoning, tool use, and action execution. A prototype experimental validation of the OpenClaw-Ollama architecture demonstrates that capabilities such as persistent memory, tool utilization, and adaptive decision-making emerge from system-level integration rather than standalone models, with performance improving consistently as architectural complexity increases. The study further examines challenges in scalability, security, privacy, governance, and evaluation of agentic systems, highlighting the need for robust benchmarking and system-level design. Future directions include scalable multi-agent architectures, distributed autonomous systems, and human-aware Agentic AI frameworks for responsible deployment. Overall, this work establishes a unified architectural foundation for Agentic AI, validates the effectiveness of full-stack autonomous AI agents, and provides a roadmap for building scalable, secure, and trustworthy agentic systems. All models, code, and datasets are publicly released to support reproducibility and benchmarking.",
+      "pub_date": "Mon, 03 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "OpenClaw与Ollama在代理式AI中的应用：迈向完全自主且可扩展的AI代理系统",
+        "summary": "本文提出代理式AI的分层架构，区分推理、编排和执行层。通过OpenClaw与Ollama的全栈集成验证，证明持久记忆、工具使用和自适应决策等能力源于系统级集成，并探讨了可扩展性、安全、隐私及评估挑战，为构建自主代理系统提供路线图。",
+        "summary_en": "This paper proposes a layered architecture for Agentic AI, separating inference, orchestration, and execution. Validating with OpenClaw and Ollama, it shows capabilities emerge from system integration, and discusses scalability, security, and evaluation challenges.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "infrastructure",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-03-rss-001",
+        "title": "OpenClaw与Ollama在代理式AI中的应用：迈向完全自主且可扩展的AI代理系统",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.28629",
+        "language": "en",
+        "summary": "本文提出代理式AI的分层架构，区分推理、编排和执行层。通过OpenClaw与Ollama的全栈集成验证，证明持久记忆、工具使用和自适应决策等能力源于系统级集成，并探讨了可扩展性、安全、隐私及评估挑战，为构建自主代理系统提供路线图。",
+        "summary_en": "This paper proposes a layered architecture for Agentic AI, separating inference, orchestration, and execution. Validating with OpenClaw and Ollama, it shows capabilities emerge from system integration, and discusses scalability, security, and evaluation challenges.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "infrastructure",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-03T19:20:17.994545+08:00",
+        "updated_at": "2026-08-03T19:20:17.994549+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Can AI Evaluate AI Scientists? A Benchmarking Study of Autonomous Research Generation Systems Using Automated Multi-Model Review",
+      "url": "https://arxiv.org/abs/2607.28631",
+      "description": "arXiv:2607.28631v1 Announce Type: new \nAbstract: AI Scientist systems capable of autonomous research have the potential to significantly accelerate scientific discovery. However, evaluating and comparing the quality of AI-generated papers remains an open challenge. We propose and implement a rigorous benchmarking protocol using an automated peer-review system that harnesses frontier large language models to assess scientific papers across four core dimensions: originality, scientific rigor, clarity, and significance. We evaluate four leading AI Scientist frameworks: \\textit{Sakana AI (v1 & v2)}, \\textit{CycleResearcher}, and \\textit{Data-to-Paper}. Each framework was run on a consistent set of 15 research proposals published by a commercial autonomous AI scientist company (FARS), generating 60 papers that we evaluate alongside 15 FARS benchmark papers. Using three independent LLM reviewers (GPT-5.4, Gemini, and Claude), we find that FARS benchmark papers significantly outperform all competing frameworks, achieving mean scores of 2.14--2.47 on a 1--5 scale compared to 1.00--1.87 for other systems. Notably, FARS scores are more than 2$\\times$ higher than the next-best systems on Gemini and Claude evaluations. We find strong agreement among Gemini and Claude ($\\rho$ = 0.907, $p < 0.001$), and both correlate extremely strongly with the synthesis score ($\\rho$ = 0.961, $p < 0.001$), validating the reliability of automated evaluation. However, GPT-5.4 exhibits weaker agreement ($\\rho \\approx 0.32$), suggesting it evaluates papers using different criteria. These results establish the first quantitative benchmark for AI Scientist systems and demonstrate that multi-model LLM evaluation provides a scalable, consistent framework for assessing autonomous research quality.",
+      "pub_date": "Mon, 03 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "AI能否评估AI科学家？基于自动多模型评审的自主研究生成系统基准测试研究",
+        "summary": "提出利用前沿大语言模型进行自动同行评审的基准测试协议，评估四个AI科学家框架（Sakana AI v1/v2、CycleResearcher、Data-to-Paper）生成的论文质量。结果显示FARS基准论文显著优于其他系统，且Gemini和Claude评审一致性高，验证了多模型评估的可靠性。",
+        "summary_en": "Proposes a benchmarking protocol using frontier LLMs for automated peer review, evaluating four AI Scientist frameworks. FARS benchmark papers significantly outperform others, with strong agreement between Gemini and Claude, validating multi-model evaluation reliability.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "research",
+          "evaluation",
+          "agent-framework"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-03-rss-002",
+        "title": "AI能否评估AI科学家？基于自动多模型评审的自主研究生成系统基准测试研究",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.28631",
+        "language": "en",
+        "summary": "提出利用前沿大语言模型进行自动同行评审的基准测试协议，评估四个AI科学家框架（Sakana AI v1/v2、CycleResearcher、Data-to-Paper）生成的论文质量。结果显示FARS基准论文显著优于其他系统，且Gemini和Claude评审一致性高，验证了多模型评估的可靠性。",
+        "summary_en": "Proposes a benchmarking protocol using frontier LLMs for automated peer review, evaluating four AI Scientist frameworks. FARS benchmark papers significantly outperform others, with strong agreement between Gemini and Claude, validating multi-model evaluation reliability.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "research",
+          "evaluation",
+          "agent-framework"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-03T19:20:17.994554+08:00",
+        "updated_at": "2026-08-03T19:20:17.994556+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "LLM Framework for Discovering Major Mathematical Conjectures: AI's Quest for the Next Riemann Hypothesis",
+      "url": "https://arxiv.org/abs/2607.28632",
+      "description": "arXiv:2607.28632v1 Announce Type: new \nAbstract: Major mathematical conjectures still depend heavily on expert intuition, so a unified method for the systematic generation and validation of conjectures with substantial mathematical potential remains unavailable. We present a three stage pipeline for major conjecture discovery, with region search from explicit local evidence modules, reflective validation for foundationality, novelty, and potential significance, and formal validation in Lean 4 and Mathlib. The objective is the discovery of mathematical problems with high problem taste, namely problems whose proofs could reorganize the language of a research area and provide durable help to human mathematical research. Experiments on twenty candidates showstable passage from natural language to formal checks, with twenty out of twenty candidates passing Lean parsing and type checking, twenty out of twenty candidates not directly absorbed by exact?,twenty out of twenty candidates not automatically discharged by aesop, and no explicit duplicates or near duplicates.",
+      "pub_date": "Mon, 03 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "用于发现重大数学猜想的LLM框架：AI对下一个黎曼猜想的探索",
+        "summary": "提出一个三阶段流水线，用于系统生成和验证重大数学猜想，包括区域搜索、反思性验证和Lean 4形式化验证。实验显示20个候选全部通过解析和类型检查，未被现有策略自动解决，且无重复。",
+        "summary_en": "A three-stage pipeline for systematic generation and validation of major mathematical conjectures, including region search, reflective validation, and formal verification in Lean 4. Experiments show all 20 candidates pass parsing and type checking, none are auto-solved, and no duplicates.",
+        "tags": [
+          "llm",
+          "research",
+          "tool",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-03-rss-008",
+        "title": "用于发现重大数学猜想的LLM框架：AI对下一个黎曼猜想的探索",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.28632",
+        "language": "en",
+        "summary": "提出一个三阶段流水线，用于系统生成和验证重大数学猜想，包括区域搜索、反思性验证和Lean 4形式化验证。实验显示20个候选全部通过解析和类型检查，未被现有策略自动解决，且无重复。",
+        "summary_en": "A three-stage pipeline for systematic generation and validation of major mathematical conjectures, including region search, reflective validation, and formal verification in Lean 4. Experiments show all 20 candidates pass parsing and type checking, none are auto-solved, and no duplicates.",
+        "tags": [
+          "llm",
+          "research",
+          "tool",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-03T19:20:17.994581+08:00",
+        "updated_at": "2026-08-03T19:20:17.994582+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "ThinkReset: Learnable Intermediate Interface Construction for Bounded-Context Long-Horizon Reasoning",
+      "url": "https://arxiv.org/abs/2607.28642",
+      "description": "arXiv:2607.28642v1 Announce Type: new \nAbstract: Long chain-of-thought reasoning improves performance on complex problems, but it also introduces redundancy accumulation, context overflow, and error anchoring. We argue that under bounded context windows, the core bottleneck is not trajectory compression or test-time control, but the absence of a reusable intermediate interface that can replace discarded history and support continued solving. We further identify a key failure mode of outcome-reward-driven long-chain reinforcement learning: when the model has not solved the task before the window is nearly exhausted, the final-answer reward encourages premature guessing rather than continued careful reasoning. We propose ThinkReset, a text-space instantiation of this view. ThinkReset explicitly constructs reusable intermediate interfaces through interface writeback and reset, and directly optimizes post-reset continuation success. Across multiple long-horizon reasoning benchmarks, this perspective consistently improves success rates under fixed context windows.",
+      "pub_date": "Mon, 03 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "ThinkReset：为有界上下文长程推理构建可学习的中间接口",
+        "summary": "ThinkReset提出在有限上下文窗口下，通过显式构建可复用的中间接口（接口写回与重置）来替代被丢弃的历史，并直接优化重置后的继续求解成功率，从而解决长链推理中的冗余累积、上下文溢出和错误锚定问题。在多个长程推理基准上，该方法在固定上下文下持续提升成功率。",
+        "summary_en": "ThinkReset proposes constructing reusable intermediate interfaces via writeback and reset to replace discarded history under bounded context, directly optimizing post-reset continuation success, improving long-horizon reasoning benchmarks.",
+        "tags": [
+          "llm",
+          "research",
+          "reasoning",
+          "context"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-03-rss-003",
+        "title": "ThinkReset：为有界上下文长程推理构建可学习的中间接口",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.28642",
+        "language": "en",
+        "summary": "ThinkReset提出在有限上下文窗口下，通过显式构建可复用的中间接口（接口写回与重置）来替代被丢弃的历史，并直接优化重置后的继续求解成功率，从而解决长链推理中的冗余累积、上下文溢出和错误锚定问题。在多个长程推理基准上，该方法在固定上下文下持续提升成功率。",
+        "summary_en": "ThinkReset proposes constructing reusable intermediate interfaces via writeback and reset to replace discarded history under bounded context, directly optimizing post-reset continuation success, improving long-horizon reasoning benchmarks.",
+        "tags": [
+          "llm",
+          "research",
+          "reasoning",
+          "context"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-03T19:20:17.994559+08:00",
+        "updated_at": "2026-08-03T19:20:17.994560+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "TAPR: Enhancing LLM Performance with a Task-Aware Prompt Rewriter",
+      "url": "https://arxiv.org/abs/2607.28657",
+      "description": "arXiv:2607.28657v1 Announce Type: new \nAbstract: Large Language Models (LLMs) often require carefully crafted prompts to unlock their full potential, which can be a barrier for non-expert users. This work addresses the challenge by introducing a Task-Aware Prompt Rewriter (TAPR), a model that reformulates user prompts into task-optimized prompts with the explicit goal of improving downstream LLM performance. We train TAPR using reinforcement learning with Group Relative Policy Optimization (GRPO), where rewards are derived from LLM-as-judge evaluations of both the reformulated prompt and the corresponding task output. Experimental results on diverse tasks, such as question answering, summarization, and arithmetic reasoning, show that our method yields consistent gains over base models in prompt rewriting ability. Fine-tuning Phi-4-mini-instruct (as the base model for TAPR) produces prompts that contain clearer and more instructive language, leading to higher accuracy on established benchmarks such as Natural Questions and GSM8K. Our code is available at: https://github.com/OliverSavolainen/task-specific-prompt-rewriter",
+      "pub_date": "Mon, 03 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "TAPR：任务感知的提示重写器，提升LLM性能",
+        "summary": "提出TAPR模型，通过强化学习（GRPO）重写用户提示为任务优化提示，以提升下游LLM性能。在问答、摘要、算术推理等任务上取得一致提升，微调Phi-4-mini-instruct后，在Natural Questions和GSM8K上准确率更高。",
+        "summary_en": "Introduces TAPR, a model that rewrites user prompts into task-optimized prompts via reinforcement learning (GRPO) to improve downstream LLM performance. Achieves consistent gains on QA, summarization, and arithmetic reasoning, with higher accuracy on Natural Questions and GSM8K after fine-tuning Phi-4-mini-instruct.",
+        "tags": [
+          "llm",
+          "prompt-engineering",
+          "fine-tuning",
+          "research"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-03-rss-004",
+        "title": "TAPR：任务感知的提示重写器，提升LLM性能",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.28657",
+        "language": "en",
+        "summary": "提出TAPR模型，通过强化学习（GRPO）重写用户提示为任务优化提示，以提升下游LLM性能。在问答、摘要、算术推理等任务上取得一致提升，微调Phi-4-mini-instruct后，在Natural Questions和GSM8K上准确率更高。",
+        "summary_en": "Introduces TAPR, a model that rewrites user prompts into task-optimized prompts via reinforcement learning (GRPO) to improve downstream LLM performance. Achieves consistent gains on QA, summarization, and arithmetic reasoning, with higher accuracy on Natural Questions and GSM8K after fine-tuning Phi-4-mini-instruct.",
+        "tags": [
+          "llm",
+          "prompt-engineering",
+          "fine-tuning",
+          "research"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-03T19:20:17.994563+08:00",
+        "updated_at": "2026-08-03T19:20:17.994564+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Can LLMs Really Understand Item Difficulty Levels? Implications for Automated Item Generation Using LLMs",
+      "url": "https://arxiv.org/abs/2607.28634",
+      "description": "arXiv:2607.28634v1 Announce Type: new \nAbstract: The estimation of item difficulty plays a key role in both formative assessment and large-scale high-stakes summative assessments. This study explores how large language models (LLMs) perform in predicting item difficulty levels using items from a large-scale Reading and Writing test. The study investigated various prompting strategies and parameter settings across multiple LLMs. LLM performance was compared with encoder-only language models and feature-based supervised machine learning models. Zero-shot GPT-4.1 with a temperature of 0 yielded the highest item difficulty level prediction accuracy, with a quadratic weighted kappa (QWK) of 0.578. However, LLMs' prediction accuracy was lower than that of ConvBERT (QWK = 0.625), which outperformed the best feature-based supervised machine learning model. Further analysis showed that all LLMs struggled to label hard items; in particular, the current advanced GPT-5.4 tended to underestimate item difficulty levels. Dimension reduction of embeddings showed that item embeddings from different difficulty levels were mixed together, indicating that semantic information from items alone is likely insufficient for item difficulty level prediction. The findings suggest that if LLMs cannot understand item difficulty levels as evidenced by empirical data and tend to treat most items as easy when their own capabilities increase, caution should be exercised when using LLMs to generate items with targeted difficulty levels.",
+      "pub_date": "Mon, 03 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "LLM能否真正理解题目难度？对使用LLM自动生成试题的启示",
+        "summary": "该研究评估了LLM在预测大规模阅读与写作测试题目难度上的表现。零样本GPT-4.1（温度0）达到最高准确率（QWK=0.578），但仍低于ConvBERT（0.625）。所有LLM难以识别难题，GPT-5.4倾向低估难度，嵌入分析表明语义信息不足以预测难度，提示使用LLM生成特定难度题目需谨慎。",
+        "summary_en": "This study evaluates LLMs' performance in predicting item difficulty in a large-scale reading and writing test. Zero-shot GPT-4.1 achieved the highest accuracy (QWK=0.578) but still lower than ConvBERT (0.625). All LLMs struggled with hard items, GPT-5.4 underestimated difficulty, and embeddings showed semantic information is insufficient, cautioning against using LLMs to generate items with targeted difficulty.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-03-rss-009",
+        "title": "LLM能否真正理解题目难度？对使用LLM自动生成试题的启示",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.28634",
+        "language": "en",
+        "summary": "该研究评估了LLM在预测大规模阅读与写作测试题目难度上的表现。零样本GPT-4.1（温度0）达到最高准确率（QWK=0.578），但仍低于ConvBERT（0.625）。所有LLM难以识别难题，GPT-5.4倾向低估难度，嵌入分析表明语义信息不足以预测难度，提示使用LLM生成特定难度题目需谨慎。",
+        "summary_en": "This study evaluates LLMs' performance in predicting item difficulty in a large-scale reading and writing test. Zero-shot GPT-4.1 achieved the highest accuracy (QWK=0.578) but still lower than ConvBERT (0.625). All LLMs struggled with hard items, GPT-5.4 underestimated difficulty, and embeddings showed semantic information is insufficient, cautioning against using LLMs to generate items with targeted difficulty.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-03T19:20:17.994585+08:00",
+        "updated_at": "2026-08-03T19:20:17.994586+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Imbalanced Data Clustering via Targeted Data Augmentation Using GMM and LLM",
+      "url": "https://arxiv.org/abs/2607.28635",
+      "description": "arXiv:2607.28635v1 Announce Type: new \nAbstract: In Natural Language Processing (NLP), dealing with underrepresented topics is challenging, especially in unsupervised tasks where clustering might not adequately capture minority topics. To tackle this challenge, our paper presents a novel unsupervised data augmentation method that integrates Gaussian Mixture Models (GMMs) and Large Language Models (LLMs). Due to their flexibility and robustness, GMMs can detect clusters corresponding to underrepresented areas in the data, while LLMs create synthetic documents to enrich these clusters and improve their representation. Experiments on various imbalanced text datasets demonstrate that our approach preserves clustering performance in all cases and often enhances cluster interpretability, offering a robust and scalable solution for improving data representation in unsupervised NLP tasks.",
+      "pub_date": "Mon, 03 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "基于GMM和LLM的定向数据增强实现不平衡数据聚类",
+        "summary": "提出一种无监督数据增强方法，结合高斯混合模型（GMM）检测少数类簇，并利用大语言模型（LLM）生成合成文本来丰富这些簇，从而改善不平衡文本数据中的聚类表现和可解释性。实验表明该方法在保持聚类性能的同时提升少数类表示。",
+        "summary_en": "Presents an unsupervised data augmentation method combining GMMs to detect underrepresented clusters and LLMs to generate synthetic documents, improving clustering performance and interpretability on imbalanced text datasets.",
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-03-rss-010",
+        "title": "基于GMM和LLM的定向数据增强实现不平衡数据聚类",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.28635",
+        "language": "en",
+        "summary": "提出一种无监督数据增强方法，结合高斯混合模型（GMM）检测少数类簇，并利用大语言模型（LLM）生成合成文本来丰富这些簇，从而改善不平衡文本数据中的聚类表现和可解释性。实验表明该方法在保持聚类性能的同时提升少数类表示。",
+        "summary_en": "Presents an unsupervised data augmentation method combining GMMs to detect underrepresented clusters and LLMs to generate synthetic documents, improving clustering performance and interpretability on imbalanced text datasets.",
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-03T19:20:17.994590+08:00",
+        "updated_at": "2026-08-03T19:20:17.994591+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Chain-of-Models: Cross-Model Auditing for Bias-Robust LLM Judges",
+      "url": "https://arxiv.org/abs/2607.28636",
+      "description": "arXiv:2607.28636v1 Announce Type: new \nAbstract: LLMs increasingly serve as automated judges, but their judgments remain vulnerable to cognitive biases. Existing mitigations mostly rely on prompt-driven debiasing, which is brittle across bias types, or human evaluation, which does not scale. We study \\emph{Chain-of-Models} (CoM), an automated audit pipeline in which a second model inspects the first model's reasoning trace before producing the final judgment. The key design question is whether the auditor should be the same model, a same-family model, or a different-family model. Across 9 models from 6 families, 4 cognitive biases, and 4 factual datasets, we find that auditor identity matters in two ways. First, standalone bias resistance does not predict audit effectiveness: Kimi-K2.5 is the strongest standalone model on several biases, yet is a weak auditor for Qwen2.5-72B's biased traces. Second, the best auditor is bias-specific: GPT-4o is strongest on bandwagon, authority, and distraction, while GLM-5 is strongest on sycophancy. We operationalize these findings with a per-bias auditor selection rule that, given the bias type, scores candidates along functional diversity, per-bias standalone resistance, and calibrated audit effectiveness. Under a calibration/test split, the selector reaches the highest accuracy across the four biased slices ($0.884$ vs.\\ $0.824$ for the strongest single fixed auditor and $0.805$ for the no-audit baseline). We release data, configurations, and an LLM-agent skill at https://anonymous.4open.science/r/chain-of-models-B585 .",
+      "pub_date": "Mon, 03 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "模型链：用于偏见鲁棒LLM评判器的跨模型审计",
+        "summary": "提出Chain-of-Models（CoM）自动审计流程，用第二模型检查第一模型的推理轨迹以减少认知偏见。研究发现审计者身份影响效果，最佳审计者因偏见类型而异，并据此设计偏见特定审计者选择规则，在测试集上达到最高准确率0.884。",
+        "summary_en": "Proposes Chain-of-Models (CoM), an automated audit pipeline where a second model inspects the first model's reasoning trace to reduce cognitive biases. Finds auditor identity matters and is bias-specific, leading to a per-bias auditor selection rule achieving highest accuracy 0.884.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-03-rss-005",
+        "title": "模型链：用于偏见鲁棒LLM评判器的跨模型审计",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.28636",
+        "language": "en",
+        "summary": "提出Chain-of-Models（CoM）自动审计流程，用第二模型检查第一模型的推理轨迹以减少认知偏见。研究发现审计者身份影响效果，最佳审计者因偏见类型而异，并据此设计偏见特定审计者选择规则，在测试集上达到最高准确率0.884。",
+        "summary_en": "Proposes Chain-of-Models (CoM), an automated audit pipeline where a second model inspects the first model's reasoning trace to reduce cognitive biases. Finds auditor identity matters and is bias-specific, leading to a per-bias auditor selection rule achieving highest accuracy 0.884.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-03T19:20:17.994567+08:00",
+        "updated_at": "2026-08-03T19:20:17.994569+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "ZeroR@CHiPSAL 2026: Two-Stage Vision-Language Adaptation with Contrastive Learning for Nepali Meme Classification",
+      "url": "https://arxiv.org/abs/2607.28637",
+      "description": "arXiv:2607.28637v1 Announce Type: new \nAbstract: This paper presents our system for the CHiPSAL 2026 shared task on multimodal hate speech and sentiment detection in Nepali memes. We address both subtasks: binary hate speech classification and three-class sentiment analysis. Our approach adapts the Robust Adaptation of Hateful Meme Detection (RA-HMD) framework using Qwen3-VL-8B-Instruct, a state-of-the-art vision-language model with native Devanagari support. We employ a two-stage training pipeline: (1) LoRA fine-tuning with an MLP projection head for generative classification, and (2) contrastive backbone fine-tuning with supervised InfoNCE loss. We handle class imbalance through minority oversampling, image augmentation, and focal loss. At inference, we ensemble Stage 1 token probabilities with Stage 2 classifier scores using validation-tuned weights. Our end-to-end approach eliminates error propagation from separate OCR and translation pipelines by leveraging the model's native Devanagari understanding. Our system achieved \\textbf{2nd place} on hate speech detection (F1: 0.797) and \\textbf{4th place} on sentiment analysis (F1: 0.518). We provide detailed ablations, error analysis, and insights into adapting large vision-language models for low-resource South Asian languages.",
+      "pub_date": "Mon, 03 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "ZeroR@CHiPSAL 2026：基于对比学习的尼泊尔模因分类两阶段视觉语言适配",
+        "summary": "本文介绍CHiPSAL 2026共享任务中尼泊尔模因多模态仇恨言论与情感分析系统。采用Qwen3-VL-8B-Instruct，两阶段训练：LoRA微调生成分类与对比骨干微调，集成推理，处理类别不平衡，获仇恨检测第二名（F1:0.797）和情感分析第四名（F1:0.518）。",
+        "summary_en": "This paper presents a system for CHiPSAL 2026 Nepali meme hate speech and sentiment analysis, using Qwen3-VL-8B-Instruct with two-stage training (LoRA and contrastive), achieving 2nd place in hate detection (F1:0.797) and 4th in sentiment (F1:0.518).",
+        "tags": [
+          "multimodal",
+          "fine-tuning",
+          "llm",
+          "research",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-03-rss-007",
+        "title": "ZeroR@CHiPSAL 2026：基于对比学习的尼泊尔模因分类两阶段视觉语言适配",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.28637",
+        "language": "en",
+        "summary": "本文介绍CHiPSAL 2026共享任务中尼泊尔模因多模态仇恨言论与情感分析系统。采用Qwen3-VL-8B-Instruct，两阶段训练：LoRA微调生成分类与对比骨干微调，集成推理，处理类别不平衡，获仇恨检测第二名（F1:0.797）和情感分析第四名（F1:0.518）。",
+        "summary_en": "This paper presents a system for CHiPSAL 2026 Nepali meme hate speech and sentiment analysis, using Qwen3-VL-8B-Instruct with two-stage training (LoRA and contrastive), achieving 2nd place in hate detection (F1:0.797) and 4th in sentiment (F1:0.518).",
+        "tags": [
+          "multimodal",
+          "fine-tuning",
+          "llm",
+          "research",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-08-03T19:20:17.994576+08:00",
+        "updated_at": "2026-08-03T19:20:17.994578+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Learning Stateful Predictive Knowledge From Experience",
+      "url": "https://arxiv.org/abs/2607.28638",
+      "description": "arXiv:2607.28638v1 Announce Type: new \nAbstract: As large language model (LLM) agents increasingly learn from experience, they primarily rely on trajectory-level reflection to extract insights. Viewed through the lens of predictive knowledge, we argue that this approach operates on episodic hindsight rather than predictive foresight, yielding brittle, path-dependent heuristics. To address this, we propose Stateful Knowledge Learning (SKL). SKL shifts the agent's focus from trajectory-level summarization to maintaining Stateful Knowledge: explicit, declarative predictive assessments anchored to state. We first demonstrate a motivating example showing how stateful knowledge provides granularity, enhances generalization, and enables knowledge bootstrapping. To further scale up the idea, we introduce two algorithms via self-distillation (SKL-SD) and reinforcement learning (SKL-RL), training agents to autonomously extract state-grounded predictive knowledge from experience and learn to leverage it for policy making. Experiments on interactive environments (WebShop, ScienceWorld) and a complex reasoning task (ChessPuzzles) demonstrate that equipping models with the inherent ability to learn stateful predictive knowledge significantly outpaces current reflection-based training paradigms.",
+      "pub_date": "Mon, 03 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "从经验中学习有状态的预测性知识",
+        "summary": "提出状态知识学习（SKL），使LLM代理从轨迹级反思转向维护显式的、基于状态的预测性知识。通过自蒸馏和强化学习两种算法，代理能自主提取并利用此类知识，在WebShop、ScienceWorld和ChessPuzzles等任务上显著优于现有反思方法。",
+        "summary_en": "Proposes Stateful Knowledge Learning (SKL) to shift LLM agents from trajectory-level reflection to maintaining explicit, state-grounded predictive knowledge. Two algorithms via self-distillation and RL enable autonomous extraction and use, outperforming reflection-based methods on WebShop, ScienceWorld, and ChessPuzzles.",
+        "tags": [
+          "llm",
+          "agent-framework",
+          "research",
+          "reinforcement-learning",
+          "self-distillation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-03-rss-006",
+        "title": "从经验中学习有状态的预测性知识",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.28638",
+        "language": "en",
+        "summary": "提出状态知识学习（SKL），使LLM代理从轨迹级反思转向维护显式的、基于状态的预测性知识。通过自蒸馏和强化学习两种算法，代理能自主提取并利用此类知识，在WebShop、ScienceWorld和ChessPuzzles等任务上显著优于现有反思方法。",
+        "summary_en": "Proposes Stateful Knowledge Learning (SKL) to shift LLM agents from trajectory-level reflection to maintaining explicit, state-grounded predictive knowledge. Two algorithms via self-distillation and RL enable autonomous extraction and use, outperforming reflection-based methods on WebShop, ScienceWorld, and ChessPuzzles.",
+        "tags": [
+          "llm",
+          "agent-framework",
+          "research",
+          "reinforcement-learning",
+          "self-distillation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-03T19:20:17.994572+08:00",
+        "updated_at": "2026-08-03T19:20:17.994573+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

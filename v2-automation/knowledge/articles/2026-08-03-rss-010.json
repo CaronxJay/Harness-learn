@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-03-rss-010",
+  "title": "基于GMM和LLM的定向数据增强实现不平衡数据聚类",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.28635",
+  "language": "en",
+  "summary": "提出一种无监督数据增强方法，结合高斯混合模型（GMM）检测少数类簇，并利用大语言模型（LLM）生成合成文本来丰富这些簇，从而改善不平衡文本数据中的聚类表现和可解释性。实验表明该方法在保持聚类性能的同时提升少数类表示。",
+  "summary_en": "Presents an unsupervised data augmentation method combining GMMs to detect underrepresented clusters and LLMs to generate synthetic documents, improving clustering performance and interpretability on imbalanced text datasets.",
+  "tags": [
+    "llm",
+    "research",
+    "application",
+    "fine-tuning"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-03T19:20:17.994590+08:00",
+  "updated_at": "2026-08-03T19:20:17.994591+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

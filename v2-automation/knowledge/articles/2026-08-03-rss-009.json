@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-03-rss-009",
+  "title": "LLM能否真正理解题目难度？对使用LLM自动生成试题的启示",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.28634",
+  "language": "en",
+  "summary": "该研究评估了LLM在预测大规模阅读与写作测试题目难度上的表现。零样本GPT-4.1（温度0）达到最高准确率（QWK=0.578），但仍低于ConvBERT（0.625）。所有LLM难以识别难题，GPT-5.4倾向低估难度，嵌入分析表明语义信息不足以预测难度，提示使用LLM生成特定难度题目需谨慎。",
+  "summary_en": "This study evaluates LLMs' performance in predicting item difficulty in a large-scale reading and writing test. Zero-shot GPT-4.1 achieved the highest accuracy (QWK=0.578) but still lower than ConvBERT (0.625). All LLMs struggled with hard items, GPT-5.4 underestimated difficulty, and embeddings showed semantic information is insufficient, cautioning against using LLMs to generate items with targeted difficulty.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-03T19:20:17.994585+08:00",
+  "updated_at": "2026-08-03T19:20:17.994586+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

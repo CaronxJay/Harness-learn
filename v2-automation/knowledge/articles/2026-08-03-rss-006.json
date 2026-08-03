@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-03-rss-006",
+  "title": "从经验中学习有状态的预测性知识",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.28638",
+  "language": "en",
+  "summary": "提出状态知识学习（SKL），使LLM代理从轨迹级反思转向维护显式的、基于状态的预测性知识。通过自蒸馏和强化学习两种算法，代理能自主提取并利用此类知识，在WebShop、ScienceWorld和ChessPuzzles等任务上显著优于现有反思方法。",
+  "summary_en": "Proposes Stateful Knowledge Learning (SKL) to shift LLM agents from trajectory-level reflection to maintaining explicit, state-grounded predictive knowledge. Two algorithms via self-distillation and RL enable autonomous extraction and use, outperforming reflection-based methods on WebShop, ScienceWorld, and ChessPuzzles.",
+  "tags": [
+    "llm",
+    "agent-framework",
+    "research",
+    "reinforcement-learning",
+    "self-distillation"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-03T19:20:17.994572+08:00",
+  "updated_at": "2026-08-03T19:20:17.994573+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
