@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-04-rss-007",
+  "title": "AgentMemBench：对话式AI代理长期记忆管理策略的系统性基准评估",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.00009",
+  "language": "en",
+  "summary": "AgentMemBench是一个统一、可复现的基准，用于评估五种长期记忆管理策略（上下文窗口、外部键值存储、图式情景记忆、压缩摘要、网络增强记忆）在三个数据集上的表现。结果显示外部键值存储在质量上全面领先，而长程回忆是关键瓶颈，同时揭示了准确性与效率之间的权衡。",
+  "summary_en": "AgentMemBench is a unified, reproducible benchmark evaluating five long-term memory management strategies across three datasets. Results show external key-value storage dominates on quality, long-range recall is a critical bottleneck, and there is an explicit accuracy-efficiency trade-off.",
+  "tags": [
+    "benchmark",
+    "llm",
+    "agent-framework",
+    "rag",
+    "evaluation"
+  ],
+  "category": "benchmark",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-04T18:36:00.765068+08:00",
+  "updated_at": "2026-08-04T18:36:00.765070+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

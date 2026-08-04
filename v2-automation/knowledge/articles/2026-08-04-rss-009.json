@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-04-rss-009",
+  "title": "经济高效的数学证明自动评判",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.00004",
+  "language": "en",
+  "summary": "该研究探讨使用廉价开源模型评判自然语言数学证明。在IMO-GradingBench上，三个廉价评判模型与人类判断的一致性不逊于前沿模型，成本低100倍。推荐使用全三通过规则，但需独立验证。",
+  "summary_en": "This research explores using cheap open-weight models to judge natural-language math proofs. On IMO-GradingBench, three cheap judges match frontier models in agreement with human decisions at up to 100x lower cost. The all-three-pass rule is recommended but needs independent replication.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-04T18:36:00.765077+08:00",
+  "updated_at": "2026-08-04T18:36:00.765079+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-04-rss-006",
+  "title": "MemoryForge：为类人LLM智能体合成终身记忆",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.00007",
+  "language": "en",
+  "summary": "MemoryForge是一个新框架，用于从简短的人物设定中合成终身记忆，使冻结的LLM能够动态检索情境相关记忆，从而表现出更类人的行为。它包含上下文生成器、生活组织器和多分辨率模拟器三个组件，在角色扮演和用户模拟任务上优于传统基于描述性条件化的方法。",
+  "summary_en": "MemoryForge is a novel framework that synthesizes lifelong memory from brief personas, enabling frozen LLMs to dynamically retrieve situation-relevant memories for more human-like behavior. It outperforms descriptive conditioning baselines in role-play and user simulation tasks.",
+  "tags": [
+    "llm",
+    "agent-framework",
+    "research",
+    "memory",
+    "role-play"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-04T18:36:00.765064+08:00",
+  "updated_at": "2026-08-04T18:36:00.765065+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

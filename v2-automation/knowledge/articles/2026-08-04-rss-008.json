@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-04-rss-008",
+  "title": "发现重大数学猜想的LLM框架：AI对下一个黎曼猜想的探索",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.28632",
+  "language": "en",
+  "summary": "提出一个三阶段流水线，用于系统生成和验证重大数学猜想：区域搜索、反思性验证和Lean 4形式化验证。实验显示20个候选全部通过Lean解析和类型检查，未被现有策略自动解决，且无重复。旨在发现具有高问题品味、能重组研究领域语言的问题。",
+  "summary_en": "Presents a three-stage pipeline for systematic generation and validation of major mathematical conjectures: region search, reflective validation, and formal validation in Lean 4. Experiments show 20/20 candidates pass parsing and type checking, none auto-discharged, no duplicates. Aims to discover problems with high problem taste.",
+  "tags": [
+    "llm",
+    "research",
+    "tool",
+    "benchmark",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-04T18:36:00.765073+08:00",
+  "updated_at": "2026-08-04T18:36:00.765074+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

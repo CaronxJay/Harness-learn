@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-04-rss-005",
+  "title": "RubricReviewer：从直接批评到客观全面的基于评分标准的同行评审",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.00005",
+  "language": "en",
+  "summary": "RubricReviewer 是一个完全基于评分标准的 LLM 评审框架，将评分标准生成作为显式中间步骤，结合无训练代理 Scout 收集外部证据和人类对齐模型 Aligner 消费证据，生成更全面、更具区分度的评审，并对对抗性提示注入攻击具有最强鲁棒性。",
+  "summary_en": "RubricReviewer is a fully rubric-driven LLM review framework that makes rubric generation an explicit intermediate step, combining a training-free agent (Scout) for evidence gathering and a human-aligned model (Aligner) for evidence consumption, producing more comprehensive and discriminative reviews with strong robustness against adversarial prompt injection.",
+  "tags": [
+    "llm",
+    "research",
+    "agent-framework",
+    "security",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-04T18:36:00.765060+08:00",
+  "updated_at": "2026-08-04T18:36:00.765061+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

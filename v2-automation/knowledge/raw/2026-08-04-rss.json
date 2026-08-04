@@ -1,0 +1,487 @@
+{
+  "collected_at": "2026-08-04T18:36:00.765959+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "OpenClaw and Ollama in Agentic AI: Toward Fully Autonomous and Scalable AI Agent Systems",
+      "url": "https://arxiv.org/abs/2607.28629",
+      "description": "arXiv:2607.28629v1 Announce Type: new \nAbstract: The rapid transition from reactive large language models (LLMs) to persistent, action-capable systems has exposed critical gaps in the architectural understanding of Agentic AI, particularly in separating inference, orchestration, and execution layers for autonomous AI agents. Despite recent advances, unified frameworks for designing and evaluating full-stack agentic systems remain limited. This paper presents a comprehensive, layered architecture for Agentic AI, outlining the evolution from reactive LLM interfaces to persistent, goal-driven autonomous AI agents with memory, planning, and continuous execution. We analyze OpenClaw and Ollama as a full-stack Agentic AI system, where Ollama serves as the LLM inference layer and OpenClaw enables agent runtime orchestration, integrating reasoning, tool use, and action execution. A prototype experimental validation of the OpenClaw-Ollama architecture demonstrates that capabilities such as persistent memory, tool utilization, and adaptive decision-making emerge from system-level integration rather than standalone models, with performance improving consistently as architectural complexity increases. The study further examines challenges in scalability, security, privacy, governance, and evaluation of agentic systems, highlighting the need for robust benchmarking and system-level design. Future directions include scalable multi-agent architectures, distributed autonomous systems, and human-aware Agentic AI frameworks for responsible deployment. Overall, this work establishes a unified architectural foundation for Agentic AI, validates the effectiveness of full-stack autonomous AI agents, and provides a roadmap for building scalable, secure, and trustworthy agentic systems. All models, code, and datasets are publicly released to support reproducibility and benchmarking.",
+      "pub_date": "Tue, 04 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "OpenClaw与Ollama在代理式AI中的应用：迈向完全自主且可扩展的AI代理系统",
+        "summary": "本文提出代理式AI的分层架构，区分推理、编排和执行层。通过OpenClaw与Ollama的全栈集成，验证了持久记忆、工具使用和自适应决策等能力源于系统级集成而非单一模型。讨论了可扩展性、安全、隐私和评估挑战，并发布模型、代码和数据集以支持复现和基准测试。",
+        "summary_en": "This paper proposes a layered architecture for Agentic AI, separating inference, orchestration, and execution. Validating the OpenClaw-Ollama full-stack system, it shows capabilities like persistent memory and tool use emerge from system integration. Discusses scalability, security, and evaluation challenges, releasing models and code for reproducibility.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "infrastructure",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-04-rss-001",
+        "title": "OpenClaw与Ollama在代理式AI中的应用：迈向完全自主且可扩展的AI代理系统",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.28629",
+        "language": "en",
+        "summary": "本文提出代理式AI的分层架构，区分推理、编排和执行层。通过OpenClaw与Ollama的全栈集成，验证了持久记忆、工具使用和自适应决策等能力源于系统级集成而非单一模型。讨论了可扩展性、安全、隐私和评估挑战，并发布模型、代码和数据集以支持复现和基准测试。",
+        "summary_en": "This paper proposes a layered architecture for Agentic AI, separating inference, orchestration, and execution. Validating the OpenClaw-Ollama full-stack system, it shows capabilities like persistent memory and tool use emerge from system integration. Discusses scalability, security, and evaluation challenges, releasing models and code for reproducibility.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "infrastructure",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-04T18:36:00.765039+08:00",
+        "updated_at": "2026-08-04T18:36:00.765042+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Can AI Evaluate AI Scientists? A Benchmarking Study of Autonomous Research Generation Systems Using Automated Multi-Model Review",
+      "url": "https://arxiv.org/abs/2607.28631",
+      "description": "arXiv:2607.28631v1 Announce Type: new \nAbstract: AI Scientist systems capable of autonomous research have the potential to significantly accelerate scientific discovery. However, evaluating and comparing the quality of AI-generated papers remains an open challenge. We propose and implement a rigorous benchmarking protocol using an automated peer-review system that harnesses frontier large language models to assess scientific papers across four core dimensions: originality, scientific rigor, clarity, and significance. We evaluate four leading AI Scientist frameworks: \\textit{Sakana AI (v1 & v2)}, \\textit{CycleResearcher}, and \\textit{Data-to-Paper}. Each framework was run on a consistent set of 15 research proposals published by a commercial autonomous AI scientist company (FARS), generating 60 papers that we evaluate alongside 15 FARS benchmark papers. Using three independent LLM reviewers (GPT-5.4, Gemini, and Claude), we find that FARS benchmark papers significantly outperform all competing frameworks, achieving mean scores of 2.14--2.47 on a 1--5 scale compared to 1.00--1.87 for other systems. Notably, FARS scores are more than 2$\\times$ higher than the next-best systems on Gemini and Claude evaluations. We find strong agreement among Gemini and Claude ($\\rho$ = 0.907, $p < 0.001$), and both correlate extremely strongly with the synthesis score ($\\rho$ = 0.961, $p < 0.001$), validating the reliability of automated evaluation. However, GPT-5.4 exhibits weaker agreement ($\\rho \\approx 0.32$), suggesting it evaluates papers using different criteria. These results establish the first quantitative benchmark for AI Scientist systems and demonstrate that multi-model LLM evaluation provides a scalable, consistent framework for assessing autonomous research quality.",
+      "pub_date": "Tue, 04 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "AI能否评估AI科学家？基于自动多模型评审的自主研究生成系统基准测试研究",
+        "summary": "提出用前沿LLM作为自动同行评审，从原创性、严谨性、清晰度、重要性四维度评估AI科学家系统。对Sakana AI、CycleResearcher、Data-to-Paper及FARS生成的75篇论文进行评测，发现FARS显著领先，且Gemini与Claude评审高度一致，验证了多模型评估的可靠性。",
+        "summary_en": "Proposes an automated peer-review protocol using frontier LLMs to evaluate AI Scientist systems across four dimensions. Testing on 75 papers from four frameworks, FARS outperforms others, and Gemini/Claude show high agreement, validating multi-model evaluation reliability.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "evaluation",
+          "research"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-04-rss-002",
+        "title": "AI能否评估AI科学家？基于自动多模型评审的自主研究生成系统基准测试研究",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.28631",
+        "language": "en",
+        "summary": "提出用前沿LLM作为自动同行评审，从原创性、严谨性、清晰度、重要性四维度评估AI科学家系统。对Sakana AI、CycleResearcher、Data-to-Paper及FARS生成的75篇论文进行评测，发现FARS显著领先，且Gemini与Claude评审高度一致，验证了多模型评估的可靠性。",
+        "summary_en": "Proposes an automated peer-review protocol using frontier LLMs to evaluate AI Scientist systems across four dimensions. Testing on 75 papers from four frameworks, FARS outperforms others, and Gemini/Claude show high agreement, validating multi-model evaluation reliability.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "evaluation",
+          "research"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-04T18:36:00.765046+08:00",
+        "updated_at": "2026-08-04T18:36:00.765048+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "LLM Framework for Discovering Major Mathematical Conjectures: AI's Quest for the Next Riemann Hypothesis",
+      "url": "https://arxiv.org/abs/2607.28632",
+      "description": "arXiv:2607.28632v1 Announce Type: new \nAbstract: Major mathematical conjectures still depend heavily on expert intuition, so a unified method for the systematic generation and validation of conjectures with substantial mathematical potential remains unavailable. We present a three stage pipeline for major conjecture discovery, with region search from explicit local evidence modules, reflective validation for foundationality, novelty, and potential significance, and formal validation in Lean 4 and Mathlib. The objective is the discovery of mathematical problems with high problem taste, namely problems whose proofs could reorganize the language of a research area and provide durable help to human mathematical research. Experiments on twenty candidates showstable passage from natural language to formal checks, with twenty out of twenty candidates passing Lean parsing and type checking, twenty out of twenty candidates not directly absorbed by exact?,twenty out of twenty candidates not automatically discharged by aesop, and no explicit duplicates or near duplicates.",
+      "pub_date": "Tue, 04 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "发现重大数学猜想的LLM框架：AI对下一个黎曼猜想的探索",
+        "summary": "提出一个三阶段流水线，用于系统生成和验证重大数学猜想：区域搜索、反思性验证和Lean 4形式化验证。实验显示20个候选全部通过Lean解析和类型检查，未被现有策略自动解决，且无重复。旨在发现具有高问题品味、能重组研究领域语言的问题。",
+        "summary_en": "Presents a three-stage pipeline for systematic generation and validation of major mathematical conjectures: region search, reflective validation, and formal validation in Lean 4. Experiments show 20/20 candidates pass parsing and type checking, none auto-discharged, no duplicates. Aims to discover problems with high problem taste.",
+        "tags": [
+          "llm",
+          "research",
+          "tool",
+          "benchmark",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-04-rss-008",
+        "title": "发现重大数学猜想的LLM框架：AI对下一个黎曼猜想的探索",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.28632",
+        "language": "en",
+        "summary": "提出一个三阶段流水线，用于系统生成和验证重大数学猜想：区域搜索、反思性验证和Lean 4形式化验证。实验显示20个候选全部通过Lean解析和类型检查，未被现有策略自动解决，且无重复。旨在发现具有高问题品味、能重组研究领域语言的问题。",
+        "summary_en": "Presents a three-stage pipeline for systematic generation and validation of major mathematical conjectures: region search, reflective validation, and formal validation in Lean 4. Experiments show 20/20 candidates pass parsing and type checking, none auto-discharged, no duplicates. Aims to discover problems with high problem taste.",
+        "tags": [
+          "llm",
+          "research",
+          "tool",
+          "benchmark",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-04T18:36:00.765073+08:00",
+        "updated_at": "2026-08-04T18:36:00.765074+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "ThinkReset: Learnable Intermediate Interface Construction for Bounded-Context Long-Horizon Reasoning",
+      "url": "https://arxiv.org/abs/2607.28642",
+      "description": "arXiv:2607.28642v1 Announce Type: new \nAbstract: Long chain-of-thought reasoning improves performance on complex problems, but it also introduces redundancy accumulation, context overflow, and error anchoring. We argue that under bounded context windows, the core bottleneck is not trajectory compression or test-time control, but the absence of a reusable intermediate interface that can replace discarded history and support continued solving. We further identify a key failure mode of outcome-reward-driven long-chain reinforcement learning: when the model has not solved the task before the window is nearly exhausted, the final-answer reward encourages premature guessing rather than continued careful reasoning. We propose ThinkReset, a text-space instantiation of this view. ThinkReset explicitly constructs reusable intermediate interfaces through interface writeback and reset, and directly optimizes post-reset continuation success. Across multiple long-horizon reasoning benchmarks, this perspective consistently improves success rates under fixed context windows.",
+      "pub_date": "Tue, 04 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "ThinkReset：面向有界上下文长时推理的可学习中间接口构建",
+        "summary": "ThinkReset提出在有限上下文窗口下，通过显式构建可复用的中间接口（写入与重置）来替代被丢弃的历史，并直接优化重置后的继续求解成功率，解决了长链推理中的冗余累积、上下文溢出和错误锚定问题，以及结果奖励导致的过早猜测。在多个长时推理基准上提升了固定上下文下的成功率。",
+        "summary_en": "ThinkReset proposes constructing reusable intermediate interfaces via writeback and reset to replace discarded history under bounded contexts, directly optimizing post-reset continuation success. It addresses redundancy, overflow, error anchoring, and premature guessing in long-chain reasoning, improving success rates on benchmarks.",
+        "tags": [
+          "llm",
+          "research",
+          "reasoning",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-04-rss-003",
+        "title": "ThinkReset：面向有界上下文长时推理的可学习中间接口构建",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.28642",
+        "language": "en",
+        "summary": "ThinkReset提出在有限上下文窗口下，通过显式构建可复用的中间接口（写入与重置）来替代被丢弃的历史，并直接优化重置后的继续求解成功率，解决了长链推理中的冗余累积、上下文溢出和错误锚定问题，以及结果奖励导致的过早猜测。在多个长时推理基准上提升了固定上下文下的成功率。",
+        "summary_en": "ThinkReset proposes constructing reusable intermediate interfaces via writeback and reset to replace discarded history under bounded contexts, directly optimizing post-reset continuation success. It addresses redundancy, overflow, error anchoring, and premature guessing in long-chain reasoning, improving success rates on benchmarks.",
+        "tags": [
+          "llm",
+          "research",
+          "reasoning",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-04T18:36:00.765051+08:00",
+        "updated_at": "2026-08-04T18:36:00.765052+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "TAPR: Enhancing LLM Performance with a Task-Aware Prompt Rewriter",
+      "url": "https://arxiv.org/abs/2607.28657",
+      "description": "arXiv:2607.28657v1 Announce Type: new \nAbstract: Large Language Models (LLMs) often require carefully crafted prompts to unlock their full potential, which can be a barrier for non-expert users. This work addresses the challenge by introducing a Task-Aware Prompt Rewriter (TAPR), a model that reformulates user prompts into task-optimized prompts with the explicit goal of improving downstream LLM performance. We train TAPR using reinforcement learning with Group Relative Policy Optimization (GRPO), where rewards are derived from LLM-as-judge evaluations of both the reformulated prompt and the corresponding task output. Experimental results on diverse tasks, such as question answering, summarization, and arithmetic reasoning, show that our method yields consistent gains over base models in prompt rewriting ability. Fine-tuning Phi-4-mini-instruct (as the base model for TAPR) produces prompts that contain clearer and more instructive language, leading to higher accuracy on established benchmarks such as Natural Questions and GSM8K. Our code is available at: https://github.com/OliverSavolainen/task-specific-prompt-rewriter",
+      "pub_date": "Tue, 04 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "TAPR：一种任务感知的提示重写器，用于提升LLM性能",
+        "summary": "TAPR是一种任务感知的提示重写器，通过强化学习（GRPO）训练，将用户提示重写为任务优化提示，以提升下游LLM性能。在问答、摘要和算术推理等任务上，基于Phi-4-mini-instruct的TAPR在Natural Questions和GSM8K等基准上取得一致提升。",
+        "summary_en": "TAPR is a task-aware prompt rewriter trained with GRPO to reformulate user prompts into task-optimized ones, improving downstream LLM performance. It shows consistent gains on benchmarks like Natural Questions and GSM8K using Phi-4-mini-instruct.",
+        "tags": [
+          "llm",
+          "prompt-engineering",
+          "fine-tuning",
+          "research"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-04-rss-004",
+        "title": "TAPR：一种任务感知的提示重写器，用于提升LLM性能",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2607.28657",
+        "language": "en",
+        "summary": "TAPR是一种任务感知的提示重写器，通过强化学习（GRPO）训练，将用户提示重写为任务优化提示，以提升下游LLM性能。在问答、摘要和算术推理等任务上，基于Phi-4-mini-instruct的TAPR在Natural Questions和GSM8K等基准上取得一致提升。",
+        "summary_en": "TAPR is a task-aware prompt rewriter trained with GRPO to reformulate user prompts into task-optimized ones, improving downstream LLM performance. It shows consistent gains on benchmarks like Natural Questions and GSM8K using Phi-4-mini-instruct.",
+        "tags": [
+          "llm",
+          "prompt-engineering",
+          "fine-tuning",
+          "research"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-04T18:36:00.765055+08:00",
+        "updated_at": "2026-08-04T18:36:00.765057+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Cost-Effective Automated Judging of Natural-Language Mathematical Proofs",
+      "url": "https://arxiv.org/abs/2608.00004",
+      "description": "arXiv:2608.00004v1 Announce Type: new \nAbstract: Grading natural-language mathematical proofs is a recurring cost in evaluating math-reasoning systems, and frontier LLM judges are expensive. We ask whether cheap open-weight models can serve as reliable judges given a candidate proof, a ground-truth proof, and a human-grading rubric. On a 200-instance validation sample of IMO-GradingBench, three cheap judges (GPT-OSS 120B, DeepSeek-V4 Flash, Gemma-4 31B) agree with human pass/fail decisions at rates statistically indistinguishable from Claude Opus 4.7 and Gemini 3.1 Pro, at up to $100\\times$ lower cost. We had expected a majority vote of the three to be the best budget option; it matched the frontier but did not improve on its strongest member. Extending to the full 1000-instance benchmark and exploring consensus rules, we found that requiring unanimous agreement (all-three-pass) reaches the highest pass-agreement and precision and, on four replicate runs, the smallest run-to-run spread. The headline finding is that cheap judges are competitive with the frontier at one to two orders of magnitude lower cost; as a deployable default we recommend all-three-pass, with the caveat that this rule was identified post-hoc and warrants independent replication.",
+      "pub_date": "Tue, 04 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "经济高效的数学证明自动评判",
+        "summary": "该研究探讨使用廉价开源模型评判自然语言数学证明。在IMO-GradingBench上，三个廉价评判模型与人类判断的一致性不逊于前沿模型，成本低100倍。推荐使用全三通过规则，但需独立验证。",
+        "summary_en": "This research explores using cheap open-weight models to judge natural-language math proofs. On IMO-GradingBench, three cheap judges match frontier models in agreement with human decisions at up to 100x lower cost. The all-three-pass rule is recommended but needs independent replication.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-04-rss-009",
+        "title": "经济高效的数学证明自动评判",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.00004",
+        "language": "en",
+        "summary": "该研究探讨使用廉价开源模型评判自然语言数学证明。在IMO-GradingBench上，三个廉价评判模型与人类判断的一致性不逊于前沿模型，成本低100倍。推荐使用全三通过规则，但需独立验证。",
+        "summary_en": "This research explores using cheap open-weight models to judge natural-language math proofs. On IMO-GradingBench, three cheap judges match frontier models in agreement with human decisions at up to 100x lower cost. The all-three-pass rule is recommended but needs independent replication.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-04T18:36:00.765077+08:00",
+        "updated_at": "2026-08-04T18:36:00.765079+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "RubricReviewer: From Direct Critique to Objective and Comprehensive Rubric-Driven Peer Review",
+      "url": "https://arxiv.org/abs/2608.00005",
+      "description": "arXiv:2608.00005v1 Announce Type: new \nAbstract: Peer review at major venues is under unprecedented submission pressure, motivating the use of large language models (LLMs) as review assistants. Existing LLM-based reviewers, however, face two structural limitations. First, they map manuscripts directly to reviews, leaving the underlying rubric implicit and entangling its derivation with the judgement. Second, the prevailing paradigms each capture only half of a good review: training-free agents gather broad evidence but produce undirected critiques, while training-based reviewers inherit human discriminative judgement together with its noise and uneven coverage. We introduce RubricReviewer, a fully rubric-driven framework that addresses both limitations. It makes rubric generation an explicit intermediate step, so that both review generation and the final assessment are conditioned on paper-adaptive rubrics. It further combines a training-free agent (Scout) that gathers external evidence with a human-aligned trained model (Aligner) that consumes this evidence, fusing the strengths of both supervision sources. Experiments on real-world submissions show that RubricReviewer produces reviews that are markedly more comprehensive and more discriminative than prior systems, and exhibits the strongest robustness against adversarial prompt-injection attacks. Ablation studies further confirm the necessity of each component.",
+      "pub_date": "Tue, 04 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "RubricReviewer：从直接批评到客观全面的基于评分标准的同行评审",
+        "summary": "RubricReviewer 是一个完全基于评分标准的 LLM 评审框架，将评分标准生成作为显式中间步骤，结合无训练代理 Scout 收集外部证据和人类对齐模型 Aligner 消费证据，生成更全面、更具区分度的评审，并对对抗性提示注入攻击具有最强鲁棒性。",
+        "summary_en": "RubricReviewer is a fully rubric-driven LLM review framework that makes rubric generation an explicit intermediate step, combining a training-free agent (Scout) for evidence gathering and a human-aligned model (Aligner) for evidence consumption, producing more comprehensive and discriminative reviews with strong robustness against adversarial prompt injection.",
+        "tags": [
+          "llm",
+          "research",
+          "agent-framework",
+          "security",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-04-rss-005",
+        "title": "RubricReviewer：从直接批评到客观全面的基于评分标准的同行评审",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.00005",
+        "language": "en",
+        "summary": "RubricReviewer 是一个完全基于评分标准的 LLM 评审框架，将评分标准生成作为显式中间步骤，结合无训练代理 Scout 收集外部证据和人类对齐模型 Aligner 消费证据，生成更全面、更具区分度的评审，并对对抗性提示注入攻击具有最强鲁棒性。",
+        "summary_en": "RubricReviewer is a fully rubric-driven LLM review framework that makes rubric generation an explicit intermediate step, combining a training-free agent (Scout) for evidence gathering and a human-aligned model (Aligner) for evidence consumption, producing more comprehensive and discriminative reviews with strong robustness against adversarial prompt injection.",
+        "tags": [
+          "llm",
+          "research",
+          "agent-framework",
+          "security",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-04T18:36:00.765060+08:00",
+        "updated_at": "2026-08-04T18:36:00.765061+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "MemoryForge: Synthesize Lifelong Memory for Human-Like LLM Agents",
+      "url": "https://arxiv.org/abs/2608.00007",
+      "description": "arXiv:2608.00007v1 Announce Type: new \nAbstract: Equipping Large Language Models (LLMs) with human-like personas is crucial for agentic applications, such as role-play and user simulation. Traditional prompt-based methods rely on descriptive conditioning by injecting static textual profiles, which often makes agents show generic behaviors due to a lack of realistic life memory. To fill this gap, we introduce memory-based conditioning, a paradigm inspired by the cognitive psychology, which replaces abstract profiles with an autobiographical memory base, enabling frozen LLMs to dynamically retrieve situation-relevant memory to guide their behaviors. We formalize its enabling task as customized lifelong memory synthesis and propose MemoryForge, a novel framework to synthesize such lifelong memory from brief target personas. MemoryForge has three key components: a context generator for socio-historical grounding, a life organizer for developmental coherence toward the target identity, and a multi-resolution simulator that balances broad temporal summaries with high-fidelity episodic experiences. Experiments on PersonaGym for role-play and SimulatorArena for user-simulation, show that the synthesized memory base by MemoryForge enables frozen LLMs to exhibit more human-like behaviors than strong descriptive conditioning baselines across multiple metrics and LLM backbones.",
+      "pub_date": "Tue, 04 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "MemoryForge：为类人LLM智能体合成终身记忆",
+        "summary": "MemoryForge是一个新框架，用于从简短的人物设定中合成终身记忆，使冻结的LLM能够动态检索情境相关记忆，从而表现出更类人的行为。它包含上下文生成器、生活组织器和多分辨率模拟器三个组件，在角色扮演和用户模拟任务上优于传统基于描述性条件化的方法。",
+        "summary_en": "MemoryForge is a novel framework that synthesizes lifelong memory from brief personas, enabling frozen LLMs to dynamically retrieve situation-relevant memories for more human-like behavior. It outperforms descriptive conditioning baselines in role-play and user simulation tasks.",
+        "tags": [
+          "llm",
+          "agent-framework",
+          "research",
+          "memory",
+          "role-play"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-04-rss-006",
+        "title": "MemoryForge：为类人LLM智能体合成终身记忆",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.00007",
+        "language": "en",
+        "summary": "MemoryForge是一个新框架，用于从简短的人物设定中合成终身记忆，使冻结的LLM能够动态检索情境相关记忆，从而表现出更类人的行为。它包含上下文生成器、生活组织器和多分辨率模拟器三个组件，在角色扮演和用户模拟任务上优于传统基于描述性条件化的方法。",
+        "summary_en": "MemoryForge is a novel framework that synthesizes lifelong memory from brief personas, enabling frozen LLMs to dynamically retrieve situation-relevant memories for more human-like behavior. It outperforms descriptive conditioning baselines in role-play and user simulation tasks.",
+        "tags": [
+          "llm",
+          "agent-framework",
+          "research",
+          "memory",
+          "role-play"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-04T18:36:00.765064+08:00",
+        "updated_at": "2026-08-04T18:36:00.765065+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "AgentMemBench: A Systematic Benchmark for Evaluating Long-Term Memory Management Strategies in Conversational AI Agents",
+      "url": "https://arxiv.org/abs/2608.00009",
+      "description": "arXiv:2608.00009v1 Announce Type: new \nAbstract: Long-term memory remains a critical bottleneck for conversational AI agents, whose finite context windows cannot support coherent recall across thousands of turns. We present AgentMemBench, a unified, reproducible benchmark evaluating five memory management strategies under identical conditions: in-context windowing (ICW), external key-value store (EKV), graph-based episodic memory (GEM), compression-based summarisation (CBS), and web-augmented memory (WAM). All are assessed across three public datasets covering long-term multi-session dialogue (LoCoMo), task-oriented document grounding (MultiDoc2Dial), and persona-grounded multi-session chat (MSC), using Recall@k, MRR, nDCG@k, Answer F1, an LLM-judge Faithfulness score, Memory Footprint, and Latency over 491 annotated question turns. Generation and judging both use Qwen2.5-7B-Instruct (4-bit), with greedy decoding for determinism. Our results show that (1) EKV dominates on every quality axis (macro Recall@5 0.792, MRR 0.677, F1 0.156, Faithfulness 0.354); (2) long-range recall is decisive: on LoCoMo, where the gold turn lies many sessions back, ICW, WAM, GEM, and CBS retrieve almost nothing (Recall@5 <= 0.005) while EKV alone reaches 0.573, showing that recency windows, summaries, and entity graphs collapse at long horizons and only dense retrieval scales; (3) CBS is the runner-up on retrieval (0.556); (4) WAM equals ICW on in-corpus recall by construction, since external results carry no in-corpus provenance; and (5) EKV's recall advantage carries a footprint cost (~5,100 vs ~300 tokens for ICW/WAM), an explicit accuracy-efficiency trade-off. We additionally evaluate two published memory systems (MemGPT/Letta, HippoRAG) against the same harness, and release all code, environment, and result artefacts for full reproducibility.",
+      "pub_date": "Tue, 04 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "AgentMemBench：对话式AI代理长期记忆管理策略的系统性基准评估",
+        "summary": "AgentMemBench是一个统一、可复现的基准，用于评估五种长期记忆管理策略（上下文窗口、外部键值存储、图式情景记忆、压缩摘要、网络增强记忆）在三个数据集上的表现。结果显示外部键值存储在质量上全面领先，而长程回忆是关键瓶颈，同时揭示了准确性与效率之间的权衡。",
+        "summary_en": "AgentMemBench is a unified, reproducible benchmark evaluating five long-term memory management strategies across three datasets. Results show external key-value storage dominates on quality, long-range recall is a critical bottleneck, and there is an explicit accuracy-efficiency trade-off.",
+        "tags": [
+          "benchmark",
+          "llm",
+          "agent-framework",
+          "rag",
+          "evaluation"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-04-rss-007",
+        "title": "AgentMemBench：对话式AI代理长期记忆管理策略的系统性基准评估",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.00009",
+        "language": "en",
+        "summary": "AgentMemBench是一个统一、可复现的基准，用于评估五种长期记忆管理策略（上下文窗口、外部键值存储、图式情景记忆、压缩摘要、网络增强记忆）在三个数据集上的表现。结果显示外部键值存储在质量上全面领先，而长程回忆是关键瓶颈，同时揭示了准确性与效率之间的权衡。",
+        "summary_en": "AgentMemBench is a unified, reproducible benchmark evaluating five long-term memory management strategies across three datasets. Results show external key-value storage dominates on quality, long-range recall is a critical bottleneck, and there is an explicit accuracy-efficiency trade-off.",
+        "tags": [
+          "benchmark",
+          "llm",
+          "agent-framework",
+          "rag",
+          "evaluation"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-04T18:36:00.765068+08:00",
+        "updated_at": "2026-08-04T18:36:00.765070+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "DLLM-TTS: Block Discrete Diffusion Language Model for Text-to-Speech Synthesis",
+      "url": "https://arxiv.org/abs/2608.00011",
+      "description": "arXiv:2608.00011v1 Announce Type: new \nAbstract: Current text-to-speech systems face a trade-off: autoregres- sive codec language models produce highly intelligible speech but require large-scale models and training data and decode tokens sequentially, while non-autoregressive approaches im- prove speed at the cost of linguistic accuracy. We present DLLM-TTS, a framework that formulates TTS as conditional block discrete diffusion over X-Codec2 neural audio codec to- kens. The model decomposes sequences into blocks and applies masked diffusion within each block while processing blocks se- quentially, learning both local acoustic coherence and global text-speech alignment. During inference, parallel token pre- diction within blocks enables efficient generation with a real- time factor (RTF) of 0.15. A 0.6B-parameter model trained on 20K hours achieves competitive performance on the Seed- TTS-eval benchmark, demonstrating that block discrete diffu- sion language models enable practical and data-efficient speech synthesis with parallel generation.",
+      "pub_date": "Tue, 04 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "DLLM-TTS：用于文本到语音合成的块离散扩散语言模型",
+        "summary": "DLLM-TTS将TTS建模为基于X-Codec2音频编解码器令牌的条件块离散扩散，在块内并行预测令牌，同时顺序处理块，兼顾局部声学连贯性和全局文本-语音对齐。0.6B参数模型在20K小时数据上训练，RTF为0.15，在Seed-TTS-eval基准上表现优异，实现高效且数据高效的并行语音合成。",
+        "summary_en": "DLLM-TTS formulates TTS as conditional block discrete diffusion over X-Codec2 tokens, enabling parallel token prediction within blocks while processing blocks sequentially. A 0.6B model trained on 20K hours achieves competitive performance with RTF 0.15, offering efficient and data-efficient speech synthesis.",
+        "tags": [
+          "llm",
+          "research",
+          "multimodal",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-04-rss-010",
+        "title": "DLLM-TTS：用于文本到语音合成的块离散扩散语言模型",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.00011",
+        "language": "en",
+        "summary": "DLLM-TTS将TTS建模为基于X-Codec2音频编解码器令牌的条件块离散扩散，在块内并行预测令牌，同时顺序处理块，兼顾局部声学连贯性和全局文本-语音对齐。0.6B参数模型在20K小时数据上训练，RTF为0.15，在Seed-TTS-eval基准上表现优异，实现高效且数据高效的并行语音合成。",
+        "summary_en": "DLLM-TTS formulates TTS as conditional block discrete diffusion over X-Codec2 tokens, enabling parallel token prediction within blocks while processing blocks sequentially. A 0.6B model trained on 20K hours achieves competitive performance with RTF 0.15, offering efficient and data-efficient speech synthesis.",
+        "tags": [
+          "llm",
+          "research",
+          "multimodal",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-04T18:36:00.765082+08:00",
+        "updated_at": "2026-08-04T18:36:00.765083+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

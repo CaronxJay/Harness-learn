@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-04-rss-002",
+  "title": "AI能否评估AI科学家？基于自动多模型评审的自主研究生成系统基准测试研究",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.28631",
+  "language": "en",
+  "summary": "提出用前沿LLM作为自动同行评审，从原创性、严谨性、清晰度、重要性四维度评估AI科学家系统。对Sakana AI、CycleResearcher、Data-to-Paper及FARS生成的75篇论文进行评测，发现FARS显著领先，且Gemini与Claude评审高度一致，验证了多模型评估的可靠性。",
+  "summary_en": "Proposes an automated peer-review protocol using frontier LLMs to evaluate AI Scientist systems across four dimensions. Testing on 75 papers from four frameworks, FARS outperforms others, and Gemini/Claude show high agreement, validating multi-model evaluation reliability.",
+  "tags": [
+    "llm",
+    "benchmark",
+    "evaluation",
+    "research"
+  ],
+  "category": "benchmark",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-04T18:36:00.765046+08:00",
+  "updated_at": "2026-08-04T18:36:00.765048+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

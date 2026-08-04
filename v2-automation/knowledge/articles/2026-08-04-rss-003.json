@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-04-rss-003",
+  "title": "ThinkReset：面向有界上下文长时推理的可学习中间接口构建",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2607.28642",
+  "language": "en",
+  "summary": "ThinkReset提出在有限上下文窗口下，通过显式构建可复用的中间接口（写入与重置）来替代被丢弃的历史，并直接优化重置后的继续求解成功率，解决了长链推理中的冗余累积、上下文溢出和错误锚定问题，以及结果奖励导致的过早猜测。在多个长时推理基准上提升了固定上下文下的成功率。",
+  "summary_en": "ThinkReset proposes constructing reusable intermediate interfaces via writeback and reset to replace discarded history under bounded contexts, directly optimizing post-reset continuation success. It addresses redundancy, overflow, error anchoring, and premature guessing in long-chain reasoning, improving success rates on benchmarks.",
+  "tags": [
+    "llm",
+    "research",
+    "reasoning",
+    "fine-tuning"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-04T18:36:00.765051+08:00",
+  "updated_at": "2026-08-04T18:36:00.765052+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
