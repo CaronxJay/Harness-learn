@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-05-rss-005",
+  "title": "BBOWP-Bench：评估大语言模型在黑盒优化文字问题上的表现",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.02612",
+  "language": "en",
+  "summary": "本文提出黑盒优化文字问题（BBOWP）新设置，要求系统从自然语言描述中推断搜索空间和优化算法。构建了BBOWP-Bench基准，包含数据集和评估框架，首次评估LLM，发现其能选择合适算法但搜索空间设计能力不足。",
+  "summary_en": "Introduces BBOWP, a new setting where systems infer search space and optimization algorithm from natural language. BBOWP-Bench benchmark evaluates LLMs, showing they can select algorithms but struggle with search space design.",
+  "tags": [
+    "llm",
+    "benchmark",
+    "research",
+    "optimization"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-08-05T18:32:00.344679+08:00",
+  "updated_at": "2026-08-05T18:32:00.344681+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-05-rss-004",
+  "title": "OncoTriad-QA：用于泛癌推理的患者级放射学-病理学-基因组学基准",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.02615",
+  "language": "en",
+  "summary": "OncoTriad-QA是一个患者级多模态基准，包含86.1k个问题，覆盖9281例TCGA患者，整合放射学、病理学、基因组学和临床数据。引入OncoVLM参考模型，通过微调在泛癌问答上超越MedGemma-4B平均10.7分，验证了基准对集成癌症推理的价值。",
+  "summary_en": "OncoTriad-QA is a patient-level multimodal benchmark with 86.1k questions across 9,281 TCGA cases, integrating radiology, pathology, genomics, and clinical data. The OncoVLM reference model, fine-tuned on it, outperforms MedGemma-4B by 10.7 points on average, demonstrating the benchmark's value for integrated cancer QA.",
+  "tags": [
+    "benchmark",
+    "multimodal",
+    "llm",
+    "research",
+    "application"
+  ],
+  "category": "benchmark",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-05T18:32:00.344676+08:00",
+  "updated_at": "2026-08-05T18:32:00.344677+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

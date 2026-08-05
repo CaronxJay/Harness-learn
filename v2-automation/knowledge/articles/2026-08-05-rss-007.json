@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-05-rss-007",
+  "title": "自组织数字电路",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.02606",
+  "language": "en",
+  "summary": "提出自组织数字电路，将功能逻辑生成与维护视为图上的元学习问题。采用拓扑掩码Transformer配置电路查找表，扩展神经细胞自动机范式，可从零自组装功能电路并快速绕过硬件故障，软错误恢复准确率超99.99%，且泛化到更宽电路。",
+  "summary_en": "Introduces Self-Organising Digital Circuits, framing functional logic generation as meta-learning on graphs. A topology-masked Transformer configures LUTs, extending NCA to self-assemble circuits and reroute around faults, achieving >99.99% recovery and generalization to wider circuits.",
+  "tags": [
+    "research",
+    "llm",
+    "application",
+    "infrastructure"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-05T18:32:00.344687+08:00",
+  "updated_at": "2026-08-05T18:32:00.344689+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

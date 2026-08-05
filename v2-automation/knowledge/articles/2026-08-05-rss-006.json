@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-05-rss-006",
+  "title": "ISEE：数据库字段的交互式语义增强系统",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.02604",
+  "language": "en",
+  "summary": "ISEE是一个交互式语义增强系统，通过评分系统衡量数据字段描述质量，收集领域知识并与用户协作丰富语义，以提升LLM智能体在数据任务（如实体链接）中的性能。用户研究显示其能降低认知负荷、提高描述质量。",
+  "summary_en": "ISEE is an interactive semantic enrichment system that scores field description quality, gathers domain knowledge, and collaborates with users to enrich semantics, improving LLM agent performance in data tasks like entity linking. User studies show reduced cognitive load and better descriptions.",
+  "tags": [
+    "llm",
+    "research",
+    "application",
+    "tool"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-05T18:32:00.344684+08:00",
+  "updated_at": "2026-08-05T18:32:00.344685+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

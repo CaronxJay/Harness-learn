@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-05-rss-002",
+  "title": "HyperAgent：基于工具模式超图的LLM智能体规划与执行框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.02650",
+  "language": "en",
+  "summary": "HyperAgent提出在模式层面构建工具-模式超图，以指导LLM智能体的动态规划与执行。通过提取任务相关工具上下文图、构建模式感知任务DAG，并在执行中利用缺陷导向扩展动态生成工具支持图，减少冗余API调用和令牌消耗，提升任务完成性能。在AppWorld上验证了有效性。",
+  "summary_en": "HyperAgent models tool relations at schema level via a Tool-Schema Hypergraph, guiding LLM agents' dynamic planning and execution. It extracts task-relevant context graphs, builds schema-aware Task DAGs, and uses deficit-oriented expansion to construct state-conditioned tool support graphs, reducing redundant API calls and tokens while improving task completion on AppWorld.",
+  "tags": [
+    "llm",
+    "agent-framework",
+    "tool",
+    "research"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-05T18:32:00.344667+08:00",
+  "updated_at": "2026-08-05T18:32:00.344668+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

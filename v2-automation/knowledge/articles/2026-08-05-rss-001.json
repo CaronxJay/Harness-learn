@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-05-rss-001",
+  "title": "超越蜂群思维：通过元人格锚定与顺序温度缩放逃离LLM同质化",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.02618",
+  "language": "en",
+  "summary": "针对LLM的“人工蜂群”效应导致的语义坍缩和响应同质化问题，提出元人格锚定与过滤温度缩放（FTS）框架。通过两阶段生成和极端温度采样，将平均余弦相似度从0.85降至0.65，提升AI多样性，并开源实现。",
+  "summary_en": "Proposes Meta-Persona Anchoring with Filtered Temperature Scaling to mitigate LLM semantic collapse, reducing pairwise cosine similarity from ~0.85 to ~0.65, enhancing diversity.",
+  "tags": [
+    "llm",
+    "research",
+    "prompt-engineering",
+    "open-source"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-05T18:32:00.344659+08:00",
+  "updated_at": "2026-08-05T18:32:00.344662+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-05-rss-010",
+  "title": "PULSE：用于时空知识图谱工程的可执行契约语言",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.02630",
+  "language": "en",
+  "summary": "PULSE是一种受对象过程方法论启发的语言，将四种操作角色及其写入效果本地化于类型化运行时，通过核心演算提供效果限制引理和六项安全属性。Lean 4验证内核，88项测试和大量检查支持实现。在NOAA IBTrACS数据上，与GEOS和事件扫描在147万对转换区上一致，支持契约本地化、安全论证和轨迹一致性。",
+  "summary_en": null,
+  "tags": [
+    "knowledge-graph",
+    "language",
+    "safety",
+    "infrastructure",
+    "research"
+  ],
+  "category": "research",
+  "relevance_score": 0.7,
+  "status": "published",
+  "created_at": "2026-08-05T18:32:00.344700+08:00",
+  "updated_at": "2026-08-05T18:32:00.344701+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

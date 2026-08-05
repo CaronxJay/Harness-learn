@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-05-rss-003",
+  "title": "MemArena：面向设备端智能个人记忆助手的自我中心基准测试",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.02613",
+  "language": "en",
+  "summary": "MemArena是一个用于评估设备端个人记忆助手的基准测试，通过MASim模拟器生成50个代理15天的对话数据，涵盖六种记忆评估维度。研究发现记忆后端选择比模型扩展更重要，权限感知访问普遍失败，搜索延迟影响较小。",
+  "summary_en": "MemArena is a benchmark for evaluating on-device personal memory assistants, using the MASim simulator to generate 50 agents' 15-day conversations and assessing six memory dimensions. Findings show memory backend choice matters more than model scaling, permission-aware access fails universally, and search latency has limited impact.",
+  "tags": [
+    "benchmark",
+    "llm",
+    "agent-framework",
+    "infrastructure"
+  ],
+  "category": "benchmark",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-05T18:32:00.344672+08:00",
+  "updated_at": "2026-08-05T18:32:00.344673+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

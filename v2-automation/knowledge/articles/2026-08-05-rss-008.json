@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-05-rss-008",
+  "title": "TabletCraft：弥合4000年文化鸿沟的双向阿卡德语神经机器翻译与楔形文字渲染",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.02609",
+  "language": "en",
+  "summary": "TabletCraft是首个开源系统，支持与美索不达米亚文字的双向交互：用户可阅读古代泥板（阿卡德语到英语）并创作新内容（英语到阿卡德语到楔形文字到渲染泥板）。集成ByT5翻译模型（116K样本）、楔形符号转换器（14,240映射，95.3%覆盖率）和视觉渲染器，提供pip安装工具包。在测试集上，阿卡德语到英语BLEU 49.1，英语到阿卡德语BLEU 48.5，为反向翻译首次公开结果。",
+  "summary_en": "TabletCraft is the first open-source system enabling bidirectional interaction with Mesopotamian writing: read ancient tablets (Akkadian to English) and compose new content (English to Akkadian to cuneiform to rendered tablet). It integrates a ByT5 translation model trained on 116K samples, a cuneiform sign converter with 14,240 mappings (95.3% coverage), and a visual renderer, packaged as a pip-installable toolkit. Achieves 49.1 BLEU (Akkadian-English) and 48.5 BLEU (English-Akkadian), first published reverse-direction results.",
+  "tags": [
+    "llm",
+    "research",
+    "application",
+    "tool",
+    "fine-tuning"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-05T18:32:00.344692+08:00",
+  "updated_at": "2026-08-05T18:32:00.344693+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
