@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-06-rss-003",
+  "title": "当更多变成更少：语言模型中位置依赖的重复效应",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.04021",
+  "language": "en",
+  "summary": "该研究通过双探针设计发现，语言模型对重复目标词的预测依赖于读取位置：相邻重复符合直觉，而移位重复呈倒U型曲线。在13个模型中验证，并排除长度、冗余等混淆因素，表明重复计数探针不能忽略读取位置的影响。",
+  "summary_en": "This study shows that language models' predictions for repeated target tokens depend on readout position: adjacent repetition follows intuition, while displaced repetition shows an inverted-U curve. Validated across 13 models and 42 multilingual cells, with causal ablations ruling out confounds.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-06T18:36:02.031861+08:00",
+  "updated_at": "2026-08-06T18:36:02.031862+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

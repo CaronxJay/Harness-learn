@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-06-rss-004",
+  "title": "MCTS-Report：基于蒙特卡洛树搜索的表格到多模态报告生成",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.04071",
+  "language": "en",
+  "summary": "提出MCTS-Report框架，将表格到多模态报告生成视为结构化搜索空间中的渐进构建过程，通过LLM执行原子动作（章节规划、图表生成等），并设计多维奖励函数（SQL事实一致性、图表质量等）引导搜索。构建MMRBench基准，实验显示在结构完整性、数值准确性等指标上显著优于基线，综合得分77.9。",
+  "summary_en": "Proposes MCTS-Report, a Monte Carlo Tree Search driven framework for table-to-multimodal report generation. It decomposes generation into atomic LLM actions, uses a multi-dimensional reward function (SQL fact consistency, chart quality, etc.), and introduces MMRBench benchmark. Outperforms baselines with 77.9 overall score.",
+  "tags": [
+    "llm",
+    "research",
+    "multimodal",
+    "benchmark",
+    "rag"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-08-06T18:36:02.031865+08:00",
+  "updated_at": "2026-08-06T18:36:02.031867+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

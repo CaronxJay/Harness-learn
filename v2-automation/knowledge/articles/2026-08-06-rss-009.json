@@ -1,0 +1,24 @@
+{
+  "id": "2026-08-06-rss-009",
+  "title": "冗余调整人工年龄评分（AAS）下AI系统的长期持久性理论",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.04012",
+  "language": "en",
+  "summary": "本文提出基于冗余调整AAS的AI系统长期持久性框架，将AAS扩展为循环级函数，证明结构年龄有界，排除爆炸性老化，并定义多种渐近状态，表明无限循环不要求无界老化，为长期持久性提供形式化基础。",
+  "summary_en": "This paper proposes a long-run persistence framework for AI systems based on redundancy-adjusted AAS, extending it to a cycle-level functional, proving bounded structural age, and defining asymptotic regimes, showing indefinite cycles do not require unbounded aging.",
+  "tags": [
+    "research",
+    "llm",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.8,
+  "status": "published",
+  "created_at": "2026-08-06T18:36:02.031886+08:00",
+  "updated_at": "2026-08-06T18:36:02.031888+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,487 @@
+{
+  "collected_at": "2026-08-06T18:36:02.032815+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "A Long-Run Persistence Theory for AI Systems under the Redundancy-Adjusted Artificial Age Score (AAS)",
+      "url": "https://arxiv.org/abs/2608.04012",
+      "description": "arXiv:2608.04012v1 Announce Type: new \nAbstract: Artificial intelligence systems are increasingly expected to operate over repeated cycles of interaction, adaptation, and update rather than through isolated one-shot outputs. This raises a fundamental theoretical question: can an AI system persist indefinitely without incurring unbounded structural aging? This paper develops a long-run persistence framework for AI systems based on the redundancy-adjusted Artificial Age Score (AAS). The model extends AAS from a static evaluative measure into a cycle-level functional that generates an age sequence across repeated operation. At each cycle, structural age is defined through a weighted, redundancy-aware logarithmic penalty over component consistency levels. Within this framework, cycle-level age is shown to be well defined and uniformly bounded, thereby excluding explosive pointwise aging. On this basis, the paper defines a hierarchy of asymptotic regimes, including burdened persistence, zero-burden persistence, oscillatory persistence, and cumulative terminal burden. It also establishes comparative ordering, sensitivity bounds, convergence under componentwise stabilization, persistence under finite total variation, geometric stabilization under damped inter-cycle perturbations, and a zero-burden characterization under nondegenerate redundancy conditions. The main result is that indefinite cyclic continuation does not require unbounded structural aging: an AI system may pass through infinitely many cycles while its structural age remains bounded, while under stronger regularity conditions its marginal aging vanishes and, in the strongest regime, its cycle-level burden converges to zero. The framework thus provides a formal basis for analyzing long-run artificial persistence as a problem of bounded structural burden rather than inevitable cumulative deterioration.",
+      "pub_date": "Thu, 06 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "冗余调整人工年龄评分（AAS）下AI系统的长期持久性理论",
+        "summary": "本文提出基于冗余调整AAS的AI系统长期持久性框架，将AAS扩展为循环级函数，证明结构年龄有界，排除爆炸性老化，并定义多种渐近状态，表明无限循环不要求无界老化，为长期持久性提供形式化基础。",
+        "summary_en": "This paper proposes a long-run persistence framework for AI systems based on redundancy-adjusted AAS, extending it to a cycle-level functional, proving bounded structural age, and defining asymptotic regimes, showing indefinite cycles do not require unbounded aging.",
+        "tags": [
+          "research",
+          "llm",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-06-rss-009",
+        "title": "冗余调整人工年龄评分（AAS）下AI系统的长期持久性理论",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.04012",
+        "language": "en",
+        "summary": "本文提出基于冗余调整AAS的AI系统长期持久性框架，将AAS扩展为循环级函数，证明结构年龄有界，排除爆炸性老化，并定义多种渐近状态，表明无限循环不要求无界老化，为长期持久性提供形式化基础。",
+        "summary_en": "This paper proposes a long-run persistence framework for AI systems based on redundancy-adjusted AAS, extending it to a cycle-level functional, proving bounded structural age, and defining asymptotic regimes, showing indefinite cycles do not require unbounded aging.",
+        "tags": [
+          "research",
+          "llm",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "status": "published",
+        "created_at": "2026-08-06T18:36:02.031886+08:00",
+        "updated_at": "2026-08-06T18:36:02.031888+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "The LLM Proposes, the Executive Disposes: A Self-Verifying Agent Instrument that Dissociates Commitment Drift from Binding Drift in Long-Horizon Agents",
+      "url": "https://arxiv.org/abs/2608.04066",
+      "description": "arXiv:2608.04066v1 Announce Type: new \nAbstract: How do you verify a long-horizon agent when its own state and self-reports are exactly what you cannot trust? We present an agent instrument built so that verification is structural rather than post-hoc. A deterministic Executive owns all belief; a language model may only file typed proposals, and a claim is admitted only when a prediction pre-registered before acting is matched against observation by code. Two properties make the instrument a verifier of its own science, not just of the agent: every run invalidates itself when per-organ write-error, render-size, or salted-canary-echo floors are breached (four of the first eight architecture runs were invalidated, each localizing a real defect); and a render-invisible shadow reference compiles the plan the full system would have committed in every ablation cell, so drift metrics are defined even where the mechanism under test has been removed. Using this instrument we report a clean, single-variable result on a failure every long-horizon agent suffers: ablating the commitment mechanism flips goal-abandonment from 0.00 to 1.00 while binding error stays flat at 0.00 (three seeds per cell, up to 394 reference beats per run, every run gated valid). The binding channel, by contrast, does not reappear as per-beat drift when its repair is ablated -- because binding is code-owned, the failure class is structurally absorbed, its only residue appearing one layer upstream as a collapse in hypothesis formation. We report these under full disclosure that task efficacy is null (zero level completions across 52 gated runs on ARC-AGI-3), pre-registered as a structural defeater. The contribution is a verification methodology for agent development and the drift decomposition it makes measurable.",
+      "pub_date": "Thu, 06 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "LLM提议，执行器决定：一种自验证代理工具，用于分离长期代理中的承诺漂移与绑定漂移",
+        "summary": "提出一种代理工具，通过确定性执行器拥有信念、LLM仅提交类型化提议、代码匹配预先注册的预测与观察，实现结构化验证。实验表明，移除承诺机制导致目标放弃率从0.00升至1.00，而绑定错误保持0.00，从而分离了承诺漂移与绑定漂移。",
+        "summary_en": "Introduces an agent instrument with deterministic executive owning belief, LLM filing typed proposals, and code-matching pre-registered predictions to observations, enabling structural verification. Ablating commitment mechanism flips goal-abandonment from 0.00 to 1.00 while binding error stays flat, dissociating commitment drift from binding drift.",
+        "tags": [
+          "agent-framework",
+          "research",
+          "evaluation",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-06-rss-001",
+        "title": "LLM提议，执行器决定：一种自验证代理工具，用于分离长期代理中的承诺漂移与绑定漂移",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.04066",
+        "language": "en",
+        "summary": "提出一种代理工具，通过确定性执行器拥有信念、LLM仅提交类型化提议、代码匹配预先注册的预测与观察，实现结构化验证。实验表明，移除承诺机制导致目标放弃率从0.00升至1.00，而绑定错误保持0.00，从而分离了承诺漂移与绑定漂移。",
+        "summary_en": "Introduces an agent instrument with deterministic executive owning belief, LLM filing typed proposals, and code-matching pre-registered predictions to observations, enabling structural verification. Ablating commitment mechanism flips goal-abandonment from 0.00 to 1.00 while binding error stays flat, dissociating commitment drift from binding drift.",
+        "tags": [
+          "agent-framework",
+          "research",
+          "evaluation",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-06T18:36:02.031846+08:00",
+        "updated_at": "2026-08-06T18:36:02.031850+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Monte Carlo Tree Search for Table-to-Multimodal Report Generation",
+      "url": "https://arxiv.org/abs/2608.04071",
+      "description": "arXiv:2608.04071v1 Announce Type: new \nAbstract: Automatically generating professional multimodal reports comprising both textual analysis and visual charts from structured tabular data is a critical challenge in data intelligence. Existing methods suffer from fixed linear pipelines and isolated subtask processing, which hinder joint optimization of factual accuracy, visual quality, and narrative coherence. To address these issues, this paper proposes MCTS-Report, a Monte Carlo Tree Search (MCTS)-driven framework that formulates multimodal table-to-report generation as a progressive construction process over a structured search space. The core idea is to decompose report generation into atomic actions, including chapter planning, visualization task identification, chart generation, insight organization, and narrative refinement, each executed by an LLM based on dynamic reasoning conditioned on the current report state. We use an LLM to generate step-by-step reasoning and actions during MCTS, storing the reasoning trajectory in each node for context-aware, coherent report construction. To guide the search, we design a multi-dimensional reward function that jointly evaluates numerical fact consistency (via SQL), chart quality, chart-text alignment, and structural completeness, while incorporating a diversity penalty to suppress repeated charts and a precondition check to prune invalid actions. We also construct MMRBench, a comprehensive benchmark comprising real-world tables from six domains, paired with expert-refined reference report structures and verifiable key insights. Experiments on MMRBench demonstrate that MCTS-Report significantly outperforms strong baselines across structural completeness, numerical accuracy, chart-text alignment, and insight novelty, achieving a 77.9 overall score.",
+      "pub_date": "Thu, 06 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "MCTS-Report：基于蒙特卡洛树搜索的表格到多模态报告生成",
+        "summary": "提出MCTS-Report框架，将表格到多模态报告生成视为结构化搜索空间中的渐进构建过程，通过LLM执行原子动作（章节规划、图表生成等），并设计多维奖励函数（SQL事实一致性、图表质量等）引导搜索。构建MMRBench基准，实验显示在结构完整性、数值准确性等指标上显著优于基线，综合得分77.9。",
+        "summary_en": "Proposes MCTS-Report, a Monte Carlo Tree Search driven framework for table-to-multimodal report generation. It decomposes generation into atomic LLM actions, uses a multi-dimensional reward function (SQL fact consistency, chart quality, etc.), and introduces MMRBench benchmark. Outperforms baselines with 77.9 overall score.",
+        "tags": [
+          "llm",
+          "research",
+          "multimodal",
+          "benchmark",
+          "rag"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-06-rss-004",
+        "title": "MCTS-Report：基于蒙特卡洛树搜索的表格到多模态报告生成",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.04071",
+        "language": "en",
+        "summary": "提出MCTS-Report框架，将表格到多模态报告生成视为结构化搜索空间中的渐进构建过程，通过LLM执行原子动作（章节规划、图表生成等），并设计多维奖励函数（SQL事实一致性、图表质量等）引导搜索。构建MMRBench基准，实验显示在结构完整性、数值准确性等指标上显著优于基线，综合得分77.9。",
+        "summary_en": "Proposes MCTS-Report, a Monte Carlo Tree Search driven framework for table-to-multimodal report generation. It decomposes generation into atomic LLM actions, uses a multi-dimensional reward function (SQL fact consistency, chart quality, etc.), and introduces MMRBench benchmark. Outperforms baselines with 77.9 overall score.",
+        "tags": [
+          "llm",
+          "research",
+          "multimodal",
+          "benchmark",
+          "rag"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-08-06T18:36:02.031865+08:00",
+        "updated_at": "2026-08-06T18:36:02.031867+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "FinProBench: Evaluating Financial AI Agents with Role-Grounded Rubrics Derived from Professional Deliverables",
+      "url": "https://arxiv.org/abs/2608.04077",
+      "description": "arXiv:2608.04077v1 Announce Type: new \nAbstract: Evaluating financial AI agents requires criteria aligned with real professional work. Existing rubric methods typically derive criteria from task prompts or model outputs, overlooking tacit standards visible only in practitioner deliverables. We introduce FinProBench, a benchmark for professional financial tasks, and Role-Grounded Rubric Construction (RGRC), a reusable pipeline that derives rubrics from deliverables produced by practitioners in the same role. RGRC comprises four stages: Deliverable Collection, Competency Extraction, Rubric Synthesis, and Validation. Its rubrics capture tacit standards, distinguish quality levels, and transfer across tasks within a role. Before analysis, we classified 57 occupations by deliverable genre into 30 prior-rich conventional roles and 27 prior-sparse role-specialized roles. Across all roles, Prompt-only nearly matches RGRC for conventional roles (89.2% vs. 90.7%), but RGRC substantially outperforms it for role-specialized roles (99.1% vs. 78.0%). This split indicates that prompt engineering can approximate rubrics when conventions are well represented in model priors, while professional grounding is essential for standards beyond those priors. FinProBench is built from 1,723 curated deliverables spanning 57 occupations, 8 financial sub-industries, and 161 deliverable types, and releases an initial evaluation set of 20 complete tasks covering 20 roles in 7 sub-industries. With heterogeneous LLM judges and role-level rubrics, human deliverables rank first on average (73.7 vs. 70.3, 70.2, and 69.6 out of 100), while all four systems show overlapping 95% confidence intervals and complementary strengths. Reusing rubrics at the role level reduces estimated per-task construction effort by 6.7 times relative to authoring each rubric from scratch.",
+      "pub_date": "Thu, 06 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "FinProBench：基于专业交付物的角色接地评分标准评估金融AI代理",
+        "summary": "FinProBench是一个金融专业任务基准，提出角色接地评分标准构建（RGRC）流水线，从从业者交付物中提取隐性标准。在角色专业化任务上显著优于纯提示方法（99.1% vs 78.0%），包含1723个交付物、57个职业，初始评估集20个任务。",
+        "summary_en": "FinProBench is a benchmark for professional financial tasks with Role-Grounded Rubric Construction (RGRC), deriving rubrics from practitioner deliverables. It outperforms prompt-only methods on role-specialized tasks (99.1% vs 78.0%), covering 1,723 deliverables across 57 occupations.",
+        "tags": [
+          "benchmark",
+          "evaluation",
+          "agent-framework",
+          "llm",
+          "application"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-06-rss-005",
+        "title": "FinProBench：基于专业交付物的角色接地评分标准评估金融AI代理",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.04077",
+        "language": "en",
+        "summary": "FinProBench是一个金融专业任务基准，提出角色接地评分标准构建（RGRC）流水线，从从业者交付物中提取隐性标准。在角色专业化任务上显著优于纯提示方法（99.1% vs 78.0%），包含1723个交付物、57个职业，初始评估集20个任务。",
+        "summary_en": "FinProBench is a benchmark for professional financial tasks with Role-Grounded Rubric Construction (RGRC), deriving rubrics from practitioner deliverables. It outperforms prompt-only methods on role-specialized tasks (99.1% vs 78.0%), covering 1,723 deliverables across 57 occupations.",
+        "tags": [
+          "benchmark",
+          "evaluation",
+          "agent-framework",
+          "llm",
+          "application"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-08-06T18:36:02.031870+08:00",
+        "updated_at": "2026-08-06T18:36:02.031871+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "FinPerMA: A Theory-Informed, Event-Grounded Personalized-Memory Benchmark for LLM Agents",
+      "url": "https://arxiv.org/abs/2608.04095",
+      "description": "arXiv:2608.04095v1 Announce Type: new \nAbstract: Large language model (LLM) agents are increasingly used as personalized assistants in high-stakes domains such as financial advising, yet it remains unclear whether they can maintain and update an individualized user model over long horizons. Existing personalized-memory benchmarks primarily test factual retention or rely on weakly constrained model-generated trajectories, leaving event-driven preference adaptation underexplored. We introduce FinPerMA, an event-grounded benchmark that evaluates personalized memory against frozen longitudinal investor trajectories. Its generation pipeline combines deterministic, theory-informed impact rules, controlled LLM narration, and automated quality screening; a Post-Shock checkpoint isolates whether an agent has integrated a material event into its persistent user model. On 2,994 questions from 276 personas, seven frontier LLMs and up to seven memory configurations remain far from saturated: no full-context configuration exceeds approximately 0.47 overall accuracy or approximately 39% on multiple-choice questions. Attribution analysis shows that summary-based memory often preserves factual details while losing the preference signals needed for personalization; simple retrieval can therefore outperform purpose-built memory systems, with the gap widening after shocks.",
+      "pub_date": "Thu, 06 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "FinPerMA：面向LLM智能体的理论驱动、事件锚定的个性化记忆基准",
+        "summary": "FinPerMA是一个事件锚定的基准，用于评估LLM智能体在长期金融咨询场景中的个性化记忆能力。其生成流程结合确定性理论影响规则、受控LLM叙述和自动质量筛选，并设置冲击后检查点。测试显示，七个前沿LLM和多种记忆配置均未饱和，全上下文准确率约0.47，多项选择约39%。归因分析表明，基于摘要的记忆常丢失偏好信号，简单检索有时优于专用记忆系统。",
+        "summary_en": "FinPerMA is an event-grounded benchmark for evaluating personalized memory in LLM agents for long-horizon financial advising. It uses theory-informed rules, controlled narration, and quality screening, with a post-shock checkpoint. Results show frontier LLMs and memory configs are far from saturated, and simple retrieval can outperform purpose-built memory systems.",
+        "tags": [
+          "benchmark",
+          "llm",
+          "agent-framework",
+          "memory",
+          "evaluation"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-06-rss-002",
+        "title": "FinPerMA：面向LLM智能体的理论驱动、事件锚定的个性化记忆基准",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.04095",
+        "language": "en",
+        "summary": "FinPerMA是一个事件锚定的基准，用于评估LLM智能体在长期金融咨询场景中的个性化记忆能力。其生成流程结合确定性理论影响规则、受控LLM叙述和自动质量筛选，并设置冲击后检查点。测试显示，七个前沿LLM和多种记忆配置均未饱和，全上下文准确率约0.47，多项选择约39%。归因分析表明，基于摘要的记忆常丢失偏好信号，简单检索有时优于专用记忆系统。",
+        "summary_en": "FinPerMA is an event-grounded benchmark for evaluating personalized memory in LLM agents for long-horizon financial advising. It uses theory-informed rules, controlled narration, and quality screening, with a post-shock checkpoint. Results show frontier LLMs and memory configs are far from saturated, and simple retrieval can outperform purpose-built memory systems.",
+        "tags": [
+          "benchmark",
+          "llm",
+          "agent-framework",
+          "memory",
+          "evaluation"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-06T18:36:02.031855+08:00",
+        "updated_at": "2026-08-06T18:36:02.031857+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Transfer Learning for Named Entity Recognition of Classical Latin through LLM Prompting",
+      "url": "https://arxiv.org/abs/2608.04015",
+      "description": "arXiv:2608.04015v1 Announce Type: new \nAbstract: With the increase in digitized resources of Classical Latin texts and modern breakthroughs of Large Language Models (LLMs), I contribute to ancient language research by participating in EvaLatin 2026. This paper describes Team uOttawa's system description and results for the Named Entity Recognition (NER) shared task. The task is divided into two subtasks: coarse-grained NER with 11 classes and fine-grained NER with 28 classes, each evaluated under strict and fuzzy regimes. Through prompt engineering of commercial LLMs gemini-2.5-pro and claude-sonnet-4-5, I show that the underrepresented ancient Latin language can take advantage of cross-lingual transfer learning by using advancements made by the wider LLM development community. Overall, the methods discussed in this report demonstrate very strong results, placing first in both NER subtasks and achieving the best scores across all evaluation metrics and regimes among all submissions.",
+      "pub_date": "Thu, 06 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "通过LLM提示实现古典拉丁语命名实体识别的迁移学习",
+        "summary": "本文描述了uOttawa团队在EvaLatin 2026共享任务中的系统，利用商业LLM（gemini-2.5-pro和claude-sonnet-4-5）的提示工程，对古典拉丁语进行粗粒度和细粒度命名实体识别。通过跨语言迁移学习，在严格和模糊评估下均取得第一名，展示了LLM对低资源古代语言研究的价值。",
+        "summary_en": "This paper describes Team uOttawa's system for the EvaLatin 2026 NER shared task, using prompt engineering of commercial LLMs (gemini-2.5-pro and claude-sonnet-4-5) for coarse- and fine-grained named entity recognition in Classical Latin. Achieving first place in both subtasks under strict and fuzzy regimes, it demonstrates the value of cross-lingual transfer learning for low-resource ancient languages.",
+        "tags": [
+          "llm",
+          "prompt-engineering",
+          "research",
+          "application",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-06-rss-007",
+        "title": "通过LLM提示实现古典拉丁语命名实体识别的迁移学习",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.04015",
+        "language": "en",
+        "summary": "本文描述了uOttawa团队在EvaLatin 2026共享任务中的系统，利用商业LLM（gemini-2.5-pro和claude-sonnet-4-5）的提示工程，对古典拉丁语进行粗粒度和细粒度命名实体识别。通过跨语言迁移学习，在严格和模糊评估下均取得第一名，展示了LLM对低资源古代语言研究的价值。",
+        "summary_en": "This paper describes Team uOttawa's system for the EvaLatin 2026 NER shared task, using prompt engineering of commercial LLMs (gemini-2.5-pro and claude-sonnet-4-5) for coarse- and fine-grained named entity recognition in Classical Latin. Achieving first place in both subtasks under strict and fuzzy regimes, it demonstrates the value of cross-lingual transfer learning for low-resource ancient languages.",
+        "tags": [
+          "llm",
+          "prompt-engineering",
+          "research",
+          "application",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-06T18:36:02.031878+08:00",
+        "updated_at": "2026-08-06T18:36:02.031879+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "When More Becomes Less: Position-Dependent Repetition Effects in Language Models",
+      "url": "https://arxiv.org/abs/2608.04021",
+      "description": "arXiv:2608.04021v1 Announce Type: new \nAbstract: Cloze-style probes that vary how often a target token appears implicitly assume that more copies of a target affect prediction the same way regardless of where the readout slot sits. We show this assumption fails. Our two-probe design holds a repeated-target prefix fixed and varies only the readout position: the adjacent probe places the slot immediately after the repeated block; the displaced probe places it inside a fresh sentence frame. Adjacent repetition behaves as priming intuition predicts: $P(\\text{target})$ climbs with $N$ and plateaus. Displaced repetition produces an inverted-U: $P(\\text{target})$ rises to an early peak and then declines as more copies are added. The displaced inverted-U shows a per-word drop with bootstrap CI excluding zero in all 13 open-access encoder and decoder models we test, and replicates across Spanish, Chinese, German, and French in 42 of 42 multilingual cells. A six-condition causal ablation isolates the effect to exact lexical repetition rather than length, generic redundancy, or semantic-neighbour exposure. A frame-pragmatics control rules out an artefact of the readout frame. Internally, per-target-token attention falls with $N$ while the total budget assigned to the repeated block grows in causal LMs but not in the masked LM we probe. Probes that vary repetition count cannot treat the readout position as orthogonal to what they measure.",
+      "pub_date": "Thu, 06 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "当更多变成更少：语言模型中位置依赖的重复效应",
+        "summary": "该研究通过双探针设计发现，语言模型对重复目标词的预测依赖于读取位置：相邻重复符合直觉，而移位重复呈倒U型曲线。在13个模型中验证，并排除长度、冗余等混淆因素，表明重复计数探针不能忽略读取位置的影响。",
+        "summary_en": "This study shows that language models' predictions for repeated target tokens depend on readout position: adjacent repetition follows intuition, while displaced repetition shows an inverted-U curve. Validated across 13 models and 42 multilingual cells, with causal ablations ruling out confounds.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-06-rss-003",
+        "title": "当更多变成更少：语言模型中位置依赖的重复效应",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.04021",
+        "language": "en",
+        "summary": "该研究通过双探针设计发现，语言模型对重复目标词的预测依赖于读取位置：相邻重复符合直觉，而移位重复呈倒U型曲线。在13个模型中验证，并排除长度、冗余等混淆因素，表明重复计数探针不能忽略读取位置的影响。",
+        "summary_en": "This study shows that language models' predictions for repeated target tokens depend on readout position: adjacent repetition follows intuition, while displaced repetition shows an inverted-U curve. Validated across 13 models and 42 multilingual cells, with causal ablations ruling out confounds.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-06T18:36:02.031861+08:00",
+        "updated_at": "2026-08-06T18:36:02.031862+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Reconstructing Persistent Worlds from Narratives for Narrative-Grounded Interactive Experiences",
+      "url": "https://arxiv.org/abs/2608.04037",
+      "description": "arXiv:2608.04037v1 Announce Type: new \nAbstract: Designing narrative-grounded interactive experiences remains labor-intensive because interactive content must align with the underlying world implied by the narrative. Existing approaches formulate problems such as narrative planning, scene generation, and gameplay generation, each constructing computational representations tailored to specific downstream tasks rather than explicitly reconstructing and maintaining the persistent world that grounds them.\n  We investigate reconstructing explicit persistent worlds from narrative descriptions as the central computational objective for narrative-grounded interactive realization. Rather than treating the world as an implicit by-product of downstream generation, our approach reconstructs and maintains persistent entities, locations, semantic relationships, and evolving world states while inferring only the contextual information required to support coherent interactive experiences.\n  To investigate this perspective, we develop a reference prototype that reconstructs structured persistent world representations from narrative descriptions and subsequently instantiates playable tile-based environments. Through three representative case studies spanning a procedural scenario, an original fantasy narrative, and an adapted public-domain story, we demonstrate the feasibility of reconstructing persistent worlds and show how a shared world representation supports coherent gameplay while remaining grounded in the source narrative.\n  By explicitly reconstructing persistent worlds prior to interactive realization, this work bridges computational narrative understanding and interactive content generation, providing a semantic foundation for AI-assisted game authoring, mixed-initiative design, educational simulations, and narrative-grounded interactive experiences.",
+      "pub_date": "Thu, 06 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "从叙事中重建持久世界以支持叙事驱动的交互体验",
+        "summary": "本文提出将显式重建叙事中的持久世界作为叙事驱动交互实现的核心计算目标，而非作为下游生成的隐式副产品。通过原型系统从叙事描述中重建结构化世界表示，并实例化可玩的基于瓦片的环境，在三个案例研究中验证了可行性，为AI辅助游戏创作、混合主动设计等提供语义基础。",
+        "summary_en": "The paper proposes explicitly reconstructing persistent worlds from narratives as the central computational objective for narrative-grounded interactive experiences, demonstrating feasibility via a prototype and case studies, bridging computational narrative understanding and interactive content generation.",
+        "tags": [
+          "research",
+          "application",
+          "llm",
+          "agent-framework"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-06-rss-010",
+        "title": "从叙事中重建持久世界以支持叙事驱动的交互体验",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.04037",
+        "language": "en",
+        "summary": "本文提出将显式重建叙事中的持久世界作为叙事驱动交互实现的核心计算目标，而非作为下游生成的隐式副产品。通过原型系统从叙事描述中重建结构化世界表示，并实例化可玩的基于瓦片的环境，在三个案例研究中验证了可行性，为AI辅助游戏创作、混合主动设计等提供语义基础。",
+        "summary_en": "The paper proposes explicitly reconstructing persistent worlds from narratives as the central computational objective for narrative-grounded interactive experiences, demonstrating feasibility via a prototype and case studies, bridging computational narrative understanding and interactive content generation.",
+        "tags": [
+          "research",
+          "application",
+          "llm",
+          "agent-framework"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "status": "published",
+        "created_at": "2026-08-06T18:36:02.031890+08:00",
+        "updated_at": "2026-08-06T18:36:02.031892+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Learning Sexism Detection Using Multi-Agent Perspectivist Preference Optimization",
+      "url": "https://arxiv.org/abs/2608.04056",
+      "description": "arXiv:2608.04056v1 Announce Type: new \nAbstract: When people label text for sexism, they often disagree, and not because some of them are wrong: they genuinely perceive sexism differently. Most NLP systems discard this disagreement by collapsing it into a majority vote. We propose the Multi-Agent Perspectivist Preference Optimization (MAP-PO) framework to keep these different perspectives. On the EXIST 2024 dataset of labeled English and Spanish tweets, we first cluster annotators by their labeling behavior rather than their demographic attributes. We then fine-tune one Large Language Model agent per cluster to reproduce that cluster's annotation behavior, and coordinate the agents with preference optimization that combines individual and team-level rewards. We evaluate MAP-PO in four settings defined by two languages and two backbone language models, asking whether each agent reproduces the annotations of its own cluster and whether the agents together reproduce the majority label. Two findings hold in all four settings. First, without fine-tuning the agents behave almost identically, so cluster-specific training is necessary. Second, we show that training each agent only on the labels of its own cluster pushes the agents far beyond the clusters they should represent, while adding a shared team-level training signal consistently keeps each agent calibrated to its cluster.",
+      "pub_date": "Thu, 06 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "使用多智能体视角偏好优化学习性别歧视检测",
+        "summary": "提出MAP-PO框架，通过聚类标注者并微调多个LLM智能体，结合个体和团队奖励的偏好优化，保留性别歧视标注中的不同视角。在EXIST 2024数据集上验证，团队级训练信号能保持智能体校准，优于仅个体训练。",
+        "summary_en": "Proposes MAP-PO framework to preserve diverse perspectives in sexism detection by clustering annotators and fine-tuning multiple LLM agents with preference optimization combining individual and team rewards. Validated on EXIST 2024, showing team-level signal keeps agents calibrated.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "multi-agent",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-06-rss-008",
+        "title": "使用多智能体视角偏好优化学习性别歧视检测",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.04056",
+        "language": "en",
+        "summary": "提出MAP-PO框架，通过聚类标注者并微调多个LLM智能体，结合个体和团队奖励的偏好优化，保留性别歧视标注中的不同视角。在EXIST 2024数据集上验证，团队级训练信号能保持智能体校准，优于仅个体训练。",
+        "summary_en": "Proposes MAP-PO framework to preserve diverse perspectives in sexism detection by clustering annotators and fine-tuning multiple LLM agents with preference optimization combining individual and team rewards. Validated on EXIST 2024, showing team-level signal keeps agents calibrated.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "multi-agent",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-06T18:36:02.031882+08:00",
+        "updated_at": "2026-08-06T18:36:02.031883+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Mind the Cap: Output-Budget Regimes Change the Measured Multilingual Reasoning Gap",
+      "url": "https://arxiv.org/abs/2608.04160",
+      "description": "arXiv:2608.04160v1 Announce Type: new \nAbstract: Multilingual evaluations report accuracy at a single output-token cap, but languages need different numbers of tokens to express the same content, so the cap is a hidden experimental variable. We test whether the native-vs-translate gap on MGSM (German, Thai, Swahili) is a token-budget artifact for Qwen3-8B and Llama-3.1-8B-Instruct under four prompting strategies. The measured gap swings by up to 57 points across budgets, length normalization moves it by up to 38.9 points where the cap binds, and at tight caps normalization can reverse which strategy scores higher. We prospectively froze the sweep's three Qwen peaks and its near-zero value at 1024 and evaluated them on 540,000 independently hard-capped decodes: a second frozen family of six Holm-corrected tests rejects every null. The frozen test at $B^*=1024$ still fails to reject because native accuracy has already saturated there; above saturation, the residual difference is a strategy-performance gap, not an identified reasoning deficit. The same truncation channel prices a cost-ordered adaptation ladder: a cross-fitted Thai vocabulary extension closes 0.0 points of the gap at the frozen budget and 4.9 points where 19% of traces still truncate. A third frozen family varies only the announced budget at a fixed enforced cap; announcing 128 rather than 2048 tokens moves Thai native accuracy by 5.1 points, so accuracy is not a function of the enforced cap alone. A correct-emission timing identity computed from one long-cap run matches the three pre-specified MGSM peaks to 0.65 points and, in an exploratory Qwen-only analysis of three further benchmarks, tracks held-out items to 0.92 points, locating the peak exactly in five of seven cells. Treat the output cap as an independent variable and report accuracy across the budget regime, not at a single budget.",
+      "pub_date": "Thu, 06 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "注意输出预算：输出预算机制改变多语言推理差距的测量结果",
+        "summary": "多语言评估通常在单一输出token上限下报告准确率，但不同语言表达相同内容所需token数不同，导致上限成为隐藏变量。研究发现，在MGSM上，原生与翻译之间的差距随预算变化高达57个百分点，长度归一化在预算受限时影响达38.9点。冻结测试表明，在饱和点以上，残余差异是策略性能差距而非推理缺陷。建议将输出上限视为独立变量，并在预算范围内报告准确率。",
+        "summary_en": "Multilingual evaluations report accuracy at a single output-token cap, but languages need different token counts, making the cap a hidden variable. The native-vs-translate gap on MGSM swings by up to 57 points across budgets, and length normalization moves it by up to 38.9 points where the cap binds. Frozen tests reject nulls except at saturation, where residual difference is a strategy gap. Treat output cap as an independent variable and report accuracy across budget regimes.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "evaluation",
+          "multilingual",
+          "research"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-06-rss-006",
+        "title": "注意输出预算：输出预算机制改变多语言推理差距的测量结果",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.04160",
+        "language": "en",
+        "summary": "多语言评估通常在单一输出token上限下报告准确率，但不同语言表达相同内容所需token数不同，导致上限成为隐藏变量。研究发现，在MGSM上，原生与翻译之间的差距随预算变化高达57个百分点，长度归一化在预算受限时影响达38.9点。冻结测试表明，在饱和点以上，残余差异是策略性能差距而非推理缺陷。建议将输出上限视为独立变量，并在预算范围内报告准确率。",
+        "summary_en": "Multilingual evaluations report accuracy at a single output-token cap, but languages need different token counts, making the cap a hidden variable. The native-vs-translate gap on MGSM swings by up to 57 points across budgets, and length normalization moves it by up to 38.9 points where the cap binds. Frozen tests reject nulls except at saturation, where residual difference is a strategy gap. Treat output cap as an independent variable and report accuracy across budget regimes.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "evaluation",
+          "multilingual",
+          "research"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-08-06T18:36:02.031874+08:00",
+        "updated_at": "2026-08-06T18:36:02.031875+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

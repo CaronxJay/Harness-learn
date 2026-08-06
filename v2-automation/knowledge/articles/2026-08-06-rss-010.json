@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-06-rss-010",
+  "title": "从叙事中重建持久世界以支持叙事驱动的交互体验",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.04037",
+  "language": "en",
+  "summary": "本文提出将显式重建叙事中的持久世界作为叙事驱动交互实现的核心计算目标，而非作为下游生成的隐式副产品。通过原型系统从叙事描述中重建结构化世界表示，并实例化可玩的基于瓦片的环境，在三个案例研究中验证了可行性，为AI辅助游戏创作、混合主动设计等提供语义基础。",
+  "summary_en": "The paper proposes explicitly reconstructing persistent worlds from narratives as the central computational objective for narrative-grounded interactive experiences, demonstrating feasibility via a prototype and case studies, bridging computational narrative understanding and interactive content generation.",
+  "tags": [
+    "research",
+    "application",
+    "llm",
+    "agent-framework"
+  ],
+  "category": "research",
+  "relevance_score": 0.8,
+  "status": "published",
+  "created_at": "2026-08-06T18:36:02.031890+08:00",
+  "updated_at": "2026-08-06T18:36:02.031892+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-06-rss-008",
+  "title": "使用多智能体视角偏好优化学习性别歧视检测",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.04056",
+  "language": "en",
+  "summary": "提出MAP-PO框架，通过聚类标注者并微调多个LLM智能体，结合个体和团队奖励的偏好优化，保留性别歧视标注中的不同视角。在EXIST 2024数据集上验证，团队级训练信号能保持智能体校准，优于仅个体训练。",
+  "summary_en": "Proposes MAP-PO framework to preserve diverse perspectives in sexism detection by clustering annotators and fine-tuning multiple LLM agents with preference optimization combining individual and team rewards. Validated on EXIST 2024, showing team-level signal keeps agents calibrated.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "multi-agent",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-06T18:36:02.031882+08:00",
+  "updated_at": "2026-08-06T18:36:02.031883+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

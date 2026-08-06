@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-06-rss-005",
+  "title": "FinProBench：基于专业交付物的角色接地评分标准评估金融AI代理",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.04077",
+  "language": "en",
+  "summary": "FinProBench是一个金融专业任务基准，提出角色接地评分标准构建（RGRC）流水线，从从业者交付物中提取隐性标准。在角色专业化任务上显著优于纯提示方法（99.1% vs 78.0%），包含1723个交付物、57个职业，初始评估集20个任务。",
+  "summary_en": "FinProBench is a benchmark for professional financial tasks with Role-Grounded Rubric Construction (RGRC), deriving rubrics from practitioner deliverables. It outperforms prompt-only methods on role-specialized tasks (99.1% vs 78.0%), covering 1,723 deliverables across 57 occupations.",
+  "tags": [
+    "benchmark",
+    "evaluation",
+    "agent-framework",
+    "llm",
+    "application"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-08-06T18:36:02.031870+08:00",
+  "updated_at": "2026-08-06T18:36:02.031871+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

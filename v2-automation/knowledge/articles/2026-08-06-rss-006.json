@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-06-rss-006",
+  "title": "注意输出预算：输出预算机制改变多语言推理差距的测量结果",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.04160",
+  "language": "en",
+  "summary": "多语言评估通常在单一输出token上限下报告准确率，但不同语言表达相同内容所需token数不同，导致上限成为隐藏变量。研究发现，在MGSM上，原生与翻译之间的差距随预算变化高达57个百分点，长度归一化在预算受限时影响达38.9点。冻结测试表明，在饱和点以上，残余差异是策略性能差距而非推理缺陷。建议将输出上限视为独立变量，并在预算范围内报告准确率。",
+  "summary_en": "Multilingual evaluations report accuracy at a single output-token cap, but languages need different token counts, making the cap a hidden variable. The native-vs-translate gap on MGSM swings by up to 57 points across budgets, and length normalization moves it by up to 38.9 points where the cap binds. Frozen tests reject nulls except at saturation, where residual difference is a strategy gap. Treat output cap as an independent variable and report accuracy across budget regimes.",
+  "tags": [
+    "llm",
+    "benchmark",
+    "evaluation",
+    "multilingual",
+    "research"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-08-06T18:36:02.031874+08:00",
+  "updated_at": "2026-08-06T18:36:02.031875+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

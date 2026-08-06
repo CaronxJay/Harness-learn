@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-06-rss-001",
+  "title": "LLM提议，执行器决定：一种自验证代理工具，用于分离长期代理中的承诺漂移与绑定漂移",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.04066",
+  "language": "en",
+  "summary": "提出一种代理工具，通过确定性执行器拥有信念、LLM仅提交类型化提议、代码匹配预先注册的预测与观察，实现结构化验证。实验表明，移除承诺机制导致目标放弃率从0.00升至1.00，而绑定错误保持0.00，从而分离了承诺漂移与绑定漂移。",
+  "summary_en": "Introduces an agent instrument with deterministic executive owning belief, LLM filing typed proposals, and code-matching pre-registered predictions to observations, enabling structural verification. Ablating commitment mechanism flips goal-abandonment from 0.00 to 1.00 while binding error stays flat, dissociating commitment drift from binding drift.",
+  "tags": [
+    "agent-framework",
+    "research",
+    "evaluation",
+    "llm"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-06T18:36:02.031846+08:00",
+  "updated_at": "2026-08-06T18:36:02.031850+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

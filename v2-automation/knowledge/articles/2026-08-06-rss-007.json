@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-06-rss-007",
+  "title": "通过LLM提示实现古典拉丁语命名实体识别的迁移学习",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.04015",
+  "language": "en",
+  "summary": "本文描述了uOttawa团队在EvaLatin 2026共享任务中的系统，利用商业LLM（gemini-2.5-pro和claude-sonnet-4-5）的提示工程，对古典拉丁语进行粗粒度和细粒度命名实体识别。通过跨语言迁移学习，在严格和模糊评估下均取得第一名，展示了LLM对低资源古代语言研究的价值。",
+  "summary_en": "This paper describes Team uOttawa's system for the EvaLatin 2026 NER shared task, using prompt engineering of commercial LLMs (gemini-2.5-pro and claude-sonnet-4-5) for coarse- and fine-grained named entity recognition in Classical Latin. Achieving first place in both subtasks under strict and fuzzy regimes, it demonstrates the value of cross-lingual transfer learning for low-resource ancient languages.",
+  "tags": [
+    "llm",
+    "prompt-engineering",
+    "research",
+    "application",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-06T18:36:02.031878+08:00",
+  "updated_at": "2026-08-06T18:36:02.031879+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

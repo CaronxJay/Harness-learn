@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-06-rss-002",
+  "title": "FinPerMA：面向LLM智能体的理论驱动、事件锚定的个性化记忆基准",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.04095",
+  "language": "en",
+  "summary": "FinPerMA是一个事件锚定的基准，用于评估LLM智能体在长期金融咨询场景中的个性化记忆能力。其生成流程结合确定性理论影响规则、受控LLM叙述和自动质量筛选，并设置冲击后检查点。测试显示，七个前沿LLM和多种记忆配置均未饱和，全上下文准确率约0.47，多项选择约39%。归因分析表明，基于摘要的记忆常丢失偏好信号，简单检索有时优于专用记忆系统。",
+  "summary_en": "FinPerMA is an event-grounded benchmark for evaluating personalized memory in LLM agents for long-horizon financial advising. It uses theory-informed rules, controlled narration, and quality screening, with a post-shock checkpoint. Results show frontier LLMs and memory configs are far from saturated, and simple retrieval can outperform purpose-built memory systems.",
+  "tags": [
+    "benchmark",
+    "llm",
+    "agent-framework",
+    "memory",
+    "evaluation"
+  ],
+  "category": "benchmark",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-06T18:36:02.031855+08:00",
+  "updated_at": "2026-08-06T18:36:02.031857+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
