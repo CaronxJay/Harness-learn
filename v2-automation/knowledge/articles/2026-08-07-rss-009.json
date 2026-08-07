@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-07-rss-009",
+  "title": "超越情感分析：传统NLP与基于LLM的多维分析在政治新闻评估中的比较",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.05155",
+  "language": "en",
+  "summary": "该研究比较了基于RoBERTa的传统情感分析与基于LLM的多维框架分析在50篇政治新闻中的应用。发现传统情感分析存在“中性崩溃”问题，70%的文章被归类为中性，而LLM方法能捕捉政治偏见、耸人听闻程度、情感诉求和框架，更符合社会科学研究需求。",
+  "summary_en": "This study compares RoBERTa-based sentiment analysis with an LLM-based multi-dimensional framing analysis on 50 political news articles. It finds that traditional sentiment analysis suffers from 'neutral collapse', classifying 70% of articles as neutral, while the LLM approach captures political bias, sensationalism, emotional appeal, and framing, better aligning with social science research needs.",
+  "tags": [
+    "llm",
+    "research",
+    "application",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-07T16:56:51.650006+08:00",
+  "updated_at": "2026-08-07T16:56:51.650007+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

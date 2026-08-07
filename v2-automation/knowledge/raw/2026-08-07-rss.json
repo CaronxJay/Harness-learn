@@ -1,0 +1,481 @@
+{
+  "collected_at": "2026-08-07T16:56:51.650838+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "Agentic Nesting: A New Methodology for Existing Enterprise Application Integration and Services",
+      "url": "https://arxiv.org/abs/2608.05159",
+      "description": "arXiv:2608.05159v1 Announce Type: new \nAbstract: Enterprise operations extensively rely on multiple heterogeneous business systems and information applications, which also result in severe data silos and process fragmentation. Enterprises have invested considerable financial and material resources in building these applications, however, effectively leveraging and orchestrating them remains a formidable challenge. Conventional approaches to enterprise application integration, encompassing middleware architectures such as Enterprise Service Bus (ESB), API gateway infrastructures, and Robotic Process Automation (RPA), suffer from inherent limitations like high architectural coupling, escalating operation and maintenance costs, and limited intelligence capabilities. This paper proposes Agentic Nesting, a multi-agent collaboration framework in which existing enterprise applications are encapsulated as autonomous AI agents within a hierarchically nested structure. Rather than flat interconnection, agents are organized into layered stewardship topologies that mirror the compositional complexity of enterprise ecosystems. The framework extracts a digital agent proxy from each legacy application to enable natural-language interaction and autonomous manipulation, coordinates multiple agents through a central orchestrator for task decomposition and dynamic dispatching, and exposes a unified conversational interface for cross-application querying and process orchestration. The main contributions of this paper are the proposition of the \"Application-as-Agent\" integration paradigm and the \"Conversation-as-Integration\" interaction philosophy, together with an exploration of the generalization potential of this methodology in scenarios encompassing heterogeneous system coordination, and large-scale data applications.",
+      "pub_date": "Fri, 07 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "Agentic Nesting：一种用于现有企业应用集成与服务的新方法论",
+        "summary": "本文提出Agentic Nesting，一种多智能体协作框架，将现有企业应用封装为分层嵌套结构中的自主AI代理，通过中央编排器实现任务分解与动态调度，并提供统一对话界面，实现跨应用查询与流程编排，克服传统集成方法（如ESB、API网关、RPA）的局限性。",
+        "summary_en": "This paper proposes Agentic Nesting, a multi-agent collaboration framework that encapsulates existing enterprise applications as autonomous AI agents in a hierarchically nested structure, coordinated by a central orchestrator, with a unified conversational interface, overcoming limitations of traditional integration methods.",
+        "tags": [
+          "agent-framework",
+          "application",
+          "llm",
+          "research"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-07-rss-006",
+        "title": "Agentic Nesting：一种用于现有企业应用集成与服务的新方法论",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.05159",
+        "language": "en",
+        "summary": "本文提出Agentic Nesting，一种多智能体协作框架，将现有企业应用封装为分层嵌套结构中的自主AI代理，通过中央编排器实现任务分解与动态调度，并提供统一对话界面，实现跨应用查询与流程编排，克服传统集成方法（如ESB、API网关、RPA）的局限性。",
+        "summary_en": "This paper proposes Agentic Nesting, a multi-agent collaboration framework that encapsulates existing enterprise applications as autonomous AI agents in a hierarchically nested structure, coordinated by a central orchestrator, with a unified conversational interface, overcoming limitations of traditional integration methods.",
+        "tags": [
+          "agent-framework",
+          "application",
+          "llm",
+          "research"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-08-07T16:56:51.649993+08:00",
+        "updated_at": "2026-08-07T16:56:51.649995+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "The Ignition Index: Measuring Global Workspace Dynamics in Language Models",
+      "url": "https://arxiv.org/abs/2608.05160",
+      "description": "arXiv:2608.05160v1 Announce Type: new \nAbstract: We introduce the Ignition Index (I), a validated scalar metric that operationalizes Global Workspace Theory's (GWT) all-or-none ignition prediction in transformer language models. The metric fits a four-parameter sigmoid to per-layer linear probe accuracy as a function of input signal strength, extracting steepness parameter beta-hat: high values indicate abrupt, ignition-like transitions; low values indicate graded build-up. Across 11 models spanning five architecture families, shuffled-label controls demonstrate 9.6-fold selectivity for genuine linguistic structure over spurious probe capacity (p < 0.001, Mann-Whitney U-test). We find: (1) Feedforward transformers exceed SSMs by 89% in aggregate beta-hat (p < 1e-13, Cohen's d = 0.52), with Mamba exhibiting near-linear profiles consistent with absent global broadcast. (2) Huginn-3.5B exhibits 2.12-fold higher ignition along its iteration axis than its depth axis, demonstrating that recurrent architectures manifest workspace-like transitions along the recurrence dimension. (3) Pythia-410M shows a PELT-detected phase transition at training step 256 (+67%), preceding induction-head formation. (4) Hypotheses linking ignition to model scale and signal strength were not confirmed, suggesting transformer architectures may saturate available ignition mechanisms. The Ignition Index provides the first validated quantitative bridge between GWT's dynamical predictions and mechanistic interpretability, with 9.6-fold measurement selectivity and architecture-level discriminability not previously characterized in the scaling literature. Code: https://github.com/saman-rahbar/ignition-index",
+      "pub_date": "Fri, 07 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "点火指数：衡量语言模型中的全局工作空间动态",
+        "summary": "提出点火指数（I），通过拟合sigmoid函数提取陡峭度参数，量化Transformer语言模型中全局工作空间理论的“全或无”转变。在11个模型上验证了9.6倍选择性，发现前馈Transformer优于SSM，循环架构沿迭代轴表现点火，并检测到训练中的相变。",
+        "summary_en": "Introduces the Ignition Index, a metric operationalizing Global Workspace Theory's all-or-none transitions in language models, validated across 11 models with 9.6-fold selectivity, revealing architecture differences and training phase transitions.",
+        "tags": [
+          "llm",
+          "research",
+          "interpretability",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-07-rss-001",
+        "title": "点火指数：衡量语言模型中的全局工作空间动态",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.05160",
+        "language": "en",
+        "summary": "提出点火指数（I），通过拟合sigmoid函数提取陡峭度参数，量化Transformer语言模型中全局工作空间理论的“全或无”转变。在11个模型上验证了9.6倍选择性，发现前馈Transformer优于SSM，循环架构沿迭代轴表现点火，并检测到训练中的相变。",
+        "summary_en": "Introduces the Ignition Index, a metric operationalizing Global Workspace Theory's all-or-none transitions in language models, validated across 11 models with 9.6-fold selectivity, revealing architecture differences and training phase transitions.",
+        "tags": [
+          "llm",
+          "research",
+          "interpretability",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-07T16:56:51.649967+08:00",
+        "updated_at": "2026-08-07T16:56:51.649971+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Woodpecker Distillation: Weak Models Diagnose Reasoning Bugs in Strong Models",
+      "url": "https://arxiv.org/abs/2608.05168",
+      "description": "arXiv:2608.05168v1 Announce Type: new \nAbstract: Large language models often fail on reasoning tasks despite possessing the capability to solve them. We argue that many such failures arise from localized reasoning bugs in intermediate steps rather than from global incompetence. We show that these bugs are frequently repairable: inserting a short patch generated by a weak probe model after the same strong-model reasoning prefix can redirect the trajectory toward a correct solution.\n  However, this corrective effect is not reliably internalized by directly fine-tuning on weak patches or repaired trajectories, suggesting that the useful signal lies not in the intervention text itself, but in how it reshapes the model's future reasoning distribution. We therefore propose Woodpecker Distillation, a weak-to-strong training framework that learns from contrastive local interventions. Our method contrasts successful and unsuccessful weak-model patches at the same prefix, constructs a corrective teacher distribution from their induced future token predictions, and distills this signal into the strong model.\n  Experiments on mathematical reasoning benchmarks show that Woodpecker Distillation consistently improves strong-model performance and outperforms direct imitation baselines.",
+      "pub_date": "Fri, 07 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "啄木鸟蒸馏：弱模型诊断强模型推理错误",
+        "summary": "本文提出Woodpecker Distillation，一种弱到强的训练框架。它利用弱探针模型在相同推理前缀下生成成功与失败的对比补丁，构建修正性的教师分布，并蒸馏到强模型中。实验表明，该方法在数学推理基准上持续提升强模型性能，优于直接模仿基线。",
+        "summary_en": "This paper proposes Woodpecker Distillation, a weak-to-strong training framework that contrasts successful and unsuccessful weak-model patches at the same reasoning prefix to construct a corrective teacher distribution, which is distilled into the strong model. Experiments on math reasoning benchmarks show consistent improvements over direct imitation baselines.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-07-rss-002",
+        "title": "啄木鸟蒸馏：弱模型诊断强模型推理错误",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.05168",
+        "language": "en",
+        "summary": "本文提出Woodpecker Distillation，一种弱到强的训练框架。它利用弱探针模型在相同推理前缀下生成成功与失败的对比补丁，构建修正性的教师分布，并蒸馏到强模型中。实验表明，该方法在数学推理基准上持续提升强模型性能，优于直接模仿基线。",
+        "summary_en": "This paper proposes Woodpecker Distillation, a weak-to-strong training framework that contrasts successful and unsuccessful weak-model patches at the same reasoning prefix to construct a corrective teacher distribution, which is distilled into the strong model. Experiments on math reasoning benchmarks show consistent improvements over direct imitation baselines.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-07T16:56:51.649975+08:00",
+        "updated_at": "2026-08-07T16:56:51.649977+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "From Continuous Predictors to Clinical Thresholds: Early Evidence on Performance Trade-offs of Guideline-Based Categorisation for Ischaemic Stroke Outcome Prediction",
+      "url": "https://arxiv.org/abs/2608.05203",
+      "description": "arXiv:2608.05203v1 Announce Type: new \nAbstract: Machine learning models achieve strong predictive accuracy for 90-day outcome prediction in acute ischaemic stroke, yet clinical adoption is limited by the misalignment of model explanations with clinicians' reasoning. Motivated by a clinician user study calling for clinical guideline-aligned cut-offs, we ask whether continuous predictors can be replaced by clinically informed categorical encodings without sacrificing performance. On a multi-centre European registry stratified into three treatment cohorts, we compare standard and fully categorised gradient-boosted models, the latter using stroke guideline-aligned, treatment-specific thresholds. The fully categorised models are statistically indistinguishable from their continuous counterparts in two of the treatment cohorts, with a significant drop in predictive accuracy in one cohort. Global feature importance rankings remain consistent, suggesting that discretising continuous predictors into guideline-based categories preserves the core hierarchy of prognostic factors across all treatment groups. Guideline-based categorisation is thus a viable design choice for stroke-outcome models.",
+      "pub_date": "Fri, 07 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "从连续预测变量到临床阈值：基于指南分类对缺血性卒中结局预测性能权衡的早期证据",
+        "summary": "该研究探讨在急性缺血性卒中90天结局预测中，用临床指南对齐的分类编码替代连续预测变量是否影响模型性能。在多中心欧洲登记数据上，完全分类的梯度提升模型在两个治疗队列中与连续模型无显著差异，一个队列性能显著下降，但特征重要性排序保持一致，表明指南分类是可行的设计选择。",
+        "summary_en": "This study examines whether replacing continuous predictors with guideline-aligned categorical encodings affects performance in 90-day outcome prediction for acute ischaemic stroke. Fully categorised gradient-boosted models were statistically indistinguishable from continuous counterparts in two treatment cohorts, with a significant drop in one, while feature importance rankings remained consistent, suggesting guideline-based categorisation is viable.",
+        "tags": [
+          "research",
+          "application",
+          "llm",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.6,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-07-rss-010",
+        "title": "从连续预测变量到临床阈值：基于指南分类对缺血性卒中结局预测性能权衡的早期证据",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.05203",
+        "language": "en",
+        "summary": "该研究探讨在急性缺血性卒中90天结局预测中，用临床指南对齐的分类编码替代连续预测变量是否影响模型性能。在多中心欧洲登记数据上，完全分类的梯度提升模型在两个治疗队列中与连续模型无显著差异，一个队列性能显著下降，但特征重要性排序保持一致，表明指南分类是可行的设计选择。",
+        "summary_en": "This study examines whether replacing continuous predictors with guideline-aligned categorical encodings affects performance in 90-day outcome prediction for acute ischaemic stroke. Fully categorised gradient-boosted models were statistically indistinguishable from continuous counterparts in two treatment cohorts, with a significant drop in one, while feature importance rankings remained consistent, suggesting guideline-based categorisation is viable.",
+        "tags": [
+          "research",
+          "application",
+          "llm",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.6,
+        "status": "published",
+        "created_at": "2026-08-07T16:56:51.650010+08:00",
+        "updated_at": "2026-08-07T16:56:51.650012+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "SkillTrace: Multi-Trace Provenance Auditing for LLM-Agent Skill Reuse",
+      "url": "https://arxiv.org/abs/2608.05204",
+      "description": "arXiv:2608.05204v1 Announce Type: new \nAbstract: LLM-agent ecosystems are rapidly growing around reusable skills: mixed-modality packages of metadata, natural-language instructions, code, tools, references, and operational workflows. As skills become marketplace artifacts, auditing their reuse is no longer the same problem as ordinary code clone detection. Existing detectors target single-modality source code or whole-package similarity, yet skill reuse evidence is distributed across authored text, implementation fragments, and operational structure. As a result, they can miss reuse that preserves only one part of a skill. We present SKILLTRACE, a multi-trace provenance auditing framework for LLM-agent skill reuse. SKILLTRACE extracts three provenance traces: Expression, Implementation, and Operational. It represents the Operational Trace as a Skill Operational Graph (SOG) that captures activation, procedure, and resource-flow structure. An LLM assists only the Operational-trace extraction, once at ingestion; at audit time SKILLTRACE compares cached traces deterministically, calibrates each trace against same-function strict negatives, and reports which trace supports a reuse decision. On SKILLTRACE-BENCH, with 820 transformed reuse positives over 100 marketplace anchors and 751 negative controls, SKILLTRACE achieves AUROC 0.938 and F1 0.898. A 36,446-skill wild audit further shows that trace-attributed evidence surfaces actionable reuse review queues beyond repository-level baselines.",
+      "pub_date": "Fri, 07 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "SkillTrace：LLM代理技能复用的多轨迹溯源审计框架",
+        "summary": "SKILLTRACE是一个针对LLM代理技能复用的多轨迹溯源审计框架，提取表达、实现和操作三条轨迹，其中操作轨迹用技能操作图表示。审计时确定性比较缓存轨迹，并校准严格负样本。在SKILLTRACE-BENCH上AUROC达0.938，F1为0.898，并在36,446个技能的真实审计中优于基线。",
+        "summary_en": "SKILLTRACE is a multi-trace provenance auditing framework for LLM-agent skill reuse, extracting Expression, Implementation, and Operational traces. It achieves AUROC 0.938 and F1 0.898 on SKILLTRACE-BENCH, and outperforms baselines in a 36,446-skill wild audit.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "security",
+          "agent-framework"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-07-rss-003",
+        "title": "SkillTrace：LLM代理技能复用的多轨迹溯源审计框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.05204",
+        "language": "en",
+        "summary": "SKILLTRACE是一个针对LLM代理技能复用的多轨迹溯源审计框架，提取表达、实现和操作三条轨迹，其中操作轨迹用技能操作图表示。审计时确定性比较缓存轨迹，并校准严格负样本。在SKILLTRACE-BENCH上AUROC达0.938，F1为0.898，并在36,446个技能的真实审计中优于基线。",
+        "summary_en": "SKILLTRACE is a multi-trace provenance auditing framework for LLM-agent skill reuse, extracting Expression, Implementation, and Operational traces. It achieves AUROC 0.938 and F1 0.898 on SKILLTRACE-BENCH, and outperforms baselines in a 36,446-skill wild audit.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "security",
+          "agent-framework"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-07T16:56:51.649980+08:00",
+        "updated_at": "2026-08-07T16:56:51.649982+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Simulator-Grounded Large Language Models for Industrial Causal Reasoning: Tool-Use, Structured Injection, and Plant-Portable Retrieval for Wastewater Treatment Decision Support",
+      "url": "https://arxiv.org/abs/2608.05151",
+      "description": "arXiv:2608.05151v1 Announce Type: new \nAbstract: Wastewater operators need answers grounded in how their plant's variables interact and how fast effects propagate, not in generic pretraining text, when asking causal questions such as \"why is N2O rising?\" or \"what happens if I cut aeration by 20%?\". We compare three concrete ways to ground a frozen Qwen2.5-32B-Instruct model in an architecturally interpretable wastewater simulator (CCSS-IX): a live simulator oracle (Method 1), structured parameter injection (Method 2), and a Decoupled Recall-Reasoning (DRR) retriever (Method 3). On a 198-question causal benchmark the three reach 99.5%, 79%, and 75.8%, forming a deployment ladder above the strongest retrieval-augmented baseline at 48%. The DRR retriever has 110M parameters and trains per plant in ~17 seconds; after cross-plant transfer to a biologically distinct plant it still reaches 88%, while Method 2's static table cannot transfer. On a 60-question counterfactual benchmark only Method 3 handles queries about what happens after an intervention: +16.3 pp over Method 2, paired 95% CI [+7.1, +26.4] pp, with 100% on the timescale and operating-regime categories. On the AI2 Reasoning Challenge (ARC) with an OpenBookQA fact corpus, the same selective-retrieval mechanism reaches 79% versus unconstrained Llama-3.1-8B 76% and full-injection 74%, a +3 pp out-of-domain replication that argues against a result specific to wastewater treatment. We provide the first single-simulator comparison of live tool-use, static parameter injection, and learned numerical-parameter retrieval for industrial causal question answering.",
+      "pub_date": "Fri, 07 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "基于模拟器的工业因果推理大语言模型：工具使用、结构化注入与工厂可移植检索在污水处理决策支持中的应用",
+        "summary": "本文比较了三种将冻结的Qwen2.5-32B模型与污水处理模拟器结合的方法：实时模拟器工具、结构化参数注入和DRR检索器。在198个因果问题上，DRR达到75.8%，优于基线48%，且可跨工厂迁移。在反事实基准上DRR表现最佳，并在ARC上验证了通用性。",
+        "summary_en": "Compares three methods to ground a frozen LLM in a wastewater simulator: live tool-use, parameter injection, and DRR retriever. DRR achieves 75.8% on causal benchmark, transfers across plants, and generalizes to ARC, outperforming baselines.",
+        "tags": [
+          "llm",
+          "research",
+          "rag",
+          "tool",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-07-rss-007",
+        "title": "基于模拟器的工业因果推理大语言模型：工具使用、结构化注入与工厂可移植检索在污水处理决策支持中的应用",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.05151",
+        "language": "en",
+        "summary": "本文比较了三种将冻结的Qwen2.5-32B模型与污水处理模拟器结合的方法：实时模拟器工具、结构化参数注入和DRR检索器。在198个因果问题上，DRR达到75.8%，优于基线48%，且可跨工厂迁移。在反事实基准上DRR表现最佳，并在ARC上验证了通用性。",
+        "summary_en": "Compares three methods to ground a frozen LLM in a wastewater simulator: live tool-use, parameter injection, and DRR retriever. DRR achieves 75.8% on causal benchmark, transfers across plants, and generalizes to ARC, outperforming baselines.",
+        "tags": [
+          "llm",
+          "research",
+          "rag",
+          "tool",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-08-07T16:56:51.649998+08:00",
+        "updated_at": "2026-08-07T16:56:51.649999+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Mean-Field Dynamics of Chain-of-Thought Reasoning in Large Language Models",
+      "url": "https://arxiv.org/abs/2608.05152",
+      "description": "arXiv:2608.05152v1 Announce Type: new \nAbstract: Large language models (LLMs) with chain-of-thought reasoning have been widely applied in recent years, and theoretical explanations of their behavior may help deepen our understanding and guide model optimization. In this study, we introduce a framework that seeks statistical regularities and theoretical interpretations in LLM reasoning without simplifying the model architecture or making analogies to existing physical systems. We formulate LLM reasoning as a guided discovery process on a clue graph, and derive a one-dimensional ordinary differential equation for the fraction of discovered clues using the mean-field approximation. Experimentally, clue tokens are identified using the normalized surprisal of a student LLM on the outputs of a teacher LLM, and statistical regularities are obtained by averaging over many reasoning chains of thought. Our experiments show that the resulting statistical regularities are reproducible within the same dataset and can be fitted by the solving the proposed theoretical equation.",
+      "pub_date": "Fri, 07 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "大语言模型思维链推理的均场动力学",
+        "summary": "本文提出一个框架，在不简化模型架构或类比物理系统的前提下，为LLM思维链推理提供统计规律和理论解释。将推理视为线索图上的引导发现过程，利用均场近似推导出已发现线索比例的常微分方程。实验用学生LLM的归一化惊讶度识别线索，验证了统计规律的可复现性及理论方程的拟合效果。",
+        "summary_en": "This paper introduces a framework for statistical regularities and theoretical interpretations of LLM chain-of-thought reasoning without simplifying architecture or physical analogies. It models reasoning as guided discovery on a clue graph, derives a one-dimensional ODE via mean-field approximation, and validates reproducibility and fitting with student-teacher surprisal experiments.",
+        "tags": [
+          "llm",
+          "research",
+          "chain-of-thought",
+          "mean-field"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-07-rss-004",
+        "title": "大语言模型思维链推理的均场动力学",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.05152",
+        "language": "en",
+        "summary": "本文提出一个框架，在不简化模型架构或类比物理系统的前提下，为LLM思维链推理提供统计规律和理论解释。将推理视为线索图上的引导发现过程，利用均场近似推导出已发现线索比例的常微分方程。实验用学生LLM的归一化惊讶度识别线索，验证了统计规律的可复现性及理论方程的拟合效果。",
+        "summary_en": "This paper introduces a framework for statistical regularities and theoretical interpretations of LLM chain-of-thought reasoning without simplifying architecture or physical analogies. It models reasoning as guided discovery on a clue graph, derives a one-dimensional ODE via mean-field approximation, and validates reproducibility and fitting with student-teacher surprisal experiments.",
+        "tags": [
+          "llm",
+          "research",
+          "chain-of-thought",
+          "mean-field"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-07T16:56:51.649984+08:00",
+        "updated_at": "2026-08-07T16:56:51.649986+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Universal Pathologies, Conditional Consequences: A Triple-Robustness Analysis of RAG for Multi-Hop Traceability",
+      "url": "https://arxiv.org/abs/2608.05153",
+      "description": "arXiv:2608.05153v1 Announce Type: new \nAbstract: GraphRAG underperforms vector RAG on citation precision in many reports, but where and why have remained corpus-bound. We present a triple-robustness analysis that holds the retrieval architecture fixed and varies three orthogonal axes embedder (local e5-small -> Azure text-embedding-3-small), corpus (DO-178C typed-edge requirements -> Wikipedia paragraph chains via MuSiQue), and judge (paired GPT-5.4 x GPT-4.1) across 4,440 main-matrix runs, 600 cross-corpus runs, and 1,200 paired faithfulness judgments. (C2a) Over-citation is architecturally universal: GraphRAG emits 11-15 IDs per answer at citation precision 0.12-0.23 and retrieval recall 0.68-0.87 across all three settings. (C2b) Its faithfulness consequence is corpus-conditional: in typed-edge DO-178C, GraphRAG faithfulness collapses 74%->40% across hops; on Wikipedia chains the same pipeline rises 42%->58% because over-cited paragraphs remain topically supporting. (C1) Stratum-conditional winners are corpus-conditional but embedder-robust: vanilla wins 2-hop on DO-178C, GraphRAG wins 2-hop on MuSiQue, identical under either embedder. (C3) Single-judge LLM faithfulness is fragile to retrieval state: same-judge self-kappa across embedders is 0.137 for GPT-5.4 (verdict change on 41% of items). A learned router on dense embeddings alone reaches macro-F1 0.86 on hop classification (C4). We argue triple-robustness is the minimum bar for trustworthy RAG architecture claims.",
+      "pub_date": "Fri, 07 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "通用病理与条件后果：RAG多跳可追溯性的三重稳健性分析",
+        "summary": "该研究对GraphRAG与向量RAG在多跳引用精度上的差异进行了三重稳健性分析，固定检索架构，变化嵌入器、语料库和评判器。发现过度引用是架构普遍的，但忠实性后果取决于语料库；单评判器LLM的忠实性评估脆弱。提出三重稳健性是可信RAG架构声明的最低标准。",
+        "summary_en": "This study presents a triple-robustness analysis of GraphRAG vs vector RAG for multi-hop citation precision, varying embedder, corpus, and judge. Over-citation is architecturally universal, but faithfulness consequences are corpus-conditional. Single-judge LLM faithfulness is fragile. Triple-robustness is proposed as the minimum bar for trustworthy RAG claims.",
+        "tags": [
+          "rag",
+          "research",
+          "evaluation",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-07-rss-005",
+        "title": "通用病理与条件后果：RAG多跳可追溯性的三重稳健性分析",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.05153",
+        "language": "en",
+        "summary": "该研究对GraphRAG与向量RAG在多跳引用精度上的差异进行了三重稳健性分析，固定检索架构，变化嵌入器、语料库和评判器。发现过度引用是架构普遍的，但忠实性后果取决于语料库；单评判器LLM的忠实性评估脆弱。提出三重稳健性是可信RAG架构声明的最低标准。",
+        "summary_en": "This study presents a triple-robustness analysis of GraphRAG vs vector RAG for multi-hop citation precision, varying embedder, corpus, and judge. Over-citation is architecturally universal, but faithfulness consequences are corpus-conditional. Single-judge LLM faithfulness is fragile. Triple-robustness is proposed as the minimum bar for trustworthy RAG claims.",
+        "tags": [
+          "rag",
+          "research",
+          "evaluation",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-07T16:56:51.649989+08:00",
+        "updated_at": "2026-08-07T16:56:51.649990+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "RIG-RoPE: Relation- and Instance-Gated Rotary Positional Encoding with Duration-Aware Temporal Coordinates",
+      "url": "https://arxiv.org/abs/2608.05154",
+      "description": "arXiv:2608.05154v1 Announce Type: new \nAbstract: Rotary positional encoding (RoPE) is a core component of modern language models and has been extended to multimodal LLMs through multidimensional variants such as multimodal RoPE (M-RoPE), which split positional channels into temporal, height, and width subspaces. This report identifies two limitations of static multidimensional position assignment in interleaved multimodal contexts. First, height/width rotations may be applied to token pairs whose spatial displacement is not a well-defined geometric object, producing cross-modal and inter-instance spatial interference. Second, temporal coordinates are often treated as equal-step counters, so a text token, an image block, and a video segment can advance the temporal phase by comparable amounts despite different information density.\n  We propose RIG-RoPE, a relation- and instance-gated RoPE mechanism with duration-aware temporal coordinates. RIG-RoPE augments each token with a modality indicator, a visual instance identifier, and a scalar information-duration coordinate. It enables H/W rotations only for query-key pairs from the same visual instance; otherwise the unknown spatial displacement is marginalized rather than set to zero. Temporal rotations use interpolated cumulative block durations: text tokens consume unit duration, images use a dimension-aware logarithmic spatial scale, and videos further apply a logarithmic temporal extension over effective frames. We provide a gauge-invariance argument for avoiding ordinary cross-instance spatial rotation, an impossibility result for static IDs under shared H/W subspaces, and a duration-consistency argument against equal-step multimodal time. RIG-RoPE adds no learned parameters and can be implemented inside tiled attention kernels with constant additional metadata per token. This preliminary report establishes the formulation and validation path without claiming empirical superiority.",
+      "pub_date": "Fri, 07 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "RIG-RoPE：关系与实例门控的旋转位置编码及持续时间感知时间坐标",
+        "summary": "RIG-RoPE针对多模态LLM中静态多维位置分配的两个局限：跨模态/跨实例空间干扰和等步长时间坐标问题，提出关系与实例门控的RoPE机制，通过模态指示符、视觉实例标识和持续时间坐标，仅对同一实例的查询键对应用H/W旋转，并使用持续时间感知的时间坐标。无需学习参数，可在tiled注意力内核中实现。",
+        "summary_en": "RIG-RoPE addresses limitations of static multidimensional position assignment in multimodal LLMs by gating H/W rotations to same-instance pairs and using duration-aware temporal coordinates, with no learned parameters.",
+        "tags": [
+          "llm",
+          "multimodal",
+          "research",
+          "position-encoding"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-07-rss-008",
+        "title": "RIG-RoPE：关系与实例门控的旋转位置编码及持续时间感知时间坐标",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.05154",
+        "language": "en",
+        "summary": "RIG-RoPE针对多模态LLM中静态多维位置分配的两个局限：跨模态/跨实例空间干扰和等步长时间坐标问题，提出关系与实例门控的RoPE机制，通过模态指示符、视觉实例标识和持续时间坐标，仅对同一实例的查询键对应用H/W旋转，并使用持续时间感知的时间坐标。无需学习参数，可在tiled注意力内核中实现。",
+        "summary_en": "RIG-RoPE addresses limitations of static multidimensional position assignment in multimodal LLMs by gating H/W rotations to same-instance pairs and using duration-aware temporal coordinates, with no learned parameters.",
+        "tags": [
+          "llm",
+          "multimodal",
+          "research",
+          "position-encoding"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-08-07T16:56:51.650002+08:00",
+        "updated_at": "2026-08-07T16:56:51.650003+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Beyond Sentiment: Comparing Traditional NLP and LLM-Based Multi-Dimensional Analysis for Political News Evaluation",
+      "url": "https://arxiv.org/abs/2608.05155",
+      "description": "arXiv:2608.05155v1 Announce Type: new \nAbstract: Traditional sentiment analysis (SA) models, while effective for polarity classification, provide limited insight into the rhetorical, ideological, and framing dimensions of political discourse -- dimensions that are central to research in the social sciences and humanities (SSH). In this paper, we present a comparative study of RoBERTa-based sentiment analysis and an LLM-based multi-dimensional framing analysis platform applied to a corpus of 50 political news articles from 17 international media outlets. The results reveal a critical limitation we term neutral collapse: RoBERTa classifies 70% of articles as neutral, effectively flattening substantively rich political content into an analytically uninformative category. We find that 23% of neutral-classified articles exhibit negative probability scores above 0.30. By contrast, the LLM-based approach captures political bias direction and intensity, sensationalism, emotional appeal, and political framing -- yielding multi-dimensional analytical outputs aligned with SSH epistemologies. We argue that for political media analysis, traditional SA alone is insufficient, and that LLM-based multi-dimensional frameworks offer a more epistemologically adequate computational lens for SSH research needs.",
+      "pub_date": "Fri, 07 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "超越情感分析：传统NLP与基于LLM的多维分析在政治新闻评估中的比较",
+        "summary": "该研究比较了基于RoBERTa的传统情感分析与基于LLM的多维框架分析在50篇政治新闻中的应用。发现传统情感分析存在“中性崩溃”问题，70%的文章被归类为中性，而LLM方法能捕捉政治偏见、耸人听闻程度、情感诉求和框架，更符合社会科学研究需求。",
+        "summary_en": "This study compares RoBERTa-based sentiment analysis with an LLM-based multi-dimensional framing analysis on 50 political news articles. It finds that traditional sentiment analysis suffers from 'neutral collapse', classifying 70% of articles as neutral, while the LLM approach captures political bias, sensationalism, emotional appeal, and framing, better aligning with social science research needs.",
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-07-rss-009",
+        "title": "超越情感分析：传统NLP与基于LLM的多维分析在政治新闻评估中的比较",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.05155",
+        "language": "en",
+        "summary": "该研究比较了基于RoBERTa的传统情感分析与基于LLM的多维框架分析在50篇政治新闻中的应用。发现传统情感分析存在“中性崩溃”问题，70%的文章被归类为中性，而LLM方法能捕捉政治偏见、耸人听闻程度、情感诉求和框架，更符合社会科学研究需求。",
+        "summary_en": "This study compares RoBERTa-based sentiment analysis with an LLM-based multi-dimensional framing analysis on 50 political news articles. It finds that traditional sentiment analysis suffers from 'neutral collapse', classifying 70% of articles as neutral, while the LLM approach captures political bias, sensationalism, emotional appeal, and framing, better aligning with social science research needs.",
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-07T16:56:51.650006+08:00",
+        "updated_at": "2026-08-07T16:56:51.650007+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

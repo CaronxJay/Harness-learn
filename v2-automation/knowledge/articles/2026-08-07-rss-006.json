@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-07-rss-006",
+  "title": "Agentic Nesting：一种用于现有企业应用集成与服务的新方法论",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.05159",
+  "language": "en",
+  "summary": "本文提出Agentic Nesting，一种多智能体协作框架，将现有企业应用封装为分层嵌套结构中的自主AI代理，通过中央编排器实现任务分解与动态调度，并提供统一对话界面，实现跨应用查询与流程编排，克服传统集成方法（如ESB、API网关、RPA）的局限性。",
+  "summary_en": "This paper proposes Agentic Nesting, a multi-agent collaboration framework that encapsulates existing enterprise applications as autonomous AI agents in a hierarchically nested structure, coordinated by a central orchestrator, with a unified conversational interface, overcoming limitations of traditional integration methods.",
+  "tags": [
+    "agent-framework",
+    "application",
+    "llm",
+    "research"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-08-07T16:56:51.649993+08:00",
+  "updated_at": "2026-08-07T16:56:51.649995+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

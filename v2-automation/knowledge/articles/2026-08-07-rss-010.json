@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-07-rss-010",
+  "title": "从连续预测变量到临床阈值：基于指南分类对缺血性卒中结局预测性能权衡的早期证据",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.05203",
+  "language": "en",
+  "summary": "该研究探讨在急性缺血性卒中90天结局预测中，用临床指南对齐的分类编码替代连续预测变量是否影响模型性能。在多中心欧洲登记数据上，完全分类的梯度提升模型在两个治疗队列中与连续模型无显著差异，一个队列性能显著下降，但特征重要性排序保持一致，表明指南分类是可行的设计选择。",
+  "summary_en": "This study examines whether replacing continuous predictors with guideline-aligned categorical encodings affects performance in 90-day outcome prediction for acute ischaemic stroke. Fully categorised gradient-boosted models were statistically indistinguishable from continuous counterparts in two treatment cohorts, with a significant drop in one, while feature importance rankings remained consistent, suggesting guideline-based categorisation is viable.",
+  "tags": [
+    "research",
+    "application",
+    "llm",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.6,
+  "status": "published",
+  "created_at": "2026-08-07T16:56:51.650010+08:00",
+  "updated_at": "2026-08-07T16:56:51.650012+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

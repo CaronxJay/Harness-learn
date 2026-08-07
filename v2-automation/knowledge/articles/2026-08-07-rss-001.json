@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-07-rss-001",
+  "title": "点火指数：衡量语言模型中的全局工作空间动态",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.05160",
+  "language": "en",
+  "summary": "提出点火指数（I），通过拟合sigmoid函数提取陡峭度参数，量化Transformer语言模型中全局工作空间理论的“全或无”转变。在11个模型上验证了9.6倍选择性，发现前馈Transformer优于SSM，循环架构沿迭代轴表现点火，并检测到训练中的相变。",
+  "summary_en": "Introduces the Ignition Index, a metric operationalizing Global Workspace Theory's all-or-none transitions in language models, validated across 11 models with 9.6-fold selectivity, revealing architecture differences and training phase transitions.",
+  "tags": [
+    "llm",
+    "research",
+    "interpretability",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-07T16:56:51.649967+08:00",
+  "updated_at": "2026-08-07T16:56:51.649971+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

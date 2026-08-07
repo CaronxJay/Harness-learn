@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-07-rss-005",
+  "title": "通用病理与条件后果：RAG多跳可追溯性的三重稳健性分析",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.05153",
+  "language": "en",
+  "summary": "该研究对GraphRAG与向量RAG在多跳引用精度上的差异进行了三重稳健性分析，固定检索架构，变化嵌入器、语料库和评判器。发现过度引用是架构普遍的，但忠实性后果取决于语料库；单评判器LLM的忠实性评估脆弱。提出三重稳健性是可信RAG架构声明的最低标准。",
+  "summary_en": "This study presents a triple-robustness analysis of GraphRAG vs vector RAG for multi-hop citation precision, varying embedder, corpus, and judge. Over-citation is architecturally universal, but faithfulness consequences are corpus-conditional. Single-judge LLM faithfulness is fragile. Triple-robustness is proposed as the minimum bar for trustworthy RAG claims.",
+  "tags": [
+    "rag",
+    "research",
+    "evaluation",
+    "llm"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-07T16:56:51.649989+08:00",
+  "updated_at": "2026-08-07T16:56:51.649990+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

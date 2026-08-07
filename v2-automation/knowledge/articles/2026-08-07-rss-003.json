@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-07-rss-003",
+  "title": "SkillTrace：LLM代理技能复用的多轨迹溯源审计框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.05204",
+  "language": "en",
+  "summary": "SKILLTRACE是一个针对LLM代理技能复用的多轨迹溯源审计框架，提取表达、实现和操作三条轨迹，其中操作轨迹用技能操作图表示。审计时确定性比较缓存轨迹，并校准严格负样本。在SKILLTRACE-BENCH上AUROC达0.938，F1为0.898，并在36,446个技能的真实审计中优于基线。",
+  "summary_en": "SKILLTRACE is a multi-trace provenance auditing framework for LLM-agent skill reuse, extracting Expression, Implementation, and Operational traces. It achieves AUROC 0.938 and F1 0.898 on SKILLTRACE-BENCH, and outperforms baselines in a 36,446-skill wild audit.",
+  "tags": [
+    "llm",
+    "research",
+    "benchmark",
+    "security",
+    "agent-framework"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-07T16:56:51.649980+08:00",
+  "updated_at": "2026-08-07T16:56:51.649982+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
