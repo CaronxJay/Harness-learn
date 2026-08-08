@@ -1,0 +1,244 @@
+{
+  "collected_at": "2026-08-08T16:37:13.686416+08:00",
+  "source": "rss",
+  "count": 5,
+  "items": [
+    {
+      "title": "Simulator-Grounded Large Language Models for Industrial Causal Reasoning: Tool-Use, Structured Injection, and Plant-Portable Retrieval for Wastewater Treatment Decision Support",
+      "url": "https://arxiv.org/abs/2608.05151",
+      "description": "arXiv:2608.05151v1 Announce Type: new \nAbstract: Wastewater operators need answers grounded in how their plant's variables interact and how fast effects propagate, not in generic pretraining text, when asking causal questions such as \"why is N2O rising?\" or \"what happens if I cut aeration by 20%?\". We compare three concrete ways to ground a frozen Qwen2.5-32B-Instruct model in an architecturally interpretable wastewater simulator (CCSS-IX): a live simulator oracle (Method 1), structured parameter injection (Method 2), and a Decoupled Recall-Reasoning (DRR) retriever (Method 3). On a 198-question causal benchmark the three reach 99.5%, 79%, and 75.8%, forming a deployment ladder above the strongest retrieval-augmented baseline at 48%. The DRR retriever has 110M parameters and trains per plant in ~17 seconds; after cross-plant transfer to a biologically distinct plant it still reaches 88%, while Method 2's static table cannot transfer. On a 60-question counterfactual benchmark only Method 3 handles queries about what happens after an intervention: +16.3 pp over Method 2, paired 95% CI [+7.1, +26.4] pp, with 100% on the timescale and operating-regime categories. On the AI2 Reasoning Challenge (ARC) with an OpenBookQA fact corpus, the same selective-retrieval mechanism reaches 79% versus unconstrained Llama-3.1-8B 76% and full-injection 74%, a +3 pp out-of-domain replication that argues against a result specific to wastewater treatment. We provide the first single-simulator comparison of live tool-use, static parameter injection, and learned numerical-parameter retrieval for industrial causal question answering.",
+      "pub_date": "Sat, 08 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "基于模拟器的大语言模型用于工业因果推理：工具使用、结构化注入与工厂可移植检索在废水处理决策支持中的应用",
+        "summary": "本文比较了三种将冻结的Qwen2.5-32B模型与废水处理模拟器结合的方法：实时模拟器工具、参数注入和DRR检索器。DRR在因果基准上达75.8%，可迁移至不同工厂，并在反事实查询上优于其他方法，且在通用推理任务上表现良好。",
+        "summary_en": "Compares three methods to ground a frozen LLM in a wastewater simulator: live tool-use, parameter injection, and DRR retriever. DRR achieves 75.8% on causal benchmark, transfers across plants, and excels on counterfactual queries, with out-of-domain replication on ARC.",
+        "tags": [
+          "llm",
+          "application",
+          "rag",
+          "tool",
+          "research"
+        ],
+        "category": "application",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-08-rss-004",
+        "title": "基于模拟器的大语言模型用于工业因果推理：工具使用、结构化注入与工厂可移植检索在废水处理决策支持中的应用",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.05151",
+        "language": "en",
+        "summary": "本文比较了三种将冻结的Qwen2.5-32B模型与废水处理模拟器结合的方法：实时模拟器工具、参数注入和DRR检索器。DRR在因果基准上达75.8%，可迁移至不同工厂，并在反事实查询上优于其他方法，且在通用推理任务上表现良好。",
+        "summary_en": "Compares three methods to ground a frozen LLM in a wastewater simulator: live tool-use, parameter injection, and DRR retriever. DRR achieves 75.8% on causal benchmark, transfers across plants, and excels on counterfactual queries, with out-of-domain replication on ARC.",
+        "tags": [
+          "llm",
+          "application",
+          "rag",
+          "tool",
+          "research"
+        ],
+        "category": "application",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-08T16:37:13.685558+08:00",
+        "updated_at": "2026-08-08T16:37:13.685559+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Mean-Field Dynamics of Chain-of-Thought Reasoning in Large Language Models",
+      "url": "https://arxiv.org/abs/2608.05152",
+      "description": "arXiv:2608.05152v1 Announce Type: new \nAbstract: Large language models (LLMs) with chain-of-thought reasoning have been widely applied in recent years, and theoretical explanations of their behavior may help deepen our understanding and guide model optimization. In this study, we introduce a framework that seeks statistical regularities and theoretical interpretations in LLM reasoning without simplifying the model architecture or making analogies to existing physical systems. We formulate LLM reasoning as a guided discovery process on a clue graph, and derive a one-dimensional ordinary differential equation for the fraction of discovered clues using the mean-field approximation. Experimentally, clue tokens are identified using the normalized surprisal of a student LLM on the outputs of a teacher LLM, and statistical regularities are obtained by averaging over many reasoning chains of thought. Our experiments show that the resulting statistical regularities are reproducible within the same dataset and can be fitted by the solving the proposed theoretical equation.",
+      "pub_date": "Sat, 08 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "大语言模型思维链推理的均场动力学",
+        "summary": "本文提出一个框架，在不简化模型架构或类比物理系统的情况下，为LLM思维链推理提供统计规律和理论解释。将推理视为线索图上的引导发现过程，利用均场近似推导出已发现线索比例的一维常微分方程。实验通过学生模型对教师模型输出的归一化惊讶度识别线索，验证了统计规律的可复现性及理论方程的拟合效果。",
+        "summary_en": "This paper introduces a framework for statistical regularities and theoretical interpretations of LLM chain-of-thought reasoning without simplifying architecture or physical analogies. It models reasoning as guided discovery on a clue graph and derives a one-dimensional ODE for discovered clue fraction via mean-field approximation. Experiments using normalized surprisal confirm reproducibility and fit.",
+        "tags": [
+          "llm",
+          "research",
+          "reasoning",
+          "mean-field"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-08-rss-001",
+        "title": "大语言模型思维链推理的均场动力学",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.05152",
+        "language": "en",
+        "summary": "本文提出一个框架，在不简化模型架构或类比物理系统的情况下，为LLM思维链推理提供统计规律和理论解释。将推理视为线索图上的引导发现过程，利用均场近似推导出已发现线索比例的一维常微分方程。实验通过学生模型对教师模型输出的归一化惊讶度识别线索，验证了统计规律的可复现性及理论方程的拟合效果。",
+        "summary_en": "This paper introduces a framework for statistical regularities and theoretical interpretations of LLM chain-of-thought reasoning without simplifying architecture or physical analogies. It models reasoning as guided discovery on a clue graph and derives a one-dimensional ODE for discovered clue fraction via mean-field approximation. Experiments using normalized surprisal confirm reproducibility and fit.",
+        "tags": [
+          "llm",
+          "research",
+          "reasoning",
+          "mean-field"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-08T16:37:13.685539+08:00",
+        "updated_at": "2026-08-08T16:37:13.685543+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Universal Pathologies, Conditional Consequences: A Triple-Robustness Analysis of RAG for Multi-Hop Traceability",
+      "url": "https://arxiv.org/abs/2608.05153",
+      "description": "arXiv:2608.05153v1 Announce Type: new \nAbstract: GraphRAG underperforms vector RAG on citation precision in many reports, but where and why have remained corpus-bound. We present a triple-robustness analysis that holds the retrieval architecture fixed and varies three orthogonal axes embedder (local e5-small -> Azure text-embedding-3-small), corpus (DO-178C typed-edge requirements -> Wikipedia paragraph chains via MuSiQue), and judge (paired GPT-5.4 x GPT-4.1) across 4,440 main-matrix runs, 600 cross-corpus runs, and 1,200 paired faithfulness judgments. (C2a) Over-citation is architecturally universal: GraphRAG emits 11-15 IDs per answer at citation precision 0.12-0.23 and retrieval recall 0.68-0.87 across all three settings. (C2b) Its faithfulness consequence is corpus-conditional: in typed-edge DO-178C, GraphRAG faithfulness collapses 74%->40% across hops; on Wikipedia chains the same pipeline rises 42%->58% because over-cited paragraphs remain topically supporting. (C1) Stratum-conditional winners are corpus-conditional but embedder-robust: vanilla wins 2-hop on DO-178C, GraphRAG wins 2-hop on MuSiQue, identical under either embedder. (C3) Single-judge LLM faithfulness is fragile to retrieval state: same-judge self-kappa across embedders is 0.137 for GPT-5.4 (verdict change on 41% of items). A learned router on dense embeddings alone reaches macro-F1 0.86 on hop classification (C4). We argue triple-robustness is the minimum bar for trustworthy RAG architecture claims.",
+      "pub_date": "Sat, 08 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "通用病理与条件后果：RAG多跳可追溯性的三重稳健性分析",
+        "summary": "本文提出三重稳健性分析框架，固定检索架构，变化嵌入器、语料库和评判器，通过4440次主矩阵运行等实验，发现GraphRAG过度引用是架构普遍现象，但忠实性后果依赖语料库；单评判器LLM的忠实性评估脆弱，学习路由器可达到0.86的宏F1。",
+        "summary_en": "This paper proposes a triple-robustness analysis framework, varying embedder, corpus, and judge while fixing retrieval architecture. Experiments show GraphRAG over-citation is universal, but faithfulness consequences are corpus-conditional; single-judge LLM faithfulness is fragile, and a learned router achieves macro-F1 0.86.",
+        "tags": [
+          "rag",
+          "research",
+          "evaluation",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-08-rss-002",
+        "title": "通用病理与条件后果：RAG多跳可追溯性的三重稳健性分析",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.05153",
+        "language": "en",
+        "summary": "本文提出三重稳健性分析框架，固定检索架构，变化嵌入器、语料库和评判器，通过4440次主矩阵运行等实验，发现GraphRAG过度引用是架构普遍现象，但忠实性后果依赖语料库；单评判器LLM的忠实性评估脆弱，学习路由器可达到0.86的宏F1。",
+        "summary_en": "This paper proposes a triple-robustness analysis framework, varying embedder, corpus, and judge while fixing retrieval architecture. Experiments show GraphRAG over-citation is universal, but faithfulness consequences are corpus-conditional; single-judge LLM faithfulness is fragile, and a learned router achieves macro-F1 0.86.",
+        "tags": [
+          "rag",
+          "research",
+          "evaluation",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-08T16:37:13.685548+08:00",
+        "updated_at": "2026-08-08T16:37:13.685550+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "RIG-RoPE: Relation- and Instance-Gated Rotary Positional Encoding with Duration-Aware Temporal Coordinates",
+      "url": "https://arxiv.org/abs/2608.05154",
+      "description": "arXiv:2608.05154v1 Announce Type: new \nAbstract: Rotary positional encoding (RoPE) is a core component of modern language models and has been extended to multimodal LLMs through multidimensional variants such as multimodal RoPE (M-RoPE), which split positional channels into temporal, height, and width subspaces. This report identifies two limitations of static multidimensional position assignment in interleaved multimodal contexts. First, height/width rotations may be applied to token pairs whose spatial displacement is not a well-defined geometric object, producing cross-modal and inter-instance spatial interference. Second, temporal coordinates are often treated as equal-step counters, so a text token, an image block, and a video segment can advance the temporal phase by comparable amounts despite different information density.\n  We propose RIG-RoPE, a relation- and instance-gated RoPE mechanism with duration-aware temporal coordinates. RIG-RoPE augments each token with a modality indicator, a visual instance identifier, and a scalar information-duration coordinate. It enables H/W rotations only for query-key pairs from the same visual instance; otherwise the unknown spatial displacement is marginalized rather than set to zero. Temporal rotations use interpolated cumulative block durations: text tokens consume unit duration, images use a dimension-aware logarithmic spatial scale, and videos further apply a logarithmic temporal extension over effective frames. We provide a gauge-invariance argument for avoiding ordinary cross-instance spatial rotation, an impossibility result for static IDs under shared H/W subspaces, and a duration-consistency argument against equal-step multimodal time. RIG-RoPE adds no learned parameters and can be implemented inside tiled attention kernels with constant additional metadata per token. This preliminary report establishes the formulation and validation path without claiming empirical superiority.",
+      "pub_date": "Sat, 08 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "RIG-RoPE：基于关系与实例门控的旋转位置编码及持续时间感知时间坐标",
+        "summary": "RIG-RoPE针对多模态LLM中静态多维位置分配的局限，提出关系与实例门控的RoPE机制。通过模态指示符、视觉实例标识和持续时间坐标，仅对同一视觉实例的查询键对进行空间旋转，并采用持续时间感知的时间坐标，避免跨模态干扰，无需学习参数，可高效实现。",
+        "summary_en": "RIG-RoPE addresses limitations of static multidimensional position assignment in multimodal LLMs by introducing relation- and instance-gated RoPE with duration-aware temporal coordinates, enabling spatial rotations only within same visual instances and using interpolated cumulative durations, without learned parameters.",
+        "tags": [
+          "llm",
+          "multimodal",
+          "research",
+          "infrastructure"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-08-rss-003",
+        "title": "RIG-RoPE：基于关系与实例门控的旋转位置编码及持续时间感知时间坐标",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.05154",
+        "language": "en",
+        "summary": "RIG-RoPE针对多模态LLM中静态多维位置分配的局限，提出关系与实例门控的RoPE机制。通过模态指示符、视觉实例标识和持续时间坐标，仅对同一视觉实例的查询键对进行空间旋转，并采用持续时间感知的时间坐标，避免跨模态干扰，无需学习参数，可高效实现。",
+        "summary_en": "RIG-RoPE addresses limitations of static multidimensional position assignment in multimodal LLMs by introducing relation- and instance-gated RoPE with duration-aware temporal coordinates, enabling spatial rotations only within same visual instances and using interpolated cumulative durations, without learned parameters.",
+        "tags": [
+          "llm",
+          "multimodal",
+          "research",
+          "infrastructure"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-08-08T16:37:13.685553+08:00",
+        "updated_at": "2026-08-08T16:37:13.685555+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Beyond Sentiment: Comparing Traditional NLP and LLM-Based Multi-Dimensional Analysis for Political News Evaluation",
+      "url": "https://arxiv.org/abs/2608.05155",
+      "description": "arXiv:2608.05155v1 Announce Type: new \nAbstract: Traditional sentiment analysis (SA) models, while effective for polarity classification, provide limited insight into the rhetorical, ideological, and framing dimensions of political discourse -- dimensions that are central to research in the social sciences and humanities (SSH). In this paper, we present a comparative study of RoBERTa-based sentiment analysis and an LLM-based multi-dimensional framing analysis platform applied to a corpus of 50 political news articles from 17 international media outlets. The results reveal a critical limitation we term neutral collapse: RoBERTa classifies 70% of articles as neutral, effectively flattening substantively rich political content into an analytically uninformative category. We find that 23% of neutral-classified articles exhibit negative probability scores above 0.30. By contrast, the LLM-based approach captures political bias direction and intensity, sensationalism, emotional appeal, and political framing -- yielding multi-dimensional analytical outputs aligned with SSH epistemologies. We argue that for political media analysis, traditional SA alone is insufficient, and that LLM-based multi-dimensional frameworks offer a more epistemologically adequate computational lens for SSH research needs.",
+      "pub_date": "Sat, 08 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "超越情感分析：传统NLP与基于LLM的多维分析在政治新闻评估中的比较",
+        "summary": "本文比较了基于RoBERTa的传统情感分析与基于LLM的多维框架分析在50篇政治新闻中的应用。发现传统方法存在“中性崩溃”问题，70%的文章被归类为中性，而LLM方法能捕捉政治偏见、煽情性、情感诉求和框架，更符合社会科学研究需求。",
+        "summary_en": "This paper compares RoBERTa-based sentiment analysis with an LLM-based multi-dimensional framing analysis on 50 political news articles. It finds traditional methods suffer from 'neutral collapse' (70% classified as neutral), while LLM approaches capture political bias, sensationalism, emotional appeal, and framing, better aligning with social science research needs.",
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-08-rss-005",
+        "title": "超越情感分析：传统NLP与基于LLM的多维分析在政治新闻评估中的比较",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.05155",
+        "language": "en",
+        "summary": "本文比较了基于RoBERTa的传统情感分析与基于LLM的多维框架分析在50篇政治新闻中的应用。发现传统方法存在“中性崩溃”问题，70%的文章被归类为中性，而LLM方法能捕捉政治偏见、煽情性、情感诉求和框架，更符合社会科学研究需求。",
+        "summary_en": "This paper compares RoBERTa-based sentiment analysis with an LLM-based multi-dimensional framing analysis on 50 political news articles. It finds traditional methods suffer from 'neutral collapse' (70% classified as neutral), while LLM approaches capture political bias, sensationalism, emotional appeal, and framing, better aligning with social science research needs.",
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-08T16:37:13.685562+08:00",
+        "updated_at": "2026-08-08T16:37:13.685563+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

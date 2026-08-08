@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-08-rss-002",
+  "title": "通用病理与条件后果：RAG多跳可追溯性的三重稳健性分析",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.05153",
+  "language": "en",
+  "summary": "本文提出三重稳健性分析框架，固定检索架构，变化嵌入器、语料库和评判器，通过4440次主矩阵运行等实验，发现GraphRAG过度引用是架构普遍现象，但忠实性后果依赖语料库；单评判器LLM的忠实性评估脆弱，学习路由器可达到0.86的宏F1。",
+  "summary_en": "This paper proposes a triple-robustness analysis framework, varying embedder, corpus, and judge while fixing retrieval architecture. Experiments show GraphRAG over-citation is universal, but faithfulness consequences are corpus-conditional; single-judge LLM faithfulness is fragile, and a learned router achieves macro-F1 0.86.",
+  "tags": [
+    "rag",
+    "research",
+    "evaluation",
+    "llm"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-08T16:37:13.685548+08:00",
+  "updated_at": "2026-08-08T16:37:13.685550+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

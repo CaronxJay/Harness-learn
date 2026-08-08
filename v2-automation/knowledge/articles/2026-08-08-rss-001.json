@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-08-rss-001",
+  "title": "大语言模型思维链推理的均场动力学",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.05152",
+  "language": "en",
+  "summary": "本文提出一个框架，在不简化模型架构或类比物理系统的情况下，为LLM思维链推理提供统计规律和理论解释。将推理视为线索图上的引导发现过程，利用均场近似推导出已发现线索比例的一维常微分方程。实验通过学生模型对教师模型输出的归一化惊讶度识别线索，验证了统计规律的可复现性及理论方程的拟合效果。",
+  "summary_en": "This paper introduces a framework for statistical regularities and theoretical interpretations of LLM chain-of-thought reasoning without simplifying architecture or physical analogies. It models reasoning as guided discovery on a clue graph and derives a one-dimensional ODE for discovered clue fraction via mean-field approximation. Experiments using normalized surprisal confirm reproducibility and fit.",
+  "tags": [
+    "llm",
+    "research",
+    "reasoning",
+    "mean-field"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-08T16:37:13.685539+08:00",
+  "updated_at": "2026-08-08T16:37:13.685543+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-08-rss-003",
+  "title": "RIG-RoPE：基于关系与实例门控的旋转位置编码及持续时间感知时间坐标",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.05154",
+  "language": "en",
+  "summary": "RIG-RoPE针对多模态LLM中静态多维位置分配的局限，提出关系与实例门控的RoPE机制。通过模态指示符、视觉实例标识和持续时间坐标，仅对同一视觉实例的查询键对进行空间旋转，并采用持续时间感知的时间坐标，避免跨模态干扰，无需学习参数，可高效实现。",
+  "summary_en": "RIG-RoPE addresses limitations of static multidimensional position assignment in multimodal LLMs by introducing relation- and instance-gated RoPE with duration-aware temporal coordinates, enabling spatial rotations only within same visual instances and using interpolated cumulative durations, without learned parameters.",
+  "tags": [
+    "llm",
+    "multimodal",
+    "research",
+    "infrastructure"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-08-08T16:37:13.685553+08:00",
+  "updated_at": "2026-08-08T16:37:13.685555+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

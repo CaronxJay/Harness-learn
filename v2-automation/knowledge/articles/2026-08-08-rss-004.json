@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-08-rss-004",
+  "title": "基于模拟器的大语言模型用于工业因果推理：工具使用、结构化注入与工厂可移植检索在废水处理决策支持中的应用",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.05151",
+  "language": "en",
+  "summary": "本文比较了三种将冻结的Qwen2.5-32B模型与废水处理模拟器结合的方法：实时模拟器工具、参数注入和DRR检索器。DRR在因果基准上达75.8%，可迁移至不同工厂，并在反事实查询上优于其他方法，且在通用推理任务上表现良好。",
+  "summary_en": "Compares three methods to ground a frozen LLM in a wastewater simulator: live tool-use, parameter injection, and DRR retriever. DRR achieves 75.8% on causal benchmark, transfers across plants, and excels on counterfactual queries, with out-of-domain replication on ARC.",
+  "tags": [
+    "llm",
+    "application",
+    "rag",
+    "tool",
+    "research"
+  ],
+  "category": "application",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-08T16:37:13.685558+08:00",
+  "updated_at": "2026-08-08T16:37:13.685559+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
