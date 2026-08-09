@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-09-github-007",
+  "title": "AI-Learn：全面的AI学习资源库",
+  "source": "github_trending",
+  "source_url": "https://github.com/taype/AI-Learn",
+  "language": "en",
+  "summary": "一个涵盖Python、数学、机器学习、深度学习、神经网络、LLM、RAG、提示词、Agent、AIOS及论文的综合性AI学习资源库，适合初学者和进阶者系统学习AI知识。",
+  "summary_en": null,
+  "tags": [
+    "llm",
+    "rag",
+    "agent-framework",
+    "python",
+    "research"
+  ],
+  "category": "application",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-09T16:39:01.529944+08:00",
+  "updated_at": "2026-08-09T16:39:01.529945+08:00",
+  "metadata": {
+    "stars": 1,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
