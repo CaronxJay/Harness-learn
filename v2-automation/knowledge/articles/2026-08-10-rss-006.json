@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-10-rss-006",
+  "title": "AI人格会成长吗？：分析并基准测试LLM智能体在生活事件后的人格演变",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.06485",
+  "language": "en",
+  "summary": "本文研究LLM智能体（PC-Agents）在经历重大生活事件后的人格变化，以大五人格为锚点，发现智能体在事件-特质对上的变化率与人类相似，但幅度低于人类效应量，且人格分散度压缩3-4倍。引入基准BFI-Adapt，验证了变化的稳健性，表明当前智能体模拟了人类人格动态的均值而非形状。",
+  "summary_en": "This paper studies personality changes in LLM agents after major life events, using Big Five traits. It finds similar shift rates but lower magnitudes than humans, and compressed dispersion. Introduces BFI-Adapt benchmark, showing agents simulate the mean but not the shape of human personality dynamics.",
+  "tags": [
+    "llm",
+    "research",
+    "benchmark",
+    "evaluation",
+    "agent-framework"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-10T17:17:24.887560+08:00",
+  "updated_at": "2026-08-10T17:17:24.887561+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

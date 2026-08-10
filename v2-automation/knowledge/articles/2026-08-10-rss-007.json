@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-10-rss-007",
+  "title": "超越路由权重：通过贡献对比实现MoE奖励模型的忠实响应级解释",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.06400",
+  "language": "en",
+  "summary": "提出CoCo方法，通过选择-拒绝响应对的贡献对比来忠实解释MoE奖励模型中专家角色，同时捕捉路由和偏好行为。自动和人工评估显示，CoCo比基于路由、评分和稀疏自编码器的方法更连贯、忠实和专门化，同时保持竞争性的奖励建模精度。",
+  "summary_en": "Propose CoCo, a contribution-contrast method for faithful response-level interpretation of MoE reward models, capturing both routing and preference behavior. Evaluations show CoCo yields more coherent, faithful, and specialized interpretations than alternatives while maintaining competitive accuracy.",
+  "tags": [
+    "llm",
+    "research",
+    "interpretability",
+    "reward-model",
+    "mixture-of-experts"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-08-10T17:17:24.887563+08:00",
+  "updated_at": "2026-08-10T17:17:24.887564+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

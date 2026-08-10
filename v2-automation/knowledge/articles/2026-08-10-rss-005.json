@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-10-rss-005",
+  "title": "从失语症图片命名错误剖面恢复大语言模型中的损伤参数",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.06429",
+  "language": "en",
+  "summary": "该研究探讨了从LLM（LLaVA-Vicuna 13B）的图片命名错误剖面逆向恢复损伤参数（层索引、修改百分比、噪声sigma）的可能性。训练多任务神经网络实现部分恢复，修改百分比和噪声可恢复，层索引仅近似。反事实验证中81.4%案例重现目标行为，表明变压器层功能冗余。应用于中风患者数据，参数具有综合征区分性。",
+  "summary_en": "This study investigates recovering lesion parameters (layer index, modification percentage, noise sigma) from picture naming error profiles in LLMs (LLaVA-Vicuna 13B). A multi-task neural network partially recovers parameters: modification percentage and noise are recoverable, layer index only approximately. Counterfactual validation reproduces target behavior in 81.4% cases, indicating functional redundancy across transformer layers. Applied to stroke patient data, parameters are syndrome-discriminative.",
+  "tags": [
+    "llm",
+    "research",
+    "interpretability",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-10T17:17:24.887557+08:00",
+  "updated_at": "2026-08-10T17:17:24.887558+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

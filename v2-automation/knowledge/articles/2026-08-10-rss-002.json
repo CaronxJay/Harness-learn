@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-10-rss-002",
+  "title": "ADIAS：交互式智能体系统的自动化设计",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.06410",
+  "language": "en",
+  "summary": "ADIAS提出以问题为中心的智能体优化方法，通过持久化问题状态指导代码级智能体设计，在五个交互基准上平均提升25.2%，消融实验显示其有效性。",
+  "summary_en": "ADIAS proposes issue-centric agent optimization with persistent issue state for automated code-level agent design, achieving 25.2% average improvement over baselines on five interactive benchmarks.",
+  "tags": [
+    "agent-framework",
+    "research",
+    "llm",
+    "benchmark"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-10T17:17:24.887548+08:00",
+  "updated_at": "2026-08-10T17:17:24.887549+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

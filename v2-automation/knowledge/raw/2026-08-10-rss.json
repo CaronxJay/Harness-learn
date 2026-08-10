@@ -1,0 +1,487 @@
+{
+  "collected_at": "2026-08-10T17:17:24.888209+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "Towards Multi-Label Graph Foundation Models: from Single-Vector Representation Learning to Multi-Semantic Basis Learning",
+      "url": "https://arxiv.org/abs/2608.06394",
+      "description": "arXiv:2608.06394v1 Announce Type: new \nAbstract: Multi-label node classification is an important yet challenging task in graph learning, where nodes exhibit multiple semantics simultaneously. Existing methods for multi-label node classification can effectively model multiple labels, while only considering in-domain scenarios where the model needs to be trained and tested within the same graph domain, resulting in limited cross-domain generalization. Recently, Graph Foundation Models (GFMs) have emerged as a promising paradigm for learning transferable graph representations across diverse graph domains and downstream tasks. However, existing GFMs are built upon single-label assumption, where all nodes are arbitrarily regarded as containing only one class of semantic and embedded into a single representation. For multi-label nodes, such a representation essentially approximates multiple semantics with a single point in the representation space, inevitably leading to semantic entanglement and making simultaneous discrimination of multiple labels difficult. To address these limitations, we propose a Multi-Semantic Basis Graph Foundation Model (MSB-GFM), a framework for cross-domain multi-label node classification. Specifically, we introduce a multi-semantic basis representation learning paradigm that models each multi-label node as an adaptive composition of semantic bases, thereby enabling flexible representational capacity for modeling multiple semantics. Furthermore, we develop a semantic-structure dual-channel architecture with domain adversarial training for effective cross-domain knowledge transfer. Extensive experiments demonstrate the effectiveness of our model.",
+      "pub_date": "Mon, 10 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "迈向多标签图基础模型：从单向量表示学习到多语义基学习",
+        "summary": "提出多语义基图基础模型（MSB-GFM），用于跨域多标签节点分类。通过多语义基表示学习范式，将每个多标签节点建模为语义基的自适应组合，解决语义纠缠问题；并采用语义-结构双通道架构与域对抗训练实现跨域知识迁移。实验验证了模型有效性。",
+        "summary_en": null,
+        "tags": [
+          "graph-foundation-model",
+          "multi-label",
+          "representation-learning",
+          "research"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-10-rss-008",
+        "title": "迈向多标签图基础模型：从单向量表示学习到多语义基学习",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.06394",
+        "language": "en",
+        "summary": "提出多语义基图基础模型（MSB-GFM），用于跨域多标签节点分类。通过多语义基表示学习范式，将每个多标签节点建模为语义基的自适应组合，解决语义纠缠问题；并采用语义-结构双通道架构与域对抗训练实现跨域知识迁移。实验验证了模型有效性。",
+        "summary_en": null,
+        "tags": [
+          "graph-foundation-model",
+          "multi-label",
+          "representation-learning",
+          "research"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-10T17:17:24.887565+08:00",
+        "updated_at": "2026-08-10T17:17:24.887566+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "EntropyMoE: Entropy-Aware Sparse Expert Routing for Tokenizer-Free LLMs",
+      "url": "https://arxiv.org/abs/2608.06398",
+      "description": "arXiv:2608.06398v1 Announce Type: new \nAbstract: Recent byte-level large language models (LLMs) have made tokenizer-free modeling increasingly competitive by grouping bytes into dynamically sized patches. However, existing byte-patch architectures still apply the same dense feed-forward computation to every patch. This uniform computation cannot adapt model capacity to variations in patch semantics and granularity. We address this limitation with EntropyMoE, a Mixture-of-Experts (MoE) architecture designed for dynamic byte patches. EntropyMoE replaces the dense feed-forward modules in the global patch Transformer with Top-K expert layers. Each dynamic patch serves as the basic unit of expert routing, and its byte coverage determines its contribution to workload accounting. The router selects experts directly from patch entropy, using the same granularity signal that underlies dynamic patch construction to organize sparse computation. Patch entropy and length jointly define the feature space for regulating expert specialization. Experiments show that EntropyMoE achieves the lowest held-out bits-per-byte among matched dense and sparse baselines while maintaining comparable downstream accuracy. These results establish patch entropy as an effective routing coordinate for sparse conditional computation and extend Mixture-of-Experts modeling beyond tokenizer-based representations.",
+      "pub_date": "Mon, 10 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "EntropyMoE：基于熵感知的稀疏专家路由用于无分词器大语言模型",
+        "summary": "EntropyMoE是一种针对动态字节补丁的混合专家（MoE）架构，利用补丁熵作为路由信号，实现稀疏条件计算，在保持下游精度的同时降低每字节比特数，扩展了MoE在无分词器模型中的应用。",
+        "summary_en": "EntropyMoE is a Mixture-of-Experts architecture for dynamic byte patches, using patch entropy as routing signal for sparse computation, achieving lower bits-per-byte while maintaining accuracy, extending MoE beyond tokenizer-based models.",
+        "tags": [
+          "llm",
+          "research",
+          "efficiency",
+          "sparse-routing",
+          "moe"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-10-rss-001",
+        "title": "EntropyMoE：基于熵感知的稀疏专家路由用于无分词器大语言模型",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.06398",
+        "language": "en",
+        "summary": "EntropyMoE是一种针对动态字节补丁的混合专家（MoE）架构，利用补丁熵作为路由信号，实现稀疏条件计算，在保持下游精度的同时降低每字节比特数，扩展了MoE在无分词器模型中的应用。",
+        "summary_en": "EntropyMoE is a Mixture-of-Experts architecture for dynamic byte patches, using patch entropy as routing signal for sparse computation, achieving lower bits-per-byte while maintaining accuracy, extending MoE beyond tokenizer-based models.",
+        "tags": [
+          "llm",
+          "research",
+          "efficiency",
+          "sparse-routing",
+          "moe"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-10T17:17:24.887543+08:00",
+        "updated_at": "2026-08-10T17:17:24.887545+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Beyond Routing Weights: Faithful Response-Level Interpretation of Mixture-of-Experts Reward Models via Contribution Contrast",
+      "url": "https://arxiv.org/abs/2608.06400",
+      "description": "arXiv:2608.06400v1 Announce Type: new \nAbstract: Reward models are central to learning from human preferences, yet identifying what drives their predictions remains challenging. Recent sparse Mixture-of-Experts (MoE) reward models seek to improve interpretability by routing prompts to specialized experts and characterizing experts through examples with high routing weights. However, routing weights only reveal which prompts an expert $\\textit{receives}$, not how it $\\textit{judges}$ responses, providing only a partial account of expert behavior. We therefore propose $\\textbf{Co}$ntribution-$\\textbf{Co}$ntrast ($\\textbf{CoCo}$) response-level interpretation, which faithfully characterizes experts' roles using chosen-rejected response pairs with the largest contribution contrasts, jointly capturing routing and preference behavior. Across automatic and human evaluations, CoCo yields more coherent, faithful, and specialized interpretations than router-based, score-based, and sparse autoencoder-based alternatives while maintaining competitive reward modeling accuracy. To the best of our knowledge, this is the first systematic study of interpretation methods for MoE reward models.",
+      "pub_date": "Mon, 10 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "超越路由权重：通过贡献对比实现MoE奖励模型的忠实响应级解释",
+        "summary": "提出CoCo方法，通过选择-拒绝响应对的贡献对比来忠实解释MoE奖励模型中专家角色，同时捕捉路由和偏好行为。自动和人工评估显示，CoCo比基于路由、评分和稀疏自编码器的方法更连贯、忠实和专门化，同时保持竞争性的奖励建模精度。",
+        "summary_en": "Propose CoCo, a contribution-contrast method for faithful response-level interpretation of MoE reward models, capturing both routing and preference behavior. Evaluations show CoCo yields more coherent, faithful, and specialized interpretations than alternatives while maintaining competitive accuracy.",
+        "tags": [
+          "llm",
+          "research",
+          "interpretability",
+          "reward-model",
+          "mixture-of-experts"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-10-rss-007",
+        "title": "超越路由权重：通过贡献对比实现MoE奖励模型的忠实响应级解释",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.06400",
+        "language": "en",
+        "summary": "提出CoCo方法，通过选择-拒绝响应对的贡献对比来忠实解释MoE奖励模型中专家角色，同时捕捉路由和偏好行为。自动和人工评估显示，CoCo比基于路由、评分和稀疏自编码器的方法更连贯、忠实和专门化，同时保持竞争性的奖励建模精度。",
+        "summary_en": "Propose CoCo, a contribution-contrast method for faithful response-level interpretation of MoE reward models, capturing both routing and preference behavior. Evaluations show CoCo yields more coherent, faithful, and specialized interpretations than alternatives while maintaining competitive accuracy.",
+        "tags": [
+          "llm",
+          "research",
+          "interpretability",
+          "reward-model",
+          "mixture-of-experts"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-08-10T17:17:24.887563+08:00",
+        "updated_at": "2026-08-10T17:17:24.887564+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Interpretable Unsupervised Community Detection with LLM-Symbolized Structured Processes",
+      "url": "https://arxiv.org/abs/2608.06402",
+      "description": "arXiv:2608.06402v1 Announce Type: new \nAbstract: Community detection is a fundamental task in graph analytics that aims to identify cohesive groups of entities with similar behaviors or interests. Classic objective-driven methods struggle with complex graph structures, while deep-learning approaches improve performance at the expense of interpretability and rely on labeled data and training. Large language models (LLMs), with strong reasoning capabilities and world knowledge, are promising for interpretable, label-free community detection. To leverage these strengths, we propose LUCID, an LLM-guided, interpretable, training-free, and unsupervised community detection method. Inspired by phase-transition kinetics in natural systems, where complex structures emerge through initialization, merging, refinement, and selection, LUCID is designed as a four-stage pipeline. Within this pipeline, the LLM induces formal rules that translate implicit knowledge into explicit and interpretable logical structures. Specifically, (1) the Local-View Community Initialization stage encodes local graph structures using k-ego contexts and unsupervised node roles; (2) the Multi-factor Community Merge stage uses LLM-induced rules to iteratively merge local communities; (3) the Multi-grain Community Refinement stage applies LLM-induced coarse-to-fine rules in parallel to reduce boundary noise; and (4) the Global-view Community Selection stage identifies high-quality communities based on topological compactness and boundary clarity. Extensive experiments on real-world datasets demonstrate that LUCID, as an unsupervised approach, achieves state-of-the-art performance and consistently outperforms leading unsupervised and semi-supervised baselines.",
+      "pub_date": "Mon, 10 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "LUCID：基于LLM符号化结构化过程的可解释无监督社区检测",
+        "summary": "LUCID是一种利用大语言模型（LLM）引导的可解释、无训练、无监督社区检测方法。受相变动力学启发，采用四阶段流水线：局部视图初始化、多因素合并、多粒度细化、全局视图选择。LLM诱导形式化规则，将隐式知识转化为显式逻辑结构。实验表明，LUCID在真实数据集上达到最先进性能，优于无监督和半监督基线。",
+        "summary_en": "LUCID is an LLM-guided, interpretable, training-free, unsupervised community detection method. Inspired by phase-transition kinetics, it uses a four-stage pipeline where LLM induces formal rules to translate implicit knowledge into explicit logical structures. Experiments show state-of-the-art performance on real-world datasets, outperforming unsupervised and semi-supervised baselines.",
+        "tags": [
+          "llm",
+          "research",
+          "graph",
+          "unsupervised",
+          "interpretable"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-10-rss-009",
+        "title": "LUCID：基于LLM符号化结构化过程的可解释无监督社区检测",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.06402",
+        "language": "en",
+        "summary": "LUCID是一种利用大语言模型（LLM）引导的可解释、无训练、无监督社区检测方法。受相变动力学启发，采用四阶段流水线：局部视图初始化、多因素合并、多粒度细化、全局视图选择。LLM诱导形式化规则，将隐式知识转化为显式逻辑结构。实验表明，LUCID在真实数据集上达到最先进性能，优于无监督和半监督基线。",
+        "summary_en": "LUCID is an LLM-guided, interpretable, training-free, unsupervised community detection method. Inspired by phase-transition kinetics, it uses a four-stage pipeline where LLM induces formal rules to translate implicit knowledge into explicit logical structures. Experiments show state-of-the-art performance on real-world datasets, outperforming unsupervised and semi-supervised baselines.",
+        "tags": [
+          "llm",
+          "research",
+          "graph",
+          "unsupervised",
+          "interpretable"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-10T17:17:24.887568+08:00",
+        "updated_at": "2026-08-10T17:17:24.887569+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "ADIAS: Automated Design of Interactive Agentic Systems",
+      "url": "https://arxiv.org/abs/2608.06410",
+      "description": "arXiv:2608.06410v1 Announce Type: new \nAbstract: Automated agent design improves agent harnesses through iterative revision, evaluation, and feedback summarization. Existing methods are largely candidate-centric: cross-round experience is organized around candidate agents, which leaves the repair progress implicit. This causes inefficient repair targeting, slow consolidation of partial progress, and propagation of ineffective interventions across rounds. Therefore, we formulate issue-centric agent optimization, in which repair progress is carried forward as an explicit persistent issue state to guide optimization, rather than re-derived from candidate history in each round. We instantiate the formulation in ADIAS, a framework for automated full-code agent design with two mechanisms. A persistent issue state maintains stable issue identities, lifecycle status, supporting evidence, and intervention-outcome histories. Issue-guided optimization uses this state to jointly propose repair targets and revision directions for subsequent focused full-code modification. Across five interactive benchmarks, ADIAS outperforms the strongest baseline by 25.2% on average and achieves consistent gains across four backbone models. Controlled ablations further show that removing persistent issue state or replacing issue-centric revision with candidate-centric policies leads to performance drops of up to 40.7%.",
+      "pub_date": "Mon, 10 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "ADIAS：交互式智能体系统的自动化设计",
+        "summary": "ADIAS提出以问题为中心的智能体优化方法，通过持久化问题状态指导代码级智能体设计，在五个交互基准上平均提升25.2%，消融实验显示其有效性。",
+        "summary_en": "ADIAS proposes issue-centric agent optimization with persistent issue state for automated code-level agent design, achieving 25.2% average improvement over baselines on five interactive benchmarks.",
+        "tags": [
+          "agent-framework",
+          "research",
+          "llm",
+          "benchmark"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-10-rss-002",
+        "title": "ADIAS：交互式智能体系统的自动化设计",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.06410",
+        "language": "en",
+        "summary": "ADIAS提出以问题为中心的智能体优化方法，通过持久化问题状态指导代码级智能体设计，在五个交互基准上平均提升25.2%，消融实验显示其有效性。",
+        "summary_en": "ADIAS proposes issue-centric agent optimization with persistent issue state for automated code-level agent design, achieving 25.2% average improvement over baselines on five interactive benchmarks.",
+        "tags": [
+          "agent-framework",
+          "research",
+          "llm",
+          "benchmark"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-10T17:17:24.887548+08:00",
+        "updated_at": "2026-08-10T17:17:24.887549+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "TEXAS: Task-Expert-Aware Supervision for Downstream Mixture-of-Experts LLM Adaptation",
+      "url": "https://arxiv.org/abs/2608.06396",
+      "description": "arXiv:2608.06396v1 Announce Type: new \nAbstract: Mixture-of-Experts (MoE) language models route each token through a small subset of experts, making routing patterns useful for identifying task-relevant experts during downstream adaptation. Yet current approaches have two limitations: task experts are typically identified from aggregate routing statistics that reflect usage rather than association with successful task completion, and task-expert activations remain underexplored as signals for supervision allocation. We introduce Task-Expert-Aware Supervision (TEXAS), which combines correctness-conditioned task expert discovery with token-level supervision allocation. TEXAS compares expert activations on instances that the base model solves successfully and those it fails to solve, and retains experts more strongly activated on successful instances. During fine-tuning, it upweights answer tokens in failed instances when they activate these experts. TEXAS therefore leverages existing routing behavior without restricting adaptation to a fixed expert subset or imposing an explicit target routing distribution. Across three MoE models and six benchmarks, TEXAS achieves the best or tied-best performance in 17 of 18 settings and improves over the strongest baseline by 1.3--1.5 points on average. Ablations and further analyses validate both the discovered experts and the resulting supervision strategy.",
+      "pub_date": "Mon, 10 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "TEXAS：面向下游MoE大模型适配的任务专家感知监督",
+        "summary": "TEXAS提出一种新方法，通过正确性条件化的专家发现和令牌级监督分配，利用MoE模型的路由行为提升下游微调性能。在三个MoE模型和六个基准上，17/18设置达到最佳或并列最佳，平均提升1.3-1.5点。",
+        "summary_en": "TEXAS introduces a method combining correctness-conditioned expert discovery with token-level supervision allocation, leveraging MoE routing behavior for downstream fine-tuning. It achieves best or tied-best performance in 17/18 settings across three MoE models and six benchmarks, improving by 1.3-1.5 points on average.",
+        "tags": [
+          "llm",
+          "fine-tuning",
+          "research",
+          "moe"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-10-rss-003",
+        "title": "TEXAS：面向下游MoE大模型适配的任务专家感知监督",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.06396",
+        "language": "en",
+        "summary": "TEXAS提出一种新方法，通过正确性条件化的专家发现和令牌级监督分配，利用MoE模型的路由行为提升下游微调性能。在三个MoE模型和六个基准上，17/18设置达到最佳或并列最佳，平均提升1.3-1.5点。",
+        "summary_en": "TEXAS introduces a method combining correctness-conditioned expert discovery with token-level supervision allocation, leveraging MoE routing behavior for downstream fine-tuning. It achieves best or tied-best performance in 17/18 settings across three MoE models and six benchmarks, improving by 1.3-1.5 points on average.",
+        "tags": [
+          "llm",
+          "fine-tuning",
+          "research",
+          "moe"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-10T17:17:24.887551+08:00",
+        "updated_at": "2026-08-10T17:17:24.887552+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Separating Decision-Rule Misalignment from Readout-Coverage Limitations in Speech Language Models",
+      "url": "https://arxiv.org/abs/2608.06409",
+      "description": "arXiv:2608.06409v1 Announce Type: new \nAbstract: Speech language models are increasingly evaluated on paralinguistic tasks by the accuracy of prompted answers, but answer accuracy combines failures at different stages of the audio-to-answer computation. We introduce a generation-aligned diagnostic ladder that compares the emitted answer, the option logits, an affine readout of those logits, and a linear readout of the hidden state at the same answer token. Successive differences separate endpoint, decision-rule, and readout-coverage gaps. Across five systems and two emotion corpora, state decoding exceeds generation by 27.8 accuracy points on average, and both the decision-rule and readout-coverage gaps are positive in all ten conditions. A label-free logit correction improves generated accuracy in every condition, showing that part of the decision-rule gap is actionable. In rank-matched comparisons, emotion information outside the native readout generalizes to held-out speakers and survives controls for measured acoustic descriptors, but replacing the selected readout-external directions usually has little effect on emitted answers. These results distinguish information availability from behavioral use and localize performance losses across the decision rule and the state-to-answer readout.",
+      "pub_date": "Mon, 10 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "语音语言模型中决策规则错位与读出覆盖限制的分离",
+        "summary": "本文提出一种生成对齐的诊断阶梯，用于分离语音语言模型在副语言任务中的端点、决策规则和读出覆盖差距。实验表明，状态解码平均比生成高27.8个准确率点，且决策规则和读出覆盖差距均为正。无标签逻辑校正可改善生成准确率，表明部分差距可操作。",
+        "summary_en": "This paper introduces a generation-aligned diagnostic ladder to separate endpoint, decision-rule, and readout-coverage gaps in speech language models. Experiments show state decoding exceeds generation by 27.8 accuracy points on average, and both gaps are positive. Label-free logit correction improves generated accuracy, indicating actionable gaps.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "multimodal"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-10-rss-010",
+        "title": "语音语言模型中决策规则错位与读出覆盖限制的分离",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.06409",
+        "language": "en",
+        "summary": "本文提出一种生成对齐的诊断阶梯，用于分离语音语言模型在副语言任务中的端点、决策规则和读出覆盖差距。实验表明，状态解码平均比生成高27.8个准确率点，且决策规则和读出覆盖差距均为正。无标签逻辑校正可改善生成准确率，表明部分差距可操作。",
+        "summary_en": "This paper introduces a generation-aligned diagnostic ladder to separate endpoint, decision-rule, and readout-coverage gaps in speech language models. Experiments show state decoding exceeds generation by 27.8 accuracy points on average, and both gaps are positive. Label-free logit correction improves generated accuracy, indicating actionable gaps.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "multimodal"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-10T17:17:24.887571+08:00",
+        "updated_at": "2026-08-10T17:17:24.887572+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "NTDH: Complex Reasoning for Comprehensive Affective Analysis",
+      "url": "https://arxiv.org/abs/2608.06425",
+      "description": "arXiv:2608.06425v1 Announce Type: new \nAbstract: Comprehensive affective analysis is challenging for two reasons: it spans heterogeneous prediction tasks with continuous, ordinal, and multi-label outputs, and affective meaning is context-dependent, requiring conflicting cues to be reconciled rather than mapped directly to labels. Existing methods learn this mapping directly and do not model the reconciliation explicitly. We recast the task as a complex-reasoning problem, which yields one output interface across heterogeneous label spaces and a trajectory over which a verifiable reward can be optimised; to our knowledge, this is the first such treatment covering both sentiment and emotion. The obstacle is on the data side: affective reasoning traces must be synthesised, and generic synthesis is misaligned with the targets, tolerances, and phenomena of affect, and discards or leaks its failure cases. We propose NTDH, which addresses these four failures. Naturalisation sets the training answer to the gold label, so it is correct by construction. A Tolerance-aware gate checks each answer against the task's own scoring margin. Domain-aware strategies refine the reasoning using ideas from affective science. Directional Hints report only the type and direction of an error, without exposing the target. We train Qwen3-8B with SFT and then GRPO under the same tolerance used for verification (up to a more permissive construction gate on the multi-label subtask), and a component ablation quantifies the data-quality effect of each part. Using 16,302 training records, about 14x fewer than comparable instruction-tuned systems, the final policy improves over its SFT checkpoint on five of six official-test metrics and achieves the strongest EI-reg result among the compared systems, at a Pearson correlation of 0.862.",
+      "pub_date": "Mon, 10 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "NTDH：面向综合情感分析的复杂推理方法",
+        "summary": "NTDH将综合情感分析重构为复杂推理问题，通过自然化、容错门控、领域感知策略和方向提示四部分解决数据合成中的错位与失败案例泄露问题。在Qwen3-8B上使用SFT和GRPO训练，仅用16,302条记录（约为同类系统的1/14），在六个官方测试指标中五个优于SFT基线，EI-reg皮尔逊相关系数达0.862。",
+        "summary_en": "NTDH recasts comprehensive affective analysis as complex reasoning, addressing data synthesis misalignment via naturalization, tolerance-aware gating, domain-aware strategies, and directional hints. Trained on Qwen3-8B with SFT and GRPO using 16,302 records, it outperforms SFT on five of six metrics and achieves EI-reg Pearson correlation of 0.862.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "evaluation",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-10-rss-004",
+        "title": "NTDH：面向综合情感分析的复杂推理方法",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.06425",
+        "language": "en",
+        "summary": "NTDH将综合情感分析重构为复杂推理问题，通过自然化、容错门控、领域感知策略和方向提示四部分解决数据合成中的错位与失败案例泄露问题。在Qwen3-8B上使用SFT和GRPO训练，仅用16,302条记录（约为同类系统的1/14），在六个官方测试指标中五个优于SFT基线，EI-reg皮尔逊相关系数达0.862。",
+        "summary_en": "NTDH recasts comprehensive affective analysis as complex reasoning, addressing data synthesis misalignment via naturalization, tolerance-aware gating, domain-aware strategies, and directional hints. Trained on Qwen3-8B with SFT and GRPO using 16,302 records, it outperforms SFT on five of six metrics and achieves EI-reg Pearson correlation of 0.862.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "evaluation",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-10T17:17:24.887554+08:00",
+        "updated_at": "2026-08-10T17:17:24.887555+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Recovering Lesion Parameters from Aphasic Picture Naming Error Profiles in Large Language Models",
+      "url": "https://arxiv.org/abs/2608.06429",
+      "description": "arXiv:2608.06429v1 Announce Type: new \nAbstract: Interpretability methods for large language models (LLMs) describe internal state but do not directly test whether that state is causally sufficient to produce the observed behavior. In earlier work, we lesioned LLMs to produce error profiles in picture naming, a central task for assessing aphasia, and found that specific lesions produced errors resembling those of individual stroke survivors. Here we ask the inverse question: given an error profile, can the lesion parameters that produced it be recovered, and what does this inverse problem reveal about transformer computation? Lesions in LLaVA-Vicuna 13B were parameterized by layer index, modification percentage, and noise sigma across 4,840 configurations, and error profiles were characterized by a seven-category clinical taxonomy (correct, semantic, unrelated, formal, mixed, neologism, no-response). We trained a multi-task neural network to map error profiles back to perturbation parameters. The problem admitted a partial solution: across 10 independently trained inverse models, modification percentage and noise sigma were recoverable, whereas layer index was recoverable only within a neighborhood. In counterfactual validation, a fresh model instance perturbed with the recovered parameters reproduced the target behavior in 81.4% of cases. This dissociation between low layer recovery and high counterfactual fidelity is consistent with functional redundancy across transformer layers, a property not captured by standard interpretability methods. As an out-of-distribution test, we applied the trained model to picture-naming error profiles from 278 stroke survivors; recovered parameters were syndrome-discriminative, most strongly for perturbation intensity, indicating generalization beyond the training distribution. Counterfactual validation provides a general framework for LLM interpretability claims beyond inverse mapping.",
+      "pub_date": "Mon, 10 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "从失语症图片命名错误剖面恢复大语言模型中的损伤参数",
+        "summary": "该研究探讨了从LLM（LLaVA-Vicuna 13B）的图片命名错误剖面逆向恢复损伤参数（层索引、修改百分比、噪声sigma）的可能性。训练多任务神经网络实现部分恢复，修改百分比和噪声可恢复，层索引仅近似。反事实验证中81.4%案例重现目标行为，表明变压器层功能冗余。应用于中风患者数据，参数具有综合征区分性。",
+        "summary_en": "This study investigates recovering lesion parameters (layer index, modification percentage, noise sigma) from picture naming error profiles in LLMs (LLaVA-Vicuna 13B). A multi-task neural network partially recovers parameters: modification percentage and noise are recoverable, layer index only approximately. Counterfactual validation reproduces target behavior in 81.4% cases, indicating functional redundancy across transformer layers. Applied to stroke patient data, parameters are syndrome-discriminative.",
+        "tags": [
+          "llm",
+          "research",
+          "interpretability",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-10-rss-005",
+        "title": "从失语症图片命名错误剖面恢复大语言模型中的损伤参数",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.06429",
+        "language": "en",
+        "summary": "该研究探讨了从LLM（LLaVA-Vicuna 13B）的图片命名错误剖面逆向恢复损伤参数（层索引、修改百分比、噪声sigma）的可能性。训练多任务神经网络实现部分恢复，修改百分比和噪声可恢复，层索引仅近似。反事实验证中81.4%案例重现目标行为，表明变压器层功能冗余。应用于中风患者数据，参数具有综合征区分性。",
+        "summary_en": "This study investigates recovering lesion parameters (layer index, modification percentage, noise sigma) from picture naming error profiles in LLMs (LLaVA-Vicuna 13B). A multi-task neural network partially recovers parameters: modification percentage and noise are recoverable, layer index only approximately. Counterfactual validation reproduces target behavior in 81.4% cases, indicating functional redundancy across transformer layers. Applied to stroke patient data, parameters are syndrome-discriminative.",
+        "tags": [
+          "llm",
+          "research",
+          "interpretability",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-10T17:17:24.887557+08:00",
+        "updated_at": "2026-08-10T17:17:24.887558+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Do AI Personas Grow? Analyzing and Benchmarking Personality Evolution in LLM Agents After Life Events",
+      "url": "https://arxiv.org/abs/2608.06485",
+      "description": "arXiv:2608.06485v1 Announce Type: new \nAbstract: Personality-conditioned LLM agents (PC-Agents) are increasingly used in emotional support, social simulation, and role-playing, motivating the development of lifelong agents that remain coherent over extended interactions. A key component of such coherence is personality evolution: agents should undergo plausible, psychology-grounded changes as they experience life events in different contexts. Although prior work shows that LLM personalities can shift under contextual perturbations, how these shifts vary across traits, events, personas, and models remains poorly understood. We study event-induced personality change after 11 major life events, using the Big Five traits as a psychometric anchor and interpreting the resulting trajectories against longitudinal evidence from human personality psychology. Across four diagnostic axes, PC-Agents exhibit measurable trait shifts at similar rates for event-trait pairs with and without documented human change directions. Even when shifts follow the expected direction, their magnitudes usually fall below human effect-size ranges. Gender and cultural-region prompts show little moderating effect, while persona-level dispersion is compressed three- to four-fold relative to human samples. To enable systematic comparison, we introduce BFI-Adapt, a reusable benchmark for scoring the directional fidelity of event-induced personality change, and use it to rank 14 models. A validation suite shows that the measured shifts exceed no-event retest noise, remain stable under independently paraphrased prompts, exhibit limited and model-dependent convergence with scenario-based behavioral choices, and persist across intervening unrelated dialogue. Together, these checks establish the measured trajectories as robust event-conditioned response patterns. Our results suggest that current PC-Agents simulate the mean of human personality dynamics, but not its shape.",
+      "pub_date": "Mon, 10 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "AI人格会成长吗？：分析并基准测试LLM智能体在生活事件后的人格演变",
+        "summary": "本文研究LLM智能体（PC-Agents）在经历重大生活事件后的人格变化，以大五人格为锚点，发现智能体在事件-特质对上的变化率与人类相似，但幅度低于人类效应量，且人格分散度压缩3-4倍。引入基准BFI-Adapt，验证了变化的稳健性，表明当前智能体模拟了人类人格动态的均值而非形状。",
+        "summary_en": "This paper studies personality changes in LLM agents after major life events, using Big Five traits. It finds similar shift rates but lower magnitudes than humans, and compressed dispersion. Introduces BFI-Adapt benchmark, showing agents simulate the mean but not the shape of human personality dynamics.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "evaluation",
+          "agent-framework"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-10-rss-006",
+        "title": "AI人格会成长吗？：分析并基准测试LLM智能体在生活事件后的人格演变",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.06485",
+        "language": "en",
+        "summary": "本文研究LLM智能体（PC-Agents）在经历重大生活事件后的人格变化，以大五人格为锚点，发现智能体在事件-特质对上的变化率与人类相似，但幅度低于人类效应量，且人格分散度压缩3-4倍。引入基准BFI-Adapt，验证了变化的稳健性，表明当前智能体模拟了人类人格动态的均值而非形状。",
+        "summary_en": "This paper studies personality changes in LLM agents after major life events, using Big Five traits. It finds similar shift rates but lower magnitudes than humans, and compressed dispersion. Introduces BFI-Adapt benchmark, showing agents simulate the mean but not the shape of human personality dynamics.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "evaluation",
+          "agent-framework"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-10T17:17:24.887560+08:00",
+        "updated_at": "2026-08-10T17:17:24.887561+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

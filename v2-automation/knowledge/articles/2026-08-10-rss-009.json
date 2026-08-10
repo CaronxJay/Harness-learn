@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-10-rss-009",
+  "title": "LUCID：基于LLM符号化结构化过程的可解释无监督社区检测",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.06402",
+  "language": "en",
+  "summary": "LUCID是一种利用大语言模型（LLM）引导的可解释、无训练、无监督社区检测方法。受相变动力学启发，采用四阶段流水线：局部视图初始化、多因素合并、多粒度细化、全局视图选择。LLM诱导形式化规则，将隐式知识转化为显式逻辑结构。实验表明，LUCID在真实数据集上达到最先进性能，优于无监督和半监督基线。",
+  "summary_en": "LUCID is an LLM-guided, interpretable, training-free, unsupervised community detection method. Inspired by phase-transition kinetics, it uses a four-stage pipeline where LLM induces formal rules to translate implicit knowledge into explicit logical structures. Experiments show state-of-the-art performance on real-world datasets, outperforming unsupervised and semi-supervised baselines.",
+  "tags": [
+    "llm",
+    "research",
+    "graph",
+    "unsupervised",
+    "interpretable"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-10T17:17:24.887568+08:00",
+  "updated_at": "2026-08-10T17:17:24.887569+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

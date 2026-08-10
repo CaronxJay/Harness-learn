@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-10-rss-010",
+  "title": "语音语言模型中决策规则错位与读出覆盖限制的分离",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.06409",
+  "language": "en",
+  "summary": "本文提出一种生成对齐的诊断阶梯，用于分离语音语言模型在副语言任务中的端点、决策规则和读出覆盖差距。实验表明，状态解码平均比生成高27.8个准确率点，且决策规则和读出覆盖差距均为正。无标签逻辑校正可改善生成准确率，表明部分差距可操作。",
+  "summary_en": "This paper introduces a generation-aligned diagnostic ladder to separate endpoint, decision-rule, and readout-coverage gaps in speech language models. Experiments show state decoding exceeds generation by 27.8 accuracy points on average, and both gaps are positive. Label-free logit correction improves generated accuracy, indicating actionable gaps.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "multimodal"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-10T17:17:24.887571+08:00",
+  "updated_at": "2026-08-10T17:17:24.887572+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-10-rss-004",
+  "title": "NTDH：面向综合情感分析的复杂推理方法",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.06425",
+  "language": "en",
+  "summary": "NTDH将综合情感分析重构为复杂推理问题，通过自然化、容错门控、领域感知策略和方向提示四部分解决数据合成中的错位与失败案例泄露问题。在Qwen3-8B上使用SFT和GRPO训练，仅用16,302条记录（约为同类系统的1/14），在六个官方测试指标中五个优于SFT基线，EI-reg皮尔逊相关系数达0.862。",
+  "summary_en": "NTDH recasts comprehensive affective analysis as complex reasoning, addressing data synthesis misalignment via naturalization, tolerance-aware gating, domain-aware strategies, and directional hints. Trained on Qwen3-8B with SFT and GRPO using 16,302 records, it outperforms SFT on five of six metrics and achieves EI-reg Pearson correlation of 0.862.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "evaluation",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-10T17:17:24.887554+08:00",
+  "updated_at": "2026-08-10T17:17:24.887555+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
