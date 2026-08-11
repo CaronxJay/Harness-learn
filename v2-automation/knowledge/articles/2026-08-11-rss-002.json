@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-11-rss-002",
+  "title": "DocAtlas：将长文档理解视为可变状态交互",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.07527",
+  "language": "en",
+  "summary": "DocAtlas 将长文档理解建模为可变状态的信息寻求过程，通过外部文档环境提供搜索、阅读、笔记和回顾工具，维护层级树和笔记存储，在固定上下文预算下结合自改进检索、选择性证据访问和主动工作记忆。支持大型 VLM 推理和紧凑 VLM 的端到端强化学习，在 MMLongBench-Doc 上超越人类专家水平。",
+  "summary_en": "DocAtlas models long-document understanding as mutable-state interaction, using an external document harness with search, reading, note-taking, and review tools. It combines self-improving retrieval and active memory under a fixed context budget, achieving 71.4% on MMLongBench-Doc with GPT-5.4 and 63.7% with a compact VLM trained via RL.",
+  "tags": [
+    "llm",
+    "research",
+    "rag",
+    "agent-framework",
+    "multimodal"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-11T16:51:57.592596+08:00",
+  "updated_at": "2026-08-11T16:51:57.592597+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

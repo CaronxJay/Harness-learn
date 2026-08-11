@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-11-rss-003",
+  "title": "Search-G1：基于表征内在奖励的接地搜索智能体",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.07531",
+  "language": "en",
+  "summary": "Search-G1提出一种基于表征的内在奖励框架，通过两个干预校准的读数衡量智能体答案的操作性接地：提示状态读数预测闭卷充分性，答案承诺读数估计证据依赖。奖励无需过程标注或LLM评判，且随策略演化，改善接地与搜索成本权衡。",
+  "summary_en": "Search-G1 proposes a representation-based intrinsic reward framework with two intervention-calibrated readouts to measure operational grounding, improving grounding-search cost trade-off without process annotations or LLM judges.",
+  "tags": [
+    "research",
+    "agent-framework",
+    "llm",
+    "reinforcement-learning",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-11T16:51:57.592601+08:00",
+  "updated_at": "2026-08-11T16:51:57.592602+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

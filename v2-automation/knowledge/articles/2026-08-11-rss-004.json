@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-11-rss-004",
+  "title": "可解释性语言模型的规模化",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.07594",
+  "language": "en",
+  "summary": "本文挑战了可解释性会牺牲能力的观点，将可解释性作为训练约束，与语言建模目标共同优化。在三个数量级的计算规模下，可解释性随能力提升而增强。作者提出Steerling-8B扩散语言模型，支持输出归因和概念干预，且性能可与计算量高2-16倍的模型竞争。",
+  "summary_en": "This work challenges the view that interpretability comes at a cost to capability, making it a training constraint. Across three orders of magnitude of compute, interpretability scales with capability. Steerling-8B, a diffusion LM, enables output attribution and concept steering, remaining competitive with models trained on 2-16x more compute.",
+  "tags": [
+    "llm",
+    "research",
+    "interpretability",
+    "fine-tuning"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-11T16:51:57.592605+08:00",
+  "updated_at": "2026-08-11T16:51:57.592607+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

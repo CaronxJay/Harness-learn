@@ -1,0 +1,24 @@
+{
+  "id": "2026-08-11-rss-010",
+  "title": "人类驾驶主动推理模型中的情感建模",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.07480",
+  "language": "en",
+  "summary": "该研究扩展了主动推理框架，在连续状态驾驶模型中引入基于效价和唤醒度的情感估计，并考虑未来预测结果。在交互驾驶场景中验证，情感信号与真实场景中的情感模式一致。",
+  "summary_en": "This work extends active inference driving models by incorporating valence and arousal based on current state and predicted future outcomes, validated in interactive scenarios.",
+  "tags": [
+    "research",
+    "llm",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.7,
+  "status": "published",
+  "created_at": "2026-08-11T16:51:57.592629+08:00",
+  "updated_at": "2026-08-11T16:51:57.592631+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

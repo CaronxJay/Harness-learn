@@ -1,0 +1,477 @@
+{
+  "collected_at": "2026-08-11T16:51:57.593516+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "Towards an Argumentative Foundation for Evaluative AI",
+      "url": "https://arxiv.org/abs/2608.07473",
+      "description": "arXiv:2608.07473v1 Announce Type: new \nAbstract: Evaluative AI (EAI) has been recently proposed as a way to support human decision-making, not by producing a single recommendation, but by presenting competing hypotheses together with evidence for and against each. In this position paper, we advocate (computational) argumentation as a particularly suitable paradigm to provide a formal, computable foundation for forms of EAI that are explainable and contestable, setting the ground for a long-term research agenda towards distributed and human-centred EAI systems.",
+      "pub_date": "Tue, 11 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "面向可评估AI的论证基础",
+        "summary": "本文主张使用计算论证作为可评估AI（EAI）的形式化基础，通过呈现竞争性假设及其证据来支持人类决策，而非单一推荐。旨在实现可解释、可质疑的分布式人本EAI系统，提出长期研究议程。",
+        "summary_en": "This position paper advocates computational argumentation as a formal foundation for Evaluative AI (EAI), which supports human decision-making by presenting competing hypotheses with evidence, aiming for explainable, contestable, distributed, and human-centred EAI systems.",
+        "tags": [
+          "research",
+          "llm",
+          "evaluation",
+          "agent-framework"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-11-rss-008",
+        "title": "面向可评估AI的论证基础",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.07473",
+        "language": "en",
+        "summary": "本文主张使用计算论证作为可评估AI（EAI）的形式化基础，通过呈现竞争性假设及其证据来支持人类决策，而非单一推荐。旨在实现可解释、可质疑的分布式人本EAI系统，提出长期研究议程。",
+        "summary_en": "This position paper advocates computational argumentation as a formal foundation for Evaluative AI (EAI), which supports human decision-making by presenting competing hypotheses with evidence, aiming for explainable, contestable, distributed, and human-centred EAI systems.",
+        "tags": [
+          "research",
+          "llm",
+          "evaluation",
+          "agent-framework"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "status": "published",
+        "created_at": "2026-08-11T16:51:57.592621+08:00",
+        "updated_at": "2026-08-11T16:51:57.592623+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Flow-by-Flow:Content-Judgment Bypass for Governing AI Output in High-Loss Domains",
+      "url": "https://arxiv.org/abs/2608.07474",
+      "description": "arXiv:2608.07474v1 Announce Type: new \nAbstract: Prior work showed that human-in-the-loop oversight becomes structurally untenable in high-loss domains when AI output velocity V exceeds human cognitive capacity C_max. The operative constraint, however, is not V alone but V x L, where L denotes per-item cognitive load. L consists of triage, judgment, and response, which respond asymmetrically to AI capability improvement. Triage cost does not decline as models become more capable, because semantic indeterminacy is inherent in general-purpose design. Response cost is invariant to accuracy improvements. Only judgment cost faces downward pressure, and this pressure often operates by inducing omission rather than genuine reduction. Capability improvement therefore restructures L rather than reducing it. Governance mechanisms based on evaluating whether AI output is correct either delegate that evaluation to AI and inherit hallucination risk, or delegate it to humans and face the V x L ceiling. We propose Flow-by-Flow, a governance paradigm that controls supervisory load without evaluating content. A cognitive cost score based on formal, countable features imposes nonlinear costs on high-volume production, while an institutional capacity cap keeps processing volume within C_max. We derive four design invariants for any content-judgment-bypass exceedance pathway: no content judgment, no scalable consumption of examiner capacity, identity-bound per-application friction, and no batch clearance. One reference implementation is discussed to show that these invariants are jointly satisfiable, while its practical difficulties are explicitly acknowledged. An illustrative Monte Carlo analysis across 1,000 parameter draws suggests that composite multi-metric flow control outperforms supervision reinforcement alone in 90.8% of trials.",
+      "pub_date": "Tue, 11 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "流式治理：高损失领域中绕过内容判断的AI输出管控",
+        "summary": "本文提出Flow-by-Flow治理范式，通过基于形式化可数特征的认知成本评分和机构容量上限，在不评估内容的情况下控制AI输出速度，解决高损失领域中人类监督的V×L瓶颈。设计四个不变量，并通过蒙特卡洛分析验证多指标流控制优于单纯监督强化。",
+        "summary_en": "This paper proposes Flow-by-Flow, a governance paradigm that controls AI output velocity without content evaluation, using formal feature-based cognitive cost scores and institutional capacity caps to address the V×L bottleneck in high-loss domains. Four design invariants are derived, and Monte Carlo analysis shows multi-metric flow control outperforms supervision reinforcement in 90.8% of trials.",
+        "tags": [
+          "research",
+          "security",
+          "infrastructure",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-11-rss-006",
+        "title": "流式治理：高损失领域中绕过内容判断的AI输出管控",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.07474",
+        "language": "en",
+        "summary": "本文提出Flow-by-Flow治理范式，通过基于形式化可数特征的认知成本评分和机构容量上限，在不评估内容的情况下控制AI输出速度，解决高损失领域中人类监督的V×L瓶颈。设计四个不变量，并通过蒙特卡洛分析验证多指标流控制优于单纯监督强化。",
+        "summary_en": "This paper proposes Flow-by-Flow, a governance paradigm that controls AI output velocity without content evaluation, using formal feature-based cognitive cost scores and institutional capacity caps to address the V×L bottleneck in high-loss domains. Four design invariants are derived, and Monte Carlo analysis shows multi-metric flow control outperforms supervision reinforcement in 90.8% of trials.",
+        "tags": [
+          "research",
+          "security",
+          "infrastructure",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-11T16:51:57.592614+08:00",
+        "updated_at": "2026-08-11T16:51:57.592615+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Determinization in Structure Theories: A Unified Framework via Closure, Comparability, and Joint Admissibility",
+      "url": "https://arxiv.org/abs/2608.07476",
+      "description": "arXiv:2608.07476v1 Announce Type: new \nAbstract: We develop a formal framework for constructing canonical interpretations from plural structure theories. A structure theory is a triple T = ({\\Sigma}, A, I) consisting of a signature, axioms, and an inference policy, whose admissible interpretation family collects all globally consistent assignments of structural conclusions.\n  We distinguish three levels of canonicalization: closure stabilization (per-seed convergence), global completion (seed-independent convergence), and determinization (a unique admissible interpretation). Non-determinism is classified into epistemic plurality (Type E) and structural plurality (Type S), with a refined Type S-strong subclass characterized by the absence of common upper bounds.\n  Two canonicalization mechanisms arise: operator-based completion and selector-based construction. We provide sufficient structural conditions under which these mechanisms exist, and show that pure inference-based completion reduces to a saturated closure operator under positive, non-retractive rules with an additional soundness condition. For Type E theories, closure stabilization is established, while full determinization depends on a global confluence property that remains open. For Type S-strong theories, determinization is achieved via canonical selection.\n  We further show that multi-level canonicalization forms a structurally non-commutative system via staged operators, and provide a conditional classification theorem reducing theory-intrinsic mechanisms to closure or selection. The framework also applies to LLM-assisted reasoning, where hallucination can be viewed as unsupported canonicalization.",
+      "pub_date": "Tue, 11 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "结构理论中的确定性化：通过闭包、可比性和联合可接受性的统一框架",
+        "summary": "本文提出一个形式化框架，用于从多元结构理论构建规范解释。区分三种规范化级别：闭包稳定化、全局完成和确定性化。将非确定性分为认知多元性和结构多元性，并提供两种规范化机制。该框架还应用于LLM辅助推理，将幻觉视为不支持的规范化。",
+        "summary_en": "This paper proposes a formal framework for constructing canonical interpretations from plural structure theories. It distinguishes three levels of canonicalization and classifies non-determinism into epistemic and structural plurality. The framework applies to LLM-assisted reasoning, viewing hallucination as unsupported canonicalization.",
+        "tags": [
+          "research",
+          "llm",
+          "framework"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-11-rss-009",
+        "title": "结构理论中的确定性化：通过闭包、可比性和联合可接受性的统一框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.07476",
+        "language": "en",
+        "summary": "本文提出一个形式化框架，用于从多元结构理论构建规范解释。区分三种规范化级别：闭包稳定化、全局完成和确定性化。将非确定性分为认知多元性和结构多元性，并提供两种规范化机制。该框架还应用于LLM辅助推理，将幻觉视为不支持的规范化。",
+        "summary_en": "This paper proposes a formal framework for constructing canonical interpretations from plural structure theories. It distinguishes three levels of canonicalization and classifies non-determinism into epistemic and structural plurality. The framework applies to LLM-assisted reasoning, viewing hallucination as unsupported canonicalization.",
+        "tags": [
+          "research",
+          "llm",
+          "framework"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "status": "published",
+        "created_at": "2026-08-11T16:51:57.592625+08:00",
+        "updated_at": "2026-08-11T16:51:57.592627+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Emotion in an active inference model of human driving",
+      "url": "https://arxiv.org/abs/2608.07480",
+      "description": "arXiv:2608.07480v1 Announce Type: new \nAbstract: Active inference has emerged as a principled framework for modeling adaptive behavior by balancing goal-directed action with uncertainty reduction. It has been successfully applied across biological and artificial systems, including recent work on human driving. However, existing active inference models of driving have yet to address an important determinant of behavior in traffic: affective state, which significantly influences decision-making. Prior work in non-traffic domains has explored active inference agents in which emotions are represented along the axes of valence and arousal in the circumplex model. However, this work has been limited to simplified settings with discrete state spaces. In this work, we propose an expanded formulation of valence and arousal that can be extracted from a more complex active inference model of driving with continuous states. In particular, we condition affective estimates not only on the current state but also on predicted future outcomes. We evaluate the proposed approach in two interactive driving scenarios and show that the resulting emotion signals correspond to affective patterns reported in similar scenarios.",
+      "pub_date": "Tue, 11 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "人类驾驶主动推理模型中的情感建模",
+        "summary": "该研究扩展了主动推理框架，在连续状态驾驶模型中引入基于效价和唤醒度的情感估计，并考虑未来预测结果。在交互驾驶场景中验证，情感信号与真实场景中的情感模式一致。",
+        "summary_en": "This work extends active inference driving models by incorporating valence and arousal based on current state and predicted future outcomes, validated in interactive scenarios.",
+        "tags": [
+          "research",
+          "llm",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.7,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-11-rss-010",
+        "title": "人类驾驶主动推理模型中的情感建模",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.07480",
+        "language": "en",
+        "summary": "该研究扩展了主动推理框架，在连续状态驾驶模型中引入基于效价和唤醒度的情感估计，并考虑未来预测结果。在交互驾驶场景中验证，情感信号与真实场景中的情感模式一致。",
+        "summary_en": "This work extends active inference driving models by incorporating valence and arousal based on current state and predicted future outcomes, validated in interactive scenarios.",
+        "tags": [
+          "research",
+          "llm",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.7,
+        "status": "published",
+        "created_at": "2026-08-11T16:51:57.592629+08:00",
+        "updated_at": "2026-08-11T16:51:57.592631+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Training Variable Long Sequences with Data-Centric Parallel",
+      "url": "https://arxiv.org/abs/2608.07524",
+      "description": "arXiv:2608.07524v1 Announce Type: new \nAbstract: Training deep learning models on variable long sequences poses significant computational challenges. Existing methods force a difficult trade-off between efficiency and ease-of-use. Simple approaches use static configurations that cause workload imbalance low efficiency, while complex methods introduces significant complexity and code change for new models. To break this trade-off, we introduce Data-Centric Parallel (DCP). Its core principle is to let the data itself drive the runtime. It achieves this by dynamically adjusting direct runtime settings (e.g., parallel size, gradient accumulation, recomputation) based on each batch's sequence length. Empirical results demonstrate that our method achieves up to a 2.88$\\times$ speedup on 32 H200 GPUs. Designed for generalization, it can be integrated into any model with 10 lines of code. We anticipate this simple yet effective approach will serve as a robust baseline and facilitate future advancements in distributed training for variable long sequences.",
+      "pub_date": "Tue, 11 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "数据为中心的并行方法训练可变长序列",
+        "summary": "提出数据为中心并行（DCP）方法，通过动态调整并行大小、梯度累积和重计算等运行时设置，以数据驱动运行时，解决可变长序列训练中效率与易用性的权衡。在32个H200 GPU上实现最高2.88倍加速，且仅需10行代码即可集成到任意模型。",
+        "summary_en": "Introduces Data-Centric Parallel (DCP), which dynamically adjusts runtime settings like parallel size, gradient accumulation, and recomputation based on sequence length, achieving up to 2.88x speedup on 32 H200 GPUs with only 10 lines of code integration.",
+        "tags": [
+          "llm",
+          "infrastructure",
+          "research",
+          "training"
+        ],
+        "category": "infrastructure",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-11-rss-007",
+        "title": "数据为中心的并行方法训练可变长序列",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.07524",
+        "language": "en",
+        "summary": "提出数据为中心并行（DCP）方法，通过动态调整并行大小、梯度累积和重计算等运行时设置，以数据驱动运行时，解决可变长序列训练中效率与易用性的权衡。在32个H200 GPU上实现最高2.88倍加速，且仅需10行代码即可集成到任意模型。",
+        "summary_en": "Introduces Data-Centric Parallel (DCP), which dynamically adjusts runtime settings like parallel size, gradient accumulation, and recomputation based on sequence length, achieving up to 2.88x speedup on 32 H200 GPUs with only 10 lines of code integration.",
+        "tags": [
+          "llm",
+          "infrastructure",
+          "research",
+          "training"
+        ],
+        "category": "infrastructure",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-11T16:51:57.592618+08:00",
+        "updated_at": "2026-08-11T16:51:57.592619+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Unified Hallucination Fuzzing for Multimodal Large Language Models",
+      "url": "https://arxiv.org/abs/2608.07525",
+      "description": "arXiv:2608.07525v1 Announce Type: new \nAbstract: Hallucination remains a persistent challenge for Multimodal Large Language Models (MLLMs), severely limiting their reliability in high-stakes applications. Existing evaluations, predominantly based on static benchmarks, suffer from narrow taxonomical coverage and rapid performance saturation, failing to reflect model robustness in evolving real-world scenarios. To bridge this gap, we present a systematic evaluation framework integrating a comprehensive benchmark with self-evolving stress testing. First, we introduce UniHall, a fine-grained dataset grounded in a unified taxonomy spanning Object, Instruction, and Knowledge dimensions. Second, to address benchmark saturation, we propose Self-Adaptive Multimodal Fuzzing (SAMF), a self-adaptive framework that employs evolutionary mutation strategies to explore the boundaries of model hallucinations. Crucially, to ensure reliable assessment of dynamic inputs, SAMF incorporates a structured metric suite driven by an ensemble of multi-modal oracles. Our extensive experiments reveal that state-of-the-art MLLMs exhibit significant performance degradation under fuzzing compared to conventional settings, exposing a dissociation between reasoning capabilities and factual grounding. Furthermore, we identify a helpfulness-hallucination trade-off, where reinforcement learning alignment inadvertently exacerbates sycophancy in instruction-following tasks. The framework, code and benchmark are available at https://github.com/LanceZPF/EvalHall.",
+      "pub_date": "Tue, 11 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "多模态大语言模型的统一幻觉模糊测试",
+        "summary": "提出系统评估框架，包含细粒度基准UniHall和自适应用例生成SAMF，通过进化策略探索幻觉边界，发现SOTA模型在模糊测试下性能显著下降，并揭示帮助性-幻觉权衡。",
+        "summary_en": "Proposes a systematic evaluation framework with fine-grained benchmark UniHall and self-adaptive fuzzing SAMF, revealing performance degradation and a helpfulness-hallucination trade-off in MLLMs.",
+        "tags": [
+          "multimodal",
+          "benchmark",
+          "evaluation",
+          "llm"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-11-rss-001",
+        "title": "多模态大语言模型的统一幻觉模糊测试",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.07525",
+        "language": "en",
+        "summary": "提出系统评估框架，包含细粒度基准UniHall和自适应用例生成SAMF，通过进化策略探索幻觉边界，发现SOTA模型在模糊测试下性能显著下降，并揭示帮助性-幻觉权衡。",
+        "summary_en": "Proposes a systematic evaluation framework with fine-grained benchmark UniHall and self-adaptive fuzzing SAMF, revealing performance degradation and a helpfulness-hallucination trade-off in MLLMs.",
+        "tags": [
+          "multimodal",
+          "benchmark",
+          "evaluation",
+          "llm"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-11T16:51:57.592588+08:00",
+        "updated_at": "2026-08-11T16:51:57.592591+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "DocAtlas: Long-Document Understanding as Mutable-State Interaction",
+      "url": "https://arxiv.org/abs/2608.07527",
+      "description": "arXiv:2608.07527v1 Announce Type: new \nAbstract: Long-document understanding requires models to find and combine evidence across many pages, layouts, tables, figures, and charts. Existing retrieval-augmented systems usually select evidence from a static index before generation, while recent agentic systems add multi-turn tool use but often rely on frozen proprietary backbones whose behavior is set by prompts. We present DocAtlas, a system that treats long-document understanding as a mutable-state information-seeking process. We instantiate DocAtlas as a mutable document harness: an external environment that determines what document information is searched, read, stored, reviewed, and shown to the model at each step. Given a document and question, the harness exposes search, reading, note-taking, and review tools, maintains a hierarchical tree and note store, and updates both as the agent records evidence. DocAtlas combines self-improving retrieval, selective evidence access, and active working memory under a fixed context budget. The same harness supports inference-time use with large VLMs and end-to-end reinforcement learning for compact VLM agents. With GPT-5.4, DocAtlas reaches 71.4\\% on MMLongBench-Doc, exceeding the human-expert reference of 65.8\\%. A Qwen3.5-4B VLM trained with end-to-end RL in the DocAtlas environment reaches 63.7\\%, compared with a 54.4\\% direct-input baseline, showing that mutable document-harness design can improve compact document agents by a large margin.",
+      "pub_date": "Tue, 11 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "DocAtlas：将长文档理解视为可变状态交互",
+        "summary": "DocAtlas 将长文档理解建模为可变状态的信息寻求过程，通过外部文档环境提供搜索、阅读、笔记和回顾工具，维护层级树和笔记存储，在固定上下文预算下结合自改进检索、选择性证据访问和主动工作记忆。支持大型 VLM 推理和紧凑 VLM 的端到端强化学习，在 MMLongBench-Doc 上超越人类专家水平。",
+        "summary_en": "DocAtlas models long-document understanding as mutable-state interaction, using an external document harness with search, reading, note-taking, and review tools. It combines self-improving retrieval and active memory under a fixed context budget, achieving 71.4% on MMLongBench-Doc with GPT-5.4 and 63.7% with a compact VLM trained via RL.",
+        "tags": [
+          "llm",
+          "research",
+          "rag",
+          "agent-framework",
+          "multimodal"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-11-rss-002",
+        "title": "DocAtlas：将长文档理解视为可变状态交互",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.07527",
+        "language": "en",
+        "summary": "DocAtlas 将长文档理解建模为可变状态的信息寻求过程，通过外部文档环境提供搜索、阅读、笔记和回顾工具，维护层级树和笔记存储，在固定上下文预算下结合自改进检索、选择性证据访问和主动工作记忆。支持大型 VLM 推理和紧凑 VLM 的端到端强化学习，在 MMLongBench-Doc 上超越人类专家水平。",
+        "summary_en": "DocAtlas models long-document understanding as mutable-state interaction, using an external document harness with search, reading, note-taking, and review tools. It combines self-improving retrieval and active memory under a fixed context budget, achieving 71.4% on MMLongBench-Doc with GPT-5.4 and 63.7% with a compact VLM trained via RL.",
+        "tags": [
+          "llm",
+          "research",
+          "rag",
+          "agent-framework",
+          "multimodal"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-11T16:51:57.592596+08:00",
+        "updated_at": "2026-08-11T16:51:57.592597+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "WuYuEval: A Multi-Level Benchmark for Large Language Models in Solid Waste Management",
+      "url": "https://arxiv.org/abs/2608.07529",
+      "description": "arXiv:2608.07529v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly used as technical assistants, but their competence in solid waste management (SWM) remains difficult to assess because existing benchmarks emphasize general knowledge rather than professional decisions under engineering, environmental, and policy constraints. We introduce WuYuEval, a multi-level benchmark for evaluating LLMs in SWM across foundational knowledge, domain reasoning, and expert decision-making. After quality auditing, WuYuEval contains a Foundation Module with 4,590 closed-ended multiple-choice questions across six task types and eight domain categories, together with an Expert Module with 247 scenario-based open-ended questions involving multi-objective optimization, constraint trade-offs, and system design. For expert tasks, we combine anchor-calibrated LLM-as-a-Judge scoring with Elo-based pairwise comparison. Across 33 LLMs, performance varied widely. The leading model reached 94.64\\% accuracy on the Foundation Module, but average accuracy still fell from 84.14\\% on easy questions to 42.50\\% on hard questions, with lower performance concentrated in calculation, experimental design, urban planning, and open-ended expert tasks. Reasoning-oriented Thinking modes improve most matched model pairs after auditing, but the gains depend on baseline capability and are not uniformly positive. These results suggest that visible deliberation helps only when it remains anchored to units, assumptions, and engineering constraints; otherwise, it may drift from decisive answer boundaries. WuYuEval therefore provides both an evaluation resource and an empirical basis for developing SWM-oriented foundation models with professional reasoning chains and explicit constraint control.",
+      "pub_date": "Tue, 11 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "WuYuEval：面向固体废物管理的大语言模型多层级基准测试",
+        "summary": "WuYuEval是一个用于评估大语言模型在固体废物管理领域能力的多层级基准，包含4590道基础选择题和247道专家级开放题，覆盖知识、推理和决策三个层次。测试33个模型发现性能差异大，推理模式并非总是有效，为开发专业模型提供了依据。",
+        "summary_en": "WuYuEval is a multi-level benchmark for evaluating LLMs in solid waste management, with 4,590 basic MCQs and 247 expert open-ended questions. Testing 33 models shows wide performance gaps and that reasoning modes are not always beneficial, providing a basis for developing specialized models.",
+        "tags": [
+          "benchmark",
+          "llm",
+          "evaluation",
+          "research"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-11-rss-005",
+        "title": "WuYuEval：面向固体废物管理的大语言模型多层级基准测试",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.07529",
+        "language": "en",
+        "summary": "WuYuEval是一个用于评估大语言模型在固体废物管理领域能力的多层级基准，包含4590道基础选择题和247道专家级开放题，覆盖知识、推理和决策三个层次。测试33个模型发现性能差异大，推理模式并非总是有效，为开发专业模型提供了依据。",
+        "summary_en": "WuYuEval is a multi-level benchmark for evaluating LLMs in solid waste management, with 4,590 basic MCQs and 247 expert open-ended questions. Testing 33 models shows wide performance gaps and that reasoning modes are not always beneficial, providing a basis for developing specialized models.",
+        "tags": [
+          "benchmark",
+          "llm",
+          "evaluation",
+          "research"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-08-11T16:51:57.592610+08:00",
+        "updated_at": "2026-08-11T16:51:57.592611+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Search-G1: Grounded Search Agents via Representation-Based Intrinsic Rewards",
+      "url": "https://arxiv.org/abs/2608.07531",
+      "description": "arXiv:2608.07531v1 Announce Type: new \nAbstract: Search-augmented language agents should retrieve external information only when necessary and ground their answers in retrieved evidence. Existing external rewards provide either sparse outcome supervision or richer feedback from process annotations and LLM judges. Outcome rewards scale readily but cannot distinguish grounded retrieval from redundant search, whereas richer signals require costly annotation or inference during training. Internal rewards based on policy-side signals such as entropy, likelihood, or information gain are graded and inexpensive to evaluate, yet mainly reflect model confidence rather than evidence grounding. We propose Search-G1, a representation-based intrinsic reward framework that measures the operational grounding of an agent's answers through two intervention-calibrated readouts. A prompt-state readout predicts closed-book sufficiency, whose complement defines policy-relative retrieval necessity; an answer-commit readout estimates evidence reliance from answer-stage sensitivity to evidence deletion. Together, they provide additional credit to correct searched trajectories when retrieval is estimated necessary and the answer is evidence-sensitive, favor correct direct answers when closed-book knowledge suffices, and penalize repeated search. After calibration, reward scoring requires neither process annotations nor LLM-as-judge inference during policy optimization. Because reinforcement learning changes policy representations, Search-G1 periodically refits both readouts on trajectories from the latest checkpoint, allowing the reward to co-evolve with the policy. Experiments across multiple search-based question-answering benchmarks and two model scales show that Search-G1 improves the grounding--search-cost trade-off, producing shorter response-side trajectories at competitive task accuracy. Code is available at https://github.com/Rosy0912/Search-G1.",
+      "pub_date": "Tue, 11 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "Search-G1：基于表征内在奖励的接地搜索智能体",
+        "summary": "Search-G1提出一种基于表征的内在奖励框架，通过两个干预校准的读数衡量智能体答案的操作性接地：提示状态读数预测闭卷充分性，答案承诺读数估计证据依赖。奖励无需过程标注或LLM评判，且随策略演化，改善接地与搜索成本权衡。",
+        "summary_en": "Search-G1 proposes a representation-based intrinsic reward framework with two intervention-calibrated readouts to measure operational grounding, improving grounding-search cost trade-off without process annotations or LLM judges.",
+        "tags": [
+          "research",
+          "agent-framework",
+          "llm",
+          "reinforcement-learning",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-11-rss-003",
+        "title": "Search-G1：基于表征内在奖励的接地搜索智能体",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.07531",
+        "language": "en",
+        "summary": "Search-G1提出一种基于表征的内在奖励框架，通过两个干预校准的读数衡量智能体答案的操作性接地：提示状态读数预测闭卷充分性，答案承诺读数估计证据依赖。奖励无需过程标注或LLM评判，且随策略演化，改善接地与搜索成本权衡。",
+        "summary_en": "Search-G1 proposes a representation-based intrinsic reward framework with two intervention-calibrated readouts to measure operational grounding, improving grounding-search cost trade-off without process annotations or LLM judges.",
+        "tags": [
+          "research",
+          "agent-framework",
+          "llm",
+          "reinforcement-learning",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-11T16:51:57.592601+08:00",
+        "updated_at": "2026-08-11T16:51:57.592602+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Scaling Inherently Interpretable Language Models",
+      "url": "https://arxiv.org/abs/2608.07594",
+      "description": "arXiv:2608.07594v1 Announce Type: new \nAbstract: Interpretability is often treated as a tax on capability: language models are trained as opaque systems, then explained after the fact, with methods whose reliability is difficult to establish. In this work, we challenge this premise. Rather than reverse-engineering a model, we make interpretability a constraint of the training pipeline, optimized alongside the language modeling objective. Across three orders of magnitude of compute, on both autoregressive and diffusion language models, interpretability scales with capability rather than against it. Surprisingly, model representations become more disentangled and aligned with human-understandable concepts with scale.\n  We instantiate the training-time recipe with Steerling-8B, a diffusion language model with a causal attention mask. For any group of generated tokens, Steerling-8B attributes the output to relevant input tokens, human-understandable concepts, and training data. This enables closed-loop intervention: diagnose an output through its concept or feature attribution, retrieve similar training data, and correct the behavior through concept steering without retraining. Steerling-8B remains competitive with open peer models trained on substantially 2-16x more compute, suggesting a different scaling paradigm: interpretability can be designed into training, and it improves with scale.",
+      "pub_date": "Tue, 11 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "可解释性语言模型的规模化",
+        "summary": "本文挑战了可解释性会牺牲能力的观点，将可解释性作为训练约束，与语言建模目标共同优化。在三个数量级的计算规模下，可解释性随能力提升而增强。作者提出Steerling-8B扩散语言模型，支持输出归因和概念干预，且性能可与计算量高2-16倍的模型竞争。",
+        "summary_en": "This work challenges the view that interpretability comes at a cost to capability, making it a training constraint. Across three orders of magnitude of compute, interpretability scales with capability. Steerling-8B, a diffusion LM, enables output attribution and concept steering, remaining competitive with models trained on 2-16x more compute.",
+        "tags": [
+          "llm",
+          "research",
+          "interpretability",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-11-rss-004",
+        "title": "可解释性语言模型的规模化",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.07594",
+        "language": "en",
+        "summary": "本文挑战了可解释性会牺牲能力的观点，将可解释性作为训练约束，与语言建模目标共同优化。在三个数量级的计算规模下，可解释性随能力提升而增强。作者提出Steerling-8B扩散语言模型，支持输出归因和概念干预，且性能可与计算量高2-16倍的模型竞争。",
+        "summary_en": "This work challenges the view that interpretability comes at a cost to capability, making it a training constraint. Across three orders of magnitude of compute, interpretability scales with capability. Steerling-8B, a diffusion LM, enables output attribution and concept steering, remaining competitive with models trained on 2-16x more compute.",
+        "tags": [
+          "llm",
+          "research",
+          "interpretability",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-11T16:51:57.592605+08:00",
+        "updated_at": "2026-08-11T16:51:57.592607+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

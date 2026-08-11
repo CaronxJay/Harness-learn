@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-11-rss-001",
+  "title": "多模态大语言模型的统一幻觉模糊测试",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.07525",
+  "language": "en",
+  "summary": "提出系统评估框架，包含细粒度基准UniHall和自适应用例生成SAMF，通过进化策略探索幻觉边界，发现SOTA模型在模糊测试下性能显著下降，并揭示帮助性-幻觉权衡。",
+  "summary_en": "Proposes a systematic evaluation framework with fine-grained benchmark UniHall and self-adaptive fuzzing SAMF, revealing performance degradation and a helpfulness-hallucination trade-off in MLLMs.",
+  "tags": [
+    "multimodal",
+    "benchmark",
+    "evaluation",
+    "llm"
+  ],
+  "category": "benchmark",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-11T16:51:57.592588+08:00",
+  "updated_at": "2026-08-11T16:51:57.592591+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

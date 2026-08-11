@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-11-rss-007",
+  "title": "数据为中心的并行方法训练可变长序列",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.07524",
+  "language": "en",
+  "summary": "提出数据为中心并行（DCP）方法，通过动态调整并行大小、梯度累积和重计算等运行时设置，以数据驱动运行时，解决可变长序列训练中效率与易用性的权衡。在32个H200 GPU上实现最高2.88倍加速，且仅需10行代码即可集成到任意模型。",
+  "summary_en": "Introduces Data-Centric Parallel (DCP), which dynamically adjusts runtime settings like parallel size, gradient accumulation, and recomputation based on sequence length, achieving up to 2.88x speedup on 32 H200 GPUs with only 10 lines of code integration.",
+  "tags": [
+    "llm",
+    "infrastructure",
+    "research",
+    "training"
+  ],
+  "category": "infrastructure",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-11T16:51:57.592618+08:00",
+  "updated_at": "2026-08-11T16:51:57.592619+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-11-rss-005",
+  "title": "WuYuEval：面向固体废物管理的大语言模型多层级基准测试",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.07529",
+  "language": "en",
+  "summary": "WuYuEval是一个用于评估大语言模型在固体废物管理领域能力的多层级基准，包含4590道基础选择题和247道专家级开放题，覆盖知识、推理和决策三个层次。测试33个模型发现性能差异大，推理模式并非总是有效，为开发专业模型提供了依据。",
+  "summary_en": "WuYuEval is a multi-level benchmark for evaluating LLMs in solid waste management, with 4,590 basic MCQs and 247 expert open-ended questions. Testing 33 models shows wide performance gaps and that reasoning modes are not always beneficial, providing a basis for developing specialized models.",
+  "tags": [
+    "benchmark",
+    "llm",
+    "evaluation",
+    "research"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-08-11T16:51:57.592610+08:00",
+  "updated_at": "2026-08-11T16:51:57.592611+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-11-github-008",
+  "title": "Udityamerit 技术之旅：机器学习与生成式AI专家",
+  "source": "github_trending",
+  "source_url": "https://github.com/udityamerit/Udityamerit",
+  "language": "en",
+  "summary": "该GitHub个人资料展示了作者在机器学习、深度学习、NLP、生成式AI、RAG、LLM、语义搜索和AI代理方面的专长，致力于构建解决实际问题的智能系统。",
+  "summary_en": null,
+  "tags": [
+    "llm",
+    "rag",
+    "agent-framework",
+    "machine-learning"
+  ],
+  "category": "llm",
+  "relevance_score": 0.8,
+  "status": "published",
+  "created_at": "2026-08-11T16:51:57.591321+08:00",
+  "updated_at": "2026-08-11T16:51:57.591322+08:00",
+  "metadata": {
+    "stars": 5,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

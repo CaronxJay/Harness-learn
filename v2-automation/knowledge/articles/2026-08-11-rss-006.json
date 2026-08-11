@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-11-rss-006",
+  "title": "流式治理：高损失领域中绕过内容判断的AI输出管控",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.07474",
+  "language": "en",
+  "summary": "本文提出Flow-by-Flow治理范式，通过基于形式化可数特征的认知成本评分和机构容量上限，在不评估内容的情况下控制AI输出速度，解决高损失领域中人类监督的V×L瓶颈。设计四个不变量，并通过蒙特卡洛分析验证多指标流控制优于单纯监督强化。",
+  "summary_en": "This paper proposes Flow-by-Flow, a governance paradigm that controls AI output velocity without content evaluation, using formal feature-based cognitive cost scores and institutional capacity caps to address the V×L bottleneck in high-loss domains. Four design invariants are derived, and Monte Carlo analysis shows multi-metric flow control outperforms supervision reinforcement in 90.8% of trials.",
+  "tags": [
+    "research",
+    "security",
+    "infrastructure",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-11T16:51:57.592614+08:00",
+  "updated_at": "2026-08-11T16:51:57.592615+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

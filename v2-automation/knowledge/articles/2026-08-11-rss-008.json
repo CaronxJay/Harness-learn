@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-11-rss-008",
+  "title": "面向可评估AI的论证基础",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.07473",
+  "language": "en",
+  "summary": "本文主张使用计算论证作为可评估AI（EAI）的形式化基础，通过呈现竞争性假设及其证据来支持人类决策，而非单一推荐。旨在实现可解释、可质疑的分布式人本EAI系统，提出长期研究议程。",
+  "summary_en": "This position paper advocates computational argumentation as a formal foundation for Evaluative AI (EAI), which supports human decision-making by presenting competing hypotheses with evidence, aiming for explainable, contestable, distributed, and human-centred EAI systems.",
+  "tags": [
+    "research",
+    "llm",
+    "evaluation",
+    "agent-framework"
+  ],
+  "category": "research",
+  "relevance_score": 0.8,
+  "status": "published",
+  "created_at": "2026-08-11T16:51:57.592621+08:00",
+  "updated_at": "2026-08-11T16:51:57.592623+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
