@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-12-rss-009",
+  "title": "迈向可持续人工智能：深度学习模型碳足迹的综合回顾与比较分析",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.09998",
+  "language": "en",
+  "summary": "本文系统回顾了绿色AI和深度学习优化技术，比较了碳测量工具，并通过CPU实验评估了六种深度学习模型在多标签分类任务中的碳排放。结果显示训练阶段是主要排放源，且模型复杂度增加并不总能带来相应的精度提升，强调了在模型选择中平衡性能与环境成本的重要性。",
+  "summary_en": "This paper systematically reviews Green AI and DL optimization techniques, compares carbon measurement tools, and empirically evaluates six DL models on a CPU for multi-label classification. Results show training is the main emission source, and increased complexity doesn't always yield proportional accuracy gains, highlighting the need to balance performance and environmental cost.",
+  "tags": [
+    "research",
+    "llm",
+    "benchmark",
+    "infrastructure"
+  ],
+  "category": "research",
+  "relevance_score": 0.8,
+  "status": "published",
+  "created_at": "2026-08-12T17:08:39.365631+08:00",
+  "updated_at": "2026-08-12T17:08:39.365633+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

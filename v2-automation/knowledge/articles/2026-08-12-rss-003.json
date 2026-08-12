@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-12-rss-003",
+  "title": "多语言量化税：边缘小型语言模型中的结构崩溃与类型学脆弱性",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.09941",
+  "language": "en",
+  "summary": "该研究对Gemma 4和Qwen 3.5架构进行4位量化的零样本多语言评估，发现量化导致低资源语言表示崩溃、母语保护悖论、领域特定遗忘及量化抵抗等现象，揭示了预训练不平等。",
+  "summary_en": "This study evaluates 4-bit quantization on Gemma 4 and Qwen 3.5 across eight typologically diverse languages, revealing representational collapse, home language fragility paradox, domain-specific forgetting, and quantization resistance, exposing pretraining inequalities.",
+  "tags": [
+    "llm",
+    "research",
+    "benchmark",
+    "multimodal"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-08-12T17:08:39.365605+08:00",
+  "updated_at": "2026-08-12T17:08:39.365607+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-12-rss-004",
+  "title": "数字农业中的闭环LLM副驾驶",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.09949",
+  "language": "en",
+  "summary": "该研究将LLM从数据分析升级为自主AI引导实验，通过49通道植物传感器网络和闭环控制，优化微气候、执行表型协议。在垂直农场验证中，最小时间模式缩短生产周期35%，能量优化模式节省18%能耗，并自主发现暗诱导叶绿素积累策略，节能67.9%。",
+  "summary_en": "This study evolves LLMs from data analysis to autonomous AI-guided experimentation in digital agriculture, using a 49-channel phytosensor network and closed-loop control. Validated in vertical farms, it reduced production cycle by 35% in minimal-time mode, saved 18% energy in optimization mode, and autonomously discovered dark-induced chlorophyll accumulation saving 67.9% energy.",
+  "tags": [
+    "llm",
+    "application",
+    "research",
+    "multimodal",
+    "agent-framework"
+  ],
+  "category": "application",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-12T17:08:39.365609+08:00",
+  "updated_at": "2026-08-12T17:08:39.365611+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

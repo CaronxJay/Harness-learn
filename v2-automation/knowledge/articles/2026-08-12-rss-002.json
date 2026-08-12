@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-12-rss-002",
+  "title": "思维链何时有效何时有害：LLM推理中串行深度瓶颈的实证研究",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.09942",
+  "language": "en",
+  "summary": "本研究通过H_dp带宽约束框架，实证考察思维链（CoT）对LLM推理的影响。发现CoT并非普遍提升推理能力，而是作为带宽旁路：对高串行深度任务（如GSM8K、MATH）显著提升（+54至+68个百分点），对浅层任务（如MMLU、ARC）冗余，对中等任务（HumanEval）效果依赖模型规模。",
+  "summary_en": "This study empirically investigates chain-of-thought (CoT) effects on LLM reasoning via the H_dp bandwidth bound. CoT acts as a bandwidth bypass: it significantly helps high serial-depth tasks (GSM8K, MATH: +54 to +68 pp), is redundant for shallow tasks (MMLU, ARC), and shows model-size-dependent effects on intermediate tasks (HumanEval).",
+  "tags": [
+    "llm",
+    "research",
+    "prompt-engineering",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-12T17:08:39.365600+08:00",
+  "updated_at": "2026-08-12T17:08:39.365602+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

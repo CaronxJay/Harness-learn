@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-12-rss-007",
+  "title": "ReCBM：用于概念瓶颈模型的不确定性门控关系推理",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.10004",
+  "language": "en",
+  "summary": "ReCBM提出不确定性门控的关系推理框架，在概念瓶颈中引入语义关系（共现、蕴含、排斥），并用不确定性调节概念贡献，提升缺失/翻转概念下的鲁棒性，支持不确定性感知干预，提取紧凑概念子集而不损性能。",
+  "summary_en": "ReCBM introduces an uncertainty-gated relational reasoning framework for Concept Bottleneck Models, modeling semantic relations among concepts and using uncertainty to modulate contributions, improving robustness under missing/flipped concepts and enabling uncertainty-aware intervention.",
+  "tags": [
+    "research",
+    "llm",
+    "interpretability",
+    "uncertainty",
+    "concept-bottleneck"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-12T17:08:39.365623+08:00",
+  "updated_at": "2026-08-12T17:08:39.365624+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

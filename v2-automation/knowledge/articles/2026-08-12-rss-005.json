@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-12-rss-005",
+  "title": "SPOT：面向深度强化学习的未来前瞻性解释框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.09967",
+  "language": "en",
+  "summary": "SPOT是一种模型无关、基于采样的深度强化学习策略解释框架。通过采样动作并递归模拟后续状态，构建可解释的有限时域树，提供策略动作偏好及下游演化的经验表示。具有渐近恢复最可能动作的保证，并在SUMORL交通信号控制中展示应用。",
+  "summary_en": "SPOT is a model-agnostic, sampling-based framework for interpreting deep reinforcement learning policies. It builds an interpretable finite-horizon tree by sampling actions and simulating successor states, providing empirical representation of policy preferences and downstream evolution, with formal guarantees and a traffic-signal control case study.",
+  "tags": [
+    "research",
+    "reinforcement-learning",
+    "interpretability",
+    "explanation"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-12T17:08:39.365614+08:00",
+  "updated_at": "2026-08-12T17:08:39.365616+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-12-rss-010",
+  "title": "冲突还是策略？法国新闻标题中对不屈法国与国民联盟的不对称角色框架分析（2022-2025）",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.09936",
+  "language": "en",
+  "summary": "该研究分析了2022-2025年间25家法国媒体关于LFI和RN的28,592条新闻标题，使用三模型LLM流水线进行标注。发现角色不对称（冲突vs战略）比价值不对称更显著，LFI更多出现在冲突语境，RN更多出现在战略选举语境。角色差异跨模型稳定，但道德评判层受媒体立场影响。论文提出政治角色分配作为计算框架研究目标，并建立了校准LLM标注流水线的可靠性框架。",
+  "summary_en": "This study analyzes 28,592 French news headlines about LFI and RN (2022-2025) using a three-model LLM annotation pipeline. It finds role asymmetry (conflict vs strategic) is more robust than valence asymmetry, with LFI framed in conflict and RN in strategic-electoral terms. The role gap is stable across models and time, while moral judgments are outlet-driven. The paper contributes political role assignment and a reliability framework for LLM annotation.",
+  "tags": [
+    "llm",
+    "research",
+    "application",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.8,
+  "status": "published",
+  "created_at": "2026-08-12T17:08:39.365635+08:00",
+  "updated_at": "2026-08-12T17:08:39.365637+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

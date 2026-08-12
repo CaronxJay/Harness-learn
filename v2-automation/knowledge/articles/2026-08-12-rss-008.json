@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-12-rss-008",
+  "title": "文化共识理论下的LLM对齐分析：单文化与多文化场景研究",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.09937",
+  "language": "en",
+  "summary": "该研究利用文化共识理论（CCT）分析LLM在不同国家文化规范理解上的表现。通过应用于世界价值观调查（WVS）的10国12领域数据，发现模型常无法形成连贯共识或过度正则化共识。CCT提供诊断工具，评估模型是否反映真实人类多样性或算法同质化。",
+  "summary_en": "This work applies Cultural Consensus Theory (CCT) to analyze LLM alignment with cultural norms across 10 countries and 12 domains using World Values Survey data. It reveals models often fail to form cohesive consensus or over-regularize, offering diagnostics to distinguish human diversity from algorithmic homogenization.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-12T17:08:39.365627+08:00",
+  "updated_at": "2026-08-12T17:08:39.365628+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

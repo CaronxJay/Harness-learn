@@ -1,0 +1,481 @@
+{
+  "collected_at": "2026-08-12T17:08:39.366442+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "Closed-Loop LLM Co-Pilots for Digital Agriculture",
+      "url": "https://arxiv.org/abs/2608.09949",
+      "description": "arXiv:2608.09949v1 Announce Type: new \nAbstract: This study evaluates the application of Large Language Models (LLMs) in complex biological systems, evolving from data analysis to autonomous, AI-guided experimentation. The framework is driven by data from a 49-channel phytosensor network, encompassing multispectral, electrochemical, and dielectric modalities. To enhance accessibility, the system provides real-time natural-language interpretation for both specialists and non-experts. However, its core advantage lies in the transition from human-in-the-loop analysis to autonomous control. Processing biophysical data, the LLM evaluates plant physiology and triggers hardware actuators to optimize microclimates, execute phenotyping protocols, or induce controlled stress scenarios. This closed-loop architecture establishes a direct AI-biology interface, enabling data-driven exploration of complex biosystems and ecologies. The framework was validated across three case studies, based on a vertical farm and a single-plant setup and deciphered complex micro- and macro-fluctuations in plant physiology. Agents in a production-scale deployment executed multi-parameter optimization, balancing biomass accumulation, chlorophyll content, and energy consumption. The LLM processed biosensing telemetry to modulate full-spectrum, 450 nm, and 660 nm lighting at 2-hour intervals. Compared to periodic control, the system in minimal-time mode reduced the production cycle by 35%. In the energy-optimization mode, it reduced energy consumption by 18% with only a marginal increase in cultivation time, exploiting physiological inertia via light pulses. Finally, the agents autonomously developed an unforeseen strategy of dark-induced chlorophyll accumulation, resulting in a 67.9% energy saving. This framework transforms LLMs into autonomous co-pilots for digital agriculture, improving the cost-to-value ratio and lowering computational and expert-labor constraints.",
+      "pub_date": "Wed, 12 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "数字农业中的闭环LLM副驾驶",
+        "summary": "该研究将LLM从数据分析升级为自主AI引导实验，通过49通道植物传感器网络和闭环控制，优化微气候、执行表型协议。在垂直农场验证中，最小时间模式缩短生产周期35%，能量优化模式节省18%能耗，并自主发现暗诱导叶绿素积累策略，节能67.9%。",
+        "summary_en": "This study evolves LLMs from data analysis to autonomous AI-guided experimentation in digital agriculture, using a 49-channel phytosensor network and closed-loop control. Validated in vertical farms, it reduced production cycle by 35% in minimal-time mode, saved 18% energy in optimization mode, and autonomously discovered dark-induced chlorophyll accumulation saving 67.9% energy.",
+        "tags": [
+          "llm",
+          "application",
+          "research",
+          "multimodal",
+          "agent-framework"
+        ],
+        "category": "application",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-12-rss-004",
+        "title": "数字农业中的闭环LLM副驾驶",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.09949",
+        "language": "en",
+        "summary": "该研究将LLM从数据分析升级为自主AI引导实验，通过49通道植物传感器网络和闭环控制，优化微气候、执行表型协议。在垂直农场验证中，最小时间模式缩短生产周期35%，能量优化模式节省18%能耗，并自主发现暗诱导叶绿素积累策略，节能67.9%。",
+        "summary_en": "This study evolves LLMs from data analysis to autonomous AI-guided experimentation in digital agriculture, using a 49-channel phytosensor network and closed-loop control. Validated in vertical farms, it reduced production cycle by 35% in minimal-time mode, saved 18% energy in optimization mode, and autonomously discovered dark-induced chlorophyll accumulation saving 67.9% energy.",
+        "tags": [
+          "llm",
+          "application",
+          "research",
+          "multimodal",
+          "agent-framework"
+        ],
+        "category": "application",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-12T17:08:39.365609+08:00",
+        "updated_at": "2026-08-12T17:08:39.365611+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "SPOTting the Future: Lookahead Explanations for Deep Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2608.09967",
+      "description": "arXiv:2608.09967v1 Announce Type: new \nAbstract: Deep reinforcement learning (DRL) agents achieve strong performance in complex environments, yet their decision-making processes remain difficult to interpret. We introduce SPOT (Sampling Policy Observation Tree), a novel model-agnostic, sampling-based framework for interpreting DRL policies. Given access to the policy and an environment simulator, SPOT constructs an interpretable finite-horizon tree by sampling actions and recursively simulating the resulting successor states. The tree provides an empirical representation of the policy's action preferences and their possible downstream evolution. We provide formal guarantees establishing SPOT's asymptotic recovery of the policy's unique most probable action and characterizing its disagreement behavior under high-entropy policies. We demonstrate SPOT in the SUMO-RL traffic-signal control domain. The case study illustrates how its tree-based representation can be used to inspect policy preferences, compare alternative future trajectories, and reveal downstream behaviors that are not visible through single-timestep feature-attribution methods.",
+      "pub_date": "Wed, 12 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "SPOT：面向深度强化学习的未来前瞻性解释框架",
+        "summary": "SPOT是一种模型无关、基于采样的深度强化学习策略解释框架。通过采样动作并递归模拟后续状态，构建可解释的有限时域树，提供策略动作偏好及下游演化的经验表示。具有渐近恢复最可能动作的保证，并在SUMORL交通信号控制中展示应用。",
+        "summary_en": "SPOT is a model-agnostic, sampling-based framework for interpreting deep reinforcement learning policies. It builds an interpretable finite-horizon tree by sampling actions and simulating successor states, providing empirical representation of policy preferences and downstream evolution, with formal guarantees and a traffic-signal control case study.",
+        "tags": [
+          "research",
+          "reinforcement-learning",
+          "interpretability",
+          "explanation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-12-rss-005",
+        "title": "SPOT：面向深度强化学习的未来前瞻性解释框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.09967",
+        "language": "en",
+        "summary": "SPOT是一种模型无关、基于采样的深度强化学习策略解释框架。通过采样动作并递归模拟后续状态，构建可解释的有限时域树，提供策略动作偏好及下游演化的经验表示。具有渐近恢复最可能动作的保证，并在SUMORL交通信号控制中展示应用。",
+        "summary_en": "SPOT is a model-agnostic, sampling-based framework for interpreting deep reinforcement learning policies. It builds an interpretable finite-horizon tree by sampling actions and simulating successor states, providing empirical representation of policy preferences and downstream evolution, with formal guarantees and a traffic-signal control case study.",
+        "tags": [
+          "research",
+          "reinforcement-learning",
+          "interpretability",
+          "explanation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-12T17:08:39.365614+08:00",
+        "updated_at": "2026-08-12T17:08:39.365616+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "MIDAS: Mutual Information Disentanglement with Uncertainty-Aware Fusion for Incomplete Multimodal Sentiment Analysis",
+      "url": "https://arxiv.org/abs/2608.09986",
+      "description": "arXiv:2608.09986v1 Announce Type: new \nAbstract: Most existing multimodal sentiment analysis approaches assume access to complete multimodal inputs. However, real-world applications frequently encounter incomplete or corrupted modalities, posing a critical challenge. Although several methods have been proposed to tackle this issue, they mainly rely on data imputation and heuristic coordination constraints, which fail to effectively extract and leverage task-relevant information from the incomplete multimodal data. To address this challenge, we propose a unified framework termed Mutual Information Disentanglement with uncertainty-Aware fuSion (MIDAS), which effectively restructures multimodal representations under incomplete conditions. MIDAS adopts a variational modeling strategy to represent each modality with multivariate Gaussian latent variables and further decomposes them into shared and exclusive factors. To obtain reliable representations, we design a minimax objective that minimizes the mutual information between shared and exclusive spaces for stable disentanglement, while maximizing the mutual information among shared spaces across modalities to enhance semantic alignment. In addition, an uncertainty-aware fusion mechanism is introduced, where posterior variance is leveraged as a reliability indicator to adaptively weight latent features during fusion, ensuring robust integration even when modalities are incomplete. Extensive experiments on three widely used datasets show that MIDAS achieves strong and consistent performance gains over competitive baselines across a wide range of incomplete settings, demonstrating its effectiveness and robustness for incomplete data scenarios.",
+      "pub_date": "Wed, 12 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "MIDAS：基于互信息解缠与不确定性感知融合的不完整多模态情感分析",
+        "summary": "提出MIDAS框架，用于处理不完整多模态情感分析。采用变分建模将各模态表示为多元高斯潜变量，分解为共享和专属因子，通过最小化共享与专属空间互信息实现稳定解缠，最大化跨模态共享空间互信息增强语义对齐。引入不确定性感知融合机制，利用后验方差作为可靠性指标自适应加权，确保模态缺失时鲁棒集成。在三个数据集上显著优于基线。",
+        "summary_en": "Proposes MIDAS, a unified framework for incomplete multimodal sentiment analysis. It uses variational modeling with multivariate Gaussian latent variables, decomposing into shared and exclusive factors. A minimax objective minimizes mutual information between shared/exclusive spaces for stable disentanglement and maximizes mutual information among shared spaces for semantic alignment. An uncertainty-aware fusion mechanism uses posterior variance as reliability indicator for adaptive weighting. Achieves consistent gains on three datasets.",
+        "tags": [
+          "multimodal",
+          "research",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-12-rss-006",
+        "title": "MIDAS：基于互信息解缠与不确定性感知融合的不完整多模态情感分析",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.09986",
+        "language": "en",
+        "summary": "提出MIDAS框架，用于处理不完整多模态情感分析。采用变分建模将各模态表示为多元高斯潜变量，分解为共享和专属因子，通过最小化共享与专属空间互信息实现稳定解缠，最大化跨模态共享空间互信息增强语义对齐。引入不确定性感知融合机制，利用后验方差作为可靠性指标自适应加权，确保模态缺失时鲁棒集成。在三个数据集上显著优于基线。",
+        "summary_en": "Proposes MIDAS, a unified framework for incomplete multimodal sentiment analysis. It uses variational modeling with multivariate Gaussian latent variables, decomposing into shared and exclusive factors. A minimax objective minimizes mutual information between shared/exclusive spaces for stable disentanglement and maximizes mutual information among shared spaces for semantic alignment. An uncertainty-aware fusion mechanism uses posterior variance as reliability indicator for adaptive weighting. Achieves consistent gains on three datasets.",
+        "tags": [
+          "multimodal",
+          "research",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-12T17:08:39.365619+08:00",
+        "updated_at": "2026-08-12T17:08:39.365620+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Towards Sustainable Artificial Intelligence: A Comprehensive Review and Comparative Analysis of Deep Learning Models' Carbon Footprint",
+      "url": "https://arxiv.org/abs/2608.09998",
+      "description": "arXiv:2608.09998v1 Announce Type: new \nAbstract: Artificial Intelligence (AI) and Machine Learning (ML) have become powerful tools for supporting and automating complex human tasks. Despite their benefits, growing attention has been directed toward their environmental implications, primarily due to their high energy demands and associated carbon emissions. This concern is particularly relevant in light of the increasing deployment of large-scale models, especially Deep Learning (DL) architectures, which provide advanced predictive capabilities but require substantial computational resources. This paper presents a systematic review of research on Green AI, Green DL, and optimization techniques aimed at reducing the environmental impact of AI models. In addition, we examine and compare several carbon measurement tools for estimating emissions generated by AI algorithms. To complement the review, we conducted an empirical evaluation using a CPU-based experimental setup, in which six DL models were implemented for a multi-label classification task. The objective was to quantify and compare their overall carbon emissions and to determine which stages of the DL lifecycle contribute most significantly to the total footprint. The results show that the training phase is the primary source of emissions. Moreover, the findings reveal that increased architectural complexity does not systematically translate into proportional accuracy gains, highlighting the importance of carefully balancing predictive performance and environmental cost. These results reinforce the need to integrate sustainability considerations into model selection and AI system design.",
+      "pub_date": "Wed, 12 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "迈向可持续人工智能：深度学习模型碳足迹的综合回顾与比较分析",
+        "summary": "本文系统回顾了绿色AI和深度学习优化技术，比较了碳测量工具，并通过CPU实验评估了六种深度学习模型在多标签分类任务中的碳排放。结果显示训练阶段是主要排放源，且模型复杂度增加并不总能带来相应的精度提升，强调了在模型选择中平衡性能与环境成本的重要性。",
+        "summary_en": "This paper systematically reviews Green AI and DL optimization techniques, compares carbon measurement tools, and empirically evaluates six DL models on a CPU for multi-label classification. Results show training is the main emission source, and increased complexity doesn't always yield proportional accuracy gains, highlighting the need to balance performance and environmental cost.",
+        "tags": [
+          "research",
+          "llm",
+          "benchmark",
+          "infrastructure"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-12-rss-009",
+        "title": "迈向可持续人工智能：深度学习模型碳足迹的综合回顾与比较分析",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.09998",
+        "language": "en",
+        "summary": "本文系统回顾了绿色AI和深度学习优化技术，比较了碳测量工具，并通过CPU实验评估了六种深度学习模型在多标签分类任务中的碳排放。结果显示训练阶段是主要排放源，且模型复杂度增加并不总能带来相应的精度提升，强调了在模型选择中平衡性能与环境成本的重要性。",
+        "summary_en": "This paper systematically reviews Green AI and DL optimization techniques, compares carbon measurement tools, and empirically evaluates six DL models on a CPU for multi-label classification. Results show training is the main emission source, and increased complexity doesn't always yield proportional accuracy gains, highlighting the need to balance performance and environmental cost.",
+        "tags": [
+          "research",
+          "llm",
+          "benchmark",
+          "infrastructure"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "status": "published",
+        "created_at": "2026-08-12T17:08:39.365631+08:00",
+        "updated_at": "2026-08-12T17:08:39.365633+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "ReCBM: Uncertainty-Gated Relational Reasoning for Concept Bottleneck Models",
+      "url": "https://arxiv.org/abs/2608.10004",
+      "description": "arXiv:2608.10004v1 Announce Type: new \nAbstract: Concept Bottleneck Models (CBMs) provide an interpretable framework by grounding predictions in human-understandable concepts, enabling semantic inspection and test-time intervention. Recent variants have improved CBMs through richer concept representations, uncertainty estimation, and dependency modeling. However, robust reasoning under unreliable concept states remains underexplored. Without such reasoning, misleading semantic evidence can propagate through the bottleneck, compromising both explanations and downstream predictions. To address this issue, we propose ReCBM, an uncertainty-gated relational reasoning framework for CBMs. ReCBM introduces semantically defined concept relations into the bottleneck and uses uncertainty to guide their refinement. By modeling co-occurrence, implication, and exclusion, ReCBM specifies how evidence is exchanged across concepts, while uncertainty modulates the contribution of each concept during this process. Experiments across diverse datasets showed that ReCBM improved concept and task recovery under missing and flipped concepts, supported uncertainty-aware intervention, and extracted compact task-relevant concept subsets without degrading downstream performance.",
+      "pub_date": "Wed, 12 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "ReCBM：用于概念瓶颈模型的不确定性门控关系推理",
+        "summary": "ReCBM提出不确定性门控的关系推理框架，在概念瓶颈中引入语义关系（共现、蕴含、排斥），并用不确定性调节概念贡献，提升缺失/翻转概念下的鲁棒性，支持不确定性感知干预，提取紧凑概念子集而不损性能。",
+        "summary_en": "ReCBM introduces an uncertainty-gated relational reasoning framework for Concept Bottleneck Models, modeling semantic relations among concepts and using uncertainty to modulate contributions, improving robustness under missing/flipped concepts and enabling uncertainty-aware intervention.",
+        "tags": [
+          "research",
+          "llm",
+          "interpretability",
+          "uncertainty",
+          "concept-bottleneck"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-12-rss-007",
+        "title": "ReCBM：用于概念瓶颈模型的不确定性门控关系推理",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.10004",
+        "language": "en",
+        "summary": "ReCBM提出不确定性门控的关系推理框架，在概念瓶颈中引入语义关系（共现、蕴含、排斥），并用不确定性调节概念贡献，提升缺失/翻转概念下的鲁棒性，支持不确定性感知干预，提取紧凑概念子集而不损性能。",
+        "summary_en": "ReCBM introduces an uncertainty-gated relational reasoning framework for Concept Bottleneck Models, modeling semantic relations among concepts and using uncertainty to modulate contributions, improving robustness under missing/flipped concepts and enabling uncertainty-aware intervention.",
+        "tags": [
+          "research",
+          "llm",
+          "interpretability",
+          "uncertainty",
+          "concept-bottleneck"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-12T17:08:39.365623+08:00",
+        "updated_at": "2026-08-12T17:08:39.365624+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "LLM Agents Factory: Retrieval of Domain-Specific LLM Agents",
+      "url": "https://arxiv.org/abs/2608.09934",
+      "description": "arXiv:2608.09934v1 Announce Type: new \nAbstract: Large language model (LLM) agents improve task performance by decomposing problems into role-specialized behaviors. However, their practical deployment is often limited by the computational cost and instability associated with the on-the-fly agent design for each user request. To address this, we present LLM Agents Factory, a retrieval-based framework that constructs domain-specific and Wikipedia-grounded agents on demand using a base of over 20K predetermined agent profiles. Our framework supports two modes: (1) agent profile retrieval via semantic search and (2) distillation into a compact model fine-tuned for direct agent generation. Experiments on MMLU, BIG-bench, and BIG-bench Hard in a single-agent scenario demonstrate that our retrieval-based agent construction surpasses non-agent baselines in accuracy while matching AutoGen generation quality with a 120B backbone at a substantially lower inference cost. Our work reveals that retrieval from a structured agent repository provides a cost-efficient, accurate, and controllable alternative to dynamic agent generation, responding to the strict demands of industrial applications. We provide the implementation code and the agent base in https://huggingface.co/frontier-ai/llm-agent-factory.",
+      "pub_date": "Wed, 12 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "LLM代理工厂：领域特定LLM代理的检索",
+        "summary": "提出LLM Agents Factory，一种基于检索的框架，利用超过2万个预定义代理配置文件，按需构建领域特定且基于维基百科的代理。支持语义检索和蒸馏两种模式，在MMLU、BIG-bench等基准上，以较低推理成本达到或超过AutoGen质量，为工业应用提供高效、可控的替代方案。",
+        "summary_en": "Introduces LLM Agents Factory, a retrieval-based framework that constructs domain-specific agents on demand using over 20K predefined profiles. Supports semantic search and distillation, achieving accuracy comparable to AutoGen with lower inference cost, offering a cost-efficient alternative for industrial applications.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "infrastructure",
+          "open-source"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-12-rss-001",
+        "title": "LLM代理工厂：领域特定LLM代理的检索",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.09934",
+        "language": "en",
+        "summary": "提出LLM Agents Factory，一种基于检索的框架，利用超过2万个预定义代理配置文件，按需构建领域特定且基于维基百科的代理。支持语义检索和蒸馏两种模式，在MMLU、BIG-bench等基准上，以较低推理成本达到或超过AutoGen质量，为工业应用提供高效、可控的替代方案。",
+        "summary_en": "Introduces LLM Agents Factory, a retrieval-based framework that constructs domain-specific agents on demand using over 20K predefined profiles. Supports semantic search and distillation, achieving accuracy comparable to AutoGen with lower inference cost, offering a cost-efficient alternative for industrial applications.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "infrastructure",
+          "open-source"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-12T17:08:39.365592+08:00",
+        "updated_at": "2026-08-12T17:08:39.365596+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Conflict or Strategy? Asymmetric Role Framing of La France insoumise and Rassemblement National in French News Headlines, 2022-2025",
+      "url": "https://arxiv.org/abs/2608.09936",
+      "description": "arXiv:2608.09936v1 Announce Type: new \nAbstract: Do French news headlines frame left- and right-populist challengers as symmetric ``extremes,'' or as fundamentally different political adversaries? We examine 28,592 headlines about La France insoumise (LFI) and Rassemblement National (RN) published by 25 French-language outlets between 2022 and 2025, annotated through a three-model LLM pipeline validated against a stratified human audit. The clearest finding is role asymmetry rather than valence asymmetry: conflict framing and strategic-game framing are more robust across models and time than delegitimization, with AGGRESSOR serving as corroborating role syntax. LFI appears in headlines more often through a conflict register and RN through a strategic-electoral register. This role gap is direction-stable across all three annotation models, survives bootstrapping and permutation tests, and persists across outlet families and most of 2022-2025. A secondary moral-accounting layer (who is blamed, legitimized, or cast as a victim) is structured by outlet rather than party, producing aggregate nulls that conceal some of the corpus's most polarized patterns. Methodologically, the annotation pipeline reveals a two-tier reliability profile: conflict and strategic-game framing achieve the strongest human validation and cross-model stability; actor role is direction-stable but treated as corroborating because its audit reliability is lower; normative-judgment constructs (legitimacy, blame) are weaker. The paper contributes political-role assignment as a target for computational framing research that decomposes what valence-based measures conflate, and establishes a construct-stratified reliability framework for calibrating majority-vote LLM annotation pipelines in political text tasks.",
+      "pub_date": "Wed, 12 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "冲突还是策略？法国新闻标题中对不屈法国与国民联盟的不对称角色框架分析（2022-2025）",
+        "summary": "该研究分析了2022-2025年间25家法国媒体关于LFI和RN的28,592条新闻标题，使用三模型LLM流水线进行标注。发现角色不对称（冲突vs战略）比价值不对称更显著，LFI更多出现在冲突语境，RN更多出现在战略选举语境。角色差异跨模型稳定，但道德评判层受媒体立场影响。论文提出政治角色分配作为计算框架研究目标，并建立了校准LLM标注流水线的可靠性框架。",
+        "summary_en": "This study analyzes 28,592 French news headlines about LFI and RN (2022-2025) using a three-model LLM annotation pipeline. It finds role asymmetry (conflict vs strategic) is more robust than valence asymmetry, with LFI framed in conflict and RN in strategic-electoral terms. The role gap is stable across models and time, while moral judgments are outlet-driven. The paper contributes political role assignment and a reliability framework for LLM annotation.",
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-12-rss-010",
+        "title": "冲突还是策略？法国新闻标题中对不屈法国与国民联盟的不对称角色框架分析（2022-2025）",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.09936",
+        "language": "en",
+        "summary": "该研究分析了2022-2025年间25家法国媒体关于LFI和RN的28,592条新闻标题，使用三模型LLM流水线进行标注。发现角色不对称（冲突vs战略）比价值不对称更显著，LFI更多出现在冲突语境，RN更多出现在战略选举语境。角色差异跨模型稳定，但道德评判层受媒体立场影响。论文提出政治角色分配作为计算框架研究目标，并建立了校准LLM标注流水线的可靠性框架。",
+        "summary_en": "This study analyzes 28,592 French news headlines about LFI and RN (2022-2025) using a three-model LLM annotation pipeline. It finds role asymmetry (conflict vs strategic) is more robust than valence asymmetry, with LFI framed in conflict and RN in strategic-electoral terms. The role gap is stable across models and time, while moral judgments are outlet-driven. The paper contributes political role assignment and a reliability framework for LLM annotation.",
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "status": "published",
+        "created_at": "2026-08-12T17:08:39.365635+08:00",
+        "updated_at": "2026-08-12T17:08:39.365637+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Carefully Considering Culture: Analyzing LLM Alignment in Single- and Multi-Cultural Settings using Cultural Consensus Theory",
+      "url": "https://arxiv.org/abs/2608.09937",
+      "description": "arXiv:2608.09937v1 Announce Type: new \nAbstract: Recent work in NLP has probed large language models for their understanding of cultural norms across countries. However, this work typically considers distributional patterns, ignoring group consensus or possible multicultural environments within a country. In this work, we leverage cultural consensus theory (CCT) from cultural anthropology to model such multidimensional nuance. Applying CCT to the World Values Survey (WVS) across 10 countries and 12 domains, we demonstrate that models frequently misrepresent cultural structures by either failing to form cohesive consensus or severely over-regularizing consensus. Through explicit representation of intra-group variance, CCT provides actionable diagnostics to evaluate when models reflect true human diversity versus algorithmic homogenization.",
+      "pub_date": "Wed, 12 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "文化共识理论下的LLM对齐分析：单文化与多文化场景研究",
+        "summary": "该研究利用文化共识理论（CCT）分析LLM在不同国家文化规范理解上的表现。通过应用于世界价值观调查（WVS）的10国12领域数据，发现模型常无法形成连贯共识或过度正则化共识。CCT提供诊断工具，评估模型是否反映真实人类多样性或算法同质化。",
+        "summary_en": "This work applies Cultural Consensus Theory (CCT) to analyze LLM alignment with cultural norms across 10 countries and 12 domains using World Values Survey data. It reveals models often fail to form cohesive consensus or over-regularize, offering diagnostics to distinguish human diversity from algorithmic homogenization.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-12-rss-008",
+        "title": "文化共识理论下的LLM对齐分析：单文化与多文化场景研究",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.09937",
+        "language": "en",
+        "summary": "该研究利用文化共识理论（CCT）分析LLM在不同国家文化规范理解上的表现。通过应用于世界价值观调查（WVS）的10国12领域数据，发现模型常无法形成连贯共识或过度正则化共识。CCT提供诊断工具，评估模型是否反映真实人类多样性或算法同质化。",
+        "summary_en": "This work applies Cultural Consensus Theory (CCT) to analyze LLM alignment with cultural norms across 10 countries and 12 domains using World Values Survey data. It reveals models often fail to form cohesive consensus or over-regularize, offering diagnostics to distinguish human diversity from algorithmic homogenization.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-12T17:08:39.365627+08:00",
+        "updated_at": "2026-08-12T17:08:39.365628+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "The Multilingual Quantization Tax: Structural Collapse and Typological Fragility in Edge SLMs",
+      "url": "https://arxiv.org/abs/2608.09941",
+      "description": "arXiv:2608.09941v1 Announce Type: new \nAbstract: While 4-bit weight quantization is critical for deploying Small Language Models (SLMs) on edge devices, evaluations of the resulting performance degradation-the quantization tax-remain overwhelmingly English-centric. We present a zero-shot multilingual evaluation of 4-bit quantization across the Gemma 4 and Qwen 3.5 architectures. Evaluating on eight typo-logically diverse languages using MMLU ProX Lite and GlobalPIQA, we show parameter truncation exposes deep pre-training inequalities. We identify four phenomena: (1) Typological Fragility: low-resource and specific non-Latin scripts suffer representational collapse via architecture-specific double dissociations, failing to generate valid task logits; (2) Home Language Fragility Paradox: foundational pre-training pathways provide limited precision loss protection; (3) Domain-Specific Forgetting: multi-step cross-lingual routing degrades while associative soft-science recall remains robust; and (4) Quantization Resistance: highly saturated, typologically aligned domains resist deterministic degradation, with post-quantization performance gains bounded by statistical noise.",
+      "pub_date": "Wed, 12 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "多语言量化税：边缘小型语言模型中的结构崩溃与类型学脆弱性",
+        "summary": "该研究对Gemma 4和Qwen 3.5架构进行4位量化的零样本多语言评估，发现量化导致低资源语言表示崩溃、母语保护悖论、领域特定遗忘及量化抵抗等现象，揭示了预训练不平等。",
+        "summary_en": "This study evaluates 4-bit quantization on Gemma 4 and Qwen 3.5 across eight typologically diverse languages, revealing representational collapse, home language fragility paradox, domain-specific forgetting, and quantization resistance, exposing pretraining inequalities.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "multimodal"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-12-rss-003",
+        "title": "多语言量化税：边缘小型语言模型中的结构崩溃与类型学脆弱性",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.09941",
+        "language": "en",
+        "summary": "该研究对Gemma 4和Qwen 3.5架构进行4位量化的零样本多语言评估，发现量化导致低资源语言表示崩溃、母语保护悖论、领域特定遗忘及量化抵抗等现象，揭示了预训练不平等。",
+        "summary_en": "This study evaluates 4-bit quantization on Gemma 4 and Qwen 3.5 across eight typologically diverse languages, revealing representational collapse, home language fragility paradox, domain-specific forgetting, and quantization resistance, exposing pretraining inequalities.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "multimodal"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-08-12T17:08:39.365605+08:00",
+        "updated_at": "2026-08-12T17:08:39.365607+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "When Chain-of-Thought Helps and When It Hurts: An Empirical Investigation of the Serial-Depth Bottleneck in LLM Reasoning",
+      "url": "https://arxiv.org/abs/2608.09942",
+      "description": "arXiv:2608.09942v1 Announce Type: new \nAbstract: It is widely assumed that chain-of-thought (CoT) prompting universally improves LLM reasoning. We investigate this through the conceptual framework of the H_dp bandwidth bound (Chen et al., 2024): although the formal bound binds only asymptotically (at astronomically large prompt lengths), it identifies a real architectural bottleneck -- serial computation exceeding a transformer's single-pass capacity must be externalised, which is what CoT does. Our central finding is a within-benchmark serial-depth gradient: single-pass (no-CoT) accuracy degrades monotonically with per-item serial depth, while CoT is approximately depth-invariant. We measure CoT effects across three instruction-tuned models (Qwen-2.5-7B/32B, Llama-3.1-8B) and five standard NLP benchmarks at practical context lengths. On high-depth P-complete tasks (GSM8K, MATH), CoT gives a +54 to +68 pp recovery gap across all models. On shallow TC^0 tasks (MMLU, ARC), CoT is structurally redundant (Delta in [0.0, +4.6] pp, no significant negative effect) -- though high no-CoT baselines (up to 95% on ARC) may reflect contamination, so this null is not a clean architectural test. The intermediate class L (HumanEval) shows a model-size-dependent transition: +23.2 pp (32B), +9.1 pp (8B), -28.7 pp (7B). The cross-benchmark depth-recovery correlation is Spearman rho = 0.661 (p = 0.007, n = 15); 9 of 15 benchmark-level McNemar tests are significant after Bonferroni correction. Pre-registered on OSF, our results indicate that CoT is not a universal reasoning enhancer but acts as a bandwidth bypass: it helps serial computation that strains single-pass capacity and is redundant for tasks that already fit.",
+      "pub_date": "Wed, 12 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "思维链何时有效何时有害：LLM推理中串行深度瓶颈的实证研究",
+        "summary": "本研究通过H_dp带宽约束框架，实证考察思维链（CoT）对LLM推理的影响。发现CoT并非普遍提升推理能力，而是作为带宽旁路：对高串行深度任务（如GSM8K、MATH）显著提升（+54至+68个百分点），对浅层任务（如MMLU、ARC）冗余，对中等任务（HumanEval）效果依赖模型规模。",
+        "summary_en": "This study empirically investigates chain-of-thought (CoT) effects on LLM reasoning via the H_dp bandwidth bound. CoT acts as a bandwidth bypass: it significantly helps high serial-depth tasks (GSM8K, MATH: +54 to +68 pp), is redundant for shallow tasks (MMLU, ARC), and shows model-size-dependent effects on intermediate tasks (HumanEval).",
+        "tags": [
+          "llm",
+          "research",
+          "prompt-engineering",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-12-rss-002",
+        "title": "思维链何时有效何时有害：LLM推理中串行深度瓶颈的实证研究",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.09942",
+        "language": "en",
+        "summary": "本研究通过H_dp带宽约束框架，实证考察思维链（CoT）对LLM推理的影响。发现CoT并非普遍提升推理能力，而是作为带宽旁路：对高串行深度任务（如GSM8K、MATH）显著提升（+54至+68个百分点），对浅层任务（如MMLU、ARC）冗余，对中等任务（HumanEval）效果依赖模型规模。",
+        "summary_en": "This study empirically investigates chain-of-thought (CoT) effects on LLM reasoning via the H_dp bandwidth bound. CoT acts as a bandwidth bypass: it significantly helps high serial-depth tasks (GSM8K, MATH: +54 to +68 pp), is redundant for shallow tasks (MMLU, ARC), and shows model-size-dependent effects on intermediate tasks (HumanEval).",
+        "tags": [
+          "llm",
+          "research",
+          "prompt-engineering",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-12T17:08:39.365600+08:00",
+        "updated_at": "2026-08-12T17:08:39.365602+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

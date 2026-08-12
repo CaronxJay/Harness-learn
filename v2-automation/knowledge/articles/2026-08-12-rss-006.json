@@ -1,0 +1,24 @@
+{
+  "id": "2026-08-12-rss-006",
+  "title": "MIDAS：基于互信息解缠与不确定性感知融合的不完整多模态情感分析",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.09986",
+  "language": "en",
+  "summary": "提出MIDAS框架，用于处理不完整多模态情感分析。采用变分建模将各模态表示为多元高斯潜变量，分解为共享和专属因子，通过最小化共享与专属空间互信息实现稳定解缠，最大化跨模态共享空间互信息增强语义对齐。引入不确定性感知融合机制，利用后验方差作为可靠性指标自适应加权，确保模态缺失时鲁棒集成。在三个数据集上显著优于基线。",
+  "summary_en": "Proposes MIDAS, a unified framework for incomplete multimodal sentiment analysis. It uses variational modeling with multivariate Gaussian latent variables, decomposing into shared and exclusive factors. A minimax objective minimizes mutual information between shared/exclusive spaces for stable disentanglement and maximizes mutual information among shared spaces for semantic alignment. An uncertainty-aware fusion mechanism uses posterior variance as reliability indicator for adaptive weighting. Achieves consistent gains on three datasets.",
+  "tags": [
+    "multimodal",
+    "research",
+    "llm"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-12T17:08:39.365619+08:00",
+  "updated_at": "2026-08-12T17:08:39.365620+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

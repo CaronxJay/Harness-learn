@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-12-rss-001",
+  "title": "LLM代理工厂：领域特定LLM代理的检索",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.09934",
+  "language": "en",
+  "summary": "提出LLM Agents Factory，一种基于检索的框架，利用超过2万个预定义代理配置文件，按需构建领域特定且基于维基百科的代理。支持语义检索和蒸馏两种模式，在MMLU、BIG-bench等基准上，以较低推理成本达到或超过AutoGen质量，为工业应用提供高效、可控的替代方案。",
+  "summary_en": "Introduces LLM Agents Factory, a retrieval-based framework that constructs domain-specific agents on demand using over 20K predefined profiles. Supports semantic search and distillation, achieving accuracy comparable to AutoGen with lower inference cost, offering a cost-efficient alternative for industrial applications.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "research",
+    "infrastructure",
+    "open-source"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-12T17:08:39.365592+08:00",
+  "updated_at": "2026-08-12T17:08:39.365596+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
