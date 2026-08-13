@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-13-rss-006",
+  "title": "压缩中的迷失：评估上下文压缩下的会话约束损失",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.11242",
+  "language": "en",
+  "summary": "本文识别了LLM系统在上下文压缩时会话约束（如“不要删除邮件”）被静默丢弃的问题，并推出COMPINT评估套件，覆盖多轮对话、智能体轨迹和长时研究场景。实验显示平均仅保留17%的约束，且性能常低于不压缩。提出的SC感知提取器作为即插即用模块，可在不修改压缩器或LLM的情况下实现90%以上的保留率。",
+  "summary_en": "This paper identifies that session constraints are silently dropped during context compaction in LLM systems, introduces the COMPINT evaluation suite, and proposes an SC-aware extractor achieving over 90% retention without modifying the compactor or LLM.",
+  "tags": [
+    "llm",
+    "evaluation",
+    "benchmark",
+    "agent-framework",
+    "research"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-13T17:09:29.002623+08:00",
+  "updated_at": "2026-08-13T17:09:29.002624+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

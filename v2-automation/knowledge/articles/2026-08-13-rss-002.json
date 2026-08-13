@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-13-rss-002",
+  "title": "穷人的智能体建模：在笔记本电脑上模拟大型LLM智能体社会",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.11215",
+  "language": "en",
+  "summary": "提出用低参数模型替代LLM智能体，通过少量查询拟合，在笔记本上模拟大规模智能体社会。引入交互顺序×记忆分类法预测替代误差趋势，并在多个模拟中验证，成本仅几美元。",
+  "summary_en": "Proposes replacing LLM agents with low-parameter models fitted from few queries to simulate large agent societies on a laptop. Introduces interaction-order×memory taxonomy to predict surrogate error trends, validated on multiple simulations at low cost.",
+  "tags": [
+    "llm",
+    "research",
+    "agent-framework",
+    "infrastructure"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-13T17:09:29.002606+08:00",
+  "updated_at": "2026-08-13T17:09:29.002608+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

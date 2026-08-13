@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-13-rss-004",
+  "title": "将循环深度改造进预训练语言模型：安装、外推、迁移与保留",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.11233",
+  "language": "en",
+  "summary": "该研究将预训练语言模型Qwen2.5-0.5B改造为具有循环深度的结构，通过权重共享的循环块实现迭代潜在状态转换。在ARC基准上，改造模型性能不逊于原模型，且能外推至监督深度的1.5倍。与scratchpad训练模型相比，循环模型在深度外推和速度上更优，但反向任务暴露了灾难性干扰边界。",
+  "summary_en": "This study retrofits a pretrained LM with recurrent depth, enabling iterative latent transitions. The model matches base performance on ARC, extrapolates to 1.5x supervised depth, and outperforms scratchpad-trained models in depth and speed, though reverse tasks reveal catastrophic interference limits.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-13T17:09:29.002615+08:00",
+  "updated_at": "2026-08-13T17:09:29.002617+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

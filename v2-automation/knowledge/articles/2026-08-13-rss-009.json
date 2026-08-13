@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-13-rss-009",
+  "title": "检测路由翻转比决定是否修复更容易：量化混合专家模型中的因果路由介导损伤",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.11212",
+  "language": "en",
+  "summary": "本文研究Top-k混合专家模型（MoE）中，4位KV缓存量化引起的路由翻转对模型损伤的影响。通过因果分析框架，发现约三分之一的损伤由路由介导（RMF~0.31），但现有路由器统计量无法区分有害与有益翻转，存在检测极限。",
+  "summary_en": null,
+  "tags": [
+    "llm",
+    "research",
+    "quantization",
+    "mixture-of-experts",
+    "causal-analysis"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-13T17:09:29.002635+08:00",
+  "updated_at": "2026-08-13T17:09:29.002636+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

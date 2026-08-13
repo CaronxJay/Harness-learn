@@ -1,0 +1,485 @@
+{
+  "collected_at": "2026-08-13T17:09:29.003440+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "Dynamic Governance of Multi-LLM Agent Systems for Collaborative Conversational Outcomes",
+      "url": "https://arxiv.org/abs/2608.11207",
+      "description": "arXiv:2608.11207v1 Announce Type: new \nAbstract: When two LLM agents with structurally opposed objectives interact across multiple turns, the absence of a shared goal function produces not competition but collapse: the visitor capitulates, the site agent stops varying its approach, and the conversation terminates without achieving either agent's stated objective. This paper asks whether a control-theoretic governance layer can substitute for that missing goal function. The Experience Orchestrator (EO) addresses this in a simulated financial services environment where a site agent guides a visitor toward advisor contact while the visitor maintains psychologically realistic resistance. EO governs the joint trajectory through three mechanisms: a Contextual Bandit (CB) that selects content arms calibrated from real-world web analytics, a PID controller that enforces behavioral consistency via dynamic schema constraints, and a POMDP belief tracker that maintains a probabilistic model of visitor intent. Across 60,000 simulations, EO achieves a +32 percentage point lift in high-intent advisor contact rate (78.1% vs. 46.1% over a naive LLM control), with CB variant selection accounting for 97% of between-factor outcome variance -- confirming that the governance policy, not environmental initial conditions, determines where trajectories end up. Persona-level analysis reveals two distinct regimes: for visitors with no natural inclination toward conversion, the governance layer is the difference between a functional system and a non-functional one; for visitors already near alignment, a naive LLM's empathetic defaults are largely sufficient. All findings are conditional on LLM-to-LLM simulation. The PID controller has not been calibrated against real human unpredictability, and validating EO on live traffic is the critical next step.",
+      "pub_date": "Thu, 13 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "多LLM代理系统动态治理实现协作对话结果",
+        "summary": "本文提出体验编排器（EO）治理层，用于多LLM代理对话系统。通过上下文Bandit、PID控制器和POMDP信念追踪，在6万次模拟中，高意图顾问联系率提升32个百分点（78.1% vs 46.1%），证明治理策略决定结果。",
+        "summary_en": "This paper proposes an Experience Orchestrator (EO) governance layer for multi-LLM agent conversations. Using contextual bandit, PID controller, and POMDP belief tracking, it achieves a +32 percentage point lift in high-intent advisor contact rate (78.1% vs 46.1%) across 60,000 simulations, showing governance policy determines outcomes.",
+        "tags": [
+          "llm",
+          "agent-framework",
+          "research",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-13-rss-001",
+        "title": "多LLM代理系统动态治理实现协作对话结果",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.11207",
+        "language": "en",
+        "summary": "本文提出体验编排器（EO）治理层，用于多LLM代理对话系统。通过上下文Bandit、PID控制器和POMDP信念追踪，在6万次模拟中，高意图顾问联系率提升32个百分点（78.1% vs 46.1%），证明治理策略决定结果。",
+        "summary_en": "This paper proposes an Experience Orchestrator (EO) governance layer for multi-LLM agent conversations. Using contextual bandit, PID controller, and POMDP belief tracking, it achieves a +32 percentage point lift in high-intent advisor contact rate (78.1% vs 46.1%) across 60,000 simulations, showing governance policy determines outcomes.",
+        "tags": [
+          "llm",
+          "agent-framework",
+          "research",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-13T17:09:29.002578+08:00",
+        "updated_at": "2026-08-13T17:09:29.002601+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Distribird: Literature-Informed Prior Distribution Design for Bayesian Model Calibration",
+      "url": "https://arxiv.org/abs/2608.11210",
+      "description": "arXiv:2608.11210v1 Announce Type: new \nAbstract: Bayesian calibration of process-based models requires a prior distribution for each model parameter. Despite decades of methodological work, researchers almost always fall back on uniform priors. The main reason is that building informative priors from scientific literature is slow and needs both domain and statistical expertise. We present \\textbf{Distribird}, an agentic web application that automates this process. Given a parameter name, physical description, and domain context, Distribird deploys a multi-agent pipeline that searches the literature, extracts and weights reported values by domain relevance, and fits a probability distribution via AIC model selection. When no literature is available, the system falls back to sensible uninformative alternatives, and clearly reports both the evidence behind and the confidence level of every prior it produces. It is designed for the problems where the models have physically interpretable parameters, where domain knowledge exists in the published literature. We evaluate the tool on 24~parameters across 10 scientific domains comparing three open-weight models (Qwen3.6 27B, Gemma 4 31B, Mistral Small 4 119B) with a single-prompt LLM baseline. On prior quality the full pipeline \\emph{matches} this baseline. Every prior is traced to the specific papers and values from which it was constructed; a built-in validity layer declines to produce priors for out-of-scope requests, whereas the single-prompt baseline returns confident but unfounded priors for them in 11 of 30~model--parameter cases; and every language-model call runs locally, so no parameter description or unpublished modelling detail is transmitted to a third-party LLM provider (only generated search terms reach the public literature databases). For scientific use, we argue these properties matter more than a marginal improvement in point-estimate accuracy.",
+      "pub_date": "Thu, 13 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "Distribird：基于文献的先验分布设计工具，用于贝叶斯模型校准",
+        "summary": "Distribird是一个智能体网络应用，自动化从科学文献中构建贝叶斯模型参数的有信息先验分布。它通过多智能体流程搜索文献、提取并加权数值，使用AIC模型选择拟合分布，并在无文献时提供无信息备选方案。每个先验都追溯至具体论文，内置验证层拒绝超范围请求，且所有语言模型调用均在本地运行，保护数据隐私。评估显示其先验质量与单提示基线相当，但更可靠。",
+        "summary_en": "Distribird is an agentic web app that automates building informative priors for Bayesian model calibration from scientific literature. It uses a multi-agent pipeline to search, extract, and weight values, fit distributions via AIC, and provides fallbacks. It ensures traceability, rejects out-of-scope requests, and runs LLMs locally for privacy. Evaluation shows comparable prior quality to a single-prompt baseline but with higher reliability.",
+        "tags": [
+          "agent-framework",
+          "research",
+          "application",
+          "llm",
+          "tool"
+        ],
+        "category": "application",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-13-rss-007",
+        "title": "Distribird：基于文献的先验分布设计工具，用于贝叶斯模型校准",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.11210",
+        "language": "en",
+        "summary": "Distribird是一个智能体网络应用，自动化从科学文献中构建贝叶斯模型参数的有信息先验分布。它通过多智能体流程搜索文献、提取并加权数值，使用AIC模型选择拟合分布，并在无文献时提供无信息备选方案。每个先验都追溯至具体论文，内置验证层拒绝超范围请求，且所有语言模型调用均在本地运行，保护数据隐私。评估显示其先验质量与单提示基线相当，但更可靠。",
+        "summary_en": "Distribird is an agentic web app that automates building informative priors for Bayesian model calibration from scientific literature. It uses a multi-agent pipeline to search, extract, and weight values, fit distributions via AIC, and provides fallbacks. It ensures traceability, rejects out-of-scope requests, and runs LLMs locally for privacy. Evaluation shows comparable prior quality to a single-prompt baseline but with higher reliability.",
+        "tags": [
+          "agent-framework",
+          "research",
+          "application",
+          "llm",
+          "tool"
+        ],
+        "category": "application",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-13T17:09:29.002627+08:00",
+        "updated_at": "2026-08-13T17:09:29.002628+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "A Forced-Structure Reduction and Verifiable Bounds for Conway's 99-Graph",
+      "url": "https://arxiv.org/abs/2608.11211",
+      "description": "arXiv:2608.11211v1 Announce Type: new \nAbstract: Conway's 99-graph problem asks whether a strongly regular graph with parameters $\\mathrm{srg}(99,14,1,2)$ exists. We report a systematic, fully reproducible attack by an autonomous AI research agent, scored under the track's partial-credit metric. Our verifiable contributions are: (1) an exhaustive proof that no circulant graph on $\\mathbb{Z}/99$ satisfies more than $3366/4950=68.0\\%$ of the constraints ($33$ of $49$ difference-classes), with the same ceiling for the other abelian group of order $99$; (2) a forced-structure reduction: $\\lambda=1$ makes each neighbourhood a perfect matching and $\\mu=2$ puts the outer vertices in bijection with non-matched neighbour-pairs, collapsing existence to a $12$-regular graph on $84$ vertices, encoded for CP-SAT and validated by recovering the unique $\\mathrm{srg}(9,4,1,2)$; (3) a validated prescribed-automorphism orbit-existence framework (fixed-point-free and single-fixed-point actions, checked on $\\mathrm{srg}(9,4,1,2)$ and the Paley graph $\\mathrm{srg}(13,6,2,3)$), and (4) a best verified artifact at $69.43\\%$, with evidence that this is a robust frontier (fourteen distinct methods, none exceeding it) entangled with the open question, since any provable bound below $4950$ is a non-existence proof.",
+      "pub_date": "Thu, 13 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "Conway 99图问题的强制结构约简与可验证界",
+        "summary": "本文报告了由自主AI研究代理对Conway 99图问题（srg(99,14,1,2)存在性）的系统攻击。贡献包括：循环图约束满足上限68.0%的穷举证明、强制结构约简（将问题化为84顶点12正则图）、验证的自同构轨道存在性框架，以及最佳验证结果69.43%，并表明这是鲁棒前沿。",
+        "summary_en": "This paper reports a systematic attack by an autonomous AI research agent on Conway's 99-graph problem (existence of srg(99,14,1,2)). Contributions include an exhaustive proof that no circulant graph satisfies more than 68.0% of constraints, a forced-structure reduction to a 12-regular graph on 84 vertices, a validated prescribed-automorphism orbit-existence framework, and a best verified artifact at 69.43%, with evidence of a robust frontier.",
+        "tags": [
+          "research",
+          "benchmark",
+          "agent-framework",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-13-rss-008",
+        "title": "Conway 99图问题的强制结构约简与可验证界",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.11211",
+        "language": "en",
+        "summary": "本文报告了由自主AI研究代理对Conway 99图问题（srg(99,14,1,2)存在性）的系统攻击。贡献包括：循环图约束满足上限68.0%的穷举证明、强制结构约简（将问题化为84顶点12正则图）、验证的自同构轨道存在性框架，以及最佳验证结果69.43%，并表明这是鲁棒前沿。",
+        "summary_en": "This paper reports a systematic attack by an autonomous AI research agent on Conway's 99-graph problem (existence of srg(99,14,1,2)). Contributions include an exhaustive proof that no circulant graph satisfies more than 68.0% of constraints, a forced-structure reduction to a 12-regular graph on 84 vertices, a validated prescribed-automorphism orbit-existence framework, and a best verified artifact at 69.43%, with evidence of a robust frontier.",
+        "tags": [
+          "research",
+          "benchmark",
+          "agent-framework",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-13T17:09:29.002631+08:00",
+        "updated_at": "2026-08-13T17:09:29.002632+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Detecting a Route Flip Is Easier Than Knowing Whether to Fix It: Causal Route-Mediated Damage in Quantized Mixture-of-Experts",
+      "url": "https://arxiv.org/abs/2608.11212",
+      "description": "arXiv:2608.11212v1 Announce Type: new \nAbstract: Top-k Mixture-of-Experts (MoE) routing is discontinuous, so a deployment-motivated numerical disturbance -- simulated 4-bit KV-cache quantization read by a protected BF16 gate -- pushes tokens across decision boundaries and flips which experts fire. This paper proposes no new mitigation; it supplies a causal apparatus, empirical findings, and a detection-limit result. A four-run apparatus prices the route-mediated fraction (RMF) of quantization damage, a token-level attribution decomposes it by mechanism, and pre-registered probes carry the findings across three architectures. On OLMoE-1B-7B at 4-bit KV (pilot), about a third of the damage is routing-mediated: RMF ~ 0.31 (discovery 0.31 [0.20, 0.41]; process-replicated mean 0.313 +/- 0.020; pre-registered re-execution 0.231). The deployable router margin detects that a flip occurred (AUC 0.772) but cannot tell a harmful flip from a helpful one (at chance): among the tested local, inference-observable router statistics we find no predictor of a flip's loss sign above chance -- an empirical benefit-detection barrier bounding selective repair restricted to this feature family. The signed-flip tax and sign-inseparability carry cross-model; the clean-reference remedy's payout is architecture-modulated; a controlled same-checkpoint flag-swap re-scopes the gate's normalization convention to a damage-magnitude moderator, not a route-recoverability mechanism. A real int4 KV kernel yields a fraction compatible with the fake-quant dose curve but underpowered (95% CI [-0.111, 0.394] includes zero) -- ruling out gross disagreement, not an independent replication. Hypotheses, thresholds, and evaluations were pre-registered before measurement, with misses reported; a pre-registered held-out read replicates the partition and the near-cancelling tax out of sample, while the strict impossibility exclusion narrowly misses.",
+      "pub_date": "Thu, 13 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "检测路由翻转比决定是否修复更容易：量化混合专家模型中的因果路由介导损伤",
+        "summary": "本文研究Top-k混合专家模型（MoE）中，4位KV缓存量化引起的路由翻转对模型损伤的影响。通过因果分析框架，发现约三分之一的损伤由路由介导（RMF~0.31），但现有路由器统计量无法区分有害与有益翻转，存在检测极限。",
+        "summary_en": null,
+        "tags": [
+          "llm",
+          "research",
+          "quantization",
+          "mixture-of-experts",
+          "causal-analysis"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-13-rss-009",
+        "title": "检测路由翻转比决定是否修复更容易：量化混合专家模型中的因果路由介导损伤",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.11212",
+        "language": "en",
+        "summary": "本文研究Top-k混合专家模型（MoE）中，4位KV缓存量化引起的路由翻转对模型损伤的影响。通过因果分析框架，发现约三分之一的损伤由路由介导（RMF~0.31），但现有路由器统计量无法区分有害与有益翻转，存在检测极限。",
+        "summary_en": null,
+        "tags": [
+          "llm",
+          "research",
+          "quantization",
+          "mixture-of-experts",
+          "causal-analysis"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-13T17:09:29.002635+08:00",
+        "updated_at": "2026-08-13T17:09:29.002636+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Poor Man's Agentic Modeling: Simulating Large LLM-Agent Societies on a Laptop",
+      "url": "https://arxiv.org/abs/2608.11215",
+      "description": "arXiv:2608.11215v1 Announce Type: new \nAbstract: Simulating societies of many large language model (LLM) agents is expensive, yet the questions asked of such simulations are usually macroscopic: phase behaviour, stylised facts, and scaling with the number of agents $N$, not the cognition of any single agent. We turn a statistical-physics observation into a method: replace each LLM agent by a low-parameter model fitted from a few hundred to a few thousand cheap queries, then run the society at any $N$ on a laptop. Whether this works is decided before the simulation runs, chiefly by what each agent perceives. We introduce an [interaction order x memory] taxonomy that maps perception and memory to an effective theory and a predicted $N$-trend of the surrogate error. We validate it on a faithful reimplementation of the LLM macroeconomy EconAgent and seven further named LLM simulations, with agent decisions cloned from genuine LLM elicitations (primarily DeepSeek) for a few dollars; the predicted error trends hold cell by cell, and the two refuted predictions, both on a strongly saturating response and traced to its curvature, are themselves matched quantitatively by the theory with no free parameters.",
+      "pub_date": "Thu, 13 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "穷人的智能体建模：在笔记本电脑上模拟大型LLM智能体社会",
+        "summary": "提出用低参数模型替代LLM智能体，通过少量查询拟合，在笔记本上模拟大规模智能体社会。引入交互顺序×记忆分类法预测替代误差趋势，并在多个模拟中验证，成本仅几美元。",
+        "summary_en": "Proposes replacing LLM agents with low-parameter models fitted from few queries to simulate large agent societies on a laptop. Introduces interaction-order×memory taxonomy to predict surrogate error trends, validated on multiple simulations at low cost.",
+        "tags": [
+          "llm",
+          "research",
+          "agent-framework",
+          "infrastructure"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-13-rss-002",
+        "title": "穷人的智能体建模：在笔记本电脑上模拟大型LLM智能体社会",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.11215",
+        "language": "en",
+        "summary": "提出用低参数模型替代LLM智能体，通过少量查询拟合，在笔记本上模拟大规模智能体社会。引入交互顺序×记忆分类法预测替代误差趋势，并在多个模拟中验证，成本仅几美元。",
+        "summary_en": "Proposes replacing LLM agents with low-parameter models fitted from few queries to simulate large agent societies on a laptop. Introduces interaction-order×memory taxonomy to predict surrogate error trends, validated on multiple simulations at low cost.",
+        "tags": [
+          "llm",
+          "research",
+          "agent-framework",
+          "infrastructure"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-13T17:09:29.002606+08:00",
+        "updated_at": "2026-08-13T17:09:29.002608+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Backtrader-Bench: Benchmarking LLM Agents on Algorithmic Trading with Self-Generated MCQs",
+      "url": "https://arxiv.org/abs/2608.11232",
+      "description": "arXiv:2608.11232v1 Announce Type: new \nAbstract: Evaluating LLM coding agents in algorithmic trading is difficult because static benchmarks risk data contamination and numerical backtest outputs require ground truth from actual code execution. We present Backtrader-Bench, a framework with two complementary pipelines. A deterministic multiple-choice question (MCQ) pipeline generates questions from backtest configurations across five trading strategies, 33 templates, and three difficulty tiers, with an independent checker that re-derives every answer. A generator-solver filtering pipeline autonomously mines harder questions: a generator writes questions verified by executable code, converts them to MCQs, and discards any that a no-tool solver can answer without code execution. We evaluate 11 models without tools (10 runs each) and four with-tools configurations on a 30-question curated set. Tool-augmented agents reach 90.0% accuracy in a single pass (GPT-5.5 and Opus 4.7), outperforming the best no-tools baselines (73.0%, averaged over 10 runs) by 17 percentage points. On 38 separately mined questions, no-tools accuracy drops further, with half the models falling to roughly random-chance level (25%). Beyond evaluation, the scalable MCQ infrastructure is designed to produce a training corpus for reinforcement learning, with the ultimate goal of building a specialized agent for quantitative trading workflows.",
+      "pub_date": "Thu, 13 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "Backtrader-Bench：基于自生成多项选择题的算法交易LLM智能体基准测试",
+        "summary": "Backtrader-Bench提出双管道框架评估算法交易中的LLM编码智能体：确定性MCQ管道从回测配置生成问题并独立验证，生成器-求解器过滤管道自动挖掘难题。工具增强智能体单次准确率达90%，远超无工具基线（73%）。该框架还可生成训练语料，用于强化学习构建量化交易专用智能体。",
+        "summary_en": "Backtrader-Bench presents a dual-pipeline framework to evaluate LLM coding agents in algorithmic trading: a deterministic MCQ pipeline generates verified questions from backtest configs, and a generator-solver filtering pipeline mines harder questions. Tool-augmented agents reach 90% accuracy, outperforming no-tool baselines (73%). The framework also produces training data for RL.",
+        "tags": [
+          "benchmark",
+          "llm",
+          "agent-framework",
+          "application",
+          "evaluation"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-13-rss-003",
+        "title": "Backtrader-Bench：基于自生成多项选择题的算法交易LLM智能体基准测试",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.11232",
+        "language": "en",
+        "summary": "Backtrader-Bench提出双管道框架评估算法交易中的LLM编码智能体：确定性MCQ管道从回测配置生成问题并独立验证，生成器-求解器过滤管道自动挖掘难题。工具增强智能体单次准确率达90%，远超无工具基线（73%）。该框架还可生成训练语料，用于强化学习构建量化交易专用智能体。",
+        "summary_en": "Backtrader-Bench presents a dual-pipeline framework to evaluate LLM coding agents in algorithmic trading: a deterministic MCQ pipeline generates verified questions from backtest configs, and a generator-solver filtering pipeline mines harder questions. Tool-augmented agents reach 90% accuracy, outperforming no-tool baselines (73%). The framework also produces training data for RL.",
+        "tags": [
+          "benchmark",
+          "llm",
+          "agent-framework",
+          "application",
+          "evaluation"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-13T17:09:29.002611+08:00",
+        "updated_at": "2026-08-13T17:09:29.002613+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Retrofitting Recurrent Depth into a Pretrained Language Model: Installation, Extrapolation, Transfer, and Retention at Two Parameter Budgets",
+      "url": "https://arxiv.org/abs/2608.11233",
+      "description": "arXiv:2608.11233v1 Announce Type: new \nAbstract: A dense, pretrained language model can be retrofitted with recurrent depth and learn an iterative latent transition that persists after outcome-only annealing. Qwen2.5-0.5B-Instruct is split into a Prelude, a weight-tied Recurrent Block, and a Coda, with an identity-preserving one-loop path and a re-entry bridge on later loops. At loop 1 the retrofit remains non-inferior to its base on a preregistered ARC battery. Three findings. First, the mechanism is a reusable procedure rather than terminal-answer lookup, and installs at two budgets: 6M trained parameters over frozen base weights and 180M full-block. With intermediate-step supervision, the model computes one task step per loop and persists when only final answers are graded. The adapter matched the full block overall (83.8% versus 84.0%), led through depth 11, and trailed beyond. Verbal fine-tuning reached 79-86% on controlled verbal renderings (zero-shot transfer was minimal), and adapter verbal training begun from the installed mechanism outpaced matched fresh training by 18.6 points, including on a held-out test set. Second, the operation extrapolates to roughly 1.5 times its supervised depth, holding 70% accuracy through depth 18. Third, a same-size scratchpad-trained model matched the recurrent model within its learned horizon but collapsed beyond it. The recurrent model won overall, 84% versus 72%, retained 53% versus 2.5% beyond depth 10, and answered 7.6 times faster. An iterative transformer can therefore perform deeper reasoning in latent space faster than comparable or larger models fine-tuned on the same task, in a system-level comparison. A second task, running the rule in reverse, exposed the limits: the inverse was learnable in isolation, but no continuation acquired it while preserving the installed mechanism and general capability, a catastrophic-interference boundary. Learned depth selection remains open.",
+      "pub_date": "Thu, 13 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "将循环深度改造进预训练语言模型：安装、外推、迁移与保留",
+        "summary": "该研究将预训练语言模型Qwen2.5-0.5B改造为具有循环深度的结构，通过权重共享的循环块实现迭代潜在状态转换。在ARC基准上，改造模型性能不逊于原模型，且能外推至监督深度的1.5倍。与scratchpad训练模型相比，循环模型在深度外推和速度上更优，但反向任务暴露了灾难性干扰边界。",
+        "summary_en": "This study retrofits a pretrained LM with recurrent depth, enabling iterative latent transitions. The model matches base performance on ARC, extrapolates to 1.5x supervised depth, and outperforms scratchpad-trained models in depth and speed, though reverse tasks reveal catastrophic interference limits.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-13-rss-004",
+        "title": "将循环深度改造进预训练语言模型：安装、外推、迁移与保留",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.11233",
+        "language": "en",
+        "summary": "该研究将预训练语言模型Qwen2.5-0.5B改造为具有循环深度的结构，通过权重共享的循环块实现迭代潜在状态转换。在ARC基准上，改造模型性能不逊于原模型，且能外推至监督深度的1.5倍。与scratchpad训练模型相比，循环模型在深度外推和速度上更优，但反向任务暴露了灾难性干扰边界。",
+        "summary_en": "This study retrofits a pretrained LM with recurrent depth, enabling iterative latent transitions. The model matches base performance on ARC, extrapolates to 1.5x supervised depth, and outperforms scratchpad-trained models in depth and speed, though reverse tasks reveal catastrophic interference limits.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-13T17:09:29.002615+08:00",
+        "updated_at": "2026-08-13T17:09:29.002617+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "TRACE Bench: Task-driven Roleplay Agentic Checklist Evaluation",
+      "url": "https://arxiv.org/abs/2608.11236",
+      "description": "arXiv:2608.11236v1 Announce Type: new \nAbstract: Roleplay evaluation should do more than assign a single score: it should reveal which role requirements were tested, which failed, and which dialogue evidence supports the judgment. We propose TRACE Bench, a task-driven agentic checklist evaluation framework. It decomposes each role profile offline into a fixed checklist, then uses a User Agent to converse naturally with the target roleplay model while privately updating checklist states from model responses. Scores therefore trace back to checklist items and supporting dialogue turns rather than a black-box holistic impression. For coverage cross-validation, we audit released M2 free-dialogue transcripts from the MiniMax Role-play Benchmark against the same role-derived checklist. The released free-chat transcripts cover only 73.74% of key role-profile points, whereas TRACE Bench reaches 99.91% coverage in fewer turns. Robustness experiments show stable rankings under repeated runs and User Agent replacement. Across 26 models, TRACE Bench reports overall rankings together with capability breakdowns and checklist traces. It also supports Closed-Loop Benchmark Evolution, distilling verification methods proven effective in failed traces so later evaluations can more reliably elicit and examine observed failure modes.",
+      "pub_date": "Thu, 13 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "TRACE Bench：任务驱动的角色扮演智能体清单评估框架",
+        "summary": "TRACE Bench提出任务驱动的角色扮演智能体清单评估框架，将角色档案分解为固定清单，通过用户智能体自然对话并更新清单状态，使评分可追溯至具体清单项和对话证据。相比M2基准，覆盖率从73.74%提升至99.91%，支持稳定排名和闭环基准演化。",
+        "summary_en": "TRACE Bench proposes a task-driven agentic checklist evaluation framework for roleplay, decomposing role profiles into fixed checklists and using a User Agent to update states, enabling traceable scores. It achieves 99.91% coverage vs 73.74% for M2, with stable rankings and closed-loop evolution.",
+        "tags": [
+          "evaluation",
+          "agent-framework",
+          "benchmark",
+          "llm"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-13-rss-005",
+        "title": "TRACE Bench：任务驱动的角色扮演智能体清单评估框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.11236",
+        "language": "en",
+        "summary": "TRACE Bench提出任务驱动的角色扮演智能体清单评估框架，将角色档案分解为固定清单，通过用户智能体自然对话并更新清单状态，使评分可追溯至具体清单项和对话证据。相比M2基准，覆盖率从73.74%提升至99.91%，支持稳定排名和闭环基准演化。",
+        "summary_en": "TRACE Bench proposes a task-driven agentic checklist evaluation framework for roleplay, decomposing role profiles into fixed checklists and using a User Agent to update states, enabling traceable scores. It achieves 99.91% coverage vs 73.74% for M2, with stable rankings and closed-loop evolution.",
+        "tags": [
+          "evaluation",
+          "agent-framework",
+          "benchmark",
+          "llm"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-13T17:09:29.002619+08:00",
+        "updated_at": "2026-08-13T17:09:29.002620+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Lost in Compaction: Evaluating Side-Constraint Loss under Context Compaction",
+      "url": "https://arxiv.org/abs/2608.11242",
+      "description": "arXiv:2608.11242v1 Announce Type: new \nAbstract: When the context window is under pressure, LLM systems compact prior context to continue ongoing tasks. We identify a class of user-issued instructions, Session Constraints (SCs), such as \"do not delete any emails until I confirm,\" that are meant to constrain LLM's behavior for the remainder of a session but are silently dropped during compaction. To quantify this loss, we introduce COMPINT, an evaluation suite that evaluates compactors across three long-context scenarios: multi-turn chat, agentic trajectory, and long-horizon research.\n  Current compactors retain only 17% of injected SCs on average, and most perform worse than running the same task without compaction. Retention varies sharply with compactor, prompt, context length, SC phrasing, and injection location, showing that the loss is systematic rather than tied to any single setting. We propose an SC-aware extractor that runs alongside the compactor as a plug-and-play module, achieving over 90% retention across all three scenarios without modifying the compactor or LLM. The COMPINT evaluation suite and accompanying implementation are available at https://github.com/ZhiqiEliWang/compaction-integrity.",
+      "pub_date": "Thu, 13 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "压缩中的迷失：评估上下文压缩下的会话约束损失",
+        "summary": "本文识别了LLM系统在上下文压缩时会话约束（如“不要删除邮件”）被静默丢弃的问题，并推出COMPINT评估套件，覆盖多轮对话、智能体轨迹和长时研究场景。实验显示平均仅保留17%的约束，且性能常低于不压缩。提出的SC感知提取器作为即插即用模块，可在不修改压缩器或LLM的情况下实现90%以上的保留率。",
+        "summary_en": "This paper identifies that session constraints are silently dropped during context compaction in LLM systems, introduces the COMPINT evaluation suite, and proposes an SC-aware extractor achieving over 90% retention without modifying the compactor or LLM.",
+        "tags": [
+          "llm",
+          "evaluation",
+          "benchmark",
+          "agent-framework",
+          "research"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-13-rss-006",
+        "title": "压缩中的迷失：评估上下文压缩下的会话约束损失",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.11242",
+        "language": "en",
+        "summary": "本文识别了LLM系统在上下文压缩时会话约束（如“不要删除邮件”）被静默丢弃的问题，并推出COMPINT评估套件，覆盖多轮对话、智能体轨迹和长时研究场景。实验显示平均仅保留17%的约束，且性能常低于不压缩。提出的SC感知提取器作为即插即用模块，可在不修改压缩器或LLM的情况下实现90%以上的保留率。",
+        "summary_en": "This paper identifies that session constraints are silently dropped during context compaction in LLM systems, introduces the COMPINT evaluation suite, and proposes an SC-aware extractor achieving over 90% retention without modifying the compactor or LLM.",
+        "tags": [
+          "llm",
+          "evaluation",
+          "benchmark",
+          "agent-framework",
+          "research"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-13T17:09:29.002623+08:00",
+        "updated_at": "2026-08-13T17:09:29.002624+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Diffuse to Compress: Leveraging Diffusion LMs for Lossless Compression",
+      "url": "https://arxiv.org/abs/2608.11249",
+      "description": "arXiv:2608.11249v1 Announce Type: new \nAbstract: We study the problem of lossless text compression, motivated by the rapid growth in the collection and storage of digital textual data - including plain text, source code, and structured formats such as XML - and by recent advances in neural language model-based compression. In particular, recent LLM-based approaches, whether built on symbol-ranking pipelines or paired with a statistical compressor, have demonstrated compression ratios significantly superior to general-purpose compressors such as zstd, gzip, or bzip on text and code. However, these neural approaches suffer from severe throughput limitations, making them not yet practically usable.\n  For the first time in the context of lossless neural text compression, we introduce Diffusion Language Models (DLMs) as an alternative inference paradigm to autoregressive LLM-based approaches. We argue that replacing autoregressive LLMs with DLMs within the same compression framework could overcome the throughput bottleneck caused by their one-symbol-per-step limitation. However, achieving these improvements requires addressing algorithmic challenges introduced by applying DLMs to lossless compression, where the architecture allows the number and positions of symbols encoded at each forward pass to be decided independently. We design efficient and effective strategies to solve these challenges and evaluate them experimentally against LLM-based and general-purpose compressors on enwik8, a well-established textual benchmark.\n  Our results show that the newly proposed DLM-based framework advances the state of the art in lossless text compression. Moreover, as DLMs are still a relatively young paradigm, recent advances toward increasingly capable and efficient models suggest substantial room for further improvements.",
+      "pub_date": "Thu, 13 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "扩散到压缩：利用扩散语言模型实现无损压缩",
+        "summary": "本文首次将扩散语言模型（DLM）用于无损文本压缩，以解决自回归LLM压缩方法吞吐量低的问题。通过设计高效策略应对DLM在压缩中的算法挑战，在enwik8基准上超越了现有LLM和通用压缩器，推动了无损压缩技术发展。",
+        "summary_en": "This paper introduces Diffusion Language Models (DLMs) for lossless text compression, addressing the throughput bottleneck of autoregressive LLM-based methods. By designing efficient strategies, it achieves state-of-the-art results on enwik8, surpassing LLM-based and general-purpose compressors.",
+        "tags": [
+          "llm",
+          "research",
+          "infrastructure",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-13-rss-010",
+        "title": "扩散到压缩：利用扩散语言模型实现无损压缩",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.11249",
+        "language": "en",
+        "summary": "本文首次将扩散语言模型（DLM）用于无损文本压缩，以解决自回归LLM压缩方法吞吐量低的问题。通过设计高效策略应对DLM在压缩中的算法挑战，在enwik8基准上超越了现有LLM和通用压缩器，推动了无损压缩技术发展。",
+        "summary_en": "This paper introduces Diffusion Language Models (DLMs) for lossless text compression, addressing the throughput bottleneck of autoregressive LLM-based methods. By designing efficient strategies, it achieves state-of-the-art results on enwik8, surpassing LLM-based and general-purpose compressors.",
+        "tags": [
+          "llm",
+          "research",
+          "infrastructure",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-13T17:09:29.002638+08:00",
+        "updated_at": "2026-08-13T17:09:29.002640+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

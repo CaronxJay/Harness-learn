@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-13-rss-003",
+  "title": "Backtrader-Bench：基于自生成多项选择题的算法交易LLM智能体基准测试",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.11232",
+  "language": "en",
+  "summary": "Backtrader-Bench提出双管道框架评估算法交易中的LLM编码智能体：确定性MCQ管道从回测配置生成问题并独立验证，生成器-求解器过滤管道自动挖掘难题。工具增强智能体单次准确率达90%，远超无工具基线（73%）。该框架还可生成训练语料，用于强化学习构建量化交易专用智能体。",
+  "summary_en": "Backtrader-Bench presents a dual-pipeline framework to evaluate LLM coding agents in algorithmic trading: a deterministic MCQ pipeline generates verified questions from backtest configs, and a generator-solver filtering pipeline mines harder questions. Tool-augmented agents reach 90% accuracy, outperforming no-tool baselines (73%). The framework also produces training data for RL.",
+  "tags": [
+    "benchmark",
+    "llm",
+    "agent-framework",
+    "application",
+    "evaluation"
+  ],
+  "category": "benchmark",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-13T17:09:29.002611+08:00",
+  "updated_at": "2026-08-13T17:09:29.002613+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

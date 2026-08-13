@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-13-rss-001",
+  "title": "多LLM代理系统动态治理实现协作对话结果",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.11207",
+  "language": "en",
+  "summary": "本文提出体验编排器（EO）治理层，用于多LLM代理对话系统。通过上下文Bandit、PID控制器和POMDP信念追踪，在6万次模拟中，高意图顾问联系率提升32个百分点（78.1% vs 46.1%），证明治理策略决定结果。",
+  "summary_en": "This paper proposes an Experience Orchestrator (EO) governance layer for multi-LLM agent conversations. Using contextual bandit, PID controller, and POMDP belief tracking, it achieves a +32 percentage point lift in high-intent advisor contact rate (78.1% vs 46.1%) across 60,000 simulations, showing governance policy determines outcomes.",
+  "tags": [
+    "llm",
+    "agent-framework",
+    "research",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-13T17:09:29.002578+08:00",
+  "updated_at": "2026-08-13T17:09:29.002601+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-13-rss-010",
+  "title": "扩散到压缩：利用扩散语言模型实现无损压缩",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.11249",
+  "language": "en",
+  "summary": "本文首次将扩散语言模型（DLM）用于无损文本压缩，以解决自回归LLM压缩方法吞吐量低的问题。通过设计高效策略应对DLM在压缩中的算法挑战，在enwik8基准上超越了现有LLM和通用压缩器，推动了无损压缩技术发展。",
+  "summary_en": "This paper introduces Diffusion Language Models (DLMs) for lossless text compression, addressing the throughput bottleneck of autoregressive LLM-based methods. By designing efficient strategies, it achieves state-of-the-art results on enwik8, surpassing LLM-based and general-purpose compressors.",
+  "tags": [
+    "llm",
+    "research",
+    "infrastructure",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-13T17:09:29.002638+08:00",
+  "updated_at": "2026-08-13T17:09:29.002640+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

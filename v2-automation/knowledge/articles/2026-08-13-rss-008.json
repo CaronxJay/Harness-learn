@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-13-rss-008",
+  "title": "Conway 99图问题的强制结构约简与可验证界",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.11211",
+  "language": "en",
+  "summary": "本文报告了由自主AI研究代理对Conway 99图问题（srg(99,14,1,2)存在性）的系统攻击。贡献包括：循环图约束满足上限68.0%的穷举证明、强制结构约简（将问题化为84顶点12正则图）、验证的自同构轨道存在性框架，以及最佳验证结果69.43%，并表明这是鲁棒前沿。",
+  "summary_en": "This paper reports a systematic attack by an autonomous AI research agent on Conway's 99-graph problem (existence of srg(99,14,1,2)). Contributions include an exhaustive proof that no circulant graph satisfies more than 68.0% of constraints, a forced-structure reduction to a 12-regular graph on 84 vertices, a validated prescribed-automorphism orbit-existence framework, and a best verified artifact at 69.43%, with evidence of a robust frontier.",
+  "tags": [
+    "research",
+    "benchmark",
+    "agent-framework",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-13T17:09:29.002631+08:00",
+  "updated_at": "2026-08-13T17:09:29.002632+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
