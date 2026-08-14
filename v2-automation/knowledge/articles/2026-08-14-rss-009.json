@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-14-rss-009",
+  "title": "法律本体学习中的语义保持度量",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.12326",
+  "language": "en",
+  "summary": "提出一种评估本体学习语义保持的方法：通过比较LLM在源文档与转换后表示上的任务性能差异来量化语义损失。在合并协议分析上验证，发现语义损失因推理复杂度和模型-方法交互而异，为法律知识系统配置选择提供指导。",
+  "summary_en": "Proposes an evaluation methodology for measuring semantic preservation in ontology learning by comparing LLM task performance on source vs transformed representations. Demonstrated on legal merger agreements, revealing systematic semantic loss varying with model-method pairing.",
+  "tags": [
+    "research",
+    "evaluation",
+    "llm",
+    "rag"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-14T17:04:49.219660+08:00",
+  "updated_at": "2026-08-14T17:04:49.219661+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

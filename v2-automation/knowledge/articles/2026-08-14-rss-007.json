@@ -1,0 +1,24 @@
+{
+  "id": "2026-08-14-rss-007",
+  "title": "观点：推理是一个可学习的基于规则的过程",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.12325",
+  "language": "en",
+  "summary": "本文提出当前生成式AI对推理的定义模糊，导致评估的构念效度无法验证，阻碍了可信自主推理的进展。作者提供基于文献综合的操作性定义，将有效且合理的推理定位为可学习的基于规则的过程，并给出AI推理研究沟通的最佳实践清单。",
+  "summary_en": "This position paper argues that ambiguous definitions of reasoning in generative AI undermine the construct validity of evaluations, hindering progress toward trustworthy autonomous reasoning. It offers operational definitions positioning reasoning as a learnable rule-based process and provides a checklist for best practices in research communication.",
+  "tags": [
+    "research",
+    "llm",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-14T17:04:49.219653+08:00",
+  "updated_at": "2026-08-14T17:04:49.219654+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

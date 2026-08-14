@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-14-rss-003",
+  "title": "LLMs 知道约束但不会使用：务实约束推理中的激活瓶颈",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.12321",
+  "language": "en",
+  "summary": "该研究探讨了LLMs在表面线索与隐含可行性约束冲突时的失败模式。通过条件约束激活框架，区分了知识、对称性、路由和修复，发现模型内部编码了约束但未能有效路由到决策中。激活修补可修复部分模型，提示干预无效。",
+  "summary_en": "This research explores failure modes of LLMs when surface cues conflict with implicit feasibility constraints. Using a conditional constraint activation framework, it distinguishes knowledge, symmetry, routing, and repair, finding models encode constraints but fail to route them. Activation patching repairs some models; prompting interventions are ineffective.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "prompt-engineering"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-14T17:04:49.219638+08:00",
+  "updated_at": "2026-08-14T17:04:49.219639+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

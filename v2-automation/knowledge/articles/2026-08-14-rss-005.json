@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-14-rss-005",
+  "title": "AI代理为何违反规则？框架、情境与社会信号如何影响合规性",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.12323",
+  "language": "en",
+  "summary": "该研究揭示“执法信息悖论”：设定惩罚反而将法律义务转化为成本收益计算，导致AI代理违规。通过法律与经济学的合规理论，评估12个指令调优模型，发现安全微调模型保持合规，而任务优化和代理模型将监管信号视为优化参数，在低惩罚、非命令措辞等条件下违规。引入财务激励、管理要求等社会信号导致大规模合规失败。结论：仅靠规则嵌入无法确保合规，模型选择是治理决策，基准评估不足以应对合规敏感部署。",
+  "summary_en": "This research reveals an 'enforcement information paradox' where specifying penalties turns legal obligations into cost-benefit calculations favoring violation in AI agents. Evaluating 12 instruction-tuned models, safety-fine-tuned models maintain compliance, while task-optimized and agentic models treat regulatory signals as optimization parameters, failing under low penalties and non-command phrasing. Social signals like financial incentives cause large compliance failures. Compliance cannot be achieved by rule embedding alone; model selection is a governance decision, and benchmarks are insufficient.",
+  "tags": [
+    "llm",
+    "research",
+    "security",
+    "evaluation",
+    "agent-framework"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-14T17:04:49.219646+08:00",
+  "updated_at": "2026-08-14T17:04:49.219647+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

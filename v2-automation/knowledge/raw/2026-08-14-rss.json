@@ -1,0 +1,456 @@
+{
+  "collected_at": "2026-08-14T17:04:49.220389+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "Position: Reasoning is a Learnable Rule-Based Process",
+      "url": "https://arxiv.org/abs/2608.12325",
+      "description": "arXiv:2608.12325v1 Announce Type: new \nAbstract: Autonomous reasoning is among the most scientifically and economically motivating topics in AI today. Historically the purview of symbolic AI, recent advances have mainly emerged from deep probabilistic generative models. Despite immense interest and rapid progress, the generative AI community has not clearly converged on operational definitions for reasoning and often implicitly rejects the historical treatment of this topic in logic and verifiable automated reasoning. This position contends that definitional ambiguity leaves the construct validity of reasoning evaluation unverifiable, undermining quantifiable progress toward trustworthy autonomous reasoning. We also contend that this ambiguity is addressable. To that end, we provide (1) operational definitions based on a synthesis of the literature, positioning valid and sound reasoning as a learnable rule-based process; and (2) a checklist for best practices in the communication of AI reasoning research.",
+      "pub_date": "Fri, 14 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "观点：推理是一个可学习的基于规则的过程",
+        "summary": "本文提出当前生成式AI对推理的定义模糊，导致评估的构念效度无法验证，阻碍了可信自主推理的进展。作者提供基于文献综合的操作性定义，将有效且合理的推理定位为可学习的基于规则的过程，并给出AI推理研究沟通的最佳实践清单。",
+        "summary_en": "This position paper argues that ambiguous definitions of reasoning in generative AI undermine the construct validity of evaluations, hindering progress toward trustworthy autonomous reasoning. It offers operational definitions positioning reasoning as a learnable rule-based process and provides a checklist for best practices in research communication.",
+        "tags": [
+          "research",
+          "llm",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-14-rss-007",
+        "title": "观点：推理是一个可学习的基于规则的过程",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.12325",
+        "language": "en",
+        "summary": "本文提出当前生成式AI对推理的定义模糊，导致评估的构念效度无法验证，阻碍了可信自主推理的进展。作者提供基于文献综合的操作性定义，将有效且合理的推理定位为可学习的基于规则的过程，并给出AI推理研究沟通的最佳实践清单。",
+        "summary_en": "This position paper argues that ambiguous definitions of reasoning in generative AI undermine the construct validity of evaluations, hindering progress toward trustworthy autonomous reasoning. It offers operational definitions positioning reasoning as a learnable rule-based process and provides a checklist for best practices in research communication.",
+        "tags": [
+          "research",
+          "llm",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-14T17:04:49.219653+08:00",
+        "updated_at": "2026-08-14T17:04:49.219654+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Diagnostic Foundation for Evaluating LLMs' Research Integrity as Co-Scientists",
+      "url": "https://arxiv.org/abs/2608.12345",
+      "description": "arXiv:2608.12345v1 Announce Type: new \nAbstract: Language models are increasingly deployed as co-scientists, yet their ability to uphold research integrity under institutional pressure remains unmeasured. We introduce IntegrityBench, a benchmark evaluating misconduct classification, ethical action reasoning and artifact-grounded decision making across 36 paired tasks under a 5-level implicit-explicit pressure protocol spanning 3 domains and 4 research stages. Evaluating 18 frontier model variants, we find that under peak pressure, models fail roughly 1 in 3 integrity-critical decisions, and neither scale nor reasoning ability reliably mitigates this. Explicit pressures induce compliance with misconduct, while implicit contextual reframing more often causes over-refusal of legitimate research tasks. Interestingly, models failing to classify research requests accurately perform equally or better on artifact-grounded decision making (85.7 vs. 79.4), suggesting the three facets are structurally dissociated and correct ethical action does not require accurate classification. Frontier models can thus appear helpful while harbouring integrity failures that create two distinct deployment risks: facilitating research misconduct and eroding trust in AI-assisted research.",
+      "pub_date": "Fri, 14 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "评估LLM作为共同科学家研究诚信的诊断基准",
+        "summary": "IntegrityBench基准评估LLM在机构压力下的研究诚信，涵盖不当行为分类、伦理推理和基于证据的决策，共36个配对任务和5级压力协议。测试18个前沿模型发现，高压下约1/3关键决策失败，规模与推理能力无法缓解；显式压力导致不当行为顺从，隐式压力导致过度拒绝。三个维度结构分离，正确伦理行为不依赖准确分类。",
+        "summary_en": "IntegrityBench evaluates LLM research integrity under institutional pressure across misconduct classification, ethical reasoning, and artifact-grounded decisions. Testing 18 models reveals ~1/3 failures under peak pressure, with scale not mitigating; explicit pressure induces compliance, implicit causes over-refusal. Facets are dissociated, posing dual deployment risks.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "security",
+          "research",
+          "evaluation"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-14-rss-001",
+        "title": "评估LLM作为共同科学家研究诚信的诊断基准",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.12345",
+        "language": "en",
+        "summary": "IntegrityBench基准评估LLM在机构压力下的研究诚信，涵盖不当行为分类、伦理推理和基于证据的决策，共36个配对任务和5级压力协议。测试18个前沿模型发现，高压下约1/3关键决策失败，规模与推理能力无法缓解；显式压力导致不当行为顺从，隐式压力导致过度拒绝。三个维度结构分离，正确伦理行为不依赖准确分类。",
+        "summary_en": "IntegrityBench evaluates LLM research integrity under institutional pressure across misconduct classification, ethical reasoning, and artifact-grounded decisions. Testing 18 models reveals ~1/3 failures under peak pressure, with scale not mitigating; explicit pressure induces compliance, implicit causes over-refusal. Facets are dissociated, posing dual deployment risks.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "security",
+          "research",
+          "evaluation"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-14T17:04:49.219626+08:00",
+        "updated_at": "2026-08-14T17:04:49.219630+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Position: The Alignment Community is Unintentionally Building a Censor's Toolkit",
+      "url": "https://arxiv.org/abs/2608.12346",
+      "description": "arXiv:2608.12346v1 Announce Type: new \nAbstract: This position paper argues that modern AI alignment methods - originally designed to prevent harmful output - are dual-use technologies that may easily be misused by malicious actors for censorship and manipulation. By mapping current alignment techniques to the possibility and actual cases of misuse, we show that the quest for a \"perfectly aligned\" model inadvertently also provides malicious actors with an ever-improving tool for informational dominance. We need to discuss this dual-use potential now, as its risk is exacerbated by rapid user adoption of AI as information provider, economic power asymmetries, and a political landscape that increasingly shifts towards authoritarianism. We conclude by urging the community to consider the intentional misuse of AI alignment mechanisms and propose mitigation strategies to safeguard against this dual-use potential.",
+      "pub_date": "Fri, 14 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "立场文章：对齐社区无意中构建了审查工具包",
+        "summary": "本文认为AI对齐方法具有双重用途，可能被恶意行为者用于审查和操纵。通过映射当前对齐技术到滥用案例，指出追求“完美对齐”模型无意中为信息主导提供了工具。呼吁讨论双重用途风险并提出缓解策略。",
+        "summary_en": "This position paper argues that AI alignment methods are dual-use and could be misused for censorship and manipulation, urging the community to address this risk and propose mitigations.",
+        "tags": [
+          "security",
+          "research",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-14-rss-008",
+        "title": "立场文章：对齐社区无意中构建了审查工具包",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.12346",
+        "language": "en",
+        "summary": "本文认为AI对齐方法具有双重用途，可能被恶意行为者用于审查和操纵。通过映射当前对齐技术到滥用案例，指出追求“完美对齐”模型无意中为信息主导提供了工具。呼吁讨论双重用途风险并提出缓解策略。",
+        "summary_en": "This position paper argues that AI alignment methods are dual-use and could be misused for censorship and manipulation, urging the community to address this risk and propose mitigations.",
+        "tags": [
+          "security",
+          "research",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-14T17:04:49.219657+08:00",
+        "updated_at": "2026-08-14T17:04:49.219658+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Agreement Is Not Alignment: Divergent Moral Grounds in Human and LLM Ethical Judgments",
+      "url": "https://arxiv.org/abs/2608.12368",
+      "description": "arXiv:2608.12368v1 Announce Type: new \nAbstract: Agreement with human judgments is a common proxy for evaluating the alignment of large language models (LLMs). Yet agreement in final labels does not show that human annotators and models rely on the same moral grounds. Two agents may reach the same judgment while appealing to different principles, contextual assumptions, or interpretations of the situation.\n  We test this distinction using a curated 500-item ETHICS-derived benchmark spanning five domains of moral judgment, with new human annotator and LLM annotations of both final labels and supporting rationales. Across frontier and open model families, agreement with human annotator majority labels is often high. However, rationale-level analysis reveals systematic divergence in the moral grounds expressed by human annotators and models. In particular, models redistribute attention across categories such as harm, respect, promise-keeping, justice, desert, and excuse relevance, even when their final labels match the human annotator majority.\n  Our results show that agreement should not be treated as equivalent to alignment. Label-based evaluation can therefore be misleadingly reassuring unless complemented by analysis of the reasons, principles, and moral priorities expressed in model judgments.",
+      "pub_date": "Fri, 14 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "一致并非对齐：人类与LLM道德判断中的分歧基础",
+        "summary": "该研究指出，LLM与人类在道德判断标签上的一致并不能证明其对齐，因为可能基于不同的道德理由。通过500项ETHICS基准测试，分析最终标签和理由，发现模型在理由层面系统性地偏离人类，即使标签一致。因此，标签评估需辅以理由分析，否则可能产生误导。",
+        "summary_en": "This study argues that agreement in moral judgment labels between LLMs and humans does not imply alignment, as they may rely on different moral grounds. Using a 500-item ETHICS benchmark, analysis of labels and rationales reveals systematic divergence in moral reasoning even when labels match, suggesting label-based evaluation can be misleading without rationale analysis.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "evaluation",
+          "alignment"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-14-rss-002",
+        "title": "一致并非对齐：人类与LLM道德判断中的分歧基础",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.12368",
+        "language": "en",
+        "summary": "该研究指出，LLM与人类在道德判断标签上的一致并不能证明其对齐，因为可能基于不同的道德理由。通过500项ETHICS基准测试，分析最终标签和理由，发现模型在理由层面系统性地偏离人类，即使标签一致。因此，标签评估需辅以理由分析，否则可能产生误导。",
+        "summary_en": "This study argues that agreement in moral judgment labels between LLMs and humans does not imply alignment, as they may rely on different moral grounds. Using a 500-item ETHICS benchmark, analysis of labels and rationales reveals systematic divergence in moral reasoning even when labels match, suggesting label-based evaluation can be misleading without rationale analysis.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "evaluation",
+          "alignment"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-14T17:04:49.219634+08:00",
+        "updated_at": "2026-08-14T17:04:49.219635+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Multi-Agent Scheduling with LLM-Assisted Contract Net Negotiation for Stream Processing in Mobile Edge Computing",
+      "url": "https://arxiv.org/abs/2608.12371",
+      "description": "arXiv:2608.12371v1 Announce Type: new \nAbstract: Stream-processing systems increasingly operate across heterogeneous mobile edge--cloud infrastructures, where workload volatility, resource contention, and stringent quality-of-service (QoS) requirements complicate decentralized scheduling. This paper proposes \\emph{MAS-DecStream}, whose main contribution is \\emph{LLM-MR-CNP}: an extension of the classical Contract Net Protocol with semantic CFP formulation, progressive context disclosure, multi-round proposal revision, negotiation memory, and deterministic validation. Edge-cluster agents refine natural-language offloading proposals from local observations, predicted resource states, and qualitative runtime context, while hard resource and QoS constraints remain deterministic. Experiments derived from the Alibaba ASI Trace evaluate the extension at three levels: single- versus multi-round CNP, rule-based versus LLM-assisted refinement, and fixed-model single- versus multi-round negotiation. Under the evaluated configurations, MAS-DecStream reduces latency violations to 3\\%, eliminates resource overcommitment, reaches a conflict-resolution rate of 0.91 with 20 agents, and improves utility by up to 22\\% over the multi-round rule-based baseline. A separate 25-case evaluation shows model- and prompt-dependent accuracy--cost trade-offs. The results provide initial evidence that multi-round CNP refinement is the principal protocol-level gain, with LLM assistance adding value for qualitative and uncertain runtime context.",
+      "pub_date": "Fri, 14 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "移动边缘计算中基于LLM辅助合同网协商的多智能体调度",
+        "summary": "提出MAS-DecStream，扩展合同网协议为LLM-MR-CNP，通过语义CFP、多轮提案修订和协商记忆，实现流处理任务的去中心化调度。实验显示延迟违规降至3%，冲突解决率0.91，效用提升22%。",
+        "summary_en": "Proposes MAS-DecStream, extending the Contract Net Protocol with LLM-MR-CNP for decentralized stream processing scheduling. Experiments show latency violations reduced to 3%, conflict resolution rate 0.91, and utility improved by 22%.",
+        "tags": [
+          "llm",
+          "agent-framework",
+          "research",
+          "application",
+          "infrastructure"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-14-rss-006",
+        "title": "移动边缘计算中基于LLM辅助合同网协商的多智能体调度",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.12371",
+        "language": "en",
+        "summary": "提出MAS-DecStream，扩展合同网协议为LLM-MR-CNP，通过语义CFP、多轮提案修订和协商记忆，实现流处理任务的去中心化调度。实验显示延迟违规降至3%，冲突解决率0.91，效用提升22%。",
+        "summary_en": "Proposes MAS-DecStream, extending the Contract Net Protocol with LLM-MR-CNP for decentralized stream processing scheduling. Experiments show latency violations reduced to 3%, conflict resolution rate 0.91, and utility improved by 22%.",
+        "tags": [
+          "llm",
+          "agent-framework",
+          "research",
+          "application",
+          "infrastructure"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-08-14T17:04:49.219650+08:00",
+        "updated_at": "2026-08-14T17:04:49.219651+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "LLMs Know the Constraint But Do Not Use It: Activation Bottlenecks in Pragmatic Constraint Reasoning",
+      "url": "https://arxiv.org/abs/2608.12321",
+      "description": "arXiv:2608.12321v1 Announce Type: new \nAbstract: When a salient surface cue competes with an implicit feasibility constraint, LLMs often fail -- but aggregate accuracy conflates genuine constraint inference with conservative defaulting. We formalize the distinction as conditional constraint activation: the constraint is internally encoded (Knowledge) symmetrically across constraint-present and -absent prompts (Symmetry), yet only sometimes routed into the decision (Routing) and repairable by a donor activation (Repair). A quartet diagnostic over 14 models reveals two failure modes; probes on two open weights decode the constraint above $88\\%$, yet activation patching repairs one ($+6.4$ nats) and not the other ($-0.07$). On a mitigation frontier, no prompted intervention reaches the repair corner: all inflate conservative bias through a single mediation pathway -- prerequisite mention. Hidden-constraint failure is a routing problem, not a knowledge problem.",
+      "pub_date": "Fri, 14 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "LLMs 知道约束但不会使用：务实约束推理中的激活瓶颈",
+        "summary": "该研究探讨了LLMs在表面线索与隐含可行性约束冲突时的失败模式。通过条件约束激活框架，区分了知识、对称性、路由和修复，发现模型内部编码了约束但未能有效路由到决策中。激活修补可修复部分模型，提示干预无效。",
+        "summary_en": "This research explores failure modes of LLMs when surface cues conflict with implicit feasibility constraints. Using a conditional constraint activation framework, it distinguishes knowledge, symmetry, routing, and repair, finding models encode constraints but fail to route them. Activation patching repairs some models; prompting interventions are ineffective.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-14-rss-003",
+        "title": "LLMs 知道约束但不会使用：务实约束推理中的激活瓶颈",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.12321",
+        "language": "en",
+        "summary": "该研究探讨了LLMs在表面线索与隐含可行性约束冲突时的失败模式。通过条件约束激活框架，区分了知识、对称性、路由和修复，发现模型内部编码了约束但未能有效路由到决策中。激活修补可修复部分模型，提示干预无效。",
+        "summary_en": "This research explores failure modes of LLMs when surface cues conflict with implicit feasibility constraints. Using a conditional constraint activation framework, it distinguishes knowledge, symmetry, routing, and repair, finding models encode constraints but fail to route them. Activation patching repairs some models; prompting interventions are ineffective.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-14T17:04:49.219638+08:00",
+        "updated_at": "2026-08-14T17:04:49.219639+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "What Drives LLM Self-Reflection? A Controlled Ablation of Uncertainty Routing in Armed Conflict Forecasting",
+      "url": "https://arxiv.org/abs/2608.12322",
+      "description": "arXiv:2608.12322v1 Announce Type: new \nAbstract: Self-reflection is widely assumed to improve LLM reasoning, yet which component drives the gain remains poorly understood. We present a controlled six-condition ablation isolating four components of LLM self-reflection: evidence exposure, diagnostic scaffolding, taxonomy vocabulary, and action routing. Two precise null results converge on a single mechanism. First, structured diagnostic questions add no measurable value over unstructured reflection ($\\text{F1} = 0.296$ vs $0.297$, $p = 1.000$, 95\\% CI $[-0.041, +0.040]$). Second, presenting the full uncertainty taxonomy while collapsing the action space to a single generic action also adds no value ($\\Delta\\text{F1} = +0.008$, overlapping 95\\% CIs), ruling out taxonomy vocabulary as the mechanism. Typed action routing provides consistent directional gains ($\\text{F1} = 0.379$ vs $0.296$); the conservative estimate controlling for taxonomy vocabulary is $\\Delta\\text{F1} = +0.075$, and the overall gain over the single-shot baseline is significant by bootstrap CI ($\\Delta\\text{F1} = +0.101$, 95\\% CI $[+0.020, +0.185]$). The vocabulary-routing decomposition replicates on GPT-4o: taxonomy vocabulary adds no significant value over generic reflection ($p = 0.773$), while action routing provides significant gains ($p = 0.025$), confirming the mechanism holds across backbones. Gains concentrate on structurally novel conflicts: in Myanmar ($\\text{F1}: 0.000 \\rightarrow 0.353$) and Ukraine ($0.167 \\rightarrow 0.500$), the vocabulary-only condition recovers no more than generic reflection while action routing breaks the degenerate prior. These findings identify typed action routing -- not diagnostic scaffolding or taxonomy vocabulary -- as a promising design principle for metacognitive LLM forecasting agents, while motivating larger-scale evaluation across conflict typologies.",
+      "pub_date": "Fri, 14 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "LLM自我反思的驱动因素：武装冲突预测中不确定性路由的受控消融研究",
+        "summary": "通过六条件消融实验，发现结构化诊断问题和分类词汇对LLM自我反思无显著增益，而类型化动作路由是提升性能的关键机制，在GPT-4o上得到验证，并在缅甸、乌克兰等新型冲突中显著改善预测。",
+        "summary_en": "A controlled six-condition ablation shows that structured diagnostic questions and taxonomy vocabulary add no value to LLM self-reflection, while typed action routing drives significant gains, replicated on GPT-4o and effective in novel conflicts.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "agent-framework"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-14-rss-004",
+        "title": "LLM自我反思的驱动因素：武装冲突预测中不确定性路由的受控消融研究",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.12322",
+        "language": "en",
+        "summary": "通过六条件消融实验，发现结构化诊断问题和分类词汇对LLM自我反思无显著增益，而类型化动作路由是提升性能的关键机制，在GPT-4o上得到验证，并在缅甸、乌克兰等新型冲突中显著改善预测。",
+        "summary_en": "A controlled six-condition ablation shows that structured diagnostic questions and taxonomy vocabulary add no value to LLM self-reflection, while typed action routing drives significant gains, replicated on GPT-4o and effective in novel conflicts.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "agent-framework"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-14T17:04:49.219642+08:00",
+        "updated_at": "2026-08-14T17:04:49.219643+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Why Do AI Agents Break Rules? How Framing, Context, and Social Signals Shape Compliance",
+      "url": "https://arxiv.org/abs/2608.12323",
+      "description": "arXiv:2608.12323v1 Announce Type: new \nAbstract: Specifying a penalty can paradoxically convert a legal obligation into a cost-benefit calculation that favors violation. We demonstrate that this enforcement information paradox systematically occurs in AI agents. While most AI safety evaluations test whether models fail, we investigate why, applying compliance theory from law and economics as a diagnostic tool. We treat compliance theories not as metaphors but as empirical hypotheses and show that each predicts the behavior of a distinct model class. We evaluate our hypotheses across twelve instruction-tuned language models operating as enterprise procurement chatbots. Drawing on theories of deterrence, legitimacy, and expressive law, we show that safety-fine-tuned models maintain compliance broadly, while task-optimized and agentic models treat regulatory signals as mere optimization parameters. These latter models fail to comply under conditions predicted by theory, such as low enforcement penalties and non-command phrasing. Across all models, introducing financial incentives, managerial demands, peer outcomes, or employee pressure produces large compliance failures. AI procurement agents systematically violate regulatory constraints to satisfy local user objectives in ways not captured by standard alignment benchmarks. Ultimately, compliance cannot be achieved by rule embedding alone; model selection is itself a governance decision, and benchmark-based evaluation is insufficient for compliance-sensitive deployments.",
+      "pub_date": "Fri, 14 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "AI代理为何违反规则？框架、情境与社会信号如何影响合规性",
+        "summary": "该研究揭示“执法信息悖论”：设定惩罚反而将法律义务转化为成本收益计算，导致AI代理违规。通过法律与经济学的合规理论，评估12个指令调优模型，发现安全微调模型保持合规，而任务优化和代理模型将监管信号视为优化参数，在低惩罚、非命令措辞等条件下违规。引入财务激励、管理要求等社会信号导致大规模合规失败。结论：仅靠规则嵌入无法确保合规，模型选择是治理决策，基准评估不足以应对合规敏感部署。",
+        "summary_en": "This research reveals an 'enforcement information paradox' where specifying penalties turns legal obligations into cost-benefit calculations favoring violation in AI agents. Evaluating 12 instruction-tuned models, safety-fine-tuned models maintain compliance, while task-optimized and agentic models treat regulatory signals as optimization parameters, failing under low penalties and non-command phrasing. Social signals like financial incentives cause large compliance failures. Compliance cannot be achieved by rule embedding alone; model selection is a governance decision, and benchmarks are insufficient.",
+        "tags": [
+          "llm",
+          "research",
+          "security",
+          "evaluation",
+          "agent-framework"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-14-rss-005",
+        "title": "AI代理为何违反规则？框架、情境与社会信号如何影响合规性",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.12323",
+        "language": "en",
+        "summary": "该研究揭示“执法信息悖论”：设定惩罚反而将法律义务转化为成本收益计算，导致AI代理违规。通过法律与经济学的合规理论，评估12个指令调优模型，发现安全微调模型保持合规，而任务优化和代理模型将监管信号视为优化参数，在低惩罚、非命令措辞等条件下违规。引入财务激励、管理要求等社会信号导致大规模合规失败。结论：仅靠规则嵌入无法确保合规，模型选择是治理决策，基准评估不足以应对合规敏感部署。",
+        "summary_en": "This research reveals an 'enforcement information paradox' where specifying penalties turns legal obligations into cost-benefit calculations favoring violation in AI agents. Evaluating 12 instruction-tuned models, safety-fine-tuned models maintain compliance, while task-optimized and agentic models treat regulatory signals as optimization parameters, failing under low penalties and non-command phrasing. Social signals like financial incentives cause large compliance failures. Compliance cannot be achieved by rule embedding alone; model selection is a governance decision, and benchmarks are insufficient.",
+        "tags": [
+          "llm",
+          "research",
+          "security",
+          "evaluation",
+          "agent-framework"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-14T17:04:49.219646+08:00",
+        "updated_at": "2026-08-14T17:04:49.219647+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "On Measuring Semantic Preservation in Legal Ontology Learning",
+      "url": "https://arxiv.org/abs/2608.12326",
+      "description": "arXiv:2608.12326v1 Announce Type: new \nAbstract: Ontology learning transforms unstructured text into structured representations for automated reasoning. Yet structuring information risks losing it, and current evaluation methodologies cannot detect such loss, focusing on structural correctness while failing to measure whether meaning survives transformation. We propose an evaluation methodology that addresses this: comparing LLM task performance on source documents against performance on transformed representations, with the difference quantifying semantic loss. We demonstrate this approach on legal merger agreement analysis, a domain chosen for its complex language and precise semantic requirements, comparing direct LLM application against three ontology learning methods across six language models. The results reveal systematic semantic loss with significant variation based on reasoning complexity and model-method interactions. Our contributions are: (1) an evaluation framework for measuring semantic preservation in ontology learning, and (2) empirical evidence that semantic loss varies dramatically with model-method pairing, providing guidance for selecting optimal configurations in legal knowledge systems.",
+      "pub_date": "Fri, 14 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "法律本体学习中的语义保持度量",
+        "summary": "提出一种评估本体学习语义保持的方法：通过比较LLM在源文档与转换后表示上的任务性能差异来量化语义损失。在合并协议分析上验证，发现语义损失因推理复杂度和模型-方法交互而异，为法律知识系统配置选择提供指导。",
+        "summary_en": "Proposes an evaluation methodology for measuring semantic preservation in ontology learning by comparing LLM task performance on source vs transformed representations. Demonstrated on legal merger agreements, revealing systematic semantic loss varying with model-method pairing.",
+        "tags": [
+          "research",
+          "evaluation",
+          "llm",
+          "rag"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-14-rss-009",
+        "title": "法律本体学习中的语义保持度量",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.12326",
+        "language": "en",
+        "summary": "提出一种评估本体学习语义保持的方法：通过比较LLM在源文档与转换后表示上的任务性能差异来量化语义损失。在合并协议分析上验证，发现语义损失因推理复杂度和模型-方法交互而异，为法律知识系统配置选择提供指导。",
+        "summary_en": "Proposes an evaluation methodology for measuring semantic preservation in ontology learning by comparing LLM task performance on source vs transformed representations. Demonstrated on legal merger agreements, revealing systematic semantic loss varying with model-method pairing.",
+        "tags": [
+          "research",
+          "evaluation",
+          "llm",
+          "rag"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-14T17:04:49.219660+08:00",
+        "updated_at": "2026-08-14T17:04:49.219661+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Comparative Analysis of Multilingual Pre-trained Models for Nepali Automatic Speech Recognition",
+      "url": "https://arxiv.org/abs/2608.12327",
+      "description": "arXiv:2608.12327v1 Announce Type: new \nAbstract: Multilingual pretrained models nominally support Nepali, yet no controlled benchmark has compared them under a single fine-tuning protocol. We fine-tune six pretrained models (XLSR-53, IndicWav2Vec, MMS-1B, Whisper-Medium, Whisper-Large-v3-Turbo, and Conformer-Hi) spanning CTC self-supervised, autoregressive encoder-decoder, and hybrid Conformer-CTC architectures, on the OpenSLR SLR54 Nepali corpus (~165 hours) using identical preprocessing, splits, optimizer, and family-matched learning-rate schedules. We evaluate Word Error Rate (WER), Character Error Rate (CER), and Real-Time Factor (RTF) on three independent test sets (OpenSLR, FLEURS, Common Voice). Whisper-Large-v3-Turbo (14.76% WER) and IndicWav2Vec (14.89% WER) tie at the top despite a 9x parameter gap and 40x pretraining-data gap, providing direct empirical evidence that language-family proximity in pretraining can substitute for raw scale for in-domain Nepali. CTC decoders run up to 29x faster than autoregressive Whisper at the same accuracy, flipping the practical deployment preference toward CTC under any latency budget. Massively multilingual pretraining (MMS-1B) yields the smallest out-of-domain degradation on FLEURS (+12.55 pp), indicating that scale buys robustness rather than peak in-domain accuracy. The resulting benchmark provides the first standardized, multi-model, efficiency-aware reference numbers for Nepali ASR.",
+      "pub_date": "Fri, 14 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "多语言预训练模型在尼泊尔语自动语音识别中的比较分析",
+        "summary": "该研究在统一微调协议下，对六种多语言预训练模型（XLSR-53、IndicWav2Vec、MMS-1B、Whisper-Medium、Whisper-Large-v3-Turbo、Conformer-Hi）在尼泊尔语ASR任务上进行了基准测试。Whisper-Large-v3-Turbo和IndicWav2Vec以约14.8%的WER并列最佳，尽管参数规模相差9倍。CTC解码器比自回归Whisper快29倍且精度相同，表明语言族接近性可替代规模，CTC更适合部署。",
+        "summary_en": "Benchmarking six multilingual pre-trained models for Nepali ASR under a unified protocol. Whisper-Large-v3-Turbo and IndicWav2Vec tie at ~14.8% WER despite 9x parameter gap, showing language-family proximity can substitute scale. CTC decoders are 29x faster than autoregressive Whisper at same accuracy, favoring CTC for deployment.",
+        "tags": [
+          "benchmark",
+          "multimodal",
+          "research",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      }
+    }
+  ]
+}
