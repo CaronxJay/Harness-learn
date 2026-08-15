@@ -1,0 +1,24 @@
+{
+  "id": "2026-08-15-rss-004",
+  "title": "立场文章：对齐社区无意中构建审查工具包",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.12346",
+  "language": "en",
+  "summary": "本文认为AI对齐方法具有双重用途，可能被恶意行为者用于审查和操纵。通过映射当前对齐技术到滥用案例，指出追求“完美对齐”模型无意中为信息主导提供工具。呼吁讨论双重用途风险并提出缓解策略。",
+  "summary_en": "This position paper argues that AI alignment methods are dual-use technologies that may be misused for censorship and manipulation. It maps current techniques to misuse cases, warns of risks from rapid AI adoption and authoritarian trends, and urges mitigation strategies.",
+  "tags": [
+    "research",
+    "security",
+    "llm"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-15T16:24:06.061362+08:00",
+  "updated_at": "2026-08-15T16:24:06.061364+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

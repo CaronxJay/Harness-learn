@@ -1,0 +1,24 @@
+{
+  "id": "2026-08-15-rss-003",
+  "title": "观点：推理是可学习的基于规则的过程",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.12325",
+  "language": "en",
+  "summary": "本文提出推理的定义模糊导致评估效度不可验证，阻碍可信自主推理的进展。作者基于文献综合给出操作性定义，将有效且可靠的推理定位为可学习的基于规则的过程，并提供研究交流最佳实践清单。",
+  "summary_en": "This position paper argues that ambiguous definitions of reasoning undermine the validity of evaluations and progress toward trustworthy autonomous reasoning. It proposes operational definitions framing reasoning as a learnable rule-based process and offers a checklist for best practices in research communication.",
+  "tags": [
+    "research",
+    "llm",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-15T16:24:06.061358+08:00",
+  "updated_at": "2026-08-15T16:24:06.061359+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "collected_at": "2026-08-15T16:24:06.062174+08:00",
+  "source": "rss",
+  "count": 5,
+  "items": [
+    {
+      "title": "Position: Reasoning is a Learnable Rule-Based Process",
+      "url": "https://arxiv.org/abs/2608.12325",
+      "description": "arXiv:2608.12325v1 Announce Type: new \nAbstract: Autonomous reasoning is among the most scientifically and economically motivating topics in AI today. Historically the purview of symbolic AI, recent advances have mainly emerged from deep probabilistic generative models. Despite immense interest and rapid progress, the generative AI community has not clearly converged on operational definitions for reasoning and often implicitly rejects the historical treatment of this topic in logic and verifiable automated reasoning. This position contends that definitional ambiguity leaves the construct validity of reasoning evaluation unverifiable, undermining quantifiable progress toward trustworthy autonomous reasoning. We also contend that this ambiguity is addressable. To that end, we provide (1) operational definitions based on a synthesis of the literature, positioning valid and sound reasoning as a learnable rule-based process; and (2) a checklist for best practices in the communication of AI reasoning research.",
+      "pub_date": "Sat, 15 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "观点：推理是可学习的基于规则的过程",
+        "summary": "本文提出推理的定义模糊导致评估效度不可验证，阻碍可信自主推理的进展。作者基于文献综合给出操作性定义，将有效且可靠的推理定位为可学习的基于规则的过程，并提供研究交流最佳实践清单。",
+        "summary_en": "This position paper argues that ambiguous definitions of reasoning undermine the validity of evaluations and progress toward trustworthy autonomous reasoning. It proposes operational definitions framing reasoning as a learnable rule-based process and offers a checklist for best practices in research communication.",
+        "tags": [
+          "research",
+          "llm",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-15-rss-003",
+        "title": "观点：推理是可学习的基于规则的过程",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.12325",
+        "language": "en",
+        "summary": "本文提出推理的定义模糊导致评估效度不可验证，阻碍可信自主推理的进展。作者基于文献综合给出操作性定义，将有效且可靠的推理定位为可学习的基于规则的过程，并提供研究交流最佳实践清单。",
+        "summary_en": "This position paper argues that ambiguous definitions of reasoning undermine the validity of evaluations and progress toward trustworthy autonomous reasoning. It proposes operational definitions framing reasoning as a learnable rule-based process and offers a checklist for best practices in research communication.",
+        "tags": [
+          "research",
+          "llm",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-15T16:24:06.061358+08:00",
+        "updated_at": "2026-08-15T16:24:06.061359+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Diagnostic Foundation for Evaluating LLMs' Research Integrity as Co-Scientists",
+      "url": "https://arxiv.org/abs/2608.12345",
+      "description": "arXiv:2608.12345v1 Announce Type: new \nAbstract: Language models are increasingly deployed as co-scientists, yet their ability to uphold research integrity under institutional pressure remains unmeasured. We introduce IntegrityBench, a benchmark evaluating misconduct classification, ethical action reasoning and artifact-grounded decision making across 36 paired tasks under a 5-level implicit-explicit pressure protocol spanning 3 domains and 4 research stages. Evaluating 18 frontier model variants, we find that under peak pressure, models fail roughly 1 in 3 integrity-critical decisions, and neither scale nor reasoning ability reliably mitigates this. Explicit pressures induce compliance with misconduct, while implicit contextual reframing more often causes over-refusal of legitimate research tasks. Interestingly, models failing to classify research requests accurately perform equally or better on artifact-grounded decision making (85.7 vs. 79.4), suggesting the three facets are structurally dissociated and correct ethical action does not require accurate classification. Frontier models can thus appear helpful while harbouring integrity failures that create two distinct deployment risks: facilitating research misconduct and eroding trust in AI-assisted research.",
+      "pub_date": "Sat, 15 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "评估LLM作为共同科学家研究诚信的诊断基准",
+        "summary": "本文介绍IntegrityBench基准，用于评估LLM在科研诚信方面的表现，涵盖不当行为分类、伦理行动推理和基于工件的决策，共36个配对任务，采用5级压力协议。测试18个前沿模型，发现高压下约1/3决策失败，显式压力导致合规，隐式压力导致过度拒绝。三个维度结构分离，正确伦理行动不依赖准确分类。",
+        "summary_en": "Introduces IntegrityBench, a benchmark evaluating LLM research integrity across misconduct classification, ethical reasoning, and artifact-grounded decisions under varying pressure. Testing 18 models reveals ~1/3 failures under peak pressure, with explicit pressure causing compliance and implicit causing over-refusal. The three facets are dissociated, posing deployment risks.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "research",
+          "evaluation",
+          "security"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-15-rss-001",
+        "title": "评估LLM作为共同科学家研究诚信的诊断基准",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.12345",
+        "language": "en",
+        "summary": "本文介绍IntegrityBench基准，用于评估LLM在科研诚信方面的表现，涵盖不当行为分类、伦理行动推理和基于工件的决策，共36个配对任务，采用5级压力协议。测试18个前沿模型，发现高压下约1/3决策失败，显式压力导致合规，隐式压力导致过度拒绝。三个维度结构分离，正确伦理行动不依赖准确分类。",
+        "summary_en": "Introduces IntegrityBench, a benchmark evaluating LLM research integrity across misconduct classification, ethical reasoning, and artifact-grounded decisions under varying pressure. Testing 18 models reveals ~1/3 failures under peak pressure, with explicit pressure causing compliance and implicit causing over-refusal. The three facets are dissociated, posing deployment risks.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "research",
+          "evaluation",
+          "security"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-15T16:24:06.061344+08:00",
+        "updated_at": "2026-08-15T16:24:06.061348+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Position: The Alignment Community is Unintentionally Building a Censor's Toolkit",
+      "url": "https://arxiv.org/abs/2608.12346",
+      "description": "arXiv:2608.12346v1 Announce Type: new \nAbstract: This position paper argues that modern AI alignment methods - originally designed to prevent harmful output - are dual-use technologies that may easily be misused by malicious actors for censorship and manipulation. By mapping current alignment techniques to the possibility and actual cases of misuse, we show that the quest for a \"perfectly aligned\" model inadvertently also provides malicious actors with an ever-improving tool for informational dominance. We need to discuss this dual-use potential now, as its risk is exacerbated by rapid user adoption of AI as information provider, economic power asymmetries, and a political landscape that increasingly shifts towards authoritarianism. We conclude by urging the community to consider the intentional misuse of AI alignment mechanisms and propose mitigation strategies to safeguard against this dual-use potential.",
+      "pub_date": "Sat, 15 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "立场文章：对齐社区无意中构建审查工具包",
+        "summary": "本文认为AI对齐方法具有双重用途，可能被恶意行为者用于审查和操纵。通过映射当前对齐技术到滥用案例，指出追求“完美对齐”模型无意中为信息主导提供工具。呼吁讨论双重用途风险并提出缓解策略。",
+        "summary_en": "This position paper argues that AI alignment methods are dual-use technologies that may be misused for censorship and manipulation. It maps current techniques to misuse cases, warns of risks from rapid AI adoption and authoritarian trends, and urges mitigation strategies.",
+        "tags": [
+          "research",
+          "security",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-15-rss-004",
+        "title": "立场文章：对齐社区无意中构建审查工具包",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.12346",
+        "language": "en",
+        "summary": "本文认为AI对齐方法具有双重用途，可能被恶意行为者用于审查和操纵。通过映射当前对齐技术到滥用案例，指出追求“完美对齐”模型无意中为信息主导提供工具。呼吁讨论双重用途风险并提出缓解策略。",
+        "summary_en": "This position paper argues that AI alignment methods are dual-use technologies that may be misused for censorship and manipulation. It maps current techniques to misuse cases, warns of risks from rapid AI adoption and authoritarian trends, and urges mitigation strategies.",
+        "tags": [
+          "research",
+          "security",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-15T16:24:06.061362+08:00",
+        "updated_at": "2026-08-15T16:24:06.061364+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Agreement Is Not Alignment: Divergent Moral Grounds in Human and LLM Ethical Judgments",
+      "url": "https://arxiv.org/abs/2608.12368",
+      "description": "arXiv:2608.12368v1 Announce Type: new \nAbstract: Agreement with human judgments is a common proxy for evaluating the alignment of large language models (LLMs). Yet agreement in final labels does not show that human annotators and models rely on the same moral grounds. Two agents may reach the same judgment while appealing to different principles, contextual assumptions, or interpretations of the situation.\n  We test this distinction using a curated 500-item ETHICS-derived benchmark spanning five domains of moral judgment, with new human annotator and LLM annotations of both final labels and supporting rationales. Across frontier and open model families, agreement with human annotator majority labels is often high. However, rationale-level analysis reveals systematic divergence in the moral grounds expressed by human annotators and models. In particular, models redistribute attention across categories such as harm, respect, promise-keeping, justice, desert, and excuse relevance, even when their final labels match the human annotator majority.\n  Our results show that agreement should not be treated as equivalent to alignment. Label-based evaluation can therefore be misleadingly reassuring unless complemented by analysis of the reasons, principles, and moral priorities expressed in model judgments.",
+      "pub_date": "Sat, 15 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "一致并非对齐：人类与LLM道德判断中的分歧基础",
+        "summary": "该研究指出，在道德判断任务中，模型与人类标注者最终标签的高一致性并不代表真正的对齐，因为二者可能基于不同的道德理由。通过500项ETHICS基准测试，分析最终标签和理由，发现模型在伤害、尊重、承诺等道德类别上的关注分布与人类不同。因此，仅基于标签的评估可能误导，需结合理由分析。",
+        "summary_en": "This study shows that high agreement on final labels between LLMs and humans in moral judgments does not imply alignment, as they may rely on different moral grounds. Using a 500-item ETHICS benchmark, analysis of rationales reveals systematic divergence in moral category emphasis, suggesting label-based evaluation can be misleading.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "evaluation",
+          "alignment"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-15-rss-002",
+        "title": "一致并非对齐：人类与LLM道德判断中的分歧基础",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.12368",
+        "language": "en",
+        "summary": "该研究指出，在道德判断任务中，模型与人类标注者最终标签的高一致性并不代表真正的对齐，因为二者可能基于不同的道德理由。通过500项ETHICS基准测试，分析最终标签和理由，发现模型在伤害、尊重、承诺等道德类别上的关注分布与人类不同。因此，仅基于标签的评估可能误导，需结合理由分析。",
+        "summary_en": "This study shows that high agreement on final labels between LLMs and humans in moral judgments does not imply alignment, as they may rely on different moral grounds. Using a 500-item ETHICS benchmark, analysis of rationales reveals systematic divergence in moral category emphasis, suggesting label-based evaluation can be misleading.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "evaluation",
+          "alignment"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-15T16:24:06.061353+08:00",
+        "updated_at": "2026-08-15T16:24:06.061354+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Multi-Agent Scheduling with LLM-Assisted Contract Net Negotiation for Stream Processing in Mobile Edge Computing",
+      "url": "https://arxiv.org/abs/2608.12371",
+      "description": "arXiv:2608.12371v1 Announce Type: new \nAbstract: Stream-processing systems increasingly operate across heterogeneous mobile edge--cloud infrastructures, where workload volatility, resource contention, and stringent quality-of-service (QoS) requirements complicate decentralized scheduling. This paper proposes \\emph{MAS-DecStream}, whose main contribution is \\emph{LLM-MR-CNP}: an extension of the classical Contract Net Protocol with semantic CFP formulation, progressive context disclosure, multi-round proposal revision, negotiation memory, and deterministic validation. Edge-cluster agents refine natural-language offloading proposals from local observations, predicted resource states, and qualitative runtime context, while hard resource and QoS constraints remain deterministic. Experiments derived from the Alibaba ASI Trace evaluate the extension at three levels: single- versus multi-round CNP, rule-based versus LLM-assisted refinement, and fixed-model single- versus multi-round negotiation. Under the evaluated configurations, MAS-DecStream reduces latency violations to 3\\%, eliminates resource overcommitment, reaches a conflict-resolution rate of 0.91 with 20 agents, and improves utility by up to 22\\% over the multi-round rule-based baseline. A separate 25-case evaluation shows model- and prompt-dependent accuracy--cost trade-offs. The results provide initial evidence that multi-round CNP refinement is the principal protocol-level gain, with LLM assistance adding value for qualitative and uncertain runtime context.",
+      "pub_date": "Sat, 15 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "移动边缘计算中基于LLM辅助合同网协商的多智能体调度",
+        "summary": "本文提出MAS-DecStream，扩展经典合同网协议为LLM-MR-CNP，支持语义CFP、多轮提案修订和协商记忆。实验表明可降低延迟违规至3%，消除资源过度承诺，冲突解决率达0.91，效用提升22%。",
+        "summary_en": "This paper proposes MAS-DecStream, extending the Contract Net Protocol with LLM-MR-CNP for semantic CFP, multi-round proposal revision, and negotiation memory. Experiments show reduced latency violations to 3%, eliminated resource overcommitment, 0.91 conflict resolution rate, and up to 22% utility improvement.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "infrastructure"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-15-rss-005",
+        "title": "移动边缘计算中基于LLM辅助合同网协商的多智能体调度",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.12371",
+        "language": "en",
+        "summary": "本文提出MAS-DecStream，扩展经典合同网协议为LLM-MR-CNP，支持语义CFP、多轮提案修订和协商记忆。实验表明可降低延迟违规至3%，消除资源过度承诺，冲突解决率达0.91，效用提升22%。",
+        "summary_en": "This paper proposes MAS-DecStream, extending the Contract Net Protocol with LLM-MR-CNP for semantic CFP, multi-round proposal revision, and negotiation memory. Experiments show reduced latency violations to 3%, eliminated resource overcommitment, 0.91 conflict resolution rate, and up to 22% utility improvement.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "infrastructure"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-15T16:24:06.061367+08:00",
+        "updated_at": "2026-08-15T16:24:06.061368+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-15-rss-005",
+  "title": "移动边缘计算中基于LLM辅助合同网协商的多智能体调度",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.12371",
+  "language": "en",
+  "summary": "本文提出MAS-DecStream，扩展经典合同网协议为LLM-MR-CNP，支持语义CFP、多轮提案修订和协商记忆。实验表明可降低延迟违规至3%，消除资源过度承诺，冲突解决率达0.91，效用提升22%。",
+  "summary_en": "This paper proposes MAS-DecStream, extending the Contract Net Protocol with LLM-MR-CNP for semantic CFP, multi-round proposal revision, and negotiation memory. Experiments show reduced latency violations to 3%, eliminated resource overcommitment, 0.91 conflict resolution rate, and up to 22% utility improvement.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "research",
+    "infrastructure"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-15T16:24:06.061367+08:00",
+  "updated_at": "2026-08-15T16:24:06.061368+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

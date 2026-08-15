@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-15-rss-002",
+  "title": "一致并非对齐：人类与LLM道德判断中的分歧基础",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.12368",
+  "language": "en",
+  "summary": "该研究指出，在道德判断任务中，模型与人类标注者最终标签的高一致性并不代表真正的对齐，因为二者可能基于不同的道德理由。通过500项ETHICS基准测试，分析最终标签和理由，发现模型在伤害、尊重、承诺等道德类别上的关注分布与人类不同。因此，仅基于标签的评估可能误导，需结合理由分析。",
+  "summary_en": "This study shows that high agreement on final labels between LLMs and humans in moral judgments does not imply alignment, as they may rely on different moral grounds. Using a 500-item ETHICS benchmark, analysis of rationales reveals systematic divergence in moral category emphasis, suggesting label-based evaluation can be misleading.",
+  "tags": [
+    "llm",
+    "research",
+    "benchmark",
+    "evaluation",
+    "alignment"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-15T16:24:06.061353+08:00",
+  "updated_at": "2026-08-15T16:24:06.061354+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
