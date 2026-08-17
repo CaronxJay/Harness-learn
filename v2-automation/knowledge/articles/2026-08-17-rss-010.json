@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-17-rss-010",
+  "title": "语言服务器能否为编码代理节省Token？一种测量方法与初步研究",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.13568",
+  "language": "en",
+  "summary": "本文首次量化了编码代理中语言服务器协议（LSP）语义检索与词法检索（grep）在Token效率上的差异。通过五臂消融实验，发现LSP在符号定位任务中增加6%-118%的Token消耗，在引用完整性任务中仅对最弱模型节省Token，且无法提升召回上限。建议采用自适应路由策略。",
+  "summary_en": "This paper quantifies the token efficiency of LSP-based semantic retrieval versus lexical grep for coding agents. Through five-arm ablations, it finds LSP increases token usage by 6%-118% on symbol localization and only saves tokens for the weakest model on reference tasks, suggesting an adaptive router.",
+  "tags": [
+    "llm",
+    "agent-framework",
+    "benchmark",
+    "research",
+    "tool"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-08-17T16:39:27.608803+08:00",
+  "updated_at": "2026-08-17T16:39:27.608804+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

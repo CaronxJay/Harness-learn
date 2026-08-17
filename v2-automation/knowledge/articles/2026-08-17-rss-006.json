@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-17-rss-006",
+  "title": "潜在推理自解释框架：在潜在空间中思考，用语言解释",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.13570",
+  "language": "en",
+  "summary": "SELR框架训练单一模型同时优化答案损失和思维链损失，使潜在推理既高效又可解释，无需外部解码器，在LLM和VLM上验证了优越的token效率和准确性。",
+  "summary_en": "SELR trains a single model with answer and CoT losses to make latent reasoning efficient and inherently explainable, eliminating external decoders, validated on LLMs and VLMs.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "multimodal"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-17T16:39:27.608787+08:00",
+  "updated_at": "2026-08-17T16:39:27.608788+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-17-rss-004",
+  "title": "LLM服务的一年：工作负载演变、缓存与负载均衡",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.13573",
+  "language": "en",
+  "summary": "本文通过Chutes平台一年的生产轨迹，从全局和纵向角度分析LLM服务工作负载的演变，涵盖多模型和用户交互，揭示聚合视图下隐藏的结构，并发布完整轨迹以支持后续研究。",
+  "summary_en": "This paper analyzes a one-year production trace from Chutes to understand LLM serving workload evolution, revealing hidden user-model structures and releasing the full trace for future research.",
+  "tags": [
+    "llm",
+    "infrastructure",
+    "benchmark",
+    "research"
+  ],
+  "category": "infrastructure",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-17T16:39:27.608778+08:00",
+  "updated_at": "2026-08-17T16:39:27.608780+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

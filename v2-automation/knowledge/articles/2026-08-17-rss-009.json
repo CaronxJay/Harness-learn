@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-17-rss-009",
+  "title": "Jais 2：阿拉伯语中心的开源大语言模型系列",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.13580",
+  "language": "en",
+  "summary": "Jais 2 是由MBZUAI、Cerebras和Inception联合开发的阿拉伯语中心大语言模型系列，包含70B参数的最大开源阿拉伯语模型及8B变体。采用定制阿拉伯语词汇表和优化架构，实现高效训练与推理。在阿拉伯语及文化基准上表现优异，同时具备竞争力英语能力。模型以商业许可开源，70B版本支持高速聊天应用。",
+  "summary_en": "Jais 2 is a family of Arabic-centric LLMs by MBZUAI, Cerebras, and Inception, featuring the largest open Arabic-centric model at 70B parameters and an 8B variant. With custom Arabic vocabulary and optimized architecture, it achieves strong Arabic and competitive English performance, released under a permissive license.",
+  "tags": [
+    "llm",
+    "open-source",
+    "multilingual",
+    "benchmark",
+    "infrastructure"
+  ],
+  "category": "llm",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-17T16:39:27.608799+08:00",
+  "updated_at": "2026-08-17T16:39:27.608800+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

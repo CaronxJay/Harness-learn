@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-17-rss-002",
+  "title": "基于幅度的专家掩码的混合专家模型深度感知敏感性分析",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.13565",
+  "language": "en",
+  "summary": "本文对Qwen3.6-35B-A3B模型进行逐层敏感性分析，发现MoE层敏感性具有深度依赖性：早期和中间层对专家掩码脆弱，而后期层可容忍激进掩码。晚期聚焦策略在保留质量的同时掩码更多专家，为深度感知的MoE压缩提供实证基础。",
+  "summary_en": "This paper presents a layer-wise sensitivity analysis of MoE models, finding depth-dependent fragility: early/middle layers are sensitive to expert masking while late layers tolerate aggressive masking. Late-focused policies achieve better quality-masking tradeoffs, providing empirical basis for depth-aware MoE compression.",
+  "tags": [
+    "llm",
+    "research",
+    "benchmark",
+    "compression",
+    "moe"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-17T16:39:27.608770+08:00",
+  "updated_at": "2026-08-17T16:39:27.608771+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

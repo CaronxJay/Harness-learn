@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-17-rss-008",
+  "title": "BCMT：块状因果记忆Transformer",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.13578",
+  "language": "en",
+  "summary": "BCMT是一种用于长上下文语言建模的架构，通过局部块内密集自注意力与指数因果记忆的块摘要传播全局信息，避免全局注意力，实现并行化，训练吞吐量提升且内存消耗降低，性能与密集Transformer相当。",
+  "summary_en": "BCMT is an architecture for long-context language modeling that decouples local token interactions from global context propagation using blockwise dense attention and exponential causal memory, achieving comparable performance with improved throughput and reduced memory.",
+  "tags": [
+    "llm",
+    "research",
+    "infrastructure",
+    "architecture"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-17T16:39:27.608794+08:00",
+  "updated_at": "2026-08-17T16:39:27.608796+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

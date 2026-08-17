@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-17-rss-001",
+  "title": "RubricForge：通过反思进化诱导无奖励评判标准以减少智能体评估中的过度信任",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.13564",
+  "language": "en",
+  "summary": "RubricForge 利用少量带标签轨迹，通过反思进化生成可读的评判标准，无需环境奖励即可评估智能体。相比通用 G-Eval，它显著降低假阳性率（0.115 vs 0.173），提高排序忠实度，但总体一致性无显著差异。",
+  "summary_en": "RubricForge induces readable rubrics via reflective evolution from labeled trajectories, reducing false-pass rate in agent evaluation without environment rewards. It outperforms G-Eval in faithfulness but not raw agreement.",
+  "tags": [
+    "evaluation",
+    "llm",
+    "agent-framework",
+    "research"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-17T16:39:27.608762+08:00",
+  "updated_at": "2026-08-17T16:39:27.608766+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

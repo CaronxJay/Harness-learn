@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-17-rss-005",
+  "title": "Agentao：面向工具使用型LLM代理的受治理本地优先运行时",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.13574",
+  "language": "en",
+  "summary": "Agentao是一个受治理的本地优先运行时，用于工具使用型LLM代理。它通过分层架构将模型生成的动作建议与主机授权的执行分离，包括主机接口、主机契约、运行时核心、权限中介工具系统及内存、重放、插件等子系统。该设计将权限、状态、协议边界和执行轨迹显式化为运行时抽象，提升代理的可治理性、可检查性和安全性，适用于主机控制的本地环境。代码已开源。",
+  "summary_en": "Agentao is a governed local-first runtime for tool-using LLM agents. It separates model-generated action proposals from host-authorized execution via a layered architecture, making permissions, state, protocol boundaries, and execution traces explicit runtime abstractions to improve governability and inspectability. Code is open-source.",
+  "tags": [
+    "agent-framework",
+    "security",
+    "infrastructure",
+    "llm",
+    "open-source"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-17T16:39:27.608782+08:00",
+  "updated_at": "2026-08-17T16:39:27.608784+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

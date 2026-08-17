@@ -1,0 +1,24 @@
+{
+  "id": "2026-08-17-rss-003",
+  "title": "大语言模型中涌现的模块化认知架构",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.13567",
+  "language": "en",
+  "summary": "该研究通过电路分析，在46个任务中测试大语言模型是否像人脑一样具有功能模块化。结果发现，LLM确实发展出与人脑相似的模块化架构：相同认知域的任务激活重叠神经元，不同域则激活不同神经元。这表明模块化可能是智能系统的基本属性。",
+  "summary_en": "This study tests whether LLMs develop modular organization like the human brain, using circuit analyses across 46 tasks. Results show LLMs exhibit modular architecture mirroring human brain, suggesting modularity may be a fundamental property of intelligent systems.",
+  "tags": [
+    "llm",
+    "research",
+    "cognitive-architecture"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-17T16:39:27.608774+08:00",
+  "updated_at": "2026-08-17T16:39:27.608776+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

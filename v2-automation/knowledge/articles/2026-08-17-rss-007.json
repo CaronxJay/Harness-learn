@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-17-rss-007",
+  "title": "并非所有令牌都等价：面向智能体LLM系统的通胀感知路由",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.13571",
+  "language": "en",
+  "summary": "本文提出InflationAgent，一种四阶段路由器，通过量化令牌膨胀（真实工作流成本与单次调用成本之比）来优化模型选择。引入CoT分支熵（CBE）作为预执行难度信号，并采用语义汇率（SER）和新鲜升级策略，在GSM8K上以更少令牌实现更高准确率。",
+  "summary_en": "This paper proposes InflationAgent, a four-stage router that quantifies token inflation (ratio of true workflow cost to single-call cost) to optimize model selection. It introduces CoT Branching Entropy (CBE) as a pre-execution difficulty signal and uses Semantic Exchange Rate (SER) with fresh-escalation policy, achieving higher accuracy with fewer tokens on GSM8K.",
+  "tags": [
+    "llm",
+    "research",
+    "agent-framework",
+    "evaluation",
+    "infrastructure"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-17T16:39:27.608791+08:00",
+  "updated_at": "2026-08-17T16:39:27.608792+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
