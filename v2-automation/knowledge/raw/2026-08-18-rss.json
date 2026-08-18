@@ -1,0 +1,489 @@
+{
+  "collected_at": "2026-08-18T16:33:14.125955+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "FLOPs vs Real Work: The Importance of Replication in AI Efficiency Assessment",
+      "url": "https://arxiv.org/abs/2608.14550",
+      "description": "arXiv:2608.14550v1 Announce Type: new \nAbstract: AI efficiency has recently taken the spotlight in both academy and industry due to massive model scales, high energy demands, and environmental costs. While reporting Floating Point Operations (FLOPs) is a traditional approach for assessing computational costs, the relationship between FLOPs and execution time is not straightforward, as layers with the same number of FLOPs may not have the same execution time because some operations are more easily parallelized than others. This paper sets out to replicate the original experiments from a study that proposed the $\\alpha-FLOPs$ estimation formula to verify whether the results remain applicable on newer, more powerful hardware.\n  During the replication process, we identify limitations in the replication materials provided by the original study, including a lack of specific dependency details and transparency regarding regression data. Our results validate the thesis that raw FLOPs alone are not an appropriate metric for execution time, as spatial dimensions remain more easily parallelized than kernel dimensions. However, fine-grained measurements reveal that the relationship is much less straightforward than previously shown, with newer hardware exhibiting instabilities and discontinuities in execution time, including jumps and oscillations, that the $\\alpha-FLOPs$ formula generally underestimates. Ultimately, this work validates the empirical findings from the original study but shows negative results when applying the $\\alpha-FLOPs$ estimation. We also highlight the critical need for complete and accurate replication packages for research on hardware-dependent efficiency assessment and provide a complete replication package for our implementation to facilitate further study.",
+      "pub_date": "Tue, 18 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "FLOPs与实际工作：AI效率评估中复现的重要性",
+        "summary": "本文复现了α-FLOPs估算公式的原始实验，验证了原始FLOPs不适合作为执行时间指标，但发现新硬件上执行时间存在不稳定性和不连续性，α-FLOPs公式低估了这些现象。研究强调了完整复现包的必要性，并提供了自己的复现包。",
+        "summary_en": "This paper replicates the α-FLOPs estimation formula experiments, confirming raw FLOPs are not a proper metric for execution time, but finding new hardware exhibits instabilities and discontinuities that the formula underestimates. It highlights the need for complete replication packages and provides one.",
+        "tags": [
+          "research",
+          "benchmark",
+          "infrastructure",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-18-rss-010",
+        "title": "FLOPs与实际工作：AI效率评估中复现的重要性",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.14550",
+        "language": "en",
+        "summary": "本文复现了α-FLOPs估算公式的原始实验，验证了原始FLOPs不适合作为执行时间指标，但发现新硬件上执行时间存在不稳定性和不连续性，α-FLOPs公式低估了这些现象。研究强调了完整复现包的必要性，并提供了自己的复现包。",
+        "summary_en": "This paper replicates the α-FLOPs estimation formula experiments, confirming raw FLOPs are not a proper metric for execution time, but finding new hardware exhibits instabilities and discontinuities that the formula underestimates. It highlights the need for complete replication packages and provides one.",
+        "tags": [
+          "research",
+          "benchmark",
+          "infrastructure",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "status": "published",
+        "created_at": "2026-08-18T16:33:14.125116+08:00",
+        "updated_at": "2026-08-18T16:33:14.125117+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Large Language Models Show Metacognitive Sensitivity in Medical Reasoning",
+      "url": "https://arxiv.org/abs/2608.14552",
+      "description": "arXiv:2608.14552v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly evaluated and used in medicine, but clinical usefulness depends on answer accuracy and whether confidence tracks evidence quality and uncertainty. We developed a controlled, psychophysics-inspired clinical benchmark to test diagnostic choice and confidence behavior in a medical LLM. The benchmark focused on probable Alzheimer-type neurocognitive disorder (AT-NCD) versus depression-related cognitive impairment (DRCI). We generated 45 synthetic vignettes varying evidence strength, conflicting evidence, and missing information. Each vignette was presented under three prompt variants, yielding 135 trials. In a pilot run with gpt-4.1-nano, all trials produced valid structured outputs. Across forced-choice trials, diagnostic accuracy was 93.5%, mean confidence was 78.4%, and AUROC2 was 0.876. Confidence increased with evidence distance from the diagnostic boundary, decreased when information was missing, and remained higher on correct than incorrect trials after adjustment for evidence strength and prompt format. These findings indicate partial metacognitive sensitivity rather than globally uninformative confidence. However, errors clustered in moderate, conflicting AT-NCD cases, where the model shifted toward DRCI and retained more confidence than empirical accuracy justified. Model comparison suggested that confidence quality should be measured directly rather than inferred from benchmark accuracy or model capability alone. This study establishes a reproducible framework for evaluating evidence sensitivity, metacognitive sensitivity, and localized calibration failure in medical LLMs.",
+      "pub_date": "Tue, 18 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "大型语言模型在医学推理中表现出元认知敏感性",
+        "summary": "本研究开发了一个基于心理物理学启发的临床基准，评估医学LLM的诊断准确性和置信度校准。在gpt-4.1-nano上，诊断准确率93.5%，置信度与证据强度相关，但存在局部校准失败。研究强调直接测量置信度质量，而非从准确率推断。",
+        "summary_en": "This study develops a psychophysics-inspired clinical benchmark to evaluate diagnostic accuracy and confidence calibration in medical LLMs. On gpt-4.1-nano, accuracy was 93.5%, confidence tracked evidence strength, but localized calibration failures were found. The study emphasizes measuring confidence quality directly.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "evaluation",
+          "research",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-18-rss-001",
+        "title": "大型语言模型在医学推理中表现出元认知敏感性",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.14552",
+        "language": "en",
+        "summary": "本研究开发了一个基于心理物理学启发的临床基准，评估医学LLM的诊断准确性和置信度校准。在gpt-4.1-nano上，诊断准确率93.5%，置信度与证据强度相关，但存在局部校准失败。研究强调直接测量置信度质量，而非从准确率推断。",
+        "summary_en": "This study develops a psychophysics-inspired clinical benchmark to evaluate diagnostic accuracy and confidence calibration in medical LLMs. On gpt-4.1-nano, accuracy was 93.5%, confidence tracked evidence strength, but localized calibration failures were found. The study emphasizes measuring confidence quality directly.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "evaluation",
+          "research",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-18T16:33:14.125071+08:00",
+        "updated_at": "2026-08-18T16:33:14.125075+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "The Unwritten Benchmark: A New Challenge for Multimodal Machine Learning in Abstract Perceptual Reasoning",
+      "url": "https://arxiv.org/abs/2608.14558",
+      "description": "arXiv:2608.14558v1 Announce Type: new \nAbstract: Current multimodal models have demonstrated remarkable proficiency in recognizing static visual and auditory content. However, their capacity for abstract perceptual reasoning, inferring unseen information from dynamic, generative processes, remains a critical and underexplored frontier. In this paper, we introduce The Unwritten Benchmark, a new challenge designed to probe this abstract perceptual and cognitive ability. We define the core task as acousto-kinematic word inference: models must decipher words, across 3 different writing styles, being written solely from the audio of pen scratches and the video of hand movements, without any visible ink trace. Our evaluation results reveal a profound gap between human and machine performance: while human participants achieve high ordered letter accuracy (over 80%), leading Multimodal Machine Learning Models, including GPT-4o and Gemini 2.5-Pro, struggle significantly, failing to surpass 10%. Furthermore, we identify a paradoxical fusion effect in the models, where providing both modalities often degrades performance rather than improving it. This finding indicates a fundamental breakdown in their ability to synthesize complementary perceptual cues for this cognitive task. These findings highlight significant limitations in both cross-modal causal reasoning and the understanding of the micro-kinematics essential for such cognitive and intuitive perceptual reasoning.",
+      "pub_date": "Tue, 18 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "未书写基准：多模态机器学习在抽象感知推理中的新挑战",
+        "summary": "本文提出“未书写基准”，测试多模态模型从笔划声音和手部动作视频推断单词的能力。人类准确率超80%，而GPT-4o和Gemini 2.5-Pro不足10%，且多模态融合反而降低性能，揭示模型在跨模态因果推理和微运动理解上的根本缺陷。",
+        "summary_en": "Introduces The Unwritten Benchmark for acousto-kinematic word inference. Humans exceed 80% accuracy, while GPT-4o and Gemini 2.5-Pro fall below 10%, with multimodal fusion degrading performance, highlighting fundamental limits in cross-modal causal reasoning.",
+        "tags": [
+          "benchmark",
+          "multimodal",
+          "research",
+          "evaluation"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-18-rss-002",
+        "title": "未书写基准：多模态机器学习在抽象感知推理中的新挑战",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.14558",
+        "language": "en",
+        "summary": "本文提出“未书写基准”，测试多模态模型从笔划声音和手部动作视频推断单词的能力。人类准确率超80%，而GPT-4o和Gemini 2.5-Pro不足10%，且多模态融合反而降低性能，揭示模型在跨模态因果推理和微运动理解上的根本缺陷。",
+        "summary_en": "Introduces The Unwritten Benchmark for acousto-kinematic word inference. Humans exceed 80% accuracy, while GPT-4o and Gemini 2.5-Pro fall below 10%, with multimodal fusion degrading performance, highlighting fundamental limits in cross-modal causal reasoning.",
+        "tags": [
+          "benchmark",
+          "multimodal",
+          "research",
+          "evaluation"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-18T16:33:14.125080+08:00",
+        "updated_at": "2026-08-18T16:33:14.125082+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "When to Communicate: Belief Distributions and KL Divergence for Principled Gating in Multi-Agent RL",
+      "url": "https://arxiv.org/abs/2608.14559",
+      "description": "arXiv:2608.14559v1 Announce Type: new \nAbstract: Effective communication in multi-agent reinforcement learning requires agents to decide not only \\textit{what} to communicate, but when? Existing approaches either communicate at every timestep or learn a binary gate through REINFORCE policy gradients \\cite{singh2019}, a high-variance signal that produces unstable and uninterpretable gating behavior. I propose a principled alternative: agents communicate only when the KL divergence between their learned belief distributions exceeds a fixed threshold. Each agent maintains a belief distribution over a latent world state computed as a softmax over its LSTM hidden state, and communicates only when belief disagreement is large enough to justify information exchange. I evaluate this approach on the Predator-Prey benchmark from IC3Net \\cite{singh2019} across two environment sizes with 5 seeds each, and on MPE simple\\_spread \\cite{lowe2017}, comparing against IC3Net, CommNet, and an independent controller. On PP 10$\\times$10, IC3Net outperforms KL-belief at all thresholds. On the harder PP 20$\\times$20, a threshold ablation over $\\varepsilon \\in \\{0.1, 0.3, 0.5, 1.0\\}$ reveals an inverted U-shape: $\\varepsilon=0.5$ achieves 73.84 average steps and 42\\% success rate versus IC3Net's 75.31 steps and 31\\%, a gap of 1.47 steps and 11 percentage points with tighter seed variance. On MPE, the belief head improves mean reward by 12 points and reduces variance by 26$\\times$ even when gating is inactive, suggesting two orthogonal contributions: principled gating when beliefs can converge, and improved latent representations that benefit coordination regardless.",
+      "pub_date": "Tue, 18 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "多智能体强化学习中的通信时机：基于信念分布与KL散度的门控机制",
+        "summary": "提出一种基于KL散度阈值的原则性通信门控方法，智能体仅在信念分布分歧大时通信。在Predator-Prey和MPE基准上评估，相比IC3Net等方法，在困难任务上性能更优且方差更小，并发现信念头本身也能改善协调。",
+        "summary_en": "Proposes a principled gating mechanism for multi-agent RL communication based on KL divergence between belief distributions. Evaluated on Predator-Prey and MPE benchmarks, showing improved performance and lower variance on harder tasks, with belief head contributing to coordination.",
+        "tags": [
+          "research",
+          "multi-agent",
+          "reinforcement-learning",
+          "communication",
+          "kl-divergence"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-18-rss-007",
+        "title": "多智能体强化学习中的通信时机：基于信念分布与KL散度的门控机制",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.14559",
+        "language": "en",
+        "summary": "提出一种基于KL散度阈值的原则性通信门控方法，智能体仅在信念分布分歧大时通信。在Predator-Prey和MPE基准上评估，相比IC3Net等方法，在困难任务上性能更优且方差更小，并发现信念头本身也能改善协调。",
+        "summary_en": "Proposes a principled gating mechanism for multi-agent RL communication based on KL divergence between belief distributions. Evaluated on Predator-Prey and MPE benchmarks, showing improved performance and lower variance on harder tasks, with belief head contributing to coordination.",
+        "tags": [
+          "research",
+          "multi-agent",
+          "reinforcement-learning",
+          "communication",
+          "kl-divergence"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-18T16:33:14.125103+08:00",
+        "updated_at": "2026-08-18T16:33:14.125104+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Global AI Regulations for FAIR and Ethics in High-Risk Use Cases: A Comparative Review",
+      "url": "https://arxiv.org/abs/2608.14562",
+      "description": "arXiv:2608.14562v1 Announce Type: new \nAbstract: AI governance is shifting from voluntary ethics to enforceable, risk-based regulation, yet cross-jurisdictional divergence creates compliance uncertainty for operators of high-stakes AI. We present a comparative matrix for the EU, US, and China that maps (i) risk classification triggers, (ii) binding obligations, (iii) enforcement and accountability mechanisms, and (iv) the degree to which FAIR principles are operationalised in practice. We stress-test the matrix on three high-impact domains: Electroencephalography (EEG)-guided rehabilitation robotics, AI-enabled debt collection in prospective Central Bank Digital Currency (CBDC) ecosystems, and AI-driven allocation of scarce Graphics Processing Unit (GPU) resources in emerging AI Factory infrastructures. Using primary legal texts and implementation evidence, we identify three recurring gaps: weak interoperability mandates, difficult operationalisation of cross-regime obligations (AI + sector regulation + data protection), and under-specified governance for critical digital infrastructure use cases. To bridge the implementation gap, we outline Knowledge Blocks, a machine-checkable compliance artefact pattern based on Resource Description Framework/Web Ontology Language (RDF/OWL), Shapes Constraint Language (SHACL), and Provenance Ontology (PROV-O), enabling audit-ready compliance-by-design across multiple regimes.",
+      "pub_date": "Tue, 18 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "全球高风险AI用例的FAIR与伦理监管比较研究",
+        "summary": "本文比较了欧盟、美国和中国在AI治理中的风险分类、义务、执行机制及FAIR原则实施情况，针对脑电图康复机器人、CBDC债务催收和GPU资源分配三个高风险领域进行压力测试，识别出互操作性、跨制度义务操作化和关键基础设施治理三大缺口，并提出基于RDF/OWL、SHACL和PROV-O的机器可检查合规模式“知识块”。",
+        "summary_en": "This paper compares AI governance in the EU, US, and China, stress-tests on three high-risk domains, identifies gaps in interoperability, operationalization, and infrastructure governance, and proposes a machine-checkable compliance pattern called Knowledge Blocks.",
+        "tags": [
+          "research",
+          "security",
+          "infrastructure",
+          "benchmark",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-18-rss-008",
+        "title": "全球高风险AI用例的FAIR与伦理监管比较研究",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.14562",
+        "language": "en",
+        "summary": "本文比较了欧盟、美国和中国在AI治理中的风险分类、义务、执行机制及FAIR原则实施情况，针对脑电图康复机器人、CBDC债务催收和GPU资源分配三个高风险领域进行压力测试，识别出互操作性、跨制度义务操作化和关键基础设施治理三大缺口，并提出基于RDF/OWL、SHACL和PROV-O的机器可检查合规模式“知识块”。",
+        "summary_en": "This paper compares AI governance in the EU, US, and China, stress-tests on three high-risk domains, identifies gaps in interoperability, operationalization, and infrastructure governance, and proposes a machine-checkable compliance pattern called Knowledge Blocks.",
+        "tags": [
+          "research",
+          "security",
+          "infrastructure",
+          "benchmark",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-18T16:33:14.125107+08:00",
+        "updated_at": "2026-08-18T16:33:14.125109+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Auxiliary uncertainty signals for LLM-assisted systematic review screening: a benchmark across eight Cohen drug-class reviews",
+      "url": "https://arxiv.org/abs/2608.14551",
+      "description": "arXiv:2608.14551v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly used for title-abstract screening in systematic reviews, but their decisions lack calibrated uncertainty. We show that an auxiliary BERT+GCN classifier supplies a structured uncertainty signal that improves LLM screening efficiency, and we identify the prompt-delivery strategy that maximises the benefit-to-cost ratio.\n  We evaluate five LLM prompt-delivery conditions on eight drug-class datasets from the Cohen (2006) benchmark using 3 seeds x 5-fold stratified cross-validation (600 fold-level results). A BERT+GCN model trained per fold classifies each test paper as INCLUDE, EXCLUDE, or MAYBE via two spectral tests (algebraic radical and categorical paradox). Conditions vary information content (none / label / full scores), selectivity (all papers vs. MAYBE only), and timing (proactive vs. reactive two-pass). A cross-model pilot against gpt-4.1-mini on three datasets tests cross-generation transfer.\n  Three findings: (i) Full-context delivery yields significant gains in F1 (+0.011, paired Wilcoxon p=0.008) and WSS@95 (+0.050, p=0.039) at a 1.28x token-cost premium, while preserving recall. (ii) MAYBE-only routing is Pareto-optimal: highest mean recall (0.92) and AUC-ROC (0.54) at only 1.05x baseline cost -- one sixth of full-context overhead. (iii) The two-pass design escalates 22.2% +/- 8.8% of records yet never revises its decision (0% flip rate across all datasets and folds), giving decisive evidence that current instruction-tuned LLMs cannot self-triage. The cross-model pilot shows an identical +0.8% recall uplift for both LLM generations. A per-paper ablation across 20,796 observations shows the dual paradox test reduces empirically to a one-line logit-gap criterion. We release the full pipeline; the 600-run experiment replays in under one hour from cached LLM responses.",
+      "pub_date": "Tue, 18 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "LLM辅助系统评价筛选中的辅助不确定性信号：基于八个Cohen药物类综述的基准测试",
+        "summary": "该研究提出使用辅助BERT+GCN分类器为LLM在系统评价标题-摘要筛选中提供结构化不确定性信号，提升筛选效率。在八个药物类数据集上评估五种提示交付策略，发现全上下文交付显著提升F1和WSS@95，MAYBE-only路由帕累托最优，两遍设计无法自我分诊。",
+        "summary_en": "This study proposes an auxiliary BERT+GCN classifier to provide structured uncertainty signals for LLM-based title-abstract screening in systematic reviews, improving efficiency. Evaluated on eight drug-class datasets, full-context delivery improves F1 and WSS@95, MAYBE-only routing is Pareto-optimal, and two-pass design fails to self-triage.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "research",
+          "application",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-18-rss-006",
+        "title": "LLM辅助系统评价筛选中的辅助不确定性信号：基于八个Cohen药物类综述的基准测试",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.14551",
+        "language": "en",
+        "summary": "该研究提出使用辅助BERT+GCN分类器为LLM在系统评价标题-摘要筛选中提供结构化不确定性信号，提升筛选效率。在八个药物类数据集上评估五种提示交付策略，发现全上下文交付显著提升F1和WSS@95，MAYBE-only路由帕累托最优，两遍设计无法自我分诊。",
+        "summary_en": "This study proposes an auxiliary BERT+GCN classifier to provide structured uncertainty signals for LLM-based title-abstract screening in systematic reviews, improving efficiency. Evaluated on eight drug-class datasets, full-context delivery improves F1 and WSS@95, MAYBE-only routing is Pareto-optimal, and two-pass design fails to self-triage.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "research",
+          "application",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-08-18T16:33:14.125098+08:00",
+        "updated_at": "2026-08-18T16:33:14.125100+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "HarmProfile: Characterizing Harmful Distributions in Frontier LLMs",
+      "url": "https://arxiv.org/abs/2608.14577",
+      "description": "arXiv:2608.14577v1 Announce Type: new \nAbstract: Frontier large language models (LLMs) safety evaluation has largely treated harmful generation as an attack outcome rather than as an object of analysis. Consequently, little is known about the harmful outputs produced during model misbehavior, partly because large-scale, high-quality collections of frontier-LLM misbehavior are difficult to obtain. To address this gap, we introduce HarmProfile, a content-centric benchmark dataset that collects model misbehavior across diverse harm categories and model families, and defines the resulting harmful-output distribution as a model-level risk profile. The premise is that, just as linguistic behavior can be characterized from an utterance corpus, model risk can be characterized from the content, severity, and variation of its safety failures. HarmProfile contains over 80,000 validated artifacts from 23 frontier LLMs across 13 model families, organized into 15 harm categories and 57 subcategories. Using this corpus, we find that frontier LLMs reliably produce harmful content at scale, yet exhibit distinct risk profiles; both harmfulness and diversity grow with model capability, suggesting that frontier LLMs may appear safe yet harbor increasingly dangerous knowledge beneath the alignment surface. Our source code is available at https://github.com/fresh-ma/HarmProfile .",
+      "pub_date": "Tue, 18 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "HarmProfile：刻画前沿大语言模型的有害分布",
+        "summary": "HarmProfile是一个以内容为中心的基准数据集，收集了23个前沿LLM在15个危害类别和57个子类别中的超过80,000个经过验证的违规输出，定义模型级风险画像。研究发现前沿LLM可靠地产生有害内容，且危害性和多样性随模型能力增长，表明模型可能表面安全但隐藏危险知识。",
+        "summary_en": "HarmProfile is a content-centric benchmark dataset collecting over 80,000 validated harmful outputs from 23 frontier LLMs across 15 harm categories, defining model-level risk profiles. Findings show harmful content scales with capability, suggesting hidden dangers beneath alignment.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "security",
+          "research"
+        ],
+        "category": "security",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-18-rss-003",
+        "title": "HarmProfile：刻画前沿大语言模型的有害分布",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.14577",
+        "language": "en",
+        "summary": "HarmProfile是一个以内容为中心的基准数据集，收集了23个前沿LLM在15个危害类别和57个子类别中的超过80,000个经过验证的违规输出，定义模型级风险画像。研究发现前沿LLM可靠地产生有害内容，且危害性和多样性随模型能力增长，表明模型可能表面安全但隐藏危险知识。",
+        "summary_en": "HarmProfile is a content-centric benchmark dataset collecting over 80,000 validated harmful outputs from 23 frontier LLMs across 15 harm categories, defining model-level risk profiles. Findings show harmful content scales with capability, suggesting hidden dangers beneath alignment.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "security",
+          "research"
+        ],
+        "category": "security",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-18T16:33:14.125085+08:00",
+        "updated_at": "2026-08-18T16:33:14.125087+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Multi-Modal Generative Fuzzy System: Fuzzy Inference Guided Large Model Interactive Question Answering Framework",
+      "url": "https://arxiv.org/abs/2608.14584",
+      "description": "arXiv:2608.14584v1 Announce Type: new \nAbstract: In Multimodal Question Answering (MQA), models are required to jointly encode and integrate heterogeneous information from multiple modalities, including text, images, and speech, to perform complex semantic reasoning and decision making. Despite recent advances, existing approaches, including traditional deep learning models and Large Models (LMs) or prompt-based frameworks, continue to face several critical challenges. First, modality bias arises from discrepancies in feature distributions across different modalities, which limits effective cross modal collaborative understanding. Second, many questions require knowledge drawn from multiple domains, introducing significant uncertainty. Third, current methods often rely on shallow semantic matching, resulting in limited reasoning depth an reduced interpretability. To address these issues, inspired by the traditional fuzzy system (FS) framework, we propose a fuzzy-inference-guided multimodal generative architecture termed the Multi-Modal Generative Fuzzy System (MMGFS). The main contributions of MMGFS are two folds. First, it alleviates modality bias through a multimodal collaborative rumination mechanism. Second, it introduces fuzzy rules and a multi-hop inference mechanism to support cross-domain knowledge fusion and hierarchical reasoning, thereby strengthening uncertainty modelling and deepening semantic understanding. We conduct comprehensive evaluations on open-domain question answering datasets, including MultimodalQA and WebQA, as well as domain-specific benchmarks, including BioMol-VQA and EHRxQA. Experimental results demonstrate that MMGFS consistently outperforms existing methods across multiple datasets. It effectively mitigates modality bias and question uncertainty while achieving superior performance in answer accuracy, consistency, and generalization.",
+      "pub_date": "Tue, 18 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "多模态生成模糊系统：模糊推理引导的大模型交互式问答框架",
+        "summary": "提出MMGFS框架，利用模糊规则和多跳推理缓解多模态问答中的模态偏差和不确定性，增强跨域知识融合与推理深度，在多个数据集上优于现有方法。",
+        "summary_en": "Proposes MMGFS, a fuzzy-inference-guided multimodal generative framework that alleviates modality bias and uncertainty via fuzzy rules and multi-hop reasoning, outperforming baselines on MQA benchmarks.",
+        "tags": [
+          "multimodal",
+          "llm",
+          "research",
+          "rag",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-18-rss-009",
+        "title": "多模态生成模糊系统：模糊推理引导的大模型交互式问答框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.14584",
+        "language": "en",
+        "summary": "提出MMGFS框架，利用模糊规则和多跳推理缓解多模态问答中的模态偏差和不确定性，增强跨域知识融合与推理深度，在多个数据集上优于现有方法。",
+        "summary_en": "Proposes MMGFS, a fuzzy-inference-guided multimodal generative framework that alleviates modality bias and uncertainty via fuzzy rules and multi-hop reasoning, outperforming baselines on MQA benchmarks.",
+        "tags": [
+          "multimodal",
+          "llm",
+          "research",
+          "rag",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-18T16:33:14.125111+08:00",
+        "updated_at": "2026-08-18T16:33:14.125113+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Wiola 13M, a Gated Spiral Attention Architecture for Parameter Efficient Small Language Models",
+      "url": "https://arxiv.org/abs/2608.14604",
+      "description": "arXiv:2608.14604v1 Announce Type: new \nAbstract: Small language models in the ten to one hundred million parameter range are attractive for on device inference, rapid experimentation, and controlled scientific study, yet most of them reuse the standard transformer block without adaptation to the small scale regime. We present Wiola, a decoder only language model whose novelty is concentrated in three drop in components of every layer. First, Spiral Rotary Positional Encoding perturbs the standard rotary frequencies by a slowly growing per dimension factor so that phase trajectories fan outward, improving long range discrimination while adding no parameters. Second, Gated Spiral Attention introduces a per head, content adaptive scalar gate derived from a causal cumulative statistic of the query stream, providing an implicit and differentiable form of soft head selection at negligible cost. Third, the Butterfly feed forward block replaces the conventional expansion layer with a multiplicative interaction and an intra block bypass path, matching the parameter count of a four times gated linear unit block while improving gradient flow in shallow stacks. We formalize each component, derive exact parameter and computation budgets, and prove that the gated attention admits an exact and numerically verified equivalence between full sequence training and cached autoregressive decoding, so that no approximation is introduced at inference time. We also describe a fully reproducible training and evaluation protocol on a standard tiny story corpus. The reference implementation is released as an open source package with weights ready publishing support.",
+      "pub_date": "Tue, 18 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "Wiola 13M：用于参数高效小型语言模型的门控螺旋注意力架构",
+        "summary": "Wiola是一种仅解码器的小型语言模型，通过三个即插即用组件提升性能：螺旋旋转位置编码、门控螺旋注意力和蝶形前馈块。该架构在保持参数量的同时改善长距离建模和梯度流，并证明训练与推理等价，提供开源实现。",
+        "summary_en": "Wiola is a decoder-only small language model with three drop-in components: Spiral Rotary Positional Encoding, Gated Spiral Attention, and Butterfly feed-forward block. It improves long-range modeling and gradient flow while maintaining parameter count, and proves exact equivalence between training and inference, with open-source release.",
+        "tags": [
+          "llm",
+          "research",
+          "architecture",
+          "open-source"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-18-rss-004",
+        "title": "Wiola 13M：用于参数高效小型语言模型的门控螺旋注意力架构",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.14604",
+        "language": "en",
+        "summary": "Wiola是一种仅解码器的小型语言模型，通过三个即插即用组件提升性能：螺旋旋转位置编码、门控螺旋注意力和蝶形前馈块。该架构在保持参数量的同时改善长距离建模和梯度流，并证明训练与推理等价，提供开源实现。",
+        "summary_en": "Wiola is a decoder-only small language model with three drop-in components: Spiral Rotary Positional Encoding, Gated Spiral Attention, and Butterfly feed-forward block. It improves long-range modeling and gradient flow while maintaining parameter count, and proves exact equivalence between training and inference, with open-source release.",
+        "tags": [
+          "llm",
+          "research",
+          "architecture",
+          "open-source"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-18T16:33:14.125090+08:00",
+        "updated_at": "2026-08-18T16:33:14.125091+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "AutoMem: A Text-Gradient Recursive Self-Improvement Framework for Automated Memory Architectures Search",
+      "url": "https://arxiv.org/abs/2608.14621",
+      "description": "arXiv:2608.14621v1 Announce Type: new \nAbstract: Long-term memory is increasingly central to LLM agents, yet memory design remains a highly coupled architecture problem: what to encode, how to store it, how to retrieve it, and how to manage it can vary substantially across tasks and backbone models. We construct a discrete search space with 5 encoders, 5 stores, 6 retrievers, and 4 managers, and show that no single memory architecture consistently dominates: different tasks favor different module combinations, leading to substantial performance gaps. Motivated by this, we propose \\textsc{AutoMem}, a text-gradient recursive self-improvement framework for task-adaptive memory architecture search. \\textsc{AutoMem} optimizes over the factored space through two components: Experience-Guided Architecture Search, which proposes candidate architectures from historical search trajectories and accumulated reflections, and Failure-Guided Module Diagnosis, which localizes memory-related failures to specific modules and converts them into targeted textual feedback. Experiments on GAIA, WebWalkerQA, and xBench-DeepSearch across two LLM backbones show that \\textsc{AutoMem} consistently discovers task-adaptive memory architectures that outperform the strongest human-designed memory baselines, improving accuracy by $2.8$ points on average across six benchmark-backbone settings. Further analysis shows that \\textsc{AutoMem} achieves a favorable accuracy-efficiency trade-off, reducing token cost by $14.3\\%$ over the strongest accuracy baselines under Qwen3.5-122B-A10B, while also finding stronger architectures than substantially larger random searches within only a few guided iterations.",
+      "pub_date": "Tue, 18 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "AutoMem：用于自动化记忆架构搜索的文本梯度递归自改进框架",
+        "summary": "AutoMem提出一种文本梯度递归自改进框架，用于任务自适应记忆架构搜索。通过经验引导的架构搜索和失败引导的模块诊断，在GAIA等基准上平均提升2.8个点，并降低14.3%的token成本。",
+        "summary_en": "AutoMem proposes a text-gradient recursive self-improvement framework for task-adaptive memory architecture search. It improves accuracy by 2.8 points on average and reduces token cost by 14.3%.",
+        "tags": [
+          "llm",
+          "agent-framework",
+          "research",
+          "optimization",
+          "memory"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-18-rss-005",
+        "title": "AutoMem：用于自动化记忆架构搜索的文本梯度递归自改进框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.14621",
+        "language": "en",
+        "summary": "AutoMem提出一种文本梯度递归自改进框架，用于任务自适应记忆架构搜索。通过经验引导的架构搜索和失败引导的模块诊断，在GAIA等基准上平均提升2.8个点，并降低14.3%的token成本。",
+        "summary_en": "AutoMem proposes a text-gradient recursive self-improvement framework for task-adaptive memory architecture search. It improves accuracy by 2.8 points on average and reduces token cost by 14.3%.",
+        "tags": [
+          "llm",
+          "agent-framework",
+          "research",
+          "optimization",
+          "memory"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-18T16:33:14.125094+08:00",
+        "updated_at": "2026-08-18T16:33:14.125095+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}
