@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-19-rss-006",
+  "title": "ICD-Deepresearch：面向临床代码预测的智能体深度研究框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.17075",
+  "language": "en",
+  "summary": "ICD-Deepresearch 是一种深度研究工作流，结合结构化 EHR 基础模型与语言模型，通过候选生成、证据检索和最终选择，提升 ICD 代码预测的准确性和证据可用性。在 MIMIC-III/IV 上取得显著改进，医生评估显示其检索文档更有用。",
+  "summary_en": "ICD-Deepresearch is a deep research workflow combining structured EHR foundation models with language models to improve ICD code forecasting via candidate generation, evidence retrieval, and final selection, achieving significant gains on MIMIC-III/IV with higher physician-rated usefulness.",
+  "tags": [
+    "llm",
+    "research",
+    "application",
+    "rag",
+    "fine-tuning"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-08-19T16:34:05.683935+08:00",
+  "updated_at": "2026-08-19T16:34:05.683938+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

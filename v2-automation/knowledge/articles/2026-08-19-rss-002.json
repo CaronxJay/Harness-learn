@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-19-rss-002",
+  "title": "机构特定LLM提示恢复去标识系统及其金标准遗漏的受保护健康信息",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.17051",
+  "language": "en",
+  "summary": "研究评估LLM结合上下文学习在电子健康记录去标识中的表现，发现LLM优于专用系统（F1=0.918 vs 0.779），通过机构特定提示恢复79%遗漏的PHI，并平衡精确率与召回率。",
+  "summary_en": "LLMs with in-context learning outperform purpose-built de-identification systems (F1=0.918 vs 0.779), recovering 79% of institutionally situated PHI via specific prompts, and balancing precision-recall trade-off.",
+  "tags": [
+    "llm",
+    "application",
+    "research",
+    "prompt-engineering",
+    "security"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-19T16:34:05.683904+08:00",
+  "updated_at": "2026-08-19T16:34:05.683906+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

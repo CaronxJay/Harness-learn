@@ -1,0 +1,461 @@
+{
+  "collected_at": "2026-08-19T16:34:05.684936+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "GxP-Agent: Process-DAG Topology for Reliable Clinical Trial Programming with LLM Agents",
+      "url": "https://arxiv.org/abs/2608.16890",
+      "description": "arXiv:2608.16890v1 Announce Type: new \nAbstract: Clinical trial programming -- transforming study protocols into analysis-ready datasets under CDISC standards -- is a bottleneck in regulatory submissions, yet LLM-based code generation fails catastrophically on this task: across 11 single-shot attempts with five frontier models, none produces a valid subject-level analysis dataset. We introduce GxP-Agent, a multi-agent system that encodes regulatory process ordering as a directed acyclic graph (DAG), decomposing monolithic dataset generation into 15 domain-specific nodes executed by worker agents with pharmaverse skill context, validation gates, and conditional retry. On CDISC-Bench, a new execution-based benchmark built from the FDA pilot submission CDISCPilot01 (254 subjects, 49 ground-truth ADSL variables), GxP-Agent with Claude Sonnet 4.6 achieves 100% structural match (49/49 variables, 254 correct records) across three independent runs, compared to 59.2% for the best retrieval-augmented baseline and 0% for all single-agent and flat multi-agent approaches. The DAG topology also enables weaker models: GPT-4.1 achieves 59.2% mean structural match under the same DAG, where it scores 0% under every other architecture. The approach generalizes to ADAE (adverse events; 9-node branching DAG, 55 variables, 1,191 records), achieving 100% structural match on the first attempt. These results demonstrate that encoding domain process knowledge as graph topology -- rather than relying on LLM reasoning alone -- is a key enabler for reliable, GxP-compliant clinical trial programming.",
+      "pub_date": "Wed, 19 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "GxP-Agent：利用流程DAG拓扑实现可靠的临床试验编程LLM智能体",
+        "summary": "GxP-Agent是一个多智能体系统，将监管流程编码为有向无环图（DAG），将临床数据集生成分解为15个领域特定节点，配备验证门和条件重试。在CDISC-Bench基准上，使用Claude Sonnet 4.6实现100%结构匹配，优于所有单智能体和平面多智能体方法，证明图拓扑编码领域知识是可靠合规编程的关键。",
+        "summary_en": "GxP-Agent is a multi-agent system encoding regulatory process as a DAG, decomposing clinical dataset generation into 15 domain-specific nodes with validation gates and retry. On CDISC-Bench, it achieves 100% structural match with Claude Sonnet 4.6, outperforming all single-agent and flat multi-agent approaches, showing graph topology encoding domain knowledge is key for reliable compliant programming.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "benchmark",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-19-rss-001",
+        "title": "GxP-Agent：利用流程DAG拓扑实现可靠的临床试验编程LLM智能体",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.16890",
+        "language": "en",
+        "summary": "GxP-Agent是一个多智能体系统，将监管流程编码为有向无环图（DAG），将临床数据集生成分解为15个领域特定节点，配备验证门和条件重试。在CDISC-Bench基准上，使用Claude Sonnet 4.6实现100%结构匹配，优于所有单智能体和平面多智能体方法，证明图拓扑编码领域知识是可靠合规编程的关键。",
+        "summary_en": "GxP-Agent is a multi-agent system encoding regulatory process as a DAG, decomposing clinical dataset generation into 15 domain-specific nodes with validation gates and retry. On CDISC-Bench, it achieves 100% structural match with Claude Sonnet 4.6, outperforming all single-agent and flat multi-agent approaches, showing graph topology encoding domain knowledge is key for reliable compliant programming.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "benchmark",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-19T16:34:05.683891+08:00",
+        "updated_at": "2026-08-19T16:34:05.683897+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Runtime Governance for Agentic AI: Action-Boundary Control with Trusted Provenance and Fail-Closed Execution",
+      "url": "https://arxiv.org/abs/2608.16891",
+      "description": "arXiv:2608.16891v1 Announce Type: new \nAbstract: Agentic AI systems request tool actions that can modify files, send messages, launch jobs, or change workflow state. This shifts the safety problem from harmful text generation to harmful operational side effects. Prompt-level governance can shape model behavior, but it does not create an execution boundary. We introduce Aegis, a runtime governance system that treats model outputs as action proposals and mediates them through a trusted decision layer before tool execution. The model proposes; the trusted runtime decides. Aegis evaluates proposals against active policy state, resolves provenance server-side, fails closed under uncertainty, and routes selected cases through Senate-style settlement, a quorum- based non-unilateral authorization path. We evaluate Aegis on a repeated sandbox corpus spanning five run families, 42 tasks, three conditions, and ten repeats per family. Across 6,300 rows, prompt-policy conditioning produced 79 risky comparator-path leakage rows. Across 2,100 Aegis-governed rows, the system recorded zero governed mock-tool applications and zero governed risky side-effect completions. All 1,832 Aegis-attempted governed rows preserved trusted Aegis-resolved provenance, and all 1,019 Senate-settled rows had quorum and final signed tally evidence. These results do not prove general autonomous-agent safety. They support the narrower systems claim that, in this evaluated sandbox corpus, runtime action-boundary governance prevented observed risky proposals from becoming governed side effects.",
+      "pub_date": "Wed, 19 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "Agentic AI运行时治理：基于动作边界控制与可信溯源的安全执行",
+        "summary": "介绍Aegis运行时治理系统，将模型输出视为动作提案，通过可信决策层在工具执行前进行中介。系统基于策略状态评估、服务端溯源解析、不确定时失败关闭，并采用基于仲裁的非单边授权路径。在6300行沙箱语料上，Aegis治理下零风险副作用，验证了运行时动作边界治理的有效性。",
+        "summary_en": "Introduces Aegis, a runtime governance system treating model outputs as action proposals mediated by a trusted decision layer before tool execution. It evaluates against policy, resolves provenance server-side, fails closed under uncertainty, and uses Senate-style quorum settlement. In 6300-row sandbox corpus, zero risky side-effects under governance.",
+        "tags": [
+          "agent-framework",
+          "security",
+          "infrastructure",
+          "research"
+        ],
+        "category": "security",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-19-rss-003",
+        "title": "Agentic AI运行时治理：基于动作边界控制与可信溯源的安全执行",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.16891",
+        "language": "en",
+        "summary": "介绍Aegis运行时治理系统，将模型输出视为动作提案，通过可信决策层在工具执行前进行中介。系统基于策略状态评估、服务端溯源解析、不确定时失败关闭，并采用基于仲裁的非单边授权路径。在6300行沙箱语料上，Aegis治理下零风险副作用，验证了运行时动作边界治理的有效性。",
+        "summary_en": "Introduces Aegis, a runtime governance system treating model outputs as action proposals mediated by a trusted decision layer before tool execution. It evaluates against policy, resolves provenance server-side, fails closed under uncertainty, and uses Senate-style quorum settlement. In 6300-row sandbox corpus, zero risky side-effects under governance.",
+        "tags": [
+          "agent-framework",
+          "security",
+          "infrastructure",
+          "research"
+        ],
+        "category": "security",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-08-19T16:34:05.683912+08:00",
+        "updated_at": "2026-08-19T16:34:05.683914+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "The Price of Thinking: Reasoning Effort as a Model-Specific API Contract",
+      "url": "https://arxiv.org/abs/2608.16956",
+      "description": "arXiv:2608.16956v1 Announce Type: new \nAbstract: API buyers purchase a dated contract, not a model name alone: the contract includes the requested and served model, reasoning-effort term or its omission, output rail, service product, prompt, and price schedule. We study the reasoning-effort term through a registered paired contrast of Sonnet 5 with explicit high effort against the same model with effort omitted, using 30 AIME 2026 items and five calls per item. Every paid attempt was assigned one frozen terminal category, and inference resampled items while retaining their repeated calls. Mean delivered cost was \\$0.01031 per call higher under the explicit-high contract than under the omitted contract [+\\$0.00204, +\\$0.01974]. The corresponding accuracy contrast was +0.0133 [-0.0267, +0.0467]; we did not detect an accuracy difference, and the interval permits a gain of up to 4.67 percentage points that this design cannot rule out. Cost per correct answer was \\$0.08665 under the high-effort contract and \\$0.07662 under the omitted contract, as registered point estimates. A dated contract census, Models-API metadata, and preregistered raw-response probes further documented model-specific omission semantics, including within a provider; claims remained at documentation grade when raw structure was indeterminate. The request registry, parser, terminal taxonomy, statistical plan, and analysis pipeline were frozen before outcomes were examined; the resulting claims are bounded to the model, task, and collection date studied.",
+      "pub_date": "Wed, 19 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "思考的代价：推理努力作为模型特定的API契约",
+        "summary": "该研究将API购买视为包含推理努力条款的契约，通过对比Sonnet 5显式高努力与省略努力条款的调用，发现显式高努力使每次调用成本增加约0.010美元，但未检测到准确率显著差异。研究强调推理努力是模型特定的API契约要素，影响成本与性能。",
+        "summary_en": "This study treats API purchases as contracts including reasoning-effort terms. Comparing Sonnet 5 with explicit high effort versus omitted effort, it found higher cost per call but no significant accuracy difference, highlighting reasoning effort as a model-specific API contract element.",
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-19-rss-007",
+        "title": "思考的代价：推理努力作为模型特定的API契约",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.16956",
+        "language": "en",
+        "summary": "该研究将API购买视为包含推理努力条款的契约，通过对比Sonnet 5显式高努力与省略努力条款的调用，发现显式高努力使每次调用成本增加约0.010美元，但未检测到准确率显著差异。研究强调推理努力是模型特定的API契约要素，影响成本与性能。",
+        "summary_en": "This study treats API purchases as contracts including reasoning-effort terms. Comparing Sonnet 5 with explicit high effort versus omitted effort, it found higher cost per call but no significant accuracy difference, highlighting reasoning effort as a model-specific API contract element.",
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-19T16:34:05.683943+08:00",
+        "updated_at": "2026-08-19T16:34:05.683945+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "FedPref: Federated Preference Learning for Structured Radiology Report Extraction",
+      "url": "https://arxiv.org/abs/2608.16971",
+      "description": "arXiv:2608.16971v1 Announce Type: new \nAbstract: Radiology reports describe findings and locations in free text, but downstream search and analysis require these relations in a fixed schema. Learning this extraction requires labels that are unevenly distributed across institutions: smaller hospitals have less local evidence, and pooling data may be infeasible. We introduce FedPref: frozen public language models propose alternative JSON extractions, local annotations rank them, and sites collaboratively train compact Qwen3-8B adapters while sharing only model updates. A heterogeneous teacher pool provides cross-model contrast when repeated single-model samples collapse. On development data from six simulated hospitals with unequal data volume and disease prevalence, FedPref improves client-mean F1 by 2.49 points and worst-site F1 by 9.10 points compared with training each site in isolation, with the largest gains at the sites holding the least data. Central training on the pooled preference-pair union is 2.66 points higher on client-mean F1. On a locked, 400-report manually validated gold test set, FedPref reaches 68.68 F1 and pooled training 71.67, preserving that same ordering. FedPref thus lets institutions with unequal, unpooled data benefit from collaboration without ever sharing reports or annotations.",
+      "pub_date": "Wed, 19 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "FedPref：面向结构化放射学报告提取的联邦偏好学习",
+        "summary": "FedPref 是一种联邦学习方法，利用冻结的公共语言模型生成候选 JSON 提取，由本地标注排序，各机构仅共享模型更新，协作训练紧凑的 Qwen3-8B 适配器。在模拟数据上，相比独立训练，客户端平均 F1 提升 2.49 点，最差站点提升 9.10 点，且无需共享报告或标注。",
+        "summary_en": "FedPref is a federated learning method that uses frozen public language models to propose candidate JSON extractions, ranked by local annotations, and collaboratively trains compact Qwen3-8B adapters while sharing only model updates. On simulated data, it improves client-mean F1 by 2.49 points and worst-site F1 by 9.10 points over isolated training, without sharing reports or annotations.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "application",
+          "infrastructure"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-19-rss-004",
+        "title": "FedPref：面向结构化放射学报告提取的联邦偏好学习",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.16971",
+        "language": "en",
+        "summary": "FedPref 是一种联邦学习方法，利用冻结的公共语言模型生成候选 JSON 提取，由本地标注排序，各机构仅共享模型更新，协作训练紧凑的 Qwen3-8B 适配器。在模拟数据上，相比独立训练，客户端平均 F1 提升 2.49 点，最差站点提升 9.10 点，且无需共享报告或标注。",
+        "summary_en": "FedPref is a federated learning method that uses frozen public language models to propose candidate JSON extractions, ranked by local annotations, and collaboratively trains compact Qwen3-8B adapters while sharing only model updates. On simulated data, it improves client-mean F1 by 2.49 points and worst-site F1 by 9.10 points over isolated training, without sharing reports or annotations.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "application",
+          "infrastructure"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-08-19T16:34:05.683919+08:00",
+        "updated_at": "2026-08-19T16:34:05.683922+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "The Problem Is the Problem: Towards Scalable Mathematical Discovery",
+      "url": "https://arxiv.org/abs/2608.16977",
+      "description": "arXiv:2608.16977v1 Announce Type: new \nAbstract: AI systems are increasingly capable of contributing to mathematical research. In research practice, frontier-model reasoning is a limited resource, and expert mathematical review is even more sharply constrained. Allocating these scarce resources well is therefore central to making AI-assisted mathematical discovery efficient. In most current AI-for-math workflows, human effort is concentrated at the beginning and end, in selecting suitable research problems and later reviewing the resulting artifacts. These two stages are becoming bottlenecks for research-level mathematics. We address them by proposing a new human-AI discovery paradigm. The human input is no longer a single problem selected in advance, but a research direction in which the experts have interest and expertise. The system then searches a broad literature corpus for candidate problems in that direction. Inspired by search and recommender systems, we build Find, Attempt, and Recommend (FAR), a literature-to-review cascade that automates the search for suitable problems and focuses human attention on artifacts that have passed several stages of filtering. In a combinatorics pilot, the pipeline starts from 5,245 combinatorics papers, recovers 6,453 candidate conjectures or open problems, and filters them to 4,717 apparently well-posed and still-open conjectures. Subsequent reasoning and automated triage stages surface 598 potential resolutions and select 77 items for author-team review. Among them, we identify many interesting discoveries, including results on conjectures and questions of Davies--Jenssen--Perkins--Roberts, Erd\\H{o}s--Straus, Ikenmeyer--Pak--Panova, and Lund--Saraf--Wolf. These results demonstrate the effectiveness of this new mode of human-AI collaboration for mathematical discovery.",
+      "pub_date": "Wed, 19 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "问题即问题：迈向可扩展的数学发现",
+        "summary": "提出新的人机协作数学发现范式FAR，从文献中自动搜索候选问题，经多阶段过滤聚焦专家评审，在组合学试点中从5245篇论文中筛选出77项供评审，发现多个重要猜想结果。",
+        "summary_en": "Proposes FAR, a new human-AI paradigm for mathematical discovery, automating problem search from literature and filtering to focus expert review. In a combinatorics pilot, it reduced 5,245 papers to 77 items for review, yielding notable results.",
+        "tags": [
+          "research",
+          "application",
+          "llm",
+          "tool"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-19-rss-008",
+        "title": "问题即问题：迈向可扩展的数学发现",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.16977",
+        "language": "en",
+        "summary": "提出新的人机协作数学发现范式FAR，从文献中自动搜索候选问题，经多阶段过滤聚焦专家评审，在组合学试点中从5245篇论文中筛选出77项供评审，发现多个重要猜想结果。",
+        "summary_en": "Proposes FAR, a new human-AI paradigm for mathematical discovery, automating problem search from literature and filtering to focus expert review. In a combinatorics pilot, it reduced 5,245 papers to 77 items for review, yielding notable results.",
+        "tags": [
+          "research",
+          "application",
+          "llm",
+          "tool"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-19T16:34:05.683950+08:00",
+        "updated_at": "2026-08-19T16:34:05.683953+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Margin-Regularized Structured Semantic Alignment for Brain-Language Correspondence",
+      "url": "https://arxiv.org/abs/2608.16975",
+      "description": "arXiv:2608.16975v1 Announce Type: new \nAbstract: With the rapid advancement of large language models, brain-language decoding has achieved remarkable progress. However, it remains unclear whether decoded content genuinely reflects neural representations or is largely reconstructed by the language model itself. This ambiguity limits interpretability and hinders the investigation of intrinsic brain-language correspondence. To address this challenge, we propose MD-SigLIP. This margin-regularized structured semantic alignment framework directly aligns brain embeddings with text embeddings in a shared semantic space, enabling retrieval-based decoding. This formulation enables explicit modeling of the correspondence between neural representations and language semantics. Building upon duplicate-aware sigmoid contrastive learning, we introduce a listwise margin-regularized term that enforces structured ranking constraints between positive semantic clusters and negative samples. By modeling multi-positive semantic structure and margin-based ordering simultaneously, the method captures the manifold organization of language embeddings reflected in neural signals. Experiments demonstrate state-of-the-art retrieval performance under both full-vocabulary and subset evaluation settings.",
+      "pub_date": "Wed, 19 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "基于边际正则化结构化语义对齐的脑语言对应研究",
+        "summary": "提出MD-SigLIP框架，通过边际正则化结构化语义对齐，将大脑嵌入与文本嵌入直接对齐到共享语义空间，实现基于检索的脑语言解码，显式建模神经表征与语言语义的对应关系，提升可解释性和检索性能。",
+        "summary_en": "Proposes MD-SigLIP, a margin-regularized structured semantic alignment framework that aligns brain embeddings with text embeddings in a shared space for retrieval-based decoding, explicitly modeling brain-language correspondence and achieving SOTA retrieval performance.",
+        "tags": [
+          "llm",
+          "research",
+          "multimodal",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-19-rss-009",
+        "title": "基于边际正则化结构化语义对齐的脑语言对应研究",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.16975",
+        "language": "en",
+        "summary": "提出MD-SigLIP框架，通过边际正则化结构化语义对齐，将大脑嵌入与文本嵌入直接对齐到共享语义空间，实现基于检索的脑语言解码，显式建模神经表征与语言语义的对应关系，提升可解释性和检索性能。",
+        "summary_en": "Proposes MD-SigLIP, a margin-regularized structured semantic alignment framework that aligns brain embeddings with text embeddings in a shared space for retrieval-based decoding, explicitly modeling brain-language correspondence and achieving SOTA retrieval performance.",
+        "tags": [
+          "llm",
+          "research",
+          "multimodal",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-19T16:34:05.683957+08:00",
+        "updated_at": "2026-08-19T16:34:05.683960+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Cross-Model Memory Transfer via Target-Side Reader Adaptation",
+      "url": "https://arxiv.org/abs/2608.17050",
+      "description": "arXiv:2608.17050v1 Announce Type: new \nAbstract: Methods for improving knowledge use in large language models typically fall into two regimes. Non-parametric retrieval offers flexible access to external knowledge, but adds retrieval latency, context overhead, and only shallow integration with the backbone. Parametric adaptation is efficient at inference time, but entangles knowledge with model weights and can be hard to update, audit, or transfer. Engram-style hashed memory occupies a middle regime: it stores learned information in an external, addressable table, yet consumes that table through a small learned reader. This raises a basic question: when such a memory is moved across backbones, what matters more, the frozen memory itself or the target-side reader? We study this question through cross-model frozen-memory extraction, in which a memory trained on a source model is frozen and attached to a different target model, with only a lightweight reader trained. Ablations show that learned memory content and correct addressing both matter, but the transferred table becomes useful only through a reader aligned to the target model. In downstream question answering tasks, a dual-layer, four-branch reader nearly closes the gap between same-model and cross-model reuse, achieving an average score of 38.8 under our controlled evaluation protocol. Moreover, when the provider reader is directly compatible with the target interface, the frozen artifact can provide substantial utility without target-side training, while optional reader adaptation yields further improvement. These results suggest that Engram can serve as a reusable external knowledge artifact, provided that the target has access to a compatible reader interface; target-side adaptation can further improve alignment when direct reader reuse is insufficient.",
+      "pub_date": "Wed, 19 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "跨模型记忆迁移：目标端读取器适配研究",
+        "summary": "该研究探讨了Engram式哈希记忆在不同骨干模型间的迁移。通过冻结源模型训练的记忆，仅训练目标端轻量读取器，发现目标端读取器对齐至关重要。双分支读取器几乎弥合同模型与跨模型差距，平均得分38.8。若读取器接口兼容，冻结记忆可直接复用，适配可进一步提升。",
+        "summary_en": "This study explores transferring Engram-style hashed memory across backbones. By freezing source-trained memory and training only a target-side reader, it finds reader alignment is crucial. A dual-layer, four-branch reader nearly closes the gap, achieving 38.8. Compatible readers enable direct reuse, with adaptation improving alignment.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "infrastructure"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-19-rss-005",
+        "title": "跨模型记忆迁移：目标端读取器适配研究",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.17050",
+        "language": "en",
+        "summary": "该研究探讨了Engram式哈希记忆在不同骨干模型间的迁移。通过冻结源模型训练的记忆，仅训练目标端轻量读取器，发现目标端读取器对齐至关重要。双分支读取器几乎弥合同模型与跨模型差距，平均得分38.8。若读取器接口兼容，冻结记忆可直接复用，适配可进一步提升。",
+        "summary_en": "This study explores transferring Engram-style hashed memory across backbones. By freezing source-trained memory and training only a target-side reader, it finds reader alignment is crucial. A dual-layer, four-branch reader nearly closes the gap, achieving 38.8. Compatible readers enable direct reuse, with adaptation improving alignment.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "infrastructure"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-08-19T16:34:05.683927+08:00",
+        "updated_at": "2026-08-19T16:34:05.683930+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Institution-Specific LLM Prompting Recovers PHI That De-identification Systems and Their Gold Standards Both Miss",
+      "url": "https://arxiv.org/abs/2608.17051",
+      "description": "arXiv:2608.17051v1 Announce Type: new \nAbstract: Secondary use of electronic health records requires de-identification, yet existing systems miss \\emph{institutionally situated} protected health information (PHI) such as hospital abbreviations, building names, and internal codes whose status is locally determined. We ask whether large language models (LLMs) with in-context learning (ICL) can close this gap and control the precision--recall trade-off.\n  On 100 annotated pediatric oncology notes (5,322 PHI spans) from Texas Children's Hospital, we benchmarked eight LLMs against two purpose-built systems (Stanford TiDE, OpenMed PII) and two pattern-based baselines. Each LLM ran under three prompts of increasing specificity: (1) a HIPAA-aligned baseline, (2) baseline plus the institutional PHI categories it missed, and (3) prompt 2 plus instructions against over-redacting clinical content. We then compared 14~multi-agent and ensemble configurations against the best single prompt, with recall the primary safety metric.\n  LLMs outperformed the purpose-built systems (best F1=0.918$\\pm$0.001 vs.\\ TiDE 0.779), with advantages concentrated in contextual categories. Naming the missed categories recovered 79\\% (48/61) of them, and discouraging over-redaction restored precision. No agentic architecture beat calibrated single-pass prompting (F1 0.906--0.907), but LLM outputs surfaced 414~candidate annotation gaps; re-annotation confirmed 227~PHI spans, against which the final prompt reached recall=0.981 (F1=0.907$\\pm$0.002).\n  Well-calibrated ICL resolves both the institutional PHI gap and the precision--recall trade-off in one LLM call per note. LLMs cost more to run than traditional methods, but that cost buys a way to audit the reference standard.\n  LLMs are a legitimate, adaptable alternative to purpose-built de-identification systems; institution-specific prompt development should be the primary adaptation strategy.",
+      "pub_date": "Wed, 19 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "机构特定LLM提示恢复去标识系统及其金标准遗漏的受保护健康信息",
+        "summary": "研究评估LLM结合上下文学习在电子健康记录去标识中的表现，发现LLM优于专用系统（F1=0.918 vs 0.779），通过机构特定提示恢复79%遗漏的PHI，并平衡精确率与召回率。",
+        "summary_en": "LLMs with in-context learning outperform purpose-built de-identification systems (F1=0.918 vs 0.779), recovering 79% of institutionally situated PHI via specific prompts, and balancing precision-recall trade-off.",
+        "tags": [
+          "llm",
+          "application",
+          "research",
+          "prompt-engineering",
+          "security"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-19-rss-002",
+        "title": "机构特定LLM提示恢复去标识系统及其金标准遗漏的受保护健康信息",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.17051",
+        "language": "en",
+        "summary": "研究评估LLM结合上下文学习在电子健康记录去标识中的表现，发现LLM优于专用系统（F1=0.918 vs 0.779），通过机构特定提示恢复79%遗漏的PHI，并平衡精确率与召回率。",
+        "summary_en": "LLMs with in-context learning outperform purpose-built de-identification systems (F1=0.918 vs 0.779), recovering 79% of institutionally situated PHI via specific prompts, and balancing precision-recall trade-off.",
+        "tags": [
+          "llm",
+          "application",
+          "research",
+          "prompt-engineering",
+          "security"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-19T16:34:05.683904+08:00",
+        "updated_at": "2026-08-19T16:34:05.683906+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Foundation Agents Meet Agentic Deep Research: Evidence-Grounded Clinical Code Forecasting",
+      "url": "https://arxiv.org/abs/2608.17075",
+      "description": "arXiv:2608.17075v1 Announce Type: new \nAbstract: Next-encounter ICD forecasting predicts which standardized diagnosis codes will be documented at a future visit from the longitudinal record available beforehand. The task is prospective and multi-label: the target note does not yet exist, and several codes may be correct. Structured EHR foundation models capture recurrence and temporal progression, whereas language foundation models generate flexible diagnostic hypotheses. We introduce ICD-Deepresearch, a DeepResearch workflow that composes these predictive foundation models with medical search and ICD dictionaries. Because no source reveals the future code set, research evaluates candidate transitions by linking patient evidence, external clinical relations, and exact code semantics under a fixed top-K budget. Candidate Generation uses SparseEHR to produce an EHR Prior that initializes two bounded Research Expansion rounds; an independent GPT-5 Direct Forecast supplies complementary candidates. Final Selection validates, deduplicates, and jointly ranks both paths, after which a separate module writes rationales without changing predictions. Finally ICD-Deepresearch achieves patient-averaged precision/recall of 24.60/35.09% on MIMIC-III and 25.14/48.32% on MIMIC-IV. Physicians rate 51% and 68% of its retrieved documents useful, compared with 22% and 39% for standalone GPT-5 web search and 32% and 41% for Medical Deep Research. ICD-Deepresearch therefore improves over the registered local comparators while retrieving evidence with higher physician-rated usefulness than the standalone research systems",
+      "pub_date": "Wed, 19 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "ICD-Deepresearch：面向临床代码预测的智能体深度研究框架",
+        "summary": "ICD-Deepresearch 是一种深度研究工作流，结合结构化 EHR 基础模型与语言模型，通过候选生成、证据检索和最终选择，提升 ICD 代码预测的准确性和证据可用性。在 MIMIC-III/IV 上取得显著改进，医生评估显示其检索文档更有用。",
+        "summary_en": "ICD-Deepresearch is a deep research workflow combining structured EHR foundation models with language models to improve ICD code forecasting via candidate generation, evidence retrieval, and final selection, achieving significant gains on MIMIC-III/IV with higher physician-rated usefulness.",
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "rag",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-19-rss-006",
+        "title": "ICD-Deepresearch：面向临床代码预测的智能体深度研究框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.17075",
+        "language": "en",
+        "summary": "ICD-Deepresearch 是一种深度研究工作流，结合结构化 EHR 基础模型与语言模型，通过候选生成、证据检索和最终选择，提升 ICD 代码预测的准确性和证据可用性。在 MIMIC-III/IV 上取得显著改进，医生评估显示其检索文档更有用。",
+        "summary_en": "ICD-Deepresearch is a deep research workflow combining structured EHR foundation models with language models to improve ICD code forecasting via candidate generation, evidence retrieval, and final selection, achieving significant gains on MIMIC-III/IV with higher physician-rated usefulness.",
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "rag",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-08-19T16:34:05.683935+08:00",
+        "updated_at": "2026-08-19T16:34:05.683938+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Uncertainty-Aware Decision Making in Multimodal Large Language Models",
+      "url": "https://arxiv.org/abs/2608.17084",
+      "description": "arXiv:2608.17084v1 Announce Type: new \nAbstract: Multimodal large language models (MLLMs) increasingly answer questions whose correctness depends on visual, textual, temporal, acoustic, document, chart, or embodied evidence. Their failures are therefore not only linguistic. A fluent answer may conceal poor input quality, a perceptual error, weak grounding, conflict between modalities, unstable reasoning, distribution shift, or a question that is not answerable from the supplied evidence. This survey organizes the literature on uncertainty-aware MLLMs around a decision-centered framework: uncertainty sources give rise to observable signals, signals must be calibrated or controlled for risk, and calibrated uncertainty should determine the system action. We review work on token and logit uncertainty, semantic disagreement, perturbation instability, grounding and attribution scores, verbalized confidence, verifier and judge scores, conformal prediction, selective answering, abstention, clarification, retrieval, self-checking, and escalation. The central argument is that uncertainty should not be evaluated only as a confidence number; it should be evaluated by whether it improves behavior under insufficient, conflicting, shifted, or high-risk multimodal evidence. We position this survey against text-only uncertainty and abstention surveys, broad MLLM surveys, MLLM hallucination surveys, and safety-oriented reviews. We conclude with open problems in source-aware decomposition, action-aware benchmarks, calibration under shift, black-box uncertainty estimation, broader modality coverage, reproducible reporting, and human-centered uncertainty communication.",
+      "pub_date": "Wed, 19 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "多模态大语言模型中的不确定性感知决策",
+        "summary": "本文综述了多模态大语言模型（MLLM）中的不确定性感知决策，提出了一个以决策为中心的框架：不确定性来源产生可观察信号，信号需校准或风险控制，校准后的不确定性决定系统行为。涵盖token/logit不确定性、语义分歧、扰动稳定性、接地与归因分数、口头化置信度、验证器评分、共形预测、选择性回答、弃权、澄清、检索、自检和升级。核心观点是不确定性不应仅作为置信度数字评估，而应通过其在不足、冲突、偏移或高风险多模态证据下改善行为的能力来评估。最后提出开放问题。",
+        "summary_en": "This survey reviews uncertainty-aware decision making in multimodal large language models (MLLMs), proposing a decision-centered framework: uncertainty sources produce observable signals, signals must be calibrated or risk-controlled, and calibrated uncertainty determines system actions. It covers token/logit uncertainty, semantic disagreement, perturbation instability, grounding/attribution scores, verbalized confidence, verifier/judge scores, conformal prediction, selective answering, abstention, clarification, retrieval, self-checking, and escalation. The central argument is that uncertainty should be evaluated by whether it improves behavior under insufficient, conflicting, shifted, or high-risk multimodal evidence, not just as a confidence number. Open problems are discussed.",
+        "tags": [
+          "llm",
+          "research",
+          "multimodal",
+          "benchmark",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-19-rss-004",
+  "title": "FedPref：面向结构化放射学报告提取的联邦偏好学习",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.16971",
+  "language": "en",
+  "summary": "FedPref 是一种联邦学习方法，利用冻结的公共语言模型生成候选 JSON 提取，由本地标注排序，各机构仅共享模型更新，协作训练紧凑的 Qwen3-8B 适配器。在模拟数据上，相比独立训练，客户端平均 F1 提升 2.49 点，最差站点提升 9.10 点，且无需共享报告或标注。",
+  "summary_en": "FedPref is a federated learning method that uses frozen public language models to propose candidate JSON extractions, ranked by local annotations, and collaboratively trains compact Qwen3-8B adapters while sharing only model updates. On simulated data, it improves client-mean F1 by 2.49 points and worst-site F1 by 9.10 points over isolated training, without sharing reports or annotations.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "application",
+    "infrastructure"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-08-19T16:34:05.683919+08:00",
+  "updated_at": "2026-08-19T16:34:05.683922+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

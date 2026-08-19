@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-19-rss-001",
+  "title": "GxP-Agent：利用流程DAG拓扑实现可靠的临床试验编程LLM智能体",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.16890",
+  "language": "en",
+  "summary": "GxP-Agent是一个多智能体系统，将监管流程编码为有向无环图（DAG），将临床数据集生成分解为15个领域特定节点，配备验证门和条件重试。在CDISC-Bench基准上，使用Claude Sonnet 4.6实现100%结构匹配，优于所有单智能体和平面多智能体方法，证明图拓扑编码领域知识是可靠合规编程的关键。",
+  "summary_en": "GxP-Agent is a multi-agent system encoding regulatory process as a DAG, decomposing clinical dataset generation into 15 domain-specific nodes with validation gates and retry. On CDISC-Bench, it achieves 100% structural match with Claude Sonnet 4.6, outperforming all single-agent and flat multi-agent approaches, showing graph topology encoding domain knowledge is key for reliable compliant programming.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "research",
+    "benchmark",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-19T16:34:05.683891+08:00",
+  "updated_at": "2026-08-19T16:34:05.683897+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

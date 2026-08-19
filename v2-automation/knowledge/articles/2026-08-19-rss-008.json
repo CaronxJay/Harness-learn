@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-19-rss-008",
+  "title": "问题即问题：迈向可扩展的数学发现",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.16977",
+  "language": "en",
+  "summary": "提出新的人机协作数学发现范式FAR，从文献中自动搜索候选问题，经多阶段过滤聚焦专家评审，在组合学试点中从5245篇论文中筛选出77项供评审，发现多个重要猜想结果。",
+  "summary_en": "Proposes FAR, a new human-AI paradigm for mathematical discovery, automating problem search from literature and filtering to focus expert review. In a combinatorics pilot, it reduced 5,245 papers to 77 items for review, yielding notable results.",
+  "tags": [
+    "research",
+    "application",
+    "llm",
+    "tool"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-19T16:34:05.683950+08:00",
+  "updated_at": "2026-08-19T16:34:05.683953+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

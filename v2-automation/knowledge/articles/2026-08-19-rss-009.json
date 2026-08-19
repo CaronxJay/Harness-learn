@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-19-rss-009",
+  "title": "基于边际正则化结构化语义对齐的脑语言对应研究",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.16975",
+  "language": "en",
+  "summary": "提出MD-SigLIP框架，通过边际正则化结构化语义对齐，将大脑嵌入与文本嵌入直接对齐到共享语义空间，实现基于检索的脑语言解码，显式建模神经表征与语言语义的对应关系，提升可解释性和检索性能。",
+  "summary_en": "Proposes MD-SigLIP, a margin-regularized structured semantic alignment framework that aligns brain embeddings with text embeddings in a shared space for retrieval-based decoding, explicitly modeling brain-language correspondence and achieving SOTA retrieval performance.",
+  "tags": [
+    "llm",
+    "research",
+    "multimodal",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-19T16:34:05.683957+08:00",
+  "updated_at": "2026-08-19T16:34:05.683960+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

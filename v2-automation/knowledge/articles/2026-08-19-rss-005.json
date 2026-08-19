@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-19-rss-005",
+  "title": "跨模型记忆迁移：目标端读取器适配研究",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.17050",
+  "language": "en",
+  "summary": "该研究探讨了Engram式哈希记忆在不同骨干模型间的迁移。通过冻结源模型训练的记忆，仅训练目标端轻量读取器，发现目标端读取器对齐至关重要。双分支读取器几乎弥合同模型与跨模型差距，平均得分38.8。若读取器接口兼容，冻结记忆可直接复用，适配可进一步提升。",
+  "summary_en": "This study explores transferring Engram-style hashed memory across backbones. By freezing source-trained memory and training only a target-side reader, it finds reader alignment is crucial. A dual-layer, four-branch reader nearly closes the gap, achieving 38.8. Compatible readers enable direct reuse, with adaptation improving alignment.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "infrastructure"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-08-19T16:34:05.683927+08:00",
+  "updated_at": "2026-08-19T16:34:05.683930+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

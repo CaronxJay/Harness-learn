@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-19-rss-007",
+  "title": "思考的代价：推理努力作为模型特定的API契约",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.16956",
+  "language": "en",
+  "summary": "该研究将API购买视为包含推理努力条款的契约，通过对比Sonnet 5显式高努力与省略努力条款的调用，发现显式高努力使每次调用成本增加约0.010美元，但未检测到准确率显著差异。研究强调推理努力是模型特定的API契约要素，影响成本与性能。",
+  "summary_en": "This study treats API purchases as contracts including reasoning-effort terms. Comparing Sonnet 5 with explicit high effort versus omitted effort, it found higher cost per call but no significant accuracy difference, highlighting reasoning effort as a model-specific API contract element.",
+  "tags": [
+    "llm",
+    "research",
+    "application",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-19T16:34:05.683943+08:00",
+  "updated_at": "2026-08-19T16:34:05.683945+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

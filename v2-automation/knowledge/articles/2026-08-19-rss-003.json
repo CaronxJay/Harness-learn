@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-19-rss-003",
+  "title": "Agentic AI运行时治理：基于动作边界控制与可信溯源的安全执行",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.16891",
+  "language": "en",
+  "summary": "介绍Aegis运行时治理系统，将模型输出视为动作提案，通过可信决策层在工具执行前进行中介。系统基于策略状态评估、服务端溯源解析、不确定时失败关闭，并采用基于仲裁的非单边授权路径。在6300行沙箱语料上，Aegis治理下零风险副作用，验证了运行时动作边界治理的有效性。",
+  "summary_en": "Introduces Aegis, a runtime governance system treating model outputs as action proposals mediated by a trusted decision layer before tool execution. It evaluates against policy, resolves provenance server-side, fails closed under uncertainty, and uses Senate-style quorum settlement. In 6300-row sandbox corpus, zero risky side-effects under governance.",
+  "tags": [
+    "agent-framework",
+    "security",
+    "infrastructure",
+    "research"
+  ],
+  "category": "security",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-08-19T16:34:05.683912+08:00",
+  "updated_at": "2026-08-19T16:34:05.683914+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
