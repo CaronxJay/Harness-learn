@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-20-rss-008",
+  "title": "立场论文：现有模型卡不足以支撑开放权重基础模型的下游治理",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.18086",
+  "language": "en",
+  "summary": "本文分析Hugging Face上500个模型卡，指出当前模型卡不足以治理开放权重基础模型（OWFM）的安全风险。提出需结合模型卡、可接受使用政策（AUP）和许可证三层治理框架，并指出标准开源许可证可能削弱AUP执行力。为模型卡、AUP和许可证的演进提供方向，以整合信息、规范和法律维度。",
+  "summary_en": "Analyzing 500 model cards on Hugging Face, this position paper argues current model cards are insufficient for governing open-weight foundation models (OWFMs). It proposes a multi-layered governance framework integrating model cards, acceptable use policies (AUPs), and licenses, noting standard open-source licenses may weaken AUP enforceability. Offers directions for evolving these artifacts.",
+  "tags": [
+    "research",
+    "security",
+    "governance",
+    "open-source"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-20T16:34:44.995902+08:00",
+  "updated_at": "2026-08-20T16:34:44.995904+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

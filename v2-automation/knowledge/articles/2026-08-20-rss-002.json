@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-20-rss-002",
+  "title": "LongNovel：长篇小说摘要中幻觉检测的多尺度基准",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.18082",
+  "language": "en",
+  "summary": "LongNovel是一个多尺度、中英双语的长篇小说基准，用于检测长上下文摘要中的幻觉。它包含29部中文小说和BookSum章节数据，设计了8种幻觉类型，通过多模型仲裁和实体引用生成确保数据真实性和类别平衡，并人工修订测试集。实验表明该基准具有挑战性，已开源。",
+  "summary_en": "LongNovel is a multi-scale bilingual benchmark for hallucination detection in long-context novel summarization, featuring 8 hallucination types, balanced data generation, and manual revision. It is challenging and open-sourced.",
+  "tags": [
+    "benchmark",
+    "llm",
+    "evaluation",
+    "research"
+  ],
+  "category": "benchmark",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-20T16:34:44.995860+08:00",
+  "updated_at": "2026-08-20T16:34:44.995862+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

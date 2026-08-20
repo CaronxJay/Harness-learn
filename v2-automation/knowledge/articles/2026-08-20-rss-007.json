@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-20-rss-007",
+  "title": "立场论文：行为系统需要行为测试",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.18081",
+  "language": "en",
+  "summary": "本文主张AI智能体应像其他行为系统一样，通过系统观察、扰动和解释其行为来评估，而非仅关注性能结果。借鉴行为科学，提出研究议程：从动作序列恢复决策策略、构建区分行为差异的环境、探测多智能体系统的涌现动态，以发展AI行为科学。",
+  "summary_en": "This position paper argues AI agents should be evaluated as behavioral systems via systematic observation, perturbation, and interpretation of actions, not just outcomes. Drawing on behavioral science, it proposes a research agenda for rigorous behavioral tests, including recovering decision strategies, isolating behavioral differences, and probing multi-agent dynamics.",
+  "tags": [
+    "research",
+    "evaluation",
+    "agent-framework",
+    "llm"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-20T16:34:44.995882+08:00",
+  "updated_at": "2026-08-20T16:34:44.995883+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

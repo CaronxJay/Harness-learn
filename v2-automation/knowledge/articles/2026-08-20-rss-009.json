@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-20-rss-009",
+  "title": "编译器引导的自适应证明搜索与跨模型协同在上下文相关定理证明中的应用",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.18084",
+  "language": "en",
+  "summary": "提出一种编译器引导的证明搜索框架，通过双模型生成和停滞触发重采样探索多样起点，利用编译器比较进行当前最佳精化，平衡探索与利用。在七个真实Lean 4项目上，pass@32预算内平均通过率提升12.8个百分点，LLM调用减少21.9%。",
+  "summary_en": "Proposes a compiler-guided proof search framework balancing exploration and exploitation via dual-model generation and stagnation-triggered resampling, with current-best refinement guided by compiler-grounded pairwise comparison. On seven real-world Lean 4 projects, improves pass rate by 12.8 points and reduces LLM calls by 21.9% within pass@32 budget.",
+  "tags": [
+    "llm",
+    "research",
+    "tool",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-20T16:34:44.995908+08:00",
+  "updated_at": "2026-08-20T16:34:44.995909+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

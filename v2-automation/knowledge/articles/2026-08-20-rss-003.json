@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-20-rss-003",
+  "title": "实体追踪在十亿参数以下语言模型中出现并超越人类在自然叙事中的表现",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.18083",
+  "language": "en",
+  "summary": "该研究评估了语言模型和人类在自然叙事中的实体追踪能力。发现人类表现随叙事复杂度下降，而语言模型在4.1亿参数时已达到人类水平，并随规模提升，当代模型远超人类。表明实体追踪在远小于先前认为的模型规模中出现。",
+  "summary_en": "This study evaluates entity tracking in language models and humans using naturalistic narratives. Human performance degrades with narrative complexity, while LMs achieve human-level tracking at 410M parameters and improve with scale, exceeding humans. Entity tracking emerges at smaller scales than previously thought.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-20T16:34:44.995865+08:00",
+  "updated_at": "2026-08-20T16:34:44.995866+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

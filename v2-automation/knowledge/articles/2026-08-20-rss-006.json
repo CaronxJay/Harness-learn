@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-20-rss-006",
+  "title": "通过转移复杂度刻画游戏世界：提出过渡复杂度剖面（TCP）",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.18079",
+  "language": "en",
+  "summary": "论文提出过渡复杂度剖面（TCP），用一组可复现的指标刻画游戏环境或数据集的转移核，包括单步分支、交互不确定性、时空依赖跨度，并附带参考分布和测量预算，呼吁作为GWM和RL论文的标准元数据。",
+  "summary_en": "The paper proposes Transition Complexity Profile (TCP), a set of reproducible metrics characterizing game environments' transition kernels, including branching, interaction uncertainty, and dependency spans, with reference distributions and measurement budgets, advocating TCP as standard benchmark metadata.",
+  "tags": [
+    "research",
+    "benchmark",
+    "reinforcement-learning",
+    "game-world-modeling"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-20T16:34:44.995878+08:00",
+  "updated_at": "2026-08-20T16:34:44.995879+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

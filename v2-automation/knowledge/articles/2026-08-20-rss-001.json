@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-20-rss-001",
+  "title": "大语言模型在心理健康领域的应用：系统综述",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.18080",
+  "language": "en",
+  "summary": "本文系统综述了大语言模型在心理健康领域的应用，涵盖社交媒体分析、临床对话代理、治疗支持工具、提示工程、多模态学习及伦理挑战。整合多学科研究，利用社交媒体、电子病历等多源数据，实现抑郁症早期检测、自杀风险评估、个性化治疗支持等。强调提示工程对领域适配的关键作用，并讨论多模态融合技术及伦理、监管挑战。",
+  "summary_en": "A systematic review of LLM applications in mental health, covering social media analysis, clinical conversational agents, therapy support, prompt engineering, multimodal learning, and ethical challenges. Integrates interdisciplinary studies for depression detection, suicide risk assessment, and personalized support, highlighting prompt engineering and multimodal fusion, while addressing ethical and regulatory issues.",
+  "tags": [
+    "llm",
+    "research",
+    "application",
+    "multimodal",
+    "prompt-engineering"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-20T16:34:44.995851+08:00",
+  "updated_at": "2026-08-20T16:34:44.995855+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

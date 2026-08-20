@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-20-rss-005",
+  "title": "人格引导的LLM智能体用于任务导向对话",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.18085",
+  "language": "en",
+  "summary": "该研究探讨LLM在任务导向对话中表达人格并适应用户人格的能力。提出无训练框架，模拟用户与系统智能体交互，比较中性、推断和显式三种条件。发现适应人格提升约束满足和用户满意度，但降低真实性，基于线索的推断最佳平衡个性化与任务完成。",
+  "summary_en": "This paper studies whether LLMs can express personality in task-oriented dialogue and adapt to users. A training-free framework simulates interactions, comparing neutral, inferred, and explicit personality conditions. Adaptation improves constraint satisfaction and user satisfaction but lowers truthfulness; cue-based inference best balances personalization and task grounding.",
+  "tags": [
+    "llm",
+    "research",
+    "agent-framework",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-08-20T16:34:44.995873+08:00",
+  "updated_at": "2026-08-20T16:34:44.995875+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
