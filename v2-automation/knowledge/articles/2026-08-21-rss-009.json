@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-21-rss-009",
+  "title": "不确定性下鲁棒元启发式算法用于泊位分配与岸桥调度：综述",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.19214",
+  "language": "en",
+  "summary": "本文首次针对不确定环境下的泊位分配与岸桥调度问题（BACAP）的鲁棒元启发式优化进行综述。总结了不确定性来源与表示，从机制角度分类现有方法，涵盖解表示、鲁棒评估、搜索动态及可行性恢复，并提出了基准测试套件及基线结果，最后指出了开放挑战。",
+  "summary_en": "This paper provides the first focused review on robust population-based metaheuristics for the berth allocation and quay crane assignment problem (BACAP) under uncertainty. It summarizes uncertainty sources, categorizes methods by mechanism, presents a benchmark suite with baseline results, and identifies open challenges.",
+  "tags": [
+    "research",
+    "optimization",
+    "benchmark",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.6,
+  "status": "published",
+  "created_at": "2026-08-21T16:37:05.792647+08:00",
+  "updated_at": "2026-08-21T16:37:05.792648+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

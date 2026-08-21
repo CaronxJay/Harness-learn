@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-21-rss-010",
+  "title": "互动效价揭示奶牛社会网络中的对比结构",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.19222",
+  "language": "en",
+  "summary": "提出一种效价感知的社会网络框架，利用姿态计算机视觉分析奶牛视频互动，区分亲和与对抗行为。在商业农场数据上验证，自动与人工标签一致率82.8%，宏F1为0.872。发现聚合网络掩盖了行为组成，效价分层揭示不同网络结构，为福利研究提供新方法。",
+  "summary_en": "A valence-aware social network framework uses pose-based computer vision to analyze dairy cattle interactions, distinguishing affiliative and agonistic behaviors. Validated on farm data with 82.8% agreement and macro-F1 0.872, it shows pooled counts obscure behavioral composition, offering new insights for welfare research.",
+  "tags": [
+    "application",
+    "multimodal",
+    "research",
+    "evaluation"
+  ],
+  "category": "application",
+  "relevance_score": 0.6,
+  "status": "published",
+  "created_at": "2026-08-21T16:37:05.792651+08:00",
+  "updated_at": "2026-08-21T16:37:05.792652+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

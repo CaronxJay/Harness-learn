@@ -1,0 +1,24 @@
+{
+  "id": "2026-08-21-rss-008",
+  "title": "如何应对人工智能意识的不确定性",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.19215",
+  "language": "en",
+  "summary": "面对AI可能具有意识的不确定性，本文提出将棘手问题转向可处理的AI效价问题，通过评估AI是否具有构成效价体验的状态，为潜在有意识AI的开发提供负责任的方法。",
+  "summary_en": "Amid deep uncertainty about AI consciousness, this paper proposes shifting from intractable questions to tractable ones about AI valence, assessing whether AI has states that would constitute valenced experiences, grounding a responsible approach to developing potentially conscious AI.",
+  "tags": [
+    "research",
+    "llm",
+    "security"
+  ],
+  "category": "research",
+  "relevance_score": 0.8,
+  "status": "published",
+  "created_at": "2026-08-21T16:37:05.792643+08:00",
+  "updated_at": "2026-08-21T16:37:05.792644+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

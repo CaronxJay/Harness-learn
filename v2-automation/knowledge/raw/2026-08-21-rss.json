@@ -1,0 +1,481 @@
+{
+  "collected_at": "2026-08-21T16:37:05.793482+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "Active Inference as Context Acquisition for AI Agents",
+      "url": "https://arxiv.org/abs/2608.19202",
+      "description": "arXiv:2608.19202v1 Announce Type: new \nAbstract: Interactive AI agents must acquire the right context as efficiently as possible. When a user omits a constraint, preference, file, or task variable, an agent can proceed with a default assumption or spend tokens on a clarifying question, retrieval call, tool call, or prompt trial. We formulate this tradeoff as active inference for context acquisition. An inner inference step updates beliefs over a latent task state, and an outer decision selects the next context action, task action, or stop action to minimize expected free energy under cost. In deterministic settings, the epistemic term reduces to expected information gain, optionally normalized by token cost. We instantiate the framework in Optimal Question Asking (OQA), with exact posteriors and a dynamic programming oracle, and benchmark frontier language models on binary and multiway categorical tasks from 25 to 300 candidates. We also study clarification before generation and automated prompt optimization under token budgets. The formulation is model-agnostic and views active inference as a design principle for the context-acquisition layer of AI agents.",
+      "pub_date": "Fri, 21 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "主动推理作为AI代理的上下文获取机制",
+        "summary": "本文提出将上下文获取问题形式化为主动推理，通过内层推理更新潜在任务状态信念，外层决策选择上下文动作以最小化期望自由能。在确定性设置中，认知项简化为期望信息增益，并可按令牌成本归一化。作者在OQA框架中实现精确后验和动态规划，并在25至300个候选的二元及多分类任务上基准测试前沿语言模型，同时研究生成前澄清和令牌预算下的自动提示优化。该框架模型无关，将主动推理视为AI代理上下文获取层的设计原则。",
+        "summary_en": "This paper formalizes context acquisition in AI agents as active inference, where an inner inference step updates beliefs over latent task states and an outer decision selects context actions to minimize expected free energy. In deterministic settings, the epistemic term reduces to expected information gain, optionally normalized by token cost. The authors instantiate this in Optimal Question Asking (OQA) with exact posteriors and dynamic programming, benchmarking frontier language models on binary and multiway categorical tasks with 25 to 300 candidates. They also study clarification before generation and automated prompt optimization under token budgets. The formulation is model-agnostic, viewing active inference as a design principle for the context-acquisition layer of AI agents.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "benchmark",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-21-rss-002",
+        "title": "主动推理作为AI代理的上下文获取机制",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.19202",
+        "language": "en",
+        "summary": "本文提出将上下文获取问题形式化为主动推理，通过内层推理更新潜在任务状态信念，外层决策选择上下文动作以最小化期望自由能。在确定性设置中，认知项简化为期望信息增益，并可按令牌成本归一化。作者在OQA框架中实现精确后验和动态规划，并在25至300个候选的二元及多分类任务上基准测试前沿语言模型，同时研究生成前澄清和令牌预算下的自动提示优化。该框架模型无关，将主动推理视为AI代理上下文获取层的设计原则。",
+        "summary_en": "This paper formalizes context acquisition in AI agents as active inference, where an inner inference step updates beliefs over latent task states and an outer decision selects context actions to minimize expected free energy. In deterministic settings, the epistemic term reduces to expected information gain, optionally normalized by token cost. The authors instantiate this in Optimal Question Asking (OQA) with exact posteriors and dynamic programming, benchmarking frontier language models on binary and multiway categorical tasks with 25 to 300 candidates. They also study clarification before generation and automated prompt optimization under token budgets. The formulation is model-agnostic, viewing active inference as a design principle for the context-acquisition layer of AI agents.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "benchmark",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-08-21T16:37:05.792617+08:00",
+        "updated_at": "2026-08-21T16:37:05.792619+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Robust Metaheuristics under Uncertainty for Berth Allocation and Quay Crane Assignment: A Review",
+      "url": "https://arxiv.org/abs/2608.19214",
+      "description": "arXiv:2608.19214v1 Announce Type: new \nAbstract: The berth allocation and quay crane assignment problem (BACAP) is a representative port-terminal scheduling problem in maritime transportation and freight logistics, where vessel arrivals, berth positions, service durations, and quay?crane availability are tightly coupled. Under uncertainties such as arrival deviations, handling-time fluctuations, and resource disruptions, schedules optimized under nominal assumptions may become fragile during execution, motivating the study of robust metaheuristic optimization for BACAP in port-terminal operations. Although population-based metaheuristics have been widely used for BACAP and related port-scheduling problems, existing studies remain fragmented in their uncertainty repre?sentations, robustness criteria, search mechanisms, and empir?ical evaluation protocols. To the best of our knowledge, this paper provides the first focused review dedicated to robust population-based metaheuristics for BACAP under uncertainty. We first summarize uncertainty sources and information repre?sentations in BACAP, and then organize existing methods from a mechanism-oriented perspective, covering solution representation and decoding, robust evaluation and selection, robustness-guided search dynamics, and feasibility preservation and recovery. We further present a benchmark suite for uncertain BACAP to support controlled empirical comparison and report illustrative baseline results by combining representative metaheuristics with different robustness strategies. Finally, we identify open chal?lenges related to benchmark extension, robustness-aware search design, time-adaptive robustness, and non-stationary uncertainty.",
+      "pub_date": "Fri, 21 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "不确定性下鲁棒元启发式算法用于泊位分配与岸桥调度：综述",
+        "summary": "本文首次针对不确定环境下的泊位分配与岸桥调度问题（BACAP）的鲁棒元启发式优化进行综述。总结了不确定性来源与表示，从机制角度分类现有方法，涵盖解表示、鲁棒评估、搜索动态及可行性恢复，并提出了基准测试套件及基线结果，最后指出了开放挑战。",
+        "summary_en": "This paper provides the first focused review on robust population-based metaheuristics for the berth allocation and quay crane assignment problem (BACAP) under uncertainty. It summarizes uncertainty sources, categorizes methods by mechanism, presents a benchmark suite with baseline results, and identifies open challenges.",
+        "tags": [
+          "research",
+          "optimization",
+          "benchmark",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.6,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-21-rss-009",
+        "title": "不确定性下鲁棒元启发式算法用于泊位分配与岸桥调度：综述",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.19214",
+        "language": "en",
+        "summary": "本文首次针对不确定环境下的泊位分配与岸桥调度问题（BACAP）的鲁棒元启发式优化进行综述。总结了不确定性来源与表示，从机制角度分类现有方法，涵盖解表示、鲁棒评估、搜索动态及可行性恢复，并提出了基准测试套件及基线结果，最后指出了开放挑战。",
+        "summary_en": "This paper provides the first focused review on robust population-based metaheuristics for the berth allocation and quay crane assignment problem (BACAP) under uncertainty. It summarizes uncertainty sources, categorizes methods by mechanism, presents a benchmark suite with baseline results, and identifies open challenges.",
+        "tags": [
+          "research",
+          "optimization",
+          "benchmark",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.6,
+        "status": "published",
+        "created_at": "2026-08-21T16:37:05.792647+08:00",
+        "updated_at": "2026-08-21T16:37:05.792648+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "How to Navigate Uncertainty About AI Consciousness",
+      "url": "https://arxiv.org/abs/2608.19215",
+      "description": "arXiv:2608.19215v1 Announce Type: new \nAbstract: Given deep uncertainty about the possibility of artificial consciousness, it is unclear how we should treat potentially sentient AI. On the one hand, we could assume insentience but risk doing terrible harms to entities that deserve moral standing. On the other hand, we could assume sentience and instead risk wasting resources on insentient machines. The intractability of questions around AI consciousness mean that this dilemma is hard to escape. I suggest a way out of that shifts from intractable questions of AI consciousness to tractable questions of AI valence. Specifically, we can assess whether an AI has states that would constitute valenced experiences if it were conscious. I show how this is sufficient to ground a responsible approach to the development of potentially conscious AI.",
+      "pub_date": "Fri, 21 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "如何应对人工智能意识的不确定性",
+        "summary": "面对AI可能具有意识的不确定性，本文提出将棘手问题转向可处理的AI效价问题，通过评估AI是否具有构成效价体验的状态，为潜在有意识AI的开发提供负责任的方法。",
+        "summary_en": "Amid deep uncertainty about AI consciousness, this paper proposes shifting from intractable questions to tractable ones about AI valence, assessing whether AI has states that would constitute valenced experiences, grounding a responsible approach to developing potentially conscious AI.",
+        "tags": [
+          "research",
+          "llm",
+          "security"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-21-rss-008",
+        "title": "如何应对人工智能意识的不确定性",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.19215",
+        "language": "en",
+        "summary": "面对AI可能具有意识的不确定性，本文提出将棘手问题转向可处理的AI效价问题，通过评估AI是否具有构成效价体验的状态，为潜在有意识AI的开发提供负责任的方法。",
+        "summary_en": "Amid deep uncertainty about AI consciousness, this paper proposes shifting from intractable questions to tractable ones about AI valence, assessing whether AI has states that would constitute valenced experiences, grounding a responsible approach to developing potentially conscious AI.",
+        "tags": [
+          "research",
+          "llm",
+          "security"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "status": "published",
+        "created_at": "2026-08-21T16:37:05.792643+08:00",
+        "updated_at": "2026-08-21T16:37:05.792644+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Bounded Sovereignty and the Control Tax: Pricing AI Oversight When the Deployer Does Not Own the Model",
+      "url": "https://arxiv.org/abs/2608.19216",
+      "description": "arXiv:2608.19216v1 Announce Type: new \nAbstract: AI control research asks how to deploy models safely even when they may be misaligned, but many control protocols assume that the deployer can instrument the model and its surrounding pipeline. That assumption often fails for regulated organisations using frontier models through APIs or managed endpoints, where the deployer may control the business process but not the model weights, serving infrastructure, internal traces, update process, or full interaction logs. This paper introduces bounded sovereignty: partial technical and contractual access across the data, model, infrastructure, and interaction layers of the AI stack. It argues that these access conditions determine which control protocols can be executed in practice. The paper contributes a four-layer access typology, a protocol-by-layer requirements matrix, and the concept of sovereignty discount cost: the part of the control tax spent substituting for missing access through contracts, architecture, audit, vendor assurance, residual risk, or reduced system scope. It also reports a synthetic access-ablation experiment over 1.35 million synthetic case simulations and interprets the findings through an anonymised national-payments-infrastructure scenario. The experiment is not real-world payment-system evidence; it is a construct-validity exercise. The results show that complete logs improve diagnosis, a pre-execution gateway enables intervention, trace access and model-version control strengthen post-incident explanation, and scope restriction can improve safety while reducing usefulness. Control protocols proposed as general safety solutions should therefore state their access assumptions explicitly.",
+      "pub_date": "Fri, 21 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "有限主权与控制税：当部署者不拥有模型时为AI监管定价",
+        "summary": "本文提出“有限主权”概念，指部署者仅部分控制AI栈的数据、模型、基础设施和交互层。通过四层访问类型学、协议-层需求矩阵和主权折扣成本，分析访问条件如何决定控制协议可行性。基于135万合成案例的消融实验显示，完整日志、执行前网关、追踪访问和范围限制可提升安全性，但控制协议需明确访问假设。",
+        "summary_en": "This paper introduces bounded sovereignty—partial access across AI stack layers—and a sovereignty discount cost to price AI oversight when deployers lack model ownership. A four-layer typology and protocol matrix show access conditions determine control protocol feasibility. Synthetic ablation over 1.35M cases finds logs, gateways, and scope restriction improve safety, urging explicit access assumptions.",
+        "tags": [
+          "research",
+          "security",
+          "infrastructure",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-21-rss-004",
+        "title": "有限主权与控制税：当部署者不拥有模型时为AI监管定价",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.19216",
+        "language": "en",
+        "summary": "本文提出“有限主权”概念，指部署者仅部分控制AI栈的数据、模型、基础设施和交互层。通过四层访问类型学、协议-层需求矩阵和主权折扣成本，分析访问条件如何决定控制协议可行性。基于135万合成案例的消融实验显示，完整日志、执行前网关、追踪访问和范围限制可提升安全性，但控制协议需明确访问假设。",
+        "summary_en": "This paper introduces bounded sovereignty—partial access across AI stack layers—and a sovereignty discount cost to price AI oversight when deployers lack model ownership. A four-layer typology and protocol matrix show access conditions determine control protocol feasibility. Synthetic ablation over 1.35M cases finds logs, gateways, and scope restriction improve safety, urging explicit access assumptions.",
+        "tags": [
+          "research",
+          "security",
+          "infrastructure",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-21T16:37:05.792626+08:00",
+        "updated_at": "2026-08-21T16:37:05.792628+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Interaction valence reveals contrasting social networks in dairy cattle",
+      "url": "https://arxiv.org/abs/2608.19222",
+      "description": "arXiv:2608.19222v1 Announce Type: new \nAbstract: Social relationships shape access to resources, exposure to conflict and group stability, yet automated livestock monitoring typically treats behaviour as isolated events. Here, we present a valence-aware social-network framework that transforms video-derived interactions into herd-level representations of affiliative and agonistic organization. A pose-based computer-vision pipeline analysed 7 h 39 min of continuous video from the pre-milking area of one commercial dairy farm. After quality control, 1,183 of 1,414 candidate interactions remained, involving 36 cows and 177 dyads. In a predicted-class-balanced audit of 198 pipeline-detected clips, automated and manual labels agreed in 82.8% of cases, with an unweighted audit-sample macro-F1 of 0.872. These values describe the audited sample rather than prevalence-weighted or end-to-end deployment performance. The aggregated network was connected (density = 0.281; transitivity = 0.513; mean path length = 1.88), and predicted affiliative events formed five algorithmic communities (modularity Q = 0.429). Within the observed zone, predicted agonistic interactions comprised 72.4% of retained events and 76.0% of interaction duration. The cow with the most partners did not have the highest betweenness centrality. Separating events by predicted valence produced descriptively different affiliative and agonistic layers, with contrasting edge sets, community partitions and individual positions. Thus, pooled interaction counts can obscure the behavioural composition of an observed network. Valence-aware analysis provides a framework for testing hypotheses about competition, affiliation and welfare-relevant change, while requiring longitudinal validation before use as a welfare or health indicator.",
+      "pub_date": "Fri, 21 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "互动效价揭示奶牛社会网络中的对比结构",
+        "summary": "提出一种效价感知的社会网络框架，利用姿态计算机视觉分析奶牛视频互动，区分亲和与对抗行为。在商业农场数据上验证，自动与人工标签一致率82.8%，宏F1为0.872。发现聚合网络掩盖了行为组成，效价分层揭示不同网络结构，为福利研究提供新方法。",
+        "summary_en": "A valence-aware social network framework uses pose-based computer vision to analyze dairy cattle interactions, distinguishing affiliative and agonistic behaviors. Validated on farm data with 82.8% agreement and macro-F1 0.872, it shows pooled counts obscure behavioral composition, offering new insights for welfare research.",
+        "tags": [
+          "application",
+          "multimodal",
+          "research",
+          "evaluation"
+        ],
+        "category": "application",
+        "relevance_score": 0.6,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-21-rss-010",
+        "title": "互动效价揭示奶牛社会网络中的对比结构",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.19222",
+        "language": "en",
+        "summary": "提出一种效价感知的社会网络框架，利用姿态计算机视觉分析奶牛视频互动，区分亲和与对抗行为。在商业农场数据上验证，自动与人工标签一致率82.8%，宏F1为0.872。发现聚合网络掩盖了行为组成，效价分层揭示不同网络结构，为福利研究提供新方法。",
+        "summary_en": "A valence-aware social network framework uses pose-based computer vision to analyze dairy cattle interactions, distinguishing affiliative and agonistic behaviors. Validated on farm data with 82.8% agreement and macro-F1 0.872, it shows pooled counts obscure behavioral composition, offering new insights for welfare research.",
+        "tags": [
+          "application",
+          "multimodal",
+          "research",
+          "evaluation"
+        ],
+        "category": "application",
+        "relevance_score": 0.6,
+        "status": "published",
+        "created_at": "2026-08-21T16:37:05.792651+08:00",
+        "updated_at": "2026-08-21T16:37:05.792652+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "A Virtual Member of a Community of Practice for the Society of Petroleum Engineers: From Prototype to Deployment",
+      "url": "https://arxiv.org/abs/2608.19199",
+      "description": "arXiv:2608.19199v1 Announce Type: new \nAbstract: We describe the evolution of a virtual assistant, called ATHENA, designed to support the capture, retrieval, and dissemination of knowledge for members of a Community of Practice (CoP) related to the Oil and Gas sector. An evaluation of a first prototype involving 75 professionals from the Society of Petroleum Engineering (SPE) showed that ATHENA dramatically improved both their productivity and performance equality on a set of realistic well-planning tasks compare to their use of a state-of-the-art RAG baseline system. However, the evaluation also identified areas for improvement. This paper describes technical advances to our first prototype in the areas of multi-document retrieval, support for answer validation, and more focused proactive dissemination. Evaluation results show that this enhanced version of ATHENA provides better support for completing knowledge-intensive tasks related to well planning than does a state-of-the-art baseline. ATHENA has been integrated into the SPE Research Portal and is being deployed for use by the society's membership.",
+      "pub_date": "Fri, 21 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "石油工程师学会实践社区的虚拟成员：从原型到部署",
+        "summary": "本文介绍虚拟助手ATHENA的演进，用于支持石油天然气行业实践社区的知识捕获、检索和传播。评估显示，与最先进的RAG基线相比，ATHENA显著提高了75名专业人员在井规划任务中的生产力和绩效。技术改进包括多文档检索、答案验证支持和主动知识传播。ATHENA已集成到SPE研究门户并部署。",
+        "summary_en": "This paper describes the evolution of ATHENA, a virtual assistant for knowledge management in the oil and gas industry. Evaluations show significant improvements in productivity and performance over a RAG baseline. Enhancements include multi-document retrieval, answer validation, and proactive dissemination. ATHENA is integrated into the SPE Research Portal.",
+        "tags": [
+          "rag",
+          "application",
+          "research",
+          "llm"
+        ],
+        "category": "application",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-21-rss-005",
+        "title": "石油工程师学会实践社区的虚拟成员：从原型到部署",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.19199",
+        "language": "en",
+        "summary": "本文介绍虚拟助手ATHENA的演进，用于支持石油天然气行业实践社区的知识捕获、检索和传播。评估显示，与最先进的RAG基线相比，ATHENA显著提高了75名专业人员在井规划任务中的生产力和绩效。技术改进包括多文档检索、答案验证支持和主动知识传播。ATHENA已集成到SPE研究门户并部署。",
+        "summary_en": "This paper describes the evolution of ATHENA, a virtual assistant for knowledge management in the oil and gas industry. Evaluations show significant improvements in productivity and performance over a RAG baseline. Enhancements include multi-document retrieval, answer validation, and proactive dissemination. ATHENA is integrated into the SPE Research Portal.",
+        "tags": [
+          "rag",
+          "application",
+          "research",
+          "llm"
+        ],
+        "category": "application",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-21T16:37:05.792630+08:00",
+        "updated_at": "2026-08-21T16:37:05.792632+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Transformer Models for Text Summarization: A Comparative Study of BART, BERT, and RoBERTa",
+      "url": "https://arxiv.org/abs/2608.19200",
+      "description": "arXiv:2608.19200v1 Announce Type: new \nAbstract: Text summarization refers to the task of condensing a document into a shorter version while preserving its key information. Automatic text summarization (ATS), driven by advancements in natural language processing (NLP), has developed rapidly in recent years. ATS methods are commonly categorized by input type (such as single-document or multi-document summarization) and by output type (extractive, abstractive, and hybrid). This article presents a focused review of modern summarization techniques with an emphasis on transformer based models and large language models (LLMs), specifically BERT, RoBERTa and BART. It examines their architectures, pretraining strategies, and their suitability for extractive and abstractive summarization tasks.",
+      "pub_date": "Fri, 21 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "Transformer模型在文本摘要中的比较研究：BART、BERT与RoBERTa",
+        "summary": "本文聚焦于基于Transformer和大型语言模型的现代文本摘要技术，重点比较BERT、RoBERTa和BART的架构、预训练策略及其在抽取式和生成式摘要任务中的适用性。",
+        "summary_en": "This article reviews modern text summarization techniques, focusing on transformer-based models and LLMs, specifically BERT, RoBERTa, and BART, examining their architectures, pretraining strategies, and suitability for extractive and abstractive summarization.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-21-rss-006",
+        "title": "Transformer模型在文本摘要中的比较研究：BART、BERT与RoBERTa",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.19200",
+        "language": "en",
+        "summary": "本文聚焦于基于Transformer和大型语言模型的现代文本摘要技术，重点比较BERT、RoBERTa和BART的架构、预训练策略及其在抽取式和生成式摘要任务中的适用性。",
+        "summary_en": "This article reviews modern text summarization techniques, focusing on transformer-based models and LLMs, specifically BERT, RoBERTa, and BART, examining their architectures, pretraining strategies, and suitability for extractive and abstractive summarization.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-21T16:37:05.792634+08:00",
+        "updated_at": "2026-08-21T16:37:05.792636+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Automatic bioinformatic software named entity recognition from literature",
+      "url": "https://arxiv.org/abs/2608.19201",
+      "description": "arXiv:2608.19201v1 Announce Type: new \nAbstract: Bioinformatics software and databases are essential components of modern life science research, yet their mentions in the scientific literature are often inconsistent and difficult to systematically identify at scale. The lack of a comprehensive and up-to-date catalog of bioinformatics resources hinders efforts toward automated biomedical knowledge extraction and streamlined data analysis. Here we present SNAIL, a hybrid named entity recognition framework designed to automatically identify bioinformatics software and database (SW/DB) names from biomedical texts. SNAIL integrates complementary lexical and semantic modeling strategies. The lexical component captures orthographic patterns and contextual cues characteristic of SW/DB names, while the semantic component leverages contextual embeddings generated by transformer-based language models such as SciBERT, combined with an explicit token-masking strategy to enhance entity-focused representations. A large training corpus was constructed automatically through a hybrid pipeline that integrates citation-hinted extraction with large language model-assisted distillation. Evaluation on two independent benchmark datasets and real-world research articles demonstrates that SNAIL substantially outperforms existing approaches, including domain-specific methods such as bioNerDS2 and general-purpose large language models such as ChatGPT, Gemini, Grok and Claude. Applying SNAIL to large-scale literature analysis further reveals distinct journal-level preferences across bioinformatics subfields. These results demonstrate that SNAIL provides an accurate and scalable solution for identifying bioinformatics resources in scientific texts and enables systematic meta-analysis of tool usage and research trends.",
+      "pub_date": "Fri, 21 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "SNAIL：从文献中自动识别生物信息学软件和数据库名称的混合命名实体识别框架",
+        "summary": "SNAIL是一个混合命名实体识别框架，结合词汇和语义建模（基于SciBERT等Transformer），自动从生物医学文本中识别软件/数据库名称。通过引用提示和LLM辅助蒸馏构建训练语料，在多个基准上优于现有方法（如bioNerDS2和ChatGPT等），支持大规模文献分析和工具使用趋势研究。",
+        "summary_en": "SNAIL is a hybrid NER framework combining lexical and semantic modeling (e.g., SciBERT) to automatically identify bioinformatics software/database names from biomedical texts. It uses citation-hinted extraction and LLM-assisted distillation for training data, outperforming existing methods and enabling large-scale literature analysis.",
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "benchmark",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-21-rss-007",
+        "title": "SNAIL：从文献中自动识别生物信息学软件和数据库名称的混合命名实体识别框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.19201",
+        "language": "en",
+        "summary": "SNAIL是一个混合命名实体识别框架，结合词汇和语义建模（基于SciBERT等Transformer），自动从生物医学文本中识别软件/数据库名称。通过引用提示和LLM辅助蒸馏构建训练语料，在多个基准上优于现有方法（如bioNerDS2和ChatGPT等），支持大规模文献分析和工具使用趋势研究。",
+        "summary_en": "SNAIL is a hybrid NER framework combining lexical and semantic modeling (e.g., SciBERT) to automatically identify bioinformatics software/database names from biomedical texts. It uses citation-hinted extraction and LLM-assisted distillation for training data, outperforming existing methods and enabling large-scale literature analysis.",
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "benchmark",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-21T16:37:05.792639+08:00",
+        "updated_at": "2026-08-21T16:37:05.792640+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Asymmetric Attention Heads: Structured Head-Wise Context Allocation for Transformer Attention",
+      "url": "https://arxiv.org/abs/2608.19203",
+      "description": "arXiv:2608.19203v1 Announce Type: new \nAbstract: Standard multi-head attention (MHA) gives every head the same full causal context span, although heads can serve different contextual roles. Some heads may rely mainly on nearby lexical or syntactic context, while others may depend on longer-range relations such as entity interactions, discourse links, or state changes. We present Asymmetric Attention Heads (AAH), a head-wise context- allocation framework that treats context length as an explicit per-head or per-group allocation variable. AAH groups heads using feature-derived statistics, organizes these groups hierarchically, and assigns causal local windows while preserving the standard flat MHA output interface. In 4096- token seed-0 experiments, several AAH-style local-allocation variants achieve lower validation loss than pure full attention. Short-budget ablations show that stable local allocation and head-window assignment structure matter, while fixed/local controls can be competitive with adaptive hierarchy. We interpret AAH as a structured head-wise context-allocation mechanism for quality and analysis, with Attention Coverage Ratio (ACR) reported as a selected-window routing diagnostic",
+      "pub_date": "Fri, 21 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "非对称注意力头：Transformer注意力中结构化的头级上下文分配",
+        "summary": "提出非对称注意力头（AAH）框架，将上下文长度作为每个头或组的显式分配变量，通过特征统计对头分组并分层分配局部窗口，同时保持标准多头注意力输出接口。在4096 token实验中，多种AAH变体验证损失低于纯全注意力，并引入注意力覆盖率（ACR）作为诊断指标。",
+        "summary_en": "Proposes Asymmetric Attention Heads (AAH), a head-wise context allocation framework that assigns local windows hierarchically while preserving standard MHA output. Experiments show lower validation loss than full attention and introduce ACR as a diagnostic.",
+        "tags": [
+          "llm",
+          "research",
+          "attention",
+          "efficiency"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-21-rss-003",
+        "title": "非对称注意力头：Transformer注意力中结构化的头级上下文分配",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.19203",
+        "language": "en",
+        "summary": "提出非对称注意力头（AAH）框架，将上下文长度作为每个头或组的显式分配变量，通过特征统计对头分组并分层分配局部窗口，同时保持标准多头注意力输出接口。在4096 token实验中，多种AAH变体验证损失低于纯全注意力，并引入注意力覆盖率（ACR）作为诊断指标。",
+        "summary_en": "Proposes Asymmetric Attention Heads (AAH), a head-wise context allocation framework that assigns local windows hierarchically while preserving standard MHA output. Experiments show lower validation loss than full attention and introduce ACR as a diagnostic.",
+        "tags": [
+          "llm",
+          "research",
+          "attention",
+          "efficiency"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-08-21T16:37:05.792622+08:00",
+        "updated_at": "2026-08-21T16:37:05.792624+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Hallucination as a Feature, not a Defect: Evaluating a multi-agent architecture to transform speculative language-model outputs into testable scientific hypotheses",
+      "url": "https://arxiv.org/abs/2608.19206",
+      "description": "arXiv:2608.19206v1 Announce Type: new \nAbstract: Contemporary Large Language Models (LLMs) are increasingly aligned to suppress hallucinations, prioritizing factual retrieval over combinatorial creativity. While crucial for mitigating misinformation, this alignment may also restrict speculative Research and Development (R&D) by encouraging what this work operationally treats as semantic overfitting and diversity collapse. In this paper, we propose a Rust-based multi-agent orchestration that uses the contrast between narrative daydreaming and executive control as a functional analogy, not as a neurocognitive claim. The system instigates an Epistemological Friction loop between a high-entropy generating agent and a web-grounded evaluating agent, mediated by a low-entropy semantic bottleneck intended to reduce noise and repetition. Initial experiments generated diverse, viability-rated hypotheses across physical and social-science domains. We additionally report an exploratory paired baseline and ablation study comparing the full system against direct prompting, self-reflection, removal of the semantic filter, removal of search grounding, and removal of lateral lenses. The results place direct prompting among the weakest conditions across most observed metrics, but they do not show a general superiority of the full system over simple self-reflection. Instead, they suggest that each architecture shifts the balance between originality, feasibility, diversity, and empirical grounding in different ways, and that the full system provides its main advantages when hypotheses must survive strong physical, empirical, or institutional constraints. These findings do not show that hallucination is useful in isolation; they suggest that speculative generation gains value only when constrained by architecture, empirical grounding, and explicit evaluation.",
+      "pub_date": "Fri, 21 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "将幻觉视为特性而非缺陷：评估一种将推测性语言模型输出转化为可测试科学假设的多智能体架构",
+        "summary": "本文提出一种基于Rust的多智能体编排系统，利用高熵生成智能体与网络接地评估智能体之间的认知摩擦循环，通过低熵语义瓶颈减少噪声，将LLM的幻觉转化为可测试的科学假设。实验表明，直接提示效果最弱，完整系统在强约束下优势明显，但并非普遍优于简单自反思。",
+        "summary_en": "This paper proposes a Rust-based multi-agent orchestration that leverages an epistemological friction loop between a high-entropy generator and a web-grounded evaluator, mediated by a low-entropy semantic bottleneck, to transform LLM hallucinations into testable scientific hypotheses. Experiments show direct prompting is weakest, and the full system excels under strong constraints but not universally over self-reflection.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "rust",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-21-rss-001",
+        "title": "将幻觉视为特性而非缺陷：评估一种将推测性语言模型输出转化为可测试科学假设的多智能体架构",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.19206",
+        "language": "en",
+        "summary": "本文提出一种基于Rust的多智能体编排系统，利用高熵生成智能体与网络接地评估智能体之间的认知摩擦循环，通过低熵语义瓶颈减少噪声，将LLM的幻觉转化为可测试的科学假设。实验表明，直接提示效果最弱，完整系统在强约束下优势明显，但并非普遍优于简单自反思。",
+        "summary_en": "This paper proposes a Rust-based multi-agent orchestration that leverages an epistemological friction loop between a high-entropy generator and a web-grounded evaluator, mediated by a low-entropy semantic bottleneck, to transform LLM hallucinations into testable scientific hypotheses. Experiments show direct prompting is weakest, and the full system excels under strong constraints but not universally over self-reflection.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "rust",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-21T16:37:05.792609+08:00",
+        "updated_at": "2026-08-21T16:37:05.792613+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

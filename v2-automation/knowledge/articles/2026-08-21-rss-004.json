@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-21-rss-004",
+  "title": "有限主权与控制税：当部署者不拥有模型时为AI监管定价",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.19216",
+  "language": "en",
+  "summary": "本文提出“有限主权”概念，指部署者仅部分控制AI栈的数据、模型、基础设施和交互层。通过四层访问类型学、协议-层需求矩阵和主权折扣成本，分析访问条件如何决定控制协议可行性。基于135万合成案例的消融实验显示，完整日志、执行前网关、追踪访问和范围限制可提升安全性，但控制协议需明确访问假设。",
+  "summary_en": "This paper introduces bounded sovereignty—partial access across AI stack layers—and a sovereignty discount cost to price AI oversight when deployers lack model ownership. A four-layer typology and protocol matrix show access conditions determine control protocol feasibility. Synthetic ablation over 1.35M cases finds logs, gateways, and scope restriction improve safety, urging explicit access assumptions.",
+  "tags": [
+    "research",
+    "security",
+    "infrastructure",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-21T16:37:05.792626+08:00",
+  "updated_at": "2026-08-21T16:37:05.792628+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

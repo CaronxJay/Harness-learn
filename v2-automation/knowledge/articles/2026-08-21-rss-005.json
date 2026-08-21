@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-21-rss-005",
+  "title": "石油工程师学会实践社区的虚拟成员：从原型到部署",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.19199",
+  "language": "en",
+  "summary": "本文介绍虚拟助手ATHENA的演进，用于支持石油天然气行业实践社区的知识捕获、检索和传播。评估显示，与最先进的RAG基线相比，ATHENA显著提高了75名专业人员在井规划任务中的生产力和绩效。技术改进包括多文档检索、答案验证支持和主动知识传播。ATHENA已集成到SPE研究门户并部署。",
+  "summary_en": "This paper describes the evolution of ATHENA, a virtual assistant for knowledge management in the oil and gas industry. Evaluations show significant improvements in productivity and performance over a RAG baseline. Enhancements include multi-document retrieval, answer validation, and proactive dissemination. ATHENA is integrated into the SPE Research Portal.",
+  "tags": [
+    "rag",
+    "application",
+    "research",
+    "llm"
+  ],
+  "category": "application",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-21T16:37:05.792630+08:00",
+  "updated_at": "2026-08-21T16:37:05.792632+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

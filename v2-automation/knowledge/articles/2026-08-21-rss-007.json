@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-21-rss-007",
+  "title": "SNAIL：从文献中自动识别生物信息学软件和数据库名称的混合命名实体识别框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.19201",
+  "language": "en",
+  "summary": "SNAIL是一个混合命名实体识别框架，结合词汇和语义建模（基于SciBERT等Transformer），自动从生物医学文本中识别软件/数据库名称。通过引用提示和LLM辅助蒸馏构建训练语料，在多个基准上优于现有方法（如bioNerDS2和ChatGPT等），支持大规模文献分析和工具使用趋势研究。",
+  "summary_en": "SNAIL is a hybrid NER framework combining lexical and semantic modeling (e.g., SciBERT) to automatically identify bioinformatics software/database names from biomedical texts. It uses citation-hinted extraction and LLM-assisted distillation for training data, outperforming existing methods and enabling large-scale literature analysis.",
+  "tags": [
+    "llm",
+    "research",
+    "application",
+    "benchmark",
+    "fine-tuning"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-21T16:37:05.792639+08:00",
+  "updated_at": "2026-08-21T16:37:05.792640+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-21-rss-003",
+  "title": "非对称注意力头：Transformer注意力中结构化的头级上下文分配",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.19203",
+  "language": "en",
+  "summary": "提出非对称注意力头（AAH）框架，将上下文长度作为每个头或组的显式分配变量，通过特征统计对头分组并分层分配局部窗口，同时保持标准多头注意力输出接口。在4096 token实验中，多种AAH变体验证损失低于纯全注意力，并引入注意力覆盖率（ACR）作为诊断指标。",
+  "summary_en": "Proposes Asymmetric Attention Heads (AAH), a head-wise context allocation framework that assigns local windows hierarchically while preserving standard MHA output. Experiments show lower validation loss than full attention and introduce ACR as a diagnostic.",
+  "tags": [
+    "llm",
+    "research",
+    "attention",
+    "efficiency"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-08-21T16:37:05.792622+08:00",
+  "updated_at": "2026-08-21T16:37:05.792624+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

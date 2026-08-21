@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-21-rss-002",
+  "title": "主动推理作为AI代理的上下文获取机制",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.19202",
+  "language": "en",
+  "summary": "本文提出将上下文获取问题形式化为主动推理，通过内层推理更新潜在任务状态信念，外层决策选择上下文动作以最小化期望自由能。在确定性设置中，认知项简化为期望信息增益，并可按令牌成本归一化。作者在OQA框架中实现精确后验和动态规划，并在25至300个候选的二元及多分类任务上基准测试前沿语言模型，同时研究生成前澄清和令牌预算下的自动提示优化。该框架模型无关，将主动推理视为AI代理上下文获取层的设计原则。",
+  "summary_en": "This paper formalizes context acquisition in AI agents as active inference, where an inner inference step updates beliefs over latent task states and an outer decision selects context actions to minimize expected free energy. In deterministic settings, the epistemic term reduces to expected information gain, optionally normalized by token cost. The authors instantiate this in Optimal Question Asking (OQA) with exact posteriors and dynamic programming, benchmarking frontier language models on binary and multiway categorical tasks with 25 to 300 candidates. They also study clarification before generation and automated prompt optimization under token budgets. The formulation is model-agnostic, viewing active inference as a design principle for the context-acquisition layer of AI agents.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "research",
+    "benchmark",
+    "prompt-engineering"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-08-21T16:37:05.792617+08:00",
+  "updated_at": "2026-08-21T16:37:05.792619+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

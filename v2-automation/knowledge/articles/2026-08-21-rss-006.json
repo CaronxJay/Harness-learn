@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-21-rss-006",
+  "title": "Transformer模型在文本摘要中的比较研究：BART、BERT与RoBERTa",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.19200",
+  "language": "en",
+  "summary": "本文聚焦于基于Transformer和大型语言模型的现代文本摘要技术，重点比较BERT、RoBERTa和BART的架构、预训练策略及其在抽取式和生成式摘要任务中的适用性。",
+  "summary_en": "This article reviews modern text summarization techniques, focusing on transformer-based models and LLMs, specifically BERT, RoBERTa, and BART, examining their architectures, pretraining strategies, and suitability for extractive and abstractive summarization.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-21T16:37:05.792634+08:00",
+  "updated_at": "2026-08-21T16:37:05.792636+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
