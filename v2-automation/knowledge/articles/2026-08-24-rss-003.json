@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-24-rss-003",
+  "title": "真相深藏：通过潜在意图验证对抗语义伪装",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.20378",
+  "language": "en",
+  "summary": "该研究揭示LLM安全对齐的表面性，提出语义伪装攻击可绕过防护。通过分析SLM潜在激活轨迹，发现早期层保留有害特征，提出轻量级防御方法LIV，在PKU-SafeRLHF数据集上优于标准防护20-50%，无需重训练。",
+  "summary_en": "This study reveals the superficiality of LLM safety alignment and proposes Semantic Camouflage attacks that bypass guardrails. By analyzing latent activation trajectories in SLMs, it identifies early-layer harm signatures and introduces Latent Intent Verification (LIV), a lightweight defense outperforming standard guardrails by 20-50% without retraining.",
+  "tags": [
+    "llm",
+    "security",
+    "research",
+    "evaluation"
+  ],
+  "category": "security",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-24T16:44:41.560883+08:00",
+  "updated_at": "2026-08-24T16:44:41.560884+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-24-rss-009",
+  "title": "可解释多模态分类：线性判别树集成方法",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.20384",
+  "language": "en",
+  "summary": "提出基于树集成的多模态分类框架，平衡精度与可解释性。通过概念聚类降维、改进特征重要性指标，在情感识别任务上F1提升4.3%，准确率提升3.0%，且特征重要性更符合人类标注。",
+  "summary_en": "A tree-ensemble framework for interpretable multimodal classification, improving F1 by 4.3% over Multimodal Transformer and accuracy by 3.0% over IMR, with feature importance more aligned with human annotations.",
+  "tags": [
+    "multimodal",
+    "research",
+    "interpretability",
+    "classification"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-24T16:44:41.560906+08:00",
+  "updated_at": "2026-08-24T16:44:41.560907+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

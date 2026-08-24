@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-24-rss-002",
+  "title": "PrimeAgentOrchestrator：面向个人AI基础设施的记忆预载智能体生成系统",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.20342",
+  "language": "en",
+  "summary": "PrimeAgentOrchestrator（PAO）为LLM编码智能体（如Claude Code）在启动时预载相关记忆，通过并行查询PostgreSQL和Cloudflare Worker语义索引，融合结果并注入文件系统，实现上下文延续。报告了四个月部署经验，涵盖三代上下文传递机制、失败模式及工程权衡。",
+  "summary_en": "PrimeAgentOrchestrator (PAO) pre-loads relevant memories into LLM coding agents at spawn time by querying PostgreSQL and Cloudflare Worker semantic index in parallel, fusing results, and injecting via filesystem. Reports on four months of deployment, covering three generations of context delivery, failure modes, and engineering tradeoffs.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "infrastructure",
+    "tool",
+    "application"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-24T16:44:41.560877+08:00",
+  "updated_at": "2026-08-24T16:44:41.560879+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

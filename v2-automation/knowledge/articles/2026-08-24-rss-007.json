@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-24-rss-007",
+  "title": "临床长上下文推理中的抑制性注意力：表征与缓解电子病历处理中的“迷失在中间”效应",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.20348",
+  "language": "en",
+  "summary": "该研究首次系统表征了电子病历（EHR）处理中的临床“迷失在中间”（CLitM）问题，发现模型对长上下文中间信息的检索可靠性显著下降。提出了查询条件临床抑制（QCCS）轻量级选择门，在指令跟随准确性上优于BM25、稠密检索等基线，表明查询对齐的上下文选择比黄金句子检索召回更能预测准确性。",
+  "summary_en": "This study systematically characterizes the clinical lost-in-the-middle (CLitM) effect in EHR processing, showing degraded retrieval of central information. It introduces Query-Conditioned Clinical Suppression (QCCS), a lightweight selection gate that outperforms retrieval baselines in instruction-following accuracy, suggesting query-aligned context selection predicts accuracy better than gold-sentence recall.",
+  "tags": [
+    "llm",
+    "research",
+    "rag",
+    "application",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-24T16:44:41.560898+08:00",
+  "updated_at": "2026-08-24T16:44:41.560900+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

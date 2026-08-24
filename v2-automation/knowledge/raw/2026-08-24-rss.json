@@ -1,0 +1,487 @@
+{
+  "collected_at": "2026-08-24T16:44:41.561733+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "SDAD: Spec-Driven Agentic Development for the AI-Native SDLC",
+      "url": "https://arxiv.org/abs/2608.20341",
+      "description": "arXiv:2608.20341v1 Announce Type: new \nAbstract: Frontier coding agents backed by large language models with context windows from hundreds of thousands to millions of tokens are restructuring the Software Development Life Cycle (SDLC). Rich context handling and multi-step reasoning now allow substantial Functional Requirement Documents (FRDs) and repository context to be ingested in a single workflow, making specification quality the execution fuel for autonomous delivery. This report formalises Spec-Driven Agentic Development (SDAD) as a synthesis of disciplined up-front formalisation and high-velocity implementation: intent capture, machine-readable specification, agentic synthesis, and independent multi-agent verification under human sign-off. We revisit the historical pendulum between Waterfall and Agile, introduce AI-code as a fourth production paradigm, and compare Human-Agile (circa 2020) with Agentic-SDAD (circa 2026) across artefacts, cadence, accountability, and security posture. Beyond process description, we extend the model to team role metamorphosis (engineer, QA, platform, and product functions), quantitative governance (Ambiguity Tax, Spec Fidelity, SER, and TCI_agentic with repair multiplier phi), and pragmatic adoption via hybrid estimation and a staged migration blueprint. Industrial and research evidence on AI-augmented testing and verification is integrated to motivate separation between synthesis and release authority. Overall, the paper argues that agentic speed does not eliminate engineering discipline; it relocates discipline upstream into specification precision, explicit gates, and auditable provenance.",
+      "pub_date": "Mon, 24 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "SDAD：面向AI原生软件开发生命周期的规范驱动智能体开发",
+        "summary": "本文正式提出规范驱动智能体开发（SDAD），将前期规范化与高速实现相结合，涵盖意图捕获、机器可读规范、智能体综合及独立多智能体验证。论文回顾了瀑布与敏捷的演变，引入AI代码作为第四生产范式，并扩展至团队角色转变、量化治理及分阶段迁移蓝图，强调智能体速度不消除工程纪律，而是将纪律上移至规范精度与可审计溯源。",
+        "summary_en": "This paper formalizes Spec-Driven Agentic Development (SDAD), combining disciplined upfront formalization with high-velocity implementation, covering intent capture, machine-readable specs, agentic synthesis, and independent multi-agent verification. It revisits Waterfall vs Agile, introduces AI-code as a fourth paradigm, and extends to role metamorphosis, quantitative governance, and staged migration, arguing agentic speed relocates discipline upstream.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "application",
+          "infrastructure"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-24-rss-001",
+        "title": "SDAD：面向AI原生软件开发生命周期的规范驱动智能体开发",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.20341",
+        "language": "en",
+        "summary": "本文正式提出规范驱动智能体开发（SDAD），将前期规范化与高速实现相结合，涵盖意图捕获、机器可读规范、智能体综合及独立多智能体验证。论文回顾了瀑布与敏捷的演变，引入AI代码作为第四生产范式，并扩展至团队角色转变、量化治理及分阶段迁移蓝图，强调智能体速度不消除工程纪律，而是将纪律上移至规范精度与可审计溯源。",
+        "summary_en": "This paper formalizes Spec-Driven Agentic Development (SDAD), combining disciplined upfront formalization with high-velocity implementation, covering intent capture, machine-readable specs, agentic synthesis, and independent multi-agent verification. It revisits Waterfall vs Agile, introduces AI-code as a fourth paradigm, and extends to role metamorphosis, quantitative governance, and staged migration, arguing agentic speed relocates discipline upstream.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "application",
+          "infrastructure"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-24T16:44:41.560869+08:00",
+        "updated_at": "2026-08-24T16:44:41.560873+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "PrimeAgentOrchestrator: Memory-Primed Agent Spawning for Personal AI Infrastructure",
+      "url": "https://arxiv.org/abs/2608.20342",
+      "description": "arXiv:2608.20342v1 Announce Type: new \nAbstract: Large language model (LLM) coding agents start each session with an empty context window, discarding accumulated knowledge from prior work. We present PrimeAgentOrchestrator (PAO), a system that spawns new instances of Claude Code -- Anthropic's terminal-based coding agent -- pre-loaded with relevant memories compiled from the user's existing personal databases. At spawn time, PAO queries two independently-operated memory backends in parallel (a PostgreSQL entity-observation database and a Cloudflare Worker semantic search index), fuses results using backend-specific retrieval strategies, and delivers the compiled briefing via filesystem injection that exploits the host agent's configuration auto-read behavior. PAO manages the full agent lifecycle including trust pre-seeding, readiness polling with error detection, and adaptive terminal text injection. We report on four months of regular deployment (December 2025 through March 2026) as an experience report, documenting three generations of context delivery mechanisms, the failure modes that motivated each redesign, and the engineering tradeoffs of bridging heterogeneous memory systems rather than building a unified one.",
+      "pub_date": "Mon, 24 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "PrimeAgentOrchestrator：面向个人AI基础设施的记忆预载智能体生成系统",
+        "summary": "PrimeAgentOrchestrator（PAO）为LLM编码智能体（如Claude Code）在启动时预载相关记忆，通过并行查询PostgreSQL和Cloudflare Worker语义索引，融合结果并注入文件系统，实现上下文延续。报告了四个月部署经验，涵盖三代上下文传递机制、失败模式及工程权衡。",
+        "summary_en": "PrimeAgentOrchestrator (PAO) pre-loads relevant memories into LLM coding agents at spawn time by querying PostgreSQL and Cloudflare Worker semantic index in parallel, fusing results, and injecting via filesystem. Reports on four months of deployment, covering three generations of context delivery, failure modes, and engineering tradeoffs.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "infrastructure",
+          "tool",
+          "application"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-24-rss-002",
+        "title": "PrimeAgentOrchestrator：面向个人AI基础设施的记忆预载智能体生成系统",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.20342",
+        "language": "en",
+        "summary": "PrimeAgentOrchestrator（PAO）为LLM编码智能体（如Claude Code）在启动时预载相关记忆，通过并行查询PostgreSQL和Cloudflare Worker语义索引，融合结果并注入文件系统，实现上下文延续。报告了四个月部署经验，涵盖三代上下文传递机制、失败模式及工程权衡。",
+        "summary_en": "PrimeAgentOrchestrator (PAO) pre-loads relevant memories into LLM coding agents at spawn time by querying PostgreSQL and Cloudflare Worker semantic index in parallel, fusing results, and injecting via filesystem. Reports on four months of deployment, covering three generations of context delivery, failure modes, and engineering tradeoffs.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "infrastructure",
+          "tool",
+          "application"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-24T16:44:41.560877+08:00",
+        "updated_at": "2026-08-24T16:44:41.560879+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Truth Lies Deep: Countering Semantic Camouflage via Latent Intent Verification",
+      "url": "https://arxiv.org/abs/2608.20378",
+      "description": "arXiv:2608.20378v1 Announce Type: new \nAbstract: Safety alignment in Large Language Models (LLMs) is often superficial, relying on refusal mechanisms that trigger only at the final stages of generation without erasing the foundational knowledge of harmful concepts acquired during pretraining. This study demonstrates that this architectural disconnect leaves models vulnerable to Semantic Camouflage -- adversarial attacks that wrap harmful intent in benign narrative contexts (e.g., creative writing), effectively bypassing standard input and output guardrails. By analyzing the latent activation trajectories of three distinct Small Language Model (SLM) families (Phi-3, Qwen2.5, and Gemma-2b) under adversarial stress, this research identifies a universal ``Intent Horizon'' -- a critical depth (typically 15--20\\% of total layers) where the model's distinct, pre-trained representation of harmful intent collapses as it contextualizes the query into a ``safe'' narrative. Results indicate that while late-layer representations of camouflaged attacks are mathematically indistinguishable from safe queries (Detection Rate $< 20\\%$), early-layer representations retain a distinct, detectable ``harm signature.'' Leveraging this insight, this paper proposes Latent Intent Verification (LIV), a lightweight probing defense. Experiments on the PKU-SafeRLHF dataset demonstrate that LIV outperforms standard guardrails by a margin of 20--50\\% across all tested architectures, effectively neutralizing zero-day semantic attacks without requiring model retraining.",
+      "pub_date": "Mon, 24 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "真相深藏：通过潜在意图验证对抗语义伪装",
+        "summary": "该研究揭示LLM安全对齐的表面性，提出语义伪装攻击可绕过防护。通过分析SLM潜在激活轨迹，发现早期层保留有害特征，提出轻量级防御方法LIV，在PKU-SafeRLHF数据集上优于标准防护20-50%，无需重训练。",
+        "summary_en": "This study reveals the superficiality of LLM safety alignment and proposes Semantic Camouflage attacks that bypass guardrails. By analyzing latent activation trajectories in SLMs, it identifies early-layer harm signatures and introduces Latent Intent Verification (LIV), a lightweight defense outperforming standard guardrails by 20-50% without retraining.",
+        "tags": [
+          "llm",
+          "security",
+          "research",
+          "evaluation"
+        ],
+        "category": "security",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-24-rss-003",
+        "title": "真相深藏：通过潜在意图验证对抗语义伪装",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.20378",
+        "language": "en",
+        "summary": "该研究揭示LLM安全对齐的表面性，提出语义伪装攻击可绕过防护。通过分析SLM潜在激活轨迹，发现早期层保留有害特征，提出轻量级防御方法LIV，在PKU-SafeRLHF数据集上优于标准防护20-50%，无需重训练。",
+        "summary_en": "This study reveals the superficiality of LLM safety alignment and proposes Semantic Camouflage attacks that bypass guardrails. By analyzing latent activation trajectories in SLMs, it identifies early-layer harm signatures and introduces Latent Intent Verification (LIV), a lightweight defense outperforming standard guardrails by 20-50% without retraining.",
+        "tags": [
+          "llm",
+          "security",
+          "research",
+          "evaluation"
+        ],
+        "category": "security",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-24T16:44:41.560883+08:00",
+        "updated_at": "2026-08-24T16:44:41.560884+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "A Survey on Foundations and Frontiers of Multimodal Agentic Frameworks: Techniques and Applications",
+      "url": "https://arxiv.org/abs/2608.20379",
+      "description": "arXiv:2608.20379v1 Announce Type: new \nAbstract: Advances in large language models (LLMs) have fueled a wave of research into agency: the ability to reason, plan, and act. This effort has produced agentic frameworks that orchestrate perception, memory, and decision-making around powerful LLM backbones. With the advent of large multimodal models (LMMs), these systems can process and integrate diverse modalities, including images, audio, and video, thereby improving their real-world applicability. Yet, while surveys of LLM-based agents exist, the role of multimodality in shaping agency has not been systematically examined in recent years. This survey fills the gap by analyzing the impact of multimodality across the core functional modules of the agentic framework: perception, reasoning, planning, memory, and action. Using this lens, we trace the evolution from text-centric agents to multimodal frameworks, examine how modalities are integrated through delegated, late-fusion, and early-fusion architectures, and assess the emergence of agentic behaviors enabled by grounded perception and multimodal reasoning. We organize existing work through a modality-centric taxonomy that links architectural design choices to agent capabilities. Moreover, we review multimodal agentic systems across various application domains, including Robotics, GUI & Web Navigation, Multimedia Content Generation & Editing, and Long-form Video Understanding & Retrieval. Beyond capabilities, we analyze performance across these settings and discuss efficiency-scalability trade-offs, including training and inference costs, latency, and deployment constraints. By focusing on the impact of multimodality in agentic design, we aim to identify key gaps and chart a roadmap toward robust and general-purpose intelligent systems.",
+      "pub_date": "Mon, 24 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "多模态智能体框架基础与前沿综述：技术与应用",
+        "summary": "该综述系统分析了多模态对智能体框架核心模块（感知、推理、规划、记忆、行动）的影响，提出模态中心分类法，梳理从文本智能体到多模态框架的演进，涵盖机器人、GUI/Web导航、多媒体生成与编辑、长视频理解等应用，并讨论效率与可扩展性权衡。",
+        "summary_en": "This survey systematically analyzes the impact of multimodality on core agentic framework modules (perception, reasoning, planning, memory, action), proposes a modality-centric taxonomy, traces evolution from text-centric to multimodal frameworks, covers applications like robotics, GUI/Web navigation, multimedia generation, long-form video understanding, and discusses efficiency-scalability trade-offs.",
+        "tags": [
+          "multimodal",
+          "agent-framework",
+          "research",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-24-rss-004",
+        "title": "多模态智能体框架基础与前沿综述：技术与应用",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.20379",
+        "language": "en",
+        "summary": "该综述系统分析了多模态对智能体框架核心模块（感知、推理、规划、记忆、行动）的影响，提出模态中心分类法，梳理从文本智能体到多模态框架的演进，涵盖机器人、GUI/Web导航、多媒体生成与编辑、长视频理解等应用，并讨论效率与可扩展性权衡。",
+        "summary_en": "This survey systematically analyzes the impact of multimodality on core agentic framework modules (perception, reasoning, planning, memory, action), proposes a modality-centric taxonomy, traces evolution from text-centric to multimodal frameworks, covers applications like robotics, GUI/Web navigation, multimedia generation, long-form video understanding, and discusses efficiency-scalability trade-offs.",
+        "tags": [
+          "multimodal",
+          "agent-framework",
+          "research",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-24T16:44:41.560887+08:00",
+        "updated_at": "2026-08-24T16:44:41.560888+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Interpretable Multimodal Classification with Linear Discriminant Tree Ensembles",
+      "url": "https://arxiv.org/abs/2608.20384",
+      "description": "arXiv:2608.20384v1 Announce Type: new \nAbstract: Multimodal affect and behaviour classifiers that fuse heterogeneous text, audio, and visual streams must simultaneously achieve competitive accuracy and produce human-understandable explanations of the cues driving their decisions -- a dual objective that current high-capacity models, notably Transformers, only partially address. While Transformers attain strong predictive performance, their distributed representations and deep nonlinearity make it difficult to assign meaningful importance weights to individual multimodal features, limiting their use in trust-sensitive applications such as clinical affect monitoring and educational assessment. We address this gap by developing a framework based on tree-based ensembles that balances accuracy and interpretability. The framework encodes each modality into tokens, extracts and clusters concepts to reduce dimensionality, routes the fused modalities through tree-based ensemble classifiers, and interprets trends using a novel modified feature importance metric. The modified importance reduces the influence of the negative class in binary classification tasks, thereby improving indicator or marker detection. The proposed tree-based ensembles -- Linear Discriminant Tree (LDT), Linear Discriminant Forest (LDF), and Linear Discriminant AdaBoost (LDAB) -- achieve F1-mod gains of 4.3\\% over the Multimodal Transformer and accuracy gains of 3.0\\% over the primary interpretable multimodal baseline, Interpretable Multimodal Routing (IMR). The proposed multimodal feature importance extracts salient inter-modal concepts with substantially higher human-annotator agreement scores than default feature importance (62.2\\% vs.\\ 43.2\\% on IEMOCAP; 46.7\\% vs.\\ 32.1\\% on CMU-MOSI).",
+      "pub_date": "Mon, 24 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "可解释多模态分类：线性判别树集成方法",
+        "summary": "提出基于树集成的多模态分类框架，平衡精度与可解释性。通过概念聚类降维、改进特征重要性指标，在情感识别任务上F1提升4.3%，准确率提升3.0%，且特征重要性更符合人类标注。",
+        "summary_en": "A tree-ensemble framework for interpretable multimodal classification, improving F1 by 4.3% over Multimodal Transformer and accuracy by 3.0% over IMR, with feature importance more aligned with human annotations.",
+        "tags": [
+          "multimodal",
+          "research",
+          "interpretability",
+          "classification"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-24-rss-009",
+        "title": "可解释多模态分类：线性判别树集成方法",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.20384",
+        "language": "en",
+        "summary": "提出基于树集成的多模态分类框架，平衡精度与可解释性。通过概念聚类降维、改进特征重要性指标，在情感识别任务上F1提升4.3%，准确率提升3.0%，且特征重要性更符合人类标注。",
+        "summary_en": "A tree-ensemble framework for interpretable multimodal classification, improving F1 by 4.3% over Multimodal Transformer and accuracy by 3.0% over IMR, with feature importance more aligned with human annotations.",
+        "tags": [
+          "multimodal",
+          "research",
+          "interpretability",
+          "classification"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-24T16:44:41.560906+08:00",
+        "updated_at": "2026-08-24T16:44:41.560907+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Beyond Raw Transcripts: Structured Persona Extraction for LLM-Based Digital Twins",
+      "url": "https://arxiv.org/abs/2608.20344",
+      "description": "arXiv:2608.20344v1 Announce Type: new \nAbstract: LLM-based \"digital twins\" aim to simulate how an individual would behavein new environments or respond to novel questions, given some representation of that individual's prior responses. A common approach constructs this representation from survey transcripts or summaries responses. Prior work shows that compressing long transcripts into shorter LLM-generated summaries does not significantly reduce predictive accuracy, suggesting that information volume is not the primary bottleneck.\n  In this work, we argue that the key limitation is instead structural:how persona information is organized before being provided to thesimulator model. We study this by comparing unstructured summaries with structured persona representations. First, we introduce a hand-craftedschema (BDE: Background, Decision procedure, Evaluation), grounded in consumer-behavior theory, and show that it improves predictive accuracy over raw transcripts by +1.91 percentage points on a homogeneous benchmark (Twin-2K-500), with similar gains on gpt-5.4-mini and Qwen3-8B as robustness checks. However, this fixed structure does not generalizeacross more heterogeneous tasks, where performance is statistically indistinguishable from the raw transcript baseline.\n  To address this limitation, we propose an automatic structure-discovery pipeline in which an LLM iteratively proposes and refines task-specific persona structures and extraction prompts. On a benchmark of 13 diverse sub-studies, this approach restores performance, improving mean accuracy by +1.91 percentage points over the raw transcript baseline and eliminating significant losses observed with the fixed schema.\n  Overall, our results suggest that the main constraint in LLM-based digital twins is not how much information is provided, but how it is structured -- and that the optimal structure depends on the task.",
+      "pub_date": "Mon, 24 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "超越原始转录：面向LLM数字人的结构化人格提取",
+        "summary": "本文研究LLM数字人模拟中人格信息的组织方式。提出手工设计的BDE（背景、决策过程、评估）结构，在同类基准上提升准确率1.91个百分点，但跨任务泛化不佳。进一步提出自动结构发现流程，在13个多样化子研究中恢复性能，平均准确率提升1.91个百分点，表明关键限制在于信息结构而非信息量。",
+        "summary_en": "This paper studies how persona information is organized for LLM-based digital twins. A hand-crafted BDE schema improves accuracy by +1.91 points on homogeneous benchmarks but fails to generalize. An automatic structure-discovery pipeline restores performance across 13 diverse sub-studies, showing that structural organization, not information volume, is the key bottleneck.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-24-rss-008",
+        "title": "超越原始转录：面向LLM数字人的结构化人格提取",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.20344",
+        "language": "en",
+        "summary": "本文研究LLM数字人模拟中人格信息的组织方式。提出手工设计的BDE（背景、决策过程、评估）结构，在同类基准上提升准确率1.91个百分点，但跨任务泛化不佳。进一步提出自动结构发现流程，在13个多样化子研究中恢复性能，平均准确率提升1.91个百分点，表明关键限制在于信息结构而非信息量。",
+        "summary_en": "This paper studies how persona information is organized for LLM-based digital twins. A hand-crafted BDE schema improves accuracy by +1.91 points on homogeneous benchmarks but fails to generalize. An automatic structure-discovery pipeline restores performance across 13 diverse sub-studies, showing that structural organization, not information volume, is the key bottleneck.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-08-24T16:44:41.560902+08:00",
+        "updated_at": "2026-08-24T16:44:41.560903+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "When Vocabulary Comprehension Fails Clinical Reasoning: Evaluating Therapy Bots' Safety Risks for Generation Alpha",
+      "url": "https://arxiv.org/abs/2608.20345",
+      "description": "arXiv:2608.20345v1 Announce Type: new \nAbstract: Conversational AI systems have become informal mental health support resources for Generation Alpha (Gen Alpha, born 2010-2024), with 13.1% of U.S. adolescents (5.4 million) using generative AI for mental health advice. While these systems, from therapy apps to general chatbots, rely on large language models trained on extensive psychological literature, their safety for youth communication patterns characterized by hyperbolic language, ironic positivity, rapid semantic drift, and contextual polysemy remains unvalidated. Following multiple adolescent deaths linked to AI chatbot interactions, systematic evaluation is critical. We present two benchmarks: (1) 64 Gen Alpha mental health expressions validated by native speakers (ICC=0.72) and clinicians (kappa=0.78); (2) 75 multi-turn conversations (780 turns) with paired Standard/Gen Alpha versions. Across evaluations of LLM architectures underlying therapy apps and general chatbots - Claude, GPT-4o, Llama-3.1 - models understand 76-82% of vocabulary but correctly calibrate only 64-72% of clinical risk, creating a 10-14 percentage point (pp) vocabulary-comprehension gap (p<.001, d>0.48) absent in human therapists (3pp, p=.22). The gap is architecturally consistent and widens with ambiguity (7pp -> 18pp). We identify six failure patterns: sarcasm masking (29pp), minimization acceptance (43pp), informal style bias (24pp), risk-stratified ambiguity (19pp), semantic drift (19pp), context-dependent violence (7pp). Patterns compound; three or more yield 94% miss rates. Lightweight mitigations fail; only heavy scaffolding achieves human performance (6.4x cost). With 34% baseline miss rate yielding 146,880 estimated annual missed crises, we recommend mandatory human-in-the-loop architectures, quarterly youth-specific validation, transparent performance disclosure, and regulatory frameworks for youth-facing mental health AI.",
+      "pub_date": "Mon, 24 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "词汇理解失败导致临床推理失误：评估面向Alpha世代治疗机器人的安全风险",
+        "summary": "该研究针对面向Gen Alpha的心理健康聊天机器人，提出两个基准测试，发现模型存在10-14个百分点的词汇理解-临床风险校准差距，识别出六种失败模式，并建议采用人类参与架构和监管框架。",
+        "summary_en": "This study evaluates therapy bots for Gen Alpha, proposing two benchmarks and finding a 10-14 percentage point gap between vocabulary comprehension and clinical risk calibration, identifying six failure patterns, and recommending human-in-the-loop architectures and regulatory frameworks.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "security",
+          "application",
+          "evaluation"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-24-rss-005",
+        "title": "词汇理解失败导致临床推理失误：评估面向Alpha世代治疗机器人的安全风险",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.20345",
+        "language": "en",
+        "summary": "该研究针对面向Gen Alpha的心理健康聊天机器人，提出两个基准测试，发现模型存在10-14个百分点的词汇理解-临床风险校准差距，识别出六种失败模式，并建议采用人类参与架构和监管框架。",
+        "summary_en": "This study evaluates therapy bots for Gen Alpha, proposing two benchmarks and finding a 10-14 percentage point gap between vocabulary comprehension and clinical risk calibration, identifying six failure patterns, and recommending human-in-the-loop architectures and regulatory frameworks.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "security",
+          "application",
+          "evaluation"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-24T16:44:41.560890+08:00",
+        "updated_at": "2026-08-24T16:44:41.560892+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Building and Evaluating a Synthetic Bengali Speech Resource for Telecom Customer Care",
+      "url": "https://arxiv.org/abs/2608.20346",
+      "description": "arXiv:2608.20346v1 Announce Type: new \nAbstract: Speech systems used in customer-facing applications often require domain-specific language coverage. We present a synthetic Bengali speech dataset for telecom customer-care scenarios. The dataset contains 10,000 audio-text pairs, approximately 26.82 hours of 24 kHz speech, and predefined train, validation, and test splits of 9,000, 500, and 500 examples. It is publicly released on Hugging Face under the CC-BY-4.0 license. The speech was generated with OmniVoice in voice-cloning mode using a real female reference recording and transcript, with bfloat16 precision, 16 diffusion sampling steps, and a speaking-rate control value of 1.0. Along with the original Bengali text, the dataset provides a normalized transcript field designed for ASR/STT training and evaluation. We report an automatic intelligibility check over all 10,000 samples using a domain-adapted Whisper ASR model fine-tuned from bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium, along with a manual listening check on selected samples. The evaluation gives an average WER of 2.54%, an average CER of 0.59%, and median WER and CER values of 0.00%. These results suggest strong text-audio consistency under the selected automatic evaluation pipeline, while the paper also discusses the limitations of synthetic speech and STT-based evaluation.",
+      "pub_date": "Mon, 24 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "面向电信客服的合成孟加拉语语音资源构建与评估",
+        "summary": "该论文介绍了一个用于电信客服场景的合成孟加拉语语音数据集，包含10,000对音频-文本，约26.82小时24kHz语音，并公开于Hugging Face（CC-BY-4.0）。使用OmniVoice语音克隆生成，提供标准化转录文本。通过Whisper ASR评估，平均WER为2.54%，CER为0.59%，显示良好的文本-音频一致性，同时讨论了合成语音和STT评估的局限性。",
+        "summary_en": "This paper presents a synthetic Bengali speech dataset for telecom customer care, containing 10,000 audio-text pairs (~26.82 hours) generated with OmniVoice, publicly released on Hugging Face. Evaluated with Whisper ASR, achieving average WER 2.54% and CER 0.59%, indicating strong text-audio consistency, while discussing limitations of synthetic speech and STT evaluation.",
+        "tags": [
+          "dataset",
+          "speech",
+          "asr",
+          "multimodal",
+          "evaluation"
+        ],
+        "category": "multimodal",
+        "relevance_score": 0.8,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-24-rss-010",
+        "title": "面向电信客服的合成孟加拉语语音资源构建与评估",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.20346",
+        "language": "en",
+        "summary": "该论文介绍了一个用于电信客服场景的合成孟加拉语语音数据集，包含10,000对音频-文本，约26.82小时24kHz语音，并公开于Hugging Face（CC-BY-4.0）。使用OmniVoice语音克隆生成，提供标准化转录文本。通过Whisper ASR评估，平均WER为2.54%，CER为0.59%，显示良好的文本-音频一致性，同时讨论了合成语音和STT评估的局限性。",
+        "summary_en": "This paper presents a synthetic Bengali speech dataset for telecom customer care, containing 10,000 audio-text pairs (~26.82 hours) generated with OmniVoice, publicly released on Hugging Face. Evaluated with Whisper ASR, achieving average WER 2.54% and CER 0.59%, indicating strong text-audio consistency, while discussing limitations of synthetic speech and STT evaluation.",
+        "tags": [
+          "dataset",
+          "speech",
+          "asr",
+          "multimodal",
+          "evaluation"
+        ],
+        "category": "multimodal",
+        "relevance_score": 0.8,
+        "status": "published",
+        "created_at": "2026-08-24T16:44:41.560910+08:00",
+        "updated_at": "2026-08-24T16:44:41.560911+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Who Do Language Models Think Is Competent? A Mechanistic Analysis of Occupational Bias",
+      "url": "https://arxiv.org/abs/2608.20347",
+      "description": "arXiv:2608.20347v1 Announce Type: new \nAbstract: Language models (LMs) often pass behavioral bias evaluations, but it remains unclear whether they no longer represent the underlying associations that give rise to biases, or have merely learned not to express them. In this study, we show that representational biases are often detectable, even when behavioral biases are not visible. We introduce a causal framework that decomposes occupational bias into two measurement points: a model's internal representation of a user's competence, and its observable outputs. We derive steering vectors for representations of user expertise, and verify that they causally mediate model behavior in both a question-answering task and a hiring task. Applying this framework to several open-weight models, we find that demographic attributes, such as gender, race, and socioeconomic status, influence a model's representation of user expertise, even in cases where behavioral metrics detect no disparity between demographics. We show that these model representations can influence downstream behavior under intervention, suggesting failure modes that behavioral metrics alone may not detect.",
+      "pub_date": "Mon, 24 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "语言模型认为谁更有能力？职业偏见的机制分析",
+        "summary": "该研究提出因果框架，将职业偏见分解为内部表征和可观察输出两个测量点。通过推导用户专业知识的表征转向向量，发现即使行为指标未显示差异，模型内部表征仍受性别、种族等人口属性影响，且这些表征可在干预下影响下游行为，揭示行为指标无法检测的失败模式。",
+        "summary_en": "This study introduces a causal framework decomposing occupational bias into internal representations and observable outputs. Using steering vectors for user expertise, it shows demographic attributes influence model representations even when behavioral metrics show no disparity, and these representations can affect downstream behavior under intervention, revealing failure modes undetected by behavioral metrics.",
+        "tags": [
+          "llm",
+          "research",
+          "bias",
+          "mechanistic-interpretability"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-24-rss-006",
+        "title": "语言模型认为谁更有能力？职业偏见的机制分析",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.20347",
+        "language": "en",
+        "summary": "该研究提出因果框架，将职业偏见分解为内部表征和可观察输出两个测量点。通过推导用户专业知识的表征转向向量，发现即使行为指标未显示差异，模型内部表征仍受性别、种族等人口属性影响，且这些表征可在干预下影响下游行为，揭示行为指标无法检测的失败模式。",
+        "summary_en": "This study introduces a causal framework decomposing occupational bias into internal representations and observable outputs. Using steering vectors for user expertise, it shows demographic attributes influence model representations even when behavioral metrics show no disparity, and these representations can affect downstream behavior under intervention, revealing failure modes undetected by behavioral metrics.",
+        "tags": [
+          "llm",
+          "research",
+          "bias",
+          "mechanistic-interpretability"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-24T16:44:41.560894+08:00",
+        "updated_at": "2026-08-24T16:44:41.560896+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Inhibitory Attention for Clinical Long-Context Reasoning: Characterizing and Mitigating Lost-in-the-Middle Effects in EHR Processing",
+      "url": "https://arxiv.org/abs/2608.20348",
+      "description": "arXiv:2608.20348v1 Announce Type: new \nAbstract: Electronic health records now routinely exceed 100,000 tokens per patient. Yet large language models exhibit the lost-in-the-middle (LitM) effect: information near the center of a long context is retrieved less reliably than information near the edges. In clinical use this is not benign: the single most consequential fact in a note can sit at its center. We term this the clinical lost-in-the-middle (CLitM) problem, give its first systematic characterization using MedAlign, and compare context-selection strategies as remedies. Across 2,196 instruction-response pairs and six language models, we observe a 21.9 percentage-point gap between peak accuracy (59.5%, 95% CI [46.3, 71.0], 20-30% decile) and trough accuracy (37.6% [23.2, 52.5] at 70-80%); 67.8% of reference answers fall between the 10th and 90th percentiles of the EHR timeline, inside the CLitM trough. We introduce Query-Conditioned Clinical Suppression (QCCS), a lightweight query-conditioned selection gate, and evaluate it against BM25, BM25 with section-header filtering, dense retrieval, and cross-encoder reranking (N=83 held-out instructions). With Qwen2.5-7B-Instruct (16k context), QCCS outperforms all five comparators under LLM-as-judge scoring: for middle-position instructions QCCS reaches 16.7% versus BM25 3.3%, cross-encoder 0.0%, dense 0.0%, and full context 6.7%; overall QCCS reaches 25.3% versus at most 3.6% for retrieval-only comparators. This advantage is not explained by retrieval recall: at k=20, BM25 retrieves the gold evidence sentence in 98.8% of instructions (QCCS 34.9%), yet retrieval arms stay at most 2.6% accurate even when they retrieve it, whereas QCCS reaches 25.0% even when it does not. In this proof-of-concept evaluation, query-aligned context selection predicts EHR instruction-following accuracy better than gold-sentence retrieval recall.",
+      "pub_date": "Mon, 24 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "临床长上下文推理中的抑制性注意力：表征与缓解电子病历处理中的“迷失在中间”效应",
+        "summary": "该研究首次系统表征了电子病历（EHR）处理中的临床“迷失在中间”（CLitM）问题，发现模型对长上下文中间信息的检索可靠性显著下降。提出了查询条件临床抑制（QCCS）轻量级选择门，在指令跟随准确性上优于BM25、稠密检索等基线，表明查询对齐的上下文选择比黄金句子检索召回更能预测准确性。",
+        "summary_en": "This study systematically characterizes the clinical lost-in-the-middle (CLitM) effect in EHR processing, showing degraded retrieval of central information. It introduces Query-Conditioned Clinical Suppression (QCCS), a lightweight selection gate that outperforms retrieval baselines in instruction-following accuracy, suggesting query-aligned context selection predicts accuracy better than gold-sentence recall.",
+        "tags": [
+          "llm",
+          "research",
+          "rag",
+          "application",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-24-rss-007",
+        "title": "临床长上下文推理中的抑制性注意力：表征与缓解电子病历处理中的“迷失在中间”效应",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.20348",
+        "language": "en",
+        "summary": "该研究首次系统表征了电子病历（EHR）处理中的临床“迷失在中间”（CLitM）问题，发现模型对长上下文中间信息的检索可靠性显著下降。提出了查询条件临床抑制（QCCS）轻量级选择门，在指令跟随准确性上优于BM25、稠密检索等基线，表明查询对齐的上下文选择比黄金句子检索召回更能预测准确性。",
+        "summary_en": "This study systematically characterizes the clinical lost-in-the-middle (CLitM) effect in EHR processing, showing degraded retrieval of central information. It introduces Query-Conditioned Clinical Suppression (QCCS), a lightweight selection gate that outperforms retrieval baselines in instruction-following accuracy, suggesting query-aligned context selection predicts accuracy better than gold-sentence recall.",
+        "tags": [
+          "llm",
+          "research",
+          "rag",
+          "application",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-24T16:44:41.560898+08:00",
+        "updated_at": "2026-08-24T16:44:41.560900+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

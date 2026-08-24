@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-24-rss-001",
+  "title": "SDAD：面向AI原生软件开发生命周期的规范驱动智能体开发",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.20341",
+  "language": "en",
+  "summary": "本文正式提出规范驱动智能体开发（SDAD），将前期规范化与高速实现相结合，涵盖意图捕获、机器可读规范、智能体综合及独立多智能体验证。论文回顾了瀑布与敏捷的演变，引入AI代码作为第四生产范式，并扩展至团队角色转变、量化治理及分阶段迁移蓝图，强调智能体速度不消除工程纪律，而是将纪律上移至规范精度与可审计溯源。",
+  "summary_en": "This paper formalizes Spec-Driven Agentic Development (SDAD), combining disciplined upfront formalization with high-velocity implementation, covering intent capture, machine-readable specs, agentic synthesis, and independent multi-agent verification. It revisits Waterfall vs Agile, introduces AI-code as a fourth paradigm, and extends to role metamorphosis, quantitative governance, and staged migration, arguing agentic speed relocates discipline upstream.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "research",
+    "application",
+    "infrastructure"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-24T16:44:41.560869+08:00",
+  "updated_at": "2026-08-24T16:44:41.560873+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

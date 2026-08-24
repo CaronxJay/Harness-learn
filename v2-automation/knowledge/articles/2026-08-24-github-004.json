@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-24-github-004",
+  "title": "机器学习与AI智能解决方案项目集",
+  "source": "github_trending",
+  "source_url": "https://github.com/muhammadhaseeb11801/Machine_Learning",
+  "language": "en",
+  "summary": "该项目集合了Python、机器学习、深度学习、生成式AI和AI自动化等领域的真实项目，涵盖AI代理、LLM应用、NLP、计算机视觉、API和自动化工具，代码清晰、可扩展、文档完善，旨在解决实际业务挑战。",
+  "summary_en": "A collection of real-world projects in Python, ML, DL, Generative AI, and AI automation, featuring AI agents, LLM apps, NLP, computer vision, APIs, and automation tools with clean, scalable, well-documented code for business challenges.",
+  "tags": [
+    "llm",
+    "application",
+    "python",
+    "agent-framework",
+    "multimodal"
+  ],
+  "category": "application",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-24T16:44:41.559417+08:00",
+  "updated_at": "2026-08-24T16:44:41.559419+08:00",
+  "metadata": {
+    "stars": 2,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

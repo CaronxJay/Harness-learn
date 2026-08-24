@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-24-rss-010",
+  "title": "面向电信客服的合成孟加拉语语音资源构建与评估",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.20346",
+  "language": "en",
+  "summary": "该论文介绍了一个用于电信客服场景的合成孟加拉语语音数据集，包含10,000对音频-文本，约26.82小时24kHz语音，并公开于Hugging Face（CC-BY-4.0）。使用OmniVoice语音克隆生成，提供标准化转录文本。通过Whisper ASR评估，平均WER为2.54%，CER为0.59%，显示良好的文本-音频一致性，同时讨论了合成语音和STT评估的局限性。",
+  "summary_en": "This paper presents a synthetic Bengali speech dataset for telecom customer care, containing 10,000 audio-text pairs (~26.82 hours) generated with OmniVoice, publicly released on Hugging Face. Evaluated with Whisper ASR, achieving average WER 2.54% and CER 0.59%, indicating strong text-audio consistency, while discussing limitations of synthetic speech and STT evaluation.",
+  "tags": [
+    "dataset",
+    "speech",
+    "asr",
+    "multimodal",
+    "evaluation"
+  ],
+  "category": "multimodal",
+  "relevance_score": 0.8,
+  "status": "published",
+  "created_at": "2026-08-24T16:44:41.560910+08:00",
+  "updated_at": "2026-08-24T16:44:41.560911+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

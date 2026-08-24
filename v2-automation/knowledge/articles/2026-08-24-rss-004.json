@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-24-rss-004",
+  "title": "多模态智能体框架基础与前沿综述：技术与应用",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.20379",
+  "language": "en",
+  "summary": "该综述系统分析了多模态对智能体框架核心模块（感知、推理、规划、记忆、行动）的影响，提出模态中心分类法，梳理从文本智能体到多模态框架的演进，涵盖机器人、GUI/Web导航、多媒体生成与编辑、长视频理解等应用，并讨论效率与可扩展性权衡。",
+  "summary_en": "This survey systematically analyzes the impact of multimodality on core agentic framework modules (perception, reasoning, planning, memory, action), proposes a modality-centric taxonomy, traces evolution from text-centric to multimodal frameworks, covers applications like robotics, GUI/Web navigation, multimedia generation, long-form video understanding, and discusses efficiency-scalability trade-offs.",
+  "tags": [
+    "multimodal",
+    "agent-framework",
+    "research",
+    "llm"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-24T16:44:41.560887+08:00",
+  "updated_at": "2026-08-24T16:44:41.560888+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

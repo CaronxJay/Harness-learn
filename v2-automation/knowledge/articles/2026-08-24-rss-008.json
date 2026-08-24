@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-24-rss-008",
+  "title": "超越原始转录：面向LLM数字人的结构化人格提取",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.20344",
+  "language": "en",
+  "summary": "本文研究LLM数字人模拟中人格信息的组织方式。提出手工设计的BDE（背景、决策过程、评估）结构，在同类基准上提升准确率1.91个百分点，但跨任务泛化不佳。进一步提出自动结构发现流程，在13个多样化子研究中恢复性能，平均准确率提升1.91个百分点，表明关键限制在于信息结构而非信息量。",
+  "summary_en": "This paper studies how persona information is organized for LLM-based digital twins. A hand-crafted BDE schema improves accuracy by +1.91 points on homogeneous benchmarks but fails to generalize. An automatic structure-discovery pipeline restores performance across 13 diverse sub-studies, showing that structural organization, not information volume, is the key bottleneck.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "prompt-engineering"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-08-24T16:44:41.560902+08:00",
+  "updated_at": "2026-08-24T16:44:41.560903+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

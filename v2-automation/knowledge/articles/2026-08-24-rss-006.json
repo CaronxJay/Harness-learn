@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-24-rss-006",
+  "title": "语言模型认为谁更有能力？职业偏见的机制分析",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.20347",
+  "language": "en",
+  "summary": "该研究提出因果框架，将职业偏见分解为内部表征和可观察输出两个测量点。通过推导用户专业知识的表征转向向量，发现即使行为指标未显示差异，模型内部表征仍受性别、种族等人口属性影响，且这些表征可在干预下影响下游行为，揭示行为指标无法检测的失败模式。",
+  "summary_en": "This study introduces a causal framework decomposing occupational bias into internal representations and observable outputs. Using steering vectors for user expertise, it shows demographic attributes influence model representations even when behavioral metrics show no disparity, and these representations can affect downstream behavior under intervention, revealing failure modes undetected by behavioral metrics.",
+  "tags": [
+    "llm",
+    "research",
+    "bias",
+    "mechanistic-interpretability"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-24T16:44:41.560894+08:00",
+  "updated_at": "2026-08-24T16:44:41.560896+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

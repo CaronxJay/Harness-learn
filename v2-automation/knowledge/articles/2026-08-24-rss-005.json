@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-24-rss-005",
+  "title": "词汇理解失败导致临床推理失误：评估面向Alpha世代治疗机器人的安全风险",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.20345",
+  "language": "en",
+  "summary": "该研究针对面向Gen Alpha的心理健康聊天机器人，提出两个基准测试，发现模型存在10-14个百分点的词汇理解-临床风险校准差距，识别出六种失败模式，并建议采用人类参与架构和监管框架。",
+  "summary_en": "This study evaluates therapy bots for Gen Alpha, proposing two benchmarks and finding a 10-14 percentage point gap between vocabulary comprehension and clinical risk calibration, identifying six failure patterns, and recommending human-in-the-loop architectures and regulatory frameworks.",
+  "tags": [
+    "llm",
+    "benchmark",
+    "security",
+    "application",
+    "evaluation"
+  ],
+  "category": "benchmark",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-24T16:44:41.560890+08:00",
+  "updated_at": "2026-08-24T16:44:41.560892+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
