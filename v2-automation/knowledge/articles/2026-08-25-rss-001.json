@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-25-rss-001",
+  "title": "KVBoost：基于偏差引导重计算的块级键值缓存复用，实现高效大语言模型推理",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.21362",
+  "language": "en",
+  "summary": "KVBoost是一种块级KV缓存复用系统，支持任意位置的共享内容复用，通过双哈希键控方案区分位置和内容身份，结合选择性重计算和CacheBlend重计算修复注意力边界错误，并采用非对称量化、自适应分块和重要性加权驱逐。在Qwen2.5-3B上实现4.49倍首令牌延迟降低，精度无损失。",
+  "summary_en": "KVBoost is a chunk-level KV cache reuse system enabling reuse regardless of content position, using dual-hash keying, deviation-guided recomputation, asymmetric quantization, and importance-weighted eviction. It achieves 4.49x TTFT reduction on Qwen2.5-3B with no accuracy loss.",
+  "tags": [
+    "llm",
+    "infrastructure",
+    "research",
+    "optimization"
+  ],
+  "category": "infrastructure",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-25T16:38:26.103990+08:00",
+  "updated_at": "2026-08-25T16:38:26.103994+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

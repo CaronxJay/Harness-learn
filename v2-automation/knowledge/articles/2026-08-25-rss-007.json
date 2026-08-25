@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-25-rss-007",
+  "title": "KSE-Web：低资源高棉语语义搜索的混合检索与LLM辅助查询扩展分析",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.21365",
+  "language": "en",
+  "summary": "本文针对低资源高棉语检索挑战，构建了包含300个查询和3K文档的数据集，评估了BM25、稠密检索、混合检索及LLM辅助查询扩展。结果显示BM25性能最佳（Recall 0.943，nDCG 0.876），混合检索相当，稠密检索较弱，LLM扩展未提升性能但更大模型效果更好，并指出扩展可能引入主题漂移。",
+  "summary_en": null,
+  "tags": [
+    "llm",
+    "rag",
+    "benchmark",
+    "research"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-25T16:38:26.104020+08:00",
+  "updated_at": "2026-08-25T16:38:26.104021+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

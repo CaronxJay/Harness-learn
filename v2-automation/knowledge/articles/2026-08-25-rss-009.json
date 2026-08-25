@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-25-rss-009",
+  "title": "引用在偏好数据中的作用",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.21376",
+  "language": "en",
+  "summary": "研究人类和LLM在科学问答中如何评估引用，发现人类偏好更多样但更少的引用，LLM虽无法访问源但表现出与人类不同的引用偏好，对偏好数据收集有启示。",
+  "summary_en": "Studies how humans and LLMs evaluate citations in scientific QA, finding humans prefer more diverse but fewer citations, and LLMs show different citation preferences, with implications for preference data collection.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "rag"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-25T16:38:26.104028+08:00",
+  "updated_at": "2026-08-25T16:38:26.104029+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

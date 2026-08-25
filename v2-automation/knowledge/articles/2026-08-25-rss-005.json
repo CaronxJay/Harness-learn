@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-25-rss-005",
+  "title": "模型崩溃现象与对策综述",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.21366",
+  "language": "en",
+  "summary": "本文综述了生成式AI使用合成数据训练导致模型崩溃（MC）的现象，涵盖不同应用场景下的研究进展、缓解措施，并指出挑战与未来研究方向。",
+  "summary_en": "This paper reviews the phenomenon of model collapse in generative AI caused by training on synthetic data, covering progress across scenarios, mitigation strategies, and future challenges.",
+  "tags": [
+    "llm",
+    "research",
+    "fine-tuning",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-25T16:38:26.104011+08:00",
+  "updated_at": "2026-08-25T16:38:26.104013+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

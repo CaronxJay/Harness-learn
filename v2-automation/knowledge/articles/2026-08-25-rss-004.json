@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-25-rss-004",
+  "title": "AIREP：AI运行时治理中逐决策证据的协议",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.21363",
+  "language": "en",
+  "summary": "AIREP协议用于记录AI运行时的治理决策，如发布、阻止、延迟等。每条记录为签名对象，可离线验证，通过哈希引用输入输出和证据，形成SHA-256哈希链以检测篡改。支持多供应商，提供参考实现和双语言一致性测试套件。",
+  "summary_en": "AIREP is a protocol for recording governance decisions of AI runtimes. Each decision is a signed object, verifiable offline, referencing inputs/outputs/evidence by hash, forming a SHA-256 hash chain for tamper detection. It includes a reference implementation and conformance kit.",
+  "tags": [
+    "infrastructure",
+    "security",
+    "research",
+    "tool"
+  ],
+  "category": "infrastructure",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-25T16:38:26.104007+08:00",
+  "updated_at": "2026-08-25T16:38:26.104008+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

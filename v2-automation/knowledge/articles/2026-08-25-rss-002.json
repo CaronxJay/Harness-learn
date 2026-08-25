@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-25-rss-002",
+  "title": "LitReview Arena：文献综述智能体的竞技场式评估平台",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.21374",
+  "language": "en",
+  "summary": "LitReview Arena 是一个竞技场式评估平台，用于评估文献综述智能体。它采用结构化协议，由领域专家对匿名草稿进行多维评分，收集约3000条专家判断。结果显示最强系统仅23%胜率，而智能体LLM显著优于基础模型。现有LLM评判与专家不一致，新提出的LitJudge校准器将一致性提升至0.78。",
+  "summary_en": "LitReview Arena is a battle-style evaluation platform for literature review agents, using expert judgments on five criteria. Strongest systems win only 23% against human drafts; agentic LLMs outperform base models by 60%. LLM-as-judge misalignment (rho=0.467) is corrected by LitJudge to 0.78.",
+  "tags": [
+    "benchmark",
+    "evaluation",
+    "llm",
+    "agent-framework",
+    "research"
+  ],
+  "category": "benchmark",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-25T16:38:26.103998+08:00",
+  "updated_at": "2026-08-25T16:38:26.104000+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

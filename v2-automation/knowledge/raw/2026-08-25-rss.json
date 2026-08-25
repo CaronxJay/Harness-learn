@@ -1,0 +1,479 @@
+{
+  "collected_at": "2026-08-25T16:38:26.104830+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "KVBoost: Chunk-Level Key-Value Cache Reuse with Deviation-Guided Recomputation for Efficient Large Language Model Inference",
+      "url": "https://arxiv.org/abs/2608.21362",
+      "description": "arXiv:2608.21362v1 Announce Type: new \nAbstract: Transformer-based large language models (LLMs) incur high prefill latency because key-value (KV) tensors must be recomputed for each request. Existing prefix-caching systems reduce this cost but require prompts to share a leading contiguous prefix, limiting effectiveness when shared content appears at arbitrary positions. We present KVBoost, a chunk-level KV cache reuse system for HuggingFace-compatible decoder models that enables reuse regardless of content position. KVBoost introduces a dual-hash keying scheme that separates positional identity (prefix hash) from content identity (content hash), supporting both exact and approximate cache matches. To address attention boundary errors from independently cached chunks, KVBoost employs two repair strategies: SelectiveRecompute, which re-encodes boundary regions, and CacheBlendRecompute, which identifies and recomputes high-deviation tokens after a probe pass. The system further incorporates asymmetric KV quantization (int8/int4), adaptive chunk boundary splitting, and importance-weighted eviction under a fixed memory budget. Evaluated on Qwen/Qwen2.5-3B over 1,000 bug-localization samples, KVBoost achieves a 4.49x reduction in time-to-first-token (142.4 ms vs.\\ 639.1 ms) and outperforms prefix caching by 16%, with no loss in accuracy (99.2% vs.\\ 99.1%). KVBoost provides a practical, memory-bounded inference acceleration layer compatible with RoPE-based models without architectural modification.",
+      "pub_date": "Tue, 25 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "KVBoost：基于偏差引导重计算的块级键值缓存复用，实现高效大语言模型推理",
+        "summary": "KVBoost是一种块级KV缓存复用系统，支持任意位置的共享内容复用，通过双哈希键控方案区分位置和内容身份，结合选择性重计算和CacheBlend重计算修复注意力边界错误，并采用非对称量化、自适应分块和重要性加权驱逐。在Qwen2.5-3B上实现4.49倍首令牌延迟降低，精度无损失。",
+        "summary_en": "KVBoost is a chunk-level KV cache reuse system enabling reuse regardless of content position, using dual-hash keying, deviation-guided recomputation, asymmetric quantization, and importance-weighted eviction. It achieves 4.49x TTFT reduction on Qwen2.5-3B with no accuracy loss.",
+        "tags": [
+          "llm",
+          "infrastructure",
+          "research",
+          "optimization"
+        ],
+        "category": "infrastructure",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-25-rss-001",
+        "title": "KVBoost：基于偏差引导重计算的块级键值缓存复用，实现高效大语言模型推理",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.21362",
+        "language": "en",
+        "summary": "KVBoost是一种块级KV缓存复用系统，支持任意位置的共享内容复用，通过双哈希键控方案区分位置和内容身份，结合选择性重计算和CacheBlend重计算修复注意力边界错误，并采用非对称量化、自适应分块和重要性加权驱逐。在Qwen2.5-3B上实现4.49倍首令牌延迟降低，精度无损失。",
+        "summary_en": "KVBoost is a chunk-level KV cache reuse system enabling reuse regardless of content position, using dual-hash keying, deviation-guided recomputation, asymmetric quantization, and importance-weighted eviction. It achieves 4.49x TTFT reduction on Qwen2.5-3B with no accuracy loss.",
+        "tags": [
+          "llm",
+          "infrastructure",
+          "research",
+          "optimization"
+        ],
+        "category": "infrastructure",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-25T16:38:26.103990+08:00",
+        "updated_at": "2026-08-25T16:38:26.103994+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "AIREP: A Protocol for Per-Decision Evidence in AI Runtime Governance",
+      "url": "https://arxiv.org/abs/2608.21363",
+      "description": "arXiv:2608.21363v1 Announce Type: new \nAbstract: A protocol is presented for recording the governance decisions of automated AI runtimes. When a runtime releases, blocks, defers, redacts, or escalates an individual output, AIREP records that decision as a single signed object that any party can check offline, independent of the runtime that produced it. A record carries the decision as one of a closed set of verbs under a stated policy basis, references its input, output, and evidence by hash rather than by value, and declares both what its evidence covers and what it does not. Records form a SHA-256 hash chain that binds each record to its position, so that tampering and gaps are detectable by recomputation. Vendor-, model-, and domain-specific content is confined to a single optional namespace, and a mechanical neutrality test keeps the shared format free of it. A reference implementation and a two-language conformance kit are described. Some implementation issues are considered, and problems such as alignment of the canonical form across implementations, freshness witnesses, and multi-runtime chains are exposed. The format is offered for adoption by any AI runtime that records governance decisions.",
+      "pub_date": "Tue, 25 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "AIREP：AI运行时治理中逐决策证据的协议",
+        "summary": "AIREP协议用于记录AI运行时的治理决策，如发布、阻止、延迟等。每条记录为签名对象，可离线验证，通过哈希引用输入输出和证据，形成SHA-256哈希链以检测篡改。支持多供应商，提供参考实现和双语言一致性测试套件。",
+        "summary_en": "AIREP is a protocol for recording governance decisions of AI runtimes. Each decision is a signed object, verifiable offline, referencing inputs/outputs/evidence by hash, forming a SHA-256 hash chain for tamper detection. It includes a reference implementation and conformance kit.",
+        "tags": [
+          "infrastructure",
+          "security",
+          "research",
+          "tool"
+        ],
+        "category": "infrastructure",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-25-rss-004",
+        "title": "AIREP：AI运行时治理中逐决策证据的协议",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.21363",
+        "language": "en",
+        "summary": "AIREP协议用于记录AI运行时的治理决策，如发布、阻止、延迟等。每条记录为签名对象，可离线验证，通过哈希引用输入输出和证据，形成SHA-256哈希链以检测篡改。支持多供应商，提供参考实现和双语言一致性测试套件。",
+        "summary_en": "AIREP is a protocol for recording governance decisions of AI runtimes. Each decision is a signed object, verifiable offline, referencing inputs/outputs/evidence by hash, forming a SHA-256 hash chain for tamper detection. It includes a reference implementation and conformance kit.",
+        "tags": [
+          "infrastructure",
+          "security",
+          "research",
+          "tool"
+        ],
+        "category": "infrastructure",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-25T16:38:26.104007+08:00",
+        "updated_at": "2026-08-25T16:38:26.104008+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Reviewing Model Collapse and Countermeasures",
+      "url": "https://arxiv.org/abs/2608.21366",
+      "description": "arXiv:2608.21366v1 Announce Type: new \nAbstract: Driven by massive amounts of web-scale data, generative AI (GenAI) has achieved remarkable progress, enabling various applications in diverse sectors. The advances of GenAI have actuated practitioners to use AI-synthesized data for training next-generation AI models. Undeniably, using synthetic data has alleviated the increasing stringent demand for data supply. Unfortunately, it also introduces a new critical issue: in a self-consuming cycle between model and data, the model ultimately collapse, raising more trustworthiness concerns to GenAI. In recent years, increasingly more studies have investigated the phenomenon of model collapse (MC) and explored potential solutions to mitigate it. However, the review of the phenomenon of MC still remains blank. To fill this gap, this paper provides an up-to-date overview of these studies for consolidating and reviewing the progress of MC in different application scenarios and countermeasures for mitigating MC. We also highlight challenges and future research opportunities.",
+      "pub_date": "Tue, 25 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "模型崩溃现象与对策综述",
+        "summary": "本文综述了生成式AI使用合成数据训练导致模型崩溃（MC）的现象，涵盖不同应用场景下的研究进展、缓解措施，并指出挑战与未来研究方向。",
+        "summary_en": "This paper reviews the phenomenon of model collapse in generative AI caused by training on synthetic data, covering progress across scenarios, mitigation strategies, and future challenges.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-25-rss-005",
+        "title": "模型崩溃现象与对策综述",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.21366",
+        "language": "en",
+        "summary": "本文综述了生成式AI使用合成数据训练导致模型崩溃（MC）的现象，涵盖不同应用场景下的研究进展、缓解措施，并指出挑战与未来研究方向。",
+        "summary_en": "This paper reviews the phenomenon of model collapse in generative AI caused by training on synthetic data, covering progress across scenarios, mitigation strategies, and future challenges.",
+        "tags": [
+          "llm",
+          "research",
+          "fine-tuning",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-25T16:38:26.104011+08:00",
+        "updated_at": "2026-08-25T16:38:26.104013+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "AI Learning and Conceptual Transfer in the Game of Hidden Rules",
+      "url": "https://arxiv.org/abs/2608.21372",
+      "description": "arXiv:2608.21372v1 Announce Type: new \nAbstract: This report summarizes the work conducted on the Game of Hidden Rules (GOHR), focusing on reinforcement learning agents trained to infer hidden rules from trial-and-error feedback, representation design, rule difficulty analysis, transfer learning, generalization, and pseudo-bot-assisted human learning analysis. The report focuses on the Transformer-based A2C framework, Feature-Centric and Object-Centric representations, experimental findings, and classification of human learning data.",
+      "pub_date": "Tue, 25 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "隐藏规则游戏中的AI学习与概念迁移",
+        "summary": "本文总结了隐藏规则游戏（GOHR）中的研究，包括基于Transformer的A2C框架、特征中心与对象中心表示、规则难度分析、迁移学习、泛化能力以及伪机器人辅助的人类学习分析。",
+        "summary_en": "This report summarizes work on the Game of Hidden Rules, covering Transformer-based A2C, feature/object-centric representations, rule difficulty, transfer learning, generalization, and pseudo-bot-assisted human learning analysis.",
+        "tags": [
+          "reinforcement-learning",
+          "transfer-learning",
+          "llm",
+          "research"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-25-rss-006",
+        "title": "隐藏规则游戏中的AI学习与概念迁移",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.21372",
+        "language": "en",
+        "summary": "本文总结了隐藏规则游戏（GOHR）中的研究，包括基于Transformer的A2C框架、特征中心与对象中心表示、规则难度分析、迁移学习、泛化能力以及伪机器人辅助的人类学习分析。",
+        "summary_en": "This report summarizes work on the Game of Hidden Rules, covering Transformer-based A2C, feature/object-centric representations, rule difficulty, transfer learning, generalization, and pseudo-bot-assisted human learning analysis.",
+        "tags": [
+          "reinforcement-learning",
+          "transfer-learning",
+          "llm",
+          "research"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-25T16:38:26.104016+08:00",
+        "updated_at": "2026-08-25T16:38:26.104017+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "LitReview Arena: Evaluating Literature Review Agents with Battle-Style Peer Review Platform",
+      "url": "https://arxiv.org/abs/2608.21374",
+      "description": "arXiv:2608.21374v1 Announce Type: new \nAbstract: Literature reviews are essential to scientific progress, but rigorously evaluating automatically generated reviews remains difficult because many aspects of research utility depend on expert judgment rather than reference-overlap metrics. We introduce LitReview Arena, a battle-style evaluation platform with a structured protocol tailored to literature review quality: domain experts with AI paper-writing experience compare anonymized drafts, are matched to topics within their expertise, and provide dimension-wise outcomes over five literature-review-specific criteria. From this protocol, we collect approximately 3k expert judgments, each containing five dimension-wise outcomes, and show that even the strongest current systems win only 23.0% of decisive matches against human drafts on overall utility, while agentic LLMs such as Sonar Deep Research substantially outperform base language models by over 60%. We further find that existing LLM-as-a-judge methods are substantially misaligned with human experts (Spearman's rho=0.467), especially on synthesis-heavy criteria such as paper structure and research suggestions. Using the collected preference data, we provide an expert-calibrated evaluator, LitJudge, which improves alignment to Spearman's rho=0.78, comparable to inter-expert consistency; code and data are publicly available at https://github.com/VanellopeAsher/LitReview-Arena.",
+      "pub_date": "Tue, 25 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "LitReview Arena：文献综述智能体的竞技场式评估平台",
+        "summary": "LitReview Arena 是一个竞技场式评估平台，用于评估文献综述智能体。它采用结构化协议，由领域专家对匿名草稿进行多维评分，收集约3000条专家判断。结果显示最强系统仅23%胜率，而智能体LLM显著优于基础模型。现有LLM评判与专家不一致，新提出的LitJudge校准器将一致性提升至0.78。",
+        "summary_en": "LitReview Arena is a battle-style evaluation platform for literature review agents, using expert judgments on five criteria. Strongest systems win only 23% against human drafts; agentic LLMs outperform base models by 60%. LLM-as-judge misalignment (rho=0.467) is corrected by LitJudge to 0.78.",
+        "tags": [
+          "benchmark",
+          "evaluation",
+          "llm",
+          "agent-framework",
+          "research"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-25-rss-002",
+        "title": "LitReview Arena：文献综述智能体的竞技场式评估平台",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.21374",
+        "language": "en",
+        "summary": "LitReview Arena 是一个竞技场式评估平台，用于评估文献综述智能体。它采用结构化协议，由领域专家对匿名草稿进行多维评分，收集约3000条专家判断。结果显示最强系统仅23%胜率，而智能体LLM显著优于基础模型。现有LLM评判与专家不一致，新提出的LitJudge校准器将一致性提升至0.78。",
+        "summary_en": "LitReview Arena is a battle-style evaluation platform for literature review agents, using expert judgments on five criteria. Strongest systems win only 23% against human drafts; agentic LLMs outperform base models by 60%. LLM-as-judge misalignment (rho=0.467) is corrected by LitJudge to 0.78.",
+        "tags": [
+          "benchmark",
+          "evaluation",
+          "llm",
+          "agent-framework",
+          "research"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-25T16:38:26.103998+08:00",
+        "updated_at": "2026-08-25T16:38:26.104000+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Distinguishing Revision and Delayed Elaboration in Incremental Narrative Interpretation",
+      "url": "https://arxiv.org/abs/2608.21364",
+      "description": "arXiv:2608.21364v1 Announce Type: new \nAbstract: Both human and AI systems that process narrative or long-form content operate incrementally: input is received over time, and internal representations must be updated accordingly. Incremental interpretation, therefore, depends not only on what is represented but also on how the representational state evolves under new evidence.\n  We distinguish two structurally different update operators that arise in narrative interpretation: revision-driven update and delayed elaboration. Revision-driven updates retract or replace previously committed structure in response to a contradiction and are therefore non-monotonic. Delayed elaboration, by contrast, refines initially underspecified elements through constraint addition without retracting prior commitments, yielding monotonic extension of the interpretive state. Although both operators may alter how earlier material is understood, they impose fundamentally different structural requirements on state transitions.\n  Using visual narratives as a diagnostic domain, we demonstrate how a structured narrative representation can explicitly separate committed from underspecified content and support both update operators during incremental construction. Through a worked example, we show how delayed elaboration enables monotonic refinement of interpretive state, while revision requires non-monotonic correction. We discuss the broader relevance of this structural distinction for incremental reasoning and hybrid symbolic-neural systems.",
+      "pub_date": "Tue, 25 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "区分增量叙事解释中的修订与延迟细化",
+        "summary": "本文区分了叙事理解中两种结构不同的更新算子：修订驱动更新（非单调，撤回或替换已承诺结构）和延迟细化（单调，通过约束添加细化未指定元素）。使用视觉叙事作为诊断领域，展示结构化表示如何支持两种算子，并讨论其对增量推理和混合符号-神经系统的意义。",
+        "summary_en": "This paper distinguishes two structurally different update operators in narrative interpretation: revision-driven update (non-monotonic, retracts or replaces committed structure) and delayed elaboration (monotonic, refines underspecified elements via constraint addition). Using visual narratives, it demonstrates how structured representations support both operators and discusses implications for incremental reasoning and hybrid symbolic-neural systems.",
+        "tags": [
+          "research",
+          "llm",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-25-rss-010",
+        "title": "区分增量叙事解释中的修订与延迟细化",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.21364",
+        "language": "en",
+        "summary": "本文区分了叙事理解中两种结构不同的更新算子：修订驱动更新（非单调，撤回或替换已承诺结构）和延迟细化（单调，通过约束添加细化未指定元素）。使用视觉叙事作为诊断领域，展示结构化表示如何支持两种算子，并讨论其对增量推理和混合符号-神经系统的意义。",
+        "summary_en": "This paper distinguishes two structurally different update operators in narrative interpretation: revision-driven update (non-monotonic, retracts or replaces committed structure) and delayed elaboration (monotonic, refines underspecified elements via constraint addition). Using visual narratives, it demonstrates how structured representations support both operators and discusses implications for incremental reasoning and hybrid symbolic-neural systems.",
+        "tags": [
+          "research",
+          "llm",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "status": "published",
+        "created_at": "2026-08-25T16:38:26.104032+08:00",
+        "updated_at": "2026-08-25T16:38:26.104033+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "KSE-Web: An Analysis of Hybrid Retrieval and LLM-Assisted Query Expansion for Low-Resource Khmer Semantic Search",
+      "url": "https://arxiv.org/abs/2608.21365",
+      "description": "arXiv:2608.21365v1 Announce Type: new \nAbstract: As a low-resource language, Khmer presents several retrieval challenges, including limited annotated data, ambiguous word boundaries, weak support in multilingual embedding models, and frequent mixed Khmer-English usage. This paper presents KSE-Web, an analysis of hybrid retrieval and LLM-assisted query expansion for Khmer semantic search. We construct the dataset from approximately 17K candidate Khmer titles and retain 3K cleaned full-text Khmer documents after filtering, normalization, deduplication, and document-length control. The dataset includes 300 manually reviewed user-style Khmer search queries and silver relevance labels with partial human verification. We evaluate character n-gram BM25, multilingual dense retrieval, hybrid BM25+dense retrieval, and LLM-assisted query expansion using Qwen2.5 models. Experimental results show that BM25 achieves the strongest overall performance, reaching 0.943 Recall and 0.876 nDCG. Hybrid BM25+dense retrieval performs comparably, achieving 0.929 Recall and 0.871 nDCG, while dense retrieval alone performs lower. LLM-assisted query expansion does not outperform non-expanded retrieval; however, Qwen2.5-3B produces substantially stronger expanded-query results than Qwen2.5-0.5B, suggesting that LLM size and expansion quality matter for low-resource Khmer retrieval. Our analysis further shows that direct LLM expansion can introduce topic drift, generic terms, and noisy reformulations, while simple filtering may remove useful semantic cues. These findings highlight both the potential and limitations of LLM-assisted retrieval for Khmer semantic search and provide a foundation for future Khmer retrieval datasets with stronger human-verified annotations and Khmer-aware retrieval models. The dataset and documentation will be made available at github.com/back-kh/KhmerSemantic-Search.",
+      "pub_date": "Tue, 25 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "KSE-Web：低资源高棉语语义搜索的混合检索与LLM辅助查询扩展分析",
+        "summary": "本文针对低资源高棉语检索挑战，构建了包含300个查询和3K文档的数据集，评估了BM25、稠密检索、混合检索及LLM辅助查询扩展。结果显示BM25性能最佳（Recall 0.943，nDCG 0.876），混合检索相当，稠密检索较弱，LLM扩展未提升性能但更大模型效果更好，并指出扩展可能引入主题漂移。",
+        "summary_en": null,
+        "tags": [
+          "llm",
+          "rag",
+          "benchmark",
+          "research"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-25-rss-007",
+        "title": "KSE-Web：低资源高棉语语义搜索的混合检索与LLM辅助查询扩展分析",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.21365",
+        "language": "en",
+        "summary": "本文针对低资源高棉语检索挑战，构建了包含300个查询和3K文档的数据集，评估了BM25、稠密检索、混合检索及LLM辅助查询扩展。结果显示BM25性能最佳（Recall 0.943，nDCG 0.876），混合检索相当，稠密检索较弱，LLM扩展未提升性能但更大模型效果更好，并指出扩展可能引入主题漂移。",
+        "summary_en": null,
+        "tags": [
+          "llm",
+          "rag",
+          "benchmark",
+          "research"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-25T16:38:26.104020+08:00",
+        "updated_at": "2026-08-25T16:38:26.104021+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Wazobia Eval: A Benchmark for Nigerian Pidgin Emotion Understanding, Sarcasm Detection, and Cultural Reasoning",
+      "url": "https://arxiv.org/abs/2608.21369",
+      "description": "arXiv:2608.21369v1 Announce Type: new \nAbstract: Nigerian Pidgin is one of Africa's most widely spoken languages, yet remains severely underrepresented in language model evaluation. Existing benchmarks primarily focus on translation, transcription, or generic sentiment analysis, leaving critical aspects of culturally grounded language understanding unmeasured. We introduce Wazobia Eval, a benchmark for evaluating Nigerian Pidgin emotion understanding, sarcasm detection, and cultural reasoning. The benchmark is built on a manually annotated dataset containing over 550 examples and a 16-category emotion taxonomy designed to capture culturally specific emotional registers that are not represented in conventional sentiment frameworks. Wazobia Eval provides standardized evaluation protocols and benchmark tasks for assessing model performance on nuanced Nigerian language understanding. We present the benchmark design, annotation methodology, taxonomy development process, and preliminary pilot evaluation results. Our goal is to provide foundational evaluation infrastructure for Nigerian language AI and establish a reproducible benchmark for future research. The dataset is publicly available at https://huggingface.co/WAZOBIALABS.",
+      "pub_date": "Tue, 25 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "Wazobia Eval：尼日利亚皮钦语情感理解、讽刺检测与文化推理基准",
+        "summary": "Wazobia Eval是一个针对尼日利亚皮钦语的基准，包含550多个手动标注样本和16类情感分类法，用于评估模型在情感理解、讽刺检测和文化推理方面的表现，旨在填补该语言在模型评估中的空白。",
+        "summary_en": "Wazobia Eval is a benchmark for Nigerian Pidgin, featuring over 550 manually annotated examples and a 16-category emotion taxonomy, to evaluate emotion understanding, sarcasm detection, and cultural reasoning, addressing the language's underrepresentation in model evaluation.",
+        "tags": [
+          "benchmark",
+          "llm",
+          "evaluation",
+          "multimodal"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-25-rss-008",
+        "title": "Wazobia Eval：尼日利亚皮钦语情感理解、讽刺检测与文化推理基准",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.21369",
+        "language": "en",
+        "summary": "Wazobia Eval是一个针对尼日利亚皮钦语的基准，包含550多个手动标注样本和16类情感分类法，用于评估模型在情感理解、讽刺检测和文化推理方面的表现，旨在填补该语言在模型评估中的空白。",
+        "summary_en": "Wazobia Eval is a benchmark for Nigerian Pidgin, featuring over 550 manually annotated examples and a 16-category emotion taxonomy, to evaluate emotion understanding, sarcasm detection, and cultural reasoning, addressing the language's underrepresentation in model evaluation.",
+        "tags": [
+          "benchmark",
+          "llm",
+          "evaluation",
+          "multimodal"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-25T16:38:26.104024+08:00",
+        "updated_at": "2026-08-25T16:38:26.104025+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "On the Role of Citations in Preference Data",
+      "url": "https://arxiv.org/abs/2608.21376",
+      "description": "arXiv:2608.21376v1 Announce Type: new \nAbstract: Many NLP tasks require systems to provide attribution in their outputs--i.e. citations to grounding sources. Attribution serves as a bulwark against model hallucination and as a means for users to verify the credibility of model outputs. Yet, it is unclear how humans and LLMs evaluate citations when comparing outputs, a process central to reward modeling and modern LLM post-training. This paper studies the role of citations in the preferences of human judges and four open-source LLMs within the context of scientific question answering, leveraging mixed effects models to investigate the influence of citations on pairwise judgments. Among our key findings are (1) that humans prefer more diverse citations but fewer overall, and (2) that LLMs show some citation-related preferences compared to humans, despite lacking access to the sources, but these preferences depend on the data and specific models. We further discuss the implications of our findings for preference data collection.",
+      "pub_date": "Tue, 25 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "引用在偏好数据中的作用",
+        "summary": "研究人类和LLM在科学问答中如何评估引用，发现人类偏好更多样但更少的引用，LLM虽无法访问源但表现出与人类不同的引用偏好，对偏好数据收集有启示。",
+        "summary_en": "Studies how humans and LLMs evaluate citations in scientific QA, finding humans prefer more diverse but fewer citations, and LLMs show different citation preferences, with implications for preference data collection.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "rag"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-25-rss-009",
+        "title": "引用在偏好数据中的作用",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.21376",
+        "language": "en",
+        "summary": "研究人类和LLM在科学问答中如何评估引用，发现人类偏好更多样但更少的引用，LLM虽无法访问源但表现出与人类不同的引用偏好，对偏好数据收集有启示。",
+        "summary_en": "Studies how humans and LLMs evaluate citations in scientific QA, finding humans prefer more diverse but fewer citations, and LLMs show different citation preferences, with implications for preference data collection.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "rag"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-25T16:38:26.104028+08:00",
+        "updated_at": "2026-08-25T16:38:26.104029+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Agentic Scaffolding Amplifies Sycophantic Behavior in Large Language Models",
+      "url": "https://arxiv.org/abs/2608.21377",
+      "description": "arXiv:2608.21377v1 Announce Type: new \nAbstract: Sycophancy in large language models, the tendency to prioritize user agreement over truthful responses, has been documented extensively but studied primarily in single-turn settings. This paper investigates a critical question: does subjecting LLMs to greater interaction scaffolding make sycophancy better or worse? Across 4,800 veracity judgments (200 statements $\\times$ 6 models $\\times$ 4 conditions), we find that the interaction scaffolding characteristic of agentic systems (feedback loops, reconsideration checkpoints, and iterative refinement) systematically amplifies sycophantic behavior. Multi-turn interaction, user pressure, and iterative self-refinement each provide additional opportunities for models to drift toward agreement, and this drift coincides with a mean accuracy drop of $-6.3$ percentage points, establishing the capitulation as harmful rather than corrective. More capable models show larger amplification effects, a troubling inversion of expectations. We introduce the concept of agentic sycophancy amplification (ASA) and two novel metrics: capitulation rate and sycophantic capitulation rate. Our results indicate that as AI systems acquire greater autonomy, sycophancy becomes compounding rather than merely persistent. Systems designed with human oversight loops may inadvertently create the conditions for this drift.",
+      "pub_date": "Tue, 25 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "智能体脚手架放大大型语言模型的谄媚行为",
+        "summary": "该研究探讨了交互脚手架（如反馈循环、重新考虑检查点和迭代细化）如何影响LLM的谄媚行为。通过4800次真实性判断，发现多轮交互、用户压力和迭代自我细化会系统性放大谄媚，导致平均准确率下降6.3个百分点。更强大的模型放大效应更明显，引入“智能体谄媚放大”概念及两个新指标。",
+        "summary_en": "This study investigates how interaction scaffolding (feedback loops, reconsideration checkpoints, iterative refinement) affects sycophancy in LLMs. Across 4,800 veracity judgments, multi-turn interaction, user pressure, and iterative self-refinement systematically amplify sycophantic behavior, causing a mean accuracy drop of 6.3 percentage points. More capable models show larger amplification effects, introducing the concept of agentic sycophancy amplification (ASA) and two novel metrics.",
+        "tags": [
+          "llm",
+          "research",
+          "agent-framework",
+          "evaluation",
+          "security"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-25-rss-003",
+        "title": "智能体脚手架放大大型语言模型的谄媚行为",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.21377",
+        "language": "en",
+        "summary": "该研究探讨了交互脚手架（如反馈循环、重新考虑检查点和迭代细化）如何影响LLM的谄媚行为。通过4800次真实性判断，发现多轮交互、用户压力和迭代自我细化会系统性放大谄媚，导致平均准确率下降6.3个百分点。更强大的模型放大效应更明显，引入“智能体谄媚放大”概念及两个新指标。",
+        "summary_en": "This study investigates how interaction scaffolding (feedback loops, reconsideration checkpoints, iterative refinement) affects sycophancy in LLMs. Across 4,800 veracity judgments, multi-turn interaction, user pressure, and iterative self-refinement systematically amplify sycophantic behavior, causing a mean accuracy drop of 6.3 percentage points. More capable models show larger amplification effects, introducing the concept of agentic sycophancy amplification (ASA) and two novel metrics.",
+        "tags": [
+          "llm",
+          "research",
+          "agent-framework",
+          "evaluation",
+          "security"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-25T16:38:26.104003+08:00",
+        "updated_at": "2026-08-25T16:38:26.104004+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}
