@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-26-rss-006",
+  "title": "KSE-Web：低资源高棉语语义搜索的混合检索与LLM辅助查询扩展分析",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.21365",
+  "language": "en",
+  "summary": "本文针对低资源高棉语检索挑战，构建了约3000篇文档和300条人工审核查询的数据集，评估了字符n-gram BM25、多语言稠密检索、混合检索及LLM辅助查询扩展。结果显示BM25性能最佳（Recall 0.943，nDCG 0.876），混合检索相当，稠密检索较弱，LLM扩展未超越非扩展，但更大模型效果更好。",
+  "summary_en": "This paper addresses low-resource Khmer retrieval, building a dataset of ~3K documents and 300 queries, and evaluates BM25, dense, hybrid, and LLM-assisted query expansion. BM25 performs best (Recall 0.943, nDCG 0.876), hybrid is comparable, dense is weaker, and LLM expansion doesn't outperform, though larger models help.",
+  "tags": [
+    "llm",
+    "rag",
+    "research",
+    "benchmark",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-26T16:39:43.035645+08:00",
+  "updated_at": "2026-08-26T16:39:43.035646+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

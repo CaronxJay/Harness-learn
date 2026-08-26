@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-26-rss-003",
+  "title": "LLM智能体利用仿真模型进行受控实验",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.23622",
+  "language": "en",
+  "summary": "提出一种多智能体框架，使LLM智能体能够结合科学仿真模型进行受控实验，用于制药工艺设计。系统构建任务表示、设计实验、执行比较仿真、解释结果并生成基于证据的参数优化建议，输出比纯语言推理更具体、可操作，在工业应用中提升了正确性和有用性。",
+  "summary_en": "Proposes a multi-agent framework enabling LLM agents to conduct controlled experiments with scientific simulation models for pharmaceutical process design, producing more specific and actionable outputs than language-only reasoning, with improved correctness and helpfulness in industrial settings.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "application",
+    "research",
+    "tool"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-26T16:39:43.035635+08:00",
+  "updated_at": "2026-08-26T16:39:43.035636+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

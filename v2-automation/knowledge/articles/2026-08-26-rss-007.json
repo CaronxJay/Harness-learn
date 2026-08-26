@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-26-rss-007",
+  "title": "Wazobia Eval：尼日利亚皮钦语情感理解、讽刺检测与文化推理基准",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.21369",
+  "language": "en",
+  "summary": "Wazobia Eval 是一个针对尼日利亚皮钦语的基准测试，涵盖情感理解、讽刺检测和文化推理。基于550多个手动标注样本和16类情感分类体系，提供标准化评估协议，旨在填补该语言在文化语言理解评估中的空白。数据集公开可用。",
+  "summary_en": "Wazobia Eval is a benchmark for Nigerian Pidgin emotion understanding, sarcasm detection, and cultural reasoning, built on 550+ manually annotated examples and a 16-category emotion taxonomy, providing standardized evaluation protocols and public dataset.",
+  "tags": [
+    "benchmark",
+    "llm",
+    "multimodal",
+    "evaluation"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-26T16:39:43.035649+08:00",
+  "updated_at": "2026-08-26T16:39:43.035650+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

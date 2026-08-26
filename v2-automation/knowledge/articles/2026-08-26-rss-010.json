@@ -1,0 +1,24 @@
+{
+  "id": "2026-08-26-rss-010",
+  "title": "增量叙事解释中修订与延迟细化的区分",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.21364",
+  "language": "en",
+  "summary": "本文区分了叙事理解中的两种更新操作：修订驱动更新（非单调，需撤回先前结构）和延迟细化（单调，通过添加约束细化未指定内容）。利用视觉叙事作为诊断领域，展示了结构化表示如何显式分离已承诺与未指定内容，并支持两种操作。该区分对增量推理和混合符号-神经系统的设计具有重要意义。",
+  "summary_en": "This paper distinguishes two update operators in narrative interpretation: revision-driven update (non-monotonic, retracting prior structure) and delayed elaboration (monotonic, refining underspecified content via constraint addition). Using visual narratives, it demonstrates how structured representations can separate committed from underspecified content, supporting both operators. The distinction is relevant for incremental reasoning and hybrid symbolic-neural systems.",
+  "tags": [
+    "research",
+    "llm",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.8,
+  "status": "published",
+  "created_at": "2026-08-26T16:39:43.035659+08:00",
+  "updated_at": "2026-08-26T16:39:43.035660+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

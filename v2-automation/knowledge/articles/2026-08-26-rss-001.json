@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-26-rss-001",
+  "title": "RENDER：控制LLM记忆评估中的读者可见证据",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.23568",
+  "language": "en",
+  "summary": "RENDER是一个基准控制方法，固定对话内容，变化读者可见的工件（如摘要、类型化记录等），以评估其对记忆/RAG系统性能的影响。在500个LongMemEval问题和9个模型上，匹配预算的分组数据比截断原始对话提升42.4-72.6分，表明评估应报告或控制读者可见工件。",
+  "summary_en": null,
+  "tags": [
+    "llm",
+    "benchmark",
+    "rag",
+    "evaluation",
+    "research"
+  ],
+  "category": "benchmark",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-26T16:39:43.035626+08:00",
+  "updated_at": "2026-08-26T16:39:43.035628+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

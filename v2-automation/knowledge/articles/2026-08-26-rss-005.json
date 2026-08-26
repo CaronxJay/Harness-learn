@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-26-rss-005",
+  "title": "TRACE：面向多目标材料发现的转换感知残差控制框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.23631",
+  "language": "en",
+  "summary": "TRACE框架将评估编辑作为反馈基本单元，记录父子编辑转换及属性变化，聚合证据估计可复用编辑效果，排序未来编辑以减少约束违规并避免损害已满足目标。在相同骨干对比中，宏平均命中率从18.13%提升至25.96%。",
+  "summary_en": "TRACE treats evaluated edits as feedback units, records parent-edit-child transitions with property deltas, aggregates evidence to estimate reusable edit effects, and ranks edits to reduce constraint violations. It improves macro-average hit rate from 18.13% to 25.96% over LLEMA.",
+  "tags": [
+    "llm",
+    "agent-framework",
+    "research",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-26T16:39:43.035642+08:00",
+  "updated_at": "2026-08-26T16:39:43.035643+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
