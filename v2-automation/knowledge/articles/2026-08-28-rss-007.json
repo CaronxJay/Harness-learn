@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-28-rss-007",
+  "title": "TRACE：面向多目标材料发现的转换感知残差控制框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.23631",
+  "language": "en",
+  "summary": "TRACE是一种针对多目标材料发现的LLM代理框架，将评估的编辑作为基本反馈单元，记录父子编辑转换及属性变化，聚合证据以估计可复用的编辑效果，并排序未来编辑以减少约束违规。在相同骨干对比中，宏平均命中率从18.13%提升至25.96%。",
+  "summary_en": "TRACE is a transition-aware residual control framework for multi-objective materials discovery with LLM agents, treating evaluated edits as feedback units. It improves macro-average hit rate from 18.13% to 25.96% over LLEMA baseline.",
+  "tags": [
+    "llm",
+    "agent-framework",
+    "research",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-28T02:49:04.071234+08:00",
+  "updated_at": "2026-08-28T02:49:04.071235+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

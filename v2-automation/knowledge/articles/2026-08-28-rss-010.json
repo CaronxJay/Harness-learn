@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-28-rss-010",
+  "title": "天文基础模型中的检测通道覆盖像素并导致层析平均红移偏差",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.23626",
+  "language": "en",
+  "summary": "该研究审计了39模态天文基础模型AION-1，发现其检测分割图对模型输出（通量、大小、椭圆率、红移）有显著影响，导致层析平均红移偏差超过LSST DESC要求。通过因果干预和稀疏字典分析，揭示了模型对检测通道的依赖及其系统性偏差。",
+  "summary_en": null,
+  "tags": [
+    "llm",
+    "research",
+    "multimodal",
+    "benchmark",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.8,
+  "status": "published",
+  "created_at": "2026-08-28T02:49:04.071246+08:00",
+  "updated_at": "2026-08-28T02:49:04.071248+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

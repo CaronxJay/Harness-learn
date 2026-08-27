@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-28-github-009",
+  "title": "AI学习之旅：机器学习、深度学习、LLM、RAG与AI代理的实践项目集合",
+  "source": "github_trending",
+  "source_url": "https://github.com/its-aastha/AI-Learning-Journey",
+  "language": "en",
+  "summary": "一个个人AI学习资源集合，涵盖机器学习、深度学习、LLM、向量嵌入、RAG和AI代理，包含Python实践项目，适合初学者系统学习。",
+  "summary_en": null,
+  "tags": [
+    "llm",
+    "rag",
+    "python",
+    "application",
+    "agent-framework"
+  ],
+  "category": "application",
+  "relevance_score": 0.8,
+  "status": "published",
+  "created_at": "2026-08-28T02:49:04.069768+08:00",
+  "updated_at": "2026-08-28T02:49:04.069770+08:00",
+  "metadata": {
+    "stars": 1,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

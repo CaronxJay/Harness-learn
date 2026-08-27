@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-28-rss-003",
+  "title": "检测不等于可靠控制：可解码的共情方向在自动化共情评分中仅产生部分偏移",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.24901",
+  "language": "en",
+  "summary": "该研究测试了可解码的“共情”方向是否可作为因果杠杆，在三个指令微调LLM上对EPITOME的认知和情感两个维度进行干预。结果显示，情感维度控制通过，但认知维度不一致；情感方向仅部分提升评分，认知方向无显著变化，但可能因测量工具不敏感。检测不等于可靠控制，认知共情主张需明确测量敏感性检查。",
+  "summary_en": "This study tests whether decodable 'empathy' directions serve as causal levers, intervening on EPITOME's cognitive and affective facets in three instruction-tuned LLMs. Affective control passes, cognitive is inconsistent; affective steering partially raises scores, cognitive shows no measurable change possibly due to coarse instruments. Detection does not imply reliable control; cognitive claims need sensitivity checks.",
+  "tags": [
+    "llm",
+    "research",
+    "evaluation",
+    "fine-tuning"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-28T02:49:04.071216+08:00",
+  "updated_at": "2026-08-28T02:49:04.071218+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

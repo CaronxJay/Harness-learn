@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-28-rss-009",
+  "title": "方言税：语言建模流程中持续存在的方言偏见",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.24952",
+  "language": "en",
+  "summary": "该研究追踪了语言模型流水线中的“方言税”，发现从分词、预训练、后训练到推理，模型对非标准英语方言（如AAVE）的编码和处理均存在系统性偏差。即使使用字符级分词器，性能差距依然存在，表明方言偏见在建模各阶段累积。",
+  "summary_en": "This study traces the 'dialect tax' across the NLP pipeline, finding systematic biases against non-standard English dialects (e.g., AAVE) in tokenization, pre-training, post-training, and inference. Even character-level tokenizers fail to eliminate performance gaps, indicating biases accumulate at every stage.",
+  "tags": [
+    "llm",
+    "research",
+    "benchmark",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-28T02:49:04.071242+08:00",
+  "updated_at": "2026-08-28T02:49:04.071243+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

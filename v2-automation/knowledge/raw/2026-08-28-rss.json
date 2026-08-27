@@ -1,0 +1,485 @@
+{
+  "collected_at": "2026-08-28T02:49:04.072077+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "RENDER: Controlling Reader-Facing Evidence in LLM Memory Evaluation",
+      "url": "https://arxiv.org/abs/2608.23568",
+      "description": "arXiv:2608.23568v1 Announce Type: new \nAbstract: Memory and RAG evaluations often treat the answering model's input as an implementation detail, even though systems may render the same history as a memory entry, summary, typed record, or raw excerpt. We introduce RENDER, a benchmark control that fixes the conversation while varying the reader-facing artifact. RENDER combines a five-level packet ladder, localizing when answer-bearing content enters the input, with deterministic templates approximating ChatGPT-style entries, LangChain summaries, MemGPT-style typed records, and raw conversation. On 500 LongMemEval questions and nine models, matched-budget resolved packets beat recency-truncated raw dialogue by 42.4-72.6 points. In deployed-style templates, best-worst spread is 24.6-48.8 points per model; under the primary scorer, ChatGPT-style entries have higher point estimates than raw conversation on 7 of 9 models. Judge rescoring preserves the positive aggregate effect, but model-specific significance is mixed. Three models scoring 0 percent on formal ledger packets answer the same facts from natural-language entries at 45.4-53.4 percent. The effect persists under retrieval noise and transfers to HotpotQA, suggesting that memory/RAG evaluations should report or control the reader-facing artifact.",
+      "pub_date": "Thu, 27 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "RENDER：控制LLM记忆评估中的读者可见证据",
+        "summary": "RENDER是一个基准控制方法，固定对话内容，改变读者可见的工件（如记忆条目、摘要、类型化记录或原始摘录），以评估其对LLM记忆和RAG性能的影响。在500个LongMemEval问题和9个模型上，匹配预算的解析包比截断原始对话高出42.4-72.6分。结果表明，记忆/RAG评估应报告或控制读者可见工件。",
+        "summary_en": "RENDER is a benchmark control that fixes the conversation while varying the reader-facing artifact (e.g., memory entries, summaries, typed records, or raw excerpts) to assess its impact on LLM memory and RAG performance. On 500 LongMemEval questions and nine models, matched-budget resolved packets beat recency-truncated raw dialogue by 42.4-72.6 points. Results suggest memory/RAG evaluations should report or control the reader-facing artifact.",
+        "tags": [
+          "llm",
+          "rag",
+          "benchmark",
+          "evaluation",
+          "research"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-28-rss-001",
+        "title": "RENDER：控制LLM记忆评估中的读者可见证据",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.23568",
+        "language": "en",
+        "summary": "RENDER是一个基准控制方法，固定对话内容，改变读者可见的工件（如记忆条目、摘要、类型化记录或原始摘录），以评估其对LLM记忆和RAG性能的影响。在500个LongMemEval问题和9个模型上，匹配预算的解析包比截断原始对话高出42.4-72.6分。结果表明，记忆/RAG评估应报告或控制读者可见工件。",
+        "summary_en": "RENDER is a benchmark control that fixes the conversation while varying the reader-facing artifact (e.g., memory entries, summaries, typed records, or raw excerpts) to assess its impact on LLM memory and RAG performance. On 500 LongMemEval questions and nine models, matched-budget resolved packets beat recency-truncated raw dialogue by 42.4-72.6 points. Results suggest memory/RAG evaluations should report or control the reader-facing artifact.",
+        "tags": [
+          "llm",
+          "rag",
+          "benchmark",
+          "evaluation",
+          "research"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-28T02:49:04.071203+08:00",
+        "updated_at": "2026-08-28T02:49:04.071207+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "ESQ-Bench: A Multi-Tier Enterprise Oracle Benchmark for Evaluating NL2SQL Dialect Generalization and Silent Semantic Divergence",
+      "url": "https://arxiv.org/abs/2608.23569",
+      "description": "arXiv:2608.23569v1 Announce Type: new \nAbstract: State-of-the-art Natural Language to SQL (NL2SQL) models report execution accuracy exceeding 89 percent on established benchmarks such as Spider and BIRD. However, these benchmarks rely on simplified academic schemas and open-source SQL dialects that do not reflect the complexity of enterprise database environments. We introduce ESQ-Bench, an Oracle-first NL2SQL benchmark with systematic complexity tiers and silent-divergence evaluation across three enterprise schema complexity tiers. We constructed and released six populated schemas (465 tables, 164,682 rows, zero empty tables) with identical seed data on Oracle, PostgreSQL, MySQL, and SQL Server, a four-metric evaluation harness (EM, EX, SR, SD), and 550 gold-validated question-query pairs (Tier-1: 95; Tier-2: 228; Tier-3: 227). Schema-linked prompting with GPT-4o shows monotonic execution-match degradation across tiers: 79.8, 60.3, and 57.2 percent EX on executed queries (June 2026), versus 75.6, 80.4, and 95.8 percent on an earlier 142-question pilot slice. EM stays below 7 percent tier-wide; operational silent-divergence reaches 73 to 99 percent among EX-passing queries. Failure analysis shows wrong-result semantics dominate at higher tiers. Claude Sonnet 4.6 with schema-linked prompts reaches 87.4, 74.9, and 68.7 percent EX (executed queries), exceeding GPT-4o schema-linked on every tier. GPT-4o zero-shot EX on executed queries (78.7, 73.5, and 77.8 percent) inverts schema-linked at Tiers 2 to 3 due to lower execution rates and survivor bias in the zero-shot versus schema-linked analysis. Local Llama 3.2 schema-linked reaches only 13.3 percent bank-wide EX (73 out of 550), underscoring the gap between closed API models and open-weight baselines on enterprise Oracle schemas.",
+      "pub_date": "Thu, 27 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "ESQ-Bench：面向企业Oracle数据库的NL2SQL方言泛化与静默语义分歧评估基准",
+        "summary": "ESQ-Bench是首个面向企业Oracle的NL2SQL基准，包含三个复杂度层级、465张表、550个问答对，并在四种数据库上提供相同数据。评估显示GPT-4o和Claude Sonnet 4.6在执行匹配率上随层级下降，静默分歧率高，而开源模型表现差距大。",
+        "summary_en": "ESQ-Bench is the first Oracle-first NL2SQL benchmark with three complexity tiers, 465 tables, and 550 question-query pairs, provided across four databases. Evaluation shows GPT-4o and Claude Sonnet 4.6 degrade in execution match across tiers, high silent divergence, and a large gap for open-weight models.",
+        "tags": [
+          "benchmark",
+          "nl2sql",
+          "evaluation",
+          "enterprise",
+          "sql"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-28-rss-006",
+        "title": "ESQ-Bench：面向企业Oracle数据库的NL2SQL方言泛化与静默语义分歧评估基准",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.23569",
+        "language": "en",
+        "summary": "ESQ-Bench是首个面向企业Oracle的NL2SQL基准，包含三个复杂度层级、465张表、550个问答对，并在四种数据库上提供相同数据。评估显示GPT-4o和Claude Sonnet 4.6在执行匹配率上随层级下降，静默分歧率高，而开源模型表现差距大。",
+        "summary_en": "ESQ-Bench is the first Oracle-first NL2SQL benchmark with three complexity tiers, 465 tables, and 550 question-query pairs, provided across four databases. Evaluation shows GPT-4o and Claude Sonnet 4.6 degrade in execution match across tiers, high silent divergence, and a large gap for open-weight models.",
+        "tags": [
+          "benchmark",
+          "nl2sql",
+          "evaluation",
+          "enterprise",
+          "sql"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-08-28T02:49:04.071229+08:00",
+        "updated_at": "2026-08-28T02:49:04.071231+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "LLM Agents Perform Controlled Experiments Using Simulation Models",
+      "url": "https://arxiv.org/abs/2608.23622",
+      "description": "arXiv:2608.23622v1 Announce Type: new \nAbstract: Large language models (LLMs) have shown strong capabilities in reasoning, planning, and tool use, but many scientific and engineering tasks require more than plausible text and code generation. They require understanding how a system responds to intervention, which in practice depends on controlled experimentation. In this work, we propose a multi-agent framework that enables LLM agents to conduct controlled experiments with scientific simulation models for pharmaceutical process design. Given a user query and a baseline configuration, the system constructs a structured task representation, designs experiments, executes comparative simulation, interprets the resulting outcomes, and synthesizes evidence-based recommendations for process parameter optimization. By coupling language models with high-fidelity simulation models in an interactive agent framework, the proposed system supports reasoning through intervention, comparison, and observation. As a result, it produces more specific and actionable outputs than language-only reasoning. In an industrial application setting, this advantage is reflected in higher output specificity as well as improved user-rated correctness and helpfulness. Ablation studies and visualized case analyses further demonstrate the effectiveness and practical utility of simulation-integrated experimental reasoning.",
+      "pub_date": "Thu, 27 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "LLM智能体利用仿真模型进行受控实验",
+        "summary": "提出一种多智能体框架，使LLM智能体能够结合科学仿真模型进行受控实验，用于制药工艺设计。系统构建结构化任务、设计实验、执行比较仿真、解释结果并给出基于证据的参数优化建议，相比纯语言推理输出更具体、更实用，用户评分更高。",
+        "summary_en": "Proposes a multi-agent framework enabling LLM agents to conduct controlled experiments with scientific simulation models for pharmaceutical process design, producing more specific and actionable outputs than language-only reasoning.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "application",
+          "research",
+          "tool"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-28-rss-002",
+        "title": "LLM智能体利用仿真模型进行受控实验",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.23622",
+        "language": "en",
+        "summary": "提出一种多智能体框架，使LLM智能体能够结合科学仿真模型进行受控实验，用于制药工艺设计。系统构建结构化任务、设计实验、执行比较仿真、解释结果并给出基于证据的参数优化建议，相比纯语言推理输出更具体、更实用，用户评分更高。",
+        "summary_en": "Proposes a multi-agent framework enabling LLM agents to conduct controlled experiments with scientific simulation models for pharmaceutical process design, producing more specific and actionable outputs than language-only reasoning.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "application",
+          "research",
+          "tool"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-28T02:49:04.071211+08:00",
+        "updated_at": "2026-08-28T02:49:04.071213+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "A survey detection channel overrides the pixels in an astronomical foundation model, and biases tomographic mean redshifts",
+      "url": "https://arxiv.org/abs/2608.23626",
+      "description": "arXiv:2608.23626v1 Announce Type: new \nAbstract: Foundation models for astronomy are trained on survey pixels together with the catalogue products derived from those pixels. Those catalogues are incomplete at a measurable rate, and a model trained on both inherits that incompleteness as a systematic. We audit AION-1, a 39-modality transformer trained on more than 200 million objects, using causal interventions on its inputs.\n  Holding the image tokens byte-identical and editing only the survey segmentation map changes every quantity the model reports -- flux, size, ellipticity, redshift -- by 110-4400 times a matched placebo. The mechanism is detection gating, presence at the field centre (r = 0.47), not the light the mask encloses (r = 0.30); across 322 real blends the model ignores how the pipeline partitioned the light (R = -0.006). Nor is the preference specific to that channel: contradicted catalogue photometry leaves the model nine times worse than supplying no metadata at all.\n  The Legacy Survey pipeline leaves 3.68% of targets with no segment covering their position. Propagating that rate, with a miss represented by the fields the pipeline actually returns, shifts tomographic mean redshifts by a median 0.71 times the LSST DESC requirement over 40 assignments and exceeds it in 12; observed positional errors take the worst bin to 8.3 times. Drawing the misses by their measured magnitude dependence rather than uniformly does not change it. Spectroscopy removes the effect, withholding the detection channel removes it at no measurable cost, and the effect grows with model scale.\n  Two further limits lie in the tokeniser: its image codec resolves 28 effective states on source patches against 934 for the spectrum codec, and the redshift readout is quantisation-limited. Sparse dictionaries are unreliable causal handles: across 15, recovery spans 26-75% and moves up to 18 points on the seed alone.",
+      "pub_date": "Thu, 27 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "天文基础模型中的检测通道覆盖像素并导致层析平均红移偏差",
+        "summary": "该研究审计了39模态天文基础模型AION-1，发现其检测分割图对模型输出（通量、大小、椭圆率、红移）有显著影响，导致层析平均红移偏差超过LSST DESC要求。通过因果干预和稀疏字典分析，揭示了模型对检测通道的依赖及其系统性偏差。",
+        "summary_en": null,
+        "tags": [
+          "llm",
+          "research",
+          "multimodal",
+          "benchmark",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-28-rss-010",
+        "title": "天文基础模型中的检测通道覆盖像素并导致层析平均红移偏差",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.23626",
+        "language": "en",
+        "summary": "该研究审计了39模态天文基础模型AION-1，发现其检测分割图对模型输出（通量、大小、椭圆率、红移）有显著影响，导致层析平均红移偏差超过LSST DESC要求。通过因果干预和稀疏字典分析，揭示了模型对检测通道的依赖及其系统性偏差。",
+        "summary_en": null,
+        "tags": [
+          "llm",
+          "research",
+          "multimodal",
+          "benchmark",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "status": "published",
+        "created_at": "2026-08-28T02:49:04.071246+08:00",
+        "updated_at": "2026-08-28T02:49:04.071248+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "TRACE: Transition-Aware Residual Control for Multi-Objective Materials Discovery",
+      "url": "https://arxiv.org/abs/2608.23631",
+      "description": "arXiv:2608.23631v1 Announce Type: new \nAbstract: Multi-objective materials discovery with LLM agents is often limited not only by how many candidates can be proposed, but by how effectively each costly property evaluation informs the next search step. Existing agents mainly store evaluated candidates and their scores, so they know which materials succeeded but not which executable edits caused useful property changes. This makes local refinement difficult when objectives compete and an edit that improves one property may damage another. We propose TRACE, a transition-aware residual control framework that treats evaluated edits as the basic unit of feedback. TRACE records each local refinement as a parent-edit-child transition with observed property deltas, aggregates transition evidence to estimate reusable edit effects, and ranks future edits by their predicted ability to reduce the current candidate's remaining constraint violations while avoiding damage to already satisfied objectives. In a controlled same-backbone comparison, TRACE improves over LLEMA, the state-of-the-art LLM-agent baseline, raising macro-average hit rate from 18.13\\% to 25.96\\%.",
+      "pub_date": "Thu, 27 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "TRACE：面向多目标材料发现的转换感知残差控制框架",
+        "summary": "TRACE是一种针对多目标材料发现的LLM代理框架，将评估的编辑作为基本反馈单元，记录父子编辑转换及属性变化，聚合证据以估计可复用的编辑效果，并排序未来编辑以减少约束违规。在相同骨干对比中，宏平均命中率从18.13%提升至25.96%。",
+        "summary_en": "TRACE is a transition-aware residual control framework for multi-objective materials discovery with LLM agents, treating evaluated edits as feedback units. It improves macro-average hit rate from 18.13% to 25.96% over LLEMA baseline.",
+        "tags": [
+          "llm",
+          "agent-framework",
+          "research",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-28-rss-007",
+        "title": "TRACE：面向多目标材料发现的转换感知残差控制框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.23631",
+        "language": "en",
+        "summary": "TRACE是一种针对多目标材料发现的LLM代理框架，将评估的编辑作为基本反馈单元，记录父子编辑转换及属性变化，聚合证据以估计可复用的编辑效果，并排序未来编辑以减少约束违规。在相同骨干对比中，宏平均命中率从18.13%提升至25.96%。",
+        "summary_en": "TRACE is a transition-aware residual control framework for multi-objective materials discovery with LLM agents, treating evaluated edits as feedback units. It improves macro-average hit rate from 18.13% to 25.96% over LLEMA baseline.",
+        "tags": [
+          "llm",
+          "agent-framework",
+          "research",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-28T02:49:04.071234+08:00",
+        "updated_at": "2026-08-28T02:49:04.071235+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Detection != Reliable Control: Decodable Empathy Directions Yield at Most Partial Shifts in Automated Empathy Scores",
+      "url": "https://arxiv.org/abs/2608.24901",
+      "description": "arXiv:2608.24901v1 Announce Type: new \nAbstract: A decodable \"empathy\" direction is routinely read as a causal lever, conflating decodability, automated-metric control, and human-perceived change. We test this for two EPITOME-derived facets -- Recognition (cognitive) and Resonance (affective) -- in three instruction-tuned LLMs, scoring every intervention with two LLM judges and a discriminative EPITOME classifier, each gated by an emotional-vs-neutral positive control. The control passes for the affective facet across all automated instruments, but cognitive range is inconsistent across them. Both facets remain decodable after residualizing against a sentence-embedding-derived surface score, and steering can substantially rewrite the text. Yet adding the Resonance direction raises the affective score only partially -- in Qwen by +0.29 (approximately 26% of the natural gap). A direct between-direction contrast confirms the shift is facet-specific in Qwen and Llama (not Gemma); we do not, however, establish a matching human-perceived change. Additive cognitive steering produces no measurable change, but a within-domain control shows the cognitive instrument is too coarse to resolve the differences such steering would produce -- unmeasurable, not a clean null. By contrast, Gemma Recognition ablation lowers the classifier's cognitive score even after adjusting for response length. Detection does not imply reliable control under global interventions, and cognitive-empathy claims warrant an explicit measurement-sensitivity check.",
+      "pub_date": "Thu, 27 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "检测不等于可靠控制：可解码的共情方向在自动化共情评分中仅产生部分偏移",
+        "summary": "该研究测试了可解码的“共情”方向是否可作为因果杠杆，在三个指令微调LLM上对EPITOME的认知和情感两个维度进行干预。结果显示，情感维度控制通过，但认知维度不一致；情感方向仅部分提升评分，认知方向无显著变化，但可能因测量工具不敏感。检测不等于可靠控制，认知共情主张需明确测量敏感性检查。",
+        "summary_en": "This study tests whether decodable 'empathy' directions serve as causal levers, intervening on EPITOME's cognitive and affective facets in three instruction-tuned LLMs. Affective control passes, cognitive is inconsistent; affective steering partially raises scores, cognitive shows no measurable change possibly due to coarse instruments. Detection does not imply reliable control; cognitive claims need sensitivity checks.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-28-rss-003",
+        "title": "检测不等于可靠控制：可解码的共情方向在自动化共情评分中仅产生部分偏移",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.24901",
+        "language": "en",
+        "summary": "该研究测试了可解码的“共情”方向是否可作为因果杠杆，在三个指令微调LLM上对EPITOME的认知和情感两个维度进行干预。结果显示，情感维度控制通过，但认知维度不一致；情感方向仅部分提升评分，认知方向无显著变化，但可能因测量工具不敏感。检测不等于可靠控制，认知共情主张需明确测量敏感性检查。",
+        "summary_en": "This study tests whether decodable 'empathy' directions serve as causal levers, intervening on EPITOME's cognitive and affective facets in three instruction-tuned LLMs. Affective control passes, cognitive is inconsistent; affective steering partially raises scores, cognitive shows no measurable change possibly due to coarse instruments. Detection does not imply reliable control; cognitive claims need sensitivity checks.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-28T02:49:04.071216+08:00",
+        "updated_at": "2026-08-28T02:49:04.071218+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Semantic Variability of Replies Across LLMs: Implications for Designing Conversation-Based Assessment",
+      "url": "https://arxiv.org/abs/2608.24920",
+      "description": "arXiv:2608.24920v1 Announce Type: new \nAbstract: This study examines whether LLM-generated replies remain semantically consistent when the underlying LLM changes. Using messages from real collaborative conversations, we compared the semantic similarity of generated replies across LLMs under two conditions: with and without preceding chat history. Results show that model choice and conversational context both affect response similarity and alignment with human replies. These findings indicate that prompting and conversational context alone may not be sufficient to preserve response consistency across LLMs, highlighting the need for infrastructure and design strategies that can maintain stable and comparable responses amid the rapid and continuous evolution of LLMs.",
+      "pub_date": "Thu, 27 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "LLM回复的语义变异性：对基于对话评估设计的影响",
+        "summary": "该研究探讨了当底层LLM变化时，生成回复的语义一致性。通过真实协作对话，比较了有无聊天历史两种条件下跨LLM的回复语义相似性。结果表明模型选择和对话上下文均影响回复相似性及与人类回复的对齐，提示仅靠提示和上下文不足以保持一致性，需基础设施和设计策略以维持稳定可比的回复。",
+        "summary_en": "This study examines semantic consistency of LLM-generated replies across different models, using real collaborative conversations with and without chat history. Results show model choice and context affect similarity and alignment with human replies, indicating prompting alone is insufficient and infrastructure/design strategies are needed.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "infrastructure"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-28-rss-008",
+        "title": "LLM回复的语义变异性：对基于对话评估设计的影响",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.24920",
+        "language": "en",
+        "summary": "该研究探讨了当底层LLM变化时，生成回复的语义一致性。通过真实协作对话，比较了有无聊天历史两种条件下跨LLM的回复语义相似性。结果表明模型选择和对话上下文均影响回复相似性及与人类回复的对齐，提示仅靠提示和上下文不足以保持一致性，需基础设施和设计策略以维持稳定可比的回复。",
+        "summary_en": "This study examines semantic consistency of LLM-generated replies across different models, using real collaborative conversations with and without chat history. Results show model choice and context affect similarity and alignment with human replies, indicating prompting alone is insufficient and infrastructure/design strategies are needed.",
+        "tags": [
+          "llm",
+          "research",
+          "evaluation",
+          "infrastructure"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-28T02:49:04.071238+08:00",
+        "updated_at": "2026-08-28T02:49:04.071239+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "The Dialect Tax: Dialectal Biases Persist throughout the Language Modeling Pipeline",
+      "url": "https://arxiv.org/abs/2608.24952",
+      "description": "arXiv:2608.24952v1 Announce Type: new \nAbstract: Systematic dialectal performance gaps in language models (LMs) are well documented, but the source of these disparities within the modern language modeling pipeline remains unclear. Our study traces this \"dialect tax\" across the natural language processing pipeline. Using parallel English dialect corpora that hold meaning fixed while varying surface form, we first confirm that LMs recognize matched Standard American English (SAE) and dialectal texts as semantically equivalent. However, we discover further representational gaps corresponding to downstream performance gaps. Across model families and generations, modern LMs still encode dialectal texts unequally during tokenization, pre-training, post-training, and inference. Strikingly, bypassing traditional subword segmentation via a character-level counterfactual tokenizer removes neither input and output asymmetries nor dialectal accuracy gaps. During pre-training, dialect pairs induce more divergent gradient updates than pairs of entirely unrelated SAE documents, indicating that models find semantically equivalent dialectal content harder to learn from than unrelated SAE documents. During post-training, reward models show contextual, unstable dialect preferences, assigning higher values to isolated AAVE-exclusive tokens than to SAE-exclusive tokens, while full reasoning contexts receive task- and model-dependent dialect penalties. Overall, our findings suggest that the dialect tax is encoded and accumulated not by any one step in isolation, but at every step of the language modeling process.",
+      "pub_date": "Thu, 27 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "方言税：语言建模流程中持续存在的方言偏见",
+        "summary": "该研究追踪了语言模型流水线中的“方言税”，发现从分词、预训练、后训练到推理，模型对非标准英语方言（如AAVE）的编码和处理均存在系统性偏差。即使使用字符级分词器，性能差距依然存在，表明方言偏见在建模各阶段累积。",
+        "summary_en": "This study traces the 'dialect tax' across the NLP pipeline, finding systematic biases against non-standard English dialects (e.g., AAVE) in tokenization, pre-training, post-training, and inference. Even character-level tokenizers fail to eliminate performance gaps, indicating biases accumulate at every stage.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-28-rss-009",
+        "title": "方言税：语言建模流程中持续存在的方言偏见",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.24952",
+        "language": "en",
+        "summary": "该研究追踪了语言模型流水线中的“方言税”，发现从分词、预训练、后训练到推理，模型对非标准英语方言（如AAVE）的编码和处理均存在系统性偏差。即使使用字符级分词器，性能差距依然存在，表明方言偏见在建模各阶段累积。",
+        "summary_en": "This study traces the 'dialect tax' across the NLP pipeline, finding systematic biases against non-standard English dialects (e.g., AAVE) in tokenization, pre-training, post-training, and inference. Even character-level tokenizers fail to eliminate performance gaps, indicating biases accumulate at every stage.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-28T02:49:04.071242+08:00",
+        "updated_at": "2026-08-28T02:49:04.071243+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Unsupervised Post-Training of Foundation Models: A Survey",
+      "url": "https://arxiv.org/abs/2608.24982",
+      "description": "arXiv:2608.24982v1 Announce Type: new \nAbstract: Foundation-model post-training usually relies on human labels, preference data, stronger teachers, or executable verifiers. We study Unsupervised Post-Training (UPT): update-bearing adaptation on unlabeled inputs whose learning signal is derived from same-lineage model artifacts rather than an external oracle. We catalog 80 strict UPT methods and organize them by the object that supplies the update signal: a prediction statistic, a sample relation, a self-generated target, or an internal evaluator. Beyond inventory, we show how the choice of internal signal and task structure determines whether post-training improves the model or recursively amplifies error. An orthogonal Input Visibility $\\times$ Update Persistence view maps deployment regimes and defines a unified framework for UPT selection and evaluation.",
+      "pub_date": "Thu, 27 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "基础模型的无监督后训练：综述",
+        "summary": "本文综述了无监督后训练（UPT），即利用同源模型产物而非外部标注进行模型更新。整理了80种严格UPT方法，按更新信号来源分类，并探讨内部信号与任务结构如何影响训练效果，提出输入可见性与更新持久性框架，用于UPT选择与评估。",
+        "summary_en": "This survey studies Unsupervised Post-Training (UPT), which adapts foundation models using signals from same-lineage artifacts. It catalogs 80 methods, organizes them by update signal source, and proposes a framework for UPT selection and evaluation.",
+        "tags": [
+          "research",
+          "llm",
+          "fine-tuning",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-28-rss-004",
+        "title": "基础模型的无监督后训练：综述",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.24982",
+        "language": "en",
+        "summary": "本文综述了无监督后训练（UPT），即利用同源模型产物而非外部标注进行模型更新。整理了80种严格UPT方法，按更新信号来源分类，并探讨内部信号与任务结构如何影响训练效果，提出输入可见性与更新持久性框架，用于UPT选择与评估。",
+        "summary_en": "This survey studies Unsupervised Post-Training (UPT), which adapts foundation models using signals from same-lineage artifacts. It catalogs 80 methods, organizes them by update signal source, and proposes a framework for UPT selection and evaluation.",
+        "tags": [
+          "research",
+          "llm",
+          "fine-tuning",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-28T02:49:04.071221+08:00",
+        "updated_at": "2026-08-28T02:49:04.071222+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Does Fine-Tuning Undo Activation Steering? Behavioural Recovery Without Weight-Edit Reversal",
+      "url": "https://arxiv.org/abs/2608.24988",
+      "description": "arXiv:2608.24988v1 Announce Type: new \nAbstract: Activation steering can be embedded directly into a language model's weights, shaping behaviour without inference-time intervention and offering a way to encode alignment prior to release. However, models are routinely fine-tuned after deployment, and it is unknown whether embedded interventions survive this. We study the stability of embedded steering for refusal suppression and brevity induction across five instruction-tuned models (3B-14B) under non-adversarial SFT and RLHF. Behaviourally, preservation tracks the training data: steering degrades when optimisation pressure contradicts the targeted behaviour and persists otherwise, with refusal ablation losing 64% of its effect on average under SFT. Mechanistically, however, the weight edit survives almost untouched even where behaviour reverts: mean vector recovery is $\\rho = 0.004$, and the fine-tuning update along the steering direction is near-orthogonal to its pre-edit weight pattern (mean $\\cos\\theta = 0.074$). When steered behaviour degrades, fine-tuning does not achieve it by dismantling or reversing the steering mechanism itself. Embedded steering is therefore mechanistically durable but functionally vulnerable, and requires behavioural re-validation after downstream training.",
+      "pub_date": "Thu, 27 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "微调是否会撤销激活引导？行为恢复但权重编辑未逆转",
+        "summary": "该研究探讨了嵌入语言模型权重的激活引导在后续微调（SFT/RLHF）下的稳定性。行为上，引导效果随训练数据方向变化，拒绝抑制平均损失64%；机制上，权重编辑几乎未被破坏（向量恢复ρ=0.004，更新方向余弦0.074）。结论：嵌入式引导机制耐久但功能脆弱，需下游训练后重新验证。",
+        "summary_en": "This study examines the stability of activation steering embedded in LLM weights under subsequent fine-tuning (SFT/RLHF). Behaviorally, steering degrades with optimization pressure, e.g., refusal suppression loses 64% on average; mechanistically, weight edits survive (vector recovery ρ=0.004, cosine 0.074). Embedded steering is mechanistically durable but functionally vulnerable, requiring re-validation.",
+        "tags": [
+          "llm",
+          "fine-tuning",
+          "research",
+          "security"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-28-rss-005",
+        "title": "微调是否会撤销激活引导？行为恢复但权重编辑未逆转",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.24988",
+        "language": "en",
+        "summary": "该研究探讨了嵌入语言模型权重的激活引导在后续微调（SFT/RLHF）下的稳定性。行为上，引导效果随训练数据方向变化，拒绝抑制平均损失64%；机制上，权重编辑几乎未被破坏（向量恢复ρ=0.004，更新方向余弦0.074）。结论：嵌入式引导机制耐久但功能脆弱，需下游训练后重新验证。",
+        "summary_en": "This study examines the stability of activation steering embedded in LLM weights under subsequent fine-tuning (SFT/RLHF). Behaviorally, steering degrades with optimization pressure, e.g., refusal suppression loses 64% on average; mechanistically, weight edits survive (vector recovery ρ=0.004, cosine 0.074). Embedded steering is mechanistically durable but functionally vulnerable, requiring re-validation.",
+        "tags": [
+          "llm",
+          "fine-tuning",
+          "research",
+          "security"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-28T02:49:04.071225+08:00",
+        "updated_at": "2026-08-28T02:49:04.071226+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

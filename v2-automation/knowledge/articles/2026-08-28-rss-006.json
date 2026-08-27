@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-28-rss-006",
+  "title": "ESQ-Bench：面向企业Oracle数据库的NL2SQL方言泛化与静默语义分歧评估基准",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.23569",
+  "language": "en",
+  "summary": "ESQ-Bench是首个面向企业Oracle的NL2SQL基准，包含三个复杂度层级、465张表、550个问答对，并在四种数据库上提供相同数据。评估显示GPT-4o和Claude Sonnet 4.6在执行匹配率上随层级下降，静默分歧率高，而开源模型表现差距大。",
+  "summary_en": "ESQ-Bench is the first Oracle-first NL2SQL benchmark with three complexity tiers, 465 tables, and 550 question-query pairs, provided across four databases. Evaluation shows GPT-4o and Claude Sonnet 4.6 degrade in execution match across tiers, high silent divergence, and a large gap for open-weight models.",
+  "tags": [
+    "benchmark",
+    "nl2sql",
+    "evaluation",
+    "enterprise",
+    "sql"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-08-28T02:49:04.071229+08:00",
+  "updated_at": "2026-08-28T02:49:04.071231+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

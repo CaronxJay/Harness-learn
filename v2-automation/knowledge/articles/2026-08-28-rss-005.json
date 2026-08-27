@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-28-rss-005",
+  "title": "微调是否会撤销激活引导？行为恢复但权重编辑未逆转",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.24988",
+  "language": "en",
+  "summary": "该研究探讨了嵌入语言模型权重的激活引导在后续微调（SFT/RLHF）下的稳定性。行为上，引导效果随训练数据方向变化，拒绝抑制平均损失64%；机制上，权重编辑几乎未被破坏（向量恢复ρ=0.004，更新方向余弦0.074）。结论：嵌入式引导机制耐久但功能脆弱，需下游训练后重新验证。",
+  "summary_en": "This study examines the stability of activation steering embedded in LLM weights under subsequent fine-tuning (SFT/RLHF). Behaviorally, steering degrades with optimization pressure, e.g., refusal suppression loses 64% on average; mechanistically, weight edits survive (vector recovery ρ=0.004, cosine 0.074). Embedded steering is mechanistically durable but functionally vulnerable, requiring re-validation.",
+  "tags": [
+    "llm",
+    "fine-tuning",
+    "research",
+    "security"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-28T02:49:04.071225+08:00",
+  "updated_at": "2026-08-28T02:49:04.071226+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
