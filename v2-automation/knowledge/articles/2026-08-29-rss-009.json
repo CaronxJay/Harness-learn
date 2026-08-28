@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-29-rss-009",
+  "title": "大型模型在电池预测与健康管理中的应用：综述与未来路线图",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.26111",
+  "language": "en",
+  "summary": "本文首次全面综述大型模型（LM）在电池预测与健康管理（BPHM）中的应用，涵盖Transformer架构、自监督预训练、多模态数据及PEFT技术，并从缓解数据稀缺、增强泛化、集成领域知识、系统级自动化四个维度分类进展，提出数据生态、工业验证、可信性和端侧部署的未来路线图。",
+  "summary_en": "This review comprehensively surveys large model applications in battery prognostics and health management, addressing data scarcity, generalization, interpretability, and automation, and proposes a roadmap for data ecosystems, validation, trustworthiness, and deployment.",
+  "tags": [
+    "llm",
+    "research",
+    "application",
+    "multimodal",
+    "fine-tuning"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-29T03:52:47.201924+08:00",
+  "updated_at": "2026-08-29T03:52:47.201926+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

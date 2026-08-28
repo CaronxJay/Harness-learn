@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-29-rss-006",
+  "title": "ElementCheck：基于句子元素的复杂度感知长文本事实性评估",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.26118",
+  "language": "en",
+  "summary": "针对现有长文本事实性评估中分解噪声和固定验证粒度的问题，提出ElementCheck框架。通过提取句子中可验证的实体对作为元素并构建元素图，利用图拓扑估计句子复杂度，对简单句子直接验证，复杂句子进行元素级细化验证。新基准FastFact-Sent支持细粒度评估，实验表明在五个骨干模型上提升事实性验证效果，并保持良好准确率-成本权衡。",
+  "summary_en": "ElementCheck is a complexity-aware framework for long-form factuality evaluation. It extracts entity pairs as elements and builds an element graph to estimate sentence complexity, enabling direct verification for simple sentences and targeted refinement for complex ones. A new benchmark FastFact-Sent is introduced. Experiments show consistent improvements across five backbones with favorable accuracy-cost trade-off.",
+  "tags": [
+    "research",
+    "evaluation",
+    "llm",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-08-29T03:52:47.201911+08:00",
+  "updated_at": "2026-08-29T03:52:47.201913+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

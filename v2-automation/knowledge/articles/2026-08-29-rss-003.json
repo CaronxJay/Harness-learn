@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-29-rss-003",
+  "title": "通过采样引导和扩展大型语言模型的策略",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.26120",
+  "language": "en",
+  "summary": "本文提出一个灵活且理论基础的框架，用于通过采样引导和扩展自回归LLM。描述了基于序贯蒙特卡洛（SMC）和副本交换（RE）的两种算法，将生成导向基础模型分布的幂、乘积或倾斜。实验表明，该方法在扩展生成质量方面优于Best-of-N和标准MCMC基线，无需外部监督或奖励模型。",
+  "summary_en": "This paper presents a flexible and theoretically grounded framework for steering and scaling autoregressive LLMs via sampling, with two algorithms based on Sequential Monte Carlo and Replica Exchange. Experiments show favorable scaling compared to Best-of-N and standard MCMC baselines, without external supervision.",
+  "tags": [
+    "llm",
+    "research",
+    "sampling",
+    "inference"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-29T03:52:47.201899+08:00",
+  "updated_at": "2026-08-29T03:52:47.201900+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

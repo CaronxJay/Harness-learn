@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-29-rss-001",
+  "title": "TreeGraft：基于树形投机解码的自适应多草稿器嫁接框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.26112",
+  "language": "en",
+  "summary": "TreeGraft提出多草稿器框架，通过强弱草稿器协作构建共享草稿树，强草稿器重打分、重选嫁接位置并恢复路径，非破坏性扩展分支，并利用轻量调度器控制成本。在10个模型对和6个基准上平均提升15.1%，最高达26.6%。",
+  "summary_en": "TreeGraft proposes a multi-drafter framework for tree-based speculative decoding, where a stronger drafter rescore candidates, reselect grafting positions, and recover paths, with a lightweight scheduler to control cost. It outperforms fixed single-drafter strategies by 15.1% on average across 10 model pairs and 6 benchmarks.",
+  "tags": [
+    "llm",
+    "research",
+    "infrastructure",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-29T03:52:47.201885+08:00",
+  "updated_at": "2026-08-29T03:52:47.201889+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

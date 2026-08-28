@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-29-rss-004",
+  "title": "模型能否免费捕捉自身幻觉？无标签怀疑信号在弃权任务中与有标签数据集相当",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.26121",
+  "language": "en",
+  "summary": "本文研究利用模型自身置信度作为无标签信号，通过LoRA微调让模型在高置信时回答、低置信时弃权，无需正确性标签。在六个开源模型（1B-8B）的短问答任务中，该方法与有标签监督的弃权微调性能无显著差异，且增益来自校准而非记忆。但无法识别自信的错误答案。",
+  "summary_en": "This paper explores using a model's own confidence as a label-free signal to teach abstention via LoRA fine-tuning, showing comparable performance to label-supervised methods across six open-weight models on factual QA, with gains from calibration, though it cannot flag confidently wrong facts.",
+  "tags": [
+    "llm",
+    "fine-tuning",
+    "research",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-29T03:52:47.201903+08:00",
+  "updated_at": "2026-08-29T03:52:47.201904+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,485 @@
+{
+  "collected_at": "2026-08-29T03:52:47.202762+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "EduRiskX: A Neuro-Symbolic Framework with F-Logic Reasoning for Early Academic Risk Prediction",
+      "url": "https://arxiv.org/abs/2608.26107",
+      "description": "arXiv:2608.26107v1 Announce Type: new \nAbstract: Predicting students' academic risk in online education is crucial for enabling timely interventions that can improve retention and learning outcomes. However, existing models often suffer from limited early detection capability and insufficient interpretability, leading to a \"black-box\" trust crisis that hinders their adoption in real-world pedagogical settings. To address these challenges, we propose EduRiskX, a neuro-symbolic framework that integrates a temporal Transformer-based predictor with F-Logic symbolic reasoning. The neural component models longitudinal student activity sequences using temporal attention, class-weighted loss, and dynamic weekly truncation. Acting as a data-driven expert system, an F-Logic rule base -- grounded in established educational theories (Engagement Theory and Student Integration Model) to mimic the diagnostic logic of human educators -- is constructed exclusively from the training data. The neural risk probability and the symbolic confidence score are then combined through a logistic regression-based fusion mechanism that learns the relative contribution of each signal. Experiments on the Open University Learning Analytics Dataset (OULAD) using a strict 80/10/10 student-level split show that EduRiskX achieves an accuracy of 0.900 and an F1-score of 0.894 at the end of the semester (Week 38), with an average early detection week of 9.32 and a detection rate of 94.30 percent. Compared with state-of-the-art time-series models (PatchTST, iTransformer) and common deep learning baselines (LSTM, CNN), EduRiskX yields improved recall and earlier risk identification under identical conditions. Beyond predictive performance, the F-Logic module provides structured rule-based explanations linking predictions to observable behavioral patterns and educational theories.",
+      "pub_date": "Fri, 28 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "EduRiskX：基于F-Logic推理的神经符号框架用于早期学业风险预测",
+        "summary": "EduRiskX是一个神经符号框架，结合时间Transformer预测器与F-Logic符号推理，用于在线教育中的早期学业风险预测。在OULAD数据集上，准确率0.900，F1分数0.894，平均早期检测周9.32，检测率94.30%，优于现有模型，并提供可解释的规则性解释。",
+        "summary_en": "EduRiskX is a neuro-symbolic framework combining a temporal Transformer predictor with F-Logic symbolic reasoning for early academic risk prediction in online education. On OULAD, it achieves 0.900 accuracy, 0.894 F1, average early detection week 9.32, and 94.30% detection rate, outperforming baselines and providing interpretable rule-based explanations.",
+        "tags": [
+          "research",
+          "llm",
+          "application",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-29-rss-007",
+        "title": "EduRiskX：基于F-Logic推理的神经符号框架用于早期学业风险预测",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.26107",
+        "language": "en",
+        "summary": "EduRiskX是一个神经符号框架，结合时间Transformer预测器与F-Logic符号推理，用于在线教育中的早期学业风险预测。在OULAD数据集上，准确率0.900，F1分数0.894，平均早期检测周9.32，检测率94.30%，优于现有模型，并提供可解释的规则性解释。",
+        "summary_en": "EduRiskX is a neuro-symbolic framework combining a temporal Transformer predictor with F-Logic symbolic reasoning for early academic risk prediction in online education. On OULAD, it achieves 0.900 accuracy, 0.894 F1, average early detection week 9.32, and 94.30% detection rate, outperforming baselines and providing interpretable rule-based explanations.",
+        "tags": [
+          "research",
+          "llm",
+          "application",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-29T03:52:47.201916+08:00",
+        "updated_at": "2026-08-29T03:52:47.201917+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Standalone LLM and a Pre-specified Agentic Pipeline for Explaining ICU Mortality Predictions: a Feasibility Study on the eICU Demo Dataset",
+      "url": "https://arxiv.org/abs/2608.26109",
+      "description": "arXiv:2608.26109v1 Announce Type: new \nAbstract: Machine-learning models can predict ICU mortality accurately, but feature-attribution methods alone rarely provide the clinical narrative needed for bedside use. Large language models (LLMs) may bridge this gap, and multi-step agentic pipelines are a plausible extension because they separate data interpretation, guideline checking, and final explanation. This revised feasibility study preserves the original standalone-versus-agentic comparison while making the main clinical findings more explicit. Using the retained local eICU Demo artifact set (2,353 ICU stays; 8.1\\% mortality), XGBoost achieved an AUROC of 0.855 (95\\% CI 0.796--0.906) and an AUPRC of 0.332 (95\\% CI 0.217--0.494). On a stratified 38-case explanation subset, the standalone LLM produced 1 explanation with explicit outcome leakage, whereas the four-step agentic pipeline produced none. Among the 14 cases that overlapped with the SHAP review subset, the standalone LLM showed higher SHAP alignment (mean Jaccard 0.171 versus 0.077) and higher direction consistency (92.9\\% versus 78.6\\%), while the agentic pipeline showed higher guideline grounding (0.762 versus 0.143), higher value specificity (0.236 versus 0.143), and slightly higher plausibility (0.700 versus 0.671). Clinically, the results suggest that agentic decomposition may improve safety-relevant grounding and patient-specific detail, but it should be paired with attribution-based checks before use in high-stakes risk explanation.",
+      "pub_date": "Fri, 28 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "独立LLM与预设Agentic流水线在ICU死亡率预测解释中的可行性研究",
+        "summary": "本研究在eICU数据集上比较独立LLM与四步Agentic流水线解释ICU死亡率预测的效果。结果显示Agentic流水线在指南依据和患者特异性细节上更优，但SHAP对齐和方向一致性较低，建议结合归因检查用于高风险场景。",
+        "summary_en": "This study compares a standalone LLM with a four-step agentic pipeline for explaining ICU mortality predictions on the eICU dataset. The agentic pipeline showed better guideline grounding and patient-specific detail but lower SHAP alignment and direction consistency, suggesting pairing with attribution checks for high-stakes use.",
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "evaluation",
+          "agent-framework"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-29-rss-008",
+        "title": "独立LLM与预设Agentic流水线在ICU死亡率预测解释中的可行性研究",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.26109",
+        "language": "en",
+        "summary": "本研究在eICU数据集上比较独立LLM与四步Agentic流水线解释ICU死亡率预测的效果。结果显示Agentic流水线在指南依据和患者特异性细节上更优，但SHAP对齐和方向一致性较低，建议结合归因检查用于高风险场景。",
+        "summary_en": "This study compares a standalone LLM with a four-step agentic pipeline for explaining ICU mortality predictions on the eICU dataset. The agentic pipeline showed better guideline grounding and patient-specific detail but lower SHAP alignment and direction consistency, suggesting pairing with attribution checks for high-stakes use.",
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "evaluation",
+          "agent-framework"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-29T03:52:47.201920+08:00",
+        "updated_at": "2026-08-29T03:52:47.201921+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Large Models for Battery Prognostics and Health Management: A Review and Future Roadmap",
+      "url": "https://arxiv.org/abs/2608.26111",
+      "description": "arXiv:2608.26111v1 Announce Type: new \nAbstract: Battery Prognostics and Health Management (BPHM) is critical for ensuring the safe, reliable, and cost-effective operation of batteries across electric vehicles, grid storage, and consumer electronics. Conventional BPHM approaches, including physics-based models and task-centric deep learning methods, face challenges in computational efficiency and parameterization, cross-domain generalization, dependence on extensive labeled run-to-failure data, and model interpretability. Recent Large Models (LMs), built upon Transformer architectures and self-supervised pre-training, offer a transformative new paradigm to overcome these long-standing bottlenecks. This review provides the first comprehensive survey of LM applications in BPHM, systematically examining how these models address challenges in the field. We begin by elucidating the foundational technologies enabling LMs, including Transformer architectures, self-supervised learning, large-scale multimodal datasets, and PEFT techniques. We then categorize recent progress along four critical dimensions: mitigating data scarcity, enhancing generalization and robustness, integrating domain knowledge for interpretability, and enabling system-level automation. Despite promising results, significant challenges remain across data accessibility, intelligence validation, trustworthiness, and deployment feasibility. To guide future research, we propose a roadmap focused on building collaborative data ecosystems, validating intelligence for industrial applications, enhancing trustworthiness with physics-informed designs, and enabling efficient on-device deployment. This review establishes a systematic approach to understand and advance LM-driven BPHM, providing researchers and practitioners with essential insights for developing next-generation battery management systems capable of safe, reliable, and autonomous operation throughout battery lifecycles.",
+      "pub_date": "Fri, 28 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "大型模型在电池预测与健康管理中的应用：综述与未来路线图",
+        "summary": "本文首次全面综述大型模型（LM）在电池预测与健康管理（BPHM）中的应用，涵盖Transformer架构、自监督预训练、多模态数据及PEFT技术，并从缓解数据稀缺、增强泛化、集成领域知识、系统级自动化四个维度分类进展，提出数据生态、工业验证、可信性和端侧部署的未来路线图。",
+        "summary_en": "This review comprehensively surveys large model applications in battery prognostics and health management, addressing data scarcity, generalization, interpretability, and automation, and proposes a roadmap for data ecosystems, validation, trustworthiness, and deployment.",
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "multimodal",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-29-rss-009",
+        "title": "大型模型在电池预测与健康管理中的应用：综述与未来路线图",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.26111",
+        "language": "en",
+        "summary": "本文首次全面综述大型模型（LM）在电池预测与健康管理（BPHM）中的应用，涵盖Transformer架构、自监督预训练、多模态数据及PEFT技术，并从缓解数据稀缺、增强泛化、集成领域知识、系统级自动化四个维度分类进展，提出数据生态、工业验证、可信性和端侧部署的未来路线图。",
+        "summary_en": "This review comprehensively surveys large model applications in battery prognostics and health management, addressing data scarcity, generalization, interpretability, and automation, and proposes a roadmap for data ecosystems, validation, trustworthiness, and deployment.",
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "multimodal",
+          "fine-tuning"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-29T03:52:47.201924+08:00",
+        "updated_at": "2026-08-29T03:52:47.201926+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "PICasso: An AI-Enabled Design Framework for Autonomous Optimization of Silicon Photonic Devices",
+      "url": "https://arxiv.org/abs/2608.26113",
+      "description": "arXiv:2608.26113v1 Announce Type: new \nAbstract: We present PICasso, an AI-assisted framework for automated synthesis, verification, and optimization of photonic integrated circuits (PICs) from natural-language specifications. PICasso couples a structured NL -> YAML -> GDS generation pipeline with PDK aware knowledge injection, automated placement and routing, DRC/LVS validation, and SAX-based photonic simulation. To systematically evaluate AI-driven photonic design, we introduce PIC-Set, a benchmark of 36 parameterized PIC design tasks spanning core photonic primitives and multi-component circuits. Using PIC-Set, we benchmark several state-of-the-art Large Language Models (LLMs) under a unified evaluation protocol, including new metrics such as structural and functional $Spec@k$, optimization efficiency, and robustness under perturbations. Across the benchmark, PICasso significantly improves end-to-end specification satisfaction compared to vanilla LLM generation. Structural $Spec@3$ reaches up to 92.7% and functional $Spec@3$ up to 52% on high-complexity circuits. In addition, PICasso consistently reduces circuit insertion loss, lowering the mean loss from 4.98 dB to 3.25 dB (1.74 dB improvement) through simulation-guided optimization. These results demonstrate that structured domain constraints, physical verification, and simulation feedback transform LLMs from brittle netlist generators into practical PIC design agents capable of producing manufacturable layouts with competitive runtimes relative to manual GUI-based workflows.",
+      "pub_date": "Fri, 28 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "PICasso：AI驱动的硅光子器件自动优化设计框架",
+        "summary": "PICasso是一个AI辅助框架，可从自然语言规范自动合成、验证和优化光子集成电路。它结合NL->YAML->GDS流程、PDK知识注入、自动布局布线、DRC/LVS验证和SAX仿真。引入PIC-Set基准测试36个设计任务，相比纯LLM生成，结构Spec@3达92.7%，功能Spec@3达52%，插入损耗平均降低1.74dB。",
+        "summary_en": "PICasso is an AI-assisted framework for automated synthesis, verification, and optimization of photonic integrated circuits from natural-language specifications. It introduces PIC-Set benchmark and improves structural Spec@3 to 92.7% and functional Spec@3 to 52%, reducing insertion loss by 1.74 dB.",
+        "tags": [
+          "llm",
+          "application",
+          "benchmark",
+          "research"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-29-rss-010",
+        "title": "PICasso：AI驱动的硅光子器件自动优化设计框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.26113",
+        "language": "en",
+        "summary": "PICasso是一个AI辅助框架，可从自然语言规范自动合成、验证和优化光子集成电路。它结合NL->YAML->GDS流程、PDK知识注入、自动布局布线、DRC/LVS验证和SAX仿真。引入PIC-Set基准测试36个设计任务，相比纯LLM生成，结构Spec@3达92.7%，功能Spec@3达52%，插入损耗平均降低1.74dB。",
+        "summary_en": "PICasso is an AI-assisted framework for automated synthesis, verification, and optimization of photonic integrated circuits from natural-language specifications. It introduces PIC-Set benchmark and improves structural Spec@3 to 92.7% and functional Spec@3 to 52%, reducing insertion loss by 1.74 dB.",
+        "tags": [
+          "llm",
+          "application",
+          "benchmark",
+          "research"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-29T03:52:47.201928+08:00",
+        "updated_at": "2026-08-29T03:52:47.201930+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "CIFQA: A Deterministic Tool-Grounded Multi-Agent LLM Framework for Financial Query Answering",
+      "url": "https://arxiv.org/abs/2608.26114",
+      "description": "arXiv:2608.26114v1 Announce Type: new \nAbstract: Calculation-intensive financial question answering requires exact reasoning over structured rates, temporal conditions, numerical formulas, and rule-based constraints. Although Large Language Models (LLMs) perform strongly on natural language tasks, they often produce numerically incorrect yet plausible answers when solving multi-step financial calculations. To address this limitation, we introduce CIFQA (Calculation-Intensive Financial Query Answering), a deterministic tool-grounded multi-agent LLM framework for financial question answering. CIFQA separates language understanding from numerical execution by assigning specialized agents to query interpretation, routing, parameter extraction, computation planning, and response generation, while deterministic Python-based tools perform financial calculations and rule application. We instantiate CIFQA for fixed deposit query answering and evaluate it on a curated benchmark of fixed deposit queries. CIFQA achieves 95.54% accuracy on calculation-intensive queries and 90.87% overall accuracy, substantially outperforming direct LLM baselines even when provided with complete formulas, rate cards, and benchmark instructions. Ablation studies show that deterministic components such as exact rate lookup, tenure computation, rolling-year adjustment, and premature-withdrawal logic are critical contributors to performance. Notably, a 17B open-source backbone operating within CIFQA outperforms substantially larger frontier models evaluated with the same financial information, demonstrating that architectural design is a more important determinant of numerical reliability than model scale. While evaluated on fixed deposit queries, CIFQA provides a generalizable framework for calculation-intensive financial reasoning tasks.",
+      "pub_date": "Fri, 28 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "CIFQA：用于金融查询回答的确定性工具接地多智能体LLM框架",
+        "summary": "CIFQA是一个确定性工具接地的多智能体LLM框架，用于计算密集型金融问答。它通过将语言理解与数值执行分离，使用专用智能体和Python工具，在定期存款查询上达到95.54%的准确率，显著优于直接LLM基线，并证明架构设计比模型规模更重要。",
+        "summary_en": "CIFQA is a deterministic tool-grounded multi-agent LLM framework for calculation-intensive financial QA. It separates language understanding from numerical execution, achieving 95.54% accuracy on fixed deposit queries, outperforming direct LLM baselines and showing architecture matters more than scale.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "application",
+          "tool",
+          "research"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-29-rss-005",
+        "title": "CIFQA：用于金融查询回答的确定性工具接地多智能体LLM框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.26114",
+        "language": "en",
+        "summary": "CIFQA是一个确定性工具接地的多智能体LLM框架，用于计算密集型金融问答。它通过将语言理解与数值执行分离，使用专用智能体和Python工具，在定期存款查询上达到95.54%的准确率，显著优于直接LLM基线，并证明架构设计比模型规模更重要。",
+        "summary_en": "CIFQA is a deterministic tool-grounded multi-agent LLM framework for calculation-intensive financial QA. It separates language understanding from numerical execution, achieving 95.54% accuracy on fixed deposit queries, outperforming direct LLM baselines and showing architecture matters more than scale.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "application",
+          "tool",
+          "research"
+        ],
+        "category": "agent-framework",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-08-29T03:52:47.201907+08:00",
+        "updated_at": "2026-08-29T03:52:47.201908+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "TreeGraft: Adaptive Multi-Drafter Grafting for Tree-Based Speculative Decoding",
+      "url": "https://arxiv.org/abs/2608.26112",
+      "description": "arXiv:2608.26112v1 Announce Type: new \nAbstract: Speculative decoding accelerates large language model inference through a draft-then-verify paradigm. Building on this, tree-structured methods improve inference by organizing proposals into multiple candidate paths, increasing the accepted length. However, existing tree-structured methods use a single drafter for all drafting steps, creating a dilemma: a smaller drafter is fast but yields lower-quality trees, whereas a larger drafter improves tree quality but suffers from high latency. To address this, we propose TreeGraft, a multi-drafter framework in which drafters of different costs jointly construct a shared draft tree. TreeGraft uses the stronger drafter to rescore candidates by updating scores assigned by the weaker drafter, reselect grafting positions, and recover promising paths left unexplored. It also integrates stronger drafter expansions non-destructively, preserving existing branches that may still be accepted by the target model. Together, these designs improve the quality of the shared draft tree. To control the drafting cost, TreeGraft introduces a lightweight scheduler distilled from an offline value system to decide when to call the stronger drafter. Across 10 model pairs and 6 benchmarks, TreeGraft outperforms the better of the two fixed single-drafter endpoint strategies by 15.1% on average, reaching a maximum gain of 26.6%. Our code is available at https://anonymous.4open.science/r/TreeGraft-E983.",
+      "pub_date": "Fri, 28 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "TreeGraft：基于树形投机解码的自适应多草稿器嫁接框架",
+        "summary": "TreeGraft提出多草稿器框架，通过强弱草稿器协作构建共享草稿树，强草稿器重打分、重选嫁接位置并恢复路径，非破坏性扩展分支，并利用轻量调度器控制成本。在10个模型对和6个基准上平均提升15.1%，最高达26.6%。",
+        "summary_en": "TreeGraft proposes a multi-drafter framework for tree-based speculative decoding, where a stronger drafter rescore candidates, reselect grafting positions, and recover paths, with a lightweight scheduler to control cost. It outperforms fixed single-drafter strategies by 15.1% on average across 10 model pairs and 6 benchmarks.",
+        "tags": [
+          "llm",
+          "research",
+          "infrastructure",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-29-rss-001",
+        "title": "TreeGraft：基于树形投机解码的自适应多草稿器嫁接框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.26112",
+        "language": "en",
+        "summary": "TreeGraft提出多草稿器框架，通过强弱草稿器协作构建共享草稿树，强草稿器重打分、重选嫁接位置并恢复路径，非破坏性扩展分支，并利用轻量调度器控制成本。在10个模型对和6个基准上平均提升15.1%，最高达26.6%。",
+        "summary_en": "TreeGraft proposes a multi-drafter framework for tree-based speculative decoding, where a stronger drafter rescore candidates, reselect grafting positions, and recover paths, with a lightweight scheduler to control cost. It outperforms fixed single-drafter strategies by 15.1% on average across 10 model pairs and 6 benchmarks.",
+        "tags": [
+          "llm",
+          "research",
+          "infrastructure",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-29T03:52:47.201885+08:00",
+        "updated_at": "2026-08-29T03:52:47.201889+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "ElementCheck: Complexity-Aware Long-Form Text Factuality Evaluation via Sentence Elements",
+      "url": "https://arxiv.org/abs/2608.26118",
+      "description": "arXiv:2608.26118v1 Announce Type: new \nAbstract: Existing long-form factuality evaluation relies on the decompose-retrieve-verify pipeline. However, the pipeline suffers from noise from claim decomposition and fixed verification granularity, resulting in unreliable results. We propose ElementCheck, a complexity-aware framework that verifies long-form outputs via sentence elements. Instead of uniformly decomposing sentences into atomic sub-claims, ElementCheck extracts entity pairs that are explicitly linked through verifiable connections in the original sentence as elements, and organizes these into an element graph. The graph topology provides a structural signal for estimating sentence complexity, enabling direct verification for simple sentences and targeted element-level refinement and verification for complex ones. To support fine-grained evaluation, we construct a new benchmark FastFact-Sent by mapping isolated claims from FastFact-Bench back to their source sentences. Experiments on FastFact-Sent and two domain-specific benchmarks show ElementCheck consistently improves factuality verification across five backbone models while maintaining a favorable accuracy-cost trade-off. Further analyses demonstrate that complexity-aware verification reduces unnecessary re-verification and maintains stability across different backbones.",
+      "pub_date": "Fri, 28 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "ElementCheck：基于句子元素的复杂度感知长文本事实性评估",
+        "summary": "针对现有长文本事实性评估中分解噪声和固定验证粒度的问题，提出ElementCheck框架。通过提取句子中可验证的实体对作为元素并构建元素图，利用图拓扑估计句子复杂度，对简单句子直接验证，复杂句子进行元素级细化验证。新基准FastFact-Sent支持细粒度评估，实验表明在五个骨干模型上提升事实性验证效果，并保持良好准确率-成本权衡。",
+        "summary_en": "ElementCheck is a complexity-aware framework for long-form factuality evaluation. It extracts entity pairs as elements and builds an element graph to estimate sentence complexity, enabling direct verification for simple sentences and targeted refinement for complex ones. A new benchmark FastFact-Sent is introduced. Experiments show consistent improvements across five backbones with favorable accuracy-cost trade-off.",
+        "tags": [
+          "research",
+          "evaluation",
+          "llm",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-29-rss-006",
+        "title": "ElementCheck：基于句子元素的复杂度感知长文本事实性评估",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.26118",
+        "language": "en",
+        "summary": "针对现有长文本事实性评估中分解噪声和固定验证粒度的问题，提出ElementCheck框架。通过提取句子中可验证的实体对作为元素并构建元素图，利用图拓扑估计句子复杂度，对简单句子直接验证，复杂句子进行元素级细化验证。新基准FastFact-Sent支持细粒度评估，实验表明在五个骨干模型上提升事实性验证效果，并保持良好准确率-成本权衡。",
+        "summary_en": "ElementCheck is a complexity-aware framework for long-form factuality evaluation. It extracts entity pairs as elements and builds an element graph to estimate sentence complexity, enabling direct verification for simple sentences and targeted refinement for complex ones. A new benchmark FastFact-Sent is introduced. Experiments show consistent improvements across five backbones with favorable accuracy-cost trade-off.",
+        "tags": [
+          "research",
+          "evaluation",
+          "llm",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-08-29T03:52:47.201911+08:00",
+        "updated_at": "2026-08-29T03:52:47.201913+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "DeflectBench: A Benchmark for Evaluating Rhetorical Fallacy Generation in LLMs",
+      "url": "https://arxiv.org/abs/2608.26119",
+      "description": "arXiv:2608.26119v1 Announce Type: new \nAbstract: Whether large language models can be prompted to generate rhetorical fallacies on demand, and whether current safety post-training constrains this behavior, has received less attention than the related question of detecting fallacies in existing text. We close this gap with DeflectBench, evaluating 23,990 generations from four frontier models across three deflection strategies (whataboutism, ad hominem, red herring), seven prompt framings, and 80 claims spanning four controversy levels. Refusal is governed primarily by request structure rather than claim content. Per claim refusal varies by only 11 percentage points across the 80 claims, while a single prompt frame change can swing within model refusal by nearly 100 percentage points and switching the requested fallacy type can swing it by over 80 percentage points within explicit framings. An educational debate coach prompt framing collapses refusal to near zero across all four model families, but the bypassed behavior is not clean compliance. Models typically produce labeled compliance, naming the requested manipulation in the same response that contains it. The four models distribute differently across refusal, labeled compliance, soft refusal, and clean compliance. The code and dataset are released at https://github.com/ArtKanke/DeflectBench.",
+      "pub_date": "Fri, 28 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "DeflectBench：评估大语言模型生成修辞谬误能力的基准",
+        "summary": "DeflectBench评估四个前沿模型在三种转移策略、七种提示框架和80个主张下的23990次生成。发现拒绝主要由请求结构而非主张内容决定，提示框架变化可使拒绝率波动近100个百分点。教育辩论教练提示可使拒绝率降至接近零，但模型通常产生标记合规。",
+        "summary_en": "DeflectBench evaluates 23,990 generations from four frontier models across deflection strategies, prompt framings, and claims. Refusal is governed by request structure, not claim content. Prompt framing can swing refusal by nearly 100 points. Educational debate coach framing collapses refusal, but yields labeled compliance.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "security",
+          "research",
+          "evaluation"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-29-rss-002",
+        "title": "DeflectBench：评估大语言模型生成修辞谬误能力的基准",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.26119",
+        "language": "en",
+        "summary": "DeflectBench评估四个前沿模型在三种转移策略、七种提示框架和80个主张下的23990次生成。发现拒绝主要由请求结构而非主张内容决定，提示框架变化可使拒绝率波动近100个百分点。教育辩论教练提示可使拒绝率降至接近零，但模型通常产生标记合规。",
+        "summary_en": "DeflectBench evaluates 23,990 generations from four frontier models across deflection strategies, prompt framings, and claims. Refusal is governed by request structure, not claim content. Prompt framing can swing refusal by nearly 100 points. Educational debate coach framing collapses refusal, but yields labeled compliance.",
+        "tags": [
+          "llm",
+          "benchmark",
+          "security",
+          "research",
+          "evaluation"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-29T03:52:47.201893+08:00",
+        "updated_at": "2026-08-29T03:52:47.201895+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Recipes for Steering and Scaling LLMs via Sampling",
+      "url": "https://arxiv.org/abs/2608.26120",
+      "description": "arXiv:2608.26120v1 Announce Type: new \nAbstract: Large Language Models (LLMs) are probabilistic models, typically defined by an autoregressive factorization. While recent work has begun to study richer target distributions beyond the base model, the sampling strategies remain highly inefficient. In this paper, we present a flexible and theoretically grounded framework for steering and scaling autoregressive LLMs with sampling. Within this framework, we describe two algorithms -- one based on Sequential Monte Carlo (SMC) and one based on Replica Exchange (RE) -- that steer generation toward powering, product or tilting of the base model distribution. We illustrate this framework through scaling the generation quality of LLMs without external supervision or reward models. Experimental results demonstrate our methods scale more favorably than Best-of-N and standard MCMC baselines. Overall, this paper offers a systematic recipe for probabilistic inference with LLMs via sampling.",
+      "pub_date": "Fri, 28 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "通过采样引导和扩展大型语言模型的策略",
+        "summary": "本文提出一个灵活且理论基础的框架，用于通过采样引导和扩展自回归LLM。描述了基于序贯蒙特卡洛（SMC）和副本交换（RE）的两种算法，将生成导向基础模型分布的幂、乘积或倾斜。实验表明，该方法在扩展生成质量方面优于Best-of-N和标准MCMC基线，无需外部监督或奖励模型。",
+        "summary_en": "This paper presents a flexible and theoretically grounded framework for steering and scaling autoregressive LLMs via sampling, with two algorithms based on Sequential Monte Carlo and Replica Exchange. Experiments show favorable scaling compared to Best-of-N and standard MCMC baselines, without external supervision.",
+        "tags": [
+          "llm",
+          "research",
+          "sampling",
+          "inference"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-29-rss-003",
+        "title": "通过采样引导和扩展大型语言模型的策略",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.26120",
+        "language": "en",
+        "summary": "本文提出一个灵活且理论基础的框架，用于通过采样引导和扩展自回归LLM。描述了基于序贯蒙特卡洛（SMC）和副本交换（RE）的两种算法，将生成导向基础模型分布的幂、乘积或倾斜。实验表明，该方法在扩展生成质量方面优于Best-of-N和标准MCMC基线，无需外部监督或奖励模型。",
+        "summary_en": "This paper presents a flexible and theoretically grounded framework for steering and scaling autoregressive LLMs via sampling, with two algorithms based on Sequential Monte Carlo and Replica Exchange. Experiments show favorable scaling compared to Best-of-N and standard MCMC baselines, without external supervision.",
+        "tags": [
+          "llm",
+          "research",
+          "sampling",
+          "inference"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-29T03:52:47.201899+08:00",
+        "updated_at": "2026-08-29T03:52:47.201900+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Can a Model Catch Its Own Hallucinations for Free?: Label-Free Doubt Signals Hold Their Own Against a Labelled Dataset for Abstention",
+      "url": "https://arxiv.org/abs/2608.26121",
+      "description": "arXiv:2608.26121v1 Announce Type: new \nAbstract: Large language models state false facts as fluently as true ones, yet a model often \"knows\" internally when it is on shaky ground: the probability it assigns to its own answer tends to dip on the facts it gets wrong. The usual way to act on this, teaching a model to abstain rather than guess, requires a labelled dataset of right and wrong answers. We ask whether the model's own confidence, which is free and needs no labels, can do that job instead. We fine-tune each model (with LoRA) to answer when its frozen confidence is high and to say \"I'm not sure\" when it is low, using the signal alone and no correctness labels. Across six open-weights models (1B-8B, two families) on short-form factual question answering, with correctness adjudicated by an independent judge model, this label-free recipe holds its own against label-supervised abstention-tuning: at matched coverage we find no statistically detectable difference between the two. A control that drills hard examples instead of abstaining does not help, indicating the gain comes from calibration, not rote memorization. The signal's one blind spot is confidently wrong facts, which it cannot flag. A model's own doubt is thus a near-free substitute for a labelled dataset when teaching it when to abstain. Code and artifacts are available on request.",
+      "pub_date": "Fri, 28 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "模型能否免费捕捉自身幻觉？无标签怀疑信号在弃权任务中与有标签数据集相当",
+        "summary": "本文研究利用模型自身置信度作为无标签信号，通过LoRA微调让模型在高置信时回答、低置信时弃权，无需正确性标签。在六个开源模型（1B-8B）的短问答任务中，该方法与有标签监督的弃权微调性能无显著差异，且增益来自校准而非记忆。但无法识别自信的错误答案。",
+        "summary_en": "This paper explores using a model's own confidence as a label-free signal to teach abstention via LoRA fine-tuning, showing comparable performance to label-supervised methods across six open-weight models on factual QA, with gains from calibration, though it cannot flag confidently wrong facts.",
+        "tags": [
+          "llm",
+          "fine-tuning",
+          "research",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-29-rss-004",
+        "title": "模型能否免费捕捉自身幻觉？无标签怀疑信号在弃权任务中与有标签数据集相当",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.26121",
+        "language": "en",
+        "summary": "本文研究利用模型自身置信度作为无标签信号，通过LoRA微调让模型在高置信时回答、低置信时弃权，无需正确性标签。在六个开源模型（1B-8B）的短问答任务中，该方法与有标签监督的弃权微调性能无显著差异，且增益来自校准而非记忆。但无法识别自信的错误答案。",
+        "summary_en": "This paper explores using a model's own confidence as a label-free signal to teach abstention via LoRA fine-tuning, showing comparable performance to label-supervised methods across six open-weight models on factual QA, with gains from calibration, though it cannot flag confidently wrong facts.",
+        "tags": [
+          "llm",
+          "fine-tuning",
+          "research",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-29T03:52:47.201903+08:00",
+        "updated_at": "2026-08-29T03:52:47.201904+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

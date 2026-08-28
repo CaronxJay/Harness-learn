@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-29-rss-007",
+  "title": "EduRiskX：基于F-Logic推理的神经符号框架用于早期学业风险预测",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.26107",
+  "language": "en",
+  "summary": "EduRiskX是一个神经符号框架，结合时间Transformer预测器与F-Logic符号推理，用于在线教育中的早期学业风险预测。在OULAD数据集上，准确率0.900，F1分数0.894，平均早期检测周9.32，检测率94.30%，优于现有模型，并提供可解释的规则性解释。",
+  "summary_en": "EduRiskX is a neuro-symbolic framework combining a temporal Transformer predictor with F-Logic symbolic reasoning for early academic risk prediction in online education. On OULAD, it achieves 0.900 accuracy, 0.894 F1, average early detection week 9.32, and 94.30% detection rate, outperforming baselines and providing interpretable rule-based explanations.",
+  "tags": [
+    "research",
+    "llm",
+    "application",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-29T03:52:47.201916+08:00",
+  "updated_at": "2026-08-29T03:52:47.201917+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
