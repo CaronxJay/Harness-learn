@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-29-rss-015",
+  "title": "PICasso：AI驱动的硅光子器件自动化设计框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.26113",
+  "language": "en",
+  "summary": "PICasso是一个AI辅助框架，通过自然语言到YAML再到GDS的生成流程，结合PDK知识注入、自动布局布线、DRC/LVS验证和SAX仿真，实现光子集成电路的自动化设计。引入PIC-Set基准测试，包含36个设计任务，评估LLM性能。相比原始LLM生成，PICasso显著提升规格满足度，结构Spec@3达92.7%，功能Spec@3达52%，并降低插入损耗1.74dB。",
+  "summary_en": "PICasso is an AI-assisted framework for automated photonic integrated circuit design, using NL-to-YAML-to-GDS pipeline with PDK knowledge, layout, verification, and SAX simulation. Introduces PIC-Set benchmark of 36 tasks. Improves spec satisfaction (structural Spec@3 92.7%, functional 52%) and reduces insertion loss by 1.74dB.",
+  "tags": [
+    "llm",
+    "application",
+    "benchmark",
+    "research"
+  ],
+  "category": "application",
+  "relevance_score": 0.8,
+  "status": "published",
+  "created_at": "2026-08-29T21:36:22.522032+08:00",
+  "updated_at": "2026-08-29T21:36:22.522033+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

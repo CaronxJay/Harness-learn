@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-29-rss-013",
+  "title": "独立LLM与预定义智能体流水线在ICU死亡率预测解释中的可行性研究",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.26109",
+  "language": "en",
+  "summary": "本研究比较了独立LLM与四步智能体流水线在解释ICU死亡率预测上的表现。智能体流水线在指南依据、价值特异性和合理性上更优，且无结果泄露，但SHAP对齐和方向一致性较低。建议结合归因检查用于高风险场景。",
+  "summary_en": "This study compares a standalone LLM with a four-step agentic pipeline for explaining ICU mortality predictions. The pipeline showed better guideline grounding, value specificity, and plausibility, with no outcome leakage, but lower SHAP alignment. Attribution checks are recommended for high-stakes use.",
+  "tags": [
+    "llm",
+    "agent-framework",
+    "research",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-29T21:36:22.522025+08:00",
+  "updated_at": "2026-08-29T21:36:22.522026+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

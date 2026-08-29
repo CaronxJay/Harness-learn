@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-29-rss-014",
+  "title": "大型模型在电池预测与健康管理中的应用：综述与未来路线图",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.26111",
+  "language": "en",
+  "summary": "本文首次全面综述了大型模型（LMs）在电池预测与健康管理（BPHM）中的应用，系统分析了Transformer架构、自监督预训练等技术如何解决传统方法在计算效率、跨域泛化、数据依赖和可解释性方面的瓶颈。文章从数据稀缺缓解、泛化增强、知识融合和系统自动化四个维度分类进展，并提出了构建协作数据生态、验证工业智能、增强可信度和高效部署的未来路线图。",
+  "summary_en": "This review provides the first comprehensive survey of large models in battery prognostics and health management, addressing data scarcity, generalization, interpretability, and automation, and proposes a future roadmap for collaborative data ecosystems, validation, trustworthiness, and deployment.",
+  "tags": [
+    "llm",
+    "research",
+    "application",
+    "infrastructure"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-29T21:36:22.522028+08:00",
+  "updated_at": "2026-08-29T21:36:22.522030+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

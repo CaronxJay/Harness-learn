@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-29-rss-011",
+  "title": "CIFQA：用于金融查询回答的确定性工具接地多智能体LLM框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.26114",
+  "language": "en",
+  "summary": "CIFQA是一个确定性工具接地的多智能体LLM框架，用于计算密集型金融问答。它通过专门智能体分离语言理解与数值执行，使用确定性Python工具进行金融计算。在定期存款查询基准上达到95.54%的准确率，显著优于直接LLM基线，且17B开源模型优于更大模型，表明架构设计比模型规模更重要。",
+  "summary_en": "CIFQA is a deterministic tool-grounded multi-agent LLM framework for calculation-intensive financial QA. It separates language understanding from numerical execution via specialized agents and deterministic Python tools, achieving 95.54% accuracy on fixed deposit queries, outperforming larger models, highlighting architecture over scale.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "application",
+    "tool",
+    "research"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-29T21:36:22.522013+08:00",
+  "updated_at": "2026-08-29T21:36:22.522016+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
