@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-31-rss-002",
+  "title": "SciReC：多模态多轮关系推理的诊断评估与自适应交互",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.27461",
+  "language": "en",
+  "summary": "SciReC是一个模型自适应的多模态学术对话基准，用于评估多模态大语言模型（MLLM）在类比、结构、因果等关系推理任务上的表现。提出基于缺陷的诊断框架DMRA，量化视觉理解、知识、记忆等成分的贡献，定位失败原因。结果显示Claude 4.6最佳（73%），开源模型在空间关系上最弱，专有模型在层级和顺序关系上较弱，关系推理是主要错误来源。",
+  "summary_en": "SciReC is a model-adaptive multimodal academic dialog benchmark for evaluating MLLMs on relational reasoning tasks (analogical, structural, causal). It introduces DMRA, a deficit-based diagnostic framework to quantify contributions of visual understanding, knowledge, memory. Claude 4.6 achieves best (73%), open-source models struggle with spatial relations, proprietary with hierarchical/sequential; relational reasoning is the primary error source.",
+  "tags": [
+    "benchmark",
+    "multimodal",
+    "llm",
+    "evaluation",
+    "research"
+  ],
+  "category": "benchmark",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-31T23:49:36.634123+08:00",
+  "updated_at": "2026-08-31T23:49:36.634124+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

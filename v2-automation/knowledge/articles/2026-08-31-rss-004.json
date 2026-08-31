@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-31-rss-004",
+  "title": "大锤还是手术刀？一种用于隐式仇恨言论的细粒度自适应框架",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.27462",
+  "language": "en",
+  "summary": "针对隐式仇恨言论检测，提出FAID框架，先细粒度分类（浅层、定向、上下文依赖），再自适应处理：浅层用轻量提示调优，定向用知识增强迭代揭示隐藏目标，上下文依赖用智能体框架生成提示推断背景。在四个基准上超越SOTA。",
+  "summary_en": "Proposes FAID, a fine-grained adaptive framework for implicit hate speech detection, categorizing samples into shallow, targeted, and context-dependent, and applying tailored strategies (prompt-tuning, knowledge augmentation, agentic reasoning) to improve efficiency and accuracy, outperforming SOTA on four benchmarks.",
+  "tags": [
+    "llm",
+    "research",
+    "agent-framework",
+    "fine-tuning",
+    "prompt-engineering"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-31T23:49:36.634130+08:00",
+  "updated_at": "2026-08-31T23:49:36.634132+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

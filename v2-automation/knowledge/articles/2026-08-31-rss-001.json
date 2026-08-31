@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-31-rss-001",
+  "title": "基于向量索引的输出嵌入加速LLM推理",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.27460",
+  "language": "en",
+  "summary": "针对大词汇量紧凑型LLM在自回归解码中的内存带宽瓶颈，将输出投影和top-k选择重构为最大内积搜索，用HNSW向量索引替代密集投影，仅检索少量高得分token。在Gemma 3、Llama 3.2和Qwen 3上，端到端吞吐量提升最高82%，且保持生成质量。",
+  "summary_en": "Reformulates output projection and top-k selection as maximum inner product search, replacing dense vocabulary projection with an HNSW vector index to retrieve only a small candidate set. On CPU inference with Gemma 3, Llama 3.2, and Qwen 3, end-to-end throughput improves by up to 82% while preserving quality.",
+  "tags": [
+    "llm",
+    "infrastructure",
+    "research",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-08-31T23:49:36.634117+08:00",
+  "updated_at": "2026-08-31T23:49:36.634120+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

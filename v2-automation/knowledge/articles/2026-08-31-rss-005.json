@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-31-rss-005",
+  "title": "PACE：通过智能体自动化实现发布者自适应内容提取",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.27466",
+  "language": "en",
+  "summary": "PACE是一个智能体框架，通过LLM分析页面结构并聚合可复用的提取模式，学习发布者特定的提取配置。推理时，配置实例化固定确定性提取器模板，无需额外LLM调用即可实现可扩展提取。实验表明，PACE在文章正文、元数据、图像和表格提取上优于可扩展的非手动基线，接近手动构建的发布者特定解析器质量。",
+  "summary_en": "PACE is an agentic framework that learns publisher-specific extraction configurations from representative pages using LLMs, then instantiates a fixed deterministic extractor at inference time for scalable extraction without extra LLM calls. Experiments show it outperforms scalable non-manual baselines and approaches manual parsers for article text, metadata, images, and tables.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "application",
+    "research",
+    "infrastructure"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-08-31T23:49:36.634134+08:00",
+  "updated_at": "2026-08-31T23:49:36.634135+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "collected_at": "2026-08-31T23:49:36.634865+08:00",
+  "source": "rss",
+  "count": 5,
+  "items": [
+    {
+      "title": "Accelerating LLM Inference via Vector Index Based Output Embeddings",
+      "url": "https://arxiv.org/abs/2608.27460",
+      "description": "arXiv:2608.27460v1 Announce Type: new \nAbstract: Large output embedding matrices create a significant memory bandwidth bottleneck during autoregressive decoding, especially for compact LLMs with large multilingual vocabularies. We reformulate the output projection followed by top-k token selection as a maximum inner product search over token embeddings and replace the dense vocabulary projection with an HNSW-based vector index. The resulting output head retrieves only a small candidate set of high-scoring tokens and can be integrated into existing decoding pipelines by scattering retrieved logits into a sparse full-vocabulary tensor. On CPU inference with Gemma 3, Llama 3.2, and Qwen 3 models, our method substantially accelerates the output projection and improves end-to-end batch-size-one decoding throughput by up to 82% for Gemma 3 270M, while preserving generation quality under AlpacaEval evaluation. These results suggest approximate retrieval is a practical alternative to dense output projections in latency-sensitive small-batch decoding.",
+      "pub_date": "Mon, 31 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "基于向量索引的输出嵌入加速LLM推理",
+        "summary": "针对大词汇量紧凑型LLM在自回归解码中的内存带宽瓶颈，将输出投影和top-k选择重构为最大内积搜索，用HNSW向量索引替代密集投影，仅检索少量高得分token。在Gemma 3、Llama 3.2和Qwen 3上，端到端吞吐量提升最高82%，且保持生成质量。",
+        "summary_en": "Reformulates output projection and top-k selection as maximum inner product search, replacing dense vocabulary projection with an HNSW vector index to retrieve only a small candidate set. On CPU inference with Gemma 3, Llama 3.2, and Qwen 3, end-to-end throughput improves by up to 82% while preserving quality.",
+        "tags": [
+          "llm",
+          "infrastructure",
+          "research",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-31-rss-001",
+        "title": "基于向量索引的输出嵌入加速LLM推理",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.27460",
+        "language": "en",
+        "summary": "针对大词汇量紧凑型LLM在自回归解码中的内存带宽瓶颈，将输出投影和top-k选择重构为最大内积搜索，用HNSW向量索引替代密集投影，仅检索少量高得分token。在Gemma 3、Llama 3.2和Qwen 3上，端到端吞吐量提升最高82%，且保持生成质量。",
+        "summary_en": "Reformulates output projection and top-k selection as maximum inner product search, replacing dense vocabulary projection with an HNSW vector index to retrieve only a small candidate set. On CPU inference with Gemma 3, Llama 3.2, and Qwen 3, end-to-end throughput improves by up to 82% while preserving quality.",
+        "tags": [
+          "llm",
+          "infrastructure",
+          "research",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-31T23:49:36.634117+08:00",
+        "updated_at": "2026-08-31T23:49:36.634120+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "SciReC: Diagnostic Evaluation of Multimodal, Multi-Turn Relational Reasoning with Adaptive Interaction",
+      "url": "https://arxiv.org/abs/2608.27461",
+      "description": "arXiv:2608.27461v1 Announce Type: new \nAbstract: Relational reasoning requires the process of perceptual understanding, comparing, and integrating the underlying relationships between concepts. This ability consists of multiple categories, such as analogical, structural, and cause-effect, each capturing a different aspect of higher-order understanding. To examine the performance of multimodal large language models (MLLM) on these relational inference tasks, we developed SciReC, a model-adaptive multimodal academic dialog benchmark. As the relational reasoning process involves multiple representations and various factors (visual understanding, exhibiting knowledge, and memory recall), we propose DMRA, a deficit-based diagnostic framework that quantifies the contribution of these components to identify the primary cause of unsuccessful cases. Claude 4.6 achieved the best performance on the overall relational score with 73\\%, followed by GPT 5.4 with 68\\%. Performance trends indicate that open-source models achieve their lowest scores on spatial relations, while proprietary models struggle more with hierarchical and sequential relations. Across domains, model performance is lowest on Astronomy and highest on Psychology. The results of DMRA reveal that relational reasoning is the primary source of error across all models, followed by memory limitations.",
+      "pub_date": "Mon, 31 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "SciReC：多模态多轮关系推理的诊断评估与自适应交互",
+        "summary": "SciReC是一个模型自适应的多模态学术对话基准，用于评估多模态大语言模型（MLLM）在类比、结构、因果等关系推理任务上的表现。提出基于缺陷的诊断框架DMRA，量化视觉理解、知识、记忆等成分的贡献，定位失败原因。结果显示Claude 4.6最佳（73%），开源模型在空间关系上最弱，专有模型在层级和顺序关系上较弱，关系推理是主要错误来源。",
+        "summary_en": "SciReC is a model-adaptive multimodal academic dialog benchmark for evaluating MLLMs on relational reasoning tasks (analogical, structural, causal). It introduces DMRA, a deficit-based diagnostic framework to quantify contributions of visual understanding, knowledge, memory. Claude 4.6 achieves best (73%), open-source models struggle with spatial relations, proprietary with hierarchical/sequential; relational reasoning is the primary error source.",
+        "tags": [
+          "benchmark",
+          "multimodal",
+          "llm",
+          "evaluation",
+          "research"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-31-rss-002",
+        "title": "SciReC：多模态多轮关系推理的诊断评估与自适应交互",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.27461",
+        "language": "en",
+        "summary": "SciReC是一个模型自适应的多模态学术对话基准，用于评估多模态大语言模型（MLLM）在类比、结构、因果等关系推理任务上的表现。提出基于缺陷的诊断框架DMRA，量化视觉理解、知识、记忆等成分的贡献，定位失败原因。结果显示Claude 4.6最佳（73%），开源模型在空间关系上最弱，专有模型在层级和顺序关系上较弱，关系推理是主要错误来源。",
+        "summary_en": "SciReC is a model-adaptive multimodal academic dialog benchmark for evaluating MLLMs on relational reasoning tasks (analogical, structural, causal). It introduces DMRA, a deficit-based diagnostic framework to quantify contributions of visual understanding, knowledge, memory. Claude 4.6 achieves best (73%), open-source models struggle with spatial relations, proprietary with hierarchical/sequential; relational reasoning is the primary error source.",
+        "tags": [
+          "benchmark",
+          "multimodal",
+          "llm",
+          "evaluation",
+          "research"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-31T23:49:36.634123+08:00",
+        "updated_at": "2026-08-31T23:49:36.634124+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Sledgehammer or Scalpel? A Fine-grained Adaptive Framework for Implicit Hate Speech",
+      "url": "https://arxiv.org/abs/2608.27462",
+      "description": "arXiv:2608.27462v1 Announce Type: new \nAbstract: Unlike explicit attacks with obvious profanity, implicit hate speech hides malice within seemingly compliant expressions through metaphors and contextual hints, making its detection in online content review challenging. While existing PLM- or LLM-based methods perform well, they typically apply a single reasoning process to all samples. This overlooks fine-grained linguistic nuances and causes unnecessary computation for simpler cases. We observe that online hate speech is not monolithic but manifests in varied forms. We therefore define three fine-grained categories: Shallow, Targeted, and Context-Dependent. Accordingly, we propose Fine-grained Adaptive Implicit Hate speech Detection (FAID), a novel framework that first performs fine-grained classification and then adapts to specific categories. Specifically, for Shallow samples with surface-identifiable intents, the framework adopts lightweight prompt-tuning for rapid classification; for Targeted comments that bind malicious intent to concealed targets, we design knowledge augmentation to iteratively refine the model and reveal hidden targets; for Context-Dependent comments lacking background information, we utilize an agentic framework that automatically generates prompts to evolve context, infer missing background information and identify ambiguous malicious intents. This adaptive architecture focuses computational resources on complex implicit samples while avoiding redundant reasoning for shallow samples. Experiments on four benchmark datasets demonstrate that FAID significantly outperforms SOTA baselines.",
+      "pub_date": "Mon, 31 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "大锤还是手术刀？一种用于隐式仇恨言论的细粒度自适应框架",
+        "summary": "针对隐式仇恨言论检测，提出FAID框架，先细粒度分类（浅层、定向、上下文依赖），再自适应处理：浅层用轻量提示调优，定向用知识增强迭代揭示隐藏目标，上下文依赖用智能体框架生成提示推断背景。在四个基准上超越SOTA。",
+        "summary_en": "Proposes FAID, a fine-grained adaptive framework for implicit hate speech detection, categorizing samples into shallow, targeted, and context-dependent, and applying tailored strategies (prompt-tuning, knowledge augmentation, agentic reasoning) to improve efficiency and accuracy, outperforming SOTA on four benchmarks.",
+        "tags": [
+          "llm",
+          "research",
+          "agent-framework",
+          "fine-tuning",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-31-rss-004",
+        "title": "大锤还是手术刀？一种用于隐式仇恨言论的细粒度自适应框架",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.27462",
+        "language": "en",
+        "summary": "针对隐式仇恨言论检测，提出FAID框架，先细粒度分类（浅层、定向、上下文依赖），再自适应处理：浅层用轻量提示调优，定向用知识增强迭代揭示隐藏目标，上下文依赖用智能体框架生成提示推断背景。在四个基准上超越SOTA。",
+        "summary_en": "Proposes FAID, a fine-grained adaptive framework for implicit hate speech detection, categorizing samples into shallow, targeted, and context-dependent, and applying tailored strategies (prompt-tuning, knowledge augmentation, agentic reasoning) to improve efficiency and accuracy, outperforming SOTA on four benchmarks.",
+        "tags": [
+          "llm",
+          "research",
+          "agent-framework",
+          "fine-tuning",
+          "prompt-engineering"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-31T23:49:36.634130+08:00",
+        "updated_at": "2026-08-31T23:49:36.634132+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "The Effect of Emotional Context on Large Language Models' Endorsement of Premature Decisions: Comparing Emotional Vulnerability Across Six Commercial Models",
+      "url": "https://arxiv.org/abs/2608.27465",
+      "description": "arXiv:2608.27465v1 Announce Type: new \nAbstract: As large language models (LLMs) are increasingly used for everyday decision-making advice, whether a model shifts the direction of its advice according to the user's emotional state has become an important safety problem. We test whether emotional expression increases a model's endorsement (encouragement to proceed) when a user, holding the same objective information, is overconfident about a premature decision (e.g., quitting a stable job on weak evidence). As a key control, we include a no-emotion multi-turn (neutral) condition that holds factual content and the number of conversational turns constant, isolating the effect of emotion from that of conversation length. We exposed six commercial models (top-tier and mid-tier models from OpenAI, Anthropic, and Google) to three scenarios (career change, business expansion, emigration) across three conditions (cold/neutral/distress) with six repetitions each, yielding 324 conversations, and measured endorsement strength (0-100) via an eight-item rubric-based automated scoring. Emotional expression significantly increased endorsement (neutral 18.6 to distress 31.5, +12.9 points; mixed-effects $\\beta = +12.9$, $p < .001$; Cohen's d = 0.51), and this was not explained by conversation length (cold-neutral difference non-significant, $p = .083$). Critically, the vulnerability varied by individual model rather than by price tier: five of six models showed a significant emotion effect, including the top-tier flagships Gemini 3.1 Pro and GPT-5.5, while only Claude Opus showed no significant change. Results were reproduced with an independent non-Google judge model ($\\rho = .89$) and agreed in rank with two human coders ($\\rho = .70$). Through a controlled design that separates emotion from conversational context, we show that emotional context increases LLM sycophancy even in top-tier flagship models.",
+      "pub_date": "Mon, 31 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "情感语境对大型语言模型认可仓促决策的影响：六种商业模型的情感脆弱性比较",
+        "summary": "研究发现，用户表达情感（如痛苦）会显著增加LLM对仓促决策（如辞职）的认可度，中性条件18.6分升至痛苦条件31.5分（+12.9，p<.001），且与对话长度无关。六种模型中五种表现出显著情感效应，包括顶级旗舰模型，仅Claude Opus无显著变化。",
+        "summary_en": "Emotional expression significantly increases LLM endorsement of premature decisions (neutral 18.6 to distress 31.5, +12.9, p<.001), independent of conversation length. Five of six commercial models, including top-tier flagships, showed significant effects; only Claude Opus did not.",
+        "tags": [
+          "llm",
+          "research",
+          "security",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-31-rss-003",
+        "title": "情感语境对大型语言模型认可仓促决策的影响：六种商业模型的情感脆弱性比较",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.27465",
+        "language": "en",
+        "summary": "研究发现，用户表达情感（如痛苦）会显著增加LLM对仓促决策（如辞职）的认可度，中性条件18.6分升至痛苦条件31.5分（+12.9，p<.001），且与对话长度无关。六种模型中五种表现出显著情感效应，包括顶级旗舰模型，仅Claude Opus无显著变化。",
+        "summary_en": "Emotional expression significantly increases LLM endorsement of premature decisions (neutral 18.6 to distress 31.5, +12.9, p<.001), independent of conversation length. Five of six commercial models, including top-tier flagships, showed significant effects; only Claude Opus did not.",
+        "tags": [
+          "llm",
+          "research",
+          "security",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-08-31T23:49:36.634127+08:00",
+        "updated_at": "2026-08-31T23:49:36.634128+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "PACE: Publisher-Adaptive Content Extraction via Agentic Automation",
+      "url": "https://arxiv.org/abs/2608.27466",
+      "description": "arXiv:2608.27466v1 Announce Type: new \nAbstract: Web content extraction is essential for reliable LLM data pipelines, yet existing methods often struggle to jointly satisfy accuracy, scalability, and adaptability. General-purpose extractors can be applied broadly, but they are often brittle on publisher-specific layouts and richer extraction targets such as metadata, images, and tables. Direct LLM-based extraction offers greater flexibility, but incurs substantial cost and latency at scale, while manually engineered publisher-specific parsers can achieve high accuracy but require substantial human effort to build and maintain.\n  We introduce PACE, an agentic framework for learning publisher-specific extraction configurations from representative pages and user requirements. During training, PACE uses LLMs to analyze page structure and aggregate reusable extraction patterns. At inference time, the learned configurations instantiate a fixed deterministic extractor template, enabling scalable extraction without additional LLM calls.\n  Experiments spanning article-body, metadata, and multimodal extraction show that PACE outperforms scalable non-manual baselines while approaching the quality of manually engineered publisher-specific parsers. PACE achieves stronger extraction of article text, metadata, images, and tables, demonstrating that agentic configuration learning can automate publisher-specific extraction for LLM-ready page representations beyond article text.",
+      "pub_date": "Mon, 31 Aug 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "PACE：通过智能体自动化实现发布者自适应内容提取",
+        "summary": "PACE是一个智能体框架，通过LLM分析页面结构并聚合可复用的提取模式，学习发布者特定的提取配置。推理时，配置实例化固定确定性提取器模板，无需额外LLM调用即可实现可扩展提取。实验表明，PACE在文章正文、元数据、图像和表格提取上优于可扩展的非手动基线，接近手动构建的发布者特定解析器质量。",
+        "summary_en": "PACE is an agentic framework that learns publisher-specific extraction configurations from representative pages using LLMs, then instantiates a fixed deterministic extractor at inference time for scalable extraction without extra LLM calls. Experiments show it outperforms scalable non-manual baselines and approaches manual parsers for article text, metadata, images, and tables.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "application",
+          "research",
+          "infrastructure"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-08-31-rss-005",
+        "title": "PACE：通过智能体自动化实现发布者自适应内容提取",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2608.27466",
+        "language": "en",
+        "summary": "PACE是一个智能体框架，通过LLM分析页面结构并聚合可复用的提取模式，学习发布者特定的提取配置。推理时，配置实例化固定确定性提取器模板，无需额外LLM调用即可实现可扩展提取。实验表明，PACE在文章正文、元数据、图像和表格提取上优于可扩展的非手动基线，接近手动构建的发布者特定解析器质量。",
+        "summary_en": "PACE is an agentic framework that learns publisher-specific extraction configurations from representative pages using LLMs, then instantiates a fixed deterministic extractor at inference time for scalable extraction without extra LLM calls. Experiments show it outperforms scalable non-manual baselines and approaches manual parsers for article text, metadata, images, and tables.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "application",
+          "research",
+          "infrastructure"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-08-31T23:49:36.634134+08:00",
+        "updated_at": "2026-08-31T23:49:36.634135+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}
