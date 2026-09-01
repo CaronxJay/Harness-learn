@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-01-rss-002",
+  "title": "法定人工智能：使大型语言模型与法律规范对齐",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.28593",
+  "language": "en",
+  "summary": "提出Statutory AI混合方法，利用法律文本作为宪法框架，通过两阶段链式思维提示，让AI自主批判和修正输出。实验显示，在5个刑事主题的1000个红队提示中，有害内容减少52-59个百分点，比标准宪法AI高约10个百分点，计算时间减少超50%。",
+  "summary_en": "Proposes Statutory AI, a hybrid approach using legal texts as a constitutional framework, enabling AI to critique and revise outputs via two-stage chain-of-thought prompting. Experiments show harmful content reduced by 52-59 percentage points, ~10 points higher than Constitutional AI, with over 50% less computation.",
+  "tags": [
+    "llm",
+    "research",
+    "security",
+    "alignment",
+    "prompt-engineering"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-09-01T21:04:27.961582+08:00",
+  "updated_at": "2026-09-01T21:04:27.961584+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

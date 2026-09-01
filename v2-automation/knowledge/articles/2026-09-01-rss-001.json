@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-01-rss-001",
+  "title": "前沿大语言模型在肿瘤学决策中的集体能力边界",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.28592",
+  "language": "en",
+  "summary": "该研究构建了肿瘤决策边界基准（ODBB），包含2005个肿瘤决策点，评估了9个前沿LLM。结果显示42.1%的决策点没有模型能正确回答，且模型在临床元判断上存在盲区，需要架构干预而非更多数据。",
+  "summary_en": "This study introduces the Oncology Decision Boundary Benchmark (ODBB) with 2,005 decision points, evaluating nine frontier LLMs. Results show 42.1% of items were answered correctly by none, revealing blind spots in clinical meta-judgment requiring architectural intervention.",
+  "tags": [
+    "llm",
+    "benchmark",
+    "application",
+    "research"
+  ],
+  "category": "benchmark",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-09-01T21:04:27.961567+08:00",
+  "updated_at": "2026-09-01T21:04:27.961576+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-01-rss-009",
+  "title": "从问题优先到分析师优先：领域专家技能与验证知识编译用于主动企业分析",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.28594",
+  "language": "en",
+  "summary": "提出一种生产级分析系统，将交互模式从问题优先反转为分析师优先。通过可插拔的领域专家技能抽象和离线知识编译循环，自动生成报告和问题建议，每个指标均通过SQL重新验证。",
+  "summary_en": "Proposes a production analytics system inverting interaction from question-first to analyst-first via pluggable domain-expert skills and offline knowledge compilation, with verified metrics.",
+  "tags": [
+    "application",
+    "agent-framework",
+    "rag",
+    "infrastructure"
+  ],
+  "category": "application",
+  "relevance_score": 0.8,
+  "status": "published",
+  "created_at": "2026-09-01T21:04:27.961612+08:00",
+  "updated_at": "2026-09-01T21:04:27.961614+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

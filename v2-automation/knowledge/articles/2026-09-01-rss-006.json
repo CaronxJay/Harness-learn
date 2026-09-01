@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-01-rss-006",
+  "title": "专家验证的STEM问答数据集",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.28591",
+  "language": "en",
+  "summary": "本文介绍了一个由241位领域专家创建的高质量STEM数据集（N=398），涵盖物理、化学、生物和数学。该数据集通过精心设计的均衡分类、质量驱动的贡献者筛选、多轮共识评审和可验证的问答格式，解决了现有数据集的饱和、分类偏差、格式错位和答案不准确等问题。前沿AI模型在该基准上表现低于25%，而基于私有版本（N=2000）的后训练使开源模型在HLE验证的STEM子集上相对提升15%。",
+  "summary_en": "This paper presents a high-quality, expert-validated STEM dataset (N=398) created by 241 domain experts, addressing gaps in existing datasets. Frontier AI models achieve <25% performance, and post-training on a private version improves open-source model by 15% on HLE-verified STEM subset.",
+  "tags": [
+    "benchmark",
+    "dataset",
+    "stem",
+    "evaluation"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-09-01T21:04:27.961600+08:00",
+  "updated_at": "2026-09-01T21:04:27.961601+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

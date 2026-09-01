@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-01-rss-007",
+  "title": "STAGEET：用于语法纠错的分阶段类型化编辑标注框架（以阿拉伯语为例）",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.28614",
+  "language": "en",
+  "summary": "STAGEET提出一种分阶段类型化编辑标注框架，将Seq2Edit监督重组为可执行的类型化阶段，每个阶段预测自身标签空间并重写句子，支持校正类别。在QALB-2014和ZAEBUC上保持竞争性能，并在QALB-2014上达到最新最优结果，同时提供更可检查的校正轨迹。",
+  "summary_en": "STAGEET proposes a stage-wise typed edit-tagging framework for grammatical error correction, reorganizing Seq2Edit supervision into typed executable stages with category-aware labels. It achieves state-of-the-art results on QALB-2014 while providing more inspectable correction trajectories.",
+  "tags": [
+    "llm",
+    "research",
+    "application",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-09-01T21:04:27.961604+08:00",
+  "updated_at": "2026-09-01T21:04:27.961606+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

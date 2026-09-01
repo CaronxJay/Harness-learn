@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-01-rss-010",
+  "title": "基于NLP的古代印度医学文献知识提取与主题分类",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.28608",
+  "language": "en",
+  "summary": "该研究利用NLP技术（NER、BERTopic、知识图谱）对古代印度医学文献（如Sushruta Samhita）进行概念提取、主题分类和关系可视化，以提升可访问性和系统化整理，促进数字人文和医学信息学研究。",
+  "summary_en": "This research applies NLP techniques (NER, BERTopic, knowledge graphs) to extract, categorize, and visualize concepts from ancient Indian medical texts, improving accessibility and systematic organization, bridging traditional knowledge and data-driven inquiry.",
+  "tags": [
+    "llm",
+    "research",
+    "application",
+    "rag",
+    "tool"
+  ],
+  "category": "research",
+  "relevance_score": 0.7,
+  "status": "published",
+  "created_at": "2026-09-01T21:04:27.961616+08:00",
+  "updated_at": "2026-09-01T21:04:27.961618+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

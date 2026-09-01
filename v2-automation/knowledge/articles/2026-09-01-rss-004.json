@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-01-rss-004",
+  "title": "参数化多模态用户记忆：存储字幕无法承载的信息",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.28609",
+  "language": "en",
+  "summary": "本文提出一种参数化多模态用户记忆方法，将感知记忆（如声音、面部）存储在模型参数中，而非仅依赖文本。通过视觉语言模型定位参照物，专用编码器提取身份键，以单内联令牌存储，无需外部检索。该方法在PerceptMem基准上达到0.96召回率，优于纯字幕方法，并支持多说话人音频和视频。",
+  "summary_en": "This paper proposes a parametric multimodal user memory that stores perceptual identity (voice, face) in model parameters via a VLM grounding and a dedicated encoder, achieving 0.96 recall on PerceptMem, outperforming caption-based methods and generalizing to audio/video.",
+  "tags": [
+    "multimodal",
+    "research",
+    "llm",
+    "agent-framework",
+    "memory"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-09-01T21:04:27.961591+08:00",
+  "updated_at": "2026-09-01T21:04:27.961593+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

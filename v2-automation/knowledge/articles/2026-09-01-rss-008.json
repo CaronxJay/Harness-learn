@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-01-rss-008",
+  "title": "从生成式AI虚拟患者对话日志到教师可解释的过程证据：高等教育中的学习分析研究",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.28619",
+  "language": "en",
+  "summary": "该研究分析了210名医学生的1030次生成式AI虚拟患者对话，通过行为流行度、认知网络分析和转换网络分析三层编码，揭示高评分问诊中的过程模式，为医学教育提供过程导向反馈。",
+  "summary_en": "This study analyzed 1,030 GenAI virtual patient dialogues from 210 medical students, using three analytic layers to reveal process patterns in high-rated history taking, supporting process-focused feedback in medical education.",
+  "tags": [
+    "llm",
+    "application",
+    "research",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-09-01T21:04:27.961608+08:00",
+  "updated_at": "2026-09-01T21:04:27.961610+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

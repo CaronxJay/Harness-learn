@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-01-rss-003",
+  "title": "DS-Lighting：显式化智能体框架以自动化数据科学工作流",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2608.28590",
+  "language": "en",
+  "summary": "DS-Lighting 是一个统一的数据科学自动化智能体框架工具包，将隐式框架显式化为数据、工作流、执行和评估四个可复用层，支持预定义流程和自适应搜索，并集成多个开源基准测试，提升可复现性、可比性和可靠性。",
+  "summary_en": "DS-Lighting is a unified harness toolkit for data-science automation, decomposing the harness into four reusable layers (data, workflow, execution, evaluation), integrating benchmarks, and improving reproducibility and reliability.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "research",
+    "benchmark",
+    "application"
+  ],
+  "category": "agent-framework",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-09-01T21:04:27.961587+08:00",
+  "updated_at": "2026-09-01T21:04:27.961588+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
