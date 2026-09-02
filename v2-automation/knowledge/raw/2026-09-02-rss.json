@@ -1,0 +1,485 @@
+{
+  "collected_at": "2026-09-02T20:31:49.134735+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "HyperWorld: Hypergraph-Structured State Serialization Improves Learned Textual World Models",
+      "url": "https://arxiv.org/abs/2609.00002",
+      "description": "arXiv:2609.00002v1 Announce Type: new \nAbstract: World models enable language-model agents to predict environment dynamics and plan before acting. In text environments, the model must learn symbolic action effects from serialized state descriptions, but the role of serialization structure remains underexplored. We present HyperWorld, a controlled study of state serialization for learned textual world models. We compare raw observations with three symbolic serializations of the same ground-truth state: independent sentences, pairwise triples, and entity-centered hyperedge units that group multiple related facts around entities and relations. All variants use the same training objective: given a state and an action, predict symbolic effects or judge the action infeasible. Across model scales, data budgets, and in-distribution and out-of-distribution test worlds, hyperedge serialization gives the clearest gains for 0.5B--1.5B models and under distribution shift. Larger models reduce the gap, and pairwise triples can match or slightly exceed hyperedges on in-distribution exact match, but hyperedges achieve the strongest out-of-distribution fact F1 and the best small-to-medium scale trade-off between feasibility detection and effect prediction. In downstream greedy planning, the hyperedge world model also attains the highest success rate among the tested representations. These results show that higher-order state organization is a simple but effective inductive bias for learned symbolic world models, especially when model capacity is limited or test environments differ from training.",
+      "pub_date": "Wed, 02 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "HyperWorld：超图结构化状态序列化提升文本世界模型学习",
+        "summary": "HyperWorld研究了文本环境中世界模型的状态序列化结构。对比原始观测和三种符号序列化，发现基于实体的超边序列化在中小模型和分布外场景下效果最佳，能提升可行性检测和效果预测，并在下游规划中取得最高成功率。",
+        "summary_en": "HyperWorld studies state serialization for textual world models. Comparing raw observations with symbolic serializations, entity-centered hyperedge units yield the best gains for 0.5B-1.5B models and under distribution shift, improving feasibility detection, effect prediction, and downstream planning success.",
+        "tags": [
+          "llm",
+          "research",
+          "agent-framework",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-02-rss-006",
+        "title": "HyperWorld：超图结构化状态序列化提升文本世界模型学习",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.00002",
+        "language": "en",
+        "summary": "HyperWorld研究了文本环境中世界模型的状态序列化结构。对比原始观测和三种符号序列化，发现基于实体的超边序列化在中小模型和分布外场景下效果最佳，能提升可行性检测和效果预测，并在下游规划中取得最高成功率。",
+        "summary_en": "HyperWorld studies state serialization for textual world models. Comparing raw observations with symbolic serializations, entity-centered hyperedge units yield the best gains for 0.5B-1.5B models and under distribution shift, improving feasibility detection, effect prediction, and downstream planning success.",
+        "tags": [
+          "llm",
+          "research",
+          "agent-framework",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-09-02T20:31:49.134088+08:00",
+        "updated_at": "2026-09-02T20:31:49.134089+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "I-CARE: Analysis of interference-related phenomena in a controllable, diverse and representative unlearning setting for text-to-image models",
+      "url": "https://arxiv.org/abs/2609.00003",
+      "description": "arXiv:2609.00003v1 Announce Type: new \nAbstract: Machine unlearning studies the removal of knowledge from an AI model, making the system forget a concept it previously learned. Despite rapid progress in generative machine unlearning, the unintended degradation of semantically related concepts that should have been retained (henceforth, interference) remains poorly characterized and inconsistently evaluated. This paper introduces I-CARE, a methodology that formalizes interference as a first-class object of study in generative unlearning. Rather than proposing a new benchmark or unlearning algorithm, I-CARE provides formal definitions for tasks, metrics, and templates for reporting results, enabling the systematic and reproducible study of interference across unlearning settings. While our methodology is designed to remain valid as models and unlearning algorithms evolve, decoupling long-term scientific insight from transient empirical results, we present a feasibility demonstration with state-of-the-art algorithms and frequently used datasets. The results demonstrate that I-CARE enables meaningful analysis of interference patterns across multiple unlearning settings, establishing the practical applicability of the framework. The software implementation of the methodology is provided in an open-source framework, together with a web-based graphical interface that enables exploration of the outcomes of this study without requiring direct interaction with the codebase or specialized data analysis tools.",
+      "pub_date": "Wed, 02 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "I-CARE：文本到图像模型中可控、多样且具代表性的遗忘设置下的干扰相关现象分析",
+        "summary": "I-CARE 提出一种形式化干扰概念的方法论，用于生成式机器遗忘研究。它定义了任务、指标和报告模板，促进系统性、可复现的干扰分析，并提供了开源实现和图形界面。",
+        "summary_en": "I-CARE formalizes interference in generative unlearning, providing definitions, metrics, and reporting templates for systematic study, with open-source implementation and GUI.",
+        "tags": [
+          "research",
+          "security",
+          "evaluation",
+          "multimodal"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-02-rss-007",
+        "title": "I-CARE：文本到图像模型中可控、多样且具代表性的遗忘设置下的干扰相关现象分析",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.00003",
+        "language": "en",
+        "summary": "I-CARE 提出一种形式化干扰概念的方法论，用于生成式机器遗忘研究。它定义了任务、指标和报告模板，促进系统性、可复现的干扰分析，并提供了开源实现和图形界面。",
+        "summary_en": "I-CARE formalizes interference in generative unlearning, providing definitions, metrics, and reporting templates for systematic study, with open-source implementation and GUI.",
+        "tags": [
+          "research",
+          "security",
+          "evaluation",
+          "multimodal"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-09-02T20:31:49.134091+08:00",
+        "updated_at": "2026-09-02T20:31:49.134092+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Discrete-Time MDP Modeling for Multi-Item Capacitated Lot Sizing with Stochastic Demand Timing",
+      "url": "https://arxiv.org/abs/2609.00004",
+      "description": "arXiv:2609.00004v1 Announce Type: new \nAbstract: This paper studies a finite-horizon multi-item capacitated lot-sizing problem in which demand quantities are deterministic, while demand-arrival periods are stochastic. Each demand occurs once within a known time window and must be satisfied no later than its deadline. The proposed model makes production and allocation decisions at the demand level, allowing it to represent capacity competition, demand-specific backlog, and allocation-dependent inventory dynamics. The stochastic problem is formulated as a discrete-time Markov decision process (DTMDP), including the state space, feasible actions, transition kernel, and one-period cost function. To isolate the computational effect of stochastic timing, each stochastic instance is first compared with a deterministic counterpart in which each arrival distribution is replaced by its most likely arrival period. This comparison shows that stochastic timing substantially increases the number of states, the number of transitions, solution time, and memory pressure. A genetic algorithm (GA) is then proposed for the stochastic-timing problem. The GA searches over feasible state-feedback policies and evaluates each policy exactly under the DTMDP transition model. Computational experiments on 330 benchmark instances show that the GA remains close to the exact stochastic solution whenever the latter is available, with an average optimality gap of about $3.44\\%$. On the difficult benchmark instances, comprising 90 test cases, the GA remains below the $5\\%$ optimality-gap threshold and achieves an average optimization speedup of $6.89 \\pm 1.41$ at the $95\\%$ confidence level. For instances that cannot be solved exactly on the available hardware, an empirical Bellman-time regression is used to estimate the missing exact resolution time and extrapolate the expected GA speedup.",
+      "pub_date": "Wed, 02 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "离散时间MDP建模用于随机需求时机的多物品容量批量问题",
+        "summary": "本文研究有限时域多物品容量批量问题，需求数量确定但到达周期随机。提出离散时间马尔可夫决策过程模型，并设计遗传算法搜索状态反馈策略。实验显示平均最优性差距约3.44%，困难实例中低于5%，平均加速6.89倍。",
+        "summary_en": null,
+        "tags": [
+          "research",
+          "optimization",
+          "mdp",
+          "genetic-algorithm"
+        ],
+        "category": "research",
+        "relevance_score": 0.3,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-02-rss-010",
+        "title": "离散时间MDP建模用于随机需求时机的多物品容量批量问题",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.00004",
+        "language": "en",
+        "summary": "本文研究有限时域多物品容量批量问题，需求数量确定但到达周期随机。提出离散时间马尔可夫决策过程模型，并设计遗传算法搜索状态反馈策略。实验显示平均最优性差距约3.44%，困难实例中低于5%，平均加速6.89倍。",
+        "summary_en": null,
+        "tags": [
+          "research",
+          "optimization",
+          "mdp",
+          "genetic-algorithm"
+        ],
+        "category": "research",
+        "relevance_score": 0.3,
+        "status": "published",
+        "created_at": "2026-09-02T20:31:49.134100+08:00",
+        "updated_at": "2026-09-02T20:31:49.134101+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Incremental Risk Assessment of Progressive Elder Financial Scams via Instruction-Tuned Small Language Models",
+      "url": "https://arxiv.org/abs/2609.00005",
+      "description": "arXiv:2609.00005v1 Announce Type: new \nAbstract: Financial scams targeting older adults increasingly occur through text and voice channels such as email, SMS, and phone calls, unfolding over multiple conversational turns that begin with impersonation or casual contact, escalate through trust building and urgency, and culminate in requests for sensitive information or financial transfers. Because risk signals emerge incrementally across turns, effective detection requires models that continuously update risk estimates under resource-constrained deployment settings. We propose a cumulative turn-based risk assessment framework that incrementally aggregates conversational turns and re-estimates risk at each step, enabling dynamic scam monitoring across progressively evolving conversations. A multi-turn dialogue dataset is constructed to cover investment, charity, and tech support scam scenarios, with each dialogue containing two to eight turns and annotated at every cumulative stage with a qualitative risk level, a continuous risk score, an explanatory rationale, and a safety recommendation. Four small language models (Phi-4, LLaMA-3.2, DeepSeek-R1, and Qwen3) are fine-tuned and evaluated under a unified training framework. Fine-tuned small models capture fraud-related linguistic cues and cross-turn escalation patterns while maintaining compact architectures suitable for mobile and resource-constrained deployment settings. Among the evaluated models, Phi-4 and LLaMA-3.2 achieve stronger turn-aware risk estimation performance relative to their parameter scale. These results suggest that structured cumulative modeling can support incremental scam risk assessment in deployment-oriented settings while highlighting the potential of compact language models for privacy-aware and on-device fraud protection.",
+      "pub_date": "Wed, 02 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "基于指令微调小语言模型的渐进式老年金融诈骗增量风险评估",
+        "summary": "提出一种基于对话轮次的累积风险评估框架，通过逐步聚合对话轮次并重新评估风险，实现动态诈骗监控。构建了包含投资、慈善、技术支持等场景的多轮对话数据集，并微调了Phi-4、LLaMA-3.2等小语言模型，在资源受限环境下实现有效的诈骗检测，支持隐私保护的端侧部署。",
+        "summary_en": "Proposes a cumulative turn-based risk assessment framework that incrementally aggregates conversational turns to detect financial scams targeting older adults. Constructs a multi-turn dialogue dataset and fine-tunes small language models (Phi-4, LLaMA-3.2, etc.), achieving effective risk estimation suitable for resource-constrained, on-device deployment.",
+        "tags": [
+          "llm",
+          "fine-tuning",
+          "security",
+          "application",
+          "research"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-02-rss-004",
+        "title": "基于指令微调小语言模型的渐进式老年金融诈骗增量风险评估",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.00005",
+        "language": "en",
+        "summary": "提出一种基于对话轮次的累积风险评估框架，通过逐步聚合对话轮次并重新评估风险，实现动态诈骗监控。构建了包含投资、慈善、技术支持等场景的多轮对话数据集，并微调了Phi-4、LLaMA-3.2等小语言模型，在资源受限环境下实现有效的诈骗检测，支持隐私保护的端侧部署。",
+        "summary_en": "Proposes a cumulative turn-based risk assessment framework that incrementally aggregates conversational turns to detect financial scams targeting older adults. Constructs a multi-turn dialogue dataset and fine-tunes small language models (Phi-4, LLaMA-3.2, etc.), achieving effective risk estimation suitable for resource-constrained, on-device deployment.",
+        "tags": [
+          "llm",
+          "fine-tuning",
+          "security",
+          "application",
+          "research"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-09-02T20:31:49.134083+08:00",
+        "updated_at": "2026-09-02T20:31:49.134084+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Long-Horizon State Tracking in LLMs: Executing MD5 through a Deep Sequence of Dependent Tool Calls",
+      "url": "https://arxiv.org/abs/2609.00012",
+      "description": "arXiv:2609.00012v1 Announce Type: new \nAbstract: Long-horizon tasks remain uncommon in large language model (LLM) evaluation, and for a reason: when each step depends on the last, per-step accuracy that looks excellent in isolation decays catastrophically, as errors cascade and the end-to-end failure probability grows sharply with length. Existing agentic benchmarks report end-to-end success but confound this state-tracking difficulty with instruction interpretation, give no control group that isolates it, and are vulnerable to shortcuts such as a hallucinated final answer, so they cannot say why a long run fails. Whether an LLM can carry exact intermediate state across many tool calls at all is itself not well established. We test this cleanly by having the model compute a cryptographic hash, MD5, step by step: a sequence of $196$ dependent tool calls over $64$ rounds while it carries four $32$-bit words $(a,b,c,d)$ in its own context from one call to the next. Interpretation is trivial and, because we implement MD5 from scratch (RFC~1321), we align every call to the ground-truth trace and check the digest to the bit, so any failure is pure bookkeeping. gpt-oss-120b, a mixture-of-experts model with only $\\sim$5.5B active parameters per token, at temperature $0$ with a short fixed prompt, carries the full state across all $196$ calls and returns the correct digest on a majority of completed runs. In the strongest setting we replace every primitive tool with a second LLM, so a driver and a worker compute the whole hash from scratch with no exact-arithmetic oracle in the loop. Two ingredients decide success and neither changes the weights: keeping the model's own reasoning in its context each turn, and voting over a thinking-enabled worker to remove its modular-arithmetic slips. We localize the residual failures by origin, separating state-carrying from arithmetic and from serving.",
+      "pub_date": "Wed, 02 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "LLM中的长时程状态追踪：通过深度依赖工具调用序列执行MD5",
+        "summary": "该研究通过让LLM逐步计算MD5哈希（196次依赖工具调用，64轮），纯净地测试其跨工具调用携带精确中间状态的能力。结果表明gpt-oss-120b在多数运行中能正确完成。关键因素包括保留模型自身推理上下文和对启用思考的工作模型进行投票。",
+        "summary_en": "This study tests LLMs' ability to carry exact intermediate state across many tool calls by computing MD5 step-by-step (196 dependent calls). Results show gpt-oss-120b succeeds on most runs. Key factors: keeping model's reasoning in context and voting over a thinking-enabled worker.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "agent-framework",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-02-rss-001",
+        "title": "LLM中的长时程状态追踪：通过深度依赖工具调用序列执行MD5",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.00012",
+        "language": "en",
+        "summary": "该研究通过让LLM逐步计算MD5哈希（196次依赖工具调用，64轮），纯净地测试其跨工具调用携带精确中间状态的能力。结果表明gpt-oss-120b在多数运行中能正确完成。关键因素包括保留模型自身推理上下文和对启用思考的工作模型进行投票。",
+        "summary_en": "This study tests LLMs' ability to carry exact intermediate state across many tool calls by computing MD5 step-by-step (196 dependent calls). Results show gpt-oss-120b succeeds on most runs. Key factors: keeping model's reasoning in context and voting over a thinking-enabled worker.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "agent-framework",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-09-02T20:31:49.134072+08:00",
+        "updated_at": "2026-09-02T20:31:49.134074+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Behaviorally Grounded User Profiles from the Wild for Personalized Alignment and Multi-Perspective Reasoning",
+      "url": "https://arxiv.org/abs/2609.00014",
+      "description": "arXiv:2609.00014v1 Announce Type: new \nAbstract: Persona-driven techniques increasingly adapt large language models (LLMs) to diverse contexts. However, existing methods predominantly rely on rigid, synthetic personas that flatten individual variation, rely on stereotypes, and miss the nuanced signals driving actual human preferences. We introduce profile behavioral grounding, a framework for extracting open-ended, high-fidelity user profiles directly from authentic, anonymized social media posts. We evaluate these profiles across two paradigms: train-time personalization via supervised finetuning (SFT) and non-parametric test-time multi-perspective reasoning. Across complex recommendation and open-ended query benchmarks, behaviorally grounded profiles consistently improve base models and outperform synthetic profile baselines, driving stronger parametric alignment and enabling richer, multifaceted reasoning. Our findings establish open-ended, behavior-derived profiles as a highly diverse and effective foundation for the next generation of personalized language systems. Our code base is available at https://github.com/ServiceNow/behavior-grounding.",
+      "pub_date": "Wed, 02 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "基于真实行为的用户画像用于个性化对齐与多视角推理",
+        "summary": "提出行为基础画像框架，从真实匿名社交媒体帖子中提取开放式高保真用户画像，用于训练时个性化（SFT）和测试时多视角推理。在推荐和开放查询基准上优于合成画像，提升模型对齐与推理能力。",
+        "summary_en": "Introduces behavioral grounding framework to extract open-ended user profiles from real anonymized social media posts, improving personalization via SFT and multi-perspective reasoning, outperforming synthetic profiles.",
+        "tags": [
+          "llm",
+          "fine-tuning",
+          "research",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-02-rss-005",
+        "title": "基于真实行为的用户画像用于个性化对齐与多视角推理",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.00014",
+        "language": "en",
+        "summary": "提出行为基础画像框架，从真实匿名社交媒体帖子中提取开放式高保真用户画像，用于训练时个性化（SFT）和测试时多视角推理。在推荐和开放查询基准上优于合成画像，提升模型对齐与推理能力。",
+        "summary_en": "Introduces behavioral grounding framework to extract open-ended user profiles from real anonymized social media posts, improving personalization via SFT and multi-perspective reasoning, outperforming synthetic profiles.",
+        "tags": [
+          "llm",
+          "fine-tuning",
+          "research",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-09-02T20:31:49.134086+08:00",
+        "updated_at": "2026-09-02T20:31:49.134087+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "trajectory-judge: What Outcome-Only LLM Judges Miss on Agent Trajectories",
+      "url": "https://arxiv.org/abs/2609.00038",
+      "description": "arXiv:2609.00038v1 Announce Type: new \nAbstract: Outcome-only evaluation is the production default for LLM agents: show a judge the request and the final reply and ask whether it was handled well. The metric is structurally blind to an agent that reaches the right answer the wrong way. We measure that blind spot where ground truth is known by construction: a deterministic tool-using support-desk environment, a scripted oracle policy that always solves it, and a fault injector that breaks exactly one thing at a known step, stratifying faults by whether the customer-visible outcome survived (silent) or not (loud). Five judges (programmatic rules, outcome-only, step-rubric at two model sizes, and a self-consistency ensemble) are scored on detection, step localisation, fault typing, calibration, and cost over 400 trajectories. The outcome-only judge catches 84% of loud faults but 45% of silent ones while flagging 33% of correct trajectories; a step-rubric judge reaches 77% silent recall with zero false alarms at 3x the cost. No judge reads the final reply: an invented promise appended to an otherwise perfect trajectory evades the rules entirely and the step judge 82% of the time, and self-consistency triples cost while improving nothing. We argue that judge evaluations must stratify recall by outcome survival, and release the environment, the injector, all raw verdicts, and an analysis pipeline that rebuilds every number offline.",
+      "pub_date": "Wed, 02 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "轨迹裁判：仅看结果的LLM裁判在智能体轨迹评估中的盲区",
+        "summary": "该研究指出仅基于最终结果的LLM裁判无法发现智能体以错误方式达成正确结果的问题。通过在确定性工具使用环境中注入故障，比较五种裁判方法，发现仅看结果的裁判对“无声”故障检测率低且误报高，而逐步评分裁判效果更好但成本更高。建议按结果存活性分层评估。",
+        "summary_en": "This study shows outcome-only LLM judges miss agents that reach correct answers incorrectly. Using fault injection in a deterministic tool-use environment, they compare five judges, finding outcome-only judges have low recall on silent faults and high false alarms, while step-rubric judges perform better at higher cost. They advocate stratifying evaluation by outcome survival.",
+        "tags": [
+          "llm",
+          "evaluation",
+          "benchmark",
+          "agent-framework",
+          "research"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-02-rss-002",
+        "title": "轨迹裁判：仅看结果的LLM裁判在智能体轨迹评估中的盲区",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.00038",
+        "language": "en",
+        "summary": "该研究指出仅基于最终结果的LLM裁判无法发现智能体以错误方式达成正确结果的问题。通过在确定性工具使用环境中注入故障，比较五种裁判方法，发现仅看结果的裁判对“无声”故障检测率低且误报高，而逐步评分裁判效果更好但成本更高。建议按结果存活性分层评估。",
+        "summary_en": "This study shows outcome-only LLM judges miss agents that reach correct answers incorrectly. Using fault injection in a deterministic tool-use environment, they compare five judges, finding outcome-only judges have low recall on silent faults and high false alarms, while step-rubric judges perform better at higher cost. They advocate stratifying evaluation by outcome survival.",
+        "tags": [
+          "llm",
+          "evaluation",
+          "benchmark",
+          "agent-framework",
+          "research"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-09-02T20:31:49.134077+08:00",
+        "updated_at": "2026-09-02T20:31:49.134078+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "GUI-CC: Benchmarking Contextual Consistency of GUI World Models as Agent Environments",
+      "url": "https://arxiv.org/abs/2609.00048",
+      "description": "arXiv:2609.00048v1 Announce Type: new \nAbstract: GUI world models are increasingly evaluated as one-step next-screen predictors, yet their intended use is often as multi-step environments for GUI agents. This mismatch leaves a key requirement under-tested: generated states must remain contextually consistent when they are repeatedly reused for future interaction. We introduce GUI-CC, a benchmark that evaluates contextual consistency of GUI world models as agent environments rather than isolated next-screen predictors. GUI-CC contains two complementary tracks: an offline reference-action track that rolls models along real mobile GUI trajectories, and an online agent-loop track that lets fixed probing agents interact with model-generated UIs. We construct 500 offline trajectory tasks from GUIOdyssey and 200 emulator-verified online tasks across 30 mobile apps. GUI-CC evaluates transition fidelity, transition plausibility, contextual consistency, and task progress. Experiments show that plausible single-step generation does not guarantee reliable environment simulation: current models often produce usable-looking screens while failing to preserve task-relevant context or support executable multi-step rollouts.",
+      "pub_date": "Wed, 02 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "GUI-CC：GUI世界模型作为智能体环境的上下文一致性基准",
+        "summary": "GUI-CC基准测试评估GUI世界模型作为智能体环境时的上下文一致性，而非仅作为单步屏幕预测器。包含离线参考动作和在线智能体循环两个轨道，基于GUIOdyssey构建500个离线任务和200个在线任务，评估转换保真度、合理性、上下文一致性和任务进展。实验表明，合理的单步生成不保证可靠的环境模拟。",
+        "summary_en": "GUI-CC benchmark evaluates contextual consistency of GUI world models as agent environments, not just next-screen predictors. It includes offline and online tracks with 500+200 tasks, assessing transition fidelity, plausibility, consistency, and task progress. Findings show plausible single-step generation doesn't guarantee reliable multi-step environment simulation.",
+        "tags": [
+          "benchmark",
+          "evaluation",
+          "agent-framework",
+          "multimodal"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-02-rss-008",
+        "title": "GUI-CC：GUI世界模型作为智能体环境的上下文一致性基准",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.00048",
+        "language": "en",
+        "summary": "GUI-CC基准测试评估GUI世界模型作为智能体环境时的上下文一致性，而非仅作为单步屏幕预测器。包含离线参考动作和在线智能体循环两个轨道，基于GUIOdyssey构建500个离线任务和200个在线任务，评估转换保真度、合理性、上下文一致性和任务进展。实验表明，合理的单步生成不保证可靠的环境模拟。",
+        "summary_en": "GUI-CC benchmark evaluates contextual consistency of GUI world models as agent environments, not just next-screen predictors. It includes offline and online tracks with 500+200 tasks, assessing transition fidelity, plausibility, consistency, and task progress. Findings show plausible single-step generation doesn't guarantee reliable multi-step environment simulation.",
+        "tags": [
+          "benchmark",
+          "evaluation",
+          "agent-framework",
+          "multimodal"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-09-02T20:31:49.134094+08:00",
+        "updated_at": "2026-09-02T20:31:49.134095+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "From Detection to Refusal: Safer LLMs via Circuit-Guided Weight Scaling",
+      "url": "https://arxiv.org/abs/2609.00051",
+      "description": "arXiv:2609.00051v1 Announce Type: new \nAbstract: Despite extensive alignment efforts, Large Language Models (LLMs) remain vulnerable to generating unsafe content under adversarial prompting, yet the internal mechanisms by which safety behaviors are implemented remain poorly understood. We study LLM safety from a mechanistic interpretability perspective and characterize a multi-stage *safety circuit* that organizes refusal behavior, consisting of (i) $\\textbf{Harmful Detection Heads}$ that respond to harmful inputs, (ii) $\\textbf{Safety Neurons}$ that mediate and stabilize safety signals in the residual stream, and (iii) $\\textbf{Refusal Heads}$ that translate these signals into safe response generation. Using targeted attention-head and neuron-level interventions, we provide causal evidence consistent with this circuit organization, showing that suppressing upstream Harmful Detection Heads disrupts downstream refusal behavior and that safety neurons mediate this interaction. We validate that this decomposition recurs across multiple LLM architectures and adversarial attack settings, and use simple, architecture-preserving weight scaling as a mechanistic probe to test its functional relevance. Across six LLMs, circuit-guided scaling improves safety rates under attacks by 26.5%, while incurring only a 1.7% accuracy drop across four standard benchmarks. Overall, our results support a circuit-level interpretation of LLM safety and suggest that mechanistic abstractions can reveal stable and transferable patterns underlying aligned behavior.",
+      "pub_date": "Wed, 02 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "从检测到拒绝：通过电路引导的权重缩放实现更安全的LLM",
+        "summary": "本文从机制可解释性角度研究LLM安全，识别出多阶段安全电路（有害检测头、安全神经元、拒绝头），并通过权重缩放干预，在六个LLM上使攻击下的安全率提升26.5%，同时标准基准准确率仅下降1.7%。",
+        "summary_en": "This paper studies LLM safety from a mechanistic interpretability perspective, identifying a multi-stage safety circuit (harmful detection heads, safety neurons, refusal heads). Circuit-guided weight scaling improves safety rates under attacks by 26.5% across six LLMs with only 1.7% accuracy drop.",
+        "tags": [
+          "llm",
+          "research",
+          "security",
+          "interpretability"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-02-rss-003",
+        "title": "从检测到拒绝：通过电路引导的权重缩放实现更安全的LLM",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.00051",
+        "language": "en",
+        "summary": "本文从机制可解释性角度研究LLM安全，识别出多阶段安全电路（有害检测头、安全神经元、拒绝头），并通过权重缩放干预，在六个LLM上使攻击下的安全率提升26.5%，同时标准基准准确率仅下降1.7%。",
+        "summary_en": "This paper studies LLM safety from a mechanistic interpretability perspective, identifying a multi-stage safety circuit (harmful detection heads, safety neurons, refusal heads). Circuit-guided weight scaling improves safety rates under attacks by 26.5% across six LLMs with only 1.7% accuracy drop.",
+        "tags": [
+          "llm",
+          "research",
+          "security",
+          "interpretability"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-09-02T20:31:49.134080+08:00",
+        "updated_at": "2026-09-02T20:31:49.134081+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Zero-Shot Respiratory Sound Classification through LLM-Augmented Audio-Text Alignment",
+      "url": "https://arxiv.org/abs/2609.00055",
+      "description": "arXiv:2609.00055v1 Announce Type: new \nAbstract: Self-supervised respiratory encoders lack semantic grounding in clinical domain needed for zero-shot inference, limiting their utility without task-specific labeled data. We propose a framework that aligns these encoders with medical terminology in a shared latent space turning them into a zero-shot-capable foundation model. To address paired data scarcity, we use a medical LLM to synthesize structured reports from metadata, creating dense semantic anchors for contrastive learning. Our training combines a sigmoid-based contrastive loss with encoder's native SSL objective and similarity-aware negative sampling to sharpen pathological boundaries. Across 9 tasks on 6 datasets, our method achieves a 61.3% mean zero-shot AUC, surpassing CLAP (51.4%) and Qwen2-Audio (54.9%) while reaching the highest linear probing AUC (71.6%) with only 43% of data used by full-scale baselines, showing that structured semantic alignment outperforms large-scale, general-purpose models in clinical diagnostics.",
+      "pub_date": "Wed, 02 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "通过LLM增强的音频-文本对齐实现零样本呼吸音分类",
+        "summary": "提出一种框架，将自监督呼吸音编码器与医学语义对齐，实现零样本分类。利用医学LLM合成结构化报告作为语义锚点，结合sigmoid对比损失和相似性感知负采样。在6个数据集9个任务上，零样本AUC达61.3%，优于CLAP和Qwen2-Audio，线性探测AUC达71.6%，仅用43%数据。",
+        "summary_en": null,
+        "tags": [
+          "llm",
+          "research",
+          "multimodal",
+          "fine-tuning",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-02-rss-009",
+        "title": "通过LLM增强的音频-文本对齐实现零样本呼吸音分类",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.00055",
+        "language": "en",
+        "summary": "提出一种框架，将自监督呼吸音编码器与医学语义对齐，实现零样本分类。利用医学LLM合成结构化报告作为语义锚点，结合sigmoid对比损失和相似性感知负采样。在6个数据集9个任务上，零样本AUC达61.3%，优于CLAP和Qwen2-Audio，线性探测AUC达71.6%，仅用43%数据。",
+        "summary_en": null,
+        "tags": [
+          "llm",
+          "research",
+          "multimodal",
+          "fine-tuning",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-09-02T20:31:49.134097+08:00",
+        "updated_at": "2026-09-02T20:31:49.134098+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

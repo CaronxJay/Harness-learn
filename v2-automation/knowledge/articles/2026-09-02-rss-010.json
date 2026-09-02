@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-02-rss-010",
+  "title": "离散时间MDP建模用于随机需求时机的多物品容量批量问题",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.00004",
+  "language": "en",
+  "summary": "本文研究有限时域多物品容量批量问题，需求数量确定但到达周期随机。提出离散时间马尔可夫决策过程模型，并设计遗传算法搜索状态反馈策略。实验显示平均最优性差距约3.44%，困难实例中低于5%，平均加速6.89倍。",
+  "summary_en": null,
+  "tags": [
+    "research",
+    "optimization",
+    "mdp",
+    "genetic-algorithm"
+  ],
+  "category": "research",
+  "relevance_score": 0.3,
+  "status": "published",
+  "created_at": "2026-09-02T20:31:49.134100+08:00",
+  "updated_at": "2026-09-02T20:31:49.134101+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

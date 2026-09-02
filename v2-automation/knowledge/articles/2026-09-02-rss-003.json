@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-02-rss-003",
+  "title": "从检测到拒绝：通过电路引导的权重缩放实现更安全的LLM",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.00051",
+  "language": "en",
+  "summary": "本文从机制可解释性角度研究LLM安全，识别出多阶段安全电路（有害检测头、安全神经元、拒绝头），并通过权重缩放干预，在六个LLM上使攻击下的安全率提升26.5%，同时标准基准准确率仅下降1.7%。",
+  "summary_en": "This paper studies LLM safety from a mechanistic interpretability perspective, identifying a multi-stage safety circuit (harmful detection heads, safety neurons, refusal heads). Circuit-guided weight scaling improves safety rates under attacks by 26.5% across six LLMs with only 1.7% accuracy drop.",
+  "tags": [
+    "llm",
+    "research",
+    "security",
+    "interpretability"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-09-02T20:31:49.134080+08:00",
+  "updated_at": "2026-09-02T20:31:49.134081+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-02-rss-007",
+  "title": "I-CARE：文本到图像模型中可控、多样且具代表性的遗忘设置下的干扰相关现象分析",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.00003",
+  "language": "en",
+  "summary": "I-CARE 提出一种形式化干扰概念的方法论，用于生成式机器遗忘研究。它定义了任务、指标和报告模板，促进系统性、可复现的干扰分析，并提供了开源实现和图形界面。",
+  "summary_en": "I-CARE formalizes interference in generative unlearning, providing definitions, metrics, and reporting templates for systematic study, with open-source implementation and GUI.",
+  "tags": [
+    "research",
+    "security",
+    "evaluation",
+    "multimodal"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-09-02T20:31:49.134091+08:00",
+  "updated_at": "2026-09-02T20:31:49.134092+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

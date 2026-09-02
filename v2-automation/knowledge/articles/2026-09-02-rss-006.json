@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-02-rss-006",
+  "title": "HyperWorld：超图结构化状态序列化提升文本世界模型学习",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.00002",
+  "language": "en",
+  "summary": "HyperWorld研究了文本环境中世界模型的状态序列化结构。对比原始观测和三种符号序列化，发现基于实体的超边序列化在中小模型和分布外场景下效果最佳，能提升可行性检测和效果预测，并在下游规划中取得最高成功率。",
+  "summary_en": "HyperWorld studies state serialization for textual world models. Comparing raw observations with symbolic serializations, entity-centered hyperedge units yield the best gains for 0.5B-1.5B models and under distribution shift, improving feasibility detection, effect prediction, and downstream planning success.",
+  "tags": [
+    "llm",
+    "research",
+    "agent-framework",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-09-02T20:31:49.134088+08:00",
+  "updated_at": "2026-09-02T20:31:49.134089+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

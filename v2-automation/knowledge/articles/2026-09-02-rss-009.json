@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-02-rss-009",
+  "title": "通过LLM增强的音频-文本对齐实现零样本呼吸音分类",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.00055",
+  "language": "en",
+  "summary": "提出一种框架，将自监督呼吸音编码器与医学语义对齐，实现零样本分类。利用医学LLM合成结构化报告作为语义锚点，结合sigmoid对比损失和相似性感知负采样。在6个数据集9个任务上，零样本AUC达61.3%，优于CLAP和Qwen2-Audio，线性探测AUC达71.6%，仅用43%数据。",
+  "summary_en": null,
+  "tags": [
+    "llm",
+    "research",
+    "multimodal",
+    "fine-tuning",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-09-02T20:31:49.134097+08:00",
+  "updated_at": "2026-09-02T20:31:49.134098+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

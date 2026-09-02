@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-02-rss-004",
+  "title": "基于指令微调小语言模型的渐进式老年金融诈骗增量风险评估",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.00005",
+  "language": "en",
+  "summary": "提出一种基于对话轮次的累积风险评估框架，通过逐步聚合对话轮次并重新评估风险，实现动态诈骗监控。构建了包含投资、慈善、技术支持等场景的多轮对话数据集，并微调了Phi-4、LLaMA-3.2等小语言模型，在资源受限环境下实现有效的诈骗检测，支持隐私保护的端侧部署。",
+  "summary_en": "Proposes a cumulative turn-based risk assessment framework that incrementally aggregates conversational turns to detect financial scams targeting older adults. Constructs a multi-turn dialogue dataset and fine-tunes small language models (Phi-4, LLaMA-3.2, etc.), achieving effective risk estimation suitable for resource-constrained, on-device deployment.",
+  "tags": [
+    "llm",
+    "fine-tuning",
+    "security",
+    "application",
+    "research"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-09-02T20:31:49.134083+08:00",
+  "updated_at": "2026-09-02T20:31:49.134084+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

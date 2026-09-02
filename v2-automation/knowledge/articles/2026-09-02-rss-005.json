@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-02-rss-005",
+  "title": "基于真实行为的用户画像用于个性化对齐与多视角推理",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.00014",
+  "language": "en",
+  "summary": "提出行为基础画像框架，从真实匿名社交媒体帖子中提取开放式高保真用户画像，用于训练时个性化（SFT）和测试时多视角推理。在推荐和开放查询基准上优于合成画像，提升模型对齐与推理能力。",
+  "summary_en": "Introduces behavioral grounding framework to extract open-ended user profiles from real anonymized social media posts, improving personalization via SFT and multi-perspective reasoning, outperforming synthetic profiles.",
+  "tags": [
+    "llm",
+    "fine-tuning",
+    "research",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-09-02T20:31:49.134086+08:00",
+  "updated_at": "2026-09-02T20:31:49.134087+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

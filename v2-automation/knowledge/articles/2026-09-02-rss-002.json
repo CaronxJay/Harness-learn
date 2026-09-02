@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-02-rss-002",
+  "title": "轨迹裁判：仅看结果的LLM裁判在智能体轨迹评估中的盲区",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.00038",
+  "language": "en",
+  "summary": "该研究指出仅基于最终结果的LLM裁判无法发现智能体以错误方式达成正确结果的问题。通过在确定性工具使用环境中注入故障，比较五种裁判方法，发现仅看结果的裁判对“无声”故障检测率低且误报高，而逐步评分裁判效果更好但成本更高。建议按结果存活性分层评估。",
+  "summary_en": "This study shows outcome-only LLM judges miss agents that reach correct answers incorrectly. Using fault injection in a deterministic tool-use environment, they compare five judges, finding outcome-only judges have low recall on silent faults and high false alarms, while step-rubric judges perform better at higher cost. They advocate stratifying evaluation by outcome survival.",
+  "tags": [
+    "llm",
+    "evaluation",
+    "benchmark",
+    "agent-framework",
+    "research"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-09-02T20:31:49.134077+08:00",
+  "updated_at": "2026-09-02T20:31:49.134078+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

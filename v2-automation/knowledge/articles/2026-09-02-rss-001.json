@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-02-rss-001",
+  "title": "LLM中的长时程状态追踪：通过深度依赖工具调用序列执行MD5",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.00012",
+  "language": "en",
+  "summary": "该研究通过让LLM逐步计算MD5哈希（196次依赖工具调用，64轮），纯净地测试其跨工具调用携带精确中间状态的能力。结果表明gpt-oss-120b在多数运行中能正确完成。关键因素包括保留模型自身推理上下文和对启用思考的工作模型进行投票。",
+  "summary_en": "This study tests LLMs' ability to carry exact intermediate state across many tool calls by computing MD5 step-by-step (196 dependent calls). Results show gpt-oss-120b succeeds on most runs. Key factors: keeping model's reasoning in context and voting over a thinking-enabled worker.",
+  "tags": [
+    "llm",
+    "research",
+    "benchmark",
+    "agent-framework",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-09-02T20:31:49.134072+08:00",
+  "updated_at": "2026-09-02T20:31:49.134074+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
