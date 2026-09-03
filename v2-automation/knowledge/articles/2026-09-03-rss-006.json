@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-03-rss-006",
+  "title": "SpeakPay：针对低资源尼泊尔语金融语音识别的领域自适应LoRA微调Whisper",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.01737",
+  "language": "en",
+  "summary": "SpeakPay提出语音优先的数字钱包，通过LoRA微调Whisper large-v2实现尼泊尔语金融语音识别。引入403条话语的NepFinSpeech-403数据集，将词错误率从129.95%降至42.58%，数字识别准确率从0%提升至73.9%，交易成功率提升20倍。仅需100条数据即可减半WER，系统已部署为公开Web应用。",
+  "summary_en": "SpeakPay presents a voice-first digital wallet using LoRA fine-tuning of Whisper for Nepali financial speech recognition. With a 403-utterance dataset, WER drops from 129.95% to 42.58%, numeral accuracy from 0% to 73.9%, and transaction success improves 20x. Only 100 examples halve WER. Deployed as a public web app.",
+  "tags": [
+    "fine-tuning",
+    "llm",
+    "application",
+    "multimodal",
+    "open-source"
+  ],
+  "category": "application",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-09-03T20:35:24.035994+08:00",
+  "updated_at": "2026-09-03T20:35:24.035995+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-03-rss-003",
+  "title": "证据充分性边界学习：面向多跳问答的选择性回答",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.01687",
+  "language": "en",
+  "summary": "提出证据充分性边界训练框架，通过构建有序证据链并监督从弃答到回答的转换，提升多跳问答的选择性回答能力。在HotpotQA等数据集上，该方法在边界定位和减少无依据回答方面优于基线，同时保持竞争性的QA性能。",
+  "summary_en": "Introduces Evidence Sufficiency Boundary Training, a generation-native framework that supervises the abstain-to-answer transition using ordered evidence chains, improving selective answering in multi-hop QA with better boundary localization and lower unsupported-answer rates.",
+  "tags": [
+    "llm",
+    "research",
+    "rag",
+    "fine-tuning",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-09-03T20:35:24.035981+08:00",
+  "updated_at": "2026-09-03T20:35:24.035983+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

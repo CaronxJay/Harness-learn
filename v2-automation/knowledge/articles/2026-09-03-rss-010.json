@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-03-rss-010",
+  "title": "机器何时能信任法规？机器提取法律逻辑的生存证书",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.01741",
+  "language": "en",
+  "summary": "该研究针对机器解析法规时提取器不一致的问题（如密苏里州法规数值阈值假阴性率0.43），提出被动生存证书方法，基于Duquenne-Guigues蕴含基，通过蒙特卡洛试验和Wilson置信区间认证蕴含关系，并附带前提跨度与最小反例。在大量法规数据上验证，但发现跨章节校准脆弱，需按章节校准或容忍错误。",
+  "summary_en": "The paper addresses inconsistency in machine-extracted legal statutes, proposing a passive survival certificate for implications using Monte Carlo trials and Wilson confidence intervals. Validated on large datasets, it finds the certificate fragile across chapters, requiring per-chapter calibration or error tolerance.",
+  "tags": [
+    "research",
+    "benchmark",
+    "evaluation",
+    "llm"
+  ],
+  "category": "research",
+  "relevance_score": 0.6,
+  "status": "published",
+  "created_at": "2026-09-03T20:35:24.036030+08:00",
+  "updated_at": "2026-09-03T20:35:24.036031+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

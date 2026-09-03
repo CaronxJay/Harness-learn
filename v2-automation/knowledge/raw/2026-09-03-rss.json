@@ -1,0 +1,483 @@
+{
+  "collected_at": "2026-09-03T20:35:24.036859+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "EvalDetectBench: A Benchmark for Measuring Evaluation Awareness in Frontier Language Models",
+      "url": "https://arxiv.org/abs/2609.01611",
+      "description": "arXiv:2609.01611v1 Announce Type: new \nAbstract: Frontier large language models can often recognize when they are being evaluated, a capability known as evaluation awareness. If models behave differently in evaluations than in deployment, this undermines the validity of evaluation results, which are a crucial component of current AI safety frameworks. We introduce EvalDetectBench, an open pipeline and benchmark for measuring evaluation awareness that works with any Inspect-compatible evaluation, allowing practitioners to test against current and future benchmarks. EvalDetectBench ships with a newly curated transcript suite covering current frontier system-card evaluations and diverse deployment sources. The benchmark serves two purposes: measuring how reliably frontier LLMs recognize that they are being evaluated, and assessing how detectable individual benchmarks are as evaluations. We identify two methodological choices in the existing literature that introduce systematic bias: the identity of the model that generated the deployment transcripts accounts for 11.25% of measurement variance and can reorder model rankings; and elicitation prompts selected for high performance on one model can perform near chance on others. EvalDetectBench corrects for both via per-model probe calibration and a stratified generator-harmonisation procedure.",
+      "pub_date": "Thu, 03 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "EvalDetectBench：评估前沿语言模型评估意识的基准",
+        "summary": "EvalDetectBench是一个开放管道和基准，用于测量前沿LLM的评估意识，即模型识别自身被评估的能力。它兼容任何Inspect评估，提供新整理的转录集，并校正现有方法中的系统性偏差，如生成者身份和提示选择问题，确保测量可靠性。",
+        "summary_en": "EvalDetectBench is an open pipeline and benchmark for measuring evaluation awareness in frontier LLMs, compatible with Inspect evaluations. It provides curated transcripts and corrects systematic biases in existing methods, such as generator identity and prompt selection, ensuring reliable measurement.",
+        "tags": [
+          "benchmark",
+          "llm",
+          "evaluation",
+          "research"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-03-rss-001",
+        "title": "EvalDetectBench：评估前沿语言模型评估意识的基准",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.01611",
+        "language": "en",
+        "summary": "EvalDetectBench是一个开放管道和基准，用于测量前沿LLM的评估意识，即模型识别自身被评估的能力。它兼容任何Inspect评估，提供新整理的转录集，并校正现有方法中的系统性偏差，如生成者身份和提示选择问题，确保测量可靠性。",
+        "summary_en": "EvalDetectBench is an open pipeline and benchmark for measuring evaluation awareness in frontier LLMs, compatible with Inspect evaluations. It provides curated transcripts and corrects systematic biases in existing methods, such as generator identity and prompt selection, ensuring reliable measurement.",
+        "tags": [
+          "benchmark",
+          "llm",
+          "evaluation",
+          "research"
+        ],
+        "category": "benchmark",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-09-03T20:35:24.035969+08:00",
+        "updated_at": "2026-09-03T20:35:24.035972+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Meta-ethics and AI: exploring the novel meta-ethical questions in the era of AI",
+      "url": "https://arxiv.org/abs/2609.01685",
+      "description": "arXiv:2609.01685v1 Announce Type: new \nAbstract: With the development of artificial intelligence (AI), the landscape of meta-ethics, which has largely centred on human ethics, faces pressures that may significantly reconfigure it. In particular, if future AI systems were to exhibit sufficiently integrated capacities for moral reasoning, moral intentionality, and moral reflection, novel meta-ethical questions would arise concerning what I call \"AI's own ethics\", as distinct from ethical principles merely imposed on AI by human designers. This paper offers a conditional and methodological framework for identifying the questions that would emerge if such AI systems were to arise. On that basis, the paper distinguishes four domains of meta-ethical inquiry in the era of AI: questions about the nature of human ethics from the human perspective; questions about the nature of AI's own ethics from the human perspective; questions about the nature of human ethics from the AI perspective; and questions about the nature of AI's own ethics from the AI perspective. The paper then considers how some existing mainstream meta-ethical theories (such as cognitivism and non-cognitivism, error theory and success theory, relativism, and objective realism) might illuminate these domains, while arguing that many familiar human-centred formulations of those theories may not transfer straightforwardly to AI cases without substantial revision. The overall conclusion is that the emergence of AI's own ethics would place significant pressure on current frameworks and may require substantial refinement, reconstruction, or reconceptualisation.",
+      "pub_date": "Thu, 03 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "元伦理与人工智能：探索人工智能时代的新元伦理问题",
+        "summary": "本文探讨人工智能发展对元伦理学的挑战，提出未来AI若具备道德推理、意向和反思能力，将产生“AI自身伦理”的新问题。论文构建了条件性方法论框架，区分四个元伦理探究领域，并分析主流元伦理理论在AI情境下的适用性，认为需对现有框架进行重大修正或重构。",
+        "summary_en": null,
+        "tags": [
+          "research",
+          "llm",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-03-rss-008",
+        "title": "元伦理与人工智能：探索人工智能时代的新元伦理问题",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.01685",
+        "language": "en",
+        "summary": "本文探讨人工智能发展对元伦理学的挑战，提出未来AI若具备道德推理、意向和反思能力，将产生“AI自身伦理”的新问题。论文构建了条件性方法论框架，区分四个元伦理探究领域，并分析主流元伦理理论在AI情境下的适用性，认为需对现有框架进行重大修正或重构。",
+        "summary_en": null,
+        "tags": [
+          "research",
+          "llm",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "status": "published",
+        "created_at": "2026-09-03T20:35:24.036021+08:00",
+        "updated_at": "2026-09-03T20:35:24.036023+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "When Can a Machine Trust a Statute? A Survival Certificate for Machine-Extracted Legal Logic",
+      "url": "https://arxiv.org/abs/2609.01741",
+      "description": "arXiv:2609.01741v1 Announce Type: new \nAbstract: Statutes are increasingly parsed by machines before people read them, and the parsers disagree: on Missouri's statutes, two independently written extractors diverge on numeric-threshold presence at a false-negative rate of 0.43. We ask what formal logic survives such noise. We build a passive survival certificate for the Duquenne-Guigues implication basis of machine-extracted statutory contexts: per-attribute inter-extractor disagreement is measured, replayed against the basis in 1,000 Monte Carlo trials, and an implication is certified only when a one-sided Wilson 95% lower bound on survival reaches 0.95; every certified implication carries premise spans and a minimal counterexample. On 29,365 Missouri sections and 502 Indian central-Act sections, the preregistered held-out gate passes (10 statute families across 7 Titles exact; 16 across 11 with 5% tolerance), yet under one globally deployed error model 93.2% of held-out chapters fall below the informativeness floor, and a 2x2 factorial assigns that to calibration-rate transfer, not selection. The certificate is usable but fragile: deploy it per-chapter-calibrated or error-tolerant. Code, data products, and the audit trail, including one retracted claim, are released.",
+      "pub_date": "Thu, 03 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "机器何时能信任法规？机器提取法律逻辑的生存证书",
+        "summary": "该研究针对机器解析法规时提取器不一致的问题（如密苏里州法规数值阈值假阴性率0.43），提出被动生存证书方法，基于Duquenne-Guigues蕴含基，通过蒙特卡洛试验和Wilson置信区间认证蕴含关系，并附带前提跨度与最小反例。在大量法规数据上验证，但发现跨章节校准脆弱，需按章节校准或容忍错误。",
+        "summary_en": "The paper addresses inconsistency in machine-extracted legal statutes, proposing a passive survival certificate for implications using Monte Carlo trials and Wilson confidence intervals. Validated on large datasets, it finds the certificate fragile across chapters, requiring per-chapter calibration or error tolerance.",
+        "tags": [
+          "research",
+          "benchmark",
+          "evaluation",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.6,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-03-rss-010",
+        "title": "机器何时能信任法规？机器提取法律逻辑的生存证书",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.01741",
+        "language": "en",
+        "summary": "该研究针对机器解析法规时提取器不一致的问题（如密苏里州法规数值阈值假阴性率0.43），提出被动生存证书方法，基于Duquenne-Guigues蕴含基，通过蒙特卡洛试验和Wilson置信区间认证蕴含关系，并附带前提跨度与最小反例。在大量法规数据上验证，但发现跨章节校准脆弱，需按章节校准或容忍错误。",
+        "summary_en": "The paper addresses inconsistency in machine-extracted legal statutes, proposing a passive survival certificate for implications using Monte Carlo trials and Wilson confidence intervals. Validated on large datasets, it finds the certificate fragile across chapters, requiring per-chapter calibration or error tolerance.",
+        "tags": [
+          "research",
+          "benchmark",
+          "evaluation",
+          "llm"
+        ],
+        "category": "research",
+        "relevance_score": 0.6,
+        "status": "published",
+        "created_at": "2026-09-03T20:35:24.036030+08:00",
+        "updated_at": "2026-09-03T20:35:24.036031+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "When Does Information Sharing Improve Decentralized Discovery? Aggregation, Independent Rescue, and Equilibrium Selection",
+      "url": "https://arxiv.org/abs/2609.01814",
+      "description": "arXiv:2609.01814v1 Announce Type: new \nAbstract: Information sharing can improve a pooled estimate while eliminating independent rescue actions. This paper separates those effects in exact finite discovery models. A centralized action-budget profile shows that equal one-person accuracy can coexist with different portfolio values. Under a registered incremental-sharing protocol, a sharing step improves discovery exactly when pooled residual error contracts faster than an independent rescue attempt. Exact bounded registries exhibit compression, aggregation, neutral curves, and a bounded zero mixed class. In a two-agent Bayesian game with a hidden mixture of common and independent signal sources, the registered selected equilibrium yields a strict positive sharing interval at signal accuracy 3/5, while alternative equilibria show that the result is selection-dependent rather than universal. The models are synthetic and finite; no human or organizational data are used.",
+      "pub_date": "Thu, 03 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "信息共享何时改善分散式发现？聚合、独立救援与均衡选择",
+        "summary": "本文通过精确有限发现模型，分离信息共享对聚合估计与独立救援的影响。提出注册增量共享协议，证明共享改善发现的条件是池化残差收缩快于独立救援。在双智能体贝叶斯博弈中，均衡选择决定共享区间存在与否。",
+        "summary_en": "This paper separates the effects of information sharing on pooled estimates and independent rescue in finite discovery models, showing sharing improves discovery when pooled residual error contracts faster, with equilibrium selection determining outcomes.",
+        "tags": [
+          "research",
+          "llm",
+          "agent-framework",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-03-rss-009",
+        "title": "信息共享何时改善分散式发现？聚合、独立救援与均衡选择",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.01814",
+        "language": "en",
+        "summary": "本文通过精确有限发现模型，分离信息共享对聚合估计与独立救援的影响。提出注册增量共享协议，证明共享改善发现的条件是池化残差收缩快于独立救援。在双智能体贝叶斯博弈中，均衡选择决定共享区间存在与否。",
+        "summary_en": "This paper separates the effects of information sharing on pooled estimates and independent rescue in finite discovery models, showing sharing improves discovery when pooled residual error contracts faster, with equilibrium selection determining outcomes.",
+        "tags": [
+          "research",
+          "llm",
+          "agent-framework",
+          "benchmark"
+        ],
+        "category": "research",
+        "relevance_score": 0.8,
+        "status": "published",
+        "created_at": "2026-09-03T20:35:24.036025+08:00",
+        "updated_at": "2026-09-03T20:35:24.036027+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Induction and Inquiry via Probabilistic Reasoning over Language and Code",
+      "url": "https://arxiv.org/abs/2609.01815",
+      "description": "arXiv:2609.01815v1 Announce Type: new \nAbstract: How humans grow and maintain abstract knowledge from the sparse, streaming noisy data of experience is a longstanding challenge in cognitive science. Any computational account must satisfy at least three desiderata: It must be (1) data-efficient and compute-efficient, (2) capture gradations of uncertainty to support intelligent inquiry and information gathering, and (3) be flexible enough to mentally represent the endless range of concepts people can learn and think about. Here we introduce a computational model that captures these three properties, by encoding symbolic knowledge as mental programs that combine natural language with source code, and sequentially inferring mental programs using LLM-guided Bayesian learning algorithms. Across a range of behavioral studies this model successfully reproduces quantitative signatures of human inductive learning and active inquiry, such as anchoring, garden-pathing, and other effects. In contrast, pure LLMs and classic Bayesian models either fail at the underlying task, or do not reproduce human behavior, or succeed only at exorbitant computational cost. These results suggest that one way humans continually grow their knowledge is by mentally representing many hypotheses spanning language-like and program-like representations, then revising those hypotheses to approximate Bayesian updates, while a bottom-up neural mechanism (an LLM) makes inference both tractable and learnable.",
+      "pub_date": "Thu, 03 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "通过语言和代码的概率推理实现归纳与探究",
+        "summary": "该论文提出一个计算模型，将符号知识编码为结合自然语言和源代码的“心理程序”，并使用LLM引导的贝叶斯学习算法进行序贯推断。模型在多项行为研究中成功复现了人类归纳学习和主动探究的定量特征，如锚定效应和花园路径效应。相比之下，纯LLM和经典贝叶斯模型要么失败，要么无法复现人类行为，要么计算成本过高。结果表明，人类通过近似贝叶斯更新的假设修正来增长知识，而LLM作为自下而上的神经机制使推断可行且可学习。",
+        "summary_en": "This paper introduces a computational model encoding symbolic knowledge as mental programs combining natural language and source code, inferred via LLM-guided Bayesian learning. It reproduces human inductive learning and active inquiry signatures, outperforming pure LLMs and classic Bayesian models in efficiency and behavioral fidelity.",
+        "tags": [
+          "llm",
+          "research",
+          "bayesian",
+          "cognitive-science",
+          "program"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-03-rss-004",
+        "title": "通过语言和代码的概率推理实现归纳与探究",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.01815",
+        "language": "en",
+        "summary": "该论文提出一个计算模型，将符号知识编码为结合自然语言和源代码的“心理程序”，并使用LLM引导的贝叶斯学习算法进行序贯推断。模型在多项行为研究中成功复现了人类归纳学习和主动探究的定量特征，如锚定效应和花园路径效应。相比之下，纯LLM和经典贝叶斯模型要么失败，要么无法复现人类行为，要么计算成本过高。结果表明，人类通过近似贝叶斯更新的假设修正来增长知识，而LLM作为自下而上的神经机制使推断可行且可学习。",
+        "summary_en": "This paper introduces a computational model encoding symbolic knowledge as mental programs combining natural language and source code, inferred via LLM-guided Bayesian learning. It reproduces human inductive learning and active inquiry signatures, outperforming pure LLMs and classic Bayesian models in efficiency and behavioral fidelity.",
+        "tags": [
+          "llm",
+          "research",
+          "bayesian",
+          "cognitive-science",
+          "program"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-09-03T20:35:24.035985+08:00",
+        "updated_at": "2026-09-03T20:35:24.035987+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "PRO-Step: Step-level Process Reward Optimization for Retrieval-Augmented Generation",
+      "url": "https://arxiv.org/abs/2609.01658",
+      "description": "arXiv:2609.01658v1 Announce Type: new \nAbstract: Retrieval-Augmented Generation enhances Large Language Models by grounding responses in external knowledge, but multi-hop reasoning remains vulnerable to error propagation, where early retrieval failures confound subsequent steps. Standard outcome-based optimization only rewards the final answer, leaving intermediate retrieval and reasoning errors undetected. While existing process-based methods introduce step-level signals, they still score each step against the final answer, rewarding spurious successes where flawed retrieval coincidentally produces the correct answer. Step-level supervision in RAG requires evaluating both logical validity and evidential grounding at each step. We introduce PRO-STEP: we train a generative PRM that evaluates both dimensions, employ PRM-guided value tree search to construct preference pairs contrasting valid steps against flawed ones, and optimize the policy via step-level Direct Preference Optimization. Experiments on single and multi-hop QA datasets demonstrate that PRO-STEP achieves the best average EM and F1 across five benchmarks. Code, models, and training data are publicly available at https://github.com/keemminnke/PRO-Step.",
+      "pub_date": "Thu, 03 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "PRO-Step：面向检索增强生成的步骤级过程奖励优化",
+        "summary": "PRO-Step 提出一种用于检索增强生成（RAG）的步骤级过程奖励优化方法。它训练生成式过程奖励模型（PRM）同时评估逻辑有效性和证据基础，利用PRM引导的值树搜索构建偏好对，并通过步骤级直接偏好优化（DPO）优化策略，以解决多跳推理中的错误传播和虚假成功问题。在五个基准上取得最佳平均EM和F1。",
+        "summary_en": "PRO-Step introduces a step-level process reward optimization method for RAG. It trains a generative PRM to evaluate both logical validity and evidential grounding, uses PRM-guided value tree search to construct preference pairs, and optimizes the policy via step-level DPO, addressing error propagation and spurious successes in multi-hop reasoning. Achieves best average EM and F1 across five benchmarks.",
+        "tags": [
+          "rag",
+          "fine-tuning",
+          "research",
+          "llm",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-03-rss-002",
+        "title": "PRO-Step：面向检索增强生成的步骤级过程奖励优化",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.01658",
+        "language": "en",
+        "summary": "PRO-Step 提出一种用于检索增强生成（RAG）的步骤级过程奖励优化方法。它训练生成式过程奖励模型（PRM）同时评估逻辑有效性和证据基础，利用PRM引导的值树搜索构建偏好对，并通过步骤级直接偏好优化（DPO）优化策略，以解决多跳推理中的错误传播和虚假成功问题。在五个基准上取得最佳平均EM和F1。",
+        "summary_en": "PRO-Step introduces a step-level process reward optimization method for RAG. It trains a generative PRM to evaluate both logical validity and evidential grounding, uses PRM-guided value tree search to construct preference pairs, and optimizes the policy via step-level DPO, addressing error propagation and spurious successes in multi-hop reasoning. Achieves best average EM and F1 across five benchmarks.",
+        "tags": [
+          "rag",
+          "fine-tuning",
+          "research",
+          "llm",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-09-03T20:35:24.035977+08:00",
+        "updated_at": "2026-09-03T20:35:24.035978+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Learning Evidence Sufficiency Boundaries for Selective Answering in Grounded Multi-Hop QA",
+      "url": "https://arxiv.org/abs/2609.01687",
+      "description": "arXiv:2609.01687v1 Announce Type: new \nAbstract: Grounded question answering systems should answer only when the supplied evidence supports the answer. In multi-hop QA, this requirement is difficult because partial evidence can make an unsupported answer appear plausible. We study selective answering through evidence sufficiency boundaries: for the same question, a model should abstain under unsupported or partially supported context, answer when the context first becomes sufficient, and keep the answer stable when redundant evidence is added. We introduce Evidence Sufficiency Boundary Training, a generation-native training framework that constructs ordered evidence chains and supervises the abstain-to-answer transition directly. The method combines level supervision, a boundary flip margin, post-boundary stability, and answer recall protection. We build evidence chains from HotpotQA, 2WikiMultiHopQA, and MuSiQue, then evaluate models with chain metrics, raw QA utility, and unsupported-answer rates on external non-answerable sets. With Qwen2.5-3B-Instruct and LoRA adaptation, Evidence Sufficiency Boundary Training gives the strongest boundary localization among the tested systems, with flip accuracy of 0.807 compared with 0.781 for a token-level abstention baseline. It also achieves the lowest overall unsupported-answer rate on external non-answerable evaluation, 0.095 compared with 0.101 for the same baseline, while retaining competitive raw QA F1. The results show that grounded selective answering improves when training marks the evidence level where refusal should give way to answering.",
+      "pub_date": "Thu, 03 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "证据充分性边界学习：面向多跳问答的选择性回答",
+        "summary": "提出证据充分性边界训练框架，通过构建有序证据链并监督从弃答到回答的转换，提升多跳问答的选择性回答能力。在HotpotQA等数据集上，该方法在边界定位和减少无依据回答方面优于基线，同时保持竞争性的QA性能。",
+        "summary_en": "Introduces Evidence Sufficiency Boundary Training, a generation-native framework that supervises the abstain-to-answer transition using ordered evidence chains, improving selective answering in multi-hop QA with better boundary localization and lower unsupported-answer rates.",
+        "tags": [
+          "llm",
+          "research",
+          "rag",
+          "fine-tuning",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-03-rss-003",
+        "title": "证据充分性边界学习：面向多跳问答的选择性回答",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.01687",
+        "language": "en",
+        "summary": "提出证据充分性边界训练框架，通过构建有序证据链并监督从弃答到回答的转换，提升多跳问答的选择性回答能力。在HotpotQA等数据集上，该方法在边界定位和减少无依据回答方面优于基线，同时保持竞争性的QA性能。",
+        "summary_en": "Introduces Evidence Sufficiency Boundary Training, a generation-native framework that supervises the abstain-to-answer transition using ordered evidence chains, improving selective answering in multi-hop QA with better boundary localization and lower unsupported-answer rates.",
+        "tags": [
+          "llm",
+          "research",
+          "rag",
+          "fine-tuning",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-09-03T20:35:24.035981+08:00",
+        "updated_at": "2026-09-03T20:35:24.035983+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "SpeakPay: Domain-Adaptive LoRA Fine-Tuning of Whisper for Low-Resource Nepali Financial Speech Recognition",
+      "url": "https://arxiv.org/abs/2609.01737",
+      "description": "arXiv:2609.01737v1 Announce Type: new \nAbstract: Mobile payment applications in Nepal are graphically mediated and largely inaccessible to visually impaired users. This paper presents SpeakPay, a voice-first digital wallet, and documents the central technical contribution: a controlled study of domain adaptation for low-resource financial speech recognition. We introduce NepFinSpeech-403, a 403-utterance dataset of Nepali financial voice commands (send, load, and balance operations spanning 237 unique numerals), and fine-tune Whisper large-v2 with LoRA. On the held-out test set, the domain-adapted model reduces Word Error Rate from 129.95% (zero-shot baseline) to 42.58% --- a 67.2% relative reduction --- and improves Devanagari numeral recognition accuracy from 0.0% to 73.9%. We find that word-level metrics understate the practical task-level impact: domain adaptation improves the Transaction Success Rate from 1.67% to 33.33%, a roughly 20x gain. The improvement is consistent at the individual-utterance level (sign test, $p < 10^{-17}$) and across all command types. A data efficiency analysis shows that as few as 100 domain-specific utterances are sufficient to halve the zero-shot WER, with performance plateauing around 300 examples. Error analysis reveals systematic numeral confusion patterns (zero insertion/deletion, prefix hallucination) that account for the majority of remaining transaction failures. The trained system is deployed as a publicly accessible voice-first web application. All code, dataset, model weights, and this paper are released at https://github.com/subedibiraj/speakpay.",
+      "pub_date": "Thu, 03 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "SpeakPay：针对低资源尼泊尔语金融语音识别的领域自适应LoRA微调Whisper",
+        "summary": "SpeakPay提出语音优先的数字钱包，通过LoRA微调Whisper large-v2实现尼泊尔语金融语音识别。引入403条话语的NepFinSpeech-403数据集，将词错误率从129.95%降至42.58%，数字识别准确率从0%提升至73.9%，交易成功率提升20倍。仅需100条数据即可减半WER，系统已部署为公开Web应用。",
+        "summary_en": "SpeakPay presents a voice-first digital wallet using LoRA fine-tuning of Whisper for Nepali financial speech recognition. With a 403-utterance dataset, WER drops from 129.95% to 42.58%, numeral accuracy from 0% to 73.9%, and transaction success improves 20x. Only 100 examples halve WER. Deployed as a public web app.",
+        "tags": [
+          "fine-tuning",
+          "llm",
+          "application",
+          "multimodal",
+          "open-source"
+        ],
+        "category": "application",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-03-rss-006",
+        "title": "SpeakPay：针对低资源尼泊尔语金融语音识别的领域自适应LoRA微调Whisper",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.01737",
+        "language": "en",
+        "summary": "SpeakPay提出语音优先的数字钱包，通过LoRA微调Whisper large-v2实现尼泊尔语金融语音识别。引入403条话语的NepFinSpeech-403数据集，将词错误率从129.95%降至42.58%，数字识别准确率从0%提升至73.9%，交易成功率提升20倍。仅需100条数据即可减半WER，系统已部署为公开Web应用。",
+        "summary_en": "SpeakPay presents a voice-first digital wallet using LoRA fine-tuning of Whisper for Nepali financial speech recognition. With a 403-utterance dataset, WER drops from 129.95% to 42.58%, numeral accuracy from 0% to 73.9%, and transaction success improves 20x. Only 100 examples halve WER. Deployed as a public web app.",
+        "tags": [
+          "fine-tuning",
+          "llm",
+          "application",
+          "multimodal",
+          "open-source"
+        ],
+        "category": "application",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-09-03T20:35:24.035994+08:00",
+        "updated_at": "2026-09-03T20:35:24.035995+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "MemeCULT-1K: Benchmarking South Asian Cultural Context and Humor Understanding of Multimodal Models",
+      "url": "https://arxiv.org/abs/2609.01772",
+      "description": "arXiv:2609.01772v1 Announce Type: new \nAbstract: Meme understanding goes beyond recognizing visual content or literal text; it requires implicit cultural knowledge and pragmatic inference that most vision-language models still lack. We introduce MemeCULT-1K, a multilingual benchmark of 1,000 South Asian memes in Bengali, English, and Hindi, where each meme is paired with a cultural context note and three human-written explanations, along with a supplementary set of 54 Bengali regional dialect memes. We evaluate thirteen popular Vision Language Models (VLMs) under two settings: meme-only and context-aware. Providing minimal cultural context yields consistent gains across all models and languages: mean SBERT similarity improves from 44.6 to 56.4 (+11.8), BLEURT from 37.3 to 42.3 (+5.0), and LLM-as-a-Judge scores from 2.57 to 3.43 out of 5 (+0.86). Fine-grained error analysis reveals that closed-source models fail mainly on entity and reference misidentification, while open-source models are bottlenecked by broader cultural knowledge gaps, with linguistic and phonological failures proving the most context-resistant across both. These results highlight the difficulty of culturally grounded meme understanding and motivate future work on explicit cultural knowledge integration. Our dataset and code are publicly available at TawsifDipto17/MemeCULT-1K.",
+      "pub_date": "Thu, 03 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "MemeCULT-1K：南亚文化语境与幽默理解多模态模型基准测试",
+        "summary": "MemeCULT-1K是一个包含1000个南亚多语言模因（孟加拉语、英语、印地语）的基准数据集，每个模因配有文化背景注释和人工解释。评估13个视觉语言模型发现，提供文化上下文可显著提升性能（SBERT相似度+11.8）。错误分析显示闭源模型主要失败于实体识别，开源模型受文化知识差距限制。",
+        "summary_en": "MemeCULT-1K is a benchmark of 1,000 South Asian memes in Bengali, English, and Hindi, each with cultural context notes. Evaluating 13 VLMs shows that providing cultural context improves performance (SBERT +11.8). Error analysis reveals closed-source models fail on entity identification, while open-source models lack cultural knowledge.",
+        "tags": [
+          "benchmark",
+          "multimodal",
+          "research",
+          "evaluation"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-03-rss-007",
+        "title": "MemeCULT-1K：南亚文化语境与幽默理解多模态模型基准测试",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.01772",
+        "language": "en",
+        "summary": "MemeCULT-1K是一个包含1000个南亚多语言模因（孟加拉语、英语、印地语）的基准数据集，每个模因配有文化背景注释和人工解释。评估13个视觉语言模型发现，提供文化上下文可显著提升性能（SBERT相似度+11.8）。错误分析显示闭源模型主要失败于实体识别，开源模型受文化知识差距限制。",
+        "summary_en": "MemeCULT-1K is a benchmark of 1,000 South Asian memes in Bengali, English, and Hindi, each with cultural context notes. Evaluating 13 VLMs shows that providing cultural context improves performance (SBERT +11.8). Error analysis reveals closed-source models fail on entity identification, while open-source models lack cultural knowledge.",
+        "tags": [
+          "benchmark",
+          "multimodal",
+          "research",
+          "evaluation"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-09-03T20:35:24.035997+08:00",
+        "updated_at": "2026-09-03T20:35:24.035999+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "VakyArth: Evaluating Pragmatic Competence in LLMs across Indic Languages",
+      "url": "https://arxiv.org/abs/2609.01788",
+      "description": "arXiv:2609.01788v1 Announce Type: new \nAbstract: Real-world communication often requires pragmatic reasoning: interpreting meanings implied through context and cultural convention rather than stated literally. Existing pragmatic evaluation remains largely limited to English and high-resource languages, leaving Indic languages unexplored despite their linguistic and cultural diversity. We introduce VakyArth, the first pragmatic benchmark for Indic languages, designed as a diagnostic evaluation covering Hindi, Punjabi, Tamil, and Malayalam. VakyArth evaluates models across five phenomena: deixis, speech acts, implicature, social pragmatics, and coherence; through multiple-choice questions, natural language inference, and translation, with all items authored by native speakers. Across multilingual large language models (LLMs) of varying families and sizes, we find consistent failures on pragmatic meanings rooted in Indic linguistic and cultural conventions. Our analysis shows systematic differences across languages and tasks: MCQ accuracy exceeds NLI accuracy in all model-language combinations, translation performance does not reliably track pragmatic understanding, and Indo-Aryan languages show a translation advantage over Dravidian languages. We further show that automatic translation metrics can miss fluent but pragmatically unfaithful outputs, especially for implicature and deixis.",
+      "pub_date": "Thu, 03 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "VakyArth：评估大语言模型在印度语言中的语用能力",
+        "summary": "VakyArth是首个针对印度语言的语用基准，涵盖印地语、旁遮普语、泰米尔语和马拉雅拉姆语，评估五种语用现象。研究发现多语言LLM在印度语用惯例上表现不佳，且翻译指标可能遗漏语用不忠实的输出。",
+        "summary_en": "VakyArth is the first pragmatic benchmark for Indic languages, covering Hindi, Punjabi, Tamil, and Malayalam, evaluating five pragmatic phenomena. Findings show multilingual LLMs struggle with Indic pragmatic conventions, and translation metrics may miss pragmatically unfaithful outputs.",
+        "tags": [
+          "benchmark",
+          "llm",
+          "evaluation",
+          "multimodal"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-03-rss-005",
+        "title": "VakyArth：评估大语言模型在印度语言中的语用能力",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.01788",
+        "language": "en",
+        "summary": "VakyArth是首个针对印度语言的语用基准，涵盖印地语、旁遮普语、泰米尔语和马拉雅拉姆语，评估五种语用现象。研究发现多语言LLM在印度语用惯例上表现不佳，且翻译指标可能遗漏语用不忠实的输出。",
+        "summary_en": "VakyArth is the first pragmatic benchmark for Indic languages, covering Hindi, Punjabi, Tamil, and Malayalam, evaluating five pragmatic phenomena. Findings show multilingual LLMs struggle with Indic pragmatic conventions, and translation metrics may miss pragmatically unfaithful outputs.",
+        "tags": [
+          "benchmark",
+          "llm",
+          "evaluation",
+          "multimodal"
+        ],
+        "category": "benchmark",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-09-03T20:35:24.035989+08:00",
+        "updated_at": "2026-09-03T20:35:24.035991+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

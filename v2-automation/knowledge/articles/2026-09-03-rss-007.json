@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-03-rss-007",
+  "title": "MemeCULT-1K：南亚文化语境与幽默理解多模态模型基准测试",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.01772",
+  "language": "en",
+  "summary": "MemeCULT-1K是一个包含1000个南亚多语言模因（孟加拉语、英语、印地语）的基准数据集，每个模因配有文化背景注释和人工解释。评估13个视觉语言模型发现，提供文化上下文可显著提升性能（SBERT相似度+11.8）。错误分析显示闭源模型主要失败于实体识别，开源模型受文化知识差距限制。",
+  "summary_en": "MemeCULT-1K is a benchmark of 1,000 South Asian memes in Bengali, English, and Hindi, each with cultural context notes. Evaluating 13 VLMs shows that providing cultural context improves performance (SBERT +11.8). Error analysis reveals closed-source models fail on entity identification, while open-source models lack cultural knowledge.",
+  "tags": [
+    "benchmark",
+    "multimodal",
+    "research",
+    "evaluation"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-09-03T20:35:24.035997+08:00",
+  "updated_at": "2026-09-03T20:35:24.035999+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

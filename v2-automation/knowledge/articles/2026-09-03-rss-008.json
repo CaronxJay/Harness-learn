@@ -1,0 +1,24 @@
+{
+  "id": "2026-09-03-rss-008",
+  "title": "元伦理与人工智能：探索人工智能时代的新元伦理问题",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.01685",
+  "language": "en",
+  "summary": "本文探讨人工智能发展对元伦理学的挑战，提出未来AI若具备道德推理、意向和反思能力，将产生“AI自身伦理”的新问题。论文构建了条件性方法论框架，区分四个元伦理探究领域，并分析主流元伦理理论在AI情境下的适用性，认为需对现有框架进行重大修正或重构。",
+  "summary_en": null,
+  "tags": [
+    "research",
+    "llm",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.8,
+  "status": "published",
+  "created_at": "2026-09-03T20:35:24.036021+08:00",
+  "updated_at": "2026-09-03T20:35:24.036023+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

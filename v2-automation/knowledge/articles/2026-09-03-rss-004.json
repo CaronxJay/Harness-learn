@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-03-rss-004",
+  "title": "通过语言和代码的概率推理实现归纳与探究",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.01815",
+  "language": "en",
+  "summary": "该论文提出一个计算模型，将符号知识编码为结合自然语言和源代码的“心理程序”，并使用LLM引导的贝叶斯学习算法进行序贯推断。模型在多项行为研究中成功复现了人类归纳学习和主动探究的定量特征，如锚定效应和花园路径效应。相比之下，纯LLM和经典贝叶斯模型要么失败，要么无法复现人类行为，要么计算成本过高。结果表明，人类通过近似贝叶斯更新的假设修正来增长知识，而LLM作为自下而上的神经机制使推断可行且可学习。",
+  "summary_en": "This paper introduces a computational model encoding symbolic knowledge as mental programs combining natural language and source code, inferred via LLM-guided Bayesian learning. It reproduces human inductive learning and active inquiry signatures, outperforming pure LLMs and classic Bayesian models in efficiency and behavioral fidelity.",
+  "tags": [
+    "llm",
+    "research",
+    "bayesian",
+    "cognitive-science",
+    "program"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-09-03T20:35:24.035985+08:00",
+  "updated_at": "2026-09-03T20:35:24.035987+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

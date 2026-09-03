@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-03-rss-005",
+  "title": "VakyArth：评估大语言模型在印度语言中的语用能力",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.01788",
+  "language": "en",
+  "summary": "VakyArth是首个针对印度语言的语用基准，涵盖印地语、旁遮普语、泰米尔语和马拉雅拉姆语，评估五种语用现象。研究发现多语言LLM在印度语用惯例上表现不佳，且翻译指标可能遗漏语用不忠实的输出。",
+  "summary_en": "VakyArth is the first pragmatic benchmark for Indic languages, covering Hindi, Punjabi, Tamil, and Malayalam, evaluating five pragmatic phenomena. Findings show multilingual LLMs struggle with Indic pragmatic conventions, and translation metrics may miss pragmatically unfaithful outputs.",
+  "tags": [
+    "benchmark",
+    "llm",
+    "evaluation",
+    "multimodal"
+  ],
+  "category": "benchmark",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-09-03T20:35:24.035989+08:00",
+  "updated_at": "2026-09-03T20:35:24.035991+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

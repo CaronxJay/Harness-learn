@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-03-rss-001",
+  "title": "EvalDetectBench：评估前沿语言模型评估意识的基准",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.01611",
+  "language": "en",
+  "summary": "EvalDetectBench是一个开放管道和基准，用于测量前沿LLM的评估意识，即模型识别自身被评估的能力。它兼容任何Inspect评估，提供新整理的转录集，并校正现有方法中的系统性偏差，如生成者身份和提示选择问题，确保测量可靠性。",
+  "summary_en": "EvalDetectBench is an open pipeline and benchmark for measuring evaluation awareness in frontier LLMs, compatible with Inspect evaluations. It provides curated transcripts and corrects systematic biases in existing methods, such as generator identity and prompt selection, ensuring reliable measurement.",
+  "tags": [
+    "benchmark",
+    "llm",
+    "evaluation",
+    "research"
+  ],
+  "category": "benchmark",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-09-03T20:35:24.035969+08:00",
+  "updated_at": "2026-09-03T20:35:24.035972+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

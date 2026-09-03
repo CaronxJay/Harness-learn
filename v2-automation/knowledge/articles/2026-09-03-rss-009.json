@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-03-rss-009",
+  "title": "信息共享何时改善分散式发现？聚合、独立救援与均衡选择",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.01814",
+  "language": "en",
+  "summary": "本文通过精确有限发现模型，分离信息共享对聚合估计与独立救援的影响。提出注册增量共享协议，证明共享改善发现的条件是池化残差收缩快于独立救援。在双智能体贝叶斯博弈中，均衡选择决定共享区间存在与否。",
+  "summary_en": "This paper separates the effects of information sharing on pooled estimates and independent rescue in finite discovery models, showing sharing improves discovery when pooled residual error contracts faster, with equilibrium selection determining outcomes.",
+  "tags": [
+    "research",
+    "llm",
+    "agent-framework",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.8,
+  "status": "published",
+  "created_at": "2026-09-03T20:35:24.036025+08:00",
+  "updated_at": "2026-09-03T20:35:24.036027+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

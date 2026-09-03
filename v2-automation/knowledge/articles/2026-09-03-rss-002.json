@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-03-rss-002",
+  "title": "PRO-Step：面向检索增强生成的步骤级过程奖励优化",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.01658",
+  "language": "en",
+  "summary": "PRO-Step 提出一种用于检索增强生成（RAG）的步骤级过程奖励优化方法。它训练生成式过程奖励模型（PRM）同时评估逻辑有效性和证据基础，利用PRM引导的值树搜索构建偏好对，并通过步骤级直接偏好优化（DPO）优化策略，以解决多跳推理中的错误传播和虚假成功问题。在五个基准上取得最佳平均EM和F1。",
+  "summary_en": "PRO-Step introduces a step-level process reward optimization method for RAG. It trains a generative PRM to evaluate both logical validity and evidential grounding, uses PRM-guided value tree search to construct preference pairs, and optimizes the policy via step-level DPO, addressing error propagation and spurious successes in multi-hop reasoning. Achieves best average EM and F1 across five benchmarks.",
+  "tags": [
+    "rag",
+    "fine-tuning",
+    "research",
+    "llm",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-09-03T20:35:24.035977+08:00",
+  "updated_at": "2026-09-03T20:35:24.035978+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
