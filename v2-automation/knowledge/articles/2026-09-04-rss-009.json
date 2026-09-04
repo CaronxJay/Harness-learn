@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-04-rss-009",
+  "title": "探针泛化作为子空间选择：用于OOD欺骗检测",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.02893",
+  "language": "en",
+  "summary": "研究发现，线性探针在分布外（OOD）欺骗检测中泛化失败，但将输入投影到训练激活的主成分（PC）子集上可实现跨域迁移，接近直接训练的性能。利用LLM对PC评分选择可迁移方向，可显著缩小基线到最优的差距，表明OOD鲁棒性主要由子空间选择决定。",
+  "summary_en": "Linear probes fail to generalize OOD in deception detection, but projecting onto a subset of principal components from training activations enables cross-domain transfer nearly matching oracle performance. LLM-scored PC selection closes 78%/25% of the gap, suggesting OOD robustness is largely determined by subspace selection.",
+  "tags": [
+    "llm",
+    "research",
+    "benchmark",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-09-04T20:29:12.493512+08:00",
+  "updated_at": "2026-09-04T20:29:12.493513+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

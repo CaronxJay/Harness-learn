@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-04-rss-007",
+  "title": "基于提示工程的通用AI教学助手可扩展灵活实时混合微观个性化方法",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.03402",
+  "language": "en",
+  "summary": "提出基于提示工程的框架，为通用LLM/RAG教学助手（如Jill Watson）实现个性化。通过六个学习者维度（自我评估、抽象偏好等）生成96种画像，并结合Bloom分类法评估查询认知复杂度，以结构化提示条件化LLM，无需重训练。实验显示响应风格差异，初步证明提示个性化可支持自适应行为。",
+  "summary_en": "A prompt-engineering framework personalizes general-purpose LLM/RAG teaching assistants using six learner dimensions yielding 96 profiles and Bloom's Taxonomy for cognitive complexity, conditioning LLM via structured prompts without retraining. Experiments show response differences, supporting adaptive behavior.",
+  "tags": [
+    "prompt-engineering",
+    "llm",
+    "application",
+    "rag",
+    "research"
+  ],
+  "category": "application",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-09-04T20:29:12.493505+08:00",
+  "updated_at": "2026-09-04T20:29:12.493505+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-04-rss-003",
+  "title": "自我进化LLM智能体中，优化价值存在于何处？局部化收益与预算分配陷阱",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.02889",
+  "language": "en",
+  "summary": "本文提出HARNESSEVO，将智能体文本框架分解为角色、任务策略、工具/格式规则、反思/控制四个可独立进化的槽位，并利用留一法分析各槽位贡献。在ALFWorld上，整体成功率无显著提升，但反思/控制槽位贡献了几乎全部价值（+0.119）。均匀分配预算会因低于搜索下限而失效，集中预算于高价值槽位可恢复性能。",
+  "summary_en": "This paper introduces HARNESSEVO, decomposing the agent harness into four evolvable slots and using attribution to show that optimization value is localized in the reflection/control slot. Uniform budget splitting is harmful; concentrating budget on high-credit slots recovers performance.",
+  "tags": [
+    "llm",
+    "agent-framework",
+    "research",
+    "prompt-engineering",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-09-04T20:29:12.493493+08:00",
+  "updated_at": "2026-09-04T20:29:12.493494+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

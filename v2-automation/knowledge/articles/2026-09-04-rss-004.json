@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-04-rss-004",
+  "title": "R²Adapter：面向高效混合RAG的路由与重写适配器",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.02894",
+  "language": "en",
+  "summary": "R²Adapter是一种轻量级插件式适配器，用于在传统RAG与基于图的RAG之间动态分配查询。它仅路由真正需要图推理的查询，减少图检索开销，并重写不确定的图路由查询以提升检索质量。在三个多跳QA基准上，图RAG使用率降低59%，同时保持准确率，且模型无关，易于集成。",
+  "summary_en": "R²Adapter is a lightweight plug-in adapter that dynamically allocates queries between vanilla and graph-based RAG. It routes only queries benefiting from graph reasoning, reducing overhead, and rewrites uncertain graph-routed queries to improve retrieval. On three multi-hop QA benchmarks, it cuts graph RAG usage by up to 59% while maintaining accuracy, and is model-agnostic.",
+  "tags": [
+    "rag",
+    "research",
+    "llm",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-09-04T20:29:12.493496+08:00",
+  "updated_at": "2026-09-04T20:29:12.493497+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,485 @@
+{
+  "collected_at": "2026-09-04T20:29:12.494076+08:00",
+  "source": "rss",
+  "count": 10,
+  "items": [
+    {
+      "title": "Structure and Implementation of New Practical English Textbooks Driven by Artificial Intelligence",
+      "url": "https://arxiv.org/abs/2609.02981",
+      "description": "arXiv:2609.02981v1 Announce Type: new \nAbstract: Artificial intelligence is changing the form of applied English materials from fixed paper sequences to adaptive learning systems that can diagnose learners, recommend tasks, and provide formative feedback. This paper studies the structure and application of a new practical English textbook driven by artificial intelligence. A five-layer architecture is proposed: knowledge mapping, learner profiling, task generation, feedback orchestration, and teacher-side governance. A prototype was tested on 186 non-English-major undergraduates for eight weeks of teaching. Compared with a static digital textbook, the proposed system increased the unit completion accuracy from 72.4% to 84.9%, raised the average score for speaking tasks by 10.8 points, and reduced the teacher's correction time by 31.6%. Therefore, an AI-driven textbook can maintain the stability of the curriculum while providing personalised learning paths, rich practice materials and traceable classroom data.",
+      "pub_date": "Fri, 04 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "人工智能驱动的新型实用英语教材的结构与实现",
+        "summary": "本文提出一种由人工智能驱动的实用英语教材五层架构，包括知识图谱、学习者画像、任务生成、反馈编排和教师端治理。在186名非英语专业本科生中进行了八周教学实验，相比静态数字教材，单元完成准确率从72.4%提升至84.9%，口语任务平均分提高10.8分，教师批改时间减少31.6%。该系统在保持课程稳定性的同时提供个性化学习路径和可追踪的课堂数据。",
+        "summary_en": null,
+        "tags": [
+          "llm",
+          "application",
+          "research",
+          "fine-tuning"
+        ],
+        "category": "application",
+        "relevance_score": 0.8,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-04-rss-010",
+        "title": "人工智能驱动的新型实用英语教材的结构与实现",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.02981",
+        "language": "en",
+        "summary": "本文提出一种由人工智能驱动的实用英语教材五层架构，包括知识图谱、学习者画像、任务生成、反馈编排和教师端治理。在186名非英语专业本科生中进行了八周教学实验，相比静态数字教材，单元完成准确率从72.4%提升至84.9%，口语任务平均分提高10.8分，教师批改时间减少31.6%。该系统在保持课程稳定性的同时提供个性化学习路径和可追踪的课堂数据。",
+        "summary_en": null,
+        "tags": [
+          "llm",
+          "application",
+          "research",
+          "fine-tuning"
+        ],
+        "category": "application",
+        "relevance_score": 0.8,
+        "status": "published",
+        "created_at": "2026-09-04T20:29:12.493514+08:00",
+        "updated_at": "2026-09-04T20:29:12.493515+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "MasterControl Seventeen Every Time",
+      "url": "https://arxiv.org/abs/2609.03209",
+      "description": "arXiv:2609.03209v1 Announce Type: new \nAbstract: We study a governed approach to enterprise analytics: a language model interprets the question, while deterministic policy selects and runs a pre-approved analytical program that returns both results and evidence. We show that this restriction can remain expressive within a defined analytical class, using relational operations plus aggregation, comparison, windows, ranking, and similarity. Fixed meaning, policy, data, and execution rules also make results replayable. Across 440 runs, three 8B models generated SQL and selected tools at runtime, while Qwen3-8B interpreted intent only and policy executed the approved program. None of 330 runtime-planning episodes matched the full answer-and-evidence contract across all test datasets; the policy-executed analyzer matched 110 of 110. This is a configuration-specific result, not evidence that runtime agents cannot succeed under other designs.",
+      "pub_date": "Fri, 04 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "受治理的企业分析：策略执行胜过运行时规划",
+        "summary": "研究一种受治理的企业分析方法：语言模型解释问题，确定性策略选择并运行预批准的分析程序，返回结果和证据。在440次运行中，策略执行的分析器全部匹配答案与证据契约，而运行时规划代理无一成功。",
+        "summary_en": "A governed approach to enterprise analytics: LLM interprets intent, deterministic policy executes pre-approved programs. Policy-executed analyzer matched 110/110 answer-and-evidence contracts, while runtime-planning agents failed all 330 episodes.",
+        "tags": [
+          "llm",
+          "application",
+          "research",
+          "agent-framework"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-04-rss-006",
+        "title": "受治理的企业分析：策略执行胜过运行时规划",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.03209",
+        "language": "en",
+        "summary": "研究一种受治理的企业分析方法：语言模型解释问题，确定性策略选择并运行预批准的分析程序，返回结果和证据。在440次运行中，策略执行的分析器全部匹配答案与证据契约，而运行时规划代理无一成功。",
+        "summary_en": "A governed approach to enterprise analytics: LLM interprets intent, deterministic policy executes pre-approved programs. Policy-executed analyzer matched 110/110 answer-and-evidence contracts, while runtime-planning agents failed all 330 episodes.",
+        "tags": [
+          "llm",
+          "application",
+          "research",
+          "agent-framework"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-09-04T20:29:12.493502+08:00",
+        "updated_at": "2026-09-04T20:29:12.493503+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Speculative Macro Commit for Faster Tool-Using Agents",
+      "url": "https://arxiv.org/abs/2609.03236",
+      "description": "arXiv:2609.03236v1 Announce Type: new \nAbstract: Tool-using LLM agents spend wall-clock time not only on model inference but also in serial action--observation turns, where each tool call, environment transition, and observation can delay subsequent decisions. We introduce \\textbf{Speculative Macro Commit} (SMC), a runtime mechanism for a two-tier agent system: a large authoritative actor model produces the official trajectory, while a faster speculative drafter model continuously predicts and executes future action chains on an isolated environment snapshot. SMC mines recurring multi-action skeletons from training traces and stores them in a macro library used to match against action chains predicted by the drafter at runtime. When the actor's next tool call matches the first drafted action, SMC commits the remaining pre-executed draft steps, together with their observations, to the official trajectory. Using Qwen3.5-27B INT4 as the authoritative actor model and Qwen3.5-4B as the speculative drafter model, SMC matches the sequential agent's overall accuracy while reducing latency by 10.23\\% over the Speculative Actions (SA) baseline and 18.59\\% over sequential execution on the $\\tau^2$-Bench Telecom subset. On AppWorld, SMC reduces wall time by 7.7\\% over SA baseline and 44.9\\% over sequential execution, with a small reduction in task completion. Overall, SMC provides a practical way to reuse multi-step speculative execution and reduce agent latency beyond single-step speculative actions. Our code is publicly available \\href{https://github.com/zeyuliu1037/speculative-macro-commit}{\\textcolor{magenta}{here}}.",
+      "pub_date": "Fri, 04 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "投机宏提交：加速工具使用型智能体",
+        "summary": "提出投机宏提交（SMC）机制，用于双层智能体系统：大型权威模型生成官方轨迹，快速投机模型在隔离环境中预执行动作链。通过挖掘训练轨迹中的多动作骨架存入宏库，运行时匹配并提交预执行步骤。在多个基准上显著降低延迟，同时保持准确率。",
+        "summary_en": "Introduces Speculative Macro Commit (SMC), a runtime mechanism for two-tier agent systems where a fast drafter pre-executes action chains on isolated snapshots. Mining macro skeletons from traces, SMC commits pre-executed steps when matched, reducing latency by up to 44.9% over sequential execution while maintaining accuracy.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "infrastructure"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-04-rss-001",
+        "title": "投机宏提交：加速工具使用型智能体",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.03236",
+        "language": "en",
+        "summary": "提出投机宏提交（SMC）机制，用于双层智能体系统：大型权威模型生成官方轨迹，快速投机模型在隔离环境中预执行动作链。通过挖掘训练轨迹中的多动作骨架存入宏库，运行时匹配并提交预执行步骤。在多个基准上显著降低延迟，同时保持准确率。",
+        "summary_en": "Introduces Speculative Macro Commit (SMC), a runtime mechanism for two-tier agent systems where a fast drafter pre-executes action chains on isolated snapshots. Mining macro skeletons from traces, SMC commits pre-executed steps when matched, reducing latency by up to 44.9% over sequential execution while maintaining accuracy.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "infrastructure"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-09-04T20:29:12.493487+08:00",
+        "updated_at": "2026-09-04T20:29:12.493489+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Fresh Memory, Stale Plans: Dependency-Scoped Validation for Distributed LLM-Agent Memory",
+      "url": "https://arxiv.org/abs/2609.03340",
+      "description": "arXiv:2609.03340v1 Announce Type: new \nAbstract: Distributed LLM-agent teams can read the latest shared facts and still act on an obsolete plan. A planner may derive an action from requirement $r_3$, another agent may commit $r_4$, and an executor may receive $r_4$ without replacing the plan derived from $r_3$. We call this \\emph{stale-plan execution}: state freshness does not establish that the plan authorizing an action remains valid. We introduce PlanFence, a dependency-scoped action-validation protocol. Plans cite the exact public records they used, and an executor validates only the records that can affect the pending external action, replanning once or blocking when validation is incomplete. In 30 controlled live workflows with a post-plan revision, a freshness-only executor acts on the obsolete plan in every task, whereas PlanFence completes all tasks without an invalid action. Controlled replay reveals two conditional boundaries: proactive synchronization yields lower coordination stall at low churn, while PlanFence avoids repeated update-path coordination as churn grows and avoids validating unrelated state as the shared keyspace grows. These are controlled safety and systems-cost results, not general task-accuracy gains.",
+      "pub_date": "Fri, 04 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "PlanFence：面向分布式LLM智能体记忆的依赖范围验证协议",
+        "summary": "PlanFence 解决分布式LLM智能体团队中的“过期计划执行”问题：即使状态新鲜，计划也可能失效。该协议要求计划引用所用公共记录，执行器仅验证影响待执行外部操作的记录，必要时重新规划或阻塞。实验显示，在30个受控工作流中，PlanFence 避免了所有无效操作，而仅检查新鲜度的执行器全部失败。",
+        "summary_en": "PlanFence addresses stale-plan execution in distributed LLM-agent teams, where fresh state doesn't guarantee plan validity. It validates only dependency-scoped records before actions, replanning or blocking as needed. In 30 controlled workflows, PlanFence avoided all invalid actions, unlike freshness-only executors which failed every task.",
+        "tags": [
+          "llm",
+          "agent-framework",
+          "research",
+          "infrastructure"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-04-rss-002",
+        "title": "PlanFence：面向分布式LLM智能体记忆的依赖范围验证协议",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.03340",
+        "language": "en",
+        "summary": "PlanFence 解决分布式LLM智能体团队中的“过期计划执行”问题：即使状态新鲜，计划也可能失效。该协议要求计划引用所用公共记录，执行器仅验证影响待执行外部操作的记录，必要时重新规划或阻塞。实验显示，在30个受控工作流中，PlanFence 避免了所有无效操作，而仅检查新鲜度的执行器全部失败。",
+        "summary_en": "PlanFence addresses stale-plan execution in distributed LLM-agent teams, where fresh state doesn't guarantee plan validity. It validates only dependency-scoped records before actions, replanning or blocking as needed. In 30 controlled workflows, PlanFence avoided all invalid actions, unlike freshness-only executors which failed every task.",
+        "tags": [
+          "llm",
+          "agent-framework",
+          "research",
+          "infrastructure"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-09-04T20:29:12.493491+08:00",
+        "updated_at": "2026-09-04T20:29:12.493492+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "A Prompt-Engineering Approach to Develop Scalable, Flexible, and Real-Time Hybrid Micro-Level Personalization in a General Purpose AI Teaching Assistant",
+      "url": "https://arxiv.org/abs/2609.03402",
+      "description": "arXiv:2609.03402v1 Announce Type: new \nAbstract: Artificial intelligence (AI) teaching assistants powered by large language models (LLMs) offer scalable educational support but often provide limited personalization. This study presents a prompt-engineering-based framework for personalizing general-purpose LLM/RAG-based AI teaching assistants such as Jill Watson across academic disciplines and courses. The framework adapts responses using six learner-specific dimensions: self-assessment, abstraction preference, verbosity preference, perceptual orientation, information processing style, and level of understanding, yielding 96 distinct learner profiles. Student queries are additionally analyzed using Bloom's Taxonomy to estimate cognitive complexity at the interaction level. Learner attributes and cognitive assessments are encoded in structured prompts that condition the LLM without requiring model retraining. The framework is evaluated through experiments using NLP metrics and a human study with five participants. Results show perceived differences in response style and structure across personalization conditions, with statistical analyses identifying learner attributes associated with measurable response changes. These findings provide preliminary evidence that prompt-based personalization can support adaptive behavior in LLM-powered educational agents.",
+      "pub_date": "Fri, 04 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_ai",
+      "_source": "rss",
+      "_analysis": {
+        "title": "基于提示工程的通用AI教学助手可扩展灵活实时混合微观个性化方法",
+        "summary": "提出基于提示工程的框架，为通用LLM/RAG教学助手（如Jill Watson）实现个性化。通过六个学习者维度（自我评估、抽象偏好等）生成96种画像，并结合Bloom分类法评估查询认知复杂度，以结构化提示条件化LLM，无需重训练。实验显示响应风格差异，初步证明提示个性化可支持自适应行为。",
+        "summary_en": "A prompt-engineering framework personalizes general-purpose LLM/RAG teaching assistants using six learner dimensions yielding 96 profiles and Bloom's Taxonomy for cognitive complexity, conditioning LLM via structured prompts without retraining. Experiments show response differences, supporting adaptive behavior.",
+        "tags": [
+          "prompt-engineering",
+          "llm",
+          "application",
+          "rag",
+          "research"
+        ],
+        "category": "application",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-04-rss-007",
+        "title": "基于提示工程的通用AI教学助手可扩展灵活实时混合微观个性化方法",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.03402",
+        "language": "en",
+        "summary": "提出基于提示工程的框架，为通用LLM/RAG教学助手（如Jill Watson）实现个性化。通过六个学习者维度（自我评估、抽象偏好等）生成96种画像，并结合Bloom分类法评估查询认知复杂度，以结构化提示条件化LLM，无需重训练。实验显示响应风格差异，初步证明提示个性化可支持自适应行为。",
+        "summary_en": "A prompt-engineering framework personalizes general-purpose LLM/RAG teaching assistants using six learner dimensions yielding 96 profiles and Bloom's Taxonomy for cognitive complexity, conditioning LLM via structured prompts without retraining. Experiments show response differences, supporting adaptive behavior.",
+        "tags": [
+          "prompt-engineering",
+          "llm",
+          "application",
+          "rag",
+          "research"
+        ],
+        "category": "application",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-09-04T20:29:12.493505+08:00",
+        "updated_at": "2026-09-04T20:29:12.493505+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Where Does Harness-Optimization Value Live? Localized Gains and the Budget-Splitting Trap in Self-Evolving LLM Agents",
+      "url": "https://arxiv.org/abs/2609.02889",
+      "description": "arXiv:2609.02889v1 Announce Type: new \nAbstract: A growing body of work improves frozen large language models (LLMs) as agents by evolving their harness: the textual scaffolding around the model, including persona, strategy, format rules, and control heuristics. Existing reflective prompt-evolution methods usually optimize this harness as one flat string. We instead ask where the optimization value actually resides. We introduce HARNESSEVO, which decomposes the harness into four separately evolvable slots: role, task-strategy, tool/format-rules, and reflection/control. Using the same reflective optimizer under an iso-budget setting, we pair this decomposition with leave-one-in and leave-one-out attribution to measure the contribution of each slot.\n  On ALFWorld with a frozen 7B backbone, HARNESSEVO does not significantly improve the overall binary success rate over either the stock harness or flat-string evolution: 0.657 versus 0.642 and 0.642, respectively. However, the slot-level analysis reveals that nearly all useful optimization value is localized in the reflection/control slot, which achieves a leave-one-in gain of +0.119. The other slots are individually null. We further show that uniform budget splitting is harmful: allocating 64 rollouts across four slots leaves only 16 per slot, below the optimizer's effective search floor, causing every slot to freeze at its empty seed. Concentrating the budget on the high-credit control slot recovers the lost gain, reaching 0.761 with half the split budget.\n  The effect is task-contingent. On WebShop, all slots freeze empty and all methods tie, indicating a genuine absence of recurrent, verbalizable control failures rather than budget starvation. Overall, our results suggest that harness value is localized, uniform budget splitting can be actively harmful, and credit assignment should precede structured agent-evolution.",
+      "pub_date": "Fri, 04 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "自我进化LLM智能体中，优化价值存在于何处？局部化收益与预算分配陷阱",
+        "summary": "本文提出HARNESSEVO，将智能体文本框架分解为角色、任务策略、工具/格式规则、反思/控制四个可独立进化的槽位，并利用留一法分析各槽位贡献。在ALFWorld上，整体成功率无显著提升，但反思/控制槽位贡献了几乎全部价值（+0.119）。均匀分配预算会因低于搜索下限而失效，集中预算于高价值槽位可恢复性能。",
+        "summary_en": "This paper introduces HARNESSEVO, decomposing the agent harness into four evolvable slots and using attribution to show that optimization value is localized in the reflection/control slot. Uniform budget splitting is harmful; concentrating budget on high-credit slots recovers performance.",
+        "tags": [
+          "llm",
+          "agent-framework",
+          "research",
+          "prompt-engineering",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-04-rss-003",
+        "title": "自我进化LLM智能体中，优化价值存在于何处？局部化收益与预算分配陷阱",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.02889",
+        "language": "en",
+        "summary": "本文提出HARNESSEVO，将智能体文本框架分解为角色、任务策略、工具/格式规则、反思/控制四个可独立进化的槽位，并利用留一法分析各槽位贡献。在ALFWorld上，整体成功率无显著提升，但反思/控制槽位贡献了几乎全部价值（+0.119）。均匀分配预算会因低于搜索下限而失效，集中预算于高价值槽位可恢复性能。",
+        "summary_en": "This paper introduces HARNESSEVO, decomposing the agent harness into four evolvable slots and using attribution to show that optimization value is localized in the reflection/control slot. Uniform budget splitting is harmful; concentrating budget on high-credit slots recovers performance.",
+        "tags": [
+          "llm",
+          "agent-framework",
+          "research",
+          "prompt-engineering",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-09-04T20:29:12.493493+08:00",
+        "updated_at": "2026-09-04T20:29:12.493494+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Bounded Personas Match Retrieval on Classification but Not Regression for a Frozen Agent",
+      "url": "https://arxiv.org/abs/2609.02890",
+      "description": "arXiv:2609.02890v1 Announce Type: new \nAbstract: A personalized language agent must convert a user's interaction history into behavior on each new request at inference time. Two strategies dominate. Retrieval pulls a few of the user's most relevant past items into the prompt, which is accurate but pays a per-query selection and context cost that grows with the history. Distillation instead compresses the history once into a compact natural-language persona, which is bounded, query-independent, and interpretable, but is widely assumed to sacrifice accuracy. Whether, and on which tasks, a distilled persona can match retrieval has not been characterized cleanly. We introduce PersonaLink, a training-free method that distills a user's history into a bounded three-field persona and recursively refines it: each pass self-evaluates the frozen agent on a held-out slice of the user's own labeled history, rewrites the persona from its errors, and keeps the result only when it does not regress on that slice. Because every comparison shares one frozen 7B backbone and differs only in what is placed in context, the design isolates the effect of representation from that of the model. The result is a clear task-type asymmetry. On 200 users of LaMP-2 (15-way news categorization), PersonaLink reaches 0.745-0.755 accuracy, statistically indistinguishable from BM25 retrieval (0.760-0.765).",
+      "pub_date": "Fri, 04 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "有界人格匹配检索：在分类任务上表现相当，但在回归任务上不如检索（针对冻结代理）",
+        "summary": "本文提出PersonaLink，一种无需训练的方法，将用户历史蒸馏为有界的三字段人格，并通过递归自我评估和重写进行优化。在LaMP-2新闻分类任务上，其准确率与BM25检索相当，但在回归任务上表现不佳，揭示了任务类型的不对称性。",
+        "summary_en": "Introduces PersonaLink, a training-free method that distills user history into a bounded persona with recursive refinement. On LaMP-2 classification, it matches BM25 retrieval accuracy, but not on regression, revealing task-type asymmetry.",
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "agent-framework",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-04-rss-005",
+        "title": "有界人格匹配检索：在分类任务上表现相当，但在回归任务上不如检索（针对冻结代理）",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.02890",
+        "language": "en",
+        "summary": "本文提出PersonaLink，一种无需训练的方法，将用户历史蒸馏为有界的三字段人格，并通过递归自我评估和重写进行优化。在LaMP-2新闻分类任务上，其准确率与BM25检索相当，但在回归任务上表现不佳，揭示了任务类型的不对称性。",
+        "summary_en": "Introduces PersonaLink, a training-free method that distills user history into a bounded persona with recursive refinement. On LaMP-2 classification, it matches BM25 retrieval accuracy, but not on regression, revealing task-type asymmetry.",
+        "tags": [
+          "llm",
+          "research",
+          "application",
+          "agent-framework",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.95,
+        "status": "published",
+        "created_at": "2026-09-04T20:29:12.493499+08:00",
+        "updated_at": "2026-09-04T20:29:12.493500+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Counterexamples as Feedback for Agent Self-Correction",
+      "url": "https://arxiv.org/abs/2609.02892",
+      "description": "arXiv:2609.02892v1 Announce Type: new \nAbstract: Single-turn code-generation metrics understate a central property of deployed agents: whether they can repair a wrong artifact after receiving concrete feedback. This paper presents A-CEGIS, a lightweight framework that uses counterexamples as feedback for evaluating multi-turn refinement in natural-language-to-regex synthesis. An agent proposes a regex, a deterministic oracle checks it under full-match semantics, and compact false-positive or false-negative witnesses guide the next turn. On 30 NL-RX-Turk tasks, diagnostic counterexample feedback solves 90\\% of tasks within a four-turn ablation budget, compared with 17% for zero-shot generation, 27% for generic self-correction, and 23% for error-only feedback. In a full diagnostic run with hardening, all tasks are solved on the hidden set by the final turn, with mean time-to-success of 2.7 turns and robust success of 77% after targeted probing. These results show that A-CEGIS measures how efficiently an agent improves across turns while adding a practical robustness check beyond the original held-out cases.",
+      "pub_date": "Fri, 04 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "反例作为智能体自我修正的反馈",
+        "summary": "本文提出A-CEGIS框架，利用反例作为反馈评估智能体在多轮自然语言到正则表达式合成中的修正能力。通过确定性预言机提供紧凑的误报/漏报示例，在30个任务中，四轮内解决90%任务，远超零样本生成（17%）和通用自我修正（27%）。完整诊断运行中，所有隐藏任务在最终轮被解决，平均2.7轮成功，鲁棒性达77%。该框架衡量智能体跨轮改进效率，并提供超出原始测试集的鲁棒性检查。",
+        "summary_en": "This paper presents A-CEGIS, a lightweight framework using counterexamples as feedback for evaluating multi-turn refinement in natural-language-to-regex synthesis. It solves 90% of tasks within four turns, outperforming baselines, and all hidden tasks by the final turn with robust success of 77%.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "evaluation",
+          "tool"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-04-rss-008",
+        "title": "反例作为智能体自我修正的反馈",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.02892",
+        "language": "en",
+        "summary": "本文提出A-CEGIS框架，利用反例作为反馈评估智能体在多轮自然语言到正则表达式合成中的修正能力。通过确定性预言机提供紧凑的误报/漏报示例，在30个任务中，四轮内解决90%任务，远超零样本生成（17%）和通用自我修正（27%）。完整诊断运行中，所有隐藏任务在最终轮被解决，平均2.7轮成功，鲁棒性达77%。该框架衡量智能体跨轮改进效率，并提供超出原始测试集的鲁棒性检查。",
+        "summary_en": "This paper presents A-CEGIS, a lightweight framework using counterexamples as feedback for evaluating multi-turn refinement in natural-language-to-regex synthesis. It solves 90% of tasks within four turns, outperforming baselines, and all hidden tasks by the final turn with robust success of 77%.",
+        "tags": [
+          "agent-framework",
+          "llm",
+          "research",
+          "evaluation",
+          "tool"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-09-04T20:29:12.493507+08:00",
+        "updated_at": "2026-09-04T20:29:12.493508+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "Probe Generalization as Subspace Selection for OOD Deception Detection",
+      "url": "https://arxiv.org/abs/2609.02893",
+      "description": "arXiv:2609.02893v1 Announce Type: new \nAbstract: Linear probes can be used to detect behaviors and concepts inside language model activations, but may fail to transfer to out-of-distribution examples. When studying the generalization performance of Llama-3.1-8B-Instruct probes over 3 held-out deception detection datasets, we find that projecting inputs onto a small subset of principal components (PCs) from the training distribution of activations enables cross-domain transfer that nearly matches the performance of probes trained directly on the test distribution. Furthermore, we find that PC interpretations can be used to find a subset of those transferable PCs. By using an LLM judge to score each PC on whether its most/ least activating examples imply a transferable deception direction, then probing on the highest-scoring PCs, we close the baseline-to-oracle gap by 78% on Insider Trading Report and by 25% on Sandbagging. The directions a source probe weights heavily appear to encode source-specific surface features, while the directions that actually transfer appear to encode the same contrast more abstractly, in a way natural language descriptions can capture. Broadly, our results suggest that the OOD robustness of probes is largely determined by subspace selection.",
+      "pub_date": "Fri, 04 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "探针泛化作为子空间选择：用于OOD欺骗检测",
+        "summary": "研究发现，线性探针在分布外（OOD）欺骗检测中泛化失败，但将输入投影到训练激活的主成分（PC）子集上可实现跨域迁移，接近直接训练的性能。利用LLM对PC评分选择可迁移方向，可显著缩小基线到最优的差距，表明OOD鲁棒性主要由子空间选择决定。",
+        "summary_en": "Linear probes fail to generalize OOD in deception detection, but projecting onto a subset of principal components from training activations enables cross-domain transfer nearly matching oracle performance. LLM-scored PC selection closes 78%/25% of the gap, suggesting OOD robustness is largely determined by subspace selection.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-04-rss-009",
+        "title": "探针泛化作为子空间选择：用于OOD欺骗检测",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.02893",
+        "language": "en",
+        "summary": "研究发现，线性探针在分布外（OOD）欺骗检测中泛化失败，但将输入投影到训练激活的主成分（PC）子集上可实现跨域迁移，接近直接训练的性能。利用LLM对PC评分选择可迁移方向，可显著缩小基线到最优的差距，表明OOD鲁棒性主要由子空间选择决定。",
+        "summary_en": "Linear probes fail to generalize OOD in deception detection, but projecting onto a subset of principal components from training activations enables cross-domain transfer nearly matching oracle performance. LLM-scored PC selection closes 78%/25% of the gap, suggesting OOD robustness is largely determined by subspace selection.",
+        "tags": [
+          "llm",
+          "research",
+          "benchmark",
+          "evaluation"
+        ],
+        "category": "research",
+        "relevance_score": 0.9,
+        "status": "published",
+        "created_at": "2026-09-04T20:29:12.493512+08:00",
+        "updated_at": "2026-09-04T20:29:12.493513+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    },
+    {
+      "title": "R$^{2}$Adapter: A Routing and Rewriting Adapter for Efficient Hybrid RAG",
+      "url": "https://arxiv.org/abs/2609.02894",
+      "description": "arXiv:2609.02894v1 Announce Type: new \nAbstract: Retrieval-Augmented Generation (RAG) has become a prevailing paradigm for enhancing Large Language Models (LLMs) with non-parametric knowledge. Vanilla RAG efficiently handles simple queries but struggles with relational or multi-hop reasoning. Graph-based RAG alleviates this issue but incurs higher inference complexity and latency. In practice, user queries can differ significantly in their complexity, rendering a fixed RAG strategy suboptimal. However, existing hybrid text-graph RAG methods typically rely on heuristic and LLM-based routing, resulting in unnecessary overhead and strong dependence on the underlying LLM. To address these challenges, we propose R$^{2}$Adapter, a lightweight plug-in Routing and Rewriting Adapter designed to allocate queries between vanilla and graph-based RAG dynamically. By routing only the queries that genuinely benefit from graph-based reasoning, R$^{2}$Adapter reduces unnecessary graph retrieval overhead. Additionally, uncertain graph-routed queries are rewritten to better expose their multi-hop reasoning requirements, improving retrieval quality without additional supervision. Extensive experiments on three multi-hop QA benchmarks demonstrate that R$^{2}$Adapter reduces graph-based RAG usage by up to 59% while maintaining comparable answer accuracy. This adapter is model-agnostic and can be seamlessly integrated into diverse vanilla and graph-based RAG pipelines, providing an efficient and adaptive solution for hybrid RAG systems.",
+      "pub_date": "Fri, 04 Sep 2026 00:00:00 -0400",
+      "source_feed": "arxiv_cs_cl",
+      "_source": "rss",
+      "_analysis": {
+        "title": "R²Adapter：面向高效混合RAG的路由与重写适配器",
+        "summary": "R²Adapter是一种轻量级插件式适配器，用于在传统RAG与基于图的RAG之间动态分配查询。它仅路由真正需要图推理的查询，减少图检索开销，并重写不确定的图路由查询以提升检索质量。在三个多跳QA基准上，图RAG使用率降低59%，同时保持准确率，且模型无关，易于集成。",
+        "summary_en": "R²Adapter is a lightweight plug-in adapter that dynamically allocates queries between vanilla and graph-based RAG. It routes only queries benefiting from graph reasoning, reducing overhead, and rewrites uncertain graph-routed queries to improve retrieval. On three multi-hop QA benchmarks, it cuts graph RAG usage by up to 59% while maintaining accuracy, and is model-agnostic.",
+        "tags": [
+          "rag",
+          "research",
+          "llm",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "language": "en"
+      },
+      "_article": {
+        "id": "2026-09-04-rss-004",
+        "title": "R²Adapter：面向高效混合RAG的路由与重写适配器",
+        "source": "rss_trending",
+        "source_url": "https://arxiv.org/abs/2609.02894",
+        "language": "en",
+        "summary": "R²Adapter是一种轻量级插件式适配器，用于在传统RAG与基于图的RAG之间动态分配查询。它仅路由真正需要图推理的查询，减少图检索开销，并重写不确定的图路由查询以提升检索质量。在三个多跳QA基准上，图RAG使用率降低59%，同时保持准确率，且模型无关，易于集成。",
+        "summary_en": "R²Adapter is a lightweight plug-in adapter that dynamically allocates queries between vanilla and graph-based RAG. It routes only queries benefiting from graph reasoning, reducing overhead, and rewrites uncertain graph-routed queries to improve retrieval. On three multi-hop QA benchmarks, it cuts graph RAG usage by up to 59% while maintaining accuracy, and is model-agnostic.",
+        "tags": [
+          "rag",
+          "research",
+          "llm",
+          "application"
+        ],
+        "category": "research",
+        "relevance_score": 1.0,
+        "status": "published",
+        "created_at": "2026-09-04T20:29:12.493496+08:00",
+        "updated_at": "2026-09-04T20:29:12.493497+08:00",
+        "metadata": {
+          "stars": null,
+          "hn_points": null,
+          "original_language": "en"
+        }
+      }
+    }
+  ]
+}

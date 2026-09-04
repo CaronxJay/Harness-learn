@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-04-rss-005",
+  "title": "有界人格匹配检索：在分类任务上表现相当，但在回归任务上不如检索（针对冻结代理）",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.02890",
+  "language": "en",
+  "summary": "本文提出PersonaLink，一种无需训练的方法，将用户历史蒸馏为有界的三字段人格，并通过递归自我评估和重写进行优化。在LaMP-2新闻分类任务上，其准确率与BM25检索相当，但在回归任务上表现不佳，揭示了任务类型的不对称性。",
+  "summary_en": "Introduces PersonaLink, a training-free method that distills user history into a bounded persona with recursive refinement. On LaMP-2 classification, it matches BM25 retrieval accuracy, but not on regression, revealing task-type asymmetry.",
+  "tags": [
+    "llm",
+    "research",
+    "application",
+    "agent-framework",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-09-04T20:29:12.493499+08:00",
+  "updated_at": "2026-09-04T20:29:12.493500+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

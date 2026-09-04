@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-04-rss-001",
+  "title": "投机宏提交：加速工具使用型智能体",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.03236",
+  "language": "en",
+  "summary": "提出投机宏提交（SMC）机制，用于双层智能体系统：大型权威模型生成官方轨迹，快速投机模型在隔离环境中预执行动作链。通过挖掘训练轨迹中的多动作骨架存入宏库，运行时匹配并提交预执行步骤。在多个基准上显著降低延迟，同时保持准确率。",
+  "summary_en": "Introduces Speculative Macro Commit (SMC), a runtime mechanism for two-tier agent systems where a fast drafter pre-executes action chains on isolated snapshots. Mining macro skeletons from traces, SMC commits pre-executed steps when matched, reducing latency by up to 44.9% over sequential execution while maintaining accuracy.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "research",
+    "infrastructure"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-09-04T20:29:12.493487+08:00",
+  "updated_at": "2026-09-04T20:29:12.493489+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

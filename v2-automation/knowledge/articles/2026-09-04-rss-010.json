@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-04-rss-010",
+  "title": "人工智能驱动的新型实用英语教材的结构与实现",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.02981",
+  "language": "en",
+  "summary": "本文提出一种由人工智能驱动的实用英语教材五层架构，包括知识图谱、学习者画像、任务生成、反馈编排和教师端治理。在186名非英语专业本科生中进行了八周教学实验，相比静态数字教材，单元完成准确率从72.4%提升至84.9%，口语任务平均分提高10.8分，教师批改时间减少31.6%。该系统在保持课程稳定性的同时提供个性化学习路径和可追踪的课堂数据。",
+  "summary_en": null,
+  "tags": [
+    "llm",
+    "application",
+    "research",
+    "fine-tuning"
+  ],
+  "category": "application",
+  "relevance_score": 0.8,
+  "status": "published",
+  "created_at": "2026-09-04T20:29:12.493514+08:00",
+  "updated_at": "2026-09-04T20:29:12.493515+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

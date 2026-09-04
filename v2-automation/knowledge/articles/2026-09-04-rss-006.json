@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-04-rss-006",
+  "title": "受治理的企业分析：策略执行胜过运行时规划",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.03209",
+  "language": "en",
+  "summary": "研究一种受治理的企业分析方法：语言模型解释问题，确定性策略选择并运行预批准的分析程序，返回结果和证据。在440次运行中，策略执行的分析器全部匹配答案与证据契约，而运行时规划代理无一成功。",
+  "summary_en": "A governed approach to enterprise analytics: LLM interprets intent, deterministic policy executes pre-approved programs. Policy-executed analyzer matched 110/110 answer-and-evidence contracts, while runtime-planning agents failed all 330 episodes.",
+  "tags": [
+    "llm",
+    "application",
+    "research",
+    "agent-framework"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-09-04T20:29:12.493502+08:00",
+  "updated_at": "2026-09-04T20:29:12.493503+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

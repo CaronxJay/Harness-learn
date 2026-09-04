@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-04-rss-002",
+  "title": "PlanFence：面向分布式LLM智能体记忆的依赖范围验证协议",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.03340",
+  "language": "en",
+  "summary": "PlanFence 解决分布式LLM智能体团队中的“过期计划执行”问题：即使状态新鲜，计划也可能失效。该协议要求计划引用所用公共记录，执行器仅验证影响待执行外部操作的记录，必要时重新规划或阻塞。实验显示，在30个受控工作流中，PlanFence 避免了所有无效操作，而仅检查新鲜度的执行器全部失败。",
+  "summary_en": "PlanFence addresses stale-plan execution in distributed LLM-agent teams, where fresh state doesn't guarantee plan validity. It validates only dependency-scoped records before actions, replanning or blocking as needed. In 30 controlled workflows, PlanFence avoided all invalid actions, unlike freshness-only executors which failed every task.",
+  "tags": [
+    "llm",
+    "agent-framework",
+    "research",
+    "infrastructure"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-09-04T20:29:12.493491+08:00",
+  "updated_at": "2026-09-04T20:29:12.493492+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

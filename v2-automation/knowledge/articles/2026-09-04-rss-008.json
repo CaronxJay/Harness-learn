@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-04-rss-008",
+  "title": "反例作为智能体自我修正的反馈",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.02892",
+  "language": "en",
+  "summary": "本文提出A-CEGIS框架，利用反例作为反馈评估智能体在多轮自然语言到正则表达式合成中的修正能力。通过确定性预言机提供紧凑的误报/漏报示例，在30个任务中，四轮内解决90%任务，远超零样本生成（17%）和通用自我修正（27%）。完整诊断运行中，所有隐藏任务在最终轮被解决，平均2.7轮成功，鲁棒性达77%。该框架衡量智能体跨轮改进效率，并提供超出原始测试集的鲁棒性检查。",
+  "summary_en": "This paper presents A-CEGIS, a lightweight framework using counterexamples as feedback for evaluating multi-turn refinement in natural-language-to-regex synthesis. It solves 90% of tasks within four turns, outperforming baselines, and all hidden tasks by the final turn with robust success of 77%.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "research",
+    "evaluation",
+    "tool"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-09-04T20:29:12.493507+08:00",
+  "updated_at": "2026-09-04T20:29:12.493508+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
