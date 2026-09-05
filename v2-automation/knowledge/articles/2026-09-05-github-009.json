@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-05-github-009",
+  "title": "数据科学与机器学习笔记本项目",
+  "source": "github_trending",
+  "source_url": "https://github.com/ahmadsanafarooq/Data-Science-Machine-Learning-Nodebook",
+  "language": "en",
+  "summary": "该项目包含数据科学、机器学习、深度学习及大语言模型（LLMs）的实战项目，涵盖生成式AI和AI代理，展示构建能思考、规划与行动的智能系统的经验。",
+  "summary_en": null,
+  "tags": [
+    "python",
+    "machine-learning",
+    "deep-learning",
+    "llm",
+    "agent-framework"
+  ],
+  "category": "application",
+  "relevance_score": 0.8,
+  "status": "published",
+  "created_at": "2026-09-05T19:37:22.760028+08:00",
+  "updated_at": "2026-09-05T19:37:22.760030+08:00",
+  "metadata": {
+    "stars": 3,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
