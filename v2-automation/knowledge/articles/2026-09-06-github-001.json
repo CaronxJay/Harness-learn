@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-06-github-001",
+  "title": "智能体AI学习路线图",
+  "source": "github_trending",
+  "source_url": "https://github.com/romanyn36/agentic-ai-roadmap",
+  "language": "en",
+  "summary": "一个全面的AI学习路线图，涵盖Python基础、数学、机器学习、深度学习、LLM及智能体系统，注重动手项目、实用工具和实际部署。",
+  "summary_en": "A comprehensive AI learning roadmap covering Python fundamentals, mathematics, machine learning, deep learning, LLMs, and agentic systems, focusing on hands-on projects, practical tools, and real-world deployment.",
+  "tags": [
+    "llm",
+    "agent-framework",
+    "deep-learning",
+    "roadmap",
+    "python"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-09-06T19:56:46.392466+08:00",
+  "updated_at": "2026-09-06T19:56:46.392471+08:00",
+  "metadata": {
+    "stars": 134,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
