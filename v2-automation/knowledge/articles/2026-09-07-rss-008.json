@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-07-rss-008",
+  "title": "数据优化的应急筛选：机器学习方法在电力系统安全中的应用",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.04300",
+  "language": "en",
+  "summary": "该研究利用机器学习算法对电力系统应急事件的安全等级进行分类（安全、中等、严重）。使用牛顿-拉夫逊潮流法提取数据，结合SMOTE和PCA进行预处理，训练KNN、随机森林和支持向量机模型，在IEEE-14和IEEE-30总线系统上评估。随机森林表现最佳，F1分数最高达0.97。",
+  "summary_en": "This study applies machine learning to classify power system contingency security levels. Using Newton-Raphson load flow, SMOTE and PCA preprocessing, KNN, RF, and SVM are evaluated on IEEE bus systems. Random Forest achieves the best F1 scores up to 0.97.",
+  "tags": [
+    "research",
+    "application",
+    "machine-learning",
+    "classification"
+  ],
+  "category": "research",
+  "relevance_score": 0.6,
+  "status": "published",
+  "created_at": "2026-09-07T21:58:00.410098+08:00",
+  "updated_at": "2026-09-07T21:58:00.410099+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

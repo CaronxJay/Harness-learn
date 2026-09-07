@@ -1,0 +1,24 @@
+{
+  "id": "2026-09-07-rss-010",
+  "title": "LETHE：一种自指涉的GAN启发式音频处理架构",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.04289",
+  "language": "en",
+  "summary": "LETHE是一种在SuperCollider中实现的自指涉音频系统，采用GAN形式但无外部数据。通过3x3混合矩阵和延迟线，利用判别器与随机优化器交互演化参数，实现自适应闭环声音生成。实验表明主动生成器对参数演化至关重要。",
+  "summary_en": "LETHE is a self-referential audio system in SuperCollider adopting GAN-like closed-loop without external data. A 3x3 mixing matrix with delay lines evolves via discriminator and random optimizer, enabling adaptive sonic outcomes. Active generator is essential for parameter evolution.",
+  "tags": [
+    "research",
+    "application",
+    "multimodal"
+  ],
+  "category": "research",
+  "relevance_score": 0.6,
+  "status": "published",
+  "created_at": "2026-09-07T21:58:00.410110+08:00",
+  "updated_at": "2026-09-07T21:58:00.410111+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

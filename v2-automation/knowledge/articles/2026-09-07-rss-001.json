@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-07-rss-001",
+  "title": "Harbor Adapters与Harbor-Index：大规模智能体评估的基础设施与精选元数据集",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.04298",
+  "language": "en",
+  "summary": "本文提出Harbor Adapters统一评估基础设施，将80多个基准适配为任意智能体可评估，并验证其可靠性。通过大规模评估8个模型、54个基准，引入Harbor-Index精选82个高质量任务，保持挑战性且成本可控，最强配置通过率仅28%。开源适配器、结果与分析，促进更可靠的智能体评估。",
+  "summary_en": "Introduces Harbor Adapters, a unified infrastructure porting 80+ benchmarks for agent evaluation, and Harbor-Index, a curated set of 82 tasks from 29 benchmarks. Large-scale evaluation of 8 models shows no config exceeds 30% pass rate. Open-source artifacts support reliable agentic evaluation.",
+  "tags": [
+    "benchmark",
+    "agent-framework",
+    "infrastructure",
+    "evaluation",
+    "open-source"
+  ],
+  "category": "benchmark",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-09-07T21:58:00.410061+08:00",
+  "updated_at": "2026-09-07T21:58:00.410065+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-07-rss-002",
+  "title": "Iris：攀登搜索前沿——大规模搜索智能体的训练与评估",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.04304",
+  "language": "en",
+  "summary": "本文介绍两种搜索智能体Iris-mini和Iris-pro，分别基于35B-A3B和397B-A17B规模训练。通过从网页超链接结构反向构建多跳任务，结合SFT与RL交替训练（SFT-RL climbing），在BrowseComp等基准上取得开源搜索智能体最优成绩。",
+  "summary_en": "This paper presents Iris-mini and Iris-pro, two search agents trained at 35B-A3B and 397B-A17B scales, using a data pipeline that reverse-constructs multi-hop tasks from web hyperlinks and an SFT-RL climbing procedure. They achieve state-of-the-art results among open-source search agents on benchmarks like BrowseComp.",
+  "tags": [
+    "agent-framework",
+    "llm",
+    "research",
+    "benchmark",
+    "open-source"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-09-07T21:58:00.410070+08:00",
+  "updated_at": "2026-09-07T21:58:00.410072+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

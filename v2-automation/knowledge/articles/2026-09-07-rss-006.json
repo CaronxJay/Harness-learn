@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-07-rss-006",
+  "title": "从匹配模型到招聘代理：AI招聘系统、评估与治理的系统化综述",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.04286",
+  "language": "en",
+  "summary": "本文系统综述了AI招聘从双边匹配到多阶段工作流（含LLM组件和工具使用代理）的演变，分析了三个转变：从相似性到互适性、从模型到复合工作流、从离线预测到证据与生产力对齐的评估。指出了行为标签混淆、数据局限、隐私未评估等缺口，并提出分阶段映射和可审计系统议程。",
+  "summary_en": "A systematized review tracing AI recruitment from matching models to tool-using agents, analyzing shifts toward reciprocal suitability, compound workflows, and evidence-based evaluation, identifying gaps in privacy and joint utility-fairness-privacy-security assessment, and proposing an agenda for auditable systems.",
+  "tags": [
+    "llm",
+    "research",
+    "application",
+    "evaluation",
+    "agent-framework"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-09-07T21:58:00.410089+08:00",
+  "updated_at": "2026-09-07T21:58:00.410090+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

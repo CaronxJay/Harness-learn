@@ -1,0 +1,24 @@
+{
+  "id": "2026-09-07-rss-007",
+  "title": "从低谷中适应：心理健康危机咨询师长期对话技能发展的预测",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.04350",
+  "language": "en",
+  "summary": "本文提出一项新任务：在咨询师职业生涯早期预测其能否在未来改善对话引导能力。核心洞察是，咨询师在特定对话时刻的挣扎及后续适应方式最能预示其长期进步。作者设计方法识别初期困难时刻、捕捉后续适应，并学习早期适应对长期改善的预测力，效果优于直接学习对话文本的基线。",
+  "summary_en": "This paper introduces the task of predicting whether counselors will improve their conversation-steering skills, based on early career data. The key insight is that how counselors adapt to initially difficult conversational moments predicts long-term improvement. Their adaptation-based method outperforms baselines that learn directly from transcripts.",
+  "tags": [
+    "research",
+    "llm",
+    "application"
+  ],
+  "category": "research",
+  "relevance_score": 0.8,
+  "status": "published",
+  "created_at": "2026-09-07T21:58:00.410093+08:00",
+  "updated_at": "2026-09-07T21:58:00.410094+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

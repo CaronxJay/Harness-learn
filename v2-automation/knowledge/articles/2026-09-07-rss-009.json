@@ -1,0 +1,24 @@
+{
+  "id": "2026-09-07-rss-009",
+  "title": "语料库选择对依存距离估计的影响有多大？",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.04223",
+  "language": "en",
+  "summary": "该研究比较了38对同语言树库的依存距离估计，发现跨树库一致性中等，替换树库会逆转近40%的语言排序，树库选择解释了约29%的组间方差。所有树库均证实依存长度最小化，但跨语言排序不稳定，表明MDD是语料库条件性的复合指标，而非稳定的语言参数。",
+  "summary_en": null,
+  "tags": [
+    "research",
+    "llm",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.6,
+  "status": "published",
+  "created_at": "2026-09-07T21:58:00.410106+08:00",
+  "updated_at": "2026-09-07T21:58:00.410107+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

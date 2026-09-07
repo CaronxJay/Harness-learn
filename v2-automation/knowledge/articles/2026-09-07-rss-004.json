@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-07-rss-004",
+  "title": "MedProb：用于医学问答的视觉语言模型内部表示探测",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.04336",
+  "language": "en",
+  "summary": "MedProb 是一个轻量级探测框架，从冻结的视觉语言模型表示中预测医学多项选择问答答案，无需微调或生成。在多个基准上优于提示和医学VLM，并揭示小模型包含更多可恢复信号，且医学适应不总改善线性可解码性。",
+  "summary_en": "MedProb is a lightweight probing framework that predicts medical multiple-choice VQA answers from frozen VLM representations without fine-tuning or generation. It outperforms prompting and medical VLMs on benchmarks, revealing that smaller models contain more recoverable signal and medical adaptation doesn't consistently improve linear decodability.",
+  "tags": [
+    "research",
+    "multimodal",
+    "llm",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.95,
+  "status": "published",
+  "created_at": "2026-09-07T21:58:00.410080+08:00",
+  "updated_at": "2026-09-07T21:58:00.410082+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

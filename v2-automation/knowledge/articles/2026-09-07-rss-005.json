@@ -1,0 +1,26 @@
+{
+  "id": "2026-09-07-rss-005",
+  "title": "EXAONE金融预测模型",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.04239",
+  "language": "en",
+  "summary": "EXAONE Finance是面向金融时间序列预测的基础模型，采用无注意力架构，用因果一维卷积和分组池化MLP替代自注意力，实现线性时间计算。通过掩码上下文增强处理缺失数据，在涵盖多资产类别的FinVerse基准上取得最优性能。",
+  "summary_en": "EXAONE Finance is a financial time-series foundation model with an attention-free architecture using causal 1D convolution and group-aware pooling MLP for linear-time computation. Masked context augmentation handles missing data. It achieves state-of-the-art on FinVerse benchmark across multiple asset classes.",
+  "tags": [
+    "llm",
+    "research",
+    "application",
+    "infrastructure",
+    "benchmark"
+  ],
+  "category": "research",
+  "relevance_score": 0.9,
+  "status": "published",
+  "created_at": "2026-09-07T21:58:00.410084+08:00",
+  "updated_at": "2026-09-07T21:58:00.410086+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}

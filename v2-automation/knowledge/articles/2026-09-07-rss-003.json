@@ -1,0 +1,25 @@
+{
+  "id": "2026-09-07-rss-003",
+  "title": "大型语言模型中的证据整合",
+  "source": "rss_trending",
+  "source_url": "https://arxiv.org/abs/2609.04290",
+  "language": "en",
+  "summary": "本文提出一种分布理论，解释LLM如何整合外部证据。预测：高概率候选更有说服力；模型更易整合自身典型错误；相同证据可提升弱模型但损害强模型。通过千万次试验、12个LLM和8个领域验证。证据整合是接收者特定的控制策略，在网络后期实现，与验证状态可分离。",
+  "summary_en": "This paper presents a distributional theory of how LLMs integrate external evidence, predicting that more probable candidates are more persuasive, models integrate their own characteristic errors more readily, and identical evidence can improve weaker models while harming stronger ones. Validated over ten million trials, twelve LLMs, and eight domains, evidence integration is a receiver-specific control policy implemented late in the network, dissociable from verification.",
+  "tags": [
+    "llm",
+    "research",
+    "rag",
+    "evaluation"
+  ],
+  "category": "research",
+  "relevance_score": 1.0,
+  "status": "published",
+  "created_at": "2026-09-07T21:58:00.410075+08:00",
+  "updated_at": "2026-09-07T21:58:00.410077+08:00",
+  "metadata": {
+    "stars": null,
+    "hn_points": null,
+    "original_language": "en"
+  }
+}
